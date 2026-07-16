@@ -1,0 +1,47 @@
+[project]
+name = "platzi-store-api-tests"
+version = "0.1.0"
+description = "API tests for platzi-store"
+readme = "README.md"
+requires-python = "==3.13.0"
+dependencies = [
+    "httpx==0.28.1",
+    "pydantic[email]==2.13.4",
+    "pydantic-settings==2.14.2",
+    "pytest==9.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.0",
+    "ruff==0.15.21",
+]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["src", "tests", "settings.py", "main.py"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "ASYNC",
+    "B",
+    "C4",
+    "E",
+    "F",
+    "I",
+    "N",
+    "PT",
+    "RET",
+    "RUF",
+    "SIM",
+    "UP",
+]
+
+[tool.ruff.format]
+quote-style = "double"
