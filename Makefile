@@ -12,7 +12,7 @@ type-check:
 	uv run mypy
 
 test:
-	uv run pytest -s -v -n auto
+	uv run pytest -v -n auto --alluredir=allure-results --clean-alluredir
 
 format:
 	uv run ruff format .

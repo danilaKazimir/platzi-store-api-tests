@@ -1,5 +1,6 @@
 from http import HTTPStatus
 
+import allure
 import pytest
 
 from src.clients.users_client import UsersClient
@@ -8,19 +9,26 @@ from src.utils.assertions.users_assertions import assert_user_not_found
 
 
 @pytest.mark.anyio
+@allure.feature("Users")
+@allure.story("Delete User")
 class TestDeleteUsers:
     NOT_FOUND_USER_ID = 0
 
+    @allure.title("Check an existing user deletion")
     async def test_delete_user(
         self, user: UserResponseDto, users_client: UsersClient
     ) -> None:
-        response = await users_client.delete_user(user.id)
-        assert response.status_code == HTTPStatus.OK
-        assert response.json() is True
+        with allure.step("Send DELETE /users to delete user"):
+            response = await users_client.delete_user(user.id)
+            assert response.status_code == HTTPStatus.OK
+            assert response.json() is True
 
-        get_response = await users_client.get_single_user(user.id)
-        assert_user_not_found(get_response)
+        with allure.step("Check that user is deleted via GET /users"):
+            get_response = await users_client.get_single_user(user.id)
+            assert_user_not_found(get_response)
 
+    @allure.title("Check a non-existing user deletion")
     async def test_delete_non_existent_user(self, users_client: UsersClient) -> None:
-        response = await users_client.delete_user(self.NOT_FOUND_USER_ID)
-        assert_user_not_found(response)
+        with allure.step("Send DELETE /users for non-existing user"):
+            response = await users_client.delete_user(self.NOT_FOUND_USER_ID)
+            assert_user_not_found(response)

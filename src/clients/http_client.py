@@ -3,6 +3,7 @@ from typing import Any
 from httpx import AsyncClient, Response
 
 from settings import settings
+from src.utils.http_hooks import log_request, log_response
 
 
 class HttpClient:
@@ -11,6 +12,10 @@ class HttpClient:
         self._client = AsyncClient(
             base_url=settings.BASE_URL,
             timeout=settings.TIMEOUT,
+            event_hooks={
+                "request": [log_request],
+                "response": [log_response],
+            },
         )
 
     async def __aenter__(self) -> "HttpClient":
