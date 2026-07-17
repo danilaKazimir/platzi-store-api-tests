@@ -44,3 +44,9 @@ class HttpClient:
         **kwargs: Any,
     ) -> Response:
         return await self._request("POST", path, json=json, **kwargs)
+
+    async def put(self, path: str, *, json: dict[str, Any], **kwargs: Any) -> Response:
+        return await self._request("PUT", path, json=json, **kwargs)
+
+    async def delete(self, path: str, **kwargs: Any) -> Response:
+        return await self._request("DELETE", path, **kwargs)
