@@ -16,4 +16,4 @@ RUN uv sync --frozen --no-dev --no-install-project
 
 COPY . .
 
-CMD [".venv/bin/pytest", "-q"]
+CMD [".venv/bin/pytest", "-q", "-n", "auto"]

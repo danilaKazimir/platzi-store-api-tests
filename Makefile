@@ -12,7 +12,7 @@ type-check:
 	uv run mypy
 
 test:
-	uv run pytest
+	uv run pytest -s -v -n auto
 
 format:
 	uv run ruff format .
