@@ -3,10 +3,9 @@ name: Tests and Allure Pages
 on:
   workflow_dispatch:
 
-  # schedule:
-  #   # Every day at 10:15 in Samara.
-  #   - cron: "15 10 * * *"
-  #     timezone: "Europe/Samara"
+  schedule:
+    # Every day at 10:15 in Samara (06:15 UTC).
+    - cron: "15 6 * * *"
 
 concurrency:
   group: allure-pages

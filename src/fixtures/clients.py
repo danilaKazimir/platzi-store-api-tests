@@ -3,6 +3,7 @@ from collections.abc import AsyncIterator
 import allure
 import pytest
 
+from src.clients.auth_client import AuthClient
 from src.clients.categories_client import CategoriesClient
 from src.clients.http_client import HttpClient
 from src.clients.users_client import UsersClient
@@ -25,3 +26,9 @@ def users_client(http_client: HttpClient) -> UsersClient:
 @allure.title("Initializing categories client")
 def categories_client(http_client: HttpClient) -> CategoriesClient:
     return CategoriesClient(http_client)
+
+
+@pytest.fixture
+@allure.title("Initializing auth client")
+def auth_client(http_client: HttpClient) -> AuthClient:
+    return AuthClient(http_client)
