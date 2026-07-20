@@ -1,0 +1,157 @@
+name: Tests and Allure Pages
+
+on:
+  workflow_dispatch:
+
+  # schedule:
+  #   # Every day at 10:15 in Samara.
+  #   - cron: "15 10 * * *"
+  #     timezone: "Europe/Samara"
+
+concurrency:
+  group: allure-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  ALLURE_VERSION: "2.42.0"
+  REPORTS_TO_KEEP: "30"
+
+jobs:
+  test-and-publish:
+    name: Run tests and publish Allure report
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990 # v8.3.2
+        with:
+          enable-cache: true
+
+      - name: Install Python
+        run: uv python install 3.13.0
+
+      - name: Install project dependencies
+        run: uv sync --locked
+
+      - name: Run tests
+        id: tests
+        continue-on-error: true
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
+          TIMEOUT: ${{ vars.TIMEOUT }}
+        run: make test
+
+      - name: Install Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Allure CLI
+        shell: bash
+        run: |
+          curl -fsSL \
+            -o "${RUNNER_TEMP}/allure.tgz" \
+            "https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz"
+
+          tar -xzf "${RUNNER_TEMP}/allure.tgz" -C "${RUNNER_TEMP}"
+          echo "${RUNNER_TEMP}/allure-${ALLURE_VERSION}/bin" >> "${GITHUB_PATH}"
+
+      - name: Prepare gh-pages worktree
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            git worktree add --detach pages refs/remotes/origin/gh-pages
+          else
+            git worktree add --detach pages HEAD
+            git -C pages rm -rf -- .
+          fi
+
+      - name: Restore Allure history
+        shell: bash
+        run: |
+          mkdir -p allure-results
+
+          if [[ -d pages/latest/history ]]; then
+            rm -rf -- allure-results/history
+            mkdir -p allure-results/history
+            cp -a pages/latest/history/. allure-results/history/
+          fi
+
+      - name: Generate Allure report
+        run: allure generate allure-results --clean -o allure-report
+
+      - name: Add report to gh-pages
+        shell: bash
+        run: |
+          report_directory="pages/runs/${GITHUB_RUN_NUMBER}"
+
+          rm -rf -- "${report_directory}" pages/latest
+          mkdir -p "${report_directory}" pages/latest
+
+          cp -a allure-report/. "${report_directory}/"
+          cp -a allure-report/. pages/latest/
+
+          touch pages/.nojekyll
+          printf '%s\n' \
+            '<!doctype html>' \
+            '<html lang="en">' \
+            '  <head>' \
+            '    <meta charset="utf-8">' \
+            '    <meta http-equiv="refresh" content="0; url=latest/">' \
+            '    <title>Allure Report</title>' \
+            '  </head>' \
+            '  <body>' \
+            '    <a href="latest/">Open the latest Allure report</a>' \
+            '  </body>' \
+            '</html>' \
+            > pages/index.html
+
+      - name: Remove old reports
+        shell: bash
+        run: |
+          mapfile -t stale_reports < <(
+            find pages/runs \
+              -mindepth 1 \
+              -maxdepth 1 \
+              -type d \
+              -printf '%f\n' |
+              awk '/^[0-9]+$/' |
+              sort -nr |
+              tail -n "+$((REPORTS_TO_KEEP + 1))"
+          )
+
+          for run_number in "${stale_reports[@]}"; do
+            rm -rf -- "pages/runs/${run_number}"
+          done
+
+      - name: Publish gh-pages snapshot
+        shell: bash
+        run: |
+          git -C pages add -A
+
+          tree_sha="$(git -C pages write-tree)"
+          commit_sha="$(
+            git -C pages commit-tree \
+              -m "Publish Allure report ${GITHUB_RUN_NUMBER}" \
+              "${tree_sha}"
+          )"
+
+          git -C pages push --force origin \
+            "${commit_sha}:refs/heads/gh-pages"
+
+      - name: Fail workflow when tests failed
+        if: always() && steps.tests.outcome != 'success'
+        run: exit 1
