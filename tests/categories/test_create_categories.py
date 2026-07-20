@@ -9,6 +9,7 @@ from src.models.categories import CategoryResponseDto, CreateCategoryRequestDto
 
 
 @pytest.mark.anyio
+@allure.tag("api", "categories")
 @allure.parent_suite("API Tests")
 @allure.suite("Categories")
 @allure.sub_suite("Create Categories")

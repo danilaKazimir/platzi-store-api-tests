@@ -12,6 +12,7 @@ from src.utils.assertions import assert_entity_not_found, assert_not_null_constr
 
 
 @pytest.mark.anyio
+@allure.tag("api", "categories")
 @allure.parent_suite("API Tests")
 @allure.suite("Categories")
 @allure.sub_suite("Update Categories")
