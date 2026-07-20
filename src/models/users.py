@@ -1,5 +1,6 @@
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, HttpUrl, RootModel
 
+from src.models.base_response import BaseResponseDto
 from src.utils.fake_data import fake
 
 
@@ -12,14 +13,14 @@ class BaseUserRequestDto(BaseModel):
 
 class CreateUserRequestDto(BaseUserRequestDto):
     password: str | None = Field(default_factory=fake.generate_password)
-    avatar: str | None = Field(default_factory=fake.generate_avatar_url)
+    avatar: str | None = Field(default_factory=fake.generate_url)
 
 
 class UpdateUserRequestDto(BaseUserRequestDto):
     pass
 
 
-class UserResponseDto(BaseModel):
+class UserResponseDto(BaseResponseDto):
     model_config = ConfigDict(strict=True)
 
     id: int
@@ -28,8 +29,6 @@ class UserResponseDto(BaseModel):
     name: str
     role: str
     avatar: HttpUrl | str
-    creation_at: str = Field(alias="creationAt")
-    updated_at: str = Field(alias="updatedAt")
 
 
 class UsersResponseDto(RootModel[list[UserResponseDto]]):

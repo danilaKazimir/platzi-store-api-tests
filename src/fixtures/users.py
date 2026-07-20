@@ -1,6 +1,7 @@
 from collections.abc import AsyncIterator
 from http import HTTPStatus
 
+import allure
 import pytest
 
 from src.clients.users_client import UsersClient
@@ -8,6 +9,7 @@ from src.models.users import CreateUserRequestDto, UserResponseDto
 
 
 @pytest.fixture
+@allure.title("Create a new user for tests")
 async def user(
     users_client: UsersClient,
 ) -> AsyncIterator[UserResponseDto]:

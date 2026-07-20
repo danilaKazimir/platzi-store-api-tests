@@ -5,7 +5,7 @@ from httpx import Response
 NOT_FOUND_ERROR = "EntityNotFoundError"
 
 
-def assert_user_not_found(response: Response) -> None:
+def assert_entity_not_found(response: Response) -> None:
     assert response.status_code == HTTPStatus.BAD_REQUEST
 
     body = response.json()

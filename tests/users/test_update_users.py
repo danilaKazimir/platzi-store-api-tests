@@ -5,7 +5,7 @@ import pytest
 
 from src.clients.users_client import UsersClient
 from src.models.users import UpdateUserRequestDto, UserResponseDto
-from src.utils.assertions.users_assertions import assert_user_not_found
+from src.utils.assertions import assert_entity_not_found
 
 
 @pytest.mark.anyio
@@ -73,4 +73,4 @@ class TestUpdateUsers:
             response = await users_client.update_user(
                 self.NOT_FOUND_USER_ID, UpdateUserRequestDto()
             )
-            assert_user_not_found(response)
+            assert_entity_not_found(response)

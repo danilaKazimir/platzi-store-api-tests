@@ -5,12 +5,12 @@ import pytest
 
 from src.clients.users_client import UsersClient
 from src.models.users import UserResponseDto, UsersResponseDto
-from src.utils.assertions.users_assertions import assert_user_not_found
+from src.utils.assertions import assert_entity_not_found
 
 
 @pytest.mark.anyio
 @allure.feature("Users")
-@allure.story("Get User")
+@allure.story("Get Users")
 class TestGetUsers:
     NOT_FOUND_USER_ID = 0
 
@@ -44,4 +44,4 @@ class TestGetUsers:
             f"Send GET /users/{self.NOT_FOUND_USER_ID} for a non-existing user"
         ):
             response = await users_client.get_single_user(self.NOT_FOUND_USER_ID)
-            assert_user_not_found(response)
+            assert_entity_not_found(response)

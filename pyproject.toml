@@ -28,7 +28,7 @@ files = ["src", "tests", "settings.py", "main.py"]
 untyped_calls_exclude = ["allure_commons"]
 
 [[tool.mypy.overrides]]
-module = ["tests.*"]
+module = ["src.fixtures.*", "tests.*"]
 disable_error_code = ["untyped-decorator"]
 
 [tool.ruff]

@@ -3,10 +3,15 @@ import os
 from datetime import datetime
 from pathlib import Path
 
+import allure
 import pytest
 from xdist import is_xdist_controller  # type: ignore[import-untyped]
 
-pytest_plugins = ["src.fixtures.clients", "src.fixtures.users"]
+pytest_plugins = [
+    "src.fixtures.clients",
+    "src.fixtures.users",
+    "src.fixtures.categories",
+]
 
 
 def pytest_configure() -> None:
@@ -16,6 +21,7 @@ def pytest_configure() -> None:
 
 
 @pytest.fixture
+@allure.title("Set asyncio tests run mode")
 def anyio_backend() -> str:
     return "asyncio"
 
