@@ -4,7 +4,7 @@ import allure
 import pytest
 
 from src.clients.categories_client import CategoriesClient
-from src.models.categories import CategoryResponseDto, CreateCategoryDto
+from src.models.categories import CategoryResponseDto, CreateCategoryRequestDto
 
 
 @pytest.fixture
@@ -12,7 +12,7 @@ from src.models.categories import CategoryResponseDto, CreateCategoryDto
 async def category(
     categories_client: CategoriesClient,
 ) -> CategoryResponseDto:
-    request = CreateCategoryDto()
+    request = CreateCategoryRequestDto()
     response = await categories_client.create_category(request)
 
     assert response.status_code == HTTPStatus.CREATED

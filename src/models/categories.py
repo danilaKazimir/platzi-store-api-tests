@@ -9,11 +9,11 @@ class BaseCategoryRequestDto(BaseModel):
     image: str | HttpUrl | None = Field(default_factory=fake.generate_url)
 
 
-class CreateCategoryDto(BaseCategoryRequestDto):
+class CreateCategoryRequestDto(BaseCategoryRequestDto):
     pass
 
 
-class UpdateCategoryDto(BaseCategoryRequestDto):
+class UpdateCategoryRequestDto(BaseCategoryRequestDto):
     pass
 
 
