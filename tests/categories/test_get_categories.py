@@ -9,6 +9,9 @@ from src.utils.assertions import assert_entity_not_found
 
 
 @pytest.mark.anyio
+@allure.parent_suite("API Tests")
+@allure.suite("Categories")
+@allure.sub_suite("Get Categories")
 @allure.feature("Categories")
 @allure.story("Get Categories")
 class TestGetCategories:

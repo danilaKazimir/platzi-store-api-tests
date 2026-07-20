@@ -8,6 +8,9 @@ from src.models.users import CreateUserRequestDto, UserResponseDto
 
 
 @pytest.mark.anyio
+@allure.parent_suite("API Tests")
+@allure.suite("Users")
+@allure.sub_suite("Create Users")
 @allure.feature("Users")
 @allure.story("Create User")
 class TestCreateUsers:
