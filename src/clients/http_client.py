@@ -30,16 +30,21 @@ class HttpClient:
         path: str,
         *,
         json: dict[str, Any] | None = None,
+        headers: dict[str, str] | None = None,
         **kwargs: Any,
     ) -> Response:
-        return await self._client.request(method, path, json=json, **kwargs)
+        return await self._client.request(
+            method, path, json=json, headers=headers, **kwargs
+        )
 
     async def get(
         self,
         path: str,
+        *,
+        headers: dict[str, str] | None = None,
         **kwargs: Any,
     ) -> Response:
-        return await self._request("GET", path, **kwargs)
+        return await self._request("GET", path, headers=headers, **kwargs)
 
     async def post(
         self,

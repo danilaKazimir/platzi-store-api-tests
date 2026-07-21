@@ -5,8 +5,9 @@ import allure
 import pytest
 
 from src.clients.auth_client import AuthClient
-from src.models.auth import LoginRequestDto, LoginResponseDto, UnauthorizedError
+from src.models.auth import LoginRequestDto, TokensResponseDto
 from src.models.users import UserResponseDto
+from src.utils.assertions import assert_unauthorized_error
 
 
 @pytest.mark.anyio
@@ -17,9 +18,6 @@ from src.models.users import UserResponseDto
 @allure.feature("Auth")
 @allure.story("User Login")
 class TestUserLogin:
-    _ERROR_MESSAGE = "Unauthorized"
-    _ERROR_STATUS_CODE = 401
-
     @allure.title("Check login as user")
     async def test_user_login(
         self, user: UserResponseDto, auth_client: AuthClient
@@ -30,7 +28,7 @@ class TestUserLogin:
 
         with allure.step("Check login response"):
             assert response.status_code == HTTPStatus.CREATED
-            LoginResponseDto.model_validate_json(response.content)
+            TokensResponseDto.model_validate_json(response.content)
 
     @allure.title("Check invalid user login: {param_id}")
     @pytest.mark.parametrize(
@@ -66,7 +64,4 @@ class TestUserLogin:
             response = await auth_client.login(request)
 
         with allure.step("Check login response"):
-            assert response.status_code == HTTPStatus.UNAUTHORIZED
-            response_model = UnauthorizedError.model_validate_json(response.content)
-            assert response_model.message == self._ERROR_MESSAGE
-            assert response_model.status_code == self._ERROR_STATUS_CODE
+            assert_unauthorized_error(response)
