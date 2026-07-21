@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Every day at 10:15 in Samara (06:15 UTC).
-    - cron: "15 6 * * *"
+    - cron: "*/5 * * * *"
 
 concurrency:
   group: allure-pages
