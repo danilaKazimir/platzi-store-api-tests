@@ -3,7 +3,7 @@ name: Tests and Allure Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 0 * * *"
 
 concurrency:
   group: allure-pages
