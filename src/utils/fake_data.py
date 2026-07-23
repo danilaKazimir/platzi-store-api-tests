@@ -38,5 +38,18 @@ class FakeData:
     def generate_url(self) -> str:
         return self._faker.url()
 
+    def generate_product_title(self) -> str:
+        product = self._faker.catch_phrase()
+        return f"{product}-{uuid4().hex}"
+
+    def generate_product_price(self) -> int:
+        return int(self._faker.random_number(3, False))
+
+    def generate_product_description(self) -> str:
+        return self._faker.sentence()
+
+    def generate_product_images(self) -> list[str]:
+        return [self._faker.url()]
+
 
 fake = FakeData()

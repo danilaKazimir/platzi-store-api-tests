@@ -34,17 +34,17 @@ class TestUpdateCategories:
     )
     async def test_categories_update(
         self,
-        category: CategoryResponseDto,
+        category_fx: CategoryResponseDto,
         categories_client: CategoriesClient,
         request_dto: UpdateCategoryRequestDto,
     ) -> None:
         if request_dto.name and request_dto.image:
             with allure.step(
-                f"Send PUT /categories/{category.id} "
+                f"Send PUT /categories/{category_fx.id} "
                 f"with category {request_dto.name}, {request_dto.image}"
             ):
                 response = await categories_client.update_category(
-                    category.id, request_dto
+                    category_fx.id, request_dto
                 )
                 assert response.status_code == HTTPStatus.OK
 
@@ -55,14 +55,16 @@ class TestUpdateCategories:
                 if request_dto.name:
                     assert response_model.name == request_dto.name
                 else:
-                    assert response_model.name == category.name
+                    assert response_model.name == category_fx.name
                 if request_dto.image:
                     assert response_model.image == request_dto.image
                 else:
-                    assert response_model.image == category.image
+                    assert response_model.image == category_fx.image
 
             with allure.step("Check category was updated successfully"):
-                get_response = await categories_client.get_category_by_id(category.id)
+                get_response = await categories_client.get_category_by_id(
+                    category_fx.id
+                )
                 assert get_response.status_code == HTTPStatus.OK
                 get_response_model = CategoryResponseDto.model_validate_json(
                     get_response.content
@@ -70,18 +72,18 @@ class TestUpdateCategories:
                 if request_dto.name:
                     assert get_response_model.name == request_dto.name
                 else:
-                    assert get_response_model.name == category.name
+                    assert get_response_model.name == category_fx.name
                 if request_dto.image:
                     assert get_response_model.image == request_dto.image
                 else:
-                    assert get_response_model.image == category.image
+                    assert get_response_model.image == category_fx.image
         else:
             with allure.step(
-                f"Send PUT /categories/{category.id} "
+                f"Send PUT /categories/{category_fx.id} "
                 f"with category {request_dto.name}, {request_dto.image}"
             ):
                 response = await categories_client.update_category(
-                    category.id, request_dto
+                    category_fx.id, request_dto
                 )
                 assert_not_null_constraint(response)
 

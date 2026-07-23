@@ -32,17 +32,17 @@ class TestGetCategories:
 
     @allure.title("Check get category by ID")
     async def test_get_single_category(
-        self, category: CategoryResponseDto, categories_client: CategoriesClient
+        self, category_fx: CategoryResponseDto, categories_client: CategoriesClient
     ) -> None:
-        with allure.step(f"Send GET /category{category.id} to get category "):
-            response = await categories_client.get_category_by_id(category.id)
+        with allure.step(f"Send GET /category{category_fx.id} to get category "):
+            response = await categories_client.get_category_by_id(category_fx.id)
             assert response.status_code == HTTPStatus.OK
 
         with allure.step("Check GET /categories response"):
             received_category = CategoryResponseDto.model_validate_json(
                 response.content
             )
-            assert received_category == category
+            assert received_category == category_fx
 
     @allure.title("Check get a non-existing category")
     async def test_get_non_existent_user(

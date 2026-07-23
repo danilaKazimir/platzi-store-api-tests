@@ -6,6 +6,7 @@ import pytest
 from src.clients.auth_client import AuthClient
 from src.clients.categories_client import CategoriesClient
 from src.clients.http_client import HttpClient
+from src.clients.products_client import ProductsClient
 from src.clients.users_client import UsersClient
 
 
@@ -32,3 +33,9 @@ def categories_client(http_client: HttpClient) -> CategoriesClient:
 @allure.title("Initializing auth client")
 def auth_client(http_client: HttpClient) -> AuthClient:
     return AuthClient(http_client)
+
+
+@pytest.fixture
+@allure.title("Initializing products client")
+def products_client(http_client: HttpClient) -> ProductsClient:
+    return ProductsClient(http_client)

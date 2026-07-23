@@ -9,7 +9,7 @@ from src.models.categories import CategoryResponseDto, CreateCategoryRequestDto
 
 @pytest.fixture
 @allure.title("Create a new category for tests")
-async def category(
+async def category_fx(
     categories_client: CategoriesClient,
 ) -> CategoryResponseDto:
     request = CreateCategoryRequestDto()

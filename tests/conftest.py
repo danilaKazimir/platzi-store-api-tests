@@ -11,6 +11,7 @@ pytest_plugins = [
     "src.fixtures.clients",
     "src.fixtures.users",
     "src.fixtures.categories",
+    "src.fixtures.products",
 ]
 
 
