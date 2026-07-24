@@ -1,0 +1,31 @@
+2026-07-21 17:38:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_d3a85e3526514b2694ae940a02a8dcb1",
+  "image": "http://www.hays.com/"
+} 
+
+2026-07-21 17:38:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 112,
+  "name": "Books_d3a85e3526514b2694ae940a02a8dcb1",
+  "slug": "books-d3a85e3526514b2694ae940a02a8dcb1",
+  "image": "http://www.hays.com/",
+  "creationAt": "2026-07-21T17:38:19.000Z",
+  "updatedAt": "2026-07-21T17:38:19.000Z"
+}
+2026-07-21 17:38:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/112
+Body:
+<empty> 
+
+2026-07-21 17:38:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/112 -> 200
+Body:
+{
+  "id": 112,
+  "name": "Books_d3a85e3526514b2694ae940a02a8dcb1",
+  "slug": "books-d3a85e3526514b2694ae940a02a8dcb1",
+  "image": "http://www.hays.com/",
+  "creationAt": "2026-07-21T17:38:19.000Z",
+  "updatedAt": "2026-07-21T17:38:19.000Z"
+}

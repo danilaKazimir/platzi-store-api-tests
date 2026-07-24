@@ -1,0 +1,33 @@
+2026-07-21 17:38:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_b5a38dd96d7a45a68b8875c4c1e17740",
+  "image": "http://www.gray.biz/"
+} 
+
+2026-07-21 17:38:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 114,
+  "name": "Electronics_b5a38dd96d7a45a68b8875c4c1e17740",
+  "slug": "electronics-b5a38dd96d7a45a68b8875c4c1e17740",
+  "image": "http://www.gray.biz/",
+  "creationAt": "2026-07-21T17:38:20.000Z",
+  "updatedAt": "2026-07-21T17:38:20.000Z"
+}
+2026-07-21 17:38:20 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/114
+Body:
+{
+  "name": "Personal Care_534fdf01c7ae4c81975890c460f81126",
+  "image": null
+} 
+
+2026-07-21 17:38:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/114 -> 400
+Body:
+{
+  "path": "/api/v1/categories/114",
+  "timestamp": "2026-07-21T17:38:20.999Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

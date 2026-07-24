@@ -1,0 +1,49 @@
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7575365e41644d7ca0cffab3b4c1ec99",
+  "image": "https://coleman.net/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Books_7575365e41644d7ca0cffab3b4c1ec99",
+  "slug": "books-7575365e41644d7ca0cffab3b4c1ec99",
+  "image": "https://coleman.net/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/35
+Body:
+{
+  "name": "Food & Beverages_96919316f3314a69bad87924441947a3",
+  "image": "https://weaver-garcia.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Food & Beverages_96919316f3314a69bad87924441947a3",
+  "slug": "food-beverages-96919316f3314a69bad87924441947a3",
+  "image": "https://weaver-garcia.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Food & Beverages_96919316f3314a69bad87924441947a3",
+  "slug": "food-beverages-96919316f3314a69bad87924441947a3",
+  "image": "https://weaver-garcia.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}

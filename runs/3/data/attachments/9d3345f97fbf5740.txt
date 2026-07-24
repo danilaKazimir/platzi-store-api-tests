@@ -1,0 +1,81 @@
+2026-07-21 14:22:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Candace Higgins",
+  "email": "vgomez@example.net",
+  "password": "***",
+  "avatar": "http://www.orozco.com/"
+} 
+
+2026-07-21 14:22:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 402,
+  "email": "vgomez@example.net",
+  "password": "***",
+  "name": "Candace Higgins",
+  "role": "customer",
+  "avatar": "http://www.orozco.com/",
+  "creationAt": "2026-07-21T14:22:21.000Z",
+  "updatedAt": "2026-07-21T14:22:21.000Z"
+}
+2026-07-21 14:22:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/402
+Body:
+{
+  "name": "Earl King",
+  "email": "mendozaveronica@example.net"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/402 -> 200
+Body:
+{
+  "id": 402,
+  "email": "mendozaveronica@example.net",
+  "password": "***",
+  "name": "Earl King",
+  "role": "customer",
+  "avatar": "http://www.orozco.com/",
+  "creationAt": "2026-07-21T14:22:21.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/402
+Body:
+<empty> 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/402 -> 200
+Body:
+{
+  "id": 402,
+  "email": "mendozaveronica@example.net",
+  "password": "***",
+  "name": "Earl King",
+  "role": "customer",
+  "avatar": "http://www.orozco.com/",
+  "creationAt": "2026-07-21T14:22:21.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+}
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/402
+Body:
+<empty> 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/402 -> 200
+Body:
+{
+  "id": 402,
+  "email": "mendozaveronica@example.net",
+  "password": "***",
+  "name": "Earl King",
+  "role": "customer",
+  "avatar": "http://www.orozco.com/",
+  "creationAt": "2026-07-21T14:22:21.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/402
+Body:
+<empty> 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/402 -> 200
+Body:
+true

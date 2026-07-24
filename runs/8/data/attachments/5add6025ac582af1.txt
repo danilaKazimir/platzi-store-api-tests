@@ -1,0 +1,15 @@
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Electronics_4bd993d637b5452b9b125e980c3a2c7b",
+  "image": "http://allison.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-07-21T21:36:01.342Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

@@ -1,0 +1,49 @@
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_d9189502b0ab40b7aa532bea9702e771",
+  "image": "https://wilson-holmes.com/"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 66,
+  "name": "Sports & Fitness_d9189502b0ab40b7aa532bea9702e771",
+  "slug": "sports-fitness-d9189502b0ab40b7aa532bea9702e771",
+  "image": "https://wilson-holmes.com/",
+  "creationAt": "2026-07-22T02:53:25.000Z",
+  "updatedAt": "2026-07-22T02:53:25.000Z"
+}
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/66
+Body:
+{
+  "name": "Toys_bb3d51321516464ca69202c32d7e63a4",
+  "image": "http://www.ruiz.org/"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Toys_bb3d51321516464ca69202c32d7e63a4",
+  "slug": "toys-bb3d51321516464ca69202c32d7e63a4",
+  "image": "http://www.ruiz.org/",
+  "creationAt": "2026-07-22T02:53:25.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Toys_bb3d51321516464ca69202c32d7e63a4",
+  "slug": "toys-bb3d51321516464ca69202c32d7e63a4",
+  "image": "http://www.ruiz.org/",
+  "creationAt": "2026-07-22T02:53:25.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}

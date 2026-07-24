@@ -1,0 +1,31 @@
+2026-07-21 15:59:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_dac13a36b25a4133bb3d55e1d0c55915",
+  "image": "https://www.wilson.net/"
+} 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 106,
+  "name": "Personal Care_dac13a36b25a4133bb3d55e1d0c55915",
+  "slug": "personal-care-dac13a36b25a4133bb3d55e1d0c55915",
+  "image": "https://www.wilson.net/",
+  "creationAt": "2026-07-21T15:59:02.000Z",
+  "updatedAt": "2026-07-21T15:59:02.000Z"
+}
+2026-07-21 15:59:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/106
+Body:
+<empty> 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/106 -> 200
+Body:
+{
+  "id": 106,
+  "name": "Personal Care_dac13a36b25a4133bb3d55e1d0c55915",
+  "slug": "personal-care-dac13a36b25a4133bb3d55e1d0c55915",
+  "image": "https://www.wilson.net/",
+  "creationAt": "2026-07-21T15:59:02.000Z",
+  "updatedAt": "2026-07-21T15:59:02.000Z"
+}

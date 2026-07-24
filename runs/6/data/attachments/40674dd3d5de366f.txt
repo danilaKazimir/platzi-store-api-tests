@@ -1,0 +1,31 @@
+2026-07-21 18:53:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_4395d872f1ea427ca7e3e9471f2a72da",
+  "image": "https://www.hicks.com/"
+} 
+
+2026-07-21 18:53:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 122,
+  "name": "Pet Supplies_4395d872f1ea427ca7e3e9471f2a72da",
+  "slug": "pet-supplies-4395d872f1ea427ca7e3e9471f2a72da",
+  "image": "https://www.hicks.com/",
+  "creationAt": "2026-07-21T18:53:47.000Z",
+  "updatedAt": "2026-07-21T18:53:47.000Z"
+}
+2026-07-21 18:53:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/122
+Body:
+<empty> 
+
+2026-07-21 18:53:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/122 -> 200
+Body:
+{
+  "id": 122,
+  "name": "Pet Supplies_4395d872f1ea427ca7e3e9471f2a72da",
+  "slug": "pet-supplies-4395d872f1ea427ca7e3e9471f2a72da",
+  "image": "https://www.hicks.com/",
+  "creationAt": "2026-07-21T18:53:47.000Z",
+  "updatedAt": "2026-07-21T18:53:47.000Z"
+}

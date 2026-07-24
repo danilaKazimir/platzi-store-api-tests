@@ -1,0 +1,33 @@
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_059e3fa650ed45d7b1a21d1de916e786",
+  "image": "https://maynard.com/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 132,
+  "name": "Electronics_059e3fa650ed45d7b1a21d1de916e786",
+  "slug": "electronics-059e3fa650ed45d7b1a21d1de916e786",
+  "image": "https://maynard.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/132
+Body:
+{
+  "name": null,
+  "image": "https://www.white-lucas.com/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/132 -> 400
+Body:
+{
+  "path": "/api/v1/categories/132",
+  "timestamp": "2026-07-23T03:14:59.839Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

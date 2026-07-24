@@ -1,0 +1,31 @@
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_0469b615a8b340cab714634b4c4e8679",
+  "image": "http://delacruz.org/"
+} 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Electronics_0469b615a8b340cab714634b4c4e8679",
+  "slug": "electronics-0469b615a8b340cab714634b4c4e8679",
+  "image": "http://delacruz.org/",
+  "creationAt": "2026-07-21T20:16:57.000Z",
+  "updatedAt": "2026-07-21T20:16:57.000Z"
+}
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Electronics_0469b615a8b340cab714634b4c4e8679",
+  "slug": "electronics-0469b615a8b340cab714634b4c4e8679",
+  "image": "http://delacruz.org/",
+  "creationAt": "2026-07-21T20:16:57.000Z",
+  "updatedAt": "2026-07-21T20:16:57.000Z"
+}

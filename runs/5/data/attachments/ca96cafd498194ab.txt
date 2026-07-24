@@ -1,0 +1,81 @@
+2026-07-21 17:38:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Katrina Diaz",
+  "email": "psanders@example.com",
+  "password": "***",
+  "avatar": "https://www.allen.com/"
+} 
+
+2026-07-21 17:38:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 429,
+  "email": "psanders@example.com",
+  "password": "***",
+  "name": "Katrina Diaz",
+  "role": "customer",
+  "avatar": "https://www.allen.com/",
+  "creationAt": "2026-07-21T17:38:21.000Z",
+  "updatedAt": "2026-07-21T17:38:21.000Z"
+}
+2026-07-21 17:38:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/429
+Body:
+{
+  "name": "Laura Hubbard",
+  "email": "sarah62@example.org"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/429 -> 200
+Body:
+{
+  "id": 429,
+  "email": "sarah62@example.org",
+  "password": "***",
+  "name": "Laura Hubbard",
+  "role": "customer",
+  "avatar": "https://www.allen.com/",
+  "creationAt": "2026-07-21T17:38:21.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/429
+Body:
+<empty> 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/429 -> 200
+Body:
+{
+  "id": 429,
+  "email": "sarah62@example.org",
+  "password": "***",
+  "name": "Laura Hubbard",
+  "role": "customer",
+  "avatar": "https://www.allen.com/",
+  "creationAt": "2026-07-21T17:38:21.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+}
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/429
+Body:
+<empty> 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/429 -> 200
+Body:
+{
+  "id": 429,
+  "email": "sarah62@example.org",
+  "password": "***",
+  "name": "Laura Hubbard",
+  "role": "customer",
+  "avatar": "https://www.allen.com/",
+  "creationAt": "2026-07-21T17:38:21.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/429
+Body:
+<empty> 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/429 -> 200
+Body:
+true

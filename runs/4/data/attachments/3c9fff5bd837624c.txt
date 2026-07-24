@@ -1,0 +1,49 @@
+2026-07-21 15:59:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_b097836ad7034a49aac84c8cf7e85541",
+  "image": "http://robinson-martin.com/"
+} 
+
+2026-07-21 15:59:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 104,
+  "name": "Food & Beverages_b097836ad7034a49aac84c8cf7e85541",
+  "slug": "food-beverages-b097836ad7034a49aac84c8cf7e85541",
+  "image": "http://robinson-martin.com/",
+  "creationAt": "2026-07-21T15:59:01.000Z",
+  "updatedAt": "2026-07-21T15:59:01.000Z"
+}
+2026-07-21 15:59:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/104
+Body:
+{
+  "name": "Pet Supplies_023c5df59de342bba710c3cc007c21f5",
+  "image": "https://estrada.org/"
+} 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Pet Supplies_023c5df59de342bba710c3cc007c21f5",
+  "slug": "pet-supplies-023c5df59de342bba710c3cc007c21f5",
+  "image": "https://estrada.org/",
+  "creationAt": "2026-07-21T15:59:01.000Z",
+  "updatedAt": "2026-07-21T15:59:02.000Z"
+} 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Pet Supplies_023c5df59de342bba710c3cc007c21f5",
+  "slug": "pet-supplies-023c5df59de342bba710c3cc007c21f5",
+  "image": "https://estrada.org/",
+  "creationAt": "2026-07-21T15:59:01.000Z",
+  "updatedAt": "2026-07-21T15:59:02.000Z"
+}

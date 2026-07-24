@@ -1,0 +1,33 @@
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_8ecd708dae1f4713a0efe779592d563f",
+  "image": "https://www.phillips-ford.com/"
+} 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Books_8ecd708dae1f4713a0efe779592d563f",
+  "slug": "books-8ecd708dae1f4713a0efe779592d563f",
+  "image": "https://www.phillips-ford.com/",
+  "creationAt": "2026-07-21T20:16:57.000Z",
+  "updatedAt": "2026-07-21T20:16:57.000Z"
+}
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/10
+Body:
+{
+  "name": null,
+  "image": "https://myers.com/"
+} 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/10 -> 400
+Body:
+{
+  "path": "/api/v1/categories/10",
+  "timestamp": "2026-07-21T20:16:57.771Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

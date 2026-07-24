@@ -1,0 +1,88 @@
+2026-07-22 02:53:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kelsey Lawrence",
+  "email": "davisjeffrey@example.net",
+  "password": "***",
+  "avatar": "http://webb.net/"
+} 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 84,
+  "email": "davisjeffrey@example.net",
+  "password": "***",
+  "name": "Kelsey Lawrence",
+  "role": "customer",
+  "avatar": "http://webb.net/",
+  "creationAt": "2026-07-22T02:53:24.000Z",
+  "updatedAt": "2026-07-22T02:53:24.000Z"
+}
+2026-07-22 02:53:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "davisjeffrey@example.net",
+  "password": "***"
+} 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjg0LCJpYXQiOjE3ODQ2ODg4MDQsImV4cCI6MTc4NDcyNDgwNH0.jW9ZP5UfncISNuGQsqTb30n-d2wvHBsT8y3ko1n7zsg"
+} 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 84,
+  "email": "davisjeffrey@example.net",
+  "password": "***",
+  "name": "Kelsey Lawrence",
+  "role": "customer",
+  "avatar": "http://webb.net/",
+  "creationAt": "2026-07-22T02:53:24.000Z",
+  "updatedAt": "2026-07-22T02:53:24.000Z"
+}
+2026-07-22 02:53:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/84
+Body:
+<empty> 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/84 -> 200
+Body:
+{
+  "id": 84,
+  "email": "davisjeffrey@example.net",
+  "password": "***",
+  "name": "Kelsey Lawrence",
+  "role": "customer",
+  "avatar": "http://webb.net/",
+  "creationAt": "2026-07-22T02:53:24.000Z",
+  "updatedAt": "2026-07-22T02:53:24.000Z"
+} 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/84
+Body:
+<empty> 
+
+2026-07-22 02:53:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/84 -> 200
+Body:
+true

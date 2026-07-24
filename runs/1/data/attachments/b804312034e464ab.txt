@@ -1,0 +1,15 @@
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Pet Supplies_860d167bd46647a58e2f62b0b55be55e",
+  "image": "http://powell-weaver.com/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-07-21T10:32:37.779Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

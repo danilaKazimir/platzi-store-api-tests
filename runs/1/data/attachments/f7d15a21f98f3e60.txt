@@ -1,0 +1,49 @@
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_0e106c31b95d414e819af3cb765f612c",
+  "image": "https://turner.info/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Toys_0e106c31b95d414e819af3cb765f612c",
+  "slug": "toys-0e106c31b95d414e819af3cb765f612c",
+  "image": "https://turner.info/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+}
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/15
+Body:
+{
+  "name": "Electronics_8df10830bd0b49608a32ac3f73eefd19",
+  "image": "https://www.moore-myers.com/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Electronics_8df10830bd0b49608a32ac3f73eefd19",
+  "slug": "electronics-8df10830bd0b49608a32ac3f73eefd19",
+  "image": "https://www.moore-myers.com/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Electronics_8df10830bd0b49608a32ac3f73eefd19",
+  "slug": "electronics-8df10830bd0b49608a32ac3f73eefd19",
+  "image": "https://www.moore-myers.com/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+}

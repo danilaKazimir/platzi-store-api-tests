@@ -1,0 +1,88 @@
+2026-07-24 02:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Heather Adams",
+  "email": "imcfarland@example.org",
+  "password": "***",
+  "avatar": "http://rodriguez.com/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 31,
+  "email": "imcfarland@example.org",
+  "password": "***",
+  "name": "Heather Adams",
+  "role": "customer",
+  "avatar": "http://rodriguez.com/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "imcfarland@example.org",
+  "password": "***"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMxLCJpYXQiOjE3ODQ4NjE2MzIsImV4cCI6MTc4NDg5NzYzMn0.Lgu6862amMiVyDzyWX03Wj4m9B_q7UluIFkUJUWUO_I"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 31,
+  "email": "imcfarland@example.org",
+  "password": "***",
+  "name": "Heather Adams",
+  "role": "customer",
+  "avatar": "http://rodriguez.com/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/31
+Body:
+<empty> 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/31 -> 200
+Body:
+{
+  "id": 31,
+  "email": "imcfarland@example.org",
+  "password": "***",
+  "name": "Heather Adams",
+  "role": "customer",
+  "avatar": "http://rodriguez.com/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/31
+Body:
+<empty> 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/31 -> 200
+Body:
+true

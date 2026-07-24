@@ -1,0 +1,80 @@
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Brianna Miller",
+  "email": "john68@example.com",
+  "password": "***",
+  "avatar": "http://www.robertson.com/"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 43,
+  "email": "john68@example.com",
+  "password": "***",
+  "name": "Brianna Miller",
+  "role": "customer",
+  "avatar": "http://www.robertson.com/",
+  "creationAt": "2026-07-21T21:36:02.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+}
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/43
+Body:
+{
+  "email": "timothy50@example.net"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/43 -> 200
+Body:
+{
+  "id": 43,
+  "email": "timothy50@example.net",
+  "password": "***",
+  "name": "Brianna Miller",
+  "role": "customer",
+  "avatar": "http://www.robertson.com/",
+  "creationAt": "2026-07-21T21:36:02.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/43
+Body:
+<empty> 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/43 -> 200
+Body:
+{
+  "id": 43,
+  "email": "timothy50@example.net",
+  "password": "***",
+  "name": "Brianna Miller",
+  "role": "customer",
+  "avatar": "http://www.robertson.com/",
+  "creationAt": "2026-07-21T21:36:02.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+}
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/43
+Body:
+<empty> 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/43 -> 200
+Body:
+{
+  "id": 43,
+  "email": "timothy50@example.net",
+  "password": "***",
+  "name": "Brianna Miller",
+  "role": "customer",
+  "avatar": "http://www.robertson.com/",
+  "creationAt": "2026-07-21T21:36:02.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/43
+Body:
+<empty> 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/43 -> 200
+Body:
+true

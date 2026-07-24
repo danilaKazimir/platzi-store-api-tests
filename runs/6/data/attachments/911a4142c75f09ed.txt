@@ -1,0 +1,81 @@
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Scott Ruiz",
+  "email": "uwood@example.net",
+  "password": "***",
+  "avatar": "http://www.marsh.com/"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 445,
+  "email": "uwood@example.net",
+  "password": "***",
+  "name": "Scott Ruiz",
+  "role": "customer",
+  "avatar": "http://www.marsh.com/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+}
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/445
+Body:
+{
+  "name": "Miss Carol Ramirez",
+  "email": "perryjessica@example.com"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/445 -> 200
+Body:
+{
+  "id": 445,
+  "email": "perryjessica@example.com",
+  "password": "***",
+  "name": "Miss Carol Ramirez",
+  "role": "customer",
+  "avatar": "http://www.marsh.com/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/445
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/445 -> 200
+Body:
+{
+  "id": 445,
+  "email": "perryjessica@example.com",
+  "password": "***",
+  "name": "Miss Carol Ramirez",
+  "role": "customer",
+  "avatar": "http://www.marsh.com/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+}
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/445
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/445 -> 200
+Body:
+{
+  "id": 445,
+  "email": "perryjessica@example.com",
+  "password": "***",
+  "name": "Miss Carol Ramirez",
+  "role": "customer",
+  "avatar": "http://www.marsh.com/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/445
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/445 -> 200
+Body:
+true

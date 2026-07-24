@@ -1,0 +1,49 @@
+2026-07-23 03:14:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_8f423240d7034b2abe4d867869646ad3",
+  "image": "http://www.benson.org/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 128,
+  "name": "Toys_8f423240d7034b2abe4d867869646ad3",
+  "slug": "toys-8f423240d7034b2abe4d867869646ad3",
+  "image": "http://www.benson.org/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/128
+Body:
+{
+  "name": "Home & Kitchen_25a4c18e0dbb456a8959a5f0934f3336",
+  "image": "https://george.com/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/128 -> 200
+Body:
+{
+  "id": 128,
+  "name": "Home & Kitchen_25a4c18e0dbb456a8959a5f0934f3336",
+  "slug": "home-kitchen-25a4c18e0dbb456a8959a5f0934f3336",
+  "image": "https://george.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/128
+Body:
+<empty> 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/128 -> 200
+Body:
+{
+  "id": 128,
+  "name": "Home & Kitchen_25a4c18e0dbb456a8959a5f0934f3336",
+  "slug": "home-kitchen-25a4c18e0dbb456a8959a5f0934f3336",
+  "image": "https://george.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}

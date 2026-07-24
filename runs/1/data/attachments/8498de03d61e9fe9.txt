@@ -1,0 +1,33 @@
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_4babeac57da84f33b5787c4d79c6972f",
+  "image": "https://morales.net/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Electronics_4babeac57da84f33b5787c4d79c6972f",
+  "slug": "electronics-4babeac57da84f33b5787c4d79c6972f",
+  "image": "https://morales.net/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+}
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/17
+Body:
+{
+  "name": "Personal Care_2929a27674c84200a5c8c94fe2fa6f90",
+  "image": null
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/17 -> 400
+Body:
+{
+  "path": "/api/v1/categories/17",
+  "timestamp": "2026-07-21T10:32:38.268Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

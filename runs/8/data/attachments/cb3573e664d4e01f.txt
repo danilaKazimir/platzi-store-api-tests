@@ -1,0 +1,33 @@
+2026-07-21 21:36:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_1ddae6f091fe4343a54699fa2a8d1dd1",
+  "image": "https://fisher.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Electronics_1ddae6f091fe4343a54699fa2a8d1dd1",
+  "slug": "electronics-1ddae6f091fe4343a54699fa2a8d1dd1",
+  "image": "https://fisher.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/34
+Body:
+{
+  "name": null,
+  "image": "https://gardner.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/34 -> 400
+Body:
+{
+  "path": "/api/v1/categories/34",
+  "timestamp": "2026-07-21T21:36:01.166Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

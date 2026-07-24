@@ -1,0 +1,49 @@
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_080c7f74a23d49f7a94d1abdcf7463e9",
+  "image": "https://rivas.com/"
+} 
+
+2026-07-21 20:16:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 13,
+  "name": "Pet Supplies_080c7f74a23d49f7a94d1abdcf7463e9",
+  "slug": "pet-supplies-080c7f74a23d49f7a94d1abdcf7463e9",
+  "image": "https://rivas.com/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:58.000Z"
+}
+2026-07-21 20:16:58 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/13
+Body:
+{
+  "name": "Books_2663f29fc44b4c5d8013bfd1ee75dcff",
+  "image": "http://gonzalez.com/"
+} 
+
+2026-07-21 20:16:58 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/13 -> 200
+Body:
+{
+  "id": 13,
+  "name": "Books_2663f29fc44b4c5d8013bfd1ee75dcff",
+  "slug": "books-2663f29fc44b4c5d8013bfd1ee75dcff",
+  "image": "http://gonzalez.com/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:58.000Z"
+} 
+
+2026-07-21 20:16:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/13
+Body:
+<empty> 
+
+2026-07-21 20:16:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/13 -> 200
+Body:
+{
+  "id": 13,
+  "name": "Books_2663f29fc44b4c5d8013bfd1ee75dcff",
+  "slug": "books-2663f29fc44b4c5d8013bfd1ee75dcff",
+  "image": "http://gonzalez.com/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:58.000Z"
+}

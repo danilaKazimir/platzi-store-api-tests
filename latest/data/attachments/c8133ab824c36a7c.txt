@@ -1,0 +1,80 @@
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Timothy Hansen",
+  "email": "youngrobert@example.org",
+  "password": "***",
+  "avatar": "https://harrell-williams.org/"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 37,
+  "email": "youngrobert@example.org",
+  "password": "***",
+  "name": "Timothy Hansen",
+  "role": "customer",
+  "avatar": "https://harrell-williams.org/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+}
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/37
+Body:
+{
+  "email": "marvin29@example.org"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/37 -> 200
+Body:
+{
+  "id": 37,
+  "email": "marvin29@example.org",
+  "password": "***",
+  "name": "Timothy Hansen",
+  "role": "customer",
+  "avatar": "https://harrell-williams.org/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/37
+Body:
+<empty> 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/37 -> 200
+Body:
+{
+  "id": 37,
+  "email": "marvin29@example.org",
+  "password": "***",
+  "name": "Timothy Hansen",
+  "role": "customer",
+  "avatar": "https://harrell-williams.org/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+}
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/37
+Body:
+<empty> 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/37 -> 200
+Body:
+{
+  "id": 37,
+  "email": "marvin29@example.org",
+  "password": "***",
+  "name": "Timothy Hansen",
+  "role": "customer",
+  "avatar": "https://harrell-williams.org/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/37
+Body:
+<empty> 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/37 -> 200
+Body:
+true

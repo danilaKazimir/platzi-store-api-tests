@@ -1,0 +1,33 @@
+2026-07-21 15:59:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_8a2aeb96552b41d6ae694065e140d754",
+  "image": "https://clark-choi.com/"
+} 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 107,
+  "name": "Personal Care_8a2aeb96552b41d6ae694065e140d754",
+  "slug": "personal-care-8a2aeb96552b41d6ae694065e140d754",
+  "image": "https://clark-choi.com/",
+  "creationAt": "2026-07-21T15:59:02.000Z",
+  "updatedAt": "2026-07-21T15:59:02.000Z"
+}
+2026-07-21 15:59:02 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/107
+Body:
+{
+  "name": "Clothing_1de61657e5f844fb834beb0824f59e3f",
+  "image": null
+} 
+
+2026-07-21 15:59:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/107 -> 400
+Body:
+{
+  "path": "/api/v1/categories/107",
+  "timestamp": "2026-07-21T15:59:02.426Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

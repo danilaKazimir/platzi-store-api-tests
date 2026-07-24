@@ -1,0 +1,33 @@
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_6edaaa97a8e94b81bb89eb716329ed75",
+  "image": "https://lee.info/"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 67,
+  "name": "Books_6edaaa97a8e94b81bb89eb716329ed75",
+  "slug": "books-6edaaa97a8e94b81bb89eb716329ed75",
+  "image": "https://lee.info/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/67
+Body:
+{
+  "name": null,
+  "image": "https://poole.info/"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/67 -> 400
+Body:
+{
+  "path": "/api/v1/categories/67",
+  "timestamp": "2026-07-22T02:53:26.988Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

@@ -1,0 +1,33 @@
+2026-07-21 12:10:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_cc25c7d9c73647fdb0e5fbf7a5f6b4d5",
+  "image": "https://www.gentry.org/"
+} 
+
+2026-07-21 12:10:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Clothing_cc25c7d9c73647fdb0e5fbf7a5f6b4d5",
+  "slug": "clothing-cc25c7d9c73647fdb0e5fbf7a5f6b4d5",
+  "image": "https://www.gentry.org/",
+  "creationAt": "2026-07-21T12:10:56.000Z",
+  "updatedAt": "2026-07-21T12:10:56.000Z"
+}
+2026-07-21 12:10:56 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/31
+Body:
+{
+  "name": "Clothing_d196ba51c05b42da80457f833decfee9",
+  "image": null
+} 
+
+2026-07-21 12:10:56 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/31 -> 400
+Body:
+{
+  "path": "/api/v1/categories/31",
+  "timestamp": "2026-07-21T12:10:56.782Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

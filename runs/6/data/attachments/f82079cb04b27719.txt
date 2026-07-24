@@ -1,0 +1,80 @@
+2026-07-21 18:53:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Brenda Scott",
+  "email": "mia04@example.org",
+  "password": "***",
+  "avatar": "https://www.bray.info/"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 443,
+  "email": "mia04@example.org",
+  "password": "***",
+  "name": "Brenda Scott",
+  "role": "customer",
+  "avatar": "https://www.bray.info/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+}
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/443
+Body:
+{
+  "name": "Lucas Kirby"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/443 -> 200
+Body:
+{
+  "id": 443,
+  "email": "mia04@example.org",
+  "password": "***",
+  "name": "Lucas Kirby",
+  "role": "customer",
+  "avatar": "https://www.bray.info/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/443
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/443 -> 200
+Body:
+{
+  "id": 443,
+  "email": "mia04@example.org",
+  "password": "***",
+  "name": "Lucas Kirby",
+  "role": "customer",
+  "avatar": "https://www.bray.info/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+}
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/443
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/443 -> 200
+Body:
+{
+  "id": 443,
+  "email": "mia04@example.org",
+  "password": "***",
+  "name": "Lucas Kirby",
+  "role": "customer",
+  "avatar": "https://www.bray.info/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/443
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/443 -> 200
+Body:
+true

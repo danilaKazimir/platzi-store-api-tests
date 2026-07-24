@@ -1,0 +1,31 @@
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_4953bfca3c84456fa7204fad0ee1a703",
+  "image": "http://www.taylor.com/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 13,
+  "name": "Automotive Accessories_4953bfca3c84456fa7204fad0ee1a703",
+  "slug": "automotive-accessories-4953bfca3c84456fa7204fad0ee1a703",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+}
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/13
+Body:
+<empty> 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/13 -> 200
+Body:
+{
+  "id": 13,
+  "name": "Automotive Accessories_4953bfca3c84456fa7204fad0ee1a703",
+  "slug": "automotive-accessories-4953bfca3c84456fa7204fad0ee1a703",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+}

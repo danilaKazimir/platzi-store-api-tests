@@ -1,0 +1,80 @@
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Bradley Tate",
+  "email": "fullerchad@example.com",
+  "password": "***",
+  "avatar": "http://www.turner.org/"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 403,
+  "email": "fullerchad@example.com",
+  "password": "***",
+  "name": "Bradley Tate",
+  "role": "customer",
+  "avatar": "http://www.turner.org/",
+  "creationAt": "2026-07-21T14:22:22.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+}
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/403
+Body:
+{
+  "name": "Carolyn Parker"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/403 -> 200
+Body:
+{
+  "id": 403,
+  "email": "fullerchad@example.com",
+  "password": "***",
+  "name": "Carolyn Parker",
+  "role": "customer",
+  "avatar": "http://www.turner.org/",
+  "creationAt": "2026-07-21T14:22:22.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/403
+Body:
+<empty> 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/403 -> 200
+Body:
+{
+  "id": 403,
+  "email": "fullerchad@example.com",
+  "password": "***",
+  "name": "Carolyn Parker",
+  "role": "customer",
+  "avatar": "http://www.turner.org/",
+  "creationAt": "2026-07-21T14:22:22.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+}
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/403
+Body:
+<empty> 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/403 -> 200
+Body:
+{
+  "id": 403,
+  "email": "fullerchad@example.com",
+  "password": "***",
+  "name": "Carolyn Parker",
+  "role": "customer",
+  "avatar": "http://www.turner.org/",
+  "creationAt": "2026-07-21T14:22:22.000Z",
+  "updatedAt": "2026-07-21T14:22:22.000Z"
+} 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/403
+Body:
+<empty> 
+
+2026-07-21 14:22:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/403 -> 200
+Body:
+true

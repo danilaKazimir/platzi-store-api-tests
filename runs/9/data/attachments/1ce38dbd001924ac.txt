@@ -1,0 +1,80 @@
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Tiffany Ruiz",
+  "email": "leechristopher@example.net",
+  "password": "***",
+  "avatar": "https://brown-cole.com/"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 88,
+  "email": "leechristopher@example.net",
+  "password": "***",
+  "name": "Tiffany Ruiz",
+  "role": "customer",
+  "avatar": "https://brown-cole.com/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/88
+Body:
+{
+  "name": "Kelly Walker"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/88 -> 200
+Body:
+{
+  "id": 88,
+  "email": "leechristopher@example.net",
+  "password": "***",
+  "name": "Kelly Walker",
+  "role": "customer",
+  "avatar": "https://brown-cole.com/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/88
+Body:
+<empty> 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/88 -> 200
+Body:
+{
+  "id": 88,
+  "email": "leechristopher@example.net",
+  "password": "***",
+  "name": "Kelly Walker",
+  "role": "customer",
+  "avatar": "https://brown-cole.com/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/88
+Body:
+<empty> 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/88 -> 200
+Body:
+{
+  "id": 88,
+  "email": "leechristopher@example.net",
+  "password": "***",
+  "name": "Kelly Walker",
+  "role": "customer",
+  "avatar": "https://brown-cole.com/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/88
+Body:
+<empty> 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/88 -> 200
+Body:
+true

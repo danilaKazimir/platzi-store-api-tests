@@ -1,0 +1,81 @@
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Bryan Salazar",
+  "email": "robertmoses@example.net",
+  "password": "***",
+  "avatar": "https://www.jones-key.org/"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 90,
+  "email": "robertmoses@example.net",
+  "password": "***",
+  "name": "Bryan Salazar",
+  "role": "customer",
+  "avatar": "https://www.jones-key.org/",
+  "creationAt": "2026-07-22T02:53:27.000Z",
+  "updatedAt": "2026-07-22T02:53:27.000Z"
+}
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/90
+Body:
+{
+  "name": "Brett Allen",
+  "email": "msmith@example.org"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/90 -> 200
+Body:
+{
+  "id": 90,
+  "email": "msmith@example.org",
+  "password": "***",
+  "name": "Brett Allen",
+  "role": "customer",
+  "avatar": "https://www.jones-key.org/",
+  "creationAt": "2026-07-22T02:53:27.000Z",
+  "updatedAt": "2026-07-22T02:53:27.000Z"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/90
+Body:
+<empty> 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/90 -> 200
+Body:
+{
+  "id": 90,
+  "email": "msmith@example.org",
+  "password": "***",
+  "name": "Brett Allen",
+  "role": "customer",
+  "avatar": "https://www.jones-key.org/",
+  "creationAt": "2026-07-22T02:53:27.000Z",
+  "updatedAt": "2026-07-22T02:53:27.000Z"
+}
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/90
+Body:
+<empty> 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/90 -> 200
+Body:
+{
+  "id": 90,
+  "email": "msmith@example.org",
+  "password": "***",
+  "name": "Brett Allen",
+  "role": "customer",
+  "avatar": "https://www.jones-key.org/",
+  "creationAt": "2026-07-22T02:53:27.000Z",
+  "updatedAt": "2026-07-22T02:53:27.000Z"
+} 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/90
+Body:
+<empty> 
+
+2026-07-22 02:53:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/90 -> 200
+Body:
+true

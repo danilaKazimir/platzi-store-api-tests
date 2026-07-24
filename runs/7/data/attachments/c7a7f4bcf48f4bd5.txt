@@ -1,0 +1,80 @@
+2026-07-21 20:16:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Tiffany Huynh",
+  "email": "cannonamy@example.net",
+  "password": "***",
+  "avatar": "https://mckinney-miller.net/"
+} 
+
+2026-07-21 20:16:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 13,
+  "email": "cannonamy@example.net",
+  "password": "***",
+  "name": "Tiffany Huynh",
+  "role": "customer",
+  "avatar": "https://mckinney-miller.net/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:58.000Z"
+}
+2026-07-21 20:16:58 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/13
+Body:
+{
+  "name": "Tammy Hall"
+} 
+
+2026-07-21 20:16:59 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/13 -> 200
+Body:
+{
+  "id": 13,
+  "email": "cannonamy@example.net",
+  "password": "***",
+  "name": "Tammy Hall",
+  "role": "customer",
+  "avatar": "https://mckinney-miller.net/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:59.000Z"
+} 
+
+2026-07-21 20:16:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/13
+Body:
+<empty> 
+
+2026-07-21 20:16:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/13 -> 200
+Body:
+{
+  "id": 13,
+  "email": "cannonamy@example.net",
+  "password": "***",
+  "name": "Tammy Hall",
+  "role": "customer",
+  "avatar": "https://mckinney-miller.net/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:59.000Z"
+}
+2026-07-21 20:16:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/13
+Body:
+<empty> 
+
+2026-07-21 20:16:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/13 -> 200
+Body:
+{
+  "id": 13,
+  "email": "cannonamy@example.net",
+  "password": "***",
+  "name": "Tammy Hall",
+  "role": "customer",
+  "avatar": "https://mckinney-miller.net/",
+  "creationAt": "2026-07-21T20:16:58.000Z",
+  "updatedAt": "2026-07-21T20:16:59.000Z"
+} 
+
+2026-07-21 20:16:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/13
+Body:
+<empty> 
+
+2026-07-21 20:16:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/13 -> 200
+Body:
+true

@@ -1,0 +1,81 @@
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kelsey Myers",
+  "email": "reginaharris@example.com",
+  "password": "***",
+  "avatar": "https://www.white-martinez.com/"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 36,
+  "email": "reginaharris@example.com",
+  "password": "***",
+  "name": "Kelsey Myers",
+  "role": "customer",
+  "avatar": "https://www.white-martinez.com/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+}
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/36
+Body:
+{
+  "name": "Tracey Dodson",
+  "email": "qgreer@example.net"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/36 -> 200
+Body:
+{
+  "id": 36,
+  "email": "qgreer@example.net",
+  "password": "***",
+  "name": "Tracey Dodson",
+  "role": "customer",
+  "avatar": "https://www.white-martinez.com/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/36
+Body:
+<empty> 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/36 -> 200
+Body:
+{
+  "id": 36,
+  "email": "qgreer@example.net",
+  "password": "***",
+  "name": "Tracey Dodson",
+  "role": "customer",
+  "avatar": "https://www.white-martinez.com/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+}
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/36
+Body:
+<empty> 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/36 -> 200
+Body:
+{
+  "id": 36,
+  "email": "qgreer@example.net",
+  "password": "***",
+  "name": "Tracey Dodson",
+  "role": "customer",
+  "avatar": "https://www.white-martinez.com/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/36
+Body:
+<empty> 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/36 -> 200
+Body:
+true

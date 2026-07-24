@@ -1,0 +1,15 @@
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Toys_0bb11e9b44f84afd86dcbd69604b0dec",
+  "image": "https://www.velasquez-cohen.com/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-07-24T02:53:52.991Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

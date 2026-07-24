@@ -1,0 +1,81 @@
+2026-07-21 15:59:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Michael Curry",
+  "email": "cooleyjoshua@example.net",
+  "password": "***",
+  "avatar": "https://www.leach-willis.com/"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 414,
+  "email": "cooleyjoshua@example.net",
+  "password": "***",
+  "name": "Michael Curry",
+  "role": "customer",
+  "avatar": "https://www.leach-willis.com/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+}
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/414
+Body:
+{
+  "name": "Michael Underwood",
+  "email": "brennanjessica@example.com"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/414 -> 200
+Body:
+{
+  "id": 414,
+  "email": "brennanjessica@example.com",
+  "password": "***",
+  "name": "Michael Underwood",
+  "role": "customer",
+  "avatar": "https://www.leach-willis.com/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/414
+Body:
+<empty> 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/414 -> 200
+Body:
+{
+  "id": 414,
+  "email": "brennanjessica@example.com",
+  "password": "***",
+  "name": "Michael Underwood",
+  "role": "customer",
+  "avatar": "https://www.leach-willis.com/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+}
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/414
+Body:
+<empty> 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/414 -> 200
+Body:
+{
+  "id": 414,
+  "email": "brennanjessica@example.com",
+  "password": "***",
+  "name": "Michael Underwood",
+  "role": "customer",
+  "avatar": "https://www.leach-willis.com/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/414
+Body:
+<empty> 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/414 -> 200
+Body:
+true

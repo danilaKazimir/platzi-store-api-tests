@@ -1,0 +1,33 @@
+2026-07-21 18:53:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_4b6d11a49fe24d47863400bf60562f8d",
+  "image": "https://www.smith-ferguson.biz/"
+} 
+
+2026-07-21 18:53:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 123,
+  "name": "Personal Care_4b6d11a49fe24d47863400bf60562f8d",
+  "slug": "personal-care-4b6d11a49fe24d47863400bf60562f8d",
+  "image": "https://www.smith-ferguson.biz/",
+  "creationAt": "2026-07-21T18:53:47.000Z",
+  "updatedAt": "2026-07-21T18:53:47.000Z"
+}
+2026-07-21 18:53:47 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/123
+Body:
+{
+  "name": "Clothing_db110c32da114cf2be0ea76a463efc87",
+  "image": null
+} 
+
+2026-07-21 18:53:47 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/123 -> 400
+Body:
+{
+  "path": "/api/v1/categories/123",
+  "timestamp": "2026-07-21T18:53:47.769Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

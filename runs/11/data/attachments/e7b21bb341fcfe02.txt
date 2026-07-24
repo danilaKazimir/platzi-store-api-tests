@@ -1,0 +1,51 @@
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_c6e36bfa7d754b4784244a2da7babb43",
+  "image": "http://perry.com/"
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 59,
+  "name": "Automotive Accessories_c6e36bfa7d754b4784244a2da7babb43",
+  "slug": "automotive-accessories-c6e36bfa7d754b4784244a2da7babb43",
+  "image": "http://perry.com/",
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+}
+2026-07-24 02:53:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optional content-based encryption-f37c19b108ef411cb7fca799f1079a44",
+  "price": 268,
+  "description": "National something son quality drug.",
+  "categoryId": 59,
+  "images": [
+    "http://www.jackson.org/"
+  ]
+} 
+
+2026-07-24 02:53:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 118,
+  "title": "Optional content-based encryption-f37c19b108ef411cb7fca799f1079a44",
+  "slug": "optional-content-based-encryption-f37c19b108ef411cb7fca799f1079a44",
+  "price": 268,
+  "description": "National something son quality drug.",
+  "category": {
+    "id": 59,
+    "name": "Automotive Accessories_c6e36bfa7d754b4784244a2da7babb43",
+    "slug": "automotive-accessories-c6e36bfa7d754b4784244a2da7babb43",
+    "image": "http://perry.com/",
+    "creationAt": "2026-07-24T02:53:53.000Z",
+    "updatedAt": "2026-07-24T02:53:53.000Z"
+  },
+  "images": [
+    "http://www.jackson.org/"
+  ],
+  "creationAt": "2026-07-24T02:53:53.000Z",
+  "updatedAt": "2026-07-24T02:53:53.000Z"
+}

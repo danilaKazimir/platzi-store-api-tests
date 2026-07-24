@@ -1,0 +1,37 @@
+2026-07-21 15:59:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_0229fff6b6294866a2164710f1eebfd5",
+  "image": "http://shelton-smith.com/"
+} 
+
+2026-07-21 15:59:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 103,
+  "name": "Automotive Accessories_0229fff6b6294866a2164710f1eebfd5",
+  "slug": "automotive-accessories-0229fff6b6294866a2164710f1eebfd5",
+  "image": "http://shelton-smith.com/",
+  "creationAt": "2026-07-21T15:59:01.000Z",
+  "updatedAt": "2026-07-21T15:59:01.000Z"
+}
+2026-07-21 15:59:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/103
+Body:
+<empty> 
+
+2026-07-21 15:59:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/103 -> 200
+Body:
+true 
+
+2026-07-21 15:59:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/103
+Body:
+<empty> 
+
+2026-07-21 15:59:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/103 -> 400
+Body:
+{
+  "path": "/api/v1/categories/103",
+  "timestamp": "2026-07-21T15:59:01.579Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 103\n}"
+}

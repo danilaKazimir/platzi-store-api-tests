@@ -1,0 +1,33 @@
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_2c7c7111ef014e1884df34e7b248c708",
+  "image": "https://www.ramsey-stewart.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 36,
+  "name": "Automotive Accessories_2c7c7111ef014e1884df34e7b248c708",
+  "slug": "automotive-accessories-2c7c7111ef014e1884df34e7b248c708",
+  "image": "https://www.ramsey-stewart.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/36
+Body:
+{
+  "name": "Home & Kitchen_ca7c1eb354864a3fb264f32bbe690a83",
+  "image": null
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/36 -> 400
+Body:
+{
+  "path": "/api/v1/categories/36",
+  "timestamp": "2026-07-21T21:36:01.819Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

@@ -1,0 +1,37 @@
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_220069cc1e6848bbb7fde8f20e628e73",
+  "image": "https://www.sawyer.com/"
+} 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Food & Beverages_220069cc1e6848bbb7fde8f20e628e73",
+  "slug": "food-beverages-220069cc1e6848bbb7fde8f20e628e73",
+  "image": "https://www.sawyer.com/",
+  "creationAt": "2026-07-21T20:16:57.000Z",
+  "updatedAt": "2026-07-21T20:16:57.000Z"
+}
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 400
+Body:
+{
+  "path": "/api/v1/categories/9",
+  "timestamp": "2026-07-21T20:16:57.397Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 9\n}"
+}

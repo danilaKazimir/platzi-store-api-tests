@@ -1,0 +1,61 @@
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Cristian Aguilar",
+  "email": "carrolljohn@example.org",
+  "password": "***",
+  "avatar": "https://morgan-pitts.com/"
+} 
+
+2026-07-23 03:15:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 203,
+  "email": "carrolljohn@example.org",
+  "password": "***",
+  "name": "Cristian Aguilar",
+  "role": "customer",
+  "avatar": "https://morgan-pitts.com/",
+  "creationAt": "2026-07-23T03:15:00.000Z",
+  "updatedAt": "2026-07-23T03:15:00.000Z"
+}
+2026-07-23 03:15:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/203
+Body:
+<empty> 
+
+2026-07-23 03:15:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/203 -> 200
+Body:
+{
+  "id": 203,
+  "email": "carrolljohn@example.org",
+  "password": "***",
+  "name": "Cristian Aguilar",
+  "role": "customer",
+  "avatar": "https://morgan-pitts.com/",
+  "creationAt": "2026-07-23T03:15:00.000Z",
+  "updatedAt": "2026-07-23T03:15:00.000Z"
+}
+2026-07-23 03:15:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/203
+Body:
+<empty> 
+
+2026-07-23 03:15:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/203 -> 200
+Body:
+{
+  "id": 203,
+  "email": "carrolljohn@example.org",
+  "password": "***",
+  "name": "Cristian Aguilar",
+  "role": "customer",
+  "avatar": "https://morgan-pitts.com/",
+  "creationAt": "2026-07-23T03:15:00.000Z",
+  "updatedAt": "2026-07-23T03:15:00.000Z"
+} 
+
+2026-07-23 03:15:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/203
+Body:
+<empty> 
+
+2026-07-23 03:15:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/203 -> 200
+Body:
+true

@@ -1,0 +1,81 @@
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Lisa Olson",
+  "email": "esparzaelijah@example.org",
+  "password": "***",
+  "avatar": "https://ryan.com/"
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 157,
+  "email": "esparzaelijah@example.org",
+  "password": "***",
+  "name": "Lisa Olson",
+  "role": "customer",
+  "avatar": "https://ryan.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+}
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/157
+Body:
+{
+  "name": "Susan Weeks",
+  "email": "mariaalvarez@example.org"
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/157 -> 200
+Body:
+{
+  "id": 157,
+  "email": "mariaalvarez@example.org",
+  "password": "***",
+  "name": "Susan Weeks",
+  "role": "customer",
+  "avatar": "https://ryan.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/157
+Body:
+<empty> 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/157 -> 200
+Body:
+{
+  "id": 157,
+  "email": "mariaalvarez@example.org",
+  "password": "***",
+  "name": "Susan Weeks",
+  "role": "customer",
+  "avatar": "https://ryan.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+}
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/157
+Body:
+<empty> 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/157 -> 200
+Body:
+{
+  "id": 157,
+  "email": "mariaalvarez@example.org",
+  "password": "***",
+  "name": "Susan Weeks",
+  "role": "customer",
+  "avatar": "https://ryan.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/157
+Body:
+<empty> 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/157 -> 200
+Body:
+true

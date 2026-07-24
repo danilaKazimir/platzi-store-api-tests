@@ -1,0 +1,49 @@
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_32d86e4d53d74a87947f503648f07b15",
+  "image": "http://fletcher.com/"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 126,
+  "name": "Sports & Fitness_32d86e4d53d74a87947f503648f07b15",
+  "slug": "sports-fitness-32d86e4d53d74a87947f503648f07b15",
+  "image": "http://fletcher.com/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+}
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/126
+Body:
+{
+  "name": "Food & Beverages_60cba10d0c5c4cc192d85510ab2fc97f",
+  "image": "http://www.gallagher.info/"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/126 -> 200
+Body:
+{
+  "id": 126,
+  "name": "Food & Beverages_60cba10d0c5c4cc192d85510ab2fc97f",
+  "slug": "food-beverages-60cba10d0c5c4cc192d85510ab2fc97f",
+  "image": "http://www.gallagher.info/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+} 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/126
+Body:
+<empty> 
+
+2026-07-21 18:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/126 -> 200
+Body:
+{
+  "id": 126,
+  "name": "Food & Beverages_60cba10d0c5c4cc192d85510ab2fc97f",
+  "slug": "food-beverages-60cba10d0c5c4cc192d85510ab2fc97f",
+  "image": "http://www.gallagher.info/",
+  "creationAt": "2026-07-21T18:53:48.000Z",
+  "updatedAt": "2026-07-21T18:53:48.000Z"
+}

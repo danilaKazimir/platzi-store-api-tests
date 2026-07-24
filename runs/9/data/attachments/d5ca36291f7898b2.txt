@@ -1,0 +1,33 @@
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_fec832b2123e4371895bb84db2396bd0",
+  "image": "http://young-warren.com/"
+} 
+
+2026-07-22 02:53:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 65,
+  "name": "Pet Supplies_fec832b2123e4371895bb84db2396bd0",
+  "slug": "pet-supplies-fec832b2123e4371895bb84db2396bd0",
+  "image": "http://young-warren.com/",
+  "creationAt": "2026-07-22T02:53:25.000Z",
+  "updatedAt": "2026-07-22T02:53:25.000Z"
+}
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/65
+Body:
+{
+  "name": "Books_7ee8c28870224ea291e7b327b1a4c519",
+  "image": null
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/65 -> 400
+Body:
+{
+  "path": "/api/v1/categories/65",
+  "timestamp": "2026-07-22T02:53:26.061Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

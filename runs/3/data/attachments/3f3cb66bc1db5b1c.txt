@@ -1,0 +1,33 @@
+2026-07-21 14:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_182f2a537f7145b18455e407f847ca0d",
+  "image": "https://johnson.com/"
+} 
+
+2026-07-21 14:22:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 95,
+  "name": "Pet Supplies_182f2a537f7145b18455e407f847ca0d",
+  "slug": "pet-supplies-182f2a537f7145b18455e407f847ca0d",
+  "image": "https://johnson.com/",
+  "creationAt": "2026-07-21T14:22:21.000Z",
+  "updatedAt": "2026-07-21T14:22:21.000Z"
+}
+2026-07-21 14:22:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/95
+Body:
+{
+  "name": null,
+  "image": "https://www.wilkins-salazar.org/"
+} 
+
+2026-07-21 14:22:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/95 -> 400
+Body:
+{
+  "path": "/api/v1/categories/95",
+  "timestamp": "2026-07-21T14:22:21.374Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

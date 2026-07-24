@@ -1,0 +1,15 @@
+2026-07-21 14:22:20 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Personal Care_a46fbff6aba146939687d252c8931d9d",
+  "image": "http://williams-moses.com/"
+} 
+
+2026-07-21 14:22:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-07-21T14:22:21.233Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

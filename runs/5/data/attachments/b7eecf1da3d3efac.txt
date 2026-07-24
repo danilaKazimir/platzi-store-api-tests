@@ -1,0 +1,49 @@
+2026-07-21 17:38:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_a536f48f699345d0850c499ec5353d3d",
+  "image": "http://banks.com/"
+} 
+
+2026-07-21 17:38:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 116,
+  "name": "Personal Care_a536f48f699345d0850c499ec5353d3d",
+  "slug": "personal-care-a536f48f699345d0850c499ec5353d3d",
+  "image": "http://banks.com/",
+  "creationAt": "2026-07-21T17:38:20.000Z",
+  "updatedAt": "2026-07-21T17:38:20.000Z"
+}
+2026-07-21 17:38:20 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/116
+Body:
+{
+  "name": "Personal Care_6c7e860ba25b4643b11bc5dfd655c59a",
+  "image": "https://www.dixon.com/"
+} 
+
+2026-07-21 17:38:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/116 -> 200
+Body:
+{
+  "id": 116,
+  "name": "Personal Care_6c7e860ba25b4643b11bc5dfd655c59a",
+  "slug": "personal-care-6c7e860ba25b4643b11bc5dfd655c59a",
+  "image": "https://www.dixon.com/",
+  "creationAt": "2026-07-21T17:38:20.000Z",
+  "updatedAt": "2026-07-21T17:38:21.000Z"
+} 
+
+2026-07-21 17:38:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/116
+Body:
+<empty> 
+
+2026-07-21 17:38:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/116 -> 200
+Body:
+{
+  "id": 116,
+  "name": "Personal Care_6c7e860ba25b4643b11bc5dfd655c59a",
+  "slug": "personal-care-6c7e860ba25b4643b11bc5dfd655c59a",
+  "image": "https://www.dixon.com/",
+  "creationAt": "2026-07-21T17:38:20.000Z",
+  "updatedAt": "2026-07-21T17:38:21.000Z"
+}

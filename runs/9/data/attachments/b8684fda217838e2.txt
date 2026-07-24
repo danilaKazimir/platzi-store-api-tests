@@ -1,0 +1,61 @@
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Ryan Livingston",
+  "email": "petercarrillo@example.com",
+  "password": "***",
+  "avatar": "https://bishop.info/"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 87,
+  "email": "petercarrillo@example.com",
+  "password": "***",
+  "name": "Ryan Livingston",
+  "role": "customer",
+  "avatar": "https://bishop.info/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/87
+Body:
+<empty> 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/87 -> 200
+Body:
+{
+  "id": 87,
+  "email": "petercarrillo@example.com",
+  "password": "***",
+  "name": "Ryan Livingston",
+  "role": "customer",
+  "avatar": "https://bishop.info/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/87
+Body:
+<empty> 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/87 -> 200
+Body:
+{
+  "id": 87,
+  "email": "petercarrillo@example.com",
+  "password": "***",
+  "name": "Ryan Livingston",
+  "role": "customer",
+  "avatar": "https://bishop.info/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/87
+Body:
+<empty> 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/87 -> 200
+Body:
+true

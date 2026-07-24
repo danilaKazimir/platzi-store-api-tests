@@ -1,0 +1,58 @@
+2026-07-21 10:32:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jason Shaffer",
+  "email": "rsolis@example.org",
+  "password": "***",
+  "avatar": "http://www.higgins.com/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 151,
+  "email": "rsolis@example.org",
+  "password": "***",
+  "name": "Jason Shaffer",
+  "role": "customer",
+  "avatar": "http://www.higgins.com/",
+  "creationAt": "2026-07-21T10:32:36.000Z",
+  "updatedAt": "2026-07-21T10:32:36.000Z"
+}
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "rsolis@example.org",
+  "password": "***"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+}
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/151
+Body:
+<empty> 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/151 -> 200
+Body:
+{
+  "id": 151,
+  "email": "rsolis@example.org",
+  "password": "***",
+  "name": "Jason Shaffer",
+  "role": "customer",
+  "avatar": "http://www.higgins.com/",
+  "creationAt": "2026-07-21T10:32:36.000Z",
+  "updatedAt": "2026-07-21T10:32:36.000Z"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/151
+Body:
+<empty> 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/151 -> 200
+Body:
+true

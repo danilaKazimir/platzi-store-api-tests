@@ -1,0 +1,80 @@
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Daniel Anderson",
+  "email": "myersholly@example.org",
+  "password": "***",
+  "avatar": "http://chambers.org/"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 416,
+  "email": "myersholly@example.org",
+  "password": "***",
+  "name": "Daniel Anderson",
+  "role": "customer",
+  "avatar": "http://chambers.org/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+}
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/416
+Body:
+{
+  "name": "Daniel Hebert"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/416 -> 200
+Body:
+{
+  "id": 416,
+  "email": "myersholly@example.org",
+  "password": "***",
+  "name": "Daniel Hebert",
+  "role": "customer",
+  "avatar": "http://chambers.org/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+} 
+
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/416
+Body:
+<empty> 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/416 -> 200
+Body:
+{
+  "id": 416,
+  "email": "myersholly@example.org",
+  "password": "***",
+  "name": "Daniel Hebert",
+  "role": "customer",
+  "avatar": "http://chambers.org/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+}
+2026-07-21 15:59:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/416
+Body:
+<empty> 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/416 -> 200
+Body:
+{
+  "id": 416,
+  "email": "myersholly@example.org",
+  "password": "***",
+  "name": "Daniel Hebert",
+  "role": "customer",
+  "avatar": "http://chambers.org/",
+  "creationAt": "2026-07-21T15:59:03.000Z",
+  "updatedAt": "2026-07-21T15:59:03.000Z"
+} 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/416
+Body:
+<empty> 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/416 -> 200
+Body:
+true

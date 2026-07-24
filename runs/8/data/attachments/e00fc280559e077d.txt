@@ -1,0 +1,31 @@
+2026-07-21 21:36:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_609764e0c3a24b50a2e0496759c5c4c4",
+  "image": "http://www.hall.com/"
+} 
+
+2026-07-21 21:36:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Sports & Fitness_609764e0c3a24b50a2e0496759c5c4c4",
+  "slug": "sports-fitness-609764e0c3a24b50a2e0496759c5c4c4",
+  "image": "http://www.hall.com/",
+  "creationAt": "2026-07-21T21:36:00.000Z",
+  "updatedAt": "2026-07-21T21:36:00.000Z"
+}
+2026-07-21 21:36:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-07-21 21:36:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Sports & Fitness_609764e0c3a24b50a2e0496759c5c4c4",
+  "slug": "sports-fitness-609764e0c3a24b50a2e0496759c5c4c4",
+  "image": "http://www.hall.com/",
+  "creationAt": "2026-07-21T21:36:00.000Z",
+  "updatedAt": "2026-07-21T21:36:00.000Z"
+}

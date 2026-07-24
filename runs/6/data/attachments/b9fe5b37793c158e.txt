@@ -1,0 +1,33 @@
+2026-07-21 18:53:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_be212710beb349689e353b47e47dfa60",
+  "image": "https://hensley.org/"
+} 
+
+2026-07-21 18:53:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 124,
+  "name": "Books_be212710beb349689e353b47e47dfa60",
+  "slug": "books-be212710beb349689e353b47e47dfa60",
+  "image": "https://hensley.org/",
+  "creationAt": "2026-07-21T18:53:47.000Z",
+  "updatedAt": "2026-07-21T18:53:47.000Z"
+}
+2026-07-21 18:53:47 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/124
+Body:
+{
+  "name": null,
+  "image": "https://www.lewis-patrick.com/"
+} 
+
+2026-07-21 18:53:47 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/124 -> 400
+Body:
+{
+  "path": "/api/v1/categories/124",
+  "timestamp": "2026-07-21T18:53:47.498Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

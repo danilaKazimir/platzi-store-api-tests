@@ -1,0 +1,80 @@
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Christine Wagner",
+  "email": "wadetony@example.org",
+  "password": "***",
+  "avatar": "https://www.flores-bartlett.com/"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 432,
+  "email": "wadetony@example.org",
+  "password": "***",
+  "name": "Christine Wagner",
+  "role": "customer",
+  "avatar": "https://www.flores-bartlett.com/",
+  "creationAt": "2026-07-21T17:38:22.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+}
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/432
+Body:
+{
+  "email": "blackwellnicholas@example.net"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/432 -> 200
+Body:
+{
+  "id": 432,
+  "email": "blackwellnicholas@example.net",
+  "password": "***",
+  "name": "Christine Wagner",
+  "role": "customer",
+  "avatar": "https://www.flores-bartlett.com/",
+  "creationAt": "2026-07-21T17:38:22.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/432
+Body:
+<empty> 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/432 -> 200
+Body:
+{
+  "id": 432,
+  "email": "blackwellnicholas@example.net",
+  "password": "***",
+  "name": "Christine Wagner",
+  "role": "customer",
+  "avatar": "https://www.flores-bartlett.com/",
+  "creationAt": "2026-07-21T17:38:22.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+}
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/432
+Body:
+<empty> 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/432 -> 200
+Body:
+{
+  "id": 432,
+  "email": "blackwellnicholas@example.net",
+  "password": "***",
+  "name": "Christine Wagner",
+  "role": "customer",
+  "avatar": "https://www.flores-bartlett.com/",
+  "creationAt": "2026-07-21T17:38:22.000Z",
+  "updatedAt": "2026-07-21T17:38:22.000Z"
+} 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/432
+Body:
+<empty> 
+
+2026-07-21 17:38:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/432 -> 200
+Body:
+true

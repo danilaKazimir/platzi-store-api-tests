@@ -1,0 +1,61 @@
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Miss Alicia Garcia",
+  "email": "thorntonclayton@example.org",
+  "password": "***",
+  "avatar": "http://www.booker.com/"
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 153,
+  "email": "thorntonclayton@example.org",
+  "password": "***",
+  "name": "Miss Alicia Garcia",
+  "role": "customer",
+  "avatar": "http://www.booker.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+}
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/153
+Body:
+<empty> 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/153 -> 200
+Body:
+{
+  "id": 153,
+  "email": "thorntonclayton@example.org",
+  "password": "***",
+  "name": "Miss Alicia Garcia",
+  "role": "customer",
+  "avatar": "http://www.booker.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+}
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/153
+Body:
+<empty> 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/153 -> 200
+Body:
+{
+  "id": 153,
+  "email": "thorntonclayton@example.org",
+  "password": "***",
+  "name": "Miss Alicia Garcia",
+  "role": "customer",
+  "avatar": "http://www.booker.com/",
+  "creationAt": "2026-07-21T10:32:38.000Z",
+  "updatedAt": "2026-07-21T10:32:38.000Z"
+} 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/153
+Body:
+<empty> 
+
+2026-07-21 10:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/153 -> 200
+Body:
+true

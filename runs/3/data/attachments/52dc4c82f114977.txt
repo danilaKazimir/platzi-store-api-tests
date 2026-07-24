@@ -1,0 +1,31 @@
+2026-07-21 14:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_dcc676d7363d4a70ac72ccb08d95042b",
+  "image": "http://www.atkins-smith.com/"
+} 
+
+2026-07-21 14:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 93,
+  "name": "Toys_dcc676d7363d4a70ac72ccb08d95042b",
+  "slug": "toys-dcc676d7363d4a70ac72ccb08d95042b",
+  "image": "http://www.atkins-smith.com/",
+  "creationAt": "2026-07-21T14:22:20.000Z",
+  "updatedAt": "2026-07-21T14:22:20.000Z"
+}
+2026-07-21 14:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-07-21 14:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/93 -> 200
+Body:
+{
+  "id": 93,
+  "name": "Toys_dcc676d7363d4a70ac72ccb08d95042b",
+  "slug": "toys-dcc676d7363d4a70ac72ccb08d95042b",
+  "image": "http://www.atkins-smith.com/",
+  "creationAt": "2026-07-21T14:22:20.000Z",
+  "updatedAt": "2026-07-21T14:22:20.000Z"
+}

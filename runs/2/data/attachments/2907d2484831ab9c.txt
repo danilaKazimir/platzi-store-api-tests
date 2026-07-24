@@ -1,0 +1,33 @@
+2026-07-21 12:10:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_73efc5baa32943c9bd95fba0d58719f9",
+  "image": "http://george-garrison.com/"
+} 
+
+2026-07-21 12:10:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Home & Kitchen_73efc5baa32943c9bd95fba0d58719f9",
+  "slug": "home-kitchen-73efc5baa32943c9bd95fba0d58719f9",
+  "image": "http://george-garrison.com/",
+  "creationAt": "2026-07-21T12:10:56.000Z",
+  "updatedAt": "2026-07-21T12:10:56.000Z"
+}
+2026-07-21 12:10:56 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/29
+Body:
+{
+  "name": null,
+  "image": "http://www.pacheco-rich.net/"
+} 
+
+2026-07-21 12:10:56 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/29 -> 400
+Body:
+{
+  "path": "/api/v1/categories/29",
+  "timestamp": "2026-07-21T12:10:56.416Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

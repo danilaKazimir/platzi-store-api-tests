@@ -1,0 +1,33 @@
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_3b6477ee6f3448688f0bb9f6ecbce174",
+  "image": "http://bishop.com/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 131,
+  "name": "Food & Beverages_3b6477ee6f3448688f0bb9f6ecbce174",
+  "slug": "food-beverages-3b6477ee6f3448688f0bb9f6ecbce174",
+  "image": "http://bishop.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/131
+Body:
+{
+  "name": "Home & Kitchen_baead8900afb46bbb54396bbe15c6ea5",
+  "image": null
+} 
+
+2026-07-23 03:15:00 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/131 -> 400
+Body:
+{
+  "path": "/api/v1/categories/131",
+  "timestamp": "2026-07-23T03:15:00.118Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

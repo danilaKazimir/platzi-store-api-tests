@@ -1,0 +1,81 @@
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Martha Watson",
+  "email": "debrabradley@example.com",
+  "password": "***",
+  "avatar": "http://www.richards.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 41,
+  "email": "debrabradley@example.com",
+  "password": "***",
+  "name": "Martha Watson",
+  "role": "customer",
+  "avatar": "http://www.richards.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/41
+Body:
+{
+  "name": "Nicole Jackson",
+  "email": "christine85@example.com"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/41 -> 200
+Body:
+{
+  "id": 41,
+  "email": "christine85@example.com",
+  "password": "***",
+  "name": "Nicole Jackson",
+  "role": "customer",
+  "avatar": "http://www.richards.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/41
+Body:
+<empty> 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/41 -> 200
+Body:
+{
+  "id": 41,
+  "email": "christine85@example.com",
+  "password": "***",
+  "name": "Nicole Jackson",
+  "role": "customer",
+  "avatar": "http://www.richards.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+}
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/41
+Body:
+<empty> 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/41 -> 200
+Body:
+{
+  "id": 41,
+  "email": "christine85@example.com",
+  "password": "***",
+  "name": "Nicole Jackson",
+  "role": "customer",
+  "avatar": "http://www.richards.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:02.000Z"
+} 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/41
+Body:
+<empty> 
+
+2026-07-21 21:36:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/41 -> 200
+Body:
+true

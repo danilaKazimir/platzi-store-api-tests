@@ -1,0 +1,33 @@
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_ad6ca0da1fe94cc5a0bc3500fd41a8a8",
+  "image": "http://brown.net/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 56,
+  "name": "Food & Beverages_ad6ca0da1fe94cc5a0bc3500fd41a8a8",
+  "slug": "food-beverages-ad6ca0da1fe94cc5a0bc3500fd41a8a8",
+  "image": "http://brown.net/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/56
+Body:
+{
+  "name": null,
+  "image": "https://www.cross.net/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/56 -> 400
+Body:
+{
+  "path": "/api/v1/categories/56",
+  "timestamp": "2026-07-24T02:53:52.779Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

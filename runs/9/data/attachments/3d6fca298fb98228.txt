@@ -1,0 +1,21 @@
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Robert Roberts",
+  "email": "freemanamy@example.com",
+  "password": "***",
+  "avatar": "http://skinner.com/"
+} 
+
+2026-07-22 02:53:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 86,
+  "email": "freemanamy@example.com",
+  "password": "***",
+  "name": "Robert Roberts",
+  "role": "customer",
+  "avatar": "http://skinner.com/",
+  "creationAt": "2026-07-22T02:53:26.000Z",
+  "updatedAt": "2026-07-22T02:53:26.000Z"
+}

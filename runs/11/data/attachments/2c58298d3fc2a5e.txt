@@ -1,0 +1,31 @@
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_b36e9c948e0446c5b89ac559074a5c94",
+  "image": "https://www.odonnell.net/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 57,
+  "name": "Books_b36e9c948e0446c5b89ac559074a5c94",
+  "slug": "books-b36e9c948e0446c5b89ac559074a5c94",
+  "image": "https://www.odonnell.net/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/57
+Body:
+<empty> 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/57 -> 200
+Body:
+{
+  "id": 57,
+  "name": "Books_b36e9c948e0446c5b89ac559074a5c94",
+  "slug": "books-b36e9c948e0446c5b89ac559074a5c94",
+  "image": "https://www.odonnell.net/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}

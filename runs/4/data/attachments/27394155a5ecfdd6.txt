@@ -1,0 +1,80 @@
+2026-07-21 15:59:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Courtney Harris",
+  "email": "ashley05@example.com",
+  "password": "***",
+  "avatar": "http://www.montgomery.com/"
+} 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 417,
+  "email": "ashley05@example.com",
+  "password": "***",
+  "name": "Courtney Harris",
+  "role": "customer",
+  "avatar": "http://www.montgomery.com/",
+  "creationAt": "2026-07-21T15:59:04.000Z",
+  "updatedAt": "2026-07-21T15:59:04.000Z"
+}
+2026-07-21 15:59:04 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/417
+Body:
+{
+  "email": "akim@example.com"
+} 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/417 -> 200
+Body:
+{
+  "id": 417,
+  "email": "akim@example.com",
+  "password": "***",
+  "name": "Courtney Harris",
+  "role": "customer",
+  "avatar": "http://www.montgomery.com/",
+  "creationAt": "2026-07-21T15:59:04.000Z",
+  "updatedAt": "2026-07-21T15:59:04.000Z"
+} 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/417
+Body:
+<empty> 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/417 -> 200
+Body:
+{
+  "id": 417,
+  "email": "akim@example.com",
+  "password": "***",
+  "name": "Courtney Harris",
+  "role": "customer",
+  "avatar": "http://www.montgomery.com/",
+  "creationAt": "2026-07-21T15:59:04.000Z",
+  "updatedAt": "2026-07-21T15:59:04.000Z"
+}
+2026-07-21 15:59:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/417
+Body:
+<empty> 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/417 -> 200
+Body:
+{
+  "id": 417,
+  "email": "akim@example.com",
+  "password": "***",
+  "name": "Courtney Harris",
+  "role": "customer",
+  "avatar": "http://www.montgomery.com/",
+  "creationAt": "2026-07-21T15:59:04.000Z",
+  "updatedAt": "2026-07-21T15:59:04.000Z"
+} 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/417
+Body:
+<empty> 
+
+2026-07-21 15:59:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/417 -> 200
+Body:
+true

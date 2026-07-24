@@ -1,0 +1,31 @@
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_2d89b9915c6846e8b8b69681c34425fd",
+  "image": "https://henry-williams.com/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 130,
+  "name": "Home & Kitchen_2d89b9915c6846e8b8b69681c34425fd",
+  "slug": "home-kitchen-2d89b9915c6846e8b8b69681c34425fd",
+  "image": "https://henry-williams.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/130
+Body:
+<empty> 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/130 -> 200
+Body:
+{
+  "id": 130,
+  "name": "Home & Kitchen_2d89b9915c6846e8b8b69681c34425fd",
+  "slug": "home-kitchen-2d89b9915c6846e8b8b69681c34425fd",
+  "image": "https://henry-williams.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}

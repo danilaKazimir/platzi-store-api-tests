@@ -1,0 +1,31 @@
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_4920638c5b714b76b3ce60c61b423ebd",
+  "image": "https://www.johnson-simmons.net/"
+} 
+
+2026-07-22 02:53:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 64,
+  "name": "Home & Kitchen_4920638c5b714b76b3ce60c61b423ebd",
+  "slug": "home-kitchen-4920638c5b714b76b3ce60c61b423ebd",
+  "image": "https://www.johnson-simmons.net/",
+  "creationAt": "2026-07-22T02:53:25.000Z",
+  "updatedAt": "2026-07-22T02:53:25.000Z"
+}
+2026-07-22 02:53:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/64
+Body:
+<empty> 
+
+2026-07-22 02:53:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/64 -> 200
+Body:
+{
+  "id": 64,
+  "name": "Home & Kitchen_4920638c5b714b76b3ce60c61b423ebd",
+  "slug": "home-kitchen-4920638c5b714b76b3ce60c61b423ebd",
+  "image": "https://www.johnson-simmons.net/",
+  "creationAt": "2026-07-22T02:53:25.000Z",
+  "updatedAt": "2026-07-22T02:53:25.000Z"
+}

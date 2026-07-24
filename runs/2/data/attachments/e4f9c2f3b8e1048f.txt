@@ -1,0 +1,80 @@
+2026-07-21 12:10:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Brianna Bray",
+  "email": "barbara93@example.org",
+  "password": "***",
+  "avatar": "https://www.schultz.biz/"
+} 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 370,
+  "email": "barbara93@example.org",
+  "password": "***",
+  "name": "Brianna Bray",
+  "role": "customer",
+  "avatar": "https://www.schultz.biz/",
+  "creationAt": "2026-07-21T12:10:57.000Z",
+  "updatedAt": "2026-07-21T12:10:57.000Z"
+}
+2026-07-21 12:10:57 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/370
+Body:
+{
+  "email": "hestereric@example.org"
+} 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/370 -> 200
+Body:
+{
+  "id": 370,
+  "email": "hestereric@example.org",
+  "password": "***",
+  "name": "Brianna Bray",
+  "role": "customer",
+  "avatar": "https://www.schultz.biz/",
+  "creationAt": "2026-07-21T12:10:57.000Z",
+  "updatedAt": "2026-07-21T12:10:57.000Z"
+} 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/370
+Body:
+<empty> 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/370 -> 200
+Body:
+{
+  "id": 370,
+  "email": "hestereric@example.org",
+  "password": "***",
+  "name": "Brianna Bray",
+  "role": "customer",
+  "avatar": "https://www.schultz.biz/",
+  "creationAt": "2026-07-21T12:10:57.000Z",
+  "updatedAt": "2026-07-21T12:10:57.000Z"
+}
+2026-07-21 12:10:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/370
+Body:
+<empty> 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/370 -> 200
+Body:
+{
+  "id": 370,
+  "email": "hestereric@example.org",
+  "password": "***",
+  "name": "Brianna Bray",
+  "role": "customer",
+  "avatar": "https://www.schultz.biz/",
+  "creationAt": "2026-07-21T12:10:57.000Z",
+  "updatedAt": "2026-07-21T12:10:57.000Z"
+} 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/370
+Body:
+<empty> 
+
+2026-07-21 12:10:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/370 -> 200
+Body:
+true

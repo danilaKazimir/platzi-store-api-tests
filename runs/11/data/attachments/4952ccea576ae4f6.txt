@@ -1,0 +1,49 @@
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_4eca0ee8f7c047f6b6258f33b5c2b668",
+  "image": "https://munoz-johns.net/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 55,
+  "name": "Clothing_4eca0ee8f7c047f6b6258f33b5c2b668",
+  "slug": "clothing-4eca0ee8f7c047f6b6258f33b5c2b668",
+  "image": "https://munoz-johns.net/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/55
+Body:
+{
+  "name": "Toys_145fa52b73b34724aa1537900917ae4b",
+  "image": "https://perez.com/"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+{
+  "id": 55,
+  "name": "Toys_145fa52b73b34724aa1537900917ae4b",
+  "slug": "toys-145fa52b73b34724aa1537900917ae4b",
+  "image": "https://perez.com/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+} 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-07-24 02:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+{
+  "id": 55,
+  "name": "Toys_145fa52b73b34724aa1537900917ae4b",
+  "slug": "toys-145fa52b73b34724aa1537900917ae4b",
+  "image": "https://perez.com/",
+  "creationAt": "2026-07-24T02:53:52.000Z",
+  "updatedAt": "2026-07-24T02:53:52.000Z"
+}

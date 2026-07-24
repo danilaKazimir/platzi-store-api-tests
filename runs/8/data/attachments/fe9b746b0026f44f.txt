@@ -1,0 +1,61 @@
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Rachel Hall",
+  "email": "eadams@example.com",
+  "password": "***",
+  "avatar": "https://jarvis.com/"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 40,
+  "email": "eadams@example.com",
+  "password": "***",
+  "name": "Rachel Hall",
+  "role": "customer",
+  "avatar": "https://jarvis.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/40
+Body:
+<empty> 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/40 -> 200
+Body:
+{
+  "id": 40,
+  "email": "eadams@example.com",
+  "password": "***",
+  "name": "Rachel Hall",
+  "role": "customer",
+  "avatar": "https://jarvis.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+}
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/40
+Body:
+<empty> 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/40 -> 200
+Body:
+{
+  "id": 40,
+  "email": "eadams@example.com",
+  "password": "***",
+  "name": "Rachel Hall",
+  "role": "customer",
+  "avatar": "https://jarvis.com/",
+  "creationAt": "2026-07-21T21:36:01.000Z",
+  "updatedAt": "2026-07-21T21:36:01.000Z"
+} 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/40
+Body:
+<empty> 
+
+2026-07-21 21:36:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/40 -> 200
+Body:
+true

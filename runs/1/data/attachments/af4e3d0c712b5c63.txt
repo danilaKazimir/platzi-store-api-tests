@@ -1,0 +1,37 @@
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_e196dc0a345546d6b9494e473ff49640",
+  "image": "http://www.kerr.info/"
+} 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Personal Care_e196dc0a345546d6b9494e473ff49640",
+  "slug": "personal-care-e196dc0a345546d6b9494e473ff49640",
+  "image": "http://www.kerr.info/",
+  "creationAt": "2026-07-21T10:32:37.000Z",
+  "updatedAt": "2026-07-21T10:32:37.000Z"
+}
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-07-21 10:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 400
+Body:
+{
+  "path": "/api/v1/categories/14",
+  "timestamp": "2026-07-21T10:32:37.615Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 14\n}"
+}

@@ -1,0 +1,15 @@
+2026-07-21 12:10:56 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Pet Supplies_ca4a88fd480e48c19ea3e731115fd8b8",
+  "image": "http://gordon-nguyen.info/"
+} 
+
+2026-07-21 12:10:56 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-07-21T12:10:56.476Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

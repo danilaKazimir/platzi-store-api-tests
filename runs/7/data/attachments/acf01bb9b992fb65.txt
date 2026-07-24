@@ -1,0 +1,33 @@
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_c0be590ed17446958f27741163b24ba3",
+  "image": "http://turner.com/"
+} 
+
+2026-07-21 20:16:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 12,
+  "name": "Books_c0be590ed17446958f27741163b24ba3",
+  "slug": "books-c0be590ed17446958f27741163b24ba3",
+  "image": "http://turner.com/",
+  "creationAt": "2026-07-21T20:16:57.000Z",
+  "updatedAt": "2026-07-21T20:16:57.000Z"
+}
+2026-07-21 20:16:57 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/12
+Body:
+{
+  "name": "Automotive Accessories_bf8c90756bc1485aab2c7ee4ddc1818d",
+  "image": null
+} 
+
+2026-07-21 20:16:58 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/12 -> 400
+Body:
+{
+  "path": "/api/v1/categories/12",
+  "timestamp": "2026-07-21T20:16:58.179Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}

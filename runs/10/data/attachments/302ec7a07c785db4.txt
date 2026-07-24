@@ -1,0 +1,37 @@
+2026-07-23 03:14:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_956984e8550c40de94f478d5834ef098",
+  "image": "http://adams.com/"
+} 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 129,
+  "name": "Electronics_956984e8550c40de94f478d5834ef098",
+  "slug": "electronics-956984e8550c40de94f478d5834ef098",
+  "image": "http://adams.com/",
+  "creationAt": "2026-07-23T03:14:59.000Z",
+  "updatedAt": "2026-07-23T03:14:59.000Z"
+}
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/129
+Body:
+<empty> 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/129 -> 200
+Body:
+true 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/129
+Body:
+<empty> 
+
+2026-07-23 03:14:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/129 -> 400
+Body:
+{
+  "path": "/api/v1/categories/129",
+  "timestamp": "2026-07-23T03:14:59.250Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 129\n}"
+}
