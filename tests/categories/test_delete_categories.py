@@ -24,6 +24,8 @@ class TestDeleteCategories:
     ) -> None:
         with allure.step("Send DELETE /categories to delete category"):
             response = await categories_client.delete_category(category_fx.id)
+
+        with allure.step("Check DELETE /categories response"):
             assert response.status_code == HTTPStatus.OK
             assert response.json() is True
 
@@ -35,8 +37,10 @@ class TestDeleteCategories:
     async def test_delete_non_existent_user(
         self, categories_client: CategoriesClient
     ) -> None:
-        with allure.step("Send DELETE /categories for non-existing user"):
+        with allure.step("Send DELETE /categories for non-existing category"):
             response = await categories_client.delete_category(
                 self.NOT_FOUND_CATEGORY_ID
             )
+
+        with allure.step("Check DELETE /categories response"):
             assert_entity_not_found(response)

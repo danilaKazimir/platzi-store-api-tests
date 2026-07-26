@@ -1,3 +1,4 @@
+from collections.abc import AsyncIterator
 from http import HTTPStatus
 
 import allure
@@ -11,10 +12,16 @@ from src.models.categories import CategoryResponseDto, CreateCategoryRequestDto
 @allure.title("Create a new category for tests")
 async def category_fx(
     categories_client: CategoriesClient,
-) -> CategoryResponseDto:
+) -> AsyncIterator[CategoryResponseDto]:
     request = CreateCategoryRequestDto()
     response = await categories_client.create_category(request)
 
     assert response.status_code == HTTPStatus.CREATED
 
-    return CategoryResponseDto.model_validate_json(response.content)
+    category = CategoryResponseDto.model_validate_json(response.content)
+
+    yield category
+
+    checked_category = await categories_client.get_category_by_id(category.id)
+    if checked_category.status_code == HTTPStatus.OK:
+        await categories_client.delete_category(category.id)

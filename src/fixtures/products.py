@@ -1,3 +1,4 @@
+from collections.abc import AsyncIterator
 from http import HTTPStatus
 
 import allure
@@ -13,10 +14,16 @@ from src.models.products import CreateProductRequestDto, ProductResponseDto
 async def product_fx(
     category_fx: CategoryResponseDto,
     products_client: ProductsClient,
-) -> ProductResponseDto:
+) -> AsyncIterator[ProductResponseDto]:
     request = CreateProductRequestDto(category_id=category_fx.id)
     response = await products_client.create_product(request)
 
     assert response.status_code == HTTPStatus.CREATED
 
-    return ProductResponseDto.model_validate_json(response.content)
+    product = ProductResponseDto.model_validate_json(response.content)
+
+    yield product
+
+    checked_product = await products_client.get_single_product_by_id(product.id)
+    if checked_product.status_code == HTTPStatus.OK:
+        await products_client.delete_product(product.id)

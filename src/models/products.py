@@ -1,4 +1,4 @@
-from pydantic import BaseModel, ConfigDict, Field, HttpUrl
+from pydantic import BaseModel, ConfigDict, Field, HttpUrl, RootModel
 
 from src.models.base_response import BaseResponseDto
 from src.models.categories import CategoryResponseDto
@@ -15,6 +15,16 @@ class CreateProductRequestDto(BaseModel):
     images: list[str] = Field(default_factory=fake.generate_product_images)
 
 
+class UpdateProductRequestDto(BaseModel):
+    model_config = ConfigDict(serialize_by_alias=True)
+
+    title: str | None = None
+    price: int | None = None
+    description: str | None = None
+    category_id: int | None = None
+    images: list[str] | None = None
+
+
 class ProductResponseDto(BaseResponseDto):
     title: str
     slug: str
@@ -23,3 +33,9 @@ class ProductResponseDto(BaseResponseDto):
     images: list[str | HttpUrl]
     category: CategoryResponseDto
     id: int
+
+
+class ProductsResponseDto(RootModel[list[ProductResponseDto]]):
+    model_config = ConfigDict(strict=True)
+
+    pass
