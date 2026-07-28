@@ -1,5 +1,4 @@
 from http import HTTPStatus
-from typing import Literal
 
 import allure
 import pytest
@@ -14,6 +13,7 @@ from src.models.products import (
     ProductsResponseDto,
 )
 from src.utils.assertions import assert_entity_not_found
+from tests.test_data.common import LOOKUP_FIELD_PARAMS, LookupField
 
 
 @allure.tag("api", "products")
@@ -116,20 +116,14 @@ class TestGetProducts:
             assert products.root
 
     @allure.title("Check get products related by: {param_id}")
-    @pytest.mark.parametrize(
-        "related_by",
-        [
-            pytest.param("id", id="id"),
-            pytest.param("slug", id="slug"),
-        ],
-    )
+    @pytest.mark.parametrize("lookup_field", LOOKUP_FIELD_PARAMS)
     async def test_get_related_products(
         self,
         products_client: ProductsClient,
         category_fx: CategoryResponseDto,
         product_factory: ProductFactory,
         category_factory: CategoryFactory,
-        related_by: Literal["id", "slug"],
+        lookup_field: LookupField,
     ) -> None:
         same_category_products = [
             await product_factory(CreateProductRequestDto(category_id=category_fx.id))
@@ -142,7 +136,7 @@ class TestGetProducts:
             CreateProductRequestDto(category_id=unrelated_category.id)
         )
 
-        if related_by == "id":
+        if lookup_field == "id":
             endpoint = f"/products/{source_product.id}/related"
 
             with allure.step(f"Send GET {endpoint} request"):

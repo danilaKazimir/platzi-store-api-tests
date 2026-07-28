@@ -15,6 +15,12 @@ class CategoriesClient:
     async def get_category_by_id(self, category_id: int) -> Response:
         return await self._client.get(f"{self._path}{category_id}")
 
+    async def get_category_by_slug(self, category_slug: str) -> Response:
+        return await self._client.get(f"{self._path}slug/{category_slug}")
+
+    async def get_all_products_by_category(self, category_id: int) -> Response:
+        return await self._client.get(f"{self._path}{category_id}/products")
+
     async def create_category(self, request: CreateCategoryRequestDto) -> Response:
         return await self._client.post(self._path, json=request.model_dump(mode="json"))
 
