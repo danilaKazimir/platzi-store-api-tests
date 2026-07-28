@@ -46,7 +46,7 @@ class FakeData:
         return int(self._faker.random_number(3, False))
 
     def generate_product_description(self) -> str:
-        return self._faker.sentence()
+        return self._faker.catch_phrase()
 
     def generate_product_images(self) -> list[str]:
         return [self._faker.url()]

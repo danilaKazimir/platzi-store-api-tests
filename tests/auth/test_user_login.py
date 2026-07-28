@@ -10,7 +10,6 @@ from src.models.users import UserResponseDto
 from src.utils.assertions import assert_unauthorized_error
 
 
-@pytest.mark.anyio
 @allure.tag("api", "auth")
 @allure.parent_suite("API Tests")
 @allure.suite("Auth")

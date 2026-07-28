@@ -1,14 +1,12 @@
 from http import HTTPStatus
 
 import allure
-import pytest
 
 from src.clients.products_client import ProductsClient
 from src.models.products import ProductResponseDto
 from src.utils.assertions import assert_entity_not_found
 
 
-@pytest.mark.anyio
 @allure.tag("api", "products")
 @allure.parent_suite("API Tests")
 @allure.suite("Products")

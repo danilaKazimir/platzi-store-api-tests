@@ -1,14 +1,12 @@
 from http import HTTPStatus
 
 import allure
-import pytest
 
 from src.clients.auth_client import AuthClient
 from src.models.auth import LoginRequestDto, TokensResponseDto
 from src.models.users import UserResponseDto
 
 
-@pytest.mark.anyio
 @allure.tag("api", "auth")
 @allure.parent_suite("API Tests")
 @allure.suite("Auth")

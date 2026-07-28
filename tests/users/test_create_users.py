@@ -1,13 +1,11 @@
 from http import HTTPStatus
 
 import allure
-import pytest
 
 from src.clients.users_client import UsersClient
 from src.models.users import CreateUserRequestDto, UserResponseDto
 
 
-@pytest.mark.anyio
 @allure.tag("api", "users")
 @allure.parent_suite("API Tests")
 @allure.suite("Users")

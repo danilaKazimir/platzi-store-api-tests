@@ -9,14 +9,23 @@ class ProductsClient:
         self._client = http_client
         self._path = "products/"
 
-    async def get_all_products(self) -> Response:
-        return await self._client.get(f"{self._path}")
+    async def get_all_products(
+        self, offset: int | None = None, limit: int | None = None
+    ) -> Response:
+        query_params = {"offset": offset, "limit": limit}
+        return await self._client.get(f"{self._path}", query_params=query_params)
 
     async def get_single_product_by_id(self, product_id: int) -> Response:
         return await self._client.get(f"{self._path}{product_id}")
 
+    async def get_products_related_by_id(self, product_id: int) -> Response:
+        return await self._client.get(f"{self._path}{product_id}/related")
+
     async def get_single_product_by_slug(self, slug: str) -> Response:
         return await self._client.get(f"{self._path}slug/{slug}")
+
+    async def get_products_related_by_slug(self, slug: str) -> Response:
+        return await self._client.get(f"{self._path}slug/{slug}/related")
 
     async def create_product(self, request: CreateProductRequestDto) -> Response:
         return await self._client.post(

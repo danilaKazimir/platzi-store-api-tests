@@ -8,7 +8,6 @@ from src.models.products import ProductResponseDto, UpdateProductRequestDto
 from src.utils.fake_data import fake
 
 
-@pytest.mark.anyio
 @allure.tag("api", "products")
 @allure.parent_suite("API Tests")
 @allure.suite("Products")

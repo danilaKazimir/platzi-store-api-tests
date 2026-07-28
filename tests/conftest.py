@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-import allure
 import pytest
 from xdist import is_xdist_controller  # type: ignore[import-untyped]
 
@@ -19,12 +18,6 @@ def pytest_configure() -> None:
     logging.getLogger("http_client").setLevel(logging.INFO)
     logging.getLogger("httpx").setLevel(logging.WARNING)
     logging.getLogger("httpcore").setLevel(logging.WARNING)
-
-
-@pytest.fixture
-@allure.title("Set asyncio tests run mode")
-def anyio_backend() -> str:
-    return "asyncio"
 
 
 def pytest_sessionstart(session: pytest.Session) -> None:

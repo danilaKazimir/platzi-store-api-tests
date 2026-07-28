@@ -1,14 +1,12 @@
 from http import HTTPStatus
 
 import allure
-import pytest
 
 from src.clients.products_client import ProductsClient
 from src.models.categories import CategoryResponseDto
 from src.models.products import CreateProductRequestDto, ProductResponseDto
 
 
-@pytest.mark.anyio
 @allure.tag("api", "products")
 @allure.parent_suite("API Tests")
 @allure.suite("Products")
