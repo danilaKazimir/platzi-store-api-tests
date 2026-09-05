@@ -1,0 +1,15 @@
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Pet Supplies_d2099760f45e4b8c91a2abad35f8c94b",
+  "image": "https://www.williams-dorsey.info/"
+} 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-16T01:34:31.541Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

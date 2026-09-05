@@ -1,0 +1,71 @@
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=1&limit=3
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=1&limit=3 -> 200
+Body:
+[
+  {
+    "id": 84,
+    "title": "title-a1b65568-2769-4237-98bd-e459aab179a8",
+    "slug": "title-a1b65568-2769-4237-98bd-e459aab179a8",
+    "price": 840,
+    "description": "desc-3fdd5a88-1d6c-46e5-8cbb-89850c8d5b1e",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-16T04:38:24.000Z",
+      "updatedAt": "2026-08-16T04:38:24.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=26071"
+    ],
+    "creationAt": "2026-08-16T11:57:11.000Z",
+    "updatedAt": "2026-08-16T11:57:11.000Z"
+  },
+  {
+    "id": 85,
+    "title": "title-4c6b82f8-c837-46dc-95d3-0c2b68500915",
+    "slug": "title-4c6b82f8-c837-46dc-95d3-0c2b68500915",
+    "price": 847,
+    "description": "desc-90eff841-2893-4b9a-af8d-4fb4bf096e25",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-16T04:38:24.000Z",
+      "updatedAt": "2026-08-16T04:38:24.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=47330",
+      "https://placehold.co/600x400?img=43725"
+    ],
+    "creationAt": "2026-08-16T12:12:05.000Z",
+    "updatedAt": "2026-08-16T12:12:05.000Z"
+  },
+  {
+    "id": 86,
+    "title": "title-bc17b081-bc0d-44ca-974a-9699c22c3640",
+    "slug": "title-bc17b081-bc0d-44ca-974a-9699c22c3640",
+    "price": 142,
+    "description": "desc-c9b761a6-0f0d-40cb-ba98-44d84773c9ec",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-08-16T04:38:24.000Z",
+      "updatedAt": "2026-08-16T04:38:24.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=23182",
+      "https://placehold.co/600x400?img=75394",
+      "https://placehold.co/600x400?img=48889"
+    ],
+    "creationAt": "2026-08-16T12:27:04.000Z",
+    "updatedAt": "2026-08-16T12:27:04.000Z"
+  }
+]

@@ -1,0 +1,49 @@
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_1955af9a41584bdfbfed8e37f50b3c5d",
+  "image": "http://grant-schultz.org/"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Clothing_1955af9a41584bdfbfed8e37f50b3c5d",
+  "slug": "clothing-1955af9a41584bdfbfed8e37f50b3c5d",
+  "image": "http://grant-schultz.org/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 400
+Body:
+{
+  "path": "/api/v1/categories/17",
+  "timestamp": "2026-09-05T03:38:35.342Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 17\n}"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 400
+Body:
+{
+  "path": "/api/v1/categories/17",
+  "timestamp": "2026-09-05T03:38:35.350Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 17\n}"
+}

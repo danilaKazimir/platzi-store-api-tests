@@ -1,0 +1,135 @@
+2026-08-11 01:57:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_cbf149fe6a4d452791ac925b7f2e4774",
+  "image": "http://www.farmer.org/"
+} 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 196,
+  "name": "Food & Beverages_cbf149fe6a4d452791ac925b7f2e4774",
+  "slug": "food-beverages-cbf149fe6a4d452791ac925b7f2e4774",
+  "image": "http://www.farmer.org/",
+  "creationAt": "2026-08-11T01:57:33.000Z",
+  "updatedAt": "2026-08-11T01:57:33.000Z"
+} 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face background emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "price": 178,
+  "description": "Progressive intangible capability",
+  "categoryId": 196,
+  "images": [
+    "https://mejia.org/"
+  ]
+} 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 246,
+  "title": "Face-to-face background emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "slug": "face-to-face-background-emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "price": 178,
+  "description": "Progressive intangible capability",
+  "category": {
+    "id": 196,
+    "name": "Food & Beverages_cbf149fe6a4d452791ac925b7f2e4774",
+    "slug": "food-beverages-cbf149fe6a4d452791ac925b7f2e4774",
+    "image": "http://www.farmer.org/",
+    "creationAt": "2026-08-11T01:57:33.000Z",
+    "updatedAt": "2026-08-11T01:57:33.000Z"
+  },
+  "images": [
+    "https://mejia.org/"
+  ],
+  "creationAt": "2026-08-11T01:57:33.000Z",
+  "updatedAt": "2026-08-11T01:57:33.000Z"
+}
+2026-08-11 01:57:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+{
+  "id": 246,
+  "title": "Face-to-face background emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "slug": "face-to-face-background-emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "price": 178,
+  "description": "Progressive intangible capability",
+  "category": {
+    "id": 196,
+    "name": "Food & Beverages_cbf149fe6a4d452791ac925b7f2e4774",
+    "slug": "food-beverages-cbf149fe6a4d452791ac925b7f2e4774",
+    "image": "http://www.farmer.org/",
+    "creationAt": "2026-08-11T01:57:33.000Z",
+    "updatedAt": "2026-08-11T01:57:33.000Z"
+  },
+  "images": [
+    "https://mejia.org/"
+  ],
+  "creationAt": "2026-08-11T01:57:33.000Z",
+  "updatedAt": "2026-08-11T01:57:33.000Z"
+}
+2026-08-11 01:57:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+{
+  "id": 246,
+  "title": "Face-to-face background emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "slug": "face-to-face-background-emulation-81bd7af1c32f472b831d0c63234d89a2",
+  "price": 178,
+  "description": "Progressive intangible capability",
+  "category": {
+    "id": 196,
+    "name": "Food & Beverages_cbf149fe6a4d452791ac925b7f2e4774",
+    "slug": "food-beverages-cbf149fe6a4d452791ac925b7f2e4774",
+    "image": "http://www.farmer.org/",
+    "creationAt": "2026-08-11T01:57:33.000Z",
+    "updatedAt": "2026-08-11T01:57:33.000Z"
+  },
+  "images": [
+    "https://mejia.org/"
+  ],
+  "creationAt": "2026-08-11T01:57:33.000Z",
+  "updatedAt": "2026-08-11T01:57:33.000Z"
+} 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+true 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/196
+Body:
+<empty> 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/196 -> 200
+Body:
+{
+  "id": 196,
+  "name": "Food & Beverages_cbf149fe6a4d452791ac925b7f2e4774",
+  "slug": "food-beverages-cbf149fe6a4d452791ac925b7f2e4774",
+  "image": "http://www.farmer.org/",
+  "creationAt": "2026-08-11T01:57:33.000Z",
+  "updatedAt": "2026-08-11T01:57:33.000Z"
+} 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/196
+Body:
+<empty> 
+
+2026-08-11 01:57:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/196 -> 200
+Body:
+true

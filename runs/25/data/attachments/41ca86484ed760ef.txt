@@ -1,0 +1,107 @@
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_e1defd57a1ed4191916c76af7ff993f9",
+  "image": "http://www.hopkins.info/"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Books_e1defd57a1ed4191916c76af7ff993f9",
+  "slug": "books-e1defd57a1ed4191916c76af7ff993f9",
+  "image": "http://www.hopkins.info/",
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Assimilated 5thgeneration standardization-026c9d7e2a6741a79fe206f27d7cd7a9",
+  "price": 369,
+  "description": "Decentralized high-level secured line",
+  "categoryId": 19,
+  "images": [
+    "https://brown.net/"
+  ]
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 58,
+  "title": "Assimilated 5thgeneration standardization-026c9d7e2a6741a79fe206f27d7cd7a9",
+  "slug": "assimilated-5thgeneration-standardization-026c9d7e2a6741a79fe206f27d7cd7a9",
+  "price": 369,
+  "description": "Decentralized high-level secured line",
+  "category": {
+    "id": 19,
+    "name": "Books_e1defd57a1ed4191916c76af7ff993f9",
+    "slug": "books-e1defd57a1ed4191916c76af7ff993f9",
+    "image": "http://www.hopkins.info/",
+    "creationAt": "2026-08-07T02:48:14.000Z",
+    "updatedAt": "2026-08-07T02:48:14.000Z"
+  },
+  "images": [
+    "https://brown.net/"
+  ],
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+}
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/58 -> 200
+Body:
+true 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/58 -> 400
+Body:
+{
+  "path": "/api/v1/products/58",
+  "timestamp": "2026-08-07T02:48:14.759Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 58\n    }\n}"
+}
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/58 -> 400
+Body:
+{
+  "path": "/api/v1/products/58",
+  "timestamp": "2026-08-07T02:48:14.789Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 58\n    }\n}"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Books_e1defd57a1ed4191916c76af7ff993f9",
+  "slug": "books-e1defd57a1ed4191916c76af7ff993f9",
+  "image": "http://www.hopkins.info/",
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

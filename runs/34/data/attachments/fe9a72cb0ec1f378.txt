@@ -1,0 +1,135 @@
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_6acb8e16608a4941a78d071b60ff8502",
+  "image": "https://www.may-rodriguez.org/"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2727,
+  "name": "Pet Supplies_6acb8e16608a4941a78d071b60ff8502",
+  "slug": "pet-supplies-6acb8e16608a4941a78d071b60ff8502",
+  "image": "https://www.may-rodriguez.org/",
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Virtual human-resource migration-98f3d033762c43cda36fd1861e34a0b7",
+  "price": 437,
+  "description": "Triple-buffered didactic synergy",
+  "categoryId": 2727,
+  "images": [
+    "https://www.floyd.info/"
+  ]
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1831,
+  "title": "Virtual human-resource migration-98f3d033762c43cda36fd1861e34a0b7",
+  "slug": "virtual-human-resource-migration-98f3d033762c43cda36fd1861e34a0b7",
+  "price": 437,
+  "description": "Triple-buffered didactic synergy",
+  "category": {
+    "id": 2727,
+    "name": "Pet Supplies_6acb8e16608a4941a78d071b60ff8502",
+    "slug": "pet-supplies-6acb8e16608a4941a78d071b60ff8502",
+    "image": "https://www.may-rodriguez.org/",
+    "creationAt": "2026-08-16T01:34:32.000Z",
+    "updatedAt": "2026-08-16T01:34:32.000Z"
+  },
+  "images": [
+    "https://www.floyd.info/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+}
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1831
+Body:
+<empty> 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1831 -> 200
+Body:
+{
+  "id": 1831,
+  "title": "Virtual human-resource migration-98f3d033762c43cda36fd1861e34a0b7",
+  "slug": "virtual-human-resource-migration-98f3d033762c43cda36fd1861e34a0b7",
+  "price": 437,
+  "description": "Triple-buffered didactic synergy",
+  "category": {
+    "id": 2727,
+    "name": "Pet Supplies_6acb8e16608a4941a78d071b60ff8502",
+    "slug": "pet-supplies-6acb8e16608a4941a78d071b60ff8502",
+    "image": "https://www.may-rodriguez.org/",
+    "creationAt": "2026-08-16T01:34:32.000Z",
+    "updatedAt": "2026-08-16T01:34:32.000Z"
+  },
+  "images": [
+    "https://www.floyd.info/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+}
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1831
+Body:
+<empty> 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1831 -> 200
+Body:
+{
+  "id": 1831,
+  "title": "Virtual human-resource migration-98f3d033762c43cda36fd1861e34a0b7",
+  "slug": "virtual-human-resource-migration-98f3d033762c43cda36fd1861e34a0b7",
+  "price": 437,
+  "description": "Triple-buffered didactic synergy",
+  "category": {
+    "id": 2727,
+    "name": "Pet Supplies_6acb8e16608a4941a78d071b60ff8502",
+    "slug": "pet-supplies-6acb8e16608a4941a78d071b60ff8502",
+    "image": "https://www.may-rodriguez.org/",
+    "creationAt": "2026-08-16T01:34:32.000Z",
+    "updatedAt": "2026-08-16T01:34:32.000Z"
+  },
+  "images": [
+    "https://www.floyd.info/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1831
+Body:
+<empty> 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1831 -> 200
+Body:
+true 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2727
+Body:
+<empty> 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2727 -> 200
+Body:
+{
+  "id": 2727,
+  "name": "Pet Supplies_6acb8e16608a4941a78d071b60ff8502",
+  "slug": "pet-supplies-6acb8e16608a4941a78d071b60ff8502",
+  "image": "https://www.may-rodriguez.org/",
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2727
+Body:
+<empty> 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2727 -> 200
+Body:
+true

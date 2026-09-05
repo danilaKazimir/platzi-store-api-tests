@@ -1,0 +1,135 @@
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_2fe3ed78b04542ed85905191fdc0878b",
+  "image": "https://www.espinoza.org/"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 93,
+  "name": "Electronics_2fe3ed78b04542ed85905191fdc0878b",
+  "slug": "electronics-2fe3ed78b04542ed85905191fdc0878b",
+  "image": "https://www.espinoza.org/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive hybrid budgetary management-d2a179f7c82444f0a7b25428772dc20f",
+  "price": 813,
+  "description": "Persevering directional paradigm",
+  "categoryId": 93,
+  "images": [
+    "http://carr.com/"
+  ]
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 351,
+  "title": "Reactive hybrid budgetary management-d2a179f7c82444f0a7b25428772dc20f",
+  "slug": "reactive-hybrid-budgetary-management-d2a179f7c82444f0a7b25428772dc20f",
+  "price": 813,
+  "description": "Persevering directional paradigm",
+  "category": {
+    "id": 93,
+    "name": "Electronics_2fe3ed78b04542ed85905191fdc0878b",
+    "slug": "electronics-2fe3ed78b04542ed85905191fdc0878b",
+    "image": "https://www.espinoza.org/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "http://carr.com/"
+  ],
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+}
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/reactive-hybrid-budgetary-management-d2a179f7c82444f0a7b25428772dc20f
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/reactive-hybrid-budgetary-management-d2a179f7c82444f0a7b25428772dc20f -> 200
+Body:
+{
+  "id": 351,
+  "title": "Reactive hybrid budgetary management-d2a179f7c82444f0a7b25428772dc20f",
+  "slug": "reactive-hybrid-budgetary-management-d2a179f7c82444f0a7b25428772dc20f",
+  "price": 813,
+  "description": "Persevering directional paradigm",
+  "category": {
+    "id": 93,
+    "name": "Electronics_2fe3ed78b04542ed85905191fdc0878b",
+    "slug": "electronics-2fe3ed78b04542ed85905191fdc0878b",
+    "image": "https://www.espinoza.org/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "http://carr.com/"
+  ],
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+}
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/351
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/351 -> 200
+Body:
+{
+  "id": 351,
+  "title": "Reactive hybrid budgetary management-d2a179f7c82444f0a7b25428772dc20f",
+  "slug": "reactive-hybrid-budgetary-management-d2a179f7c82444f0a7b25428772dc20f",
+  "price": 813,
+  "description": "Persevering directional paradigm",
+  "category": {
+    "id": 93,
+    "name": "Electronics_2fe3ed78b04542ed85905191fdc0878b",
+    "slug": "electronics-2fe3ed78b04542ed85905191fdc0878b",
+    "image": "https://www.espinoza.org/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "http://carr.com/"
+  ],
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/351
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/351 -> 200
+Body:
+true 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/93 -> 200
+Body:
+{
+  "id": 93,
+  "name": "Electronics_2fe3ed78b04542ed85905191fdc0878b",
+  "slug": "electronics-2fe3ed78b04542ed85905191fdc0878b",
+  "image": "https://www.espinoza.org/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/93 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_f3bb8f935d8a4e9781261576d7bcb1a1",
+  "image": "http://www.frank-garcia.biz/"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1629,
+  "name": "Sports & Fitness_f3bb8f935d8a4e9781261576d7bcb1a1",
+  "slug": "sports-fitness-f3bb8f935d8a4e9781261576d7bcb1a1",
+  "image": "http://www.frank-garcia.biz/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1629
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1629 -> 200
+Body:
+{
+  "id": 1629,
+  "name": "Sports & Fitness_f3bb8f935d8a4e9781261576d7bcb1a1",
+  "slug": "sports-fitness-f3bb8f935d8a4e9781261576d7bcb1a1",
+  "image": "http://www.frank-garcia.biz/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1629
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1629 -> 200
+Body:
+{
+  "id": 1629,
+  "name": "Sports & Fitness_f3bb8f935d8a4e9781261576d7bcb1a1",
+  "slug": "sports-fitness-f3bb8f935d8a4e9781261576d7bcb1a1",
+  "image": "http://www.frank-garcia.biz/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1629
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1629 -> 200
+Body:
+true

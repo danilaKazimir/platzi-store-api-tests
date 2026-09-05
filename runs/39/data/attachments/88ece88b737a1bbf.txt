@@ -1,0 +1,135 @@
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_1cb157deee694e238660e4c6749a0142",
+  "image": "https://fisher.com/"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1252,
+  "name": "Food & Beverages_1cb157deee694e238660e4c6749a0142",
+  "slug": "food-beverages-1cb157deee694e238660e4c6749a0142",
+  "image": "https://fisher.com/",
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable homogeneous ability-450994e073444b29b21515a23fb43180",
+  "price": 268,
+  "description": "Re-engineered holistic complexity",
+  "categoryId": 1252,
+  "images": [
+    "https://www.hughes.com/"
+  ]
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1501,
+  "title": "Upgradable homogeneous ability-450994e073444b29b21515a23fb43180",
+  "slug": "upgradable-homogeneous-ability-450994e073444b29b21515a23fb43180",
+  "price": 268,
+  "description": "Re-engineered holistic complexity",
+  "category": {
+    "id": 1252,
+    "name": "Food & Beverages_1cb157deee694e238660e4c6749a0142",
+    "slug": "food-beverages-1cb157deee694e238660e4c6749a0142",
+    "image": "https://fisher.com/",
+    "creationAt": "2026-08-21T01:32:39.000Z",
+    "updatedAt": "2026-08-21T01:32:39.000Z"
+  },
+  "images": [
+    "https://www.hughes.com/"
+  ],
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+}
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/upgradable-homogeneous-ability-450994e073444b29b21515a23fb43180
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/upgradable-homogeneous-ability-450994e073444b29b21515a23fb43180 -> 200
+Body:
+{
+  "id": 1501,
+  "title": "Upgradable homogeneous ability-450994e073444b29b21515a23fb43180",
+  "slug": "upgradable-homogeneous-ability-450994e073444b29b21515a23fb43180",
+  "price": 268,
+  "description": "Re-engineered holistic complexity",
+  "category": {
+    "id": 1252,
+    "name": "Food & Beverages_1cb157deee694e238660e4c6749a0142",
+    "slug": "food-beverages-1cb157deee694e238660e4c6749a0142",
+    "image": "https://fisher.com/",
+    "creationAt": "2026-08-21T01:32:39.000Z",
+    "updatedAt": "2026-08-21T01:32:39.000Z"
+  },
+  "images": [
+    "https://www.hughes.com/"
+  ],
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+}
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1501
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1501 -> 200
+Body:
+{
+  "id": 1501,
+  "title": "Upgradable homogeneous ability-450994e073444b29b21515a23fb43180",
+  "slug": "upgradable-homogeneous-ability-450994e073444b29b21515a23fb43180",
+  "price": 268,
+  "description": "Re-engineered holistic complexity",
+  "category": {
+    "id": 1252,
+    "name": "Food & Beverages_1cb157deee694e238660e4c6749a0142",
+    "slug": "food-beverages-1cb157deee694e238660e4c6749a0142",
+    "image": "https://fisher.com/",
+    "creationAt": "2026-08-21T01:32:39.000Z",
+    "updatedAt": "2026-08-21T01:32:39.000Z"
+  },
+  "images": [
+    "https://www.hughes.com/"
+  ],
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1501
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1501 -> 200
+Body:
+true 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1252
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1252 -> 200
+Body:
+{
+  "id": 1252,
+  "name": "Food & Beverages_1cb157deee694e238660e4c6749a0142",
+  "slug": "food-beverages-1cb157deee694e238660e4c6749a0142",
+  "image": "https://fisher.com/",
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1252
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1252 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_c4e4de64c4cd42d28d6668ffd21e9a34",
+  "image": "http://fisher.com/"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 74,
+  "name": "Toys_c4e4de64c4cd42d28d6668ffd21e9a34",
+  "slug": "toys-c4e4de64c4cd42d28d6668ffd21e9a34",
+  "image": "http://fisher.com/",
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Customer-focused encompassing methodology-ef815ebf8f50479687f195f9dae23f7b",
+  "price": 207,
+  "description": "Streamlined encompassing structure",
+  "categoryId": 74,
+  "images": [
+    "http://www.johnson.com/"
+  ]
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 238,
+  "title": "Customer-focused encompassing methodology-ef815ebf8f50479687f195f9dae23f7b",
+  "slug": "customer-focused-encompassing-methodology-ef815ebf8f50479687f195f9dae23f7b",
+  "price": 207,
+  "description": "Streamlined encompassing structure",
+  "category": {
+    "id": 74,
+    "name": "Toys_c4e4de64c4cd42d28d6668ffd21e9a34",
+    "slug": "toys-c4e4de64c4cd42d28d6668ffd21e9a34",
+    "image": "http://fisher.com/",
+    "creationAt": "2026-08-23T01:36:25.000Z",
+    "updatedAt": "2026-08-23T01:36:25.000Z"
+  },
+  "images": [
+    "http://www.johnson.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+}
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/238
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/238 -> 200
+Body:
+true 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/238
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/238 -> 400
+Body:
+{
+  "path": "/api/v1/products/238",
+  "timestamp": "2026-08-23T01:36:25.710Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 238\n    }\n}"
+}
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/238
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/238 -> 400
+Body:
+{
+  "path": "/api/v1/products/238",
+  "timestamp": "2026-08-23T01:36:25.768Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 238\n    }\n}"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+{
+  "id": 74,
+  "name": "Toys_c4e4de64c4cd42d28d6668ffd21e9a34",
+  "slug": "toys-c4e4de64c4cd42d28d6668ffd21e9a34",
+  "image": "http://fisher.com/",
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+true

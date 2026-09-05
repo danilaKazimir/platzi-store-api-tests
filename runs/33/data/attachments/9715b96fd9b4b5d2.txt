@@ -1,0 +1,53 @@
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_ac8b73f1f2564d3296dccb48556ec3f1",
+  "image": "http://golden.com/"
+} 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 86,
+  "name": "Automotive Accessories_ac8b73f1f2564d3296dccb48556ec3f1",
+  "slug": "automotive-accessories-ac8b73f1f2564d3296dccb48556ec3f1",
+  "image": "http://golden.com/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+}
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-ac8b73f1f2564d3296dccb48556ec3f1
+Body:
+<empty> 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-ac8b73f1f2564d3296dccb48556ec3f1 -> 200
+Body:
+{
+  "id": 86,
+  "name": "Automotive Accessories_ac8b73f1f2564d3296dccb48556ec3f1",
+  "slug": "automotive-accessories-ac8b73f1f2564d3296dccb48556ec3f1",
+  "image": "http://golden.com/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+}
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/86
+Body:
+<empty> 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/86 -> 200
+Body:
+{
+  "id": 86,
+  "name": "Automotive Accessories_ac8b73f1f2564d3296dccb48556ec3f1",
+  "slug": "automotive-accessories-ac8b73f1f2564d3296dccb48556ec3f1",
+  "image": "http://golden.com/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+} 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/86
+Body:
+<empty> 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/86 -> 200
+Body:
+true

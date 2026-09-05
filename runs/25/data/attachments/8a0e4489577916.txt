@@ -1,0 +1,49 @@
+2026-08-07 02:48:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_719d439032bf4f42807a77770fb9bb9b",
+  "image": "https://www.young.com/"
+} 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Personal Care_719d439032bf4f42807a77770fb9bb9b",
+  "slug": "personal-care-719d439032bf4f42807a77770fb9bb9b",
+  "image": "https://www.young.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+}
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+true 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 400
+Body:
+{
+  "path": "/api/v1/categories/11",
+  "timestamp": "2026-08-07T02:48:13.381Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 11\n}"
+}
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 400
+Body:
+{
+  "path": "/api/v1/categories/11",
+  "timestamp": "2026-08-07T02:48:13.413Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 11\n}"
+}

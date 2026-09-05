@@ -1,0 +1,408 @@
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+  "image": "http://www.barry-stevens.com/"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 23,
+  "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+  "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+  "image": "http://www.barry-stevens.com/",
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Quality-focused asymmetric frame-e97adc67c0e24362b6b69923a8df9aa8",
+  "price": 227,
+  "description": "Optimized secondary application",
+  "categoryId": 23,
+  "images": [
+    "http://www.calhoun.info/"
+  ]
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 62,
+  "title": "Quality-focused asymmetric frame-e97adc67c0e24362b6b69923a8df9aa8",
+  "slug": "quality-focused-asymmetric-frame-e97adc67c0e24362b6b69923a8df9aa8",
+  "price": 227,
+  "description": "Optimized secondary application",
+  "category": {
+    "id": 23,
+    "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+    "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+    "image": "http://www.barry-stevens.com/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://www.calhoun.info/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Devolved uniform interface-b155980b27154b5588a8de68815df3d2",
+  "price": 476,
+  "description": "Universal cohesive complexity",
+  "categoryId": 23,
+  "images": [
+    "http://www.valdez-vazquez.com/"
+  ]
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 63,
+  "title": "Devolved uniform interface-b155980b27154b5588a8de68815df3d2",
+  "slug": "devolved-uniform-interface-b155980b27154b5588a8de68815df3d2",
+  "price": 476,
+  "description": "Universal cohesive complexity",
+  "category": {
+    "id": 23,
+    "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+    "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+    "image": "http://www.barry-stevens.com/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://www.valdez-vazquez.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Seamless systemic data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+  "price": 895,
+  "description": "Up-sized multimedia capability",
+  "categoryId": 23,
+  "images": [
+    "https://www.blackwell-perry.org/"
+  ]
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 65,
+  "title": "Seamless systemic data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+  "slug": "seamless-systemic-data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+  "price": 895,
+  "description": "Up-sized multimedia capability",
+  "category": {
+    "id": 23,
+    "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+    "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+    "image": "http://www.barry-stevens.com/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "https://www.blackwell-perry.org/"
+  ],
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_cac67039ecf0459fb2c56282dde533e2",
+  "image": "https://spence.com/"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Toys_cac67039ecf0459fb2c56282dde533e2",
+  "slug": "toys-cac67039ecf0459fb2c56282dde533e2",
+  "image": "https://spence.com/",
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Sharable demand-driven knowledge user-cd628f3761a1438aa5170d723485484b",
+  "price": 146,
+  "description": "User-friendly bandwidth-monitored ability",
+  "categoryId": 25,
+  "images": [
+    "http://sanders.com/"
+  ]
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 68,
+  "title": "Sharable demand-driven knowledge user-cd628f3761a1438aa5170d723485484b",
+  "slug": "sharable-demand-driven-knowledge-user-cd628f3761a1438aa5170d723485484b",
+  "price": 146,
+  "description": "User-friendly bandwidth-monitored ability",
+  "category": {
+    "id": 25,
+    "name": "Toys_cac67039ecf0459fb2c56282dde533e2",
+    "slug": "toys-cac67039ecf0459fb2c56282dde533e2",
+    "image": "https://spence.com/",
+    "creationAt": "2026-08-08T01:50:10.000Z",
+    "updatedAt": "2026-08-08T01:50:10.000Z"
+  },
+  "images": [
+    "http://sanders.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62/related
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62/related -> 200
+Body:
+[
+  {
+    "id": 63,
+    "title": "Devolved uniform interface-b155980b27154b5588a8de68815df3d2",
+    "slug": "devolved-uniform-interface-b155980b27154b5588a8de68815df3d2",
+    "price": 476,
+    "description": "Universal cohesive complexity",
+    "category": {
+      "id": 23,
+      "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+      "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+      "image": "http://www.barry-stevens.com/",
+      "creationAt": "2026-08-08T01:50:09.000Z",
+      "updatedAt": "2026-08-08T01:50:09.000Z"
+    },
+    "images": [
+      "http://www.valdez-vazquez.com/"
+    ],
+    "creationAt": "2026-08-08T01:50:10.000Z",
+    "updatedAt": "2026-08-08T01:50:10.000Z"
+  },
+  {
+    "id": 65,
+    "title": "Seamless systemic data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+    "slug": "seamless-systemic-data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+    "price": 895,
+    "description": "Up-sized multimedia capability",
+    "category": {
+      "id": 23,
+      "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+      "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+      "image": "http://www.barry-stevens.com/",
+      "creationAt": "2026-08-08T01:50:09.000Z",
+      "updatedAt": "2026-08-08T01:50:09.000Z"
+    },
+    "images": [
+      "https://www.blackwell-perry.org/"
+    ],
+    "creationAt": "2026-08-08T01:50:10.000Z",
+    "updatedAt": "2026-08-08T01:50:10.000Z"
+  }
+]
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/68
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/68 -> 200
+Body:
+{
+  "id": 68,
+  "title": "Sharable demand-driven knowledge user-cd628f3761a1438aa5170d723485484b",
+  "slug": "sharable-demand-driven-knowledge-user-cd628f3761a1438aa5170d723485484b",
+  "price": 146,
+  "description": "User-friendly bandwidth-monitored ability",
+  "category": {
+    "id": 25,
+    "name": "Toys_cac67039ecf0459fb2c56282dde533e2",
+    "slug": "toys-cac67039ecf0459fb2c56282dde533e2",
+    "image": "https://spence.com/",
+    "creationAt": "2026-08-08T01:50:10.000Z",
+    "updatedAt": "2026-08-08T01:50:10.000Z"
+  },
+  "images": [
+    "http://sanders.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/68
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/68 -> 200
+Body:
+true 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+{
+  "id": 65,
+  "title": "Seamless systemic data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+  "slug": "seamless-systemic-data-warehouse-cecb76f53de64b81851107a6e7e6115f",
+  "price": 895,
+  "description": "Up-sized multimedia capability",
+  "category": {
+    "id": 23,
+    "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+    "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+    "image": "http://www.barry-stevens.com/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "https://www.blackwell-perry.org/"
+  ],
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+true 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/63
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/63 -> 200
+Body:
+{
+  "id": 63,
+  "title": "Devolved uniform interface-b155980b27154b5588a8de68815df3d2",
+  "slug": "devolved-uniform-interface-b155980b27154b5588a8de68815df3d2",
+  "price": 476,
+  "description": "Universal cohesive complexity",
+  "category": {
+    "id": 23,
+    "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+    "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+    "image": "http://www.barry-stevens.com/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://www.valdez-vazquez.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/63
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/63 -> 200
+Body:
+true 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+{
+  "id": 62,
+  "title": "Quality-focused asymmetric frame-e97adc67c0e24362b6b69923a8df9aa8",
+  "slug": "quality-focused-asymmetric-frame-e97adc67c0e24362b6b69923a8df9aa8",
+  "price": 227,
+  "description": "Optimized secondary application",
+  "category": {
+    "id": 23,
+    "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+    "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+    "image": "http://www.barry-stevens.com/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://www.calhoun.info/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+true 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Toys_cac67039ecf0459fb2c56282dde533e2",
+  "slug": "toys-cac67039ecf0459fb2c56282dde533e2",
+  "image": "https://spence.com/",
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Food & Beverages_d7a594e3351445e2a6136f8e7b0e79e9",
+  "slug": "food-beverages-d7a594e3351445e2a6136f8e7b0e79e9",
+  "image": "http://www.barry-stevens.com/",
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-08-08 01:50:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+true

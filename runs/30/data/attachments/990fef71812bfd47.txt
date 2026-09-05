@@ -1,0 +1,71 @@
+2026-08-12 02:10:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_6485fa2236964cc782150918c5cf9ef8",
+  "image": "https://crawford.com/"
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 66,
+  "name": "Clothing_6485fa2236964cc782150918c5cf9ef8",
+  "slug": "clothing-6485fa2236964cc782150918c5cf9ef8",
+  "image": "https://crawford.com/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+}
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/66
+Body:
+{
+  "name": "Clothing_45e507919c1d45b08850ae4c9e097d7a",
+  "image": "https://www.rose.org/"
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Clothing_45e507919c1d45b08850ae4c9e097d7a",
+  "slug": "clothing-45e507919c1d45b08850ae4c9e097d7a",
+  "image": "https://www.rose.org/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Clothing_45e507919c1d45b08850ae4c9e097d7a",
+  "slug": "clothing-45e507919c1d45b08850ae4c9e097d7a",
+  "image": "https://www.rose.org/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+}
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Clothing_45e507919c1d45b08850ae4c9e097d7a",
+  "slug": "clothing-45e507919c1d45b08850ae4c9e097d7a",
+  "image": "https://www.rose.org/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+true

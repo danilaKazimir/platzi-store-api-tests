@@ -1,0 +1,886 @@
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_29913de8a3a346c892f5a30eed259a8c",
+  "image": "https://www.fox-rivas.org/"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 158,
+  "name": "Automotive Accessories_29913de8a3a346c892f5a30eed259a8c",
+  "slug": "automotive-accessories-29913de8a3a346c892f5a30eed259a8c",
+  "image": "https://www.fox-rivas.org/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Implemented non-volatile attitude-c2990419f2d54c9188dc27371936e2b9",
+  "price": 782,
+  "description": "Reverse-engineered real-time Graphical User Interface",
+  "categoryId": 158,
+  "images": [
+    "https://www.ortiz-hill.com/"
+  ]
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 239,
+  "title": "Implemented non-volatile attitude-c2990419f2d54c9188dc27371936e2b9",
+  "slug": "implemented-non-volatile-attitude-c2990419f2d54c9188dc27371936e2b9",
+  "price": 782,
+  "description": "Reverse-engineered real-time Graphical User Interface",
+  "category": {
+    "id": 158,
+    "name": "Automotive Accessories_29913de8a3a346c892f5a30eed259a8c",
+    "slug": "automotive-accessories-29913de8a3a346c892f5a30eed259a8c",
+    "image": "https://www.fox-rivas.org/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "https://www.ortiz-hill.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 176,
+    "title": "title-f80188a7-fe3d-46d3-b8df-5774a4545c00",
+    "slug": "title-f80188a7-fe3d-46d3-b8df-5774a4545c00",
+    "price": 203,
+    "description": "desc-cdaee288-799a-4955-859f-379328f22b44",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=64596",
+      "https://placehold.co/600x400?img=4229"
+    ],
+    "creationAt": "2026-08-25T23:12:06.000Z",
+    "updatedAt": "2026-08-25T23:12:06.000Z"
+  },
+  {
+    "id": 177,
+    "title": "t",
+    "slug": "t",
+    "price": 2,
+    "description": "t",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-25T23:19:56.000Z",
+    "updatedAt": "2026-08-25T23:19:56.000Z"
+  },
+  {
+    "id": 178,
+    "title": "2",
+    "slug": "2",
+    "price": 1,
+    "description": "2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-25T23:25:58.000Z",
+    "updatedAt": "2026-08-25T23:25:58.000Z"
+  },
+  {
+    "id": 179,
+    "title": "test",
+    "slug": "test",
+    "price": 2,
+    "description": "test2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-25T23:27:03.000Z",
+    "updatedAt": "2026-08-25T23:27:03.000Z"
+  },
+  {
+    "id": 180,
+    "title": "title-635f1eb0-b55e-44b9-ae81-d74cab785574",
+    "slug": "title-635f1eb0-b55e-44b9-ae81-d74cab785574",
+    "price": 942,
+    "description": "desc-4996b6a9-3cff-4992-b7cc-9703e8d408e0",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=71675",
+      "https://placehold.co/600x400?img=54003"
+    ],
+    "creationAt": "2026-08-25T23:27:04.000Z",
+    "updatedAt": "2026-08-25T23:27:04.000Z"
+  },
+  {
+    "id": 181,
+    "title": "title-76b48ed7-6069-4c48-9b37-7d25e0169024",
+    "slug": "title-76b48ed7-6069-4c48-9b37-7d25e0169024",
+    "price": 470,
+    "description": "desc-4145ae56-cd99-4c5b-935e-acb629a4da94",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=60962",
+      "https://placehold.co/600x400?img=35677",
+      "https://placehold.co/600x400?img=68866"
+    ],
+    "creationAt": "2026-08-25T23:42:14.000Z",
+    "updatedAt": "2026-08-25T23:42:14.000Z"
+  },
+  {
+    "id": 182,
+    "title": "title-36a74a7f-7997-4129-92a8-d5ae144d9042",
+    "slug": "title-36a74a7f-7997-4129-92a8-d5ae144d9042",
+    "price": 254,
+    "description": "desc-a8c12bca-00ae-495c-a4cb-978fde83424e",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=97939",
+      "https://placehold.co/600x400?img=15585"
+    ],
+    "creationAt": "2026-08-25T23:57:12.000Z",
+    "updatedAt": "2026-08-25T23:57:12.000Z"
+  },
+  {
+    "id": 183,
+    "title": "title-3bb2fe06-871e-404e-89f5-e06bf1354191",
+    "slug": "title-3bb2fe06-871e-404e-89f5-e06bf1354191",
+    "price": 702,
+    "description": "desc-46f0ec81-be4c-49ab-b554-2b450aaf726e",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=28415"
+    ],
+    "creationAt": "2026-08-26T00:12:06.000Z",
+    "updatedAt": "2026-08-26T00:12:06.000Z"
+  },
+  {
+    "id": 184,
+    "title": "title-547b1f03-2971-4b80-a3a9-4a030d830ef9",
+    "slug": "title-547b1f03-2971-4b80-a3a9-4a030d830ef9",
+    "price": 892,
+    "description": "desc-5513a2e8-1e4b-41c8-99d3-bdb9b68dabc0",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=22139",
+      "https://placehold.co/600x400?img=96132",
+      "https://placehold.co/600x400?img=64643"
+    ],
+    "creationAt": "2026-08-26T00:27:04.000Z",
+    "updatedAt": "2026-08-26T00:27:04.000Z"
+  },
+  {
+    "id": 186,
+    "title": "Producto QA 9327a62e",
+    "slug": "producto-qa-9327a62e",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T00:41:28.000Z",
+    "updatedAt": "2026-08-26T00:41:28.000Z"
+  },
+  {
+    "id": 187,
+    "title": "title-2ae9df08-c83a-4c60-9e88-6cb4efe52be7",
+    "slug": "title-2ae9df08-c83a-4c60-9e88-6cb4efe52be7",
+    "price": 491,
+    "description": "desc-902cf106-c773-4fbd-9d1c-efddcdd8e554",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=3336",
+      "https://placehold.co/600x400?img=54624"
+    ],
+    "creationAt": "2026-08-26T00:42:03.000Z",
+    "updatedAt": "2026-08-26T00:42:03.000Z"
+  },
+  {
+    "id": 189,
+    "title": "Producto QA 5f190169",
+    "slug": "producto-qa-5f190169",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T00:42:47.000Z",
+    "updatedAt": "2026-08-26T00:42:47.000Z"
+  },
+  {
+    "id": 191,
+    "title": "Producto QA bd4689f6",
+    "slug": "producto-qa-bd4689f6",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T00:44:02.000Z",
+    "updatedAt": "2026-08-26T00:44:02.000Z"
+  },
+  {
+    "id": 193,
+    "title": "Producto QA 0598dad5",
+    "slug": "producto-qa-0598dad5",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T00:44:43.000Z",
+    "updatedAt": "2026-08-26T00:44:43.000Z"
+  },
+  {
+    "id": 194,
+    "title": "title-482d18b2-dcde-458d-9cb1-92b78d43c3bc",
+    "slug": "title-482d18b2-dcde-458d-9cb1-92b78d43c3bc",
+    "price": 981,
+    "description": "desc-c9d91f5d-b096-4f52-bde1-a1170284852c",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=58343"
+    ],
+    "creationAt": "2026-08-26T00:57:02.000Z",
+    "updatedAt": "2026-08-26T00:57:02.000Z"
+  },
+  {
+    "id": 197,
+    "title": "Laptop Kirana Updated",
+    "slug": "laptop-kirana-updated",
+    "price": 6000000,
+    "description": "Laptop untuk belajar API Postman",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:02:38.000Z",
+    "updatedAt": "2026-08-26T01:09:10.000Z"
+  },
+  {
+    "id": 198,
+    "title": "pork",
+    "slug": "pork",
+    "price": 10,
+    "description": "oil",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:07:20.000Z",
+    "updatedAt": "2026-08-26T01:09:41.000Z"
+  },
+  {
+    "id": 199,
+    "title": "Produk Percobaan",
+    "slug": "produk-percobaan",
+    "price": 100,
+    "description": "Produk untuk latihan API Postman",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:07:40.000Z",
+    "updatedAt": "2026-08-26T01:07:40.000Z"
+  },
+  {
+    "id": 203,
+    "title": "title-9f284d1f-dbee-417b-9fea-1d4fec654c9e",
+    "slug": "title-9f284d1f-dbee-417b-9fea-1d4fec654c9e",
+    "price": 775,
+    "description": "desc-2b47ccc4-fcc2-49c7-83c2-f9c7b73d27c3",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T06:45:21.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=95653",
+      "https://placehold.co/600x400?img=5001"
+    ],
+    "creationAt": "2026-08-26T01:12:05.000Z",
+    "updatedAt": "2026-08-26T01:12:05.000Z"
+  },
+  {
+    "id": 204,
+    "title": "Producto QA 07d2fe35",
+    "slug": "producto-qa-07d2fe35",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:12:08.000Z",
+    "updatedAt": "2026-08-26T01:12:08.000Z"
+  },
+  {
+    "id": 205,
+    "title": "Producto QA slug 0f118117",
+    "slug": "producto-qa-slug-0f118117",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:12:09.000Z",
+    "updatedAt": "2026-08-26T01:12:09.000Z"
+  },
+  {
+    "id": 206,
+    "title": "Producto QA consulta 4f346f91",
+    "slug": "producto-qa-consulta-4f346f91",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:12:10.000Z",
+    "updatedAt": "2026-08-26T01:12:10.000Z"
+  },
+  {
+    "id": 210,
+    "title": "Producto QA 12334e0b",
+    "slug": "producto-qa-12334e0b",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:13:02.000Z",
+    "updatedAt": "2026-08-26T01:13:02.000Z"
+  },
+  {
+    "id": 211,
+    "title": "Producto QA slug cb0ec4a2",
+    "slug": "producto-qa-slug-cb0ec4a2",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:13:04.000Z",
+    "updatedAt": "2026-08-26T01:13:04.000Z"
+  },
+  {
+    "id": 212,
+    "title": "Producto QA consulta c44ad954",
+    "slug": "producto-qa-consulta-c44ad954",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:13:04.000Z",
+    "updatedAt": "2026-08-26T01:13:04.000Z"
+  },
+  {
+    "id": 215,
+    "title": "Lemari Plastik",
+    "slug": "lemari-plastik",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:14:52.000Z",
+    "updatedAt": "2026-08-26T01:14:52.000Z"
+  },
+  {
+    "id": 219,
+    "title": "Producto QA 5f4ca353",
+    "slug": "producto-qa-5f4ca353",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:15:00.000Z",
+    "updatedAt": "2026-08-26T01:15:00.000Z"
+  },
+  {
+    "id": 220,
+    "title": "Producto QA 6c54d425",
+    "slug": "producto-qa-6c54d425",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:15:01.000Z",
+    "updatedAt": "2026-08-26T01:15:01.000Z"
+  },
+  {
+    "id": 221,
+    "title": "Producto QA slug b6260e36",
+    "slug": "producto-qa-slug-b6260e36",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:15:02.000Z",
+    "updatedAt": "2026-08-26T01:15:02.000Z"
+  },
+  {
+    "id": 222,
+    "title": "Producto QA consulta 04989ac6",
+    "slug": "producto-qa-consulta-04989ac6",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:15:03.000Z",
+    "updatedAt": "2026-08-26T01:15:03.000Z"
+  },
+  {
+    "id": 223,
+    "title": "lemari anak",
+    "slug": "lemari-anak",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:18:48.000Z",
+    "updatedAt": "2026-08-26T01:18:48.000Z"
+  },
+  {
+    "id": 227,
+    "title": "Producto QA 6cf33b2e",
+    "slug": "producto-qa-6cf33b2e",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:24:58.000Z",
+    "updatedAt": "2026-08-26T01:24:58.000Z"
+  },
+  {
+    "id": 228,
+    "title": "Producto QA f3ef1af3",
+    "slug": "producto-qa-f3ef1af3",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:24:59.000Z",
+    "updatedAt": "2026-08-26T01:24:59.000Z"
+  },
+  {
+    "id": 229,
+    "title": "Producto QA slug 25e64d8f",
+    "slug": "producto-qa-slug-25e64d8f",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:25:00.000Z",
+    "updatedAt": "2026-08-26T01:25:00.000Z"
+  },
+  {
+    "id": 230,
+    "title": "Producto QA consulta 5e2ec26a",
+    "slug": "producto-qa-consulta-5e2ec26a",
+    "price": 119,
+    "description": "Producto temporal para pruebas automatizadas backend",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-26T01:25:01.000Z",
+    "updatedAt": "2026-08-26T01:25:01.000Z"
+  },
+  {
+    "id": 231,
+    "title": "title-7dbb16ac-65e4-4b0f-9395-cee8cba5c71b",
+    "slug": "title-7dbb16ac-65e4-4b0f-9395-cee8cba5c71b",
+    "price": 944,
+    "description": "desc-3acb590c-5ea9-43b6-964b-6589e12d1ce4",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=5105"
+    ],
+    "creationAt": "2026-08-26T01:27:04.000Z",
+    "updatedAt": "2026-08-26T01:27:04.000Z"
+  },
+  {
+    "id": 234,
+    "title": "Versatile bifurcated Graphical User Interface-cc290009ea714308b3908afa6f999eb6",
+    "slug": "versatile-bifurcated-graphical-user-interface-cc290009ea714308b3908afa6f999eb6",
+    "price": 58,
+    "description": "Switchable dynamic parallelism",
+    "category": {
+      "id": 154,
+      "name": "Sports & Fitness_3616879da1a34518952ff8584ec5adc3",
+      "slug": "sports-fitness-3616879da1a34518952ff8584ec5adc3",
+      "image": "http://www.hawkins.com/",
+      "creationAt": "2026-08-26T01:28:05.000Z",
+      "updatedAt": "2026-08-26T01:28:05.000Z"
+    },
+    "images": [
+      "http://www.lewis-williams.com/"
+    ],
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  {
+    "id": 239,
+    "title": "Implemented non-volatile attitude-c2990419f2d54c9188dc27371936e2b9",
+    "slug": "implemented-non-volatile-attitude-c2990419f2d54c9188dc27371936e2b9",
+    "price": 782,
+    "description": "Reverse-engineered real-time Graphical User Interface",
+    "category": {
+      "id": 158,
+      "name": "Automotive Accessories_29913de8a3a346c892f5a30eed259a8c",
+      "slug": "automotive-accessories-29913de8a3a346c892f5a30eed259a8c",
+      "image": "https://www.fox-rivas.org/",
+      "creationAt": "2026-08-26T01:28:06.000Z",
+      "updatedAt": "2026-08-26T01:28:06.000Z"
+    },
+    "images": [
+      "https://www.ortiz-hill.com/"
+    ],
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  }
+]
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/239
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/239 -> 200
+Body:
+{
+  "id": 239,
+  "title": "Implemented non-volatile attitude-c2990419f2d54c9188dc27371936e2b9",
+  "slug": "implemented-non-volatile-attitude-c2990419f2d54c9188dc27371936e2b9",
+  "price": 782,
+  "description": "Reverse-engineered real-time Graphical User Interface",
+  "category": {
+    "id": 158,
+    "name": "Automotive Accessories_29913de8a3a346c892f5a30eed259a8c",
+    "slug": "automotive-accessories-29913de8a3a346c892f5a30eed259a8c",
+    "image": "https://www.fox-rivas.org/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "https://www.ortiz-hill.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/239
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/239 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/158
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/158 -> 200
+Body:
+{
+  "id": 158,
+  "name": "Automotive Accessories_29913de8a3a346c892f5a30eed259a8c",
+  "slug": "automotive-accessories-29913de8a3a346c892f5a30eed259a8c",
+  "image": "https://www.fox-rivas.org/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/158
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/158 -> 200
+Body:
+true

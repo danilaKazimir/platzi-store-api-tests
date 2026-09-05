@@ -1,0 +1,55 @@
+2026-08-21 01:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_b2022980bf0a41d4a2919c9ea26d45ef",
+  "image": "https://www.andersen.com/"
+} 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1245,
+  "name": "Clothing_b2022980bf0a41d4a2919c9ea26d45ef",
+  "slug": "clothing-b2022980bf0a41d4a2919c9ea26d45ef",
+  "image": "https://www.andersen.com/",
+  "creationAt": "2026-08-21T01:32:38.000Z",
+  "updatedAt": "2026-08-21T01:32:38.000Z"
+}
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/1245
+Body:
+{
+  "name": "Pet Supplies_39e433ec59b84b34b4f4144d09058f78",
+  "image": null
+} 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/1245 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1245",
+  "timestamp": "2026-08-21T01:32:38.421Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1245
+Body:
+<empty> 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1245 -> 200
+Body:
+{
+  "id": 1245,
+  "name": "Clothing_b2022980bf0a41d4a2919c9ea26d45ef",
+  "slug": "clothing-b2022980bf0a41d4a2919c9ea26d45ef",
+  "image": "https://www.andersen.com/",
+  "creationAt": "2026-08-21T01:32:38.000Z",
+  "updatedAt": "2026-08-21T01:32:38.000Z"
+} 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1245
+Body:
+<empty> 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1245 -> 200
+Body:
+true

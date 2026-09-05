@@ -1,0 +1,125 @@
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_409cf8176f144fa0aebfc1ed95d9ab2b",
+  "image": "https://dean.net/"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 22,
+  "name": "Clothing_409cf8176f144fa0aebfc1ed95d9ab2b",
+  "slug": "clothing-409cf8176f144fa0aebfc1ed95d9ab2b",
+  "image": "https://dean.net/",
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-channeled optimal superstructure-62b1a859995745418afeb9754d458b05",
+  "price": 638,
+  "description": "Advanced actuating analyzer",
+  "categoryId": 22,
+  "images": [
+    "https://castillo-morgan.com/"
+  ]
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 61,
+  "title": "Multi-channeled optimal superstructure-62b1a859995745418afeb9754d458b05",
+  "slug": "multi-channeled-optimal-superstructure-62b1a859995745418afeb9754d458b05",
+  "price": 638,
+  "description": "Advanced actuating analyzer",
+  "category": {
+    "id": 22,
+    "name": "Clothing_409cf8176f144fa0aebfc1ed95d9ab2b",
+    "slug": "clothing-409cf8176f144fa0aebfc1ed95d9ab2b",
+    "image": "https://dean.net/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "https://castillo-morgan.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/61
+Body:
+{
+  "title": "Re-engineered stable focus group-0769f8e3502f46e898ac20d44a84d161",
+  "price": 224,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/61 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/61
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/61 -> 200
+Body:
+{
+  "id": 61,
+  "title": "Multi-channeled optimal superstructure-62b1a859995745418afeb9754d458b05",
+  "slug": "multi-channeled-optimal-superstructure-62b1a859995745418afeb9754d458b05",
+  "price": 638,
+  "description": "Advanced actuating analyzer",
+  "category": {
+    "id": 22,
+    "name": "Clothing_409cf8176f144fa0aebfc1ed95d9ab2b",
+    "slug": "clothing-409cf8176f144fa0aebfc1ed95d9ab2b",
+    "image": "https://dean.net/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "https://castillo-morgan.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/61
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/61 -> 200
+Body:
+true 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Clothing_409cf8176f144fa0aebfc1ed95d9ab2b",
+  "slug": "clothing-409cf8176f144fa0aebfc1ed95d9ab2b",
+  "image": "https://dean.net/",
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+true

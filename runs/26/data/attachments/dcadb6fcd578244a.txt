@@ -1,0 +1,80 @@
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Gregory Pratt",
+  "email": "martinezeddie@example.org",
+  "password": "***",
+  "avatar": "https://blake-kaufman.net/"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 9,
+  "email": "martinezeddie@example.org",
+  "password": "***",
+  "name": "Gregory Pratt",
+  "role": "customer",
+  "avatar": "https://blake-kaufman.net/",
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+}
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/9
+Body:
+{
+  "name": "Crystal Parker"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "martinezeddie@example.org",
+  "password": "***",
+  "name": "Crystal Parker",
+  "role": "customer",
+  "avatar": "https://blake-kaufman.net/",
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "martinezeddie@example.org",
+  "password": "***",
+  "name": "Crystal Parker",
+  "role": "customer",
+  "avatar": "https://blake-kaufman.net/",
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+}
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "martinezeddie@example.org",
+  "password": "***",
+  "name": "Crystal Parker",
+  "role": "customer",
+  "avatar": "https://blake-kaufman.net/",
+  "creationAt": "2026-08-08T01:50:10.000Z",
+  "updatedAt": "2026-08-08T01:50:10.000Z"
+} 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-08-08 01:50:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_87a9a058050c42e18d6f60079981ad34",
+  "image": "https://www.thompson.biz/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1193,
+  "name": "Food & Beverages_87a9a058050c42e18d6f60079981ad34",
+  "slug": "food-beverages-87a9a058050c42e18d6f60079981ad34",
+  "image": "https://www.thompson.biz/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Function-based content-based functionalities-5e659e3bcdfc4c48b7f10157952bc3ec",
+  "price": 545,
+  "description": "Synergistic secondary initiative",
+  "categoryId": 1193,
+  "images": [
+    "https://www.aguirre.biz/"
+  ]
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 761,
+  "title": "Function-based content-based functionalities-5e659e3bcdfc4c48b7f10157952bc3ec",
+  "slug": "function-based-content-based-functionalities-5e659e3bcdfc4c48b7f10157952bc3ec",
+  "price": 545,
+  "description": "Synergistic secondary initiative",
+  "category": {
+    "id": 1193,
+    "name": "Food & Beverages_87a9a058050c42e18d6f60079981ad34",
+    "slug": "food-beverages-87a9a058050c42e18d6f60079981ad34",
+    "image": "https://www.thompson.biz/",
+    "creationAt": "2026-08-17T01:25:30.000Z",
+    "updatedAt": "2026-08-17T01:25:30.000Z"
+  },
+  "images": [
+    "https://www.aguirre.biz/"
+  ],
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/761
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/761 -> 200
+Body:
+true 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/761
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/761 -> 400
+Body:
+{
+  "path": "/api/v1/products/761",
+  "timestamp": "2026-08-17T01:25:30.992Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 761\n    }\n}"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/761
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/761 -> 400
+Body:
+{
+  "path": "/api/v1/products/761",
+  "timestamp": "2026-08-17T01:25:30.997Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 761\n    }\n}"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1193
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1193 -> 200
+Body:
+{
+  "id": 1193,
+  "name": "Food & Beverages_87a9a058050c42e18d6f60079981ad34",
+  "slug": "food-beverages-87a9a058050c42e18d6f60079981ad34",
+  "image": "https://www.thompson.biz/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1193
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1193 -> 200
+Body:
+true

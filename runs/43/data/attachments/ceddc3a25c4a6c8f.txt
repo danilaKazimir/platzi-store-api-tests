@@ -1,0 +1,55 @@
+2026-08-25 01:24:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_472adfede9624f199d9d71e7108b4678",
+  "image": "http://james.net/"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 121,
+  "name": "Books_472adfede9624f199d9d71e7108b4678",
+  "slug": "books-472adfede9624f199d9d71e7108b4678",
+  "image": "http://james.net/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/121
+Body:
+{
+  "name": "Books_49f0a2f6f4b349179063e507022ae1e4",
+  "image": null
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/121 -> 400
+Body:
+{
+  "path": "/api/v1/categories/121",
+  "timestamp": "2026-08-25T01:24:11.433Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/121
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/121 -> 200
+Body:
+{
+  "id": 121,
+  "name": "Books_472adfede9624f199d9d71e7108b4678",
+  "slug": "books-472adfede9624f199d9d71e7108b4678",
+  "image": "http://james.net/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/121
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/121 -> 200
+Body:
+true

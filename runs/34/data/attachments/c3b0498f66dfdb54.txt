@@ -1,0 +1,4149 @@
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_b454cfa6ee2e424bab6c529097f696c2",
+  "image": "https://berry-smith.biz/"
+} 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2724,
+  "name": "Clothing_b454cfa6ee2e424bab6c529097f696c2",
+  "slug": "clothing-b454cfa6ee2e424bab6c529097f696c2",
+  "image": "https://berry-smith.biz/",
+  "creationAt": "2026-08-16T01:34:31.000Z",
+  "updatedAt": "2026-08-16T01:34:31.000Z"
+} 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Virtual real-time time-frame-ec56e8beee884bf1afab5367867cd68f",
+  "price": 194,
+  "description": "Mandatory encompassing monitoring",
+  "categoryId": 2724,
+  "images": [
+    "https://thompson.net/"
+  ]
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1827,
+  "title": "Virtual real-time time-frame-ec56e8beee884bf1afab5367867cd68f",
+  "slug": "virtual-real-time-time-frame-ec56e8beee884bf1afab5367867cd68f",
+  "price": 194,
+  "description": "Mandatory encompassing monitoring",
+  "category": {
+    "id": 2724,
+    "name": "Clothing_b454cfa6ee2e424bab6c529097f696c2",
+    "slug": "clothing-b454cfa6ee2e424bab6c529097f696c2",
+    "image": "https://berry-smith.biz/",
+    "creationAt": "2026-08-16T01:34:31.000Z",
+    "updatedAt": "2026-08-16T01:34:31.000Z"
+  },
+  "images": [
+    "https://thompson.net/"
+  ],
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+}
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 1056,
+    "title": "x",
+    "slug": "x",
+    "price": 1,
+    "description": "d",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-15T17:49:09.000Z",
+    "updatedAt": "2026-08-15T17:49:09.000Z"
+  },
+  {
+    "id": 1061,
+    "title": "producto de prueba b3e70777-01f8-4191-9aff-e719b838ab85",
+    "slug": "producto-de-prueba-b3e70777-01f8-4191-9aff-e719b838ab85",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:53:28.000Z",
+    "updatedAt": "2026-08-15T17:53:28.000Z"
+  },
+  {
+    "id": 1062,
+    "title": "producto de prueba 072cf06e-3d0e-4ae9-abfd-94f495536733",
+    "slug": "producto-de-prueba-072cf06e-3d0e-4ae9-abfd-94f495536733",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:53:29.000Z",
+    "updatedAt": "2026-08-15T17:53:29.000Z"
+  },
+  {
+    "id": 1063,
+    "title": "producto de prueba 5a26b492-067a-462b-9f2f-65ae3ad3919b",
+    "slug": "producto-de-prueba-5a26b492-067a-462b-9f2f-65ae3ad3919b",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:53:29.000Z",
+    "updatedAt": "2026-08-15T17:53:29.000Z"
+  },
+  {
+    "id": 1064,
+    "title": "producto de prueba 29a58e8e-8593-4331-b0fb-536096ebb81f",
+    "slug": "producto-de-prueba-29a58e8e-8593-4331-b0fb-536096ebb81f",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:08.000Z",
+    "updatedAt": "2026-08-15T17:54:08.000Z"
+  },
+  {
+    "id": 1065,
+    "title": "producto de prueba a4eec702-a2a4-459a-bcab-2d1244f663f9",
+    "slug": "producto-de-prueba-a4eec702-a2a4-459a-bcab-2d1244f663f9",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:09.000Z",
+    "updatedAt": "2026-08-15T17:54:09.000Z"
+  },
+  {
+    "id": 1066,
+    "title": "producto de prueba 83a8a4b7-ad78-4531-90d6-775c0a143b08",
+    "slug": "producto-de-prueba-83a8a4b7-ad78-4531-90d6-775c0a143b08",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:09.000Z",
+    "updatedAt": "2026-08-15T17:54:09.000Z"
+  },
+  {
+    "id": 1067,
+    "title": "producto de prueba 83f900e7-ddfc-4ed4-ab1b-85b10501f661",
+    "slug": "producto-de-prueba-83f900e7-ddfc-4ed4-ab1b-85b10501f661",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:09.000Z",
+    "updatedAt": "2026-08-15T17:54:09.000Z"
+  },
+  {
+    "id": 1068,
+    "title": "producto de prueba 9688f78b-a1cf-4eb0-a25f-f385fb058db6",
+    "slug": "producto-de-prueba-9688f78b-a1cf-4eb0-a25f-f385fb058db6",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:10.000Z",
+    "updatedAt": "2026-08-15T17:54:10.000Z"
+  },
+  {
+    "id": 1069,
+    "title": "producto de prueba 42cd6af2-952b-4d60-8a7b-c365b7acb030",
+    "slug": "producto-de-prueba-42cd6af2-952b-4d60-8a7b-c365b7acb030",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:39.000Z",
+    "updatedAt": "2026-08-15T17:54:39.000Z"
+  },
+  {
+    "id": 1070,
+    "title": "producto de prueba 3eb04a7e-1a3e-42c4-98fb-cf505e3d9c9c",
+    "slug": "producto-de-prueba-3eb04a7e-1a3e-42c4-98fb-cf505e3d9c9c",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:39.000Z",
+    "updatedAt": "2026-08-15T17:54:39.000Z"
+  },
+  {
+    "id": 1071,
+    "title": "producto de prueba f8e6fbff-2d3c-4035-b87a-a6e9b7da41ed",
+    "slug": "producto-de-prueba-f8e6fbff-2d3c-4035-b87a-a6e9b7da41ed",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:40.000Z",
+    "updatedAt": "2026-08-15T17:54:40.000Z"
+  },
+  {
+    "id": 1072,
+    "title": "producto de prueba 3c895268-88d5-485b-9c68-51500674261f",
+    "slug": "producto-de-prueba-3c895268-88d5-485b-9c68-51500674261f",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:40.000Z",
+    "updatedAt": "2026-08-15T17:54:40.000Z"
+  },
+  {
+    "id": 1073,
+    "title": "producto de prueba d0913722-58d0-4b78-b817-6365cb46dff4",
+    "slug": "producto-de-prueba-d0913722-58d0-4b78-b817-6365cb46dff4",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:40.000Z",
+    "updatedAt": "2026-08-15T17:54:40.000Z"
+  },
+  {
+    "id": 1074,
+    "title": "producto de prueba e38048df-6697-4f6b-a950-ae17cf66b38f",
+    "slug": "producto-de-prueba-e38048df-6697-4f6b-a950-ae17cf66b38f",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:56.000Z",
+    "updatedAt": "2026-08-15T17:54:56.000Z"
+  },
+  {
+    "id": 1075,
+    "title": "producto de prueba aed08f84-336a-42a3-b722-ce905d1db45c",
+    "slug": "producto-de-prueba-aed08f84-336a-42a3-b722-ce905d1db45c",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:56.000Z",
+    "updatedAt": "2026-08-15T17:54:56.000Z"
+  },
+  {
+    "id": 1076,
+    "title": "producto de prueba 185c895b-d3d3-4a72-b92e-31ea6da51cba",
+    "slug": "producto-de-prueba-185c895b-d3d3-4a72-b92e-31ea6da51cba",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:56.000Z",
+    "updatedAt": "2026-08-15T17:54:56.000Z"
+  },
+  {
+    "id": 1077,
+    "title": "producto de prueba e7c43f16-b52c-4761-87fb-447bd49d619d",
+    "slug": "producto-de-prueba-e7c43f16-b52c-4761-87fb-447bd49d619d",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:57.000Z",
+    "updatedAt": "2026-08-15T17:54:57.000Z"
+  },
+  {
+    "id": 1078,
+    "title": "producto de prueba c53a7cae-b928-4421-8b73-1c4648bf7011",
+    "slug": "producto-de-prueba-c53a7cae-b928-4421-8b73-1c4648bf7011",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T17:54:57.000Z",
+    "updatedAt": "2026-08-15T17:54:57.000Z"
+  },
+  {
+    "id": 1082,
+    "title": "updatedTitle",
+    "slug": "updatedtitle",
+    "price": 45,
+    "description": "actualizado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/c.jpg"
+    ],
+    "creationAt": "2026-08-15T17:55:37.000Z",
+    "updatedAt": "2026-08-15T17:55:37.000Z"
+  },
+  {
+    "id": 1102,
+    "title": "title-46ecdceb-7d31-4f7e-a068-64eba1193334",
+    "slug": "title-46ecdceb-7d31-4f7e-a068-64eba1193334",
+    "price": 880,
+    "description": "desc-09074d13-06e3-4114-b3a8-a3b662126243",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=89163"
+    ],
+    "creationAt": "2026-08-15T17:57:02.000Z",
+    "updatedAt": "2026-08-15T17:57:02.000Z"
+  },
+  {
+    "id": 1145,
+    "title": "producto de prueba 54dfaa1c-8dab-4e26-b961-dc6132fec51d",
+    "slug": "producto-de-prueba-54dfaa1c-8dab-4e26-b961-dc6132fec51d",
+    "price": 25,
+    "description": "creado por la automatizacion",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:04:52.000Z",
+    "updatedAt": "2026-08-15T18:04:52.000Z"
+  },
+  {
+    "id": 1146,
+    "title": "test product 4875f7b1-ef5b-4ddb-a261-1724af932b63",
+    "slug": "test-product-4875f7b1-ef5b-4ddb-a261-1724af932b63",
+    "price": 25,
+    "description": "created by the automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:05:54.000Z",
+    "updatedAt": "2026-08-15T18:05:54.000Z"
+  },
+  {
+    "id": 1147,
+    "title": "test product c56a5c62-5cfb-443d-8953-b2808bc515c4",
+    "slug": "test-product-c56a5c62-5cfb-443d-8953-b2808bc515c4",
+    "price": 25,
+    "description": "created by the automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:06:50.000Z",
+    "updatedAt": "2026-08-15T18:06:50.000Z"
+  },
+  {
+    "id": 1148,
+    "title": "test product 8e651512-70a7-4f8e-a89e-f08e38f6ee3d",
+    "slug": "test-product-8e651512-70a7-4f8e-a89e-f08e38f6ee3d",
+    "price": 25,
+    "description": "created by the automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:08:09.000Z",
+    "updatedAt": "2026-08-15T18:08:09.000Z"
+  },
+  {
+    "id": 1149,
+    "title": "test product fc5aadc9-3f06-432e-bc74-68d1d72c6b30",
+    "slug": "test-product-fc5aadc9-3f06-432e-bc74-68d1d72c6b30",
+    "price": 25,
+    "description": "created by the automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:10:58.000Z",
+    "updatedAt": "2026-08-15T18:10:58.000Z"
+  },
+  {
+    "id": 1150,
+    "title": "test product e5784917-a960-4789-934a-96b14dc1e594",
+    "slug": "test-product-e5784917-a960-4789-934a-96b14dc1e594",
+    "price": 25,
+    "description": "created by the automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:10:59.000Z",
+    "updatedAt": "2026-08-15T18:10:59.000Z"
+  },
+  {
+    "id": 1151,
+    "title": "test product a5129d34-e5db-45a6-a0df-b0fab50b9d83",
+    "slug": "test-product-a5129d34-e5db-45a6-a0df-b0fab50b9d83",
+    "price": 25,
+    "description": "created by the automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T18:11:40.000Z",
+    "updatedAt": "2026-08-15T18:11:40.000Z"
+  },
+  {
+    "id": 1152,
+    "title": "title-a5748e3c-5fa4-4ae6-966a-a70d315c781d",
+    "slug": "title-a5748e3c-5fa4-4ae6-966a-a70d315c781d",
+    "price": 394,
+    "description": "desc-f6637b87-7647-4a6d-a6fa-fe979c232345",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=50874",
+      "https://placehold.co/600x400?img=64995"
+    ],
+    "creationAt": "2026-08-15T18:12:06.000Z",
+    "updatedAt": "2026-08-15T18:12:06.000Z"
+  },
+  {
+    "id": 1153,
+    "title": "title-e3b72a46-1cae-4706-bfcc-9e3f61d6daab",
+    "slug": "title-e3b72a46-1cae-4706-bfcc-9e3f61d6daab",
+    "price": 34,
+    "description": "desc-5e7dd8d8-3c81-4fa7-a401-274e5a885aec",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=4558"
+    ],
+    "creationAt": "2026-08-15T18:27:05.000Z",
+    "updatedAt": "2026-08-15T18:27:05.000Z"
+  },
+  {
+    "id": 1169,
+    "title": "title-229ed013-e06d-425c-8ece-f83f895db0aa",
+    "slug": "title-229ed013-e06d-425c-8ece-f83f895db0aa",
+    "price": 211,
+    "description": "desc-29fb9453-5b3a-4523-aab4-e2d02ea70a31",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=90970",
+      "https://placehold.co/600x400?img=27675"
+    ],
+    "creationAt": "2026-08-15T18:42:03.000Z",
+    "updatedAt": "2026-08-15T18:42:03.000Z"
+  },
+  {
+    "id": 1279,
+    "title": "title-194bf2aa-89ee-4046-bb81-df8c65a355db",
+    "slug": "title-194bf2aa-89ee-4046-bb81-df8c65a355db",
+    "price": 834,
+    "description": "desc-8abc0678-fd80-4527-b357-9eca2f26ca50",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=46185",
+      "https://placehold.co/600x400?img=94633",
+      "https://placehold.co/600x400?img=49424"
+    ],
+    "creationAt": "2026-08-15T18:57:02.000Z",
+    "updatedAt": "2026-08-15T18:57:02.000Z"
+  },
+  {
+    "id": 1356,
+    "title": "title-2a218c26-fa12-4d08-93ad-9fe92c34d4f1",
+    "slug": "title-2a218c26-fa12-4d08-93ad-9fe92c34d4f1",
+    "price": 765,
+    "description": "desc-8ac66add-0af1-46c4-984b-f171dbf44fa3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=26096"
+    ],
+    "creationAt": "2026-08-15T19:12:06.000Z",
+    "updatedAt": "2026-08-15T19:12:06.000Z"
+  },
+  {
+    "id": 1379,
+    "title": "title-d3d5ceb8-200d-4d0a-9ae1-29ec48b70ad4",
+    "slug": "title-d3d5ceb8-200d-4d0a-9ae1-29ec48b70ad4",
+    "price": 370,
+    "description": "desc-39ae41f0-ffcf-4c58-984b-51eefd753cf7",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=28420",
+      "https://placehold.co/600x400?img=39535",
+      "https://placehold.co/600x400?img=1353"
+    ],
+    "creationAt": "2026-08-15T19:27:02.000Z",
+    "updatedAt": "2026-08-15T19:27:02.000Z"
+  },
+  {
+    "id": 1414,
+    "title": "title-f138af19-8bbe-4b02-8e8b-2a72f500f71d",
+    "slug": "title-f138af19-8bbe-4b02-8e8b-2a72f500f71d",
+    "price": 61,
+    "description": "desc-b6070bd8-1b05-4cbc-9a4d-a71d23c61148",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=7466",
+      "https://placehold.co/600x400?img=79",
+      "https://placehold.co/600x400?img=14383"
+    ],
+    "creationAt": "2026-08-15T19:42:13.000Z",
+    "updatedAt": "2026-08-15T19:42:13.000Z"
+  },
+  {
+    "id": 1460,
+    "title": "title-68e87789-b92a-4f00-b731-9987d45face7",
+    "slug": "title-68e87789-b92a-4f00-b731-9987d45face7",
+    "price": 546,
+    "description": "desc-bb23e387-6139-4d1c-8ed7-32ebe1969dd5",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=18677"
+    ],
+    "creationAt": "2026-08-15T19:57:02.000Z",
+    "updatedAt": "2026-08-15T19:57:02.000Z"
+  },
+  {
+    "id": 1506,
+    "title": "title-41367a55-de2d-4ea7-87da-aebbdf35fe61",
+    "slug": "title-41367a55-de2d-4ea7-87da-aebbdf35fe61",
+    "price": 834,
+    "description": "desc-d691e5d7-d8a0-4bb1-947d-5eff321c4318",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49417"
+    ],
+    "creationAt": "2026-08-15T20:12:06.000Z",
+    "updatedAt": "2026-08-15T20:12:06.000Z"
+  },
+  {
+    "id": 1537,
+    "title": "title-34f9a0cb-8129-48a5-935c-3242b1d4abd8",
+    "slug": "title-34f9a0cb-8129-48a5-935c-3242b1d4abd8",
+    "price": 833,
+    "description": "desc-b484a9ee-64b3-49f0-9de2-ac316333e66b",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=67094",
+      "https://placehold.co/600x400?img=18571",
+      "https://placehold.co/600x400?img=3960"
+    ],
+    "creationAt": "2026-08-15T20:27:05.000Z",
+    "updatedAt": "2026-08-15T20:27:05.000Z"
+  },
+  {
+    "id": 1538,
+    "title": "title-6fea0303-77dd-41f9-a090-d9ea459dfebb",
+    "slug": "title-6fea0303-77dd-41f9-a090-d9ea459dfebb",
+    "price": 381,
+    "description": "desc-3fbd6d4a-7cc0-473a-b07b-4143864ecbc9",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=83879",
+      "https://placehold.co/600x400?img=98717",
+      "https://placehold.co/600x400?img=6443"
+    ],
+    "creationAt": "2026-08-15T20:42:04.000Z",
+    "updatedAt": "2026-08-15T20:42:04.000Z"
+  },
+  {
+    "id": 1539,
+    "title": "title-2ea2cfde-83d6-41eb-a142-44ef9b73e0f9",
+    "slug": "title-2ea2cfde-83d6-41eb-a142-44ef9b73e0f9",
+    "price": 291,
+    "description": "desc-565ac2f1-d3e4-46c6-aa21-ac571ea5c937",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=29344",
+      "https://placehold.co/600x400?img=71897"
+    ],
+    "creationAt": "2026-08-15T20:57:03.000Z",
+    "updatedAt": "2026-08-15T20:57:03.000Z"
+  },
+  {
+    "id": 1540,
+    "title": "Estelle_Cruickshank53",
+    "slug": "estelle-cruickshank53",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 6,
+      "name": "Testing Category",
+      "slug": "testing-category",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T06:00:56.000Z",
+      "updatedAt": "2026-08-15T06:00:56.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-15T21:02:21.000Z",
+    "updatedAt": "2026-08-15T21:02:21.000Z"
+  },
+  {
+    "id": 1541,
+    "title": "string",
+    "slug": "string",
+    "price": 100,
+    "description": "string",
+    "category": {
+      "id": 2681,
+      "name": "string",
+      "slug": "string",
+      "image": "https://pravatar.cc/",
+      "creationAt": "2026-08-15T21:03:49.000Z",
+      "updatedAt": "2026-08-15T21:03:49.000Z"
+    },
+    "images": [
+      "https://pravatar.cc/"
+    ],
+    "creationAt": "2026-08-15T21:03:50.000Z",
+    "updatedAt": "2026-08-15T21:03:50.000Z"
+  },
+  {
+    "id": 1542,
+    "title": "product_2",
+    "slug": "product-2",
+    "price": 100,
+    "description": "string",
+    "category": {
+      "id": 40,
+      "name": "Electronics from Config-bbcafb48-b88f-4e7b-b2f5-1ca75f6d3fbd",
+      "slug": "electronics-from-config-bbcafb48-b88f-4e7b-b2f5-1ca75f6d3fbd",
+      "image": "https://placehold.co/600x400",
+      "creationAt": "2026-08-15T07:52:13.000Z",
+      "updatedAt": "2026-08-15T07:52:13.000Z"
+    },
+    "images": [
+      "https://pravatar.cc/"
+    ],
+    "creationAt": "2026-08-15T21:04:03.000Z",
+    "updatedAt": "2026-08-15T21:04:03.000Z"
+  },
+  {
+    "id": 1543,
+    "title": "title-5b5506de-e472-4c4c-8f16-a519f892b28f",
+    "slug": "title-5b5506de-e472-4c4c-8f16-a519f892b28f",
+    "price": 442,
+    "description": "desc-9ae869d6-852b-4598-9018-f878ba6a663b",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=73230"
+    ],
+    "creationAt": "2026-08-15T21:12:06.000Z",
+    "updatedAt": "2026-08-15T21:12:06.000Z"
+  },
+  {
+    "id": 1545,
+    "title": "title-39628136-50e5-4c09-95f3-8f9b3c8285d5",
+    "slug": "title-39628136-50e5-4c09-95f3-8f9b3c8285d5",
+    "price": 371,
+    "description": "desc-5d038695-93ff-4976-ad6a-3bc1f45097d4",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=46490",
+      "https://placehold.co/600x400?img=7300",
+      "https://placehold.co/600x400?img=50357"
+    ],
+    "creationAt": "2026-08-15T21:27:05.000Z",
+    "updatedAt": "2026-08-15T21:27:05.000Z"
+  },
+  {
+    "id": 1547,
+    "title": "Camiseta",
+    "slug": "camiseta",
+    "price": 5,
+    "description": "Camiseta muito bonita",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/QkIa5tT.jpeg"
+    ],
+    "creationAt": "2026-08-15T21:35:50.000Z",
+    "updatedAt": "2026-08-15T21:35:50.000Z"
+  },
+  {
+    "id": 1549,
+    "title": "Oi",
+    "slug": "oi",
+    "price": 75,
+    "description": "asas",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/1twoaDy.jpeg"
+    ],
+    "creationAt": "2026-08-15T21:41:50.000Z",
+    "updatedAt": "2026-08-15T21:42:04.000Z"
+  },
+  {
+    "id": 1550,
+    "title": "title-0ea7833f-a6e0-43bd-b760-d10e4935b34b",
+    "slug": "title-0ea7833f-a6e0-43bd-b760-d10e4935b34b",
+    "price": 900,
+    "description": "desc-91694aa4-d106-4e9f-a374-2af2e704453f",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=85811"
+    ],
+    "creationAt": "2026-08-15T21:42:03.000Z",
+    "updatedAt": "2026-08-15T21:42:03.000Z"
+  },
+  {
+    "id": 1551,
+    "title": "sdsds",
+    "slug": "sdsds",
+    "price": 56,
+    "description": "asas",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/1twoaDy.jpeg"
+    ],
+    "creationAt": "2026-08-15T21:42:17.000Z",
+    "updatedAt": "2026-08-15T21:42:27.000Z"
+  },
+  {
+    "id": 1552,
+    "title": "asas",
+    "slug": "asas",
+    "price": 15,
+    "description": "asasas",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/R2PN9Wq.jpeg"
+    ],
+    "creationAt": "2026-08-15T21:43:39.000Z",
+    "updatedAt": "2026-08-15T21:44:16.000Z"
+  },
+  {
+    "id": 1553,
+    "title": "asasa",
+    "slug": "asasa",
+    "price": 11,
+    "description": "ass",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/1twoaDy.jpeg"
+    ],
+    "creationAt": "2026-08-15T21:44:41.000Z",
+    "updatedAt": "2026-08-15T21:44:41.000Z"
+  },
+  {
+    "id": 1554,
+    "title": "title-bbe5394c-3617-4ee3-b948-61056110578c",
+    "slug": "title-bbe5394c-3617-4ee3-b948-61056110578c",
+    "price": 121,
+    "description": "desc-ea5a1474-e06c-4f80-92a4-fe83dbe5997a",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=32907",
+      "https://placehold.co/600x400?img=97930",
+      "https://placehold.co/600x400?img=82610"
+    ],
+    "creationAt": "2026-08-15T21:57:05.000Z",
+    "updatedAt": "2026-08-15T21:57:05.000Z"
+  },
+  {
+    "id": 1555,
+    "title": "title-7a3cee84-a602-4c39-8f87-5ee126c19ddc",
+    "slug": "title-7a3cee84-a602-4c39-8f87-5ee126c19ddc",
+    "price": 435,
+    "description": "desc-4876ca0b-1d94-4e32-82c2-fcbe0bc47aab",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=63602"
+    ],
+    "creationAt": "2026-08-15T22:12:07.000Z",
+    "updatedAt": "2026-08-15T22:12:07.000Z"
+  },
+  {
+    "id": 1556,
+    "title": "Aurora Launch Hoodie — Limited Edition",
+    "slug": "aurora-launch-hoodie-limited-edition",
+    "price": 45,
+    "description": "Heavyweight fleece hoodie from the Aurora Autumn 2026 launch collection.",
+    "category": {
+      "id": 2687,
+      "name": "Aurora Launch Collection — Autumn 2026",
+      "slug": "aurora-launch-collection-autumn-2026",
+      "image": "https://picsum.photos/seed/aurora-launch/800/600",
+      "creationAt": "2026-08-15T22:22:02.000Z",
+      "updatedAt": "2026-08-15T22:22:02.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/aurora-hoodie/800/600"
+    ],
+    "creationAt": "2026-08-15T22:22:34.000Z",
+    "updatedAt": "2026-08-15T22:22:34.000Z"
+  },
+  {
+    "id": 1557,
+    "title": "Aurora Launch Tote — Limited Edition",
+    "slug": "aurora-launch-tote-limited-edition",
+    "price": 55,
+    "description": "Canvas tote with Aurora Autumn 2026 launch artwork.",
+    "category": {
+      "id": 2687,
+      "name": "Aurora Launch Collection — Autumn 2026",
+      "slug": "aurora-launch-collection-autumn-2026",
+      "image": "https://picsum.photos/seed/aurora-launch/800/600",
+      "creationAt": "2026-08-15T22:22:02.000Z",
+      "updatedAt": "2026-08-15T22:22:02.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/aurora-tote/800/600"
+    ],
+    "creationAt": "2026-08-15T22:22:41.000Z",
+    "updatedAt": "2026-08-15T22:22:41.000Z"
+  },
+  {
+    "id": 1558,
+    "title": "title-f676544e-a4fb-4646-8eac-2644562dbc56",
+    "slug": "title-f676544e-a4fb-4646-8eac-2644562dbc56",
+    "price": 199,
+    "description": "desc-b8f205bf-a87a-4c78-939f-dd15263bcb00",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=20135",
+      "https://placehold.co/600x400?img=96565"
+    ],
+    "creationAt": "2026-08-15T22:27:04.000Z",
+    "updatedAt": "2026-08-15T22:27:04.000Z"
+  },
+  {
+    "id": 1559,
+    "title": "BZ2-qa-1-1786832696 transition ledger 1",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-1",
+    "price": 40,
+    "description": "transition ledger row 1",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:31:38.000Z",
+    "updatedAt": "2026-08-15T22:31:38.000Z"
+  },
+  {
+    "id": 1560,
+    "title": "BZ2-qa-1-1786832696 transition ledger 2",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-2",
+    "price": 41,
+    "description": "transition ledger row 2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:31:46.000Z",
+    "updatedAt": "2026-08-15T22:31:46.000Z"
+  },
+  {
+    "id": 1561,
+    "title": "BZ2-qa-1-1786832696 transition ledger 3",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-3",
+    "price": 42,
+    "description": "transition ledger row 3",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:31:48.000Z",
+    "updatedAt": "2026-08-15T22:31:48.000Z"
+  },
+  {
+    "id": 1562,
+    "title": "BZ2-qa-1-1786832696 transition ledger 4",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-4",
+    "price": 43,
+    "description": "transition ledger row 4",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:31:57.000Z",
+    "updatedAt": "2026-08-15T22:31:57.000Z"
+  },
+  {
+    "id": 1563,
+    "title": "BZ2-qa-1-1786832696 transition ledger 5",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-5",
+    "price": 44,
+    "description": "transition ledger row 5",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:02.000Z",
+    "updatedAt": "2026-08-15T22:32:02.000Z"
+  },
+  {
+    "id": 1564,
+    "title": "BZ2-qa-1-1786832696 transition ledger 6",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-6",
+    "price": 45,
+    "description": "transition ledger row 6",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:03.000Z",
+    "updatedAt": "2026-08-15T22:32:03.000Z"
+  },
+  {
+    "id": 1565,
+    "title": "BZ2-qa-1-1786832696 transition ledger 7",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-7",
+    "price": 46,
+    "description": "transition ledger row 7",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:08.000Z",
+    "updatedAt": "2026-08-15T22:32:08.000Z"
+  },
+  {
+    "id": 1566,
+    "title": "BZ2-qa-1-1786832696 transition ledger 8",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-8",
+    "price": 47,
+    "description": "transition ledger row 8",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:16.000Z",
+    "updatedAt": "2026-08-15T22:32:16.000Z"
+  },
+  {
+    "id": 1567,
+    "title": "BZ2-qa-1-1786832696 transition ledger 9",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-9",
+    "price": 48,
+    "description": "transition ledger row 9",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:25.000Z",
+    "updatedAt": "2026-08-15T22:32:25.000Z"
+  },
+  {
+    "id": 1568,
+    "title": "BZ2-qa-1-1786832696 transition ledger 10",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-10",
+    "price": 49,
+    "description": "transition ledger row 10",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:26.000Z",
+    "updatedAt": "2026-08-15T22:32:26.000Z"
+  },
+  {
+    "id": 1569,
+    "title": "BZ2-qa-1-1786832696 transition ledger 11",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-11",
+    "price": 50,
+    "description": "transition ledger row 11",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:31.000Z",
+    "updatedAt": "2026-08-15T22:32:31.000Z"
+  },
+  {
+    "id": 1570,
+    "title": "BZ2-qa-1-1786832696 transition ledger 12",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-12",
+    "price": 51,
+    "description": "transition ledger row 12",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:32.000Z",
+    "updatedAt": "2026-08-15T22:32:32.000Z"
+  },
+  {
+    "id": 1571,
+    "title": "BZ2-qa-1-1786832696 transition ledger 13",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-13",
+    "price": 52,
+    "description": "transition ledger row 13",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:34.000Z",
+    "updatedAt": "2026-08-15T22:32:34.000Z"
+  },
+  {
+    "id": 1572,
+    "title": "BZ2-qa-1-1786832696 transition ledger 14",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-14",
+    "price": 53,
+    "description": "transition ledger row 14",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:42.000Z",
+    "updatedAt": "2026-08-15T22:32:42.000Z"
+  },
+  {
+    "id": 1573,
+    "title": "BZ2-qa-1-1786832696 transition ledger 15",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-15",
+    "price": 54,
+    "description": "transition ledger row 15",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:50.000Z",
+    "updatedAt": "2026-08-15T22:32:50.000Z"
+  },
+  {
+    "id": 1574,
+    "title": "BZ2-qa-1-1786832696 transition ledger 16",
+    "slug": "bz2-qa-1-1786832696-transition-ledger-16",
+    "price": 55,
+    "description": "transition ledger row 16",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:32:58.000Z",
+    "updatedAt": "2026-08-15T22:32:58.000Z"
+  },
+  {
+    "id": 1575,
+    "title": "BZ2-qa-1-1786832696 transition dossier id1",
+    "slug": "bz2-qa-1-1786832696-transition-dossier-id1",
+    "price": 160,
+    "description": "transition dossier row 1",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:33:21.000Z",
+    "updatedAt": "2026-08-15T22:33:21.000Z"
+  },
+  {
+    "id": 1576,
+    "title": "BZ2-qa-1-1786832696 transition dossier id2",
+    "slug": "bz2-qa-1-1786832696-transition-dossier-id2",
+    "price": 161,
+    "description": "transition dossier row 2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:33:29.000Z",
+    "updatedAt": "2026-08-15T22:33:29.000Z"
+  },
+  {
+    "id": 1577,
+    "title": "BZ2-qa-1-1786832696 transition dossier id3",
+    "slug": "bz2-qa-1-1786832696-transition-dossier-id3",
+    "price": 162,
+    "description": "transition dossier row 3",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:33:34.000Z",
+    "updatedAt": "2026-08-15T22:33:34.000Z"
+  },
+  {
+    "id": 1578,
+    "title": "BZ2-qa-1-1786832696 transition dossier id4",
+    "slug": "bz2-qa-1-1786832696-transition-dossier-id4",
+    "price": 163,
+    "description": "transition dossier row 4",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:33:35.000Z",
+    "updatedAt": "2026-08-15T22:33:35.000Z"
+  },
+  {
+    "id": 1579,
+    "title": "BZ2-qa-1-1786832696 transition dossier id5",
+    "slug": "bz2-qa-1-1786832696-transition-dossier-id5",
+    "price": 164,
+    "description": "transition dossier row 5",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2fcd.png"
+    ],
+    "creationAt": "2026-08-15T22:33:43.000Z",
+    "updatedAt": "2026-08-15T22:33:43.000Z"
+  },
+  {
+    "id": 1580,
+    "title": "title-a3012abf-55f4-4ac2-a71f-dba8c849f49d",
+    "slug": "title-a3012abf-55f4-4ac2-a71f-dba8c849f49d",
+    "price": 675,
+    "description": "desc-bdbba306-e46b-4d09-b7b4-68fef79702e2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=33023",
+      "https://placehold.co/600x400?img=62696",
+      "https://placehold.co/600x400?img=16139"
+    ],
+    "creationAt": "2026-08-15T22:42:06.000Z",
+    "updatedAt": "2026-08-15T22:42:06.000Z"
+  },
+  {
+    "id": 1581,
+    "title": "Final-Bench-knx7b3qk9mz2",
+    "slug": "final-bench-knx7b3qk9mz2",
+    "price": 497,
+    "description": "bench staging product",
+    "category": {
+      "id": 2688,
+      "name": "Bench-knx7b3qk9mz2",
+      "slug": "bench-knx7b3qk9mz2",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T22:43:32.000Z",
+      "updatedAt": "2026-08-15T22:43:32.000Z"
+    },
+    "images": [
+      "https://placeimg.com/640/480/any"
+    ],
+    "creationAt": "2026-08-15T22:43:46.000Z",
+    "updatedAt": "2026-08-15T22:46:40.000Z"
+  },
+  {
+    "id": 1582,
+    "title": "test product f5894a7f-ab67-4a74-8a7a-898b3ff8905a",
+    "slug": "test-product-f5894a7f-ab67-4a74-8a7a-898b3ff8905a",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:45:57.000Z",
+    "updatedAt": "2026-08-15T22:45:57.000Z"
+  },
+  {
+    "id": 1583,
+    "title": "test product cf1d0798-b364-43fb-8bbc-d3711a1d8062",
+    "slug": "test-product-cf1d0798-b364-43fb-8bbc-d3711a1d8062",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:45:58.000Z",
+    "updatedAt": "2026-08-15T22:45:58.000Z"
+  },
+  {
+    "id": 1584,
+    "title": "test product b4b8e30e-a1be-48cc-9f31-715f13fe7d9e",
+    "slug": "test-product-b4b8e30e-a1be-48cc-9f31-715f13fe7d9e",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:50:15.000Z",
+    "updatedAt": "2026-08-15T22:50:15.000Z"
+  },
+  {
+    "id": 1585,
+    "title": "test product e79aff06-fe22-43cc-a570-8aec240ff67a",
+    "slug": "test-product-e79aff06-fe22-43cc-a570-8aec240ff67a",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:50:16.000Z",
+    "updatedAt": "2026-08-15T22:50:16.000Z"
+  },
+  {
+    "id": 1587,
+    "title": "update test 1786834372",
+    "slug": "update-test-1786834372",
+    "price": 10,
+    "description": "x",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-15T22:52:52.000Z",
+    "updatedAt": "2026-08-15T22:52:52.000Z"
+  },
+  {
+    "id": 1588,
+    "title": "test product 4015b9f0-d47c-4293-9447-44d956287fc4",
+    "slug": "test-product-4015b9f0-d47c-4293-9447-44d956287fc4",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:53:55.000Z",
+    "updatedAt": "2026-08-15T22:53:55.000Z"
+  },
+  {
+    "id": 1589,
+    "title": "test product 78ceeeb9-a4f9-45fb-bad4-9d311ad50d65",
+    "slug": "test-product-78ceeeb9-a4f9-45fb-bad4-9d311ad50d65",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:53:55.000Z",
+    "updatedAt": "2026-08-15T22:53:55.000Z"
+  },
+  {
+    "id": 1590,
+    "title": "test product 20b32d12-7e54-4984-a48a-83335d4a64d4",
+    "slug": "test-product-20b32d12-7e54-4984-a48a-83335d4a64d4",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:53:56.000Z",
+    "updatedAt": "2026-08-15T22:53:56.000Z"
+  },
+  {
+    "id": 1591,
+    "title": "test product 0797d6f1-1714-46a0-bf4e-faff04a00fa6",
+    "slug": "test-product-0797d6f1-1714-46a0-bf4e-faff04a00fa6",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:53:57.000Z",
+    "updatedAt": "2026-08-15T22:53:57.000Z"
+  },
+  {
+    "id": 1592,
+    "title": "test product 8c6f6631-e0be-4cfc-99e9-103ee74fdd05",
+    "slug": "test-product-8c6f6631-e0be-4cfc-99e9-103ee74fdd05",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:53:58.000Z",
+    "updatedAt": "2026-08-15T22:53:58.000Z"
+  },
+  {
+    "id": 1593,
+    "title": "test product d6010283-fa38-4e07-b087-09182cccb42d",
+    "slug": "test-product-d6010283-fa38-4e07-b087-09182cccb42d",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:53:59.000Z",
+    "updatedAt": "2026-08-15T22:53:59.000Z"
+  },
+  {
+    "id": 1594,
+    "title": "test product update 07422686-D399-46D8-9A5F-08F56B37737C",
+    "slug": "test-product-update-07422686-d399-46d8-9a5f-08f56b37737c",
+    "price": 20,
+    "description": "Update by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:14.000Z",
+    "updatedAt": "2026-08-15T22:54:14.000Z"
+  },
+  {
+    "id": 1595,
+    "title": "test product cc8c56dd-4e72-4534-89d3-0cddb8c8e14d",
+    "slug": "test-product-cc8c56dd-4e72-4534-89d3-0cddb8c8e14d",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:25.000Z",
+    "updatedAt": "2026-08-15T22:54:25.000Z"
+  },
+  {
+    "id": 1596,
+    "title": "test product 61af89dd-5100-4f21-8d07-65fd8646ffcd",
+    "slug": "test-product-61af89dd-5100-4f21-8d07-65fd8646ffcd",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:26.000Z",
+    "updatedAt": "2026-08-15T22:54:26.000Z"
+  },
+  {
+    "id": 1597,
+    "title": "test product b1cf9aed-474c-4464-bb7e-d396bcd47ec5",
+    "slug": "test-product-b1cf9aed-474c-4464-bb7e-d396bcd47ec5",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:26.000Z",
+    "updatedAt": "2026-08-15T22:54:26.000Z"
+  },
+  {
+    "id": 1598,
+    "title": "test product 65a548ac-386c-4c98-b6d1-149d02c1640b",
+    "slug": "test-product-65a548ac-386c-4c98-b6d1-149d02c1640b",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:30.000Z",
+    "updatedAt": "2026-08-15T22:54:30.000Z"
+  },
+  {
+    "id": 1599,
+    "title": "test product b3c41945-1523-4b2f-9235-91f828a19ce8",
+    "slug": "test-product-b3c41945-1523-4b2f-9235-91f828a19ce8",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:30.000Z",
+    "updatedAt": "2026-08-15T22:54:30.000Z"
+  },
+  {
+    "id": 1600,
+    "title": "test product f15439b0-b71f-4bb7-8b91-43e6941c09c7",
+    "slug": "test-product-f15439b0-b71f-4bb7-8b91-43e6941c09c7",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:31.000Z",
+    "updatedAt": "2026-08-15T22:54:31.000Z"
+  },
+  {
+    "id": 1601,
+    "title": "test product 7058a775-3097-4160-bbdf-deea375fcd1b",
+    "slug": "test-product-7058a775-3097-4160-bbdf-deea375fcd1b",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:35.000Z",
+    "updatedAt": "2026-08-15T22:54:35.000Z"
+  },
+  {
+    "id": 1602,
+    "title": "test product 599777ba-da44-4fdf-a5d0-c4f8825c9ea6",
+    "slug": "test-product-599777ba-da44-4fdf-a5d0-c4f8825c9ea6",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:35.000Z",
+    "updatedAt": "2026-08-15T22:54:35.000Z"
+  },
+  {
+    "id": 1603,
+    "title": "test product d828f756-5b90-4927-bea8-c67fb99f44da",
+    "slug": "test-product-d828f756-5b90-4927-bea8-c67fb99f44da",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:36.000Z",
+    "updatedAt": "2026-08-15T22:54:36.000Z"
+  },
+  {
+    "id": 1604,
+    "title": "test product 95ad9985-f7d8-49a6-8123-c105307a20f5",
+    "slug": "test-product-95ad9985-f7d8-49a6-8123-c105307a20f5",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:50.000Z",
+    "updatedAt": "2026-08-15T22:54:50.000Z"
+  },
+  {
+    "id": 1605,
+    "title": "test product 587c3634-d783-4b75-ab07-ccda6aa32395",
+    "slug": "test-product-587c3634-d783-4b75-ab07-ccda6aa32395",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:51.000Z",
+    "updatedAt": "2026-08-15T22:54:51.000Z"
+  },
+  {
+    "id": 1606,
+    "title": "test product 401ea705-c661-4aad-af3d-04b7af27ef48",
+    "slug": "test-product-401ea705-c661-4aad-af3d-04b7af27ef48",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:54:51.000Z",
+    "updatedAt": "2026-08-15T22:54:51.000Z"
+  },
+  {
+    "id": 1607,
+    "title": "test product 76a75978-2bb5-49db-925e-d6c935c64f8d",
+    "slug": "test-product-76a75978-2bb5-49db-925e-d6c935c64f8d",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:04.000Z",
+    "updatedAt": "2026-08-15T22:55:04.000Z"
+  },
+  {
+    "id": 1608,
+    "title": "test product 759c49f4-954e-4993-aeea-b6426377daec",
+    "slug": "test-product-759c49f4-954e-4993-aeea-b6426377daec",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:04.000Z",
+    "updatedAt": "2026-08-15T22:55:04.000Z"
+  },
+  {
+    "id": 1609,
+    "title": "test product fb2d4fd4-bed7-4ed8-95e3-ae570a5accaf",
+    "slug": "test-product-fb2d4fd4-bed7-4ed8-95e3-ae570a5accaf",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:05.000Z",
+    "updatedAt": "2026-08-15T22:55:05.000Z"
+  },
+  {
+    "id": 1610,
+    "title": "test product 72027baf-b3db-441e-b464-99db7f1a35ae",
+    "slug": "test-product-72027baf-b3db-441e-b464-99db7f1a35ae",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:26.000Z",
+    "updatedAt": "2026-08-15T22:55:26.000Z"
+  },
+  {
+    "id": 1611,
+    "title": "test product 03786051-853c-409c-a996-56c0faabeec1",
+    "slug": "test-product-03786051-853c-409c-a996-56c0faabeec1",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:27.000Z",
+    "updatedAt": "2026-08-15T22:55:27.000Z"
+  },
+  {
+    "id": 1612,
+    "title": "test product 27e9f04b-44eb-4600-a88f-673c0724744f",
+    "slug": "test-product-27e9f04b-44eb-4600-a88f-673c0724744f",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:27.000Z",
+    "updatedAt": "2026-08-15T22:55:27.000Z"
+  },
+  {
+    "id": 1613,
+    "title": "test product a8ee8707-bf20-48ba-81c6-06fa05c6cb55",
+    "slug": "test-product-a8ee8707-bf20-48ba-81c6-06fa05c6cb55",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:52.000Z",
+    "updatedAt": "2026-08-15T22:55:52.000Z"
+  },
+  {
+    "id": 1614,
+    "title": "test product 32ddc9b1-8adf-4866-a9ed-b03a1d3426e2",
+    "slug": "test-product-32ddc9b1-8adf-4866-a9ed-b03a1d3426e2",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:52.000Z",
+    "updatedAt": "2026-08-15T22:55:52.000Z"
+  },
+  {
+    "id": 1615,
+    "title": "test product update 84713b4b-3798-4062-ba73-0abb56728f84",
+    "slug": "test-product-update-84713b4b-3798-4062-ba73-0abb56728f84",
+    "price": 20,
+    "description": "Update by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:53.000Z",
+    "updatedAt": "2026-08-15T22:55:53.000Z"
+  },
+  {
+    "id": 1616,
+    "title": "test product 01fb9306-0ebb-403e-97a5-2e291eb3b757",
+    "slug": "test-product-01fb9306-0ebb-403e-97a5-2e291eb3b757",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:55.000Z",
+    "updatedAt": "2026-08-15T22:55:55.000Z"
+  },
+  {
+    "id": 1617,
+    "title": "test product b5dce556-5299-43ea-9e2b-8940980479fb",
+    "slug": "test-product-b5dce556-5299-43ea-9e2b-8940980479fb",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:55.000Z",
+    "updatedAt": "2026-08-15T22:55:55.000Z"
+  },
+  {
+    "id": 1618,
+    "title": "test product update 5434eb6e-74bd-4501-b18a-24419090dccd",
+    "slug": "test-product-update-5434eb6e-74bd-4501-b18a-24419090dccd",
+    "price": 20,
+    "description": "Update by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:55:55.000Z",
+    "updatedAt": "2026-08-15T22:55:56.000Z"
+  },
+  {
+    "id": 1619,
+    "title": "title-1b80c92b-92ef-4415-a950-c822cf91ea7a",
+    "slug": "title-1b80c92b-92ef-4415-a950-c822cf91ea7a",
+    "price": 434,
+    "description": "desc-368c253e-a382-42e7-b671-138363ed1f61",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=69172"
+    ],
+    "creationAt": "2026-08-15T22:57:02.000Z",
+    "updatedAt": "2026-08-15T22:57:02.000Z"
+  },
+  {
+    "id": 1620,
+    "title": "test product 2e43c661-407f-4925-8cdc-4c745cf2947d",
+    "slug": "test-product-2e43c661-407f-4925-8cdc-4c745cf2947d",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:59:29.000Z",
+    "updatedAt": "2026-08-15T22:59:29.000Z"
+  },
+  {
+    "id": 1621,
+    "title": "test product 464f4e2a-dab4-4580-86ae-3883ac277380",
+    "slug": "test-product-464f4e2a-dab4-4580-86ae-3883ac277380",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:59:29.000Z",
+    "updatedAt": "2026-08-15T22:59:29.000Z"
+  },
+  {
+    "id": 1622,
+    "title": "test product update f8efd733-764c-4e11-9131-4afca2634cd7",
+    "slug": "test-product-update-f8efd733-764c-4e11-9131-4afca2634cd7",
+    "price": 20,
+    "description": "Update by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T22:59:30.000Z",
+    "updatedAt": "2026-08-15T22:59:30.000Z"
+  },
+  {
+    "id": 1623,
+    "title": "test product a6fa8d7f-e067-40b5-b97d-a1c067f57937",
+    "slug": "test-product-a6fa8d7f-e067-40b5-b97d-a1c067f57937",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:38.000Z",
+    "updatedAt": "2026-08-15T23:02:38.000Z"
+  },
+  {
+    "id": 1624,
+    "title": "test product 07970611-b5df-4fbd-86b7-cd5d507a4995",
+    "slug": "test-product-07970611-b5df-4fbd-86b7-cd5d507a4995",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:38.000Z",
+    "updatedAt": "2026-08-15T23:02:38.000Z"
+  },
+  {
+    "id": 1625,
+    "title": "test product da388b5f-b7a7-4810-b648-1166506c64e3",
+    "slug": "test-product-da388b5f-b7a7-4810-b648-1166506c64e3",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:39.000Z",
+    "updatedAt": "2026-08-15T23:02:39.000Z"
+  },
+  {
+    "id": 1626,
+    "title": "test product 04325ef0-b2ad-45f0-9eb5-bee7d9c055b4",
+    "slug": "test-product-04325ef0-b2ad-45f0-9eb5-bee7d9c055b4",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:52.000Z",
+    "updatedAt": "2026-08-15T23:02:52.000Z"
+  },
+  {
+    "id": 1627,
+    "title": "test product 3c2b74ef-6edb-488b-ac03-d58322bfedff",
+    "slug": "test-product-3c2b74ef-6edb-488b-ac03-d58322bfedff",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:52.000Z",
+    "updatedAt": "2026-08-15T23:02:52.000Z"
+  },
+  {
+    "id": 1628,
+    "title": "test product fbc04cce-877f-462a-9996-7f3de6542a99",
+    "slug": "test-product-fbc04cce-877f-462a-9996-7f3de6542a99",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:52.000Z",
+    "updatedAt": "2026-08-15T23:02:52.000Z"
+  },
+  {
+    "id": 1629,
+    "title": "test product 8d8c6941-e10c-4d27-9b60-104596adda7c",
+    "slug": "test-product-8d8c6941-e10c-4d27-9b60-104596adda7c",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:55.000Z",
+    "updatedAt": "2026-08-15T23:02:55.000Z"
+  },
+  {
+    "id": 1630,
+    "title": "test product a47d703f-95ce-463a-862b-7df158259d5b",
+    "slug": "test-product-a47d703f-95ce-463a-862b-7df158259d5b",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:56.000Z",
+    "updatedAt": "2026-08-15T23:02:56.000Z"
+  },
+  {
+    "id": 1631,
+    "title": "test product 00d1b0ff-9c9c-45f9-b711-a5a289ed3fd5",
+    "slug": "test-product-00d1b0ff-9c9c-45f9-b711-a5a289ed3fd5",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:02:56.000Z",
+    "updatedAt": "2026-08-15T23:02:56.000Z"
+  },
+  {
+    "id": 1632,
+    "title": "test product b1f21d11-c655-46da-bfc1-45077a100a9e",
+    "slug": "test-product-b1f21d11-c655-46da-bfc1-45077a100a9e",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:03:23.000Z",
+    "updatedAt": "2026-08-15T23:03:23.000Z"
+  },
+  {
+    "id": 1633,
+    "title": "test product 1540f204-a7ae-4ded-845a-4cc8395450a5",
+    "slug": "test-product-1540f204-a7ae-4ded-845a-4cc8395450a5",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:03:23.000Z",
+    "updatedAt": "2026-08-15T23:03:23.000Z"
+  },
+  {
+    "id": 1635,
+    "title": "test product 35851f73-8782-4e01-b12f-b666eb9862d4",
+    "slug": "test-product-35851f73-8782-4e01-b12f-b666eb9862d4",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:03:26.000Z",
+    "updatedAt": "2026-08-15T23:03:26.000Z"
+  },
+  {
+    "id": 1636,
+    "title": "test product 62a724d7-12b6-46e2-adb8-e2822580e7b9",
+    "slug": "test-product-62a724d7-12b6-46e2-adb8-e2822580e7b9",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:03:26.000Z",
+    "updatedAt": "2026-08-15T23:03:26.000Z"
+  },
+  {
+    "id": 1638,
+    "title": "test product d37832d7-f58f-404e-9fbc-a729507d31d0",
+    "slug": "test-product-d37832d7-f58f-404e-9fbc-a729507d31d0",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:03:37.000Z",
+    "updatedAt": "2026-08-15T23:03:37.000Z"
+  },
+  {
+    "id": 1639,
+    "title": "test product 36c8104b-60ef-4e9f-beb9-361845fe3210",
+    "slug": "test-product-36c8104b-60ef-4e9f-beb9-361845fe3210",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:03:38.000Z",
+    "updatedAt": "2026-08-15T23:03:38.000Z"
+  },
+  {
+    "id": 1641,
+    "title": "test product 57073b0d-fe1d-4ddd-acff-a4962de1f38f",
+    "slug": "test-product-57073b0d-fe1d-4ddd-acff-a4962de1f38f",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:07:15.000Z",
+    "updatedAt": "2026-08-15T23:07:15.000Z"
+  },
+  {
+    "id": 1642,
+    "title": "test product 5a056a35-4db7-42c2-a162-dcf9beb482bb",
+    "slug": "test-product-5a056a35-4db7-42c2-a162-dcf9beb482bb",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:07:15.000Z",
+    "updatedAt": "2026-08-15T23:07:15.000Z"
+  },
+  {
+    "id": 1644,
+    "title": "test product b1417bca-bf65-448b-b4ab-3aa20c207c88",
+    "slug": "test-product-b1417bca-bf65-448b-b4ab-3aa20c207c88",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:07:17.000Z",
+    "updatedAt": "2026-08-15T23:07:17.000Z"
+  },
+  {
+    "id": 1645,
+    "title": "test product 6abeed27-9af4-451e-9879-1c048f6c6899",
+    "slug": "test-product-6abeed27-9af4-451e-9879-1c048f6c6899",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:07:17.000Z",
+    "updatedAt": "2026-08-15T23:07:17.000Z"
+  },
+  {
+    "id": 1647,
+    "title": "test product 0668326a-2401-40c5-b977-2cb341e366cb",
+    "slug": "test-product-0668326a-2401-40c5-b977-2cb341e366cb",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:08:23.000Z",
+    "updatedAt": "2026-08-15T23:08:23.000Z"
+  },
+  {
+    "id": 1648,
+    "title": "test product 21644611-d7ad-4595-bed6-c96ba85cbaf6",
+    "slug": "test-product-21644611-d7ad-4595-bed6-c96ba85cbaf6",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:08:23.000Z",
+    "updatedAt": "2026-08-15T23:08:23.000Z"
+  },
+  {
+    "id": 1650,
+    "title": "test product 62a46a66-ca5d-4d19-9782-120ca3bcdc28",
+    "slug": "test-product-62a46a66-ca5d-4d19-9782-120ca3bcdc28",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:11:49.000Z",
+    "updatedAt": "2026-08-15T23:11:49.000Z"
+  },
+  {
+    "id": 1651,
+    "title": "test product 7f7cce75-8bc1-438d-82a4-8290b20710e2",
+    "slug": "test-product-7f7cce75-8bc1-438d-82a4-8290b20710e2",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:11:49.000Z",
+    "updatedAt": "2026-08-15T23:11:49.000Z"
+  },
+  {
+    "id": 1653,
+    "title": "test product 2edc5b57-4c51-42c5-9f02-353aab3fe6f4",
+    "slug": "test-product-2edc5b57-4c51-42c5-9f02-353aab3fe6f4",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:11:52.000Z",
+    "updatedAt": "2026-08-15T23:11:52.000Z"
+  },
+  {
+    "id": 1654,
+    "title": "test product 456ab6dc-2452-445c-a47d-047a9de3640d",
+    "slug": "test-product-456ab6dc-2452-445c-a47d-047a9de3640d",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:11:52.000Z",
+    "updatedAt": "2026-08-15T23:11:52.000Z"
+  },
+  {
+    "id": 1656,
+    "title": "title-3d99e30b-5098-4ac0-a4a9-1f0ddbe412b0",
+    "slug": "title-3d99e30b-5098-4ac0-a4a9-1f0ddbe412b0",
+    "price": 873,
+    "description": "desc-ea31912c-6c6f-49ec-8d9a-de83b766d05c",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=99299"
+    ],
+    "creationAt": "2026-08-15T23:12:05.000Z",
+    "updatedAt": "2026-08-15T23:12:05.000Z"
+  },
+  {
+    "id": 1683,
+    "title": "test product c8ad157b-1d7f-4bef-8a24-d2f954bdcbde",
+    "slug": "test-product-c8ad157b-1d7f-4bef-8a24-d2f954bdcbde",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:23:31.000Z",
+    "updatedAt": "2026-08-15T23:23:31.000Z"
+  },
+  {
+    "id": 1687,
+    "title": "test product ef27a37e-29df-4038-99e4-b1aca0ebe21f",
+    "slug": "test-product-ef27a37e-29df-4038-99e4-b1aca0ebe21f",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:23:35.000Z",
+    "updatedAt": "2026-08-15T23:23:35.000Z"
+  },
+  {
+    "id": 1691,
+    "title": "test product 23525b78-c3a6-44ec-a8f8-7c1eeb080936",
+    "slug": "test-product-23525b78-c3a6-44ec-a8f8-7c1eeb080936",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:24:14.000Z",
+    "updatedAt": "2026-08-15T23:24:14.000Z"
+  },
+  {
+    "id": 1695,
+    "title": "test product 77de5187-3a49-47b4-b1a5-67824317c385",
+    "slug": "test-product-77de5187-3a49-47b4-b1a5-67824317c385",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-15T23:24:18.000Z",
+    "updatedAt": "2026-08-15T23:24:18.000Z"
+  },
+  {
+    "id": 1705,
+    "title": "title-4eecb319-a46a-4806-a64e-bff8249ada74",
+    "slug": "title-4eecb319-a46a-4806-a64e-bff8249ada74",
+    "price": 256,
+    "description": "desc-23f7bc5f-19fd-4264-9646-ea52b72c1f1e",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=83065",
+      "https://placehold.co/600x400?img=8585",
+      "https://placehold.co/600x400?img=40051"
+    ],
+    "creationAt": "2026-08-15T23:27:04.000Z",
+    "updatedAt": "2026-08-15T23:27:04.000Z"
+  },
+  {
+    "id": 1727,
+    "title": "QA test Product",
+    "slug": "qa-test-product",
+    "price": 50,
+    "description": "empty description",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-15T23:34:34.000Z",
+    "updatedAt": "2026-08-15T23:34:34.000Z"
+  },
+  {
+    "id": 1731,
+    "title": "Snip",
+    "slug": "snip",
+    "price": 20,
+    "description": "Snop",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+    ],
+    "creationAt": "2026-08-15T23:40:25.000Z",
+    "updatedAt": "2026-08-15T23:40:25.000Z"
+  },
+  {
+    "id": 1733,
+    "title": "title-89892132-8a50-43de-aa3a-8371846acb34",
+    "slug": "title-89892132-8a50-43de-aa3a-8371846acb34",
+    "price": 275,
+    "description": "desc-63ae12c0-39bf-4aa4-8393-f7fff109d2f7",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=45137",
+      "https://placehold.co/600x400?img=47590",
+      "https://placehold.co/600x400?img=29790"
+    ],
+    "creationAt": "2026-08-15T23:42:03.000Z",
+    "updatedAt": "2026-08-15T23:42:03.000Z"
+  },
+  {
+    "id": 1740,
+    "title": "title-28813cfb-b5bf-4045-8a56-18a5a1066922",
+    "slug": "title-28813cfb-b5bf-4045-8a56-18a5a1066922",
+    "price": 945,
+    "description": "desc-a4e99ceb-db8d-4ae7-8a37-5dad1755551b",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=68620",
+      "https://placehold.co/600x400?img=15575",
+      "https://placehold.co/600x400?img=92586"
+    ],
+    "creationAt": "2026-08-15T23:57:02.000Z",
+    "updatedAt": "2026-08-15T23:57:02.000Z"
+  },
+  {
+    "id": 1755,
+    "title": "title-7daf7ac2-a38b-40b2-9965-383061f64ba8",
+    "slug": "title-7daf7ac2-a38b-40b2-9965-383061f64ba8",
+    "price": 952,
+    "description": "desc-ac6951ed-2057-4580-a910-b1b5fc282d2b",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=15292",
+      "https://placehold.co/600x400?img=59551"
+    ],
+    "creationAt": "2026-08-16T00:12:02.000Z",
+    "updatedAt": "2026-08-16T00:12:02.000Z"
+  },
+  {
+    "id": 1764,
+    "title": "test product 07debad7-c655-43ff-9e4d-53e6878ad519",
+    "slug": "test-product-07debad7-c655-43ff-9e4d-53e6878ad519",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-16T00:23:54.000Z",
+    "updatedAt": "2026-08-16T00:23:54.000Z"
+  },
+  {
+    "id": 1766,
+    "title": "test product e94d3a53-e895-4515-9eee-298cd632f057",
+    "slug": "test-product-e94d3a53-e895-4515-9eee-298cd632f057",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-16T00:24:30.000Z",
+    "updatedAt": "2026-08-16T00:24:30.000Z"
+  },
+  {
+    "id": 1768,
+    "title": "test product d2bc861a-6556-407a-9d26-8ca9d84e9e6d",
+    "slug": "test-product-d2bc861a-6556-407a-9d26-8ca9d84e9e6d",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-16T00:24:48.000Z",
+    "updatedAt": "2026-08-16T00:24:48.000Z"
+  },
+  {
+    "id": 1769,
+    "title": "title-706f6f22-cfa7-48a8-b7cf-3beea42ed10b",
+    "slug": "title-706f6f22-cfa7-48a8-b7cf-3beea42ed10b",
+    "price": 93,
+    "description": "desc-51e5b186-751f-436f-bc89-3a72def04723",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=12846"
+    ],
+    "creationAt": "2026-08-16T00:27:04.000Z",
+    "updatedAt": "2026-08-16T00:27:04.000Z"
+  },
+  {
+    "id": 1771,
+    "title": "title-7781a7c4-c19f-42da-a38e-71df2a65c3b5",
+    "slug": "title-7781a7c4-c19f-42da-a38e-71df2a65c3b5",
+    "price": 419,
+    "description": "desc-29669de8-50df-4500-9ba4-6fef034cbe05",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=25525",
+      "https://placehold.co/600x400?img=31553",
+      "https://placehold.co/600x400?img=10499"
+    ],
+    "creationAt": "2026-08-16T00:42:02.000Z",
+    "updatedAt": "2026-08-16T00:42:02.000Z"
+  },
+  {
+    "id": 1773,
+    "title": "test product e33a5775-ac35-4821-a08f-250a0572b428",
+    "slug": "test-product-e33a5775-ac35-4821-a08f-250a0572b428",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-16T00:42:45.000Z",
+    "updatedAt": "2026-08-16T00:42:45.000Z"
+  },
+  {
+    "id": 1775,
+    "title": "test product 968a351f-1009-49a6-808a-41f06475cbb0",
+    "slug": "test-product-968a351f-1009-49a6-808a-41f06475cbb0",
+    "price": 25,
+    "description": "created by the Michael automation",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/b.jpg"
+    ],
+    "creationAt": "2026-08-16T00:44:39.000Z",
+    "updatedAt": "2026-08-16T00:44:39.000Z"
+  },
+  {
+    "id": 1777,
+    "title": "filter probe cd8dd963-a424-4dc6-93ec-7e4eeb77bf1f",
+    "slug": "filter-probe-cd8dd963-a424-4dc6-93ec-7e4eeb77bf1f",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:47:43.000Z",
+    "updatedAt": "2026-08-16T00:47:43.000Z"
+  },
+  {
+    "id": 1778,
+    "title": "filter probe 0d318e01-c0cd-41a6-8f14-1df883ac8b24",
+    "slug": "filter-probe-0d318e01-c0cd-41a6-8f14-1df883ac8b24",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:47:44.000Z",
+    "updatedAt": "2026-08-16T00:47:44.000Z"
+  },
+  {
+    "id": 1779,
+    "title": "filter probe 3c95d01b-0540-4fe5-9bdf-593dc98646e6",
+    "slug": "filter-probe-3c95d01b-0540-4fe5-9bdf-593dc98646e6",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:47:45.000Z",
+    "updatedAt": "2026-08-16T00:47:45.000Z"
+  },
+  {
+    "id": 1780,
+    "title": "filter probe 7b86a38e-081d-4ae6-97dd-a724df5b57b3",
+    "slug": "filter-probe-7b86a38e-081d-4ae6-97dd-a724df5b57b3",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:47:45.000Z",
+    "updatedAt": "2026-08-16T00:47:45.000Z"
+  },
+  {
+    "id": 1781,
+    "title": "filter probe 53d68150-2308-43f6-8ec0-9b0d9931d493",
+    "slug": "filter-probe-53d68150-2308-43f6-8ec0-9b0d9931d493",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:47:46.000Z",
+    "updatedAt": "2026-08-16T00:47:46.000Z"
+  },
+  {
+    "id": 1783,
+    "title": "filter probe 156b1f24-c07a-49a7-942c-1cfba303ac32",
+    "slug": "filter-probe-156b1f24-c07a-49a7-942c-1cfba303ac32",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:48:06.000Z",
+    "updatedAt": "2026-08-16T00:48:06.000Z"
+  },
+  {
+    "id": 1784,
+    "title": "filter probe c020abd2-858a-40df-a409-53b4075b6b14",
+    "slug": "filter-probe-c020abd2-858a-40df-a409-53b4075b6b14",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:48:06.000Z",
+    "updatedAt": "2026-08-16T00:48:06.000Z"
+  },
+  {
+    "id": 1785,
+    "title": "filter probe cd575093-67ed-4af3-9cee-3701be1e8ee8",
+    "slug": "filter-probe-cd575093-67ed-4af3-9cee-3701be1e8ee8",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:48:07.000Z",
+    "updatedAt": "2026-08-16T00:48:07.000Z"
+  },
+  {
+    "id": 1786,
+    "title": "filter probe 8339cd0a-3ba8-40ea-85f5-844f6271d6dd",
+    "slug": "filter-probe-8339cd0a-3ba8-40ea-85f5-844f6271d6dd",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:48:08.000Z",
+    "updatedAt": "2026-08-16T00:48:08.000Z"
+  },
+  {
+    "id": 1787,
+    "title": "filter probe b902cc3b-bfcb-4a5b-99ae-3e4b1f867507",
+    "slug": "filter-probe-b902cc3b-bfcb-4a5b-99ae-3e4b1f867507",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:48:08.000Z",
+    "updatedAt": "2026-08-16T00:48:08.000Z"
+  },
+  {
+    "id": 1789,
+    "title": "filter probe bb2d9f39-4e1f-4ebb-8c4d-916dcd796475",
+    "slug": "filter-probe-bb2d9f39-4e1f-4ebb-8c4d-916dcd796475",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:49:27.000Z",
+    "updatedAt": "2026-08-16T00:49:27.000Z"
+  },
+  {
+    "id": 1790,
+    "title": "filter probe 2375672e-11ea-46bf-9bfb-fb3b88f2a7f5",
+    "slug": "filter-probe-2375672e-11ea-46bf-9bfb-fb3b88f2a7f5",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:49:28.000Z",
+    "updatedAt": "2026-08-16T00:49:28.000Z"
+  },
+  {
+    "id": 1791,
+    "title": "filter probe f838567f-aa85-43f2-8234-5c89d06523e0",
+    "slug": "filter-probe-f838567f-aa85-43f2-8234-5c89d06523e0",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:49:28.000Z",
+    "updatedAt": "2026-08-16T00:49:28.000Z"
+  },
+  {
+    "id": 1792,
+    "title": "filter probe 36b81a4e-8cfd-4d5f-b99e-c1a7c75eab9e",
+    "slug": "filter-probe-36b81a4e-8cfd-4d5f-b99e-c1a7c75eab9e",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:49:29.000Z",
+    "updatedAt": "2026-08-16T00:49:29.000Z"
+  },
+  {
+    "id": 1793,
+    "title": "filter probe 82f96855-6326-4845-ac37-9793ac0d6f6e",
+    "slug": "filter-probe-82f96855-6326-4845-ac37-9793ac0d6f6e",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:49:30.000Z",
+    "updatedAt": "2026-08-16T00:49:30.000Z"
+  },
+  {
+    "id": 1796,
+    "title": "filter probe 4417e3f4-2ef1-4ebf-805f-6254b4c45bec",
+    "slug": "filter-probe-4417e3f4-2ef1-4ebf-805f-6254b4c45bec",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:50:31.000Z",
+    "updatedAt": "2026-08-16T00:50:31.000Z"
+  },
+  {
+    "id": 1797,
+    "title": "filter probe ae9fc184-f783-48a1-a2b2-b93700804c95",
+    "slug": "filter-probe-ae9fc184-f783-48a1-a2b2-b93700804c95",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:50:32.000Z",
+    "updatedAt": "2026-08-16T00:50:32.000Z"
+  },
+  {
+    "id": 1798,
+    "title": "filter probe ff8bdd98-feaa-4626-a363-222a32af0254",
+    "slug": "filter-probe-ff8bdd98-feaa-4626-a363-222a32af0254",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:50:32.000Z",
+    "updatedAt": "2026-08-16T00:50:32.000Z"
+  },
+  {
+    "id": 1799,
+    "title": "filter probe cfeacaf9-2d6d-4c15-89d1-8017aabcd954",
+    "slug": "filter-probe-cfeacaf9-2d6d-4c15-89d1-8017aabcd954",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:50:33.000Z",
+    "updatedAt": "2026-08-16T00:50:33.000Z"
+  },
+  {
+    "id": 1800,
+    "title": "filter probe 13be85aa-9ae4-4ef0-b682-c0ecfb770617",
+    "slug": "filter-probe-13be85aa-9ae4-4ef0-b682-c0ecfb770617",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:50:34.000Z",
+    "updatedAt": "2026-08-16T00:50:34.000Z"
+  },
+  {
+    "id": 1802,
+    "title": "filter probe 035b2c62-09ee-4481-9a41-a7c184acc0d7",
+    "slug": "filter-probe-035b2c62-09ee-4481-9a41-a7c184acc0d7",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:54:12.000Z",
+    "updatedAt": "2026-08-16T00:54:12.000Z"
+  },
+  {
+    "id": 1803,
+    "title": "filter probe 6e58cdfb-0bcb-4c06-9aa5-575e0d8f080d",
+    "slug": "filter-probe-6e58cdfb-0bcb-4c06-9aa5-575e0d8f080d",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:54:12.000Z",
+    "updatedAt": "2026-08-16T00:54:12.000Z"
+  },
+  {
+    "id": 1804,
+    "title": "filter probe d32d76dd-8ddb-4247-afde-924ec55a73f9",
+    "slug": "filter-probe-d32d76dd-8ddb-4247-afde-924ec55a73f9",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:54:13.000Z",
+    "updatedAt": "2026-08-16T00:54:13.000Z"
+  },
+  {
+    "id": 1805,
+    "title": "filter probe 33db7f33-dd7d-4ac2-bba3-2c50af6f794b",
+    "slug": "filter-probe-33db7f33-dd7d-4ac2-bba3-2c50af6f794b",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:54:14.000Z",
+    "updatedAt": "2026-08-16T00:54:14.000Z"
+  },
+  {
+    "id": 1806,
+    "title": "filter probe 933c1ce8-c288-4df5-8e13-afa8f7d6f195",
+    "slug": "filter-probe-933c1ce8-c288-4df5-8e13-afa8f7d6f195",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T00:54:14.000Z",
+    "updatedAt": "2026-08-16T00:54:14.000Z"
+  },
+  {
+    "id": 1808,
+    "title": "title-6dd9164a-05e8-4c2f-b4ca-a4bd0e4da2bf",
+    "slug": "title-6dd9164a-05e8-4c2f-b4ca-a4bd0e4da2bf",
+    "price": 231,
+    "description": "desc-ee506d3e-0960-4775-ad84-512fcb6f56d8",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=29896",
+      "https://placehold.co/600x400?img=38231",
+      "https://placehold.co/600x400?img=55729"
+    ],
+    "creationAt": "2026-08-16T00:57:02.000Z",
+    "updatedAt": "2026-08-16T00:57:02.000Z"
+  },
+  {
+    "id": 1809,
+    "title": "filter probe 939603ef-f1d0-45f0-b78c-e9caa8f3937e",
+    "slug": "filter-probe-939603ef-f1d0-45f0-b78c-e9caa8f3937e",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T01:07:14.000Z",
+    "updatedAt": "2026-08-16T01:07:14.000Z"
+  },
+  {
+    "id": 1810,
+    "title": "filter probe 209f8e43-6a2f-4037-9421-a5c464cb74a3",
+    "slug": "filter-probe-209f8e43-6a2f-4037-9421-a5c464cb74a3",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T01:07:14.000Z",
+    "updatedAt": "2026-08-16T01:07:14.000Z"
+  },
+  {
+    "id": 1811,
+    "title": "filter probe aa37d072-de36-490a-b108-1387940e0146",
+    "slug": "filter-probe-aa37d072-de36-490a-b108-1387940e0146",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T01:07:15.000Z",
+    "updatedAt": "2026-08-16T01:07:15.000Z"
+  },
+  {
+    "id": 1812,
+    "title": "filter probe 28fad648-2721-4157-82f9-526cf2db317f",
+    "slug": "filter-probe-28fad648-2721-4157-82f9-526cf2db317f",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T01:07:16.000Z",
+    "updatedAt": "2026-08-16T01:07:16.000Z"
+  },
+  {
+    "id": 1813,
+    "title": "filter probe 1938ebd0-42eb-446c-ae58-def90a49e7c3",
+    "slug": "filter-probe-1938ebd0-42eb-446c-ae58-def90a49e7c3",
+    "price": 25,
+    "description": "probe",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T18:01:52.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/a.jpg"
+    ],
+    "creationAt": "2026-08-16T01:07:17.000Z",
+    "updatedAt": "2026-08-16T01:07:17.000Z"
+  },
+  {
+    "id": 1815,
+    "title": "title-a9f64d91-ebab-49d2-b641-82762f27f116",
+    "slug": "title-a9f64d91-ebab-49d2-b641-82762f27f116",
+    "price": 773,
+    "description": "desc-a6f0bab3-b063-4ed1-8764-4591f8b3c94a",
+    "category": {
+      "id": 2,
+      "name": "nuevo",
+      "slug": "nuevo",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T09:01:03.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=86194"
+    ],
+    "creationAt": "2026-08-16T01:12:05.000Z",
+    "updatedAt": "2026-08-16T01:12:05.000Z"
+  },
+  {
+    "id": 1822,
+    "title": "title-7dd119b6-8112-44d3-986d-6e0acb401f42",
+    "slug": "title-7dd119b6-8112-44d3-986d-6e0acb401f42",
+    "price": 812,
+    "description": "desc-b61d74f9-2e4c-4a72-a42e-40bbbec32246",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-08-15T04:18:43.000Z",
+      "updatedAt": "2026-08-15T04:18:43.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=48871",
+      "https://placehold.co/600x400?img=64909"
+    ],
+    "creationAt": "2026-08-16T01:27:04.000Z",
+    "updatedAt": "2026-08-16T01:27:04.000Z"
+  },
+  {
+    "id": 1823,
+    "title": "Implemented interactive emulation-f00fd60ddc084ec2a2ca34f430b2ff81",
+    "slug": "implemented-interactive-emulation-f00fd60ddc084ec2a2ca34f430b2ff81",
+    "price": 218,
+    "description": "Operative national migration",
+    "category": {
+      "id": 2721,
+      "name": "Sports & Fitness_9961d448790d454193e3d355159ed335",
+      "slug": "sports-fitness-9961d448790d454193e3d355159ed335",
+      "image": "https://peterson.com/",
+      "creationAt": "2026-08-16T01:34:31.000Z",
+      "updatedAt": "2026-08-16T01:34:31.000Z"
+    },
+    "images": [
+      "https://gonzalez-hamilton.biz/"
+    ],
+    "creationAt": "2026-08-16T01:34:31.000Z",
+    "updatedAt": "2026-08-16T01:34:31.000Z"
+  },
+  {
+    "id": 1824,
+    "title": "Sharable disintermediate encoding-c45022d1a652476383c2c9607c5921b1",
+    "slug": "sharable-disintermediate-encoding-c45022d1a652476383c2c9607c5921b1",
+    "price": 424,
+    "description": "Ergonomic multi-state encoding",
+    "category": {
+      "id": 2723,
+      "name": "Home & Kitchen_d7738d0753974884b691352cc1518d29",
+      "slug": "home-kitchen-d7738d0753974884b691352cc1518d29",
+      "image": "http://www.newman.com/",
+      "creationAt": "2026-08-16T01:34:31.000Z",
+      "updatedAt": "2026-08-16T01:34:31.000Z"
+    },
+    "images": [
+      "https://harris-russo.com/"
+    ],
+    "creationAt": "2026-08-16T01:34:31.000Z",
+    "updatedAt": "2026-08-16T01:34:31.000Z"
+  },
+  {
+    "id": 1825,
+    "title": "Programmable 3rdgeneration support-1e723e2e87f943bdbfaf5d3a2b6e476a",
+    "slug": "programmable-3rdgeneration-support-1e723e2e87f943bdbfaf5d3a2b6e476a",
+    "price": 652,
+    "description": "Right-sized national application",
+    "category": {
+      "id": 2723,
+      "name": "Home & Kitchen_d7738d0753974884b691352cc1518d29",
+      "slug": "home-kitchen-d7738d0753974884b691352cc1518d29",
+      "image": "http://www.newman.com/",
+      "creationAt": "2026-08-16T01:34:31.000Z",
+      "updatedAt": "2026-08-16T01:34:31.000Z"
+    },
+    "images": [
+      "https://www.ellis.com/"
+    ],
+    "creationAt": "2026-08-16T01:34:31.000Z",
+    "updatedAt": "2026-08-16T01:34:31.000Z"
+  },
+  {
+    "id": 1826,
+    "title": "Secured asymmetric secured line-610c1eb37b574ed6a6b11fe0c788ab2c",
+    "slug": "secured-asymmetric-secured-line-610c1eb37b574ed6a6b11fe0c788ab2c",
+    "price": 547,
+    "description": "Profit-focused hybrid protocol",
+    "category": {
+      "id": 2723,
+      "name": "Home & Kitchen_d7738d0753974884b691352cc1518d29",
+      "slug": "home-kitchen-d7738d0753974884b691352cc1518d29",
+      "image": "http://www.newman.com/",
+      "creationAt": "2026-08-16T01:34:31.000Z",
+      "updatedAt": "2026-08-16T01:34:31.000Z"
+    },
+    "images": [
+      "http://miller.com/"
+    ],
+    "creationAt": "2026-08-16T01:34:32.000Z",
+    "updatedAt": "2026-08-16T01:34:32.000Z"
+  },
+  {
+    "id": 1827,
+    "title": "Virtual real-time time-frame-ec56e8beee884bf1afab5367867cd68f",
+    "slug": "virtual-real-time-time-frame-ec56e8beee884bf1afab5367867cd68f",
+    "price": 194,
+    "description": "Mandatory encompassing monitoring",
+    "category": {
+      "id": 2724,
+      "name": "Clothing_b454cfa6ee2e424bab6c529097f696c2",
+      "slug": "clothing-b454cfa6ee2e424bab6c529097f696c2",
+      "image": "https://berry-smith.biz/",
+      "creationAt": "2026-08-16T01:34:31.000Z",
+      "updatedAt": "2026-08-16T01:34:31.000Z"
+    },
+    "images": [
+      "https://thompson.net/"
+    ],
+    "creationAt": "2026-08-16T01:34:32.000Z",
+    "updatedAt": "2026-08-16T01:34:32.000Z"
+  }
+]
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1827
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1827 -> 200
+Body:
+{
+  "id": 1827,
+  "title": "Virtual real-time time-frame-ec56e8beee884bf1afab5367867cd68f",
+  "slug": "virtual-real-time-time-frame-ec56e8beee884bf1afab5367867cd68f",
+  "price": 194,
+  "description": "Mandatory encompassing monitoring",
+  "category": {
+    "id": 2724,
+    "name": "Clothing_b454cfa6ee2e424bab6c529097f696c2",
+    "slug": "clothing-b454cfa6ee2e424bab6c529097f696c2",
+    "image": "https://berry-smith.biz/",
+    "creationAt": "2026-08-16T01:34:31.000Z",
+    "updatedAt": "2026-08-16T01:34:31.000Z"
+  },
+  "images": [
+    "https://thompson.net/"
+  ],
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1827
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1827 -> 200
+Body:
+true 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2724
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2724 -> 200
+Body:
+{
+  "id": 2724,
+  "name": "Clothing_b454cfa6ee2e424bab6c529097f696c2",
+  "slug": "clothing-b454cfa6ee2e424bab6c529097f696c2",
+  "image": "https://berry-smith.biz/",
+  "creationAt": "2026-08-16T01:34:31.000Z",
+  "updatedAt": "2026-08-16T01:34:31.000Z"
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2724
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2724 -> 200
+Body:
+true

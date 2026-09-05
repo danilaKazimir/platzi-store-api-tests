@@ -1,0 +1,53 @@
+2026-08-17 01:25:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_e77b80d7e8824576aa8e337ecf14ad57",
+  "image": "https://www.lewis.com/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1187,
+  "name": "Pet Supplies_e77b80d7e8824576aa8e337ecf14ad57",
+  "slug": "pet-supplies-e77b80d7e8824576aa8e337ecf14ad57",
+  "image": "https://www.lewis.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1187
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1187 -> 200
+Body:
+{
+  "id": 1187,
+  "name": "Pet Supplies_e77b80d7e8824576aa8e337ecf14ad57",
+  "slug": "pet-supplies-e77b80d7e8824576aa8e337ecf14ad57",
+  "image": "https://www.lewis.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1187
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1187 -> 200
+Body:
+{
+  "id": 1187,
+  "name": "Pet Supplies_e77b80d7e8824576aa8e337ecf14ad57",
+  "slug": "pet-supplies-e77b80d7e8824576aa8e337ecf14ad57",
+  "image": "https://www.lewis.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1187
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1187 -> 200
+Body:
+true

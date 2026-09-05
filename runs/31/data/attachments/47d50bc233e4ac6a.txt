@@ -1,0 +1,55 @@
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_637bacaa024f433ea2ef0d2b4b1a5019",
+  "image": "http://www.garcia-acosta.com/"
+} 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 57,
+  "name": "Food & Beverages_637bacaa024f433ea2ef0d2b4b1a5019",
+  "slug": "food-beverages-637bacaa024f433ea2ef0d2b4b1a5019",
+  "image": "http://www.garcia-acosta.com/",
+  "creationAt": "2026-08-13T02:12:30.000Z",
+  "updatedAt": "2026-08-13T02:12:30.000Z"
+}
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/57
+Body:
+{
+  "name": "Food & Beverages_e076058c50df4cf9ab3efd7ed4696eb0",
+  "image": null
+} 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/57 -> 400
+Body:
+{
+  "path": "/api/v1/categories/57",
+  "timestamp": "2026-08-13T02:12:30.945Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/57
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/57 -> 200
+Body:
+{
+  "id": 57,
+  "name": "Food & Beverages_637bacaa024f433ea2ef0d2b4b1a5019",
+  "slug": "food-beverages-637bacaa024f433ea2ef0d2b4b1a5019",
+  "image": "http://www.garcia-acosta.com/",
+  "creationAt": "2026-08-13T02:12:30.000Z",
+  "updatedAt": "2026-08-13T02:12:30.000Z"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/57
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/57 -> 200
+Body:
+true

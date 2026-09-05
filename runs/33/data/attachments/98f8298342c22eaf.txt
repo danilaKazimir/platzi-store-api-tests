@@ -1,0 +1,81 @@
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Melissa Thompson",
+  "email": "umoore@example.net",
+  "password": "***",
+  "avatar": "https://www.ortiz.org/"
+} 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 91,
+  "email": "umoore@example.net",
+  "password": "***",
+  "name": "Melissa Thompson",
+  "role": "customer",
+  "avatar": "https://www.ortiz.org/",
+  "creationAt": "2026-08-15T01:23:39.000Z",
+  "updatedAt": "2026-08-15T01:23:39.000Z"
+}
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/91
+Body:
+{
+  "name": "Christy Gilbert",
+  "email": "kyle21@example.com"
+} 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/91 -> 200
+Body:
+{
+  "id": 91,
+  "email": "kyle21@example.com",
+  "password": "***",
+  "name": "Christy Gilbert",
+  "role": "customer",
+  "avatar": "https://www.ortiz.org/",
+  "creationAt": "2026-08-15T01:23:39.000Z",
+  "updatedAt": "2026-08-15T01:23:39.000Z"
+} 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/91
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/91 -> 200
+Body:
+{
+  "id": 91,
+  "email": "kyle21@example.com",
+  "password": "***",
+  "name": "Christy Gilbert",
+  "role": "customer",
+  "avatar": "https://www.ortiz.org/",
+  "creationAt": "2026-08-15T01:23:39.000Z",
+  "updatedAt": "2026-08-15T01:23:39.000Z"
+}
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/91
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/91 -> 200
+Body:
+{
+  "id": 91,
+  "email": "kyle21@example.com",
+  "password": "***",
+  "name": "Christy Gilbert",
+  "role": "customer",
+  "avatar": "https://www.ortiz.org/",
+  "creationAt": "2026-08-15T01:23:39.000Z",
+  "updatedAt": "2026-08-15T01:23:39.000Z"
+} 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/91
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/91 -> 200
+Body:
+true

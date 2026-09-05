@@ -1,0 +1,107 @@
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_82556154a8214f0085a7a1181c59a4bd",
+  "image": "https://thomas.com/"
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 128,
+  "name": "Home & Kitchen_82556154a8214f0085a7a1181c59a4bd",
+  "slug": "home-kitchen-82556154a8214f0085a7a1181c59a4bd",
+  "image": "https://thomas.com/",
+  "creationAt": "2026-08-25T01:24:12.000Z",
+  "updatedAt": "2026-08-25T01:24:12.000Z"
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fully-configurable static circuit-1a59ef55dc5147cda97be6b5598a3196",
+  "price": 968,
+  "description": "Visionary dedicated ability",
+  "categoryId": 128,
+  "images": [
+    "https://lynch.com/"
+  ]
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 2828,
+  "title": "Fully-configurable static circuit-1a59ef55dc5147cda97be6b5598a3196",
+  "slug": "fully-configurable-static-circuit-1a59ef55dc5147cda97be6b5598a3196",
+  "price": 968,
+  "description": "Visionary dedicated ability",
+  "category": {
+    "id": 128,
+    "name": "Home & Kitchen_82556154a8214f0085a7a1181c59a4bd",
+    "slug": "home-kitchen-82556154a8214f0085a7a1181c59a4bd",
+    "image": "https://thomas.com/",
+    "creationAt": "2026-08-25T01:24:12.000Z",
+    "updatedAt": "2026-08-25T01:24:12.000Z"
+  },
+  "images": [
+    "https://lynch.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:12.000Z",
+  "updatedAt": "2026-08-25T01:24:12.000Z"
+}
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/2828
+Body:
+<empty> 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/2828 -> 200
+Body:
+true 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/2828
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/2828 -> 400
+Body:
+{
+  "path": "/api/v1/products/2828",
+  "timestamp": "2026-08-25T01:24:12.980Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 2828\n    }\n}"
+}
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/2828
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/2828 -> 400
+Body:
+{
+  "path": "/api/v1/products/2828",
+  "timestamp": "2026-08-25T01:24:13.044Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 2828\n    }\n}"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/128
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/128 -> 200
+Body:
+{
+  "id": 128,
+  "name": "Home & Kitchen_82556154a8214f0085a7a1181c59a4bd",
+  "slug": "home-kitchen-82556154a8214f0085a7a1181c59a4bd",
+  "image": "https://thomas.com/",
+  "creationAt": "2026-08-25T01:24:12.000Z",
+  "updatedAt": "2026-08-25T01:24:12.000Z"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/128
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/128 -> 200
+Body:
+true

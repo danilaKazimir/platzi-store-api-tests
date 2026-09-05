@@ -1,0 +1,135 @@
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_9204a64156694ce7990845ccf9a7fb7c",
+  "image": "https://odonnell.com/"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 124,
+  "name": "Sports & Fitness_9204a64156694ce7990845ccf9a7fb7c",
+  "slug": "sports-fitness-9204a64156694ce7990845ccf9a7fb7c",
+  "image": "https://odonnell.com/",
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal methodical utilization-9a38b968473945b38cac8e40a78ac338",
+  "price": 242,
+  "description": "Profit-focused transitional hub",
+  "categoryId": 124,
+  "images": [
+    "https://rios-thomas.com/"
+  ]
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 409,
+  "title": "Universal methodical utilization-9a38b968473945b38cac8e40a78ac338",
+  "slug": "universal-methodical-utilization-9a38b968473945b38cac8e40a78ac338",
+  "price": 242,
+  "description": "Profit-focused transitional hub",
+  "category": {
+    "id": 124,
+    "name": "Sports & Fitness_9204a64156694ce7990845ccf9a7fb7c",
+    "slug": "sports-fitness-9204a64156694ce7990845ccf9a7fb7c",
+    "image": "https://odonnell.com/",
+    "creationAt": "2026-08-24T01:27:45.000Z",
+    "updatedAt": "2026-08-24T01:27:45.000Z"
+  },
+  "images": [
+    "https://rios-thomas.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+}
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/universal-methodical-utilization-9a38b968473945b38cac8e40a78ac338
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/universal-methodical-utilization-9a38b968473945b38cac8e40a78ac338 -> 200
+Body:
+{
+  "id": 409,
+  "title": "Universal methodical utilization-9a38b968473945b38cac8e40a78ac338",
+  "slug": "universal-methodical-utilization-9a38b968473945b38cac8e40a78ac338",
+  "price": 242,
+  "description": "Profit-focused transitional hub",
+  "category": {
+    "id": 124,
+    "name": "Sports & Fitness_9204a64156694ce7990845ccf9a7fb7c",
+    "slug": "sports-fitness-9204a64156694ce7990845ccf9a7fb7c",
+    "image": "https://odonnell.com/",
+    "creationAt": "2026-08-24T01:27:45.000Z",
+    "updatedAt": "2026-08-24T01:27:45.000Z"
+  },
+  "images": [
+    "https://rios-thomas.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+}
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/409
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/409 -> 200
+Body:
+{
+  "id": 409,
+  "title": "Universal methodical utilization-9a38b968473945b38cac8e40a78ac338",
+  "slug": "universal-methodical-utilization-9a38b968473945b38cac8e40a78ac338",
+  "price": 242,
+  "description": "Profit-focused transitional hub",
+  "category": {
+    "id": 124,
+    "name": "Sports & Fitness_9204a64156694ce7990845ccf9a7fb7c",
+    "slug": "sports-fitness-9204a64156694ce7990845ccf9a7fb7c",
+    "image": "https://odonnell.com/",
+    "creationAt": "2026-08-24T01:27:45.000Z",
+    "updatedAt": "2026-08-24T01:27:45.000Z"
+  },
+  "images": [
+    "https://rios-thomas.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/409
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/409 -> 200
+Body:
+true 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/124
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/124 -> 200
+Body:
+{
+  "id": 124,
+  "name": "Sports & Fitness_9204a64156694ce7990845ccf9a7fb7c",
+  "slug": "sports-fitness-9204a64156694ce7990845ccf9a7fb7c",
+  "image": "https://odonnell.com/",
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/124
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/124 -> 200
+Body:
+true

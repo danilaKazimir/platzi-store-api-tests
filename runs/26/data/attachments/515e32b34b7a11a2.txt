@@ -1,0 +1,71 @@
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_7ac53fcd737d41e5b229eede97c56a2b",
+  "image": "http://www.wise.com/"
+} 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Toys_7ac53fcd737d41e5b229eede97c56a2b",
+  "slug": "toys-7ac53fcd737d41e5b229eede97c56a2b",
+  "image": "http://www.wise.com/",
+  "creationAt": "2026-08-08T01:50:07.000Z",
+  "updatedAt": "2026-08-08T01:50:07.000Z"
+}
+2026-08-08 01:50:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/9
+Body:
+{
+  "name": "Toys_f3c22d783aba4388a2430a6dd7e9c4fe",
+  "image": "https://www.christensen-rodriguez.com/"
+} 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Toys_f3c22d783aba4388a2430a6dd7e9c4fe",
+  "slug": "toys-f3c22d783aba4388a2430a6dd7e9c4fe",
+  "image": "https://www.christensen-rodriguez.com/",
+  "creationAt": "2026-08-08T01:50:07.000Z",
+  "updatedAt": "2026-08-08T01:50:07.000Z"
+} 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Toys_f3c22d783aba4388a2430a6dd7e9c4fe",
+  "slug": "toys-f3c22d783aba4388a2430a6dd7e9c4fe",
+  "image": "https://www.christensen-rodriguez.com/",
+  "creationAt": "2026-08-08T01:50:07.000Z",
+  "updatedAt": "2026-08-08T01:50:07.000Z"
+}
+2026-08-08 01:50:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Toys_f3c22d783aba4388a2430a6dd7e9c4fe",
+  "slug": "toys-f3c22d783aba4388a2430a6dd7e9c4fe",
+  "image": "https://www.christensen-rodriguez.com/",
+  "creationAt": "2026-08-08T01:50:07.000Z",
+  "updatedAt": "2026-08-08T01:50:07.000Z"
+} 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-08-08 01:50:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

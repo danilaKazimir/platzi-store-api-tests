@@ -1,0 +1,53 @@
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_6a709e92ee474614acfb81760e0c70fa",
+  "image": "https://www.jenkins-flores.com/"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Personal Care_6a709e92ee474614acfb81760e0c70fa",
+  "slug": "personal-care-6a709e92ee474614acfb81760e0c70fa",
+  "image": "https://www.jenkins-flores.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Personal Care_6a709e92ee474614acfb81760e0c70fa",
+  "slug": "personal-care-6a709e92ee474614acfb81760e0c70fa",
+  "image": "https://www.jenkins-flores.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Personal Care_6a709e92ee474614acfb81760e0c70fa",
+  "slug": "personal-care-6a709e92ee474614acfb81760e0c70fa",
+  "image": "https://www.jenkins-flores.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

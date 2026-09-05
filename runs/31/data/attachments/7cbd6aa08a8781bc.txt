@@ -1,0 +1,135 @@
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_4969b85796174e039881ac68bf7b4409",
+  "image": "https://www.love.com/"
+} 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 64,
+  "name": "Sports & Fitness_4969b85796174e039881ac68bf7b4409",
+  "slug": "sports-fitness-4969b85796174e039881ac68bf7b4409",
+  "image": "https://www.love.com/",
+  "creationAt": "2026-08-13T02:12:32.000Z",
+  "updatedAt": "2026-08-13T02:12:32.000Z"
+} 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profound homogeneous contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "price": 805,
+  "description": "Centralized radical firmware",
+  "categoryId": 64,
+  "images": [
+    "https://www.miller.com/"
+  ]
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 269,
+  "title": "Profound homogeneous contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "slug": "profound-homogeneous-contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "price": 805,
+  "description": "Centralized radical firmware",
+  "category": {
+    "id": 64,
+    "name": "Sports & Fitness_4969b85796174e039881ac68bf7b4409",
+    "slug": "sports-fitness-4969b85796174e039881ac68bf7b4409",
+    "image": "https://www.love.com/",
+    "creationAt": "2026-08-13T02:12:32.000Z",
+    "updatedAt": "2026-08-13T02:12:32.000Z"
+  },
+  "images": [
+    "https://www.miller.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+}
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/profound-homogeneous-contingency-b1e132ecc0e94ea69808a54f107c8f88
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/profound-homogeneous-contingency-b1e132ecc0e94ea69808a54f107c8f88 -> 200
+Body:
+{
+  "id": 269,
+  "title": "Profound homogeneous contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "slug": "profound-homogeneous-contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "price": 805,
+  "description": "Centralized radical firmware",
+  "category": {
+    "id": 64,
+    "name": "Sports & Fitness_4969b85796174e039881ac68bf7b4409",
+    "slug": "sports-fitness-4969b85796174e039881ac68bf7b4409",
+    "image": "https://www.love.com/",
+    "creationAt": "2026-08-13T02:12:32.000Z",
+    "updatedAt": "2026-08-13T02:12:32.000Z"
+  },
+  "images": [
+    "https://www.miller.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+}
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/269
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/269 -> 200
+Body:
+{
+  "id": 269,
+  "title": "Profound homogeneous contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "slug": "profound-homogeneous-contingency-b1e132ecc0e94ea69808a54f107c8f88",
+  "price": 805,
+  "description": "Centralized radical firmware",
+  "category": {
+    "id": 64,
+    "name": "Sports & Fitness_4969b85796174e039881ac68bf7b4409",
+    "slug": "sports-fitness-4969b85796174e039881ac68bf7b4409",
+    "image": "https://www.love.com/",
+    "creationAt": "2026-08-13T02:12:32.000Z",
+    "updatedAt": "2026-08-13T02:12:32.000Z"
+  },
+  "images": [
+    "https://www.miller.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/269
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/269 -> 200
+Body:
+true 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/64
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/64 -> 200
+Body:
+{
+  "id": 64,
+  "name": "Sports & Fitness_4969b85796174e039881ac68bf7b4409",
+  "slug": "sports-fitness-4969b85796174e039881ac68bf7b4409",
+  "image": "https://www.love.com/",
+  "creationAt": "2026-08-13T02:12:32.000Z",
+  "updatedAt": "2026-08-13T02:12:32.000Z"
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/64
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/64 -> 200
+Body:
+true

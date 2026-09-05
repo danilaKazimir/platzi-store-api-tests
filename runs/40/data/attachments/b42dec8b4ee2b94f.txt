@@ -1,0 +1,135 @@
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_fea35caf071d4a7f81f07049e2c0ef43",
+  "image": "https://www.skinner.biz/"
+} 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 732,
+  "name": "Electronics_fea35caf071d4a7f81f07049e2c0ef43",
+  "slug": "electronics-fea35caf071d4a7f81f07049e2c0ef43",
+  "image": "https://www.skinner.biz/",
+  "creationAt": "2026-08-22T01:22:59.000Z",
+  "updatedAt": "2026-08-22T01:22:59.000Z"
+} 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Grass-roots reciprocal architecture-4056168a5317417f997f8f5e8f9a1279",
+  "price": 321,
+  "description": "Versatile transitional initiative",
+  "categoryId": 732,
+  "images": [
+    "https://kim.com/"
+  ]
+} 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 655,
+  "title": "Grass-roots reciprocal architecture-4056168a5317417f997f8f5e8f9a1279",
+  "slug": "grass-roots-reciprocal-architecture-4056168a5317417f997f8f5e8f9a1279",
+  "price": 321,
+  "description": "Versatile transitional initiative",
+  "category": {
+    "id": 732,
+    "name": "Electronics_fea35caf071d4a7f81f07049e2c0ef43",
+    "slug": "electronics-fea35caf071d4a7f81f07049e2c0ef43",
+    "image": "https://www.skinner.biz/",
+    "creationAt": "2026-08-22T01:22:59.000Z",
+    "updatedAt": "2026-08-22T01:22:59.000Z"
+  },
+  "images": [
+    "https://kim.com/"
+  ],
+  "creationAt": "2026-08-22T01:22:59.000Z",
+  "updatedAt": "2026-08-22T01:22:59.000Z"
+}
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/grass-roots-reciprocal-architecture-4056168a5317417f997f8f5e8f9a1279
+Body:
+<empty> 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/grass-roots-reciprocal-architecture-4056168a5317417f997f8f5e8f9a1279 -> 200
+Body:
+{
+  "id": 655,
+  "title": "Grass-roots reciprocal architecture-4056168a5317417f997f8f5e8f9a1279",
+  "slug": "grass-roots-reciprocal-architecture-4056168a5317417f997f8f5e8f9a1279",
+  "price": 321,
+  "description": "Versatile transitional initiative",
+  "category": {
+    "id": 732,
+    "name": "Electronics_fea35caf071d4a7f81f07049e2c0ef43",
+    "slug": "electronics-fea35caf071d4a7f81f07049e2c0ef43",
+    "image": "https://www.skinner.biz/",
+    "creationAt": "2026-08-22T01:22:59.000Z",
+    "updatedAt": "2026-08-22T01:22:59.000Z"
+  },
+  "images": [
+    "https://kim.com/"
+  ],
+  "creationAt": "2026-08-22T01:22:59.000Z",
+  "updatedAt": "2026-08-22T01:22:59.000Z"
+}
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/655
+Body:
+<empty> 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/655 -> 200
+Body:
+{
+  "id": 655,
+  "title": "Grass-roots reciprocal architecture-4056168a5317417f997f8f5e8f9a1279",
+  "slug": "grass-roots-reciprocal-architecture-4056168a5317417f997f8f5e8f9a1279",
+  "price": 321,
+  "description": "Versatile transitional initiative",
+  "category": {
+    "id": 732,
+    "name": "Electronics_fea35caf071d4a7f81f07049e2c0ef43",
+    "slug": "electronics-fea35caf071d4a7f81f07049e2c0ef43",
+    "image": "https://www.skinner.biz/",
+    "creationAt": "2026-08-22T01:22:59.000Z",
+    "updatedAt": "2026-08-22T01:22:59.000Z"
+  },
+  "images": [
+    "https://kim.com/"
+  ],
+  "creationAt": "2026-08-22T01:22:59.000Z",
+  "updatedAt": "2026-08-22T01:22:59.000Z"
+} 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/655
+Body:
+<empty> 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/655 -> 200
+Body:
+true 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/732
+Body:
+<empty> 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/732 -> 200
+Body:
+{
+  "id": 732,
+  "name": "Electronics_fea35caf071d4a7f81f07049e2c0ef43",
+  "slug": "electronics-fea35caf071d4a7f81f07049e2c0ef43",
+  "image": "https://www.skinner.biz/",
+  "creationAt": "2026-08-22T01:22:59.000Z",
+  "updatedAt": "2026-08-22T01:22:59.000Z"
+} 
+
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/732
+Body:
+<empty> 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/732 -> 200
+Body:
+true

@@ -1,0 +1,55 @@
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_80291afdf7b440e589272fcb2b3db818",
+  "image": "https://phillips.com/"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 88,
+  "name": "Home & Kitchen_80291afdf7b440e589272fcb2b3db818",
+  "slug": "home-kitchen-80291afdf7b440e589272fcb2b3db818",
+  "image": "https://phillips.com/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+}
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/88
+Body:
+{
+  "name": "Clothing_d5aee359454740158871205c3a86e570",
+  "image": null
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/88 -> 400
+Body:
+{
+  "path": "/api/v1/categories/88",
+  "timestamp": "2026-08-15T01:23:37.267Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/88
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/88 -> 200
+Body:
+{
+  "id": 88,
+  "name": "Home & Kitchen_80291afdf7b440e589272fcb2b3db818",
+  "slug": "home-kitchen-80291afdf7b440e589272fcb2b3db818",
+  "image": "https://phillips.com/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/88
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/88 -> 200
+Body:
+true

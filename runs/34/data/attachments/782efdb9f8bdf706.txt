@@ -1,0 +1,125 @@
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_f13a1f1aa38b48889efddce1f59fb8f1",
+  "image": "https://www.daniel-richardson.com/"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2733,
+  "name": "Books_f13a1f1aa38b48889efddce1f59fb8f1",
+  "slug": "books-f13a1f1aa38b48889efddce1f59fb8f1",
+  "image": "https://www.daniel-richardson.com/",
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-centric dedicated forecast-241353053c23486e92c746a76b3e237d",
+  "price": 826,
+  "description": "Ergonomic 3rdgeneration concept",
+  "categoryId": 2733,
+  "images": [
+    "http://carter.org/"
+  ]
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1840,
+  "title": "User-centric dedicated forecast-241353053c23486e92c746a76b3e237d",
+  "slug": "user-centric-dedicated-forecast-241353053c23486e92c746a76b3e237d",
+  "price": 826,
+  "description": "Ergonomic 3rdgeneration concept",
+  "category": {
+    "id": 2733,
+    "name": "Books_f13a1f1aa38b48889efddce1f59fb8f1",
+    "slug": "books-f13a1f1aa38b48889efddce1f59fb8f1",
+    "image": "https://www.daniel-richardson.com/",
+    "creationAt": "2026-08-16T01:34:35.000Z",
+    "updatedAt": "2026-08-16T01:34:35.000Z"
+  },
+  "images": [
+    "http://carter.org/"
+  ],
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+}
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/1840
+Body:
+{
+  "title": "Configurable 24/7 projection-93070fb962944265a30f1cdab2a09b46",
+  "price": 368,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/1840 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-16 01:34:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1840
+Body:
+<empty> 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1840 -> 200
+Body:
+{
+  "id": 1840,
+  "title": "User-centric dedicated forecast-241353053c23486e92c746a76b3e237d",
+  "slug": "user-centric-dedicated-forecast-241353053c23486e92c746a76b3e237d",
+  "price": 826,
+  "description": "Ergonomic 3rdgeneration concept",
+  "category": {
+    "id": 2733,
+    "name": "Books_f13a1f1aa38b48889efddce1f59fb8f1",
+    "slug": "books-f13a1f1aa38b48889efddce1f59fb8f1",
+    "image": "https://www.daniel-richardson.com/",
+    "creationAt": "2026-08-16T01:34:35.000Z",
+    "updatedAt": "2026-08-16T01:34:35.000Z"
+  },
+  "images": [
+    "http://carter.org/"
+  ],
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+} 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1840
+Body:
+<empty> 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1840 -> 200
+Body:
+true 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2733
+Body:
+<empty> 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2733 -> 200
+Body:
+{
+  "id": 2733,
+  "name": "Books_f13a1f1aa38b48889efddce1f59fb8f1",
+  "slug": "books-f13a1f1aa38b48889efddce1f59fb8f1",
+  "image": "https://www.daniel-richardson.com/",
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+} 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2733
+Body:
+<empty> 
+
+2026-08-16 01:34:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2733 -> 200
+Body:
+true

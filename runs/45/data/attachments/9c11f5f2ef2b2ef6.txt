@@ -1,0 +1,81 @@
+2026-08-27 08:18:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Dawn Robinson",
+  "email": "billyrobinson@example.org",
+  "password": "***",
+  "avatar": "http://www.castillo-williams.com/"
+} 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 10,
+  "email": "billyrobinson@example.org",
+  "password": "***",
+  "name": "Dawn Robinson",
+  "role": "customer",
+  "avatar": "http://www.castillo-williams.com/",
+  "creationAt": "2026-08-27T08:18:51.000Z",
+  "updatedAt": "2026-08-27T08:18:51.000Z"
+}
+2026-08-27 08:18:51 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/10
+Body:
+{
+  "name": "Shannon Thompson",
+  "email": "dillonphilip@example.net"
+} 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "dillonphilip@example.net",
+  "password": "***",
+  "name": "Shannon Thompson",
+  "role": "customer",
+  "avatar": "http://www.castillo-williams.com/",
+  "creationAt": "2026-08-27T08:18:51.000Z",
+  "updatedAt": "2026-08-27T08:18:51.000Z"
+} 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "dillonphilip@example.net",
+  "password": "***",
+  "name": "Shannon Thompson",
+  "role": "customer",
+  "avatar": "http://www.castillo-williams.com/",
+  "creationAt": "2026-08-27T08:18:51.000Z",
+  "updatedAt": "2026-08-27T08:18:51.000Z"
+}
+2026-08-27 08:18:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "dillonphilip@example.net",
+  "password": "***",
+  "name": "Shannon Thompson",
+  "role": "customer",
+  "avatar": "http://www.castillo-williams.com/",
+  "creationAt": "2026-08-27T08:18:51.000Z",
+  "updatedAt": "2026-08-27T08:18:51.000Z"
+} 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-08-27 08:18:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+true

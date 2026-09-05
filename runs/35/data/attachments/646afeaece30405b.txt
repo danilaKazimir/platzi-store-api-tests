@@ -1,0 +1,49 @@
+2026-08-17 01:25:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_4cbb553092964e6e9a7118f0d4cacf27",
+  "image": "http://www.martinez-hopkins.com/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1185,
+  "name": "Electronics_4cbb553092964e6e9a7118f0d4cacf27",
+  "slug": "electronics-4cbb553092964e6e9a7118f0d4cacf27",
+  "image": "http://www.martinez-hopkins.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1185
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1185 -> 200
+Body:
+true 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1185
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1185 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1185",
+  "timestamp": "2026-08-17T01:25:30.049Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 1185\n}"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1185
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1185 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1185",
+  "timestamp": "2026-08-17T01:25:30.055Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 1185\n}"
+}

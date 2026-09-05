@@ -1,0 +1,125 @@
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_5e34e9a77fbe4c99a504af61f4a2c2ba",
+  "image": "https://www.williams.biz/"
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1257,
+  "name": "Sports & Fitness_5e34e9a77fbe4c99a504af61f4a2c2ba",
+  "slug": "sports-fitness-5e34e9a77fbe4c99a504af61f4a2c2ba",
+  "image": "https://www.williams.biz/",
+  "creationAt": "2026-08-21T01:32:40.000Z",
+  "updatedAt": "2026-08-21T01:32:40.000Z"
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-layered modular frame-e0eb6ba85d39414c99277e21523bae43",
+  "price": 184,
+  "description": "Inverse systematic neural-net",
+  "categoryId": 1257,
+  "images": [
+    "http://www.mclaughlin.com/"
+  ]
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1505,
+  "title": "Multi-layered modular frame-e0eb6ba85d39414c99277e21523bae43",
+  "slug": "multi-layered-modular-frame-e0eb6ba85d39414c99277e21523bae43",
+  "price": 184,
+  "description": "Inverse systematic neural-net",
+  "category": {
+    "id": 1257,
+    "name": "Sports & Fitness_5e34e9a77fbe4c99a504af61f4a2c2ba",
+    "slug": "sports-fitness-5e34e9a77fbe4c99a504af61f4a2c2ba",
+    "image": "https://www.williams.biz/",
+    "creationAt": "2026-08-21T01:32:40.000Z",
+    "updatedAt": "2026-08-21T01:32:40.000Z"
+  },
+  "images": [
+    "http://www.mclaughlin.com/"
+  ],
+  "creationAt": "2026-08-21T01:32:40.000Z",
+  "updatedAt": "2026-08-21T01:32:40.000Z"
+}
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/1505
+Body:
+{
+  "title": "Reverse-engineered dedicated architecture-a861fa6169434bcaa54c3fd43e942884",
+  "price": 875,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/1505 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1505
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1505 -> 200
+Body:
+{
+  "id": 1505,
+  "title": "Multi-layered modular frame-e0eb6ba85d39414c99277e21523bae43",
+  "slug": "multi-layered-modular-frame-e0eb6ba85d39414c99277e21523bae43",
+  "price": 184,
+  "description": "Inverse systematic neural-net",
+  "category": {
+    "id": 1257,
+    "name": "Sports & Fitness_5e34e9a77fbe4c99a504af61f4a2c2ba",
+    "slug": "sports-fitness-5e34e9a77fbe4c99a504af61f4a2c2ba",
+    "image": "https://www.williams.biz/",
+    "creationAt": "2026-08-21T01:32:40.000Z",
+    "updatedAt": "2026-08-21T01:32:40.000Z"
+  },
+  "images": [
+    "http://www.mclaughlin.com/"
+  ],
+  "creationAt": "2026-08-21T01:32:40.000Z",
+  "updatedAt": "2026-08-21T01:32:40.000Z"
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1505
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1505 -> 200
+Body:
+true 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1257
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1257 -> 200
+Body:
+{
+  "id": 1257,
+  "name": "Sports & Fitness_5e34e9a77fbe4c99a504af61f4a2c2ba",
+  "slug": "sports-fitness-5e34e9a77fbe4c99a504af61f4a2c2ba",
+  "image": "https://www.williams.biz/",
+  "creationAt": "2026-08-21T01:32:40.000Z",
+  "updatedAt": "2026-08-21T01:32:40.000Z"
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1257
+Body:
+<empty> 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1257 -> 200
+Body:
+true

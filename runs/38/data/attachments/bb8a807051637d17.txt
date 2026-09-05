@@ -1,0 +1,107 @@
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_8c1b5fb25dac419da258ebc4aa097fdd",
+  "image": "http://rivera-brown.com/"
+} 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1635,
+  "name": "Clothing_8c1b5fb25dac419da258ebc4aa097fdd",
+  "slug": "clothing-8c1b5fb25dac419da258ebc4aa097fdd",
+  "image": "http://rivera-brown.com/",
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+} 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-channeled asymmetric info-mediaries-550a265244a3421ebcdb000707b444af",
+  "price": 896,
+  "description": "Grass-roots holistic extranet",
+  "categoryId": 1635,
+  "images": [
+    "http://www.graham.org/"
+  ]
+} 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1210,
+  "title": "Multi-channeled asymmetric info-mediaries-550a265244a3421ebcdb000707b444af",
+  "slug": "multi-channeled-asymmetric-info-mediaries-550a265244a3421ebcdb000707b444af",
+  "price": 896,
+  "description": "Grass-roots holistic extranet",
+  "category": {
+    "id": 1635,
+    "name": "Clothing_8c1b5fb25dac419da258ebc4aa097fdd",
+    "slug": "clothing-8c1b5fb25dac419da258ebc4aa097fdd",
+    "image": "http://rivera-brown.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "http://www.graham.org/"
+  ],
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+}
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1210
+Body:
+<empty> 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1210 -> 200
+Body:
+true 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1210
+Body:
+<empty> 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1210 -> 400
+Body:
+{
+  "path": "/api/v1/products/1210",
+  "timestamp": "2026-08-20T01:23:26.338Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 1210\n    }\n}"
+}
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1210
+Body:
+<empty> 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1210 -> 400
+Body:
+{
+  "path": "/api/v1/products/1210",
+  "timestamp": "2026-08-20T01:23:26.368Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 1210\n    }\n}"
+} 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1635
+Body:
+<empty> 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1635 -> 200
+Body:
+{
+  "id": 1635,
+  "name": "Clothing_8c1b5fb25dac419da258ebc4aa097fdd",
+  "slug": "clothing-8c1b5fb25dac419da258ebc4aa097fdd",
+  "image": "http://rivera-brown.com/",
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+} 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1635
+Body:
+<empty> 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1635 -> 200
+Body:
+true

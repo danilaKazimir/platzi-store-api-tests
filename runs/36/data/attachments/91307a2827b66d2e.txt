@@ -1,0 +1,68 @@
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3 -> 200
+Body:
+[
+  {
+    "id": 60,
+    "title": "Futuristic Laptop 1",
+    "slug": "futuristic-laptop-1",
+    "price": 358,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=60&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:24.000Z",
+    "updatedAt": "2026-08-17T06:17:43.000Z"
+  },
+  {
+    "id": 61,
+    "title": "Sleek Laptop 2",
+    "slug": "sleek-laptop-2",
+    "price": 850,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=61&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:25.000Z",
+    "updatedAt": "2026-08-17T06:17:44.000Z"
+  },
+  {
+    "id": 62,
+    "title": "Awesome Hat 3",
+    "slug": "awesome-hat-3",
+    "price": 846,
+    "description": "A description for product 3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=62&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:26.000Z",
+    "updatedAt": "2026-08-17T06:17:45.000Z"
+  }
+]

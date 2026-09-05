@@ -1,0 +1,88 @@
+2026-08-13 02:12:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Douglas Pierce",
+  "email": "jamie60@example.com",
+  "password": "***",
+  "avatar": "https://www.hawkins.biz/"
+} 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 86,
+  "email": "jamie60@example.com",
+  "password": "***",
+  "name": "Douglas Pierce",
+  "role": "customer",
+  "avatar": "https://www.hawkins.biz/",
+  "creationAt": "2026-08-13T02:12:29.000Z",
+  "updatedAt": "2026-08-13T02:12:29.000Z"
+}
+2026-08-13 02:12:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "jamie60@example.com",
+  "password": "***"
+} 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjg2LCJpYXQiOjE3ODY1ODcxNDksImV4cCI6MTc4NjYyMzE0OX0.ljhN_tpSCXum8y1ntaVmfXvGAOpC3DUIW6oTYIN3_sg"
+} 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 86,
+  "email": "jamie60@example.com",
+  "password": "***",
+  "name": "Douglas Pierce",
+  "role": "customer",
+  "avatar": "https://www.hawkins.biz/",
+  "creationAt": "2026-08-13T02:12:29.000Z",
+  "updatedAt": "2026-08-13T02:12:29.000Z"
+}
+2026-08-13 02:12:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/86
+Body:
+<empty> 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/86 -> 200
+Body:
+{
+  "id": 86,
+  "email": "jamie60@example.com",
+  "password": "***",
+  "name": "Douglas Pierce",
+  "role": "customer",
+  "avatar": "https://www.hawkins.biz/",
+  "creationAt": "2026-08-13T02:12:29.000Z",
+  "updatedAt": "2026-08-13T02:12:29.000Z"
+} 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/86
+Body:
+<empty> 
+
+2026-08-13 02:12:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/86 -> 200
+Body:
+true

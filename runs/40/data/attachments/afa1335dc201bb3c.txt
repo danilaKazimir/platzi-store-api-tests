@@ -1,0 +1,125 @@
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_f8e9ad6002e949308538fb74febbba10",
+  "image": "http://www.williams-bush.info/"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 738,
+  "name": "Pet Supplies_f8e9ad6002e949308538fb74febbba10",
+  "slug": "pet-supplies-f8e9ad6002e949308538fb74febbba10",
+  "image": "http://www.williams-bush.info/",
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fundamental fault-tolerant secured line-105e445bdb0a4770a33c014b0163ea7b",
+  "price": 951,
+  "description": "Reduced cohesive synergy",
+  "categoryId": 738,
+  "images": [
+    "http://johnson.com/"
+  ]
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 664,
+  "title": "Fundamental fault-tolerant secured line-105e445bdb0a4770a33c014b0163ea7b",
+  "slug": "fundamental-fault-tolerant-secured-line-105e445bdb0a4770a33c014b0163ea7b",
+  "price": 951,
+  "description": "Reduced cohesive synergy",
+  "category": {
+    "id": 738,
+    "name": "Pet Supplies_f8e9ad6002e949308538fb74febbba10",
+    "slug": "pet-supplies-f8e9ad6002e949308538fb74febbba10",
+    "image": "http://www.williams-bush.info/",
+    "creationAt": "2026-08-22T01:23:01.000Z",
+    "updatedAt": "2026-08-22T01:23:01.000Z"
+  },
+  "images": [
+    "http://johnson.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+}
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/664
+Body:
+{
+  "title": "Team-oriented clear-thinking info-mediaries-3581f2321f1846a9a6151192b60c9483",
+  "price": 105,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/664 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/664
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/664 -> 200
+Body:
+{
+  "id": 664,
+  "title": "Fundamental fault-tolerant secured line-105e445bdb0a4770a33c014b0163ea7b",
+  "slug": "fundamental-fault-tolerant-secured-line-105e445bdb0a4770a33c014b0163ea7b",
+  "price": 951,
+  "description": "Reduced cohesive synergy",
+  "category": {
+    "id": 738,
+    "name": "Pet Supplies_f8e9ad6002e949308538fb74febbba10",
+    "slug": "pet-supplies-f8e9ad6002e949308538fb74febbba10",
+    "image": "http://www.williams-bush.info/",
+    "creationAt": "2026-08-22T01:23:01.000Z",
+    "updatedAt": "2026-08-22T01:23:01.000Z"
+  },
+  "images": [
+    "http://johnson.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/664
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/664 -> 200
+Body:
+true 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/738
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/738 -> 200
+Body:
+{
+  "id": 738,
+  "name": "Pet Supplies_f8e9ad6002e949308538fb74febbba10",
+  "slug": "pet-supplies-f8e9ad6002e949308538fb74febbba10",
+  "image": "http://www.williams-bush.info/",
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/738
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/738 -> 200
+Body:
+true

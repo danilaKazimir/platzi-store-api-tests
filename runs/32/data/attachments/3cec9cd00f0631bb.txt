@@ -1,0 +1,79 @@
+2026-08-14 02:10:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_b4369efdacef418381e287d87bafc007",
+  "image": "http://black-rodriguez.com/"
+} 
+
+2026-08-14 02:10:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1337,
+  "name": "Books_b4369efdacef418381e287d87bafc007",
+  "slug": "books-b4369efdacef418381e287d87bafc007",
+  "image": "http://black-rodriguez.com/",
+  "creationAt": "2026-08-14T02:10:37.000Z",
+  "updatedAt": "2026-08-14T02:10:37.000Z"
+}
+2026-08-14 02:10:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly leadingedge data-warehouse-b4cf756440e846698cfa49fcee8f75c3",
+  "price": 750,
+  "description": "Right-sized bandwidth-monitored open architecture",
+  "categoryId": 1337,
+  "images": [
+    "http://www.bass.com/"
+  ]
+} 
+
+2026-08-14 02:10:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 813,
+  "title": "User-friendly leadingedge data-warehouse-b4cf756440e846698cfa49fcee8f75c3",
+  "slug": "user-friendly-leadingedge-data-warehouse-b4cf756440e846698cfa49fcee8f75c3",
+  "price": 750,
+  "description": "Right-sized bandwidth-monitored open architecture",
+  "category": {
+    "id": 1337,
+    "name": "Books_b4369efdacef418381e287d87bafc007",
+    "slug": "books-b4369efdacef418381e287d87bafc007",
+    "image": "http://black-rodriguez.com/",
+    "creationAt": "2026-08-14T02:10:37.000Z",
+    "updatedAt": "2026-08-14T02:10:37.000Z"
+  },
+  "images": [
+    "http://www.bass.com/"
+  ],
+  "creationAt": "2026-08-14T02:10:38.000Z",
+  "updatedAt": "2026-08-14T02:10:38.000Z"
+}
+2026-08-14 02:10:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1337
+Body:
+<empty> 
+
+2026-08-14 02:10:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1337 -> 200
+Body:
+{
+  "id": 1337,
+  "name": "Books_b4369efdacef418381e287d87bafc007",
+  "slug": "books-b4369efdacef418381e287d87bafc007",
+  "image": "http://black-rodriguez.com/",
+  "creationAt": "2026-08-14T02:10:37.000Z",
+  "updatedAt": "2026-08-14T02:10:37.000Z"
+} 
+
+2026-08-14 02:10:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1337
+Body:
+<empty> 
+
+2026-08-14 02:10:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1337 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1337",
+  "timestamp": "2026-08-14T02:10:38.392Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

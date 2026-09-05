@@ -1,0 +1,15 @@
+2026-08-10 02:02:12 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Clothing_a658f747d5434631921222db1cbb7e7d",
+  "image": "http://dominguez.com/"
+} 
+
+2026-08-10 02:02:12 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-10T02:02:12.409Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

@@ -1,0 +1,15 @@
+2026-08-14 02:10:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Books_0b925f2e5456423bbf102b56631debc2",
+  "image": "https://www.klein.com/"
+} 
+
+2026-08-14 02:10:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-14T02:10:37.820Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

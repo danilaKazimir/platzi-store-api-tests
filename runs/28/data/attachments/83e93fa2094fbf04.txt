@@ -1,0 +1,81 @@
+2026-08-10 02:02:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jessica Pierce",
+  "email": "tinanovak@example.org",
+  "password": "***",
+  "avatar": "https://www.smith.com/"
+} 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 123,
+  "email": "tinanovak@example.org",
+  "password": "***",
+  "name": "Jessica Pierce",
+  "role": "customer",
+  "avatar": "https://www.smith.com/",
+  "creationAt": "2026-08-10T02:02:16.000Z",
+  "updatedAt": "2026-08-10T02:02:16.000Z"
+}
+2026-08-10 02:02:16 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/123
+Body:
+{
+  "name": "Cynthia Hudson",
+  "email": "howardtiffany@example.net"
+} 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/123 -> 200
+Body:
+{
+  "id": 123,
+  "email": "howardtiffany@example.net",
+  "password": "***",
+  "name": "Cynthia Hudson",
+  "role": "customer",
+  "avatar": "https://www.smith.com/",
+  "creationAt": "2026-08-10T02:02:16.000Z",
+  "updatedAt": "2026-08-10T02:02:16.000Z"
+} 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/123
+Body:
+<empty> 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/123 -> 200
+Body:
+{
+  "id": 123,
+  "email": "howardtiffany@example.net",
+  "password": "***",
+  "name": "Cynthia Hudson",
+  "role": "customer",
+  "avatar": "https://www.smith.com/",
+  "creationAt": "2026-08-10T02:02:16.000Z",
+  "updatedAt": "2026-08-10T02:02:16.000Z"
+}
+2026-08-10 02:02:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/123
+Body:
+<empty> 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/123 -> 200
+Body:
+{
+  "id": 123,
+  "email": "howardtiffany@example.net",
+  "password": "***",
+  "name": "Cynthia Hudson",
+  "role": "customer",
+  "avatar": "https://www.smith.com/",
+  "creationAt": "2026-08-10T02:02:16.000Z",
+  "updatedAt": "2026-08-10T02:02:16.000Z"
+} 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/123
+Body:
+<empty> 
+
+2026-08-10 02:02:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/123 -> 200
+Body:
+true

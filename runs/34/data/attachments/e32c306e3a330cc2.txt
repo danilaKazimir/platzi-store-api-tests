@@ -1,0 +1,80 @@
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Danielle Sanders",
+  "email": "juarezpamela@example.net",
+  "password": "***",
+  "avatar": "https://miller-morris.biz/"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 65,
+  "email": "juarezpamela@example.net",
+  "password": "***",
+  "name": "Danielle Sanders",
+  "role": "customer",
+  "avatar": "https://miller-morris.biz/",
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+}
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/65
+Body:
+{
+  "name": "Holly Mann"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+{
+  "id": 65,
+  "email": "juarezpamela@example.net",
+  "password": "***",
+  "name": "Holly Mann",
+  "role": "customer",
+  "avatar": "https://miller-morris.biz/",
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/65
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+{
+  "id": 65,
+  "email": "juarezpamela@example.net",
+  "password": "***",
+  "name": "Holly Mann",
+  "role": "customer",
+  "avatar": "https://miller-morris.biz/",
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+}
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/65
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+{
+  "id": 65,
+  "email": "juarezpamela@example.net",
+  "password": "***",
+  "name": "Holly Mann",
+  "role": "customer",
+  "avatar": "https://miller-morris.biz/",
+  "creationAt": "2026-08-16T01:34:35.000Z",
+  "updatedAt": "2026-08-16T01:34:35.000Z"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/65
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+true

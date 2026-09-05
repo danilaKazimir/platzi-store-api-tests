@@ -1,0 +1,758 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T06:45:21.000Z"
+  },
+  {
+    "id": 2,
+    "email": "maria@mail.com",
+    "password": "12345",
+    "name": "Maria",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T06:45:21.000Z"
+  },
+  {
+    "id": 3,
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T06:45:21.000Z"
+  },
+  {
+    "id": 13,
+    "email": "john.doe@gmail.com",
+    "password": "Password1234",
+    "name": "john doe",
+    "role": "customer",
+    "avatar": "https://johndoe.com/avatar.jpg",
+    "creationAt": "2026-08-25T10:18:32.000Z",
+    "updatedAt": "2026-08-25T10:18:32.000Z"
+  },
+  {
+    "id": 14,
+    "email": "Aa222@gmail.com",
+    "password": "Qq111111",
+    "name": "黃水田",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-08-25T10:25:27.000Z",
+    "updatedAt": "2026-08-25T10:25:27.000Z"
+  },
+  {
+    "id": 15,
+    "email": "umar@gmail.com",
+    "password": "123456",
+    "name": "Umar",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T10:29:57.000Z",
+    "updatedAt": "2026-08-25T10:29:57.000Z"
+  },
+  {
+    "id": 17,
+    "email": "vusalll23l@gmail.com",
+    "password": "12345678",
+    "name": "vusalllll56",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T11:17:30.000Z",
+    "updatedAt": "2026-08-25T11:17:30.000Z"
+  },
+  {
+    "id": 18,
+    "email": "admin@bloom.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-08-25T11:23:20.000Z",
+    "updatedAt": "2026-08-25T11:23:42.000Z"
+  },
+  {
+    "id": 19,
+    "email": "pallove@gmail.com",
+    "password": "pal123456",
+    "name": "Pallove Jain",
+    "role": "admin",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T11:36:25.000Z",
+    "updatedAt": "2026-08-25T11:36:25.000Z"
+  },
+  {
+    "id": 20,
+    "email": "sudhir@gmail.com",
+    "password": "sudhir1234",
+    "name": "Sudhir Kalmegh",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T11:36:26.000Z",
+    "updatedAt": "2026-08-25T11:36:26.000Z"
+  },
+  {
+    "id": 21,
+    "email": "medoadmin12@gmail.com",
+    "password": "1234",
+    "name": "medo",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=150&h=220",
+    "creationAt": "2026-08-25T12:13:25.000Z",
+    "updatedAt": "2026-08-25T12:13:25.000Z"
+  },
+  {
+    "id": 23,
+    "email": "medoadmin12@gmail.com",
+    "password": "12345678",
+    "name": "medo",
+    "role": "admin",
+    "avatar": "https://api.lorem.space/image/face?w=150&h=220",
+    "creationAt": "2026-08-25T12:14:14.000Z",
+    "updatedAt": "2026-08-25T12:14:14.000Z"
+  },
+  {
+    "id": 25,
+    "email": "tathya123@gmail.com",
+    "password": "123456",
+    "name": "Tathya Shah",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-08-25T12:49:36.000Z",
+    "updatedAt": "2026-08-25T12:49:36.000Z"
+  },
+  {
+    "id": 26,
+    "email": "tathya123@gmail.com",
+    "password": "123456",
+    "name": "Tathya Shah",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-08-25T12:49:41.000Z",
+    "updatedAt": "2026-08-25T12:49:41.000Z"
+  },
+  {
+    "id": 27,
+    "email": "abc123@mail.com",
+    "password": "123456",
+    "name": "Abc xyz",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T12:57:16.000Z",
+    "updatedAt": "2026-08-25T12:57:16.000Z"
+  },
+  {
+    "id": 30,
+    "email": "abc123@gmail.com",
+    "password": "123456",
+    "name": "Tathya",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T13:34:37.000Z",
+    "updatedAt": "2026-08-25T13:34:37.000Z"
+  },
+  {
+    "id": 32,
+    "email": "user1@gmail.com",
+    "password": "user1234",
+    "name": "User1",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T15:01:13.000Z",
+    "updatedAt": "2026-08-25T16:41:06.000Z"
+  },
+  {
+    "id": 33,
+    "email": "komila@mail.com",
+    "password": "262608",
+    "name": "Komila Zokirova",
+    "role": "admin",
+    "avatar": "https://i.pravatar.cc/150",
+    "creationAt": "2026-08-25T16:33:27.000Z",
+    "updatedAt": "2026-08-25T16:33:27.000Z"
+  },
+  {
+    "id": 34,
+    "email": "zokirova@mail.com",
+    "password": "525252",
+    "name": "zokirova",
+    "role": "admin",
+    "avatar": "https://i.pravatar.cc/150",
+    "creationAt": "2026-08-25T16:38:41.000Z",
+    "updatedAt": "2026-08-25T16:38:41.000Z"
+  },
+  {
+    "id": 35,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T17:00:44.000Z",
+    "updatedAt": "2026-08-25T17:00:44.000Z"
+  },
+  {
+    "id": 36,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T17:00:46.000Z",
+    "updatedAt": "2026-08-25T17:00:46.000Z"
+  },
+  {
+    "id": 37,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-08-25T17:00:47.000Z",
+    "updatedAt": "2026-08-25T17:00:47.000Z"
+  },
+  {
+    "id": 39,
+    "email": "komila@mail.com",
+    "password": "262608",
+    "name": "Komila Zokirova",
+    "role": "admin",
+    "avatar": "https://i.pravatar.cc/150",
+    "creationAt": "2026-08-25T17:07:03.000Z",
+    "updatedAt": "2026-08-25T17:07:03.000Z"
+  },
+  {
+    "id": 51,
+    "email": "faxriddin@gmail.com",
+    "password": "12345678",
+    "name": "Faxriddin Nuraliyev",
+    "role": "customer",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "creationAt": "2026-08-25T17:29:32.000Z",
+    "updatedAt": "2026-08-25T17:29:32.000Z"
+  },
+  {
+    "id": 53,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-08-25T18:15:39.000Z",
+    "updatedAt": "2026-08-25T18:15:39.000Z"
+  },
+  {
+    "id": 55,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-08-25T18:15:40.000Z",
+    "updatedAt": "2026-08-25T18:15:40.000Z"
+  },
+  {
+    "id": 57,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-08-25T18:15:41.000Z",
+    "updatedAt": "2026-08-25T18:15:41.000Z"
+  },
+  {
+    "id": 58,
+    "email": "beko@gmail.com",
+    "password": "uhuhax202",
+    "name": "beko",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-08-25T21:04:01.000Z",
+    "updatedAt": "2026-08-25T21:04:01.000Z"
+  },
+  {
+    "id": 59,
+    "email": "Harvey.Bartoletti21@hotmail.com",
+    "password": "bw5PNSAGUCtUBHK",
+    "name": "Mack_Orn54",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-08-25T21:04:14.000Z",
+    "updatedAt": "2026-08-25T21:04:14.000Z"
+  },
+  {
+    "id": 60,
+    "email": "qa-user-70458881@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA fdab3735",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:19:21.000Z",
+    "updatedAt": "2026-08-25T22:19:21.000Z"
+  },
+  {
+    "id": 62,
+    "email": "qa-user-d0ce9545@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 1ff58c79",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:21:46.000Z",
+    "updatedAt": "2026-08-25T22:21:46.000Z"
+  },
+  {
+    "id": 63,
+    "email": "qa-user-61903536@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado cd5907fc",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:21:48.000Z",
+    "updatedAt": "2026-08-25T22:21:48.000Z"
+  },
+  {
+    "id": 65,
+    "email": "qa-user-8d921a52@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 2b18f5fd",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:23:24.000Z",
+    "updatedAt": "2026-08-25T22:23:24.000Z"
+  },
+  {
+    "id": 66,
+    "email": "qa-user-e9649977@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 090abe3b",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:23:26.000Z",
+    "updatedAt": "2026-08-25T22:23:26.000Z"
+  },
+  {
+    "id": 68,
+    "email": "qa-user-6d199c8f@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 90901270",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:24:48.000Z",
+    "updatedAt": "2026-08-25T22:24:48.000Z"
+  },
+  {
+    "id": 69,
+    "email": "qa-user-47baef44@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 4af445e1",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:24:50.000Z",
+    "updatedAt": "2026-08-25T22:24:50.000Z"
+  },
+  {
+    "id": 71,
+    "email": "qa-user-8945c43d@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 3ccf2a17",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:26:34.000Z",
+    "updatedAt": "2026-08-25T22:26:34.000Z"
+  },
+  {
+    "id": 72,
+    "email": "qa-user-3f8793a5@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 263dd901",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:26:36.000Z",
+    "updatedAt": "2026-08-25T22:26:36.000Z"
+  },
+  {
+    "id": 74,
+    "email": "qa-user-e91ab993@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA a12d457b",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:27:22.000Z",
+    "updatedAt": "2026-08-25T22:27:22.000Z"
+  },
+  {
+    "id": 75,
+    "email": "qa-user-75de85c1@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 4c50edb3",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:27:24.000Z",
+    "updatedAt": "2026-08-25T22:27:24.000Z"
+  },
+  {
+    "id": 77,
+    "email": "qa-user-9da808dc@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA dfdfdda4",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:35:21.000Z",
+    "updatedAt": "2026-08-25T22:35:21.000Z"
+  },
+  {
+    "id": 78,
+    "email": "qa-user-1c05a8e3@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado a9490ff2",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:35:23.000Z",
+    "updatedAt": "2026-08-25T22:35:24.000Z"
+  },
+  {
+    "id": 80,
+    "email": "qa-user-d5048ec2@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 072cb5e7",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:39:22.000Z",
+    "updatedAt": "2026-08-25T22:39:22.000Z"
+  },
+  {
+    "id": 81,
+    "email": "qa-user-6d2ed499@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 775f51bc",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:39:24.000Z",
+    "updatedAt": "2026-08-25T22:39:25.000Z"
+  },
+  {
+    "id": 83,
+    "email": "qa-user-ea0caa74@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 28c196c5",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:33.000Z",
+    "updatedAt": "2026-08-26T00:41:33.000Z"
+  },
+  {
+    "id": 84,
+    "email": "qa-user-d914b4ea@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 9e35b4a7",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:35.000Z",
+    "updatedAt": "2026-08-26T00:41:35.000Z"
+  },
+  {
+    "id": 86,
+    "email": "qa-user-2d35b216@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 16c68025",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:52.000Z",
+    "updatedAt": "2026-08-26T00:42:52.000Z"
+  },
+  {
+    "id": 87,
+    "email": "qa-user-2b5098cd@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 179def96",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:54.000Z",
+    "updatedAt": "2026-08-26T00:42:54.000Z"
+  },
+  {
+    "id": 89,
+    "email": "qa-user-2671dc3f@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA cf8c1127",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:07.000Z",
+    "updatedAt": "2026-08-26T00:44:07.000Z"
+  },
+  {
+    "id": 90,
+    "email": "qa-user-c2fc23ae@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 9697c17c",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:09.000Z",
+    "updatedAt": "2026-08-26T00:44:10.000Z"
+  },
+  {
+    "id": 92,
+    "email": "qa-user-4f5c01b7@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA c68cda1c",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:48.000Z",
+    "updatedAt": "2026-08-26T00:44:48.000Z"
+  },
+  {
+    "id": 93,
+    "email": "qa-user-c8f54e0b@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado b52cc59f",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:50.000Z",
+    "updatedAt": "2026-08-26T00:44:50.000Z"
+  },
+  {
+    "id": 97,
+    "email": "qa-user-f23e7aa4@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA ea93d194",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:19.000Z",
+    "updatedAt": "2026-08-26T01:12:19.000Z"
+  },
+  {
+    "id": 98,
+    "email": "qa-retrieve-9feaabc8@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA consulta 44f7e0c8",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:21.000Z",
+    "updatedAt": "2026-08-26T01:12:21.000Z"
+  },
+  {
+    "id": 99,
+    "email": "qa-user-9bd0fa17@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 7c76a2d2",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:22.000Z",
+    "updatedAt": "2026-08-26T01:12:22.000Z"
+  },
+  {
+    "id": 100,
+    "email": "qa-user-da0b4662@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA parcial c73dc33b",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:23.000Z",
+    "updatedAt": "2026-08-26T01:12:23.000Z"
+  },
+  {
+    "id": 101,
+    "email": "qa-user-24d90ef0@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA id protegido 6bceba8f",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:24.000Z",
+    "updatedAt": "2026-08-26T01:12:24.000Z"
+  },
+  {
+    "id": 105,
+    "email": "qa-user-3a66d596@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 313e13f6",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:13:13.000Z",
+    "updatedAt": "2026-08-26T01:13:13.000Z"
+  },
+  {
+    "id": 106,
+    "email": "qa-retrieve-761c0651@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA consulta 8f16bc90",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:13:15.000Z",
+    "updatedAt": "2026-08-26T01:13:15.000Z"
+  },
+  {
+    "id": 107,
+    "email": "qa-user-15400b59@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 49c1b82f",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:13:15.000Z",
+    "updatedAt": "2026-08-26T01:13:16.000Z"
+  },
+  {
+    "id": 108,
+    "email": "qa-user-b2f7d971@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA parcial ecb5a893",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:13:17.000Z",
+    "updatedAt": "2026-08-26T01:13:17.000Z"
+  },
+  {
+    "id": 109,
+    "email": "qa-user-2b912f53@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA id protegido b2296fe0",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:13:18.000Z",
+    "updatedAt": "2026-08-26T01:13:18.000Z"
+  },
+  {
+    "id": 113,
+    "email": "qa-user-bf37ebfb@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 44d95812",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:15:11.000Z",
+    "updatedAt": "2026-08-26T01:15:11.000Z"
+  },
+  {
+    "id": 114,
+    "email": "qa-user-e956ad0b@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA d526d1d8",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:15:12.000Z",
+    "updatedAt": "2026-08-26T01:15:12.000Z"
+  },
+  {
+    "id": 115,
+    "email": "qa-retrieve-c9bc3769@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA consulta d64a753f",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:15:14.000Z",
+    "updatedAt": "2026-08-26T01:15:14.000Z"
+  },
+  {
+    "id": 116,
+    "email": "qa-user-1194e911@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado 224f72bc",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:15:14.000Z",
+    "updatedAt": "2026-08-26T01:15:15.000Z"
+  },
+  {
+    "id": 117,
+    "email": "qa-user-39bad9e3@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA parcial 1e568bb8",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:15:15.000Z",
+    "updatedAt": "2026-08-26T01:15:16.000Z"
+  },
+  {
+    "id": 118,
+    "email": "qa-user-752e4f2e@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA id protegido 8361d76d",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:15:16.000Z",
+    "updatedAt": "2026-08-26T01:15:17.000Z"
+  },
+  {
+    "id": 122,
+    "email": "qa-user-6b5f44c1@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 95106acd",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:25:09.000Z",
+    "updatedAt": "2026-08-26T01:25:09.000Z"
+  },
+  {
+    "id": 123,
+    "email": "qa-user-8158b2c7@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA 957f3011",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:25:10.000Z",
+    "updatedAt": "2026-08-26T01:25:10.000Z"
+  },
+  {
+    "id": 124,
+    "email": "qa-retrieve-487067f1@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA consulta 8afbd572",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:25:11.000Z",
+    "updatedAt": "2026-08-26T01:25:11.000Z"
+  },
+  {
+    "id": 125,
+    "email": "qa-user-e83f408f@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA actualizado d5be9691",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:25:12.000Z",
+    "updatedAt": "2026-08-26T01:25:13.000Z"
+  },
+  {
+    "id": 126,
+    "email": "qa-user-9b74f353@mail.com",
+    "password": "Password123",
+    "name": "Usuario QA parcial bf609948",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:25:13.000Z",
+    "updatedAt": "2026-08-26T01:25:14.000Z"
+  },
+  {
+    "id": 127,
+    "email": "qa-user-7d84b223@mail.com",
+    "password": "Password456",
+    "name": "Usuario QA id protegido f2e0ef7f",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:25:14.000Z",
+    "updatedAt": "2026-08-26T01:25:15.000Z"
+  },
+  {
+    "id": 131,
+    "email": "thomassmith@example.org",
+    "password": "5YOvBAkt",
+    "name": "Alex Baker",
+    "role": "customer",
+    "avatar": "https://martin.info/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  }
+]

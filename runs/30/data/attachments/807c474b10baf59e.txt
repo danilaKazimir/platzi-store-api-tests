@@ -1,0 +1,125 @@
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_3724c2e594c34c639b7b17c456b3de0d",
+  "image": "https://www.mendoza-lee.org/"
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 74,
+  "name": "Toys_3724c2e594c34c639b7b17c456b3de0d",
+  "slug": "toys-3724c2e594c34c639b7b17c456b3de0d",
+  "image": "https://www.mendoza-lee.org/",
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based optimal intranet-1fe1915249bc432c86bc3c66bcbcdc7a",
+  "price": 435,
+  "description": "User-centric exuding workforce",
+  "categoryId": 74,
+  "images": [
+    "https://www.davila-johnson.com/"
+  ]
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 203,
+  "title": "Object-based optimal intranet-1fe1915249bc432c86bc3c66bcbcdc7a",
+  "slug": "object-based-optimal-intranet-1fe1915249bc432c86bc3c66bcbcdc7a",
+  "price": 435,
+  "description": "User-centric exuding workforce",
+  "category": {
+    "id": 74,
+    "name": "Toys_3724c2e594c34c639b7b17c456b3de0d",
+    "slug": "toys-3724c2e594c34c639b7b17c456b3de0d",
+    "image": "https://www.mendoza-lee.org/",
+    "creationAt": "2026-08-12T02:10:26.000Z",
+    "updatedAt": "2026-08-12T02:10:26.000Z"
+  },
+  "images": [
+    "https://www.davila-johnson.com/"
+  ],
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+}
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/203
+Body:
+{
+  "title": "Monitored eco-centric service-desk-e738e479c3304b67baed32da714ce67a",
+  "price": 979,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/203 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/203
+Body:
+<empty> 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/203 -> 200
+Body:
+{
+  "id": 203,
+  "title": "Object-based optimal intranet-1fe1915249bc432c86bc3c66bcbcdc7a",
+  "slug": "object-based-optimal-intranet-1fe1915249bc432c86bc3c66bcbcdc7a",
+  "price": 435,
+  "description": "User-centric exuding workforce",
+  "category": {
+    "id": 74,
+    "name": "Toys_3724c2e594c34c639b7b17c456b3de0d",
+    "slug": "toys-3724c2e594c34c639b7b17c456b3de0d",
+    "image": "https://www.mendoza-lee.org/",
+    "creationAt": "2026-08-12T02:10:26.000Z",
+    "updatedAt": "2026-08-12T02:10:26.000Z"
+  },
+  "images": [
+    "https://www.davila-johnson.com/"
+  ],
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+} 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/203
+Body:
+<empty> 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/203 -> 200
+Body:
+true 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+{
+  "id": 74,
+  "name": "Toys_3724c2e594c34c639b7b17c456b3de0d",
+  "slug": "toys-3724c2e594c34c639b7b17c456b3de0d",
+  "image": "https://www.mendoza-lee.org/",
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+} 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-08-12 02:10:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+true

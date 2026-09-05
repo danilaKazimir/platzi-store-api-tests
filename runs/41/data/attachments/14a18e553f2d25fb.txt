@@ -1,0 +1,408 @@
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+  "image": "http://boyle.com/"
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 80,
+  "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+  "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+  "image": "http://boyle.com/",
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+}
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Right-sized secondary service-desk-0e17fae9463745648e01c37894581071",
+  "price": 940,
+  "description": "Implemented mobile data-warehouse",
+  "categoryId": 80,
+  "images": [
+    "http://www.sutton.com/"
+  ]
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 245,
+  "title": "Right-sized secondary service-desk-0e17fae9463745648e01c37894581071",
+  "slug": "right-sized-secondary-service-desk-0e17fae9463745648e01c37894581071",
+  "price": 940,
+  "description": "Implemented mobile data-warehouse",
+  "category": {
+    "id": 80,
+    "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+    "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+    "image": "http://boyle.com/",
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  "images": [
+    "http://www.sutton.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory fresh-thinking open architecture-94f33e200e6044ea86748dec5553b3a8",
+  "price": 53,
+  "description": "Profit-focused executive website",
+  "categoryId": 80,
+  "images": [
+    "https://www.buchanan.com/"
+  ]
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 246,
+  "title": "Mandatory fresh-thinking open architecture-94f33e200e6044ea86748dec5553b3a8",
+  "slug": "mandatory-fresh-thinking-open-architecture-94f33e200e6044ea86748dec5553b3a8",
+  "price": 53,
+  "description": "Profit-focused executive website",
+  "category": {
+    "id": 80,
+    "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+    "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+    "image": "http://boyle.com/",
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  "images": [
+    "https://www.buchanan.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Proactive coherent circuit-4ee501a1cb924604a50e6b9bd03b2558",
+  "price": 95,
+  "description": "Enterprise-wide contextually-based focus group",
+  "categoryId": 80,
+  "images": [
+    "https://cooper.com/"
+  ]
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 247,
+  "title": "Proactive coherent circuit-4ee501a1cb924604a50e6b9bd03b2558",
+  "slug": "proactive-coherent-circuit-4ee501a1cb924604a50e6b9bd03b2558",
+  "price": 95,
+  "description": "Enterprise-wide contextually-based focus group",
+  "category": {
+    "id": 80,
+    "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+    "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+    "image": "http://boyle.com/",
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  "images": [
+    "https://cooper.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7a7a791ec16249ea8716d8f1dc3fbd8e",
+  "image": "https://www.franklin-goodwin.com/"
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 82,
+  "name": "Books_7a7a791ec16249ea8716d8f1dc3fbd8e",
+  "slug": "books-7a7a791ec16249ea8716d8f1dc3fbd8e",
+  "image": "https://www.franklin-goodwin.com/",
+  "creationAt": "2026-08-23T01:36:28.000Z",
+  "updatedAt": "2026-08-23T01:36:28.000Z"
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Organic 3rdgeneration capability-cee115bf99864c8f819c95dbd8af27d2",
+  "price": 11,
+  "description": "Organized didactic intranet",
+  "categoryId": 82,
+  "images": [
+    "http://www.dixon.info/"
+  ]
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 249,
+  "title": "Organic 3rdgeneration capability-cee115bf99864c8f819c95dbd8af27d2",
+  "slug": "organic-3rdgeneration-capability-cee115bf99864c8f819c95dbd8af27d2",
+  "price": 11,
+  "description": "Organized didactic intranet",
+  "category": {
+    "id": 82,
+    "name": "Books_7a7a791ec16249ea8716d8f1dc3fbd8e",
+    "slug": "books-7a7a791ec16249ea8716d8f1dc3fbd8e",
+    "image": "https://www.franklin-goodwin.com/",
+    "creationAt": "2026-08-23T01:36:28.000Z",
+    "updatedAt": "2026-08-23T01:36:28.000Z"
+  },
+  "images": [
+    "http://www.dixon.info/"
+  ],
+  "creationAt": "2026-08-23T01:36:28.000Z",
+  "updatedAt": "2026-08-23T01:36:28.000Z"
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/right-sized-secondary-service-desk-0e17fae9463745648e01c37894581071/related
+Body:
+<empty> 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/right-sized-secondary-service-desk-0e17fae9463745648e01c37894581071/related -> 200
+Body:
+[
+  {
+    "id": 246,
+    "title": "Mandatory fresh-thinking open architecture-94f33e200e6044ea86748dec5553b3a8",
+    "slug": "mandatory-fresh-thinking-open-architecture-94f33e200e6044ea86748dec5553b3a8",
+    "price": 53,
+    "description": "Profit-focused executive website",
+    "category": {
+      "id": 80,
+      "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+      "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+      "image": "http://boyle.com/",
+      "creationAt": "2026-08-23T01:36:27.000Z",
+      "updatedAt": "2026-08-23T01:36:27.000Z"
+    },
+    "images": [
+      "https://www.buchanan.com/"
+    ],
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  {
+    "id": 247,
+    "title": "Proactive coherent circuit-4ee501a1cb924604a50e6b9bd03b2558",
+    "slug": "proactive-coherent-circuit-4ee501a1cb924604a50e6b9bd03b2558",
+    "price": 95,
+    "description": "Enterprise-wide contextually-based focus group",
+    "category": {
+      "id": 80,
+      "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+      "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+      "image": "http://boyle.com/",
+      "creationAt": "2026-08-23T01:36:27.000Z",
+      "updatedAt": "2026-08-23T01:36:27.000Z"
+    },
+    "images": [
+      "https://cooper.com/"
+    ],
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  }
+]
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/249
+Body:
+<empty> 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/249 -> 200
+Body:
+{
+  "id": 249,
+  "title": "Organic 3rdgeneration capability-cee115bf99864c8f819c95dbd8af27d2",
+  "slug": "organic-3rdgeneration-capability-cee115bf99864c8f819c95dbd8af27d2",
+  "price": 11,
+  "description": "Organized didactic intranet",
+  "category": {
+    "id": 82,
+    "name": "Books_7a7a791ec16249ea8716d8f1dc3fbd8e",
+    "slug": "books-7a7a791ec16249ea8716d8f1dc3fbd8e",
+    "image": "https://www.franklin-goodwin.com/",
+    "creationAt": "2026-08-23T01:36:28.000Z",
+    "updatedAt": "2026-08-23T01:36:28.000Z"
+  },
+  "images": [
+    "http://www.dixon.info/"
+  ],
+  "creationAt": "2026-08-23T01:36:28.000Z",
+  "updatedAt": "2026-08-23T01:36:28.000Z"
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/249
+Body:
+<empty> 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/249 -> 200
+Body:
+true 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/247
+Body:
+<empty> 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/247 -> 200
+Body:
+{
+  "id": 247,
+  "title": "Proactive coherent circuit-4ee501a1cb924604a50e6b9bd03b2558",
+  "slug": "proactive-coherent-circuit-4ee501a1cb924604a50e6b9bd03b2558",
+  "price": 95,
+  "description": "Enterprise-wide contextually-based focus group",
+  "category": {
+    "id": 80,
+    "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+    "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+    "image": "http://boyle.com/",
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  "images": [
+    "https://cooper.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/247
+Body:
+<empty> 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/247 -> 200
+Body:
+true 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+{
+  "id": 246,
+  "title": "Mandatory fresh-thinking open architecture-94f33e200e6044ea86748dec5553b3a8",
+  "slug": "mandatory-fresh-thinking-open-architecture-94f33e200e6044ea86748dec5553b3a8",
+  "price": 53,
+  "description": "Profit-focused executive website",
+  "category": {
+    "id": 80,
+    "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+    "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+    "image": "http://boyle.com/",
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  "images": [
+    "https://www.buchanan.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+true 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/245
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/245 -> 200
+Body:
+{
+  "id": 245,
+  "title": "Right-sized secondary service-desk-0e17fae9463745648e01c37894581071",
+  "slug": "right-sized-secondary-service-desk-0e17fae9463745648e01c37894581071",
+  "price": 940,
+  "description": "Implemented mobile data-warehouse",
+  "category": {
+    "id": 80,
+    "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+    "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+    "image": "http://boyle.com/",
+    "creationAt": "2026-08-23T01:36:27.000Z",
+    "updatedAt": "2026-08-23T01:36:27.000Z"
+  },
+  "images": [
+    "http://www.sutton.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/245
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/245 -> 200
+Body:
+true 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/82
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/82 -> 200
+Body:
+{
+  "id": 82,
+  "name": "Books_7a7a791ec16249ea8716d8f1dc3fbd8e",
+  "slug": "books-7a7a791ec16249ea8716d8f1dc3fbd8e",
+  "image": "https://www.franklin-goodwin.com/",
+  "creationAt": "2026-08-23T01:36:28.000Z",
+  "updatedAt": "2026-08-23T01:36:28.000Z"
+} 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/82
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/82 -> 200
+Body:
+true 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/80
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/80 -> 200
+Body:
+{
+  "id": 80,
+  "name": "Toys_68cb5dea52c94b989cc8fd6864d72d9a",
+  "slug": "toys-68cb5dea52c94b989cc8fd6864d72d9a",
+  "image": "http://boyle.com/",
+  "creationAt": "2026-08-23T01:36:27.000Z",
+  "updatedAt": "2026-08-23T01:36:27.000Z"
+} 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/80
+Body:
+<empty> 
+
+2026-08-23 01:36:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/80 -> 200
+Body:
+true

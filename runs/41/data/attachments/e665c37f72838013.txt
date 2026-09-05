@@ -1,0 +1,135 @@
+2026-08-23 01:36:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_e4d04f3bce71460bbb2259793d3f029e",
+  "image": "http://www.thompson.com/"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 73,
+  "name": "Pet Supplies_e4d04f3bce71460bbb2259793d3f029e",
+  "slug": "pet-supplies-e4d04f3bce71460bbb2259793d3f029e",
+  "image": "http://www.thompson.com/",
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered web-enabled application-1e12bec76f144c0398964c19cd507ed6",
+  "price": 878,
+  "description": "Digitized homogeneous Local Area Network",
+  "categoryId": 73,
+  "images": [
+    "https://www.haynes-butler.net/"
+  ]
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 237,
+  "title": "Reverse-engineered web-enabled application-1e12bec76f144c0398964c19cd507ed6",
+  "slug": "reverse-engineered-web-enabled-application-1e12bec76f144c0398964c19cd507ed6",
+  "price": 878,
+  "description": "Digitized homogeneous Local Area Network",
+  "category": {
+    "id": 73,
+    "name": "Pet Supplies_e4d04f3bce71460bbb2259793d3f029e",
+    "slug": "pet-supplies-e4d04f3bce71460bbb2259793d3f029e",
+    "image": "http://www.thompson.com/",
+    "creationAt": "2026-08-23T01:36:25.000Z",
+    "updatedAt": "2026-08-23T01:36:25.000Z"
+  },
+  "images": [
+    "https://www.haynes-butler.net/"
+  ],
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+}
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/237
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/237 -> 200
+Body:
+{
+  "id": 237,
+  "title": "Reverse-engineered web-enabled application-1e12bec76f144c0398964c19cd507ed6",
+  "slug": "reverse-engineered-web-enabled-application-1e12bec76f144c0398964c19cd507ed6",
+  "price": 878,
+  "description": "Digitized homogeneous Local Area Network",
+  "category": {
+    "id": 73,
+    "name": "Pet Supplies_e4d04f3bce71460bbb2259793d3f029e",
+    "slug": "pet-supplies-e4d04f3bce71460bbb2259793d3f029e",
+    "image": "http://www.thompson.com/",
+    "creationAt": "2026-08-23T01:36:25.000Z",
+    "updatedAt": "2026-08-23T01:36:25.000Z"
+  },
+  "images": [
+    "https://www.haynes-butler.net/"
+  ],
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+}
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/237
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/237 -> 200
+Body:
+{
+  "id": 237,
+  "title": "Reverse-engineered web-enabled application-1e12bec76f144c0398964c19cd507ed6",
+  "slug": "reverse-engineered-web-enabled-application-1e12bec76f144c0398964c19cd507ed6",
+  "price": 878,
+  "description": "Digitized homogeneous Local Area Network",
+  "category": {
+    "id": 73,
+    "name": "Pet Supplies_e4d04f3bce71460bbb2259793d3f029e",
+    "slug": "pet-supplies-e4d04f3bce71460bbb2259793d3f029e",
+    "image": "http://www.thompson.com/",
+    "creationAt": "2026-08-23T01:36:25.000Z",
+    "updatedAt": "2026-08-23T01:36:25.000Z"
+  },
+  "images": [
+    "https://www.haynes-butler.net/"
+  ],
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/237
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/237 -> 200
+Body:
+true 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/73
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/73 -> 200
+Body:
+{
+  "id": 73,
+  "name": "Pet Supplies_e4d04f3bce71460bbb2259793d3f029e",
+  "slug": "pet-supplies-e4d04f3bce71460bbb2259793d3f029e",
+  "image": "http://www.thompson.com/",
+  "creationAt": "2026-08-23T01:36:25.000Z",
+  "updatedAt": "2026-08-23T01:36:25.000Z"
+} 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/73
+Body:
+<empty> 
+
+2026-08-23 01:36:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/73 -> 200
+Body:
+true

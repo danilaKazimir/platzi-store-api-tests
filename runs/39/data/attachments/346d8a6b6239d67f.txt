@@ -1,0 +1,88 @@
+2026-08-21 01:32:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Belinda Kelly",
+  "email": "dmckee@example.com",
+  "password": "***",
+  "avatar": "http://baxter.info/"
+} 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 555,
+  "email": "dmckee@example.com",
+  "password": "***",
+  "name": "Belinda Kelly",
+  "role": "customer",
+  "avatar": "http://baxter.info/",
+  "creationAt": "2026-08-21T01:32:36.000Z",
+  "updatedAt": "2026-08-21T01:32:36.000Z"
+}
+2026-08-21 01:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "dmckee@example.com",
+  "password": "***"
+} 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU1NSwiaWF0IjoxNzg3Mjc1OTU3LCJleHAiOjE3ODczMTE5NTd9.ilM8HiZKNupTS687EeeH84lGsysTm0WFoY9MbfWVaBI"
+} 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 555,
+  "email": "dmckee@example.com",
+  "password": "***",
+  "name": "Belinda Kelly",
+  "role": "customer",
+  "avatar": "http://baxter.info/",
+  "creationAt": "2026-08-21T01:32:36.000Z",
+  "updatedAt": "2026-08-21T01:32:36.000Z"
+}
+2026-08-21 01:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/555
+Body:
+<empty> 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/555 -> 200
+Body:
+{
+  "id": 555,
+  "email": "dmckee@example.com",
+  "password": "***",
+  "name": "Belinda Kelly",
+  "role": "customer",
+  "avatar": "http://baxter.info/",
+  "creationAt": "2026-08-21T01:32:36.000Z",
+  "updatedAt": "2026-08-21T01:32:36.000Z"
+} 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/555
+Body:
+<empty> 
+
+2026-08-21 01:32:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/555 -> 200
+Body:
+true

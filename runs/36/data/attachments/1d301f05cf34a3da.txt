@@ -1,0 +1,79 @@
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_57c1a102934a410a9ade26b470acc697",
+  "image": "http://www.riddle.net/"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 480,
+  "name": "Home & Kitchen_57c1a102934a410a9ade26b470acc697",
+  "slug": "home-kitchen-57c1a102934a410a9ade26b470acc697",
+  "image": "http://www.riddle.net/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+}
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Automated client-server hardware-0469e5792a774a85b2048d525a590fc9",
+  "price": 100,
+  "description": "Business-focused full-range monitoring",
+  "categoryId": 480,
+  "images": [
+    "https://www.gray-griffin.biz/"
+  ]
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 497,
+  "title": "Automated client-server hardware-0469e5792a774a85b2048d525a590fc9",
+  "slug": "automated-client-server-hardware-0469e5792a774a85b2048d525a590fc9",
+  "price": 100,
+  "description": "Business-focused full-range monitoring",
+  "category": {
+    "id": 480,
+    "name": "Home & Kitchen_57c1a102934a410a9ade26b470acc697",
+    "slug": "home-kitchen-57c1a102934a410a9ade26b470acc697",
+    "image": "http://www.riddle.net/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "https://www.gray-griffin.biz/"
+  ],
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+}
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/480
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/480 -> 200
+Body:
+{
+  "id": 480,
+  "name": "Home & Kitchen_57c1a102934a410a9ade26b470acc697",
+  "slug": "home-kitchen-57c1a102934a410a9ade26b470acc697",
+  "image": "http://www.riddle.net/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/480
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/480 -> 400
+Body:
+{
+  "path": "/api/v1/categories/480",
+  "timestamp": "2026-08-18T01:22:20.270Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

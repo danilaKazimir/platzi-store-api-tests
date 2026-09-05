@@ -1,0 +1,55 @@
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_08bd899bc8ee49a48186b5209e540f93",
+  "image": "https://www.flores.com/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1192,
+  "name": "Sports & Fitness_08bd899bc8ee49a48186b5209e540f93",
+  "slug": "sports-fitness-08bd899bc8ee49a48186b5209e540f93",
+  "image": "https://www.flores.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/1192
+Body:
+{
+  "name": null,
+  "image": "http://rios-richardson.com/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/1192 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1192",
+  "timestamp": "2026-08-17T01:25:30.644Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1192
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1192 -> 200
+Body:
+{
+  "id": 1192,
+  "name": "Sports & Fitness_08bd899bc8ee49a48186b5209e540f93",
+  "slug": "sports-fitness-08bd899bc8ee49a48186b5209e540f93",
+  "image": "https://www.flores.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1192
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1192 -> 200
+Body:
+true

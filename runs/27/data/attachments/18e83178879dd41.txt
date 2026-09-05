@@ -1,0 +1,79 @@
+2026-08-09 01:57:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_232b3933438a4dbf9ec0e40c942ae623",
+  "image": "https://www.williams-johnson.biz/"
+} 
+
+2026-08-09 01:57:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 321,
+  "name": "Sports & Fitness_232b3933438a4dbf9ec0e40c942ae623",
+  "slug": "sports-fitness-232b3933438a4dbf9ec0e40c942ae623",
+  "image": "https://www.williams-johnson.biz/",
+  "creationAt": "2026-08-09T01:57:22.000Z",
+  "updatedAt": "2026-08-09T01:57:22.000Z"
+}
+2026-08-09 01:57:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced web-enabled budgetary management-3175ad48ec864ae081cc21c4d6890f4e",
+  "price": 647,
+  "description": "Synergized executive policy",
+  "categoryId": 321,
+  "images": [
+    "https://wilson.com/"
+  ]
+} 
+
+2026-08-09 01:57:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 320,
+  "title": "Advanced web-enabled budgetary management-3175ad48ec864ae081cc21c4d6890f4e",
+  "slug": "advanced-web-enabled-budgetary-management-3175ad48ec864ae081cc21c4d6890f4e",
+  "price": 647,
+  "description": "Synergized executive policy",
+  "category": {
+    "id": 321,
+    "name": "Sports & Fitness_232b3933438a4dbf9ec0e40c942ae623",
+    "slug": "sports-fitness-232b3933438a4dbf9ec0e40c942ae623",
+    "image": "https://www.williams-johnson.biz/",
+    "creationAt": "2026-08-09T01:57:22.000Z",
+    "updatedAt": "2026-08-09T01:57:22.000Z"
+  },
+  "images": [
+    "https://wilson.com/"
+  ],
+  "creationAt": "2026-08-09T01:57:22.000Z",
+  "updatedAt": "2026-08-09T01:57:22.000Z"
+}
+2026-08-09 01:57:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/321
+Body:
+<empty> 
+
+2026-08-09 01:57:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/321 -> 200
+Body:
+{
+  "id": 321,
+  "name": "Sports & Fitness_232b3933438a4dbf9ec0e40c942ae623",
+  "slug": "sports-fitness-232b3933438a4dbf9ec0e40c942ae623",
+  "image": "https://www.williams-johnson.biz/",
+  "creationAt": "2026-08-09T01:57:22.000Z",
+  "updatedAt": "2026-08-09T01:57:22.000Z"
+} 
+
+2026-08-09 01:57:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/321
+Body:
+<empty> 
+
+2026-08-09 01:57:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/321 -> 400
+Body:
+{
+  "path": "/api/v1/categories/321",
+  "timestamp": "2026-08-09T01:57:22.741Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

@@ -1,0 +1,135 @@
+2026-08-10 02:02:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3b7f87ff28ad431f933b8424ba4ab156",
+  "image": "https://wilson-mcgee.net/"
+} 
+
+2026-08-10 02:02:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 410,
+  "name": "Sports & Fitness_3b7f87ff28ad431f933b8424ba4ab156",
+  "slug": "sports-fitness-3b7f87ff28ad431f933b8424ba4ab156",
+  "image": "https://wilson-mcgee.net/",
+  "creationAt": "2026-08-10T02:02:14.000Z",
+  "updatedAt": "2026-08-10T02:02:14.000Z"
+} 
+
+2026-08-10 02:02:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Secured executive time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "price": 297,
+  "description": "Front-line empowering synergy",
+  "categoryId": 410,
+  "images": [
+    "http://wong-scott.com/"
+  ]
+} 
+
+2026-08-10 02:02:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 344,
+  "title": "Secured executive time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "slug": "secured-executive-time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "price": 297,
+  "description": "Front-line empowering synergy",
+  "category": {
+    "id": 410,
+    "name": "Sports & Fitness_3b7f87ff28ad431f933b8424ba4ab156",
+    "slug": "sports-fitness-3b7f87ff28ad431f933b8424ba4ab156",
+    "image": "https://wilson-mcgee.net/",
+    "creationAt": "2026-08-10T02:02:14.000Z",
+    "updatedAt": "2026-08-10T02:02:14.000Z"
+  },
+  "images": [
+    "http://wong-scott.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:14.000Z",
+  "updatedAt": "2026-08-10T02:02:14.000Z"
+}
+2026-08-10 02:02:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/secured-executive-time-frame-6f548981de0a4d9a86f0d53e5b808dfe
+Body:
+<empty> 
+
+2026-08-10 02:02:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/secured-executive-time-frame-6f548981de0a4d9a86f0d53e5b808dfe -> 200
+Body:
+{
+  "id": 344,
+  "title": "Secured executive time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "slug": "secured-executive-time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "price": 297,
+  "description": "Front-line empowering synergy",
+  "category": {
+    "id": 410,
+    "name": "Sports & Fitness_3b7f87ff28ad431f933b8424ba4ab156",
+    "slug": "sports-fitness-3b7f87ff28ad431f933b8424ba4ab156",
+    "image": "https://wilson-mcgee.net/",
+    "creationAt": "2026-08-10T02:02:14.000Z",
+    "updatedAt": "2026-08-10T02:02:14.000Z"
+  },
+  "images": [
+    "http://wong-scott.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:14.000Z",
+  "updatedAt": "2026-08-10T02:02:14.000Z"
+}
+2026-08-10 02:02:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/344
+Body:
+<empty> 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/344 -> 200
+Body:
+{
+  "id": 344,
+  "title": "Secured executive time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "slug": "secured-executive-time-frame-6f548981de0a4d9a86f0d53e5b808dfe",
+  "price": 297,
+  "description": "Front-line empowering synergy",
+  "category": {
+    "id": 410,
+    "name": "Sports & Fitness_3b7f87ff28ad431f933b8424ba4ab156",
+    "slug": "sports-fitness-3b7f87ff28ad431f933b8424ba4ab156",
+    "image": "https://wilson-mcgee.net/",
+    "creationAt": "2026-08-10T02:02:14.000Z",
+    "updatedAt": "2026-08-10T02:02:14.000Z"
+  },
+  "images": [
+    "http://wong-scott.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:14.000Z",
+  "updatedAt": "2026-08-10T02:02:14.000Z"
+} 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/344
+Body:
+<empty> 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/344 -> 200
+Body:
+true 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/410
+Body:
+<empty> 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/410 -> 200
+Body:
+{
+  "id": 410,
+  "name": "Sports & Fitness_3b7f87ff28ad431f933b8424ba4ab156",
+  "slug": "sports-fitness-3b7f87ff28ad431f933b8424ba4ab156",
+  "image": "https://wilson-mcgee.net/",
+  "creationAt": "2026-08-10T02:02:14.000Z",
+  "updatedAt": "2026-08-10T02:02:14.000Z"
+} 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/410
+Body:
+<empty> 
+
+2026-08-10 02:02:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/410 -> 200
+Body:
+true

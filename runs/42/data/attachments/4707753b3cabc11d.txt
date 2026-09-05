@@ -1,0 +1,107 @@
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7a2b17fb75e042858c4751d6689c7914",
+  "image": "http://walton-jensen.biz/"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 121,
+  "name": "Books_7a2b17fb75e042858c4751d6689c7914",
+  "slug": "books-7a2b17fb75e042858c4751d6689c7914",
+  "image": "http://walton-jensen.biz/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Managed holistic product-a6f2354ee102487fbc4ebbc505a8e453",
+  "price": 775,
+  "description": "Managed hybrid encoding",
+  "categoryId": 121,
+  "images": [
+    "https://delgado.com/"
+  ]
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 406,
+  "title": "Managed holistic product-a6f2354ee102487fbc4ebbc505a8e453",
+  "slug": "managed-holistic-product-a6f2354ee102487fbc4ebbc505a8e453",
+  "price": 775,
+  "description": "Managed hybrid encoding",
+  "category": {
+    "id": 121,
+    "name": "Books_7a2b17fb75e042858c4751d6689c7914",
+    "slug": "books-7a2b17fb75e042858c4751d6689c7914",
+    "image": "http://walton-jensen.biz/",
+    "creationAt": "2026-08-24T01:27:44.000Z",
+    "updatedAt": "2026-08-24T01:27:44.000Z"
+  },
+  "images": [
+    "https://delgado.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/406
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/406 -> 200
+Body:
+true 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/406
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/406 -> 400
+Body:
+{
+  "path": "/api/v1/products/406",
+  "timestamp": "2026-08-24T01:27:44.805Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 406\n    }\n}"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/406
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/406 -> 400
+Body:
+{
+  "path": "/api/v1/products/406",
+  "timestamp": "2026-08-24T01:27:44.812Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 406\n    }\n}"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/121
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/121 -> 200
+Body:
+{
+  "id": 121,
+  "name": "Books_7a2b17fb75e042858c4751d6689c7914",
+  "slug": "books-7a2b17fb75e042858c4751d6689c7914",
+  "image": "http://walton-jensen.biz/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/121
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/121 -> 200
+Body:
+true

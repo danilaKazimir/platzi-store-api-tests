@@ -1,0 +1,107 @@
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_a557b010f9ff47279bac9e13a715f1a7",
+  "image": "https://www.lee.com/"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 89,
+  "name": "Pet Supplies_a557b010f9ff47279bac9e13a715f1a7",
+  "slug": "pet-supplies-a557b010f9ff47279bac9e13a715f1a7",
+  "image": "https://www.lee.com/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Customizable directional policy-fd31f96678b94c32a494c67a9f63d946",
+  "price": 975,
+  "description": "Right-sized static hierarchy",
+  "categoryId": 89,
+  "images": [
+    "http://jackson-perry.net/"
+  ]
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 345,
+  "title": "Customizable directional policy-fd31f96678b94c32a494c67a9f63d946",
+  "slug": "customizable-directional-policy-fd31f96678b94c32a494c67a9f63d946",
+  "price": 975,
+  "description": "Right-sized static hierarchy",
+  "category": {
+    "id": 89,
+    "name": "Pet Supplies_a557b010f9ff47279bac9e13a715f1a7",
+    "slug": "pet-supplies-a557b010f9ff47279bac9e13a715f1a7",
+    "image": "https://www.lee.com/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "http://jackson-perry.net/"
+  ],
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+}
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/345
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/345 -> 200
+Body:
+true 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/345
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/345 -> 400
+Body:
+{
+  "path": "/api/v1/products/345",
+  "timestamp": "2026-08-15T01:23:37.449Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 345\n    }\n}"
+}
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/345
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/345 -> 400
+Body:
+{
+  "path": "/api/v1/products/345",
+  "timestamp": "2026-08-15T01:23:37.477Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 345\n    }\n}"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/89
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/89 -> 200
+Body:
+{
+  "id": 89,
+  "name": "Pet Supplies_a557b010f9ff47279bac9e13a715f1a7",
+  "slug": "pet-supplies-a557b010f9ff47279bac9e13a715f1a7",
+  "image": "https://www.lee.com/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/89
+Body:
+<empty> 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/89 -> 200
+Body:
+true

@@ -1,0 +1,80 @@
+2026-08-13 02:12:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Sandra Gregory",
+  "email": "robert69@example.org",
+  "password": "***",
+  "avatar": "https://www.holland-white.com/"
+} 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 93,
+  "email": "robert69@example.org",
+  "password": "***",
+  "name": "Sandra Gregory",
+  "role": "customer",
+  "avatar": "https://www.holland-white.com/",
+  "creationAt": "2026-08-13T02:12:35.000Z",
+  "updatedAt": "2026-08-13T02:12:35.000Z"
+}
+2026-08-13 02:12:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/93
+Body:
+{
+  "email": "rhondadrake@example.net"
+} 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/93 -> 200
+Body:
+{
+  "id": 93,
+  "email": "rhondadrake@example.net",
+  "password": "***",
+  "name": "Sandra Gregory",
+  "role": "customer",
+  "avatar": "https://www.holland-white.com/",
+  "creationAt": "2026-08-13T02:12:35.000Z",
+  "updatedAt": "2026-08-13T02:12:35.000Z"
+} 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/93
+Body:
+<empty> 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/93 -> 200
+Body:
+{
+  "id": 93,
+  "email": "rhondadrake@example.net",
+  "password": "***",
+  "name": "Sandra Gregory",
+  "role": "customer",
+  "avatar": "https://www.holland-white.com/",
+  "creationAt": "2026-08-13T02:12:35.000Z",
+  "updatedAt": "2026-08-13T02:12:35.000Z"
+}
+2026-08-13 02:12:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/93
+Body:
+<empty> 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/93 -> 200
+Body:
+{
+  "id": 93,
+  "email": "rhondadrake@example.net",
+  "password": "***",
+  "name": "Sandra Gregory",
+  "role": "customer",
+  "avatar": "https://www.holland-white.com/",
+  "creationAt": "2026-08-13T02:12:35.000Z",
+  "updatedAt": "2026-08-13T02:12:35.000Z"
+} 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/93
+Body:
+<empty> 
+
+2026-08-13 02:12:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/93 -> 200
+Body:
+true

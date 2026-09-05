@@ -1,0 +1,408 @@
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+  "image": "https://www.ashley.net/"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 740,
+  "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+  "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+  "image": "https://www.ashley.net/",
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+}
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Switchable background Graphic Interface-aa2864f878fa4ac5ba3e824ceb195c31",
+  "price": 695,
+  "description": "Self-enabling zero administration utilization",
+  "categoryId": 740,
+  "images": [
+    "https://www.schmidt.info/"
+  ]
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 667,
+  "title": "Switchable background Graphic Interface-aa2864f878fa4ac5ba3e824ceb195c31",
+  "slug": "switchable-background-graphic-interface-aa2864f878fa4ac5ba3e824ceb195c31",
+  "price": 695,
+  "description": "Self-enabling zero administration utilization",
+  "category": {
+    "id": 740,
+    "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+    "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+    "image": "https://www.ashley.net/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "https://www.schmidt.info/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Operative bottom-line superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+  "price": 801,
+  "description": "Grass-roots impactful matrix",
+  "categoryId": 740,
+  "images": [
+    "http://higgins.org/"
+  ]
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 669,
+  "title": "Operative bottom-line superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+  "slug": "operative-bottom-line-superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+  "price": 801,
+  "description": "Grass-roots impactful matrix",
+  "category": {
+    "id": 740,
+    "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+    "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+    "image": "https://www.ashley.net/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "http://higgins.org/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable didactic definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+  "price": 374,
+  "description": "Synergistic well-modulated toolset",
+  "categoryId": 740,
+  "images": [
+    "http://www.montes.com/"
+  ]
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 670,
+  "title": "Upgradable didactic definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+  "slug": "upgradable-didactic-definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+  "price": 374,
+  "description": "Synergistic well-modulated toolset",
+  "category": {
+    "id": 740,
+    "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+    "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+    "image": "https://www.ashley.net/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "http://www.montes.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_2ee7857d196a4572b3423efa6b7821ae",
+  "image": "http://lee.com/"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 742,
+  "name": "Toys_2ee7857d196a4572b3423efa6b7821ae",
+  "slug": "toys-2ee7857d196a4572b3423efa6b7821ae",
+  "image": "http://lee.com/",
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable directional budgetary management-1f66f43733bd4016852dd622ceeeb47a",
+  "price": 365,
+  "description": "Front-line didactic contingency",
+  "categoryId": 742,
+  "images": [
+    "https://www.lee.com/"
+  ]
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 671,
+  "title": "Upgradable directional budgetary management-1f66f43733bd4016852dd622ceeeb47a",
+  "slug": "upgradable-directional-budgetary-management-1f66f43733bd4016852dd622ceeeb47a",
+  "price": 365,
+  "description": "Front-line didactic contingency",
+  "category": {
+    "id": 742,
+    "name": "Toys_2ee7857d196a4572b3423efa6b7821ae",
+    "slug": "toys-2ee7857d196a4572b3423efa6b7821ae",
+    "image": "http://lee.com/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "https://www.lee.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/switchable-background-graphic-interface-aa2864f878fa4ac5ba3e824ceb195c31/related
+Body:
+<empty> 
+
+2026-08-22 01:23:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/switchable-background-graphic-interface-aa2864f878fa4ac5ba3e824ceb195c31/related -> 200
+Body:
+[
+  {
+    "id": 669,
+    "title": "Operative bottom-line superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+    "slug": "operative-bottom-line-superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+    "price": 801,
+    "description": "Grass-roots impactful matrix",
+    "category": {
+      "id": 740,
+      "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+      "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+      "image": "https://www.ashley.net/",
+      "creationAt": "2026-08-22T01:23:02.000Z",
+      "updatedAt": "2026-08-22T01:23:02.000Z"
+    },
+    "images": [
+      "http://higgins.org/"
+    ],
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  {
+    "id": 670,
+    "title": "Upgradable didactic definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+    "slug": "upgradable-didactic-definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+    "price": 374,
+    "description": "Synergistic well-modulated toolset",
+    "category": {
+      "id": 740,
+      "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+      "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+      "image": "https://www.ashley.net/",
+      "creationAt": "2026-08-22T01:23:02.000Z",
+      "updatedAt": "2026-08-22T01:23:02.000Z"
+    },
+    "images": [
+      "http://www.montes.com/"
+    ],
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  }
+]
+2026-08-22 01:23:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/671
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/671 -> 200
+Body:
+{
+  "id": 671,
+  "title": "Upgradable directional budgetary management-1f66f43733bd4016852dd622ceeeb47a",
+  "slug": "upgradable-directional-budgetary-management-1f66f43733bd4016852dd622ceeeb47a",
+  "price": 365,
+  "description": "Front-line didactic contingency",
+  "category": {
+    "id": 742,
+    "name": "Toys_2ee7857d196a4572b3423efa6b7821ae",
+    "slug": "toys-2ee7857d196a4572b3423efa6b7821ae",
+    "image": "http://lee.com/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "https://www.lee.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/671
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/671 -> 200
+Body:
+true 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/670
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/670 -> 200
+Body:
+{
+  "id": 670,
+  "title": "Upgradable didactic definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+  "slug": "upgradable-didactic-definition-aeb2d44d8ccb420ebe443ad8babbc6bc",
+  "price": 374,
+  "description": "Synergistic well-modulated toolset",
+  "category": {
+    "id": 740,
+    "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+    "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+    "image": "https://www.ashley.net/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "http://www.montes.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/670
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/670 -> 200
+Body:
+true 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/669
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/669 -> 200
+Body:
+{
+  "id": 669,
+  "title": "Operative bottom-line superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+  "slug": "operative-bottom-line-superstructure-de847d252ce04e8ebfb9ceb9942b75a4",
+  "price": 801,
+  "description": "Grass-roots impactful matrix",
+  "category": {
+    "id": 740,
+    "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+    "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+    "image": "https://www.ashley.net/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "http://higgins.org/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/669
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/669 -> 200
+Body:
+true 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/667
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/667 -> 200
+Body:
+{
+  "id": 667,
+  "title": "Switchable background Graphic Interface-aa2864f878fa4ac5ba3e824ceb195c31",
+  "slug": "switchable-background-graphic-interface-aa2864f878fa4ac5ba3e824ceb195c31",
+  "price": 695,
+  "description": "Self-enabling zero administration utilization",
+  "category": {
+    "id": 740,
+    "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+    "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+    "image": "https://www.ashley.net/",
+    "creationAt": "2026-08-22T01:23:02.000Z",
+    "updatedAt": "2026-08-22T01:23:02.000Z"
+  },
+  "images": [
+    "https://www.schmidt.info/"
+  ],
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/667
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/667 -> 200
+Body:
+true 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/742
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/742 -> 200
+Body:
+{
+  "id": 742,
+  "name": "Toys_2ee7857d196a4572b3423efa6b7821ae",
+  "slug": "toys-2ee7857d196a4572b3423efa6b7821ae",
+  "image": "http://lee.com/",
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/742
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/742 -> 200
+Body:
+true 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/740
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/740 -> 200
+Body:
+{
+  "id": 740,
+  "name": "Personal Care_2d7b068d24764a14af2b2916b1c7c86d",
+  "slug": "personal-care-2d7b068d24764a14af2b2916b1c7c86d",
+  "image": "https://www.ashley.net/",
+  "creationAt": "2026-08-22T01:23:02.000Z",
+  "updatedAt": "2026-08-22T01:23:02.000Z"
+} 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/740
+Body:
+<empty> 
+
+2026-08-22 01:23:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/740 -> 200
+Body:
+true

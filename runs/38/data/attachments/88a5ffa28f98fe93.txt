@@ -1,0 +1,80 @@
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Emily Huber",
+  "email": "millerdavid@example.org",
+  "password": "***",
+  "avatar": "http://dunn.org/"
+} 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 722,
+  "email": "millerdavid@example.org",
+  "password": "***",
+  "name": "Emily Huber",
+  "role": "customer",
+  "avatar": "http://dunn.org/",
+  "creationAt": "2026-08-20T01:23:29.000Z",
+  "updatedAt": "2026-08-20T01:23:29.000Z"
+}
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/722
+Body:
+{
+  "email": "cynthiahubbard@example.net"
+} 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/722 -> 200
+Body:
+{
+  "id": 722,
+  "email": "cynthiahubbard@example.net",
+  "password": "***",
+  "name": "Emily Huber",
+  "role": "customer",
+  "avatar": "http://dunn.org/",
+  "creationAt": "2026-08-20T01:23:29.000Z",
+  "updatedAt": "2026-08-20T01:23:29.000Z"
+} 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/722
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/722 -> 200
+Body:
+{
+  "id": 722,
+  "email": "cynthiahubbard@example.net",
+  "password": "***",
+  "name": "Emily Huber",
+  "role": "customer",
+  "avatar": "http://dunn.org/",
+  "creationAt": "2026-08-20T01:23:29.000Z",
+  "updatedAt": "2026-08-20T01:23:29.000Z"
+}
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/722
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/722 -> 200
+Body:
+{
+  "id": 722,
+  "email": "cynthiahubbard@example.net",
+  "password": "***",
+  "name": "Emily Huber",
+  "role": "customer",
+  "avatar": "http://dunn.org/",
+  "creationAt": "2026-08-20T01:23:29.000Z",
+  "updatedAt": "2026-08-20T01:23:29.000Z"
+} 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/722
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/722 -> 200
+Body:
+true

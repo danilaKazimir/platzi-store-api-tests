@@ -1,0 +1,21 @@
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Lisa Larson",
+  "email": "kellyrodriguez@example.org",
+  "password": "***",
+  "avatar": "https://www.smith.com/"
+} 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 562,
+  "email": "kellyrodriguez@example.org",
+  "password": "***",
+  "name": "Lisa Larson",
+  "role": "customer",
+  "avatar": "https://www.smith.com/",
+  "creationAt": "2026-08-21T01:32:42.000Z",
+  "updatedAt": "2026-08-21T01:32:42.000Z"
+}

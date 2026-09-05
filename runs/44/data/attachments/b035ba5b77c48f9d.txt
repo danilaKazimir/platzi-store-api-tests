@@ -1,0 +1,49 @@
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_1e0398cd1f18437396bb7ef98a73e088",
+  "image": "https://www.velazquez-moreno.com/"
+} 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 149,
+  "name": "Books_1e0398cd1f18437396bb7ef98a73e088",
+  "slug": "books-1e0398cd1f18437396bb7ef98a73e088",
+  "image": "https://www.velazquez-moreno.com/",
+  "creationAt": "2026-08-26T01:28:04.000Z",
+  "updatedAt": "2026-08-26T01:28:04.000Z"
+}
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/149
+Body:
+<empty> 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/149 -> 200
+Body:
+true 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/149
+Body:
+<empty> 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/149 -> 400
+Body:
+{
+  "path": "/api/v1/categories/149",
+  "timestamp": "2026-08-26T01:28:04.927Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 149\n}"
+}
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/149
+Body:
+<empty> 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/149 -> 400
+Body:
+{
+  "path": "/api/v1/categories/149",
+  "timestamp": "2026-08-26T01:28:04.938Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 149\n}"
+}

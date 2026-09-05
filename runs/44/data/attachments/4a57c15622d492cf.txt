@@ -1,0 +1,407 @@
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+  "image": "http://www.smith.info/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 151,
+  "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+  "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+  "image": "http://www.smith.info/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded attitude-oriented Internet solution-6de5225c5b2143fb9b28063357f8d738",
+  "price": 587,
+  "description": "Robust 24/7 hierarchy",
+  "categoryId": 151,
+  "images": [
+    "http://hunter.com/"
+  ]
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 232,
+  "title": "Expanded attitude-oriented Internet solution-6de5225c5b2143fb9b28063357f8d738",
+  "slug": "expanded-attitude-oriented-internet-solution-6de5225c5b2143fb9b28063357f8d738",
+  "price": 587,
+  "description": "Robust 24/7 hierarchy",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://hunter.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive background hardware-5737f629a57b4ffaa5133c1873b3b23a",
+  "price": 182,
+  "description": "Configurable cohesive workforce",
+  "categoryId": 151,
+  "images": [
+    "http://anderson-anderson.net/"
+  ]
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 233,
+  "title": "Reactive background hardware-5737f629a57b4ffaa5133c1873b3b23a",
+  "slug": "reactive-background-hardware-5737f629a57b4ffaa5133c1873b3b23a",
+  "price": 182,
+  "description": "Configurable cohesive workforce",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://anderson-anderson.net/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cloned 4thgeneration frame-0127fb6962a24c6289c7d39fd1366e80",
+  "price": 71,
+  "description": "Multi-layered secondary application",
+  "categoryId": 151,
+  "images": [
+    "http://payne-baxter.com/"
+  ]
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 235,
+  "title": "Cloned 4thgeneration frame-0127fb6962a24c6289c7d39fd1366e80",
+  "slug": "cloned-4thgeneration-frame-0127fb6962a24c6289c7d39fd1366e80",
+  "price": 71,
+  "description": "Multi-layered secondary application",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://payne-baxter.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered 4thgeneration application-aa43ff76227c4fa7bbac3fcb8749c520",
+  "price": 167,
+  "description": "Customer-focused maximized capacity",
+  "categoryId": 151,
+  "images": [
+    "http://www.ramos.com/"
+  ]
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 236,
+  "title": "Reverse-engineered 4thgeneration application-aa43ff76227c4fa7bbac3fcb8749c520",
+  "slug": "reverse-engineered-4thgeneration-application-aa43ff76227c4fa7bbac3fcb8749c520",
+  "price": 167,
+  "description": "Customer-focused maximized capacity",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://www.ramos.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/151/products
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/151/products -> 200
+Body:
+[
+  {
+    "id": 232,
+    "title": "Expanded attitude-oriented Internet solution-6de5225c5b2143fb9b28063357f8d738",
+    "slug": "expanded-attitude-oriented-internet-solution-6de5225c5b2143fb9b28063357f8d738",
+    "price": 587,
+    "description": "Robust 24/7 hierarchy",
+    "category": {
+      "id": 151,
+      "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+      "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+      "image": "http://www.smith.info/",
+      "creationAt": "2026-08-26T01:28:05.000Z",
+      "updatedAt": "2026-08-26T01:28:05.000Z"
+    },
+    "images": [
+      "http://hunter.com/"
+    ],
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  {
+    "id": 233,
+    "title": "Reactive background hardware-5737f629a57b4ffaa5133c1873b3b23a",
+    "slug": "reactive-background-hardware-5737f629a57b4ffaa5133c1873b3b23a",
+    "price": 182,
+    "description": "Configurable cohesive workforce",
+    "category": {
+      "id": 151,
+      "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+      "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+      "image": "http://www.smith.info/",
+      "creationAt": "2026-08-26T01:28:05.000Z",
+      "updatedAt": "2026-08-26T01:28:05.000Z"
+    },
+    "images": [
+      "http://anderson-anderson.net/"
+    ],
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  {
+    "id": 235,
+    "title": "Cloned 4thgeneration frame-0127fb6962a24c6289c7d39fd1366e80",
+    "slug": "cloned-4thgeneration-frame-0127fb6962a24c6289c7d39fd1366e80",
+    "price": 71,
+    "description": "Multi-layered secondary application",
+    "category": {
+      "id": 151,
+      "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+      "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+      "image": "http://www.smith.info/",
+      "creationAt": "2026-08-26T01:28:05.000Z",
+      "updatedAt": "2026-08-26T01:28:05.000Z"
+    },
+    "images": [
+      "http://payne-baxter.com/"
+    ],
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  {
+    "id": 236,
+    "title": "Reverse-engineered 4thgeneration application-aa43ff76227c4fa7bbac3fcb8749c520",
+    "slug": "reverse-engineered-4thgeneration-application-aa43ff76227c4fa7bbac3fcb8749c520",
+    "price": 167,
+    "description": "Customer-focused maximized capacity",
+    "category": {
+      "id": 151,
+      "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+      "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+      "image": "http://www.smith.info/",
+      "creationAt": "2026-08-26T01:28:05.000Z",
+      "updatedAt": "2026-08-26T01:28:05.000Z"
+    },
+    "images": [
+      "http://www.ramos.com/"
+    ],
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  }
+]
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/236
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/236 -> 200
+Body:
+{
+  "id": 236,
+  "title": "Reverse-engineered 4thgeneration application-aa43ff76227c4fa7bbac3fcb8749c520",
+  "slug": "reverse-engineered-4thgeneration-application-aa43ff76227c4fa7bbac3fcb8749c520",
+  "price": 167,
+  "description": "Customer-focused maximized capacity",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://www.ramos.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/236
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/236 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/235
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/235 -> 200
+Body:
+{
+  "id": 235,
+  "title": "Cloned 4thgeneration frame-0127fb6962a24c6289c7d39fd1366e80",
+  "slug": "cloned-4thgeneration-frame-0127fb6962a24c6289c7d39fd1366e80",
+  "price": 71,
+  "description": "Multi-layered secondary application",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://payne-baxter.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/235
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/235 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/233
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/233 -> 200
+Body:
+{
+  "id": 233,
+  "title": "Reactive background hardware-5737f629a57b4ffaa5133c1873b3b23a",
+  "slug": "reactive-background-hardware-5737f629a57b4ffaa5133c1873b3b23a",
+  "price": 182,
+  "description": "Configurable cohesive workforce",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://anderson-anderson.net/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/233
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/233 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/232
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/232 -> 200
+Body:
+{
+  "id": 232,
+  "title": "Expanded attitude-oriented Internet solution-6de5225c5b2143fb9b28063357f8d738",
+  "slug": "expanded-attitude-oriented-internet-solution-6de5225c5b2143fb9b28063357f8d738",
+  "price": 587,
+  "description": "Robust 24/7 hierarchy",
+  "category": {
+    "id": 151,
+    "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+    "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://hunter.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/232
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/232 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/151
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/151 -> 200
+Body:
+{
+  "id": 151,
+  "name": "Personal Care_7fb847439fc041b094794f493b4b87a9",
+  "slug": "personal-care-7fb847439fc041b094794f493b4b87a9",
+  "image": "http://www.smith.info/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/151
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/151 -> 200
+Body:
+true

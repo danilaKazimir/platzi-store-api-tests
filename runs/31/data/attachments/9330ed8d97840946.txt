@@ -1,0 +1,79 @@
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_2e1d750521cc46158e625a7a7997a4dc",
+  "image": "http://www.simpson-martin.com/"
+} 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 55,
+  "name": "Sports & Fitness_2e1d750521cc46158e625a7a7997a4dc",
+  "slug": "sports-fitness-2e1d750521cc46158e625a7a7997a4dc",
+  "image": "http://www.simpson-martin.com/",
+  "creationAt": "2026-08-13T02:12:30.000Z",
+  "updatedAt": "2026-08-13T02:12:30.000Z"
+}
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Inverse intangible frame-cd094c7e78d64e4e9eb50a7506e63fc8",
+  "price": 627,
+  "description": "Persistent object-oriented time-frame",
+  "categoryId": 55,
+  "images": [
+    "http://www.richardson.com/"
+  ]
+} 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 261,
+  "title": "Inverse intangible frame-cd094c7e78d64e4e9eb50a7506e63fc8",
+  "slug": "inverse-intangible-frame-cd094c7e78d64e4e9eb50a7506e63fc8",
+  "price": 627,
+  "description": "Persistent object-oriented time-frame",
+  "category": {
+    "id": 55,
+    "name": "Sports & Fitness_2e1d750521cc46158e625a7a7997a4dc",
+    "slug": "sports-fitness-2e1d750521cc46158e625a7a7997a4dc",
+    "image": "http://www.simpson-martin.com/",
+    "creationAt": "2026-08-13T02:12:30.000Z",
+    "updatedAt": "2026-08-13T02:12:30.000Z"
+  },
+  "images": [
+    "http://www.richardson.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:30.000Z",
+  "updatedAt": "2026-08-13T02:12:30.000Z"
+}
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+{
+  "id": 55,
+  "name": "Sports & Fitness_2e1d750521cc46158e625a7a7997a4dc",
+  "slug": "sports-fitness-2e1d750521cc46158e625a7a7997a4dc",
+  "image": "http://www.simpson-martin.com/",
+  "creationAt": "2026-08-13T02:12:30.000Z",
+  "updatedAt": "2026-08-13T02:12:30.000Z"
+} 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-08-13 02:12:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/55 -> 400
+Body:
+{
+  "path": "/api/v1/categories/55",
+  "timestamp": "2026-08-13T02:12:30.927Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

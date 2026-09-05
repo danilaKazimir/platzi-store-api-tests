@@ -1,0 +1,61 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Laura Hernandez",
+  "email": "spencer32@example.net",
+  "password": "***",
+  "avatar": "http://richmond-collins.com/"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 132,
+  "email": "spencer32@example.net",
+  "password": "***",
+  "name": "Laura Hernandez",
+  "role": "customer",
+  "avatar": "http://richmond-collins.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/132
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/132 -> 200
+Body:
+{
+  "id": 132,
+  "email": "spencer32@example.net",
+  "password": "***",
+  "name": "Laura Hernandez",
+  "role": "customer",
+  "avatar": "http://richmond-collins.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/132
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/132 -> 200
+Body:
+{
+  "id": 132,
+  "email": "spencer32@example.net",
+  "password": "***",
+  "name": "Laura Hernandez",
+  "role": "customer",
+  "avatar": "http://richmond-collins.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/132
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/132 -> 200
+Body:
+true

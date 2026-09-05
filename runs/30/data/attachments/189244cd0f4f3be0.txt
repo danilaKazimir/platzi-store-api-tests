@@ -1,0 +1,79 @@
+2026-08-12 02:10:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_406e6bc3e8f44d479e504ea92ea0248f",
+  "image": "http://www.reed.com/"
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 65,
+  "name": "Toys_406e6bc3e8f44d479e504ea92ea0248f",
+  "slug": "toys-406e6bc3e8f44d479e504ea92ea0248f",
+  "image": "http://www.reed.com/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+}
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive eco-centric success-bf30bfab6a8847649dcd1e49d22c7f2f",
+  "price": 393,
+  "description": "Progressive modular implementation",
+  "categoryId": 65,
+  "images": [
+    "http://www.gay.info/"
+  ]
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 196,
+  "title": "Progressive eco-centric success-bf30bfab6a8847649dcd1e49d22c7f2f",
+  "slug": "progressive-eco-centric-success-bf30bfab6a8847649dcd1e49d22c7f2f",
+  "price": 393,
+  "description": "Progressive modular implementation",
+  "category": {
+    "id": 65,
+    "name": "Toys_406e6bc3e8f44d479e504ea92ea0248f",
+    "slug": "toys-406e6bc3e8f44d479e504ea92ea0248f",
+    "image": "http://www.reed.com/",
+    "creationAt": "2026-08-12T02:10:24.000Z",
+    "updatedAt": "2026-08-12T02:10:24.000Z"
+  },
+  "images": [
+    "http://www.gay.info/"
+  ],
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+}
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/65 -> 200
+Body:
+{
+  "id": 65,
+  "name": "Toys_406e6bc3e8f44d479e504ea92ea0248f",
+  "slug": "toys-406e6bc3e8f44d479e504ea92ea0248f",
+  "image": "http://www.reed.com/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+} 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-08-12 02:10:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/65 -> 400
+Body:
+{
+  "path": "/api/v1/categories/65",
+  "timestamp": "2026-08-12T02:10:24.668Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

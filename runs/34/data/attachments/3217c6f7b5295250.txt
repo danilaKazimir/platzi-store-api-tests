@@ -1,0 +1,55 @@
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_79a1e2c1a4ac45e48a1e1bfb3e6f6cae",
+  "image": "https://www.peterson-ruiz.com/"
+} 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2722,
+  "name": "Clothing_79a1e2c1a4ac45e48a1e1bfb3e6f6cae",
+  "slug": "clothing-79a1e2c1a4ac45e48a1e1bfb3e6f6cae",
+  "image": "https://www.peterson-ruiz.com/",
+  "creationAt": "2026-08-16T01:34:31.000Z",
+  "updatedAt": "2026-08-16T01:34:31.000Z"
+}
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/2722
+Body:
+{
+  "name": null,
+  "image": "https://young-anderson.com/"
+} 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/2722 -> 400
+Body:
+{
+  "path": "/api/v1/categories/2722",
+  "timestamp": "2026-08-16T01:34:31.455Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2722
+Body:
+<empty> 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2722 -> 200
+Body:
+{
+  "id": 2722,
+  "name": "Clothing_79a1e2c1a4ac45e48a1e1bfb3e6f6cae",
+  "slug": "clothing-79a1e2c1a4ac45e48a1e1bfb3e6f6cae",
+  "image": "https://www.peterson-ruiz.com/",
+  "creationAt": "2026-08-16T01:34:31.000Z",
+  "updatedAt": "2026-08-16T01:34:31.000Z"
+} 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2722
+Body:
+<empty> 
+
+2026-08-16 01:34:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2722 -> 200
+Body:
+true

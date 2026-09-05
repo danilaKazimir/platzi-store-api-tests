@@ -1,0 +1,135 @@
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_74be8551df9e4457870ebb2429f6c3a2",
+  "image": "http://www.bridges-carlson.org/"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 63,
+  "name": "Personal Care_74be8551df9e4457870ebb2429f6c3a2",
+  "slug": "personal-care-74be8551df9e4457870ebb2429f6c3a2",
+  "image": "http://www.bridges-carlson.org/",
+  "creationAt": "2026-08-13T02:12:31.000Z",
+  "updatedAt": "2026-08-13T02:12:31.000Z"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Networked upward-trending neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "price": 228,
+  "description": "Customizable hybrid open system",
+  "categoryId": 63,
+  "images": [
+    "https://ramirez.com/"
+  ]
+} 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 266,
+  "title": "Networked upward-trending neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "slug": "networked-upward-trending-neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "price": 228,
+  "description": "Customizable hybrid open system",
+  "category": {
+    "id": 63,
+    "name": "Personal Care_74be8551df9e4457870ebb2429f6c3a2",
+    "slug": "personal-care-74be8551df9e4457870ebb2429f6c3a2",
+    "image": "http://www.bridges-carlson.org/",
+    "creationAt": "2026-08-13T02:12:31.000Z",
+    "updatedAt": "2026-08-13T02:12:31.000Z"
+  },
+  "images": [
+    "https://ramirez.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:32.000Z",
+  "updatedAt": "2026-08-13T02:12:32.000Z"
+}
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/266
+Body:
+<empty> 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/266 -> 200
+Body:
+{
+  "id": 266,
+  "title": "Networked upward-trending neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "slug": "networked-upward-trending-neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "price": 228,
+  "description": "Customizable hybrid open system",
+  "category": {
+    "id": 63,
+    "name": "Personal Care_74be8551df9e4457870ebb2429f6c3a2",
+    "slug": "personal-care-74be8551df9e4457870ebb2429f6c3a2",
+    "image": "http://www.bridges-carlson.org/",
+    "creationAt": "2026-08-13T02:12:31.000Z",
+    "updatedAt": "2026-08-13T02:12:31.000Z"
+  },
+  "images": [
+    "https://ramirez.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:32.000Z",
+  "updatedAt": "2026-08-13T02:12:32.000Z"
+}
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/266
+Body:
+<empty> 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/266 -> 200
+Body:
+{
+  "id": 266,
+  "title": "Networked upward-trending neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "slug": "networked-upward-trending-neural-net-169be7cd6c4b495083ea07ecc6029cb2",
+  "price": 228,
+  "description": "Customizable hybrid open system",
+  "category": {
+    "id": 63,
+    "name": "Personal Care_74be8551df9e4457870ebb2429f6c3a2",
+    "slug": "personal-care-74be8551df9e4457870ebb2429f6c3a2",
+    "image": "http://www.bridges-carlson.org/",
+    "creationAt": "2026-08-13T02:12:31.000Z",
+    "updatedAt": "2026-08-13T02:12:31.000Z"
+  },
+  "images": [
+    "https://ramirez.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:32.000Z",
+  "updatedAt": "2026-08-13T02:12:32.000Z"
+} 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/266
+Body:
+<empty> 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/266 -> 200
+Body:
+true 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Personal Care_74be8551df9e4457870ebb2429f6c3a2",
+  "slug": "personal-care-74be8551df9e4457870ebb2429f6c3a2",
+  "image": "http://www.bridges-carlson.org/",
+  "creationAt": "2026-08-13T02:12:31.000Z",
+  "updatedAt": "2026-08-13T02:12:31.000Z"
+} 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-08-13 02:12:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+true

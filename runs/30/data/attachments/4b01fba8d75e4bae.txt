@@ -1,0 +1,135 @@
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_716370f6cdff472f9f6d7a366521d701",
+  "image": "http://morrison-jackson.com/"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 70,
+  "name": "Pet Supplies_716370f6cdff472f9f6d7a366521d701",
+  "slug": "pet-supplies-716370f6cdff472f9f6d7a366521d701",
+  "image": "http://morrison-jackson.com/",
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Right-sized multi-state encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "price": 73,
+  "description": "Realigned zero administration extranet",
+  "categoryId": 70,
+  "images": [
+    "https://www.yang.com/"
+  ]
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 199,
+  "title": "Right-sized multi-state encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "slug": "right-sized-multi-state-encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "price": 73,
+  "description": "Realigned zero administration extranet",
+  "category": {
+    "id": 70,
+    "name": "Pet Supplies_716370f6cdff472f9f6d7a366521d701",
+    "slug": "pet-supplies-716370f6cdff472f9f6d7a366521d701",
+    "image": "http://morrison-jackson.com/",
+    "creationAt": "2026-08-12T02:10:25.000Z",
+    "updatedAt": "2026-08-12T02:10:25.000Z"
+  },
+  "images": [
+    "https://www.yang.com/"
+  ],
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+}
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+{
+  "id": 199,
+  "title": "Right-sized multi-state encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "slug": "right-sized-multi-state-encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "price": 73,
+  "description": "Realigned zero administration extranet",
+  "category": {
+    "id": 70,
+    "name": "Pet Supplies_716370f6cdff472f9f6d7a366521d701",
+    "slug": "pet-supplies-716370f6cdff472f9f6d7a366521d701",
+    "image": "http://morrison-jackson.com/",
+    "creationAt": "2026-08-12T02:10:25.000Z",
+    "updatedAt": "2026-08-12T02:10:25.000Z"
+  },
+  "images": [
+    "https://www.yang.com/"
+  ],
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+}
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+{
+  "id": 199,
+  "title": "Right-sized multi-state encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "slug": "right-sized-multi-state-encoding-9382df4ad3ca4dc8a3f67de2e89765be",
+  "price": 73,
+  "description": "Realigned zero administration extranet",
+  "category": {
+    "id": 70,
+    "name": "Pet Supplies_716370f6cdff472f9f6d7a366521d701",
+    "slug": "pet-supplies-716370f6cdff472f9f6d7a366521d701",
+    "image": "http://morrison-jackson.com/",
+    "creationAt": "2026-08-12T02:10:25.000Z",
+    "updatedAt": "2026-08-12T02:10:25.000Z"
+  },
+  "images": [
+    "https://www.yang.com/"
+  ],
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+true 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/70 -> 200
+Body:
+{
+  "id": 70,
+  "name": "Pet Supplies_716370f6cdff472f9f6d7a366521d701",
+  "slug": "pet-supplies-716370f6cdff472f9f6d7a366521d701",
+  "image": "http://morrison-jackson.com/",
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/70 -> 200
+Body:
+true

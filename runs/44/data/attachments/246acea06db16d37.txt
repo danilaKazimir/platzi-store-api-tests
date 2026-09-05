@@ -1,0 +1,125 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_8f5c240a6a7e4259a0f8e46e88700595",
+  "image": "https://www.rodriguez.com/"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 162,
+  "name": "Books_8f5c240a6a7e4259a0f8e46e88700595",
+  "slug": "books-8f5c240a6a7e4259a0f8e46e88700595",
+  "image": "https://www.rodriguez.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Business-focused 6thgeneration policy-aaa632a304fc48fbb8dd3c7c66cafb22",
+  "price": 591,
+  "description": "Profound reciprocal access",
+  "categoryId": 162,
+  "images": [
+    "http://garcia-guerrero.biz/"
+  ]
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 244,
+  "title": "Business-focused 6thgeneration policy-aaa632a304fc48fbb8dd3c7c66cafb22",
+  "slug": "business-focused-6thgeneration-policy-aaa632a304fc48fbb8dd3c7c66cafb22",
+  "price": 591,
+  "description": "Profound reciprocal access",
+  "category": {
+    "id": 162,
+    "name": "Books_8f5c240a6a7e4259a0f8e46e88700595",
+    "slug": "books-8f5c240a6a7e4259a0f8e46e88700595",
+    "image": "https://www.rodriguez.com/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "http://garcia-guerrero.biz/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/244
+Body:
+{
+  "title": "Networked real-time Local Area Network-546d6b060b524761a6c9f9163c0e46f4",
+  "price": 366,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/244 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+{
+  "id": 244,
+  "title": "Business-focused 6thgeneration policy-aaa632a304fc48fbb8dd3c7c66cafb22",
+  "slug": "business-focused-6thgeneration-policy-aaa632a304fc48fbb8dd3c7c66cafb22",
+  "price": 591,
+  "description": "Profound reciprocal access",
+  "category": {
+    "id": 162,
+    "name": "Books_8f5c240a6a7e4259a0f8e46e88700595",
+    "slug": "books-8f5c240a6a7e4259a0f8e46e88700595",
+    "image": "https://www.rodriguez.com/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "http://garcia-guerrero.biz/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+true 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/162
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/162 -> 200
+Body:
+{
+  "id": 162,
+  "name": "Books_8f5c240a6a7e4259a0f8e46e88700595",
+  "slug": "books-8f5c240a6a7e4259a0f8e46e88700595",
+  "image": "https://www.rodriguez.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/162
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/162 -> 200
+Body:
+true

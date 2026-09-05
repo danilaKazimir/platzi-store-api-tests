@@ -1,0 +1,88 @@
+2026-08-15 01:23:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Dawn Scott",
+  "email": "bcoleman@example.org",
+  "password": "***",
+  "avatar": "http://thompson.com/"
+} 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 86,
+  "email": "bcoleman@example.org",
+  "password": "***",
+  "name": "Dawn Scott",
+  "role": "customer",
+  "avatar": "http://thompson.com/",
+  "creationAt": "2026-08-15T01:23:35.000Z",
+  "updatedAt": "2026-08-15T01:23:35.000Z"
+}
+2026-08-15 01:23:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "bcoleman@example.org",
+  "password": "***"
+} 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjg2LCJpYXQiOjE3ODY3NTcwMTUsImV4cCI6MTc4Njc5MzAxNX0.lgjaLJN2FHtXmFxlcdPET0Motw-ZdgUDBr2m-4SCbSQ"
+} 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 86,
+  "email": "bcoleman@example.org",
+  "password": "***",
+  "name": "Dawn Scott",
+  "role": "customer",
+  "avatar": "http://thompson.com/",
+  "creationAt": "2026-08-15T01:23:35.000Z",
+  "updatedAt": "2026-08-15T01:23:35.000Z"
+}
+2026-08-15 01:23:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/86
+Body:
+<empty> 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/86 -> 200
+Body:
+{
+  "id": 86,
+  "email": "bcoleman@example.org",
+  "password": "***",
+  "name": "Dawn Scott",
+  "role": "customer",
+  "avatar": "http://thompson.com/",
+  "creationAt": "2026-08-15T01:23:35.000Z",
+  "updatedAt": "2026-08-15T01:23:35.000Z"
+} 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/86
+Body:
+<empty> 
+
+2026-08-15 01:23:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/86 -> 200
+Body:
+true

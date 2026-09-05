@@ -1,0 +1,81 @@
+2026-08-18 01:22:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Shannon Knapp DDS",
+  "email": "cbell@example.org",
+  "password": "***",
+  "avatar": "http://juarez-bauer.net/"
+} 
+
+2026-08-18 01:22:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 397,
+  "email": "cbell@example.org",
+  "password": "***",
+  "name": "Shannon Knapp DDS",
+  "role": "customer",
+  "avatar": "http://juarez-bauer.net/",
+  "creationAt": "2026-08-18T01:22:22.000Z",
+  "updatedAt": "2026-08-18T01:22:22.000Z"
+}
+2026-08-18 01:22:22 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/397
+Body:
+{
+  "name": "Joshua Harmon",
+  "email": "eddie46@example.com"
+} 
+
+2026-08-18 01:22:23 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/397 -> 200
+Body:
+{
+  "id": 397,
+  "email": "eddie46@example.com",
+  "password": "***",
+  "name": "Joshua Harmon",
+  "role": "customer",
+  "avatar": "http://juarez-bauer.net/",
+  "creationAt": "2026-08-18T01:22:22.000Z",
+  "updatedAt": "2026-08-18T01:22:22.000Z"
+} 
+
+2026-08-18 01:22:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/397
+Body:
+<empty> 
+
+2026-08-18 01:22:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/397 -> 200
+Body:
+{
+  "id": 397,
+  "email": "eddie46@example.com",
+  "password": "***",
+  "name": "Joshua Harmon",
+  "role": "customer",
+  "avatar": "http://juarez-bauer.net/",
+  "creationAt": "2026-08-18T01:22:22.000Z",
+  "updatedAt": "2026-08-18T01:22:22.000Z"
+}
+2026-08-18 01:22:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/397
+Body:
+<empty> 
+
+2026-08-18 01:22:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/397 -> 200
+Body:
+{
+  "id": 397,
+  "email": "eddie46@example.com",
+  "password": "***",
+  "name": "Joshua Harmon",
+  "role": "customer",
+  "avatar": "http://juarez-bauer.net/",
+  "creationAt": "2026-08-18T01:22:22.000Z",
+  "updatedAt": "2026-08-18T01:22:22.000Z"
+} 
+
+2026-08-18 01:22:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/397
+Body:
+<empty> 
+
+2026-08-18 01:22:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/397 -> 200
+Body:
+true

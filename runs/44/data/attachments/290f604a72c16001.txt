@@ -1,0 +1,55 @@
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_73c816530ced4febb2f870d92d724979",
+  "image": "https://www.cantrell.info/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 152,
+  "name": "Clothing_73c816530ced4febb2f870d92d724979",
+  "slug": "clothing-73c816530ced4febb2f870d92d724979",
+  "image": "https://www.cantrell.info/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/152
+Body:
+{
+  "name": "Personal Care_f430ed5c36174a8f9c91e26dc2b6a114",
+  "image": null
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/152 -> 400
+Body:
+{
+  "path": "/api/v1/categories/152",
+  "timestamp": "2026-08-26T01:28:05.416Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/152
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/152 -> 200
+Body:
+{
+  "id": 152,
+  "name": "Clothing_73c816530ced4febb2f870d92d724979",
+  "slug": "clothing-73c816530ced4febb2f870d92d724979",
+  "image": "https://www.cantrell.info/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/152
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/152 -> 200
+Body:
+true

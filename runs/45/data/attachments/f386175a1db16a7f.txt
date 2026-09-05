@@ -1,0 +1,107 @@
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_a15792c9040a44d9b34d76b56641e16d",
+  "image": "http://www.jones.info/"
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Electronics_a15792c9040a44d9b34d76b56641e16d",
+  "slug": "electronics-a15792c9040a44d9b34d76b56641e16d",
+  "image": "http://www.jones.info/",
+  "creationAt": "2026-08-27T08:18:48.000Z",
+  "updatedAt": "2026-08-27T08:18:48.000Z"
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Phased well-modulated middleware-c9e284981f394d87aae6c44182b105ba",
+  "price": 438,
+  "description": "Monitored empowering interface",
+  "categoryId": 15,
+  "images": [
+    "http://www.gonzalez-cox.com/"
+  ]
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 54,
+  "title": "Phased well-modulated middleware-c9e284981f394d87aae6c44182b105ba",
+  "slug": "phased-well-modulated-middleware-c9e284981f394d87aae6c44182b105ba",
+  "price": 438,
+  "description": "Monitored empowering interface",
+  "category": {
+    "id": 15,
+    "name": "Electronics_a15792c9040a44d9b34d76b56641e16d",
+    "slug": "electronics-a15792c9040a44d9b34d76b56641e16d",
+    "image": "http://www.jones.info/",
+    "creationAt": "2026-08-27T08:18:48.000Z",
+    "updatedAt": "2026-08-27T08:18:48.000Z"
+  },
+  "images": [
+    "http://www.gonzalez-cox.com/"
+  ],
+  "creationAt": "2026-08-27T08:18:48.000Z",
+  "updatedAt": "2026-08-27T08:18:48.000Z"
+}
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/54
+Body:
+<empty> 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/54 -> 200
+Body:
+true 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/54
+Body:
+<empty> 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/54 -> 400
+Body:
+{
+  "path": "/api/v1/products/54",
+  "timestamp": "2026-08-27T08:18:48.782Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 54\n    }\n}"
+}
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/54
+Body:
+<empty> 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/54 -> 400
+Body:
+{
+  "path": "/api/v1/products/54",
+  "timestamp": "2026-08-27T08:18:48.843Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 54\n    }\n}"
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Electronics_a15792c9040a44d9b34d76b56641e16d",
+  "slug": "electronics-a15792c9040a44d9b34d76b56641e16d",
+  "image": "http://www.jones.info/",
+  "creationAt": "2026-08-27T08:18:48.000Z",
+  "updatedAt": "2026-08-27T08:18:48.000Z"
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+true

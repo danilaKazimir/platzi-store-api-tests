@@ -1,0 +1,107 @@
+2026-08-12 02:10:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_d685197e29214126882849a9629600e6",
+  "image": "https://www.guzman.com/"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 68,
+  "name": "Automotive Accessories_d685197e29214126882849a9629600e6",
+  "slug": "automotive-accessories-d685197e29214126882849a9629600e6",
+  "image": "https://www.guzman.com/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergistic clear-thinking success-210a2ce4ca824588a08036a107a181ae",
+  "price": 868,
+  "description": "Polarized client-driven conglomeration",
+  "categoryId": 68,
+  "images": [
+    "https://lowe-williams.com/"
+  ]
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 197,
+  "title": "Synergistic clear-thinking success-210a2ce4ca824588a08036a107a181ae",
+  "slug": "synergistic-clear-thinking-success-210a2ce4ca824588a08036a107a181ae",
+  "price": 868,
+  "description": "Polarized client-driven conglomeration",
+  "category": {
+    "id": 68,
+    "name": "Automotive Accessories_d685197e29214126882849a9629600e6",
+    "slug": "automotive-accessories-d685197e29214126882849a9629600e6",
+    "image": "https://www.guzman.com/",
+    "creationAt": "2026-08-12T02:10:24.000Z",
+    "updatedAt": "2026-08-12T02:10:24.000Z"
+  },
+  "images": [
+    "https://lowe-williams.com/"
+  ],
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+}
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/197 -> 200
+Body:
+true 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/197 -> 400
+Body:
+{
+  "path": "/api/v1/products/197",
+  "timestamp": "2026-08-12T02:10:25.290Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 197\n    }\n}"
+}
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/197 -> 400
+Body:
+{
+  "path": "/api/v1/products/197",
+  "timestamp": "2026-08-12T02:10:25.349Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 197\n    }\n}"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/68
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/68 -> 200
+Body:
+{
+  "id": 68,
+  "name": "Automotive Accessories_d685197e29214126882849a9629600e6",
+  "slug": "automotive-accessories-d685197e29214126882849a9629600e6",
+  "image": "https://www.guzman.com/",
+  "creationAt": "2026-08-12T02:10:24.000Z",
+  "updatedAt": "2026-08-12T02:10:24.000Z"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/68
+Body:
+<empty> 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/68 -> 200
+Body:
+true

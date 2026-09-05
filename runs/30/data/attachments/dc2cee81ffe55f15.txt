@@ -1,0 +1,135 @@
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_d8cb308847a243629526c6c822959233",
+  "image": "http://www.thomas-green.com/"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 72,
+  "name": "Personal Care_d8cb308847a243629526c6c822959233",
+  "slug": "personal-care-d8cb308847a243629526c6c822959233",
+  "image": "http://www.thomas-green.com/",
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+} 
+
+2026-08-12 02:10:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Realigned disintermediate encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "price": 661,
+  "description": "Fully-configurable background installation",
+  "categoryId": 72,
+  "images": [
+    "https://www.johnson-duran.net/"
+  ]
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 200,
+  "title": "Realigned disintermediate encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "slug": "realigned-disintermediate-encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "price": 661,
+  "description": "Fully-configurable background installation",
+  "category": {
+    "id": 72,
+    "name": "Personal Care_d8cb308847a243629526c6c822959233",
+    "slug": "personal-care-d8cb308847a243629526c6c822959233",
+    "image": "http://www.thomas-green.com/",
+    "creationAt": "2026-08-12T02:10:25.000Z",
+    "updatedAt": "2026-08-12T02:10:25.000Z"
+  },
+  "images": [
+    "https://www.johnson-duran.net/"
+  ],
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+}
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/realigned-disintermediate-encryption-aac32e85c3554f8cb7f4ac0353fd0227
+Body:
+<empty> 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/realigned-disintermediate-encryption-aac32e85c3554f8cb7f4ac0353fd0227 -> 200
+Body:
+{
+  "id": 200,
+  "title": "Realigned disintermediate encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "slug": "realigned-disintermediate-encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "price": 661,
+  "description": "Fully-configurable background installation",
+  "category": {
+    "id": 72,
+    "name": "Personal Care_d8cb308847a243629526c6c822959233",
+    "slug": "personal-care-d8cb308847a243629526c6c822959233",
+    "image": "http://www.thomas-green.com/",
+    "creationAt": "2026-08-12T02:10:25.000Z",
+    "updatedAt": "2026-08-12T02:10:25.000Z"
+  },
+  "images": [
+    "https://www.johnson-duran.net/"
+  ],
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+}
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/200
+Body:
+<empty> 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/200 -> 200
+Body:
+{
+  "id": 200,
+  "title": "Realigned disintermediate encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "slug": "realigned-disintermediate-encryption-aac32e85c3554f8cb7f4ac0353fd0227",
+  "price": 661,
+  "description": "Fully-configurable background installation",
+  "category": {
+    "id": 72,
+    "name": "Personal Care_d8cb308847a243629526c6c822959233",
+    "slug": "personal-care-d8cb308847a243629526c6c822959233",
+    "image": "http://www.thomas-green.com/",
+    "creationAt": "2026-08-12T02:10:25.000Z",
+    "updatedAt": "2026-08-12T02:10:25.000Z"
+  },
+  "images": [
+    "https://www.johnson-duran.net/"
+  ],
+  "creationAt": "2026-08-12T02:10:26.000Z",
+  "updatedAt": "2026-08-12T02:10:26.000Z"
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/200
+Body:
+<empty> 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/200 -> 200
+Body:
+true 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/72
+Body:
+<empty> 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/72 -> 200
+Body:
+{
+  "id": 72,
+  "name": "Personal Care_d8cb308847a243629526c6c822959233",
+  "slug": "personal-care-d8cb308847a243629526c6c822959233",
+  "image": "http://www.thomas-green.com/",
+  "creationAt": "2026-08-12T02:10:25.000Z",
+  "updatedAt": "2026-08-12T02:10:25.000Z"
+} 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/72
+Body:
+<empty> 
+
+2026-08-12 02:10:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/72 -> 200
+Body:
+true

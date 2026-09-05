@@ -1,0 +1,79 @@
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_432409cebeb6424e8dacd8211c8a76ba",
+  "image": "https://www.wall-lee.com/"
+} 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Clothing_432409cebeb6424e8dacd8211c8a76ba",
+  "slug": "clothing-432409cebeb6424e8dacd8211c8a76ba",
+  "image": "https://www.wall-lee.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+}
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced composite benchmark-537aa062fc7d461f9d5123f66688e7b1",
+  "price": 482,
+  "description": "Innovative uniform toolset",
+  "categoryId": 16,
+  "images": [
+    "http://www.aguirre-hill.net/"
+  ]
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 56,
+  "title": "Advanced composite benchmark-537aa062fc7d461f9d5123f66688e7b1",
+  "slug": "advanced-composite-benchmark-537aa062fc7d461f9d5123f66688e7b1",
+  "price": 482,
+  "description": "Innovative uniform toolset",
+  "category": {
+    "id": 16,
+    "name": "Clothing_432409cebeb6424e8dacd8211c8a76ba",
+    "slug": "clothing-432409cebeb6424e8dacd8211c8a76ba",
+    "image": "https://www.wall-lee.com/",
+    "creationAt": "2026-08-07T02:48:13.000Z",
+    "updatedAt": "2026-08-07T02:48:13.000Z"
+  },
+  "images": [
+    "http://www.aguirre-hill.net/"
+  ],
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+}
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Clothing_432409cebeb6424e8dacd8211c8a76ba",
+  "slug": "clothing-432409cebeb6424e8dacd8211c8a76ba",
+  "image": "https://www.wall-lee.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-08-07T02:48:14.163Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

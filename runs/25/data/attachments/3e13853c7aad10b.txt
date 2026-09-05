@@ -1,0 +1,48 @@
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 2,
+    "email": "maria@mail.com",
+    "password": "12345",
+    "name": "Maria",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 3,
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 4,
+    "email": "pgtest1786067570@mail.com",
+    "password": "abc123",
+    "name": "PG Test",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-08-07T01:52:52.000Z",
+    "updatedAt": "2026-08-07T01:52:52.000Z"
+  }
+]

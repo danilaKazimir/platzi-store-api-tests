@@ -1,0 +1,49 @@
+2026-08-19 01:23:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_e8face68210c4347ac06bb8172695872",
+  "image": "https://barrett-liu.com/"
+} 
+
+2026-08-19 01:23:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 408,
+  "name": "Home & Kitchen_e8face68210c4347ac06bb8172695872",
+  "slug": "home-kitchen-e8face68210c4347ac06bb8172695872",
+  "image": "https://barrett-liu.com/",
+  "creationAt": "2026-08-19T01:23:56.000Z",
+  "updatedAt": "2026-08-19T01:23:56.000Z"
+}
+2026-08-19 01:23:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/408
+Body:
+<empty> 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/408 -> 200
+Body:
+true 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/408
+Body:
+<empty> 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/408 -> 400
+Body:
+{
+  "path": "/api/v1/categories/408",
+  "timestamp": "2026-08-19T01:23:57.055Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 408\n}"
+}
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/408
+Body:
+<empty> 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/408 -> 400
+Body:
+{
+  "path": "/api/v1/categories/408",
+  "timestamp": "2026-08-19T01:23:57.132Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 408\n}"
+}

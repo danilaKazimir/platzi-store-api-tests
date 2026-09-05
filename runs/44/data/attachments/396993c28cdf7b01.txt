@@ -1,0 +1,135 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_12cb4d9a3caa4cc191bbd2c5cd542d03",
+  "image": "https://cannon-herrera.com/"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 159,
+  "name": "Pet Supplies_12cb4d9a3caa4cc191bbd2c5cd542d03",
+  "slug": "pet-supplies-12cb4d9a3caa4cc191bbd2c5cd542d03",
+  "image": "https://cannon-herrera.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Triple-buffered zero-defect budgetary management-44e89011a84c4f03a5b00a5df37d665a",
+  "price": 559,
+  "description": "Front-line actuating archive",
+  "categoryId": 159,
+  "images": [
+    "https://mack.org/"
+  ]
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 241,
+  "title": "Triple-buffered zero-defect budgetary management-44e89011a84c4f03a5b00a5df37d665a",
+  "slug": "triple-buffered-zero-defect-budgetary-management-44e89011a84c4f03a5b00a5df37d665a",
+  "price": 559,
+  "description": "Front-line actuating archive",
+  "category": {
+    "id": 159,
+    "name": "Pet Supplies_12cb4d9a3caa4cc191bbd2c5cd542d03",
+    "slug": "pet-supplies-12cb4d9a3caa4cc191bbd2c5cd542d03",
+    "image": "https://cannon-herrera.com/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "https://mack.org/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/triple-buffered-zero-defect-budgetary-management-44e89011a84c4f03a5b00a5df37d665a
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/triple-buffered-zero-defect-budgetary-management-44e89011a84c4f03a5b00a5df37d665a -> 200
+Body:
+{
+  "id": 241,
+  "title": "Triple-buffered zero-defect budgetary management-44e89011a84c4f03a5b00a5df37d665a",
+  "slug": "triple-buffered-zero-defect-budgetary-management-44e89011a84c4f03a5b00a5df37d665a",
+  "price": 559,
+  "description": "Front-line actuating archive",
+  "category": {
+    "id": 159,
+    "name": "Pet Supplies_12cb4d9a3caa4cc191bbd2c5cd542d03",
+    "slug": "pet-supplies-12cb4d9a3caa4cc191bbd2c5cd542d03",
+    "image": "https://cannon-herrera.com/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "https://mack.org/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/241 -> 200
+Body:
+{
+  "id": 241,
+  "title": "Triple-buffered zero-defect budgetary management-44e89011a84c4f03a5b00a5df37d665a",
+  "slug": "triple-buffered-zero-defect-budgetary-management-44e89011a84c4f03a5b00a5df37d665a",
+  "price": 559,
+  "description": "Front-line actuating archive",
+  "category": {
+    "id": 159,
+    "name": "Pet Supplies_12cb4d9a3caa4cc191bbd2c5cd542d03",
+    "slug": "pet-supplies-12cb4d9a3caa4cc191bbd2c5cd542d03",
+    "image": "https://cannon-herrera.com/",
+    "creationAt": "2026-08-26T01:28:06.000Z",
+    "updatedAt": "2026-08-26T01:28:06.000Z"
+  },
+  "images": [
+    "https://mack.org/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/241 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/159
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/159 -> 200
+Body:
+{
+  "id": 159,
+  "name": "Pet Supplies_12cb4d9a3caa4cc191bbd2c5cd542d03",
+  "slug": "pet-supplies-12cb4d9a3caa4cc191bbd2c5cd542d03",
+  "image": "https://cannon-herrera.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/159
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/159 -> 200
+Body:
+true

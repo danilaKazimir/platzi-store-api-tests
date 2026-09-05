@@ -1,0 +1,408 @@
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+  "image": "http://richardson.com/"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 421,
+  "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+  "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+  "image": "http://richardson.com/",
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+}
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-contextualized composite alliance-80de54df4212422c9f7d0c4ccf3bfcf5",
+  "price": 861,
+  "description": "Centralized motivating array",
+  "categoryId": 421,
+  "images": [
+    "http://www.bell-perry.net/"
+  ]
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 371,
+  "title": "Re-contextualized composite alliance-80de54df4212422c9f7d0c4ccf3bfcf5",
+  "slug": "re-contextualized-composite-alliance-80de54df4212422c9f7d0c4ccf3bfcf5",
+  "price": 861,
+  "description": "Centralized motivating array",
+  "category": {
+    "id": 421,
+    "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+    "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+    "image": "http://richardson.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "http://www.bell-perry.net/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optimized executive alliance-0030316d250a4fe7968a8480fad90367",
+  "price": 829,
+  "description": "Open-architected content-based encryption",
+  "categoryId": 421,
+  "images": [
+    "https://park.info/"
+  ]
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 373,
+  "title": "Optimized executive alliance-0030316d250a4fe7968a8480fad90367",
+  "slug": "optimized-executive-alliance-0030316d250a4fe7968a8480fad90367",
+  "price": 829,
+  "description": "Open-architected content-based encryption",
+  "category": {
+    "id": 421,
+    "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+    "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+    "image": "http://richardson.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "https://park.info/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Polarized systematic application-89d9b994aa324824be2e35499821b63a",
+  "price": 20,
+  "description": "Enterprise-wide system-worthy flexibility",
+  "categoryId": 421,
+  "images": [
+    "http://www.bradley.info/"
+  ]
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 375,
+  "title": "Polarized systematic application-89d9b994aa324824be2e35499821b63a",
+  "slug": "polarized-systematic-application-89d9b994aa324824be2e35499821b63a",
+  "price": 20,
+  "description": "Enterprise-wide system-worthy flexibility",
+  "category": {
+    "id": 421,
+    "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+    "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+    "image": "http://richardson.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "http://www.bradley.info/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_e582a738bb64411984885b49be089abd",
+  "image": "https://www.cox.org/"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 424,
+  "name": "Food & Beverages_e582a738bb64411984885b49be089abd",
+  "slug": "food-beverages-e582a738bb64411984885b49be089abd",
+  "image": "https://www.cox.org/",
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Quality-focused contextually-based conglomeration-4b090c4b57ae4690ae5f4b7cd10f8b99",
+  "price": 280,
+  "description": "Profit-focused stable hub",
+  "categoryId": 424,
+  "images": [
+    "http://young-cross.com/"
+  ]
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 378,
+  "title": "Quality-focused contextually-based conglomeration-4b090c4b57ae4690ae5f4b7cd10f8b99",
+  "slug": "quality-focused-contextually-based-conglomeration-4b090c4b57ae4690ae5f4b7cd10f8b99",
+  "price": 280,
+  "description": "Profit-focused stable hub",
+  "category": {
+    "id": 424,
+    "name": "Food & Beverages_e582a738bb64411984885b49be089abd",
+    "slug": "food-beverages-e582a738bb64411984885b49be089abd",
+    "image": "https://www.cox.org/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "http://young-cross.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:02.000Z",
+  "updatedAt": "2026-08-19T01:24:02.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/371/related
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/371/related -> 200
+Body:
+[
+  {
+    "id": 373,
+    "title": "Optimized executive alliance-0030316d250a4fe7968a8480fad90367",
+    "slug": "optimized-executive-alliance-0030316d250a4fe7968a8480fad90367",
+    "price": 829,
+    "description": "Open-architected content-based encryption",
+    "category": {
+      "id": 421,
+      "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+      "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+      "image": "http://richardson.com/",
+      "creationAt": "2026-08-19T01:24:01.000Z",
+      "updatedAt": "2026-08-19T01:24:01.000Z"
+    },
+    "images": [
+      "https://park.info/"
+    ],
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  {
+    "id": 375,
+    "title": "Polarized systematic application-89d9b994aa324824be2e35499821b63a",
+    "slug": "polarized-systematic-application-89d9b994aa324824be2e35499821b63a",
+    "price": 20,
+    "description": "Enterprise-wide system-worthy flexibility",
+    "category": {
+      "id": 421,
+      "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+      "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+      "image": "http://richardson.com/",
+      "creationAt": "2026-08-19T01:24:01.000Z",
+      "updatedAt": "2026-08-19T01:24:01.000Z"
+    },
+    "images": [
+      "http://www.bradley.info/"
+    ],
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  }
+]
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/378
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/378 -> 200
+Body:
+{
+  "id": 378,
+  "title": "Quality-focused contextually-based conglomeration-4b090c4b57ae4690ae5f4b7cd10f8b99",
+  "slug": "quality-focused-contextually-based-conglomeration-4b090c4b57ae4690ae5f4b7cd10f8b99",
+  "price": 280,
+  "description": "Profit-focused stable hub",
+  "category": {
+    "id": 424,
+    "name": "Food & Beverages_e582a738bb64411984885b49be089abd",
+    "slug": "food-beverages-e582a738bb64411984885b49be089abd",
+    "image": "https://www.cox.org/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "http://young-cross.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:02.000Z",
+  "updatedAt": "2026-08-19T01:24:02.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/378
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/378 -> 200
+Body:
+true 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/375
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/375 -> 200
+Body:
+{
+  "id": 375,
+  "title": "Polarized systematic application-89d9b994aa324824be2e35499821b63a",
+  "slug": "polarized-systematic-application-89d9b994aa324824be2e35499821b63a",
+  "price": 20,
+  "description": "Enterprise-wide system-worthy flexibility",
+  "category": {
+    "id": 421,
+    "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+    "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+    "image": "http://richardson.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "http://www.bradley.info/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/375
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/375 -> 200
+Body:
+true 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/373
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/373 -> 200
+Body:
+{
+  "id": 373,
+  "title": "Optimized executive alliance-0030316d250a4fe7968a8480fad90367",
+  "slug": "optimized-executive-alliance-0030316d250a4fe7968a8480fad90367",
+  "price": 829,
+  "description": "Open-architected content-based encryption",
+  "category": {
+    "id": 421,
+    "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+    "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+    "image": "http://richardson.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "https://park.info/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/373
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/373 -> 200
+Body:
+true 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/371
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/371 -> 200
+Body:
+{
+  "id": 371,
+  "title": "Re-contextualized composite alliance-80de54df4212422c9f7d0c4ccf3bfcf5",
+  "slug": "re-contextualized-composite-alliance-80de54df4212422c9f7d0c4ccf3bfcf5",
+  "price": 861,
+  "description": "Centralized motivating array",
+  "category": {
+    "id": 421,
+    "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+    "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+    "image": "http://richardson.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "http://www.bell-perry.net/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/371
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/371 -> 200
+Body:
+true 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/424
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/424 -> 200
+Body:
+{
+  "id": 424,
+  "name": "Food & Beverages_e582a738bb64411984885b49be089abd",
+  "slug": "food-beverages-e582a738bb64411984885b49be089abd",
+  "image": "https://www.cox.org/",
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/424
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/424 -> 200
+Body:
+true 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/421
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/421 -> 200
+Body:
+{
+  "id": 421,
+  "name": "Electronics_5bbca2ea77e44001b2232141d7def3a2",
+  "slug": "electronics-5bbca2ea77e44001b2232141d7def3a2",
+  "image": "http://richardson.com/",
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/421
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/421 -> 200
+Body:
+true

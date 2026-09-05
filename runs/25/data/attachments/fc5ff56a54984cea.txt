@@ -1,0 +1,53 @@
+2026-08-07 02:48:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_84c12fa879fd4555b7992f93bfef407f",
+  "image": "http://www.brown.com/"
+} 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_84c12fa879fd4555b7992f93bfef407f",
+  "slug": "automotive-accessories-84c12fa879fd4555b7992f93bfef407f",
+  "image": "http://www.brown.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+}
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-84c12fa879fd4555b7992f93bfef407f
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-84c12fa879fd4555b7992f93bfef407f -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_84c12fa879fd4555b7992f93bfef407f",
+  "slug": "automotive-accessories-84c12fa879fd4555b7992f93bfef407f",
+  "image": "http://www.brown.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+}
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_84c12fa879fd4555b7992f93bfef407f",
+  "slug": "automotive-accessories-84c12fa879fd4555b7992f93bfef407f",
+  "image": "http://www.brown.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+} 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true

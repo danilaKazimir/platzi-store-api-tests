@@ -1,0 +1,135 @@
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_36822df836504969bebdb516e8496213",
+  "image": "https://www.patton.biz/"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1196,
+  "name": "Home & Kitchen_36822df836504969bebdb516e8496213",
+  "slug": "home-kitchen-36822df836504969bebdb516e8496213",
+  "image": "https://www.patton.biz/",
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered actuating functionalities-0afb100270d14753af4e44cebee2f806",
+  "price": 81,
+  "description": "Configurable eco-centric application",
+  "categoryId": 1196,
+  "images": [
+    "http://mcdowell-hamilton.biz/"
+  ]
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 764,
+  "title": "Multi-tiered actuating functionalities-0afb100270d14753af4e44cebee2f806",
+  "slug": "multi-tiered-actuating-functionalities-0afb100270d14753af4e44cebee2f806",
+  "price": 81,
+  "description": "Configurable eco-centric application",
+  "category": {
+    "id": 1196,
+    "name": "Home & Kitchen_36822df836504969bebdb516e8496213",
+    "slug": "home-kitchen-36822df836504969bebdb516e8496213",
+    "image": "https://www.patton.biz/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://mcdowell-hamilton.biz/"
+  ],
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+}
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/764
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/764 -> 200
+Body:
+{
+  "id": 764,
+  "title": "Multi-tiered actuating functionalities-0afb100270d14753af4e44cebee2f806",
+  "slug": "multi-tiered-actuating-functionalities-0afb100270d14753af4e44cebee2f806",
+  "price": 81,
+  "description": "Configurable eco-centric application",
+  "category": {
+    "id": 1196,
+    "name": "Home & Kitchen_36822df836504969bebdb516e8496213",
+    "slug": "home-kitchen-36822df836504969bebdb516e8496213",
+    "image": "https://www.patton.biz/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://mcdowell-hamilton.biz/"
+  ],
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+}
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/764
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/764 -> 200
+Body:
+{
+  "id": 764,
+  "title": "Multi-tiered actuating functionalities-0afb100270d14753af4e44cebee2f806",
+  "slug": "multi-tiered-actuating-functionalities-0afb100270d14753af4e44cebee2f806",
+  "price": 81,
+  "description": "Configurable eco-centric application",
+  "category": {
+    "id": 1196,
+    "name": "Home & Kitchen_36822df836504969bebdb516e8496213",
+    "slug": "home-kitchen-36822df836504969bebdb516e8496213",
+    "image": "https://www.patton.biz/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://mcdowell-hamilton.biz/"
+  ],
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/764
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/764 -> 200
+Body:
+true 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1196
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1196 -> 200
+Body:
+{
+  "id": 1196,
+  "name": "Home & Kitchen_36822df836504969bebdb516e8496213",
+  "slug": "home-kitchen-36822df836504969bebdb516e8496213",
+  "image": "https://www.patton.biz/",
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1196
+Body:
+<empty> 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1196 -> 200
+Body:
+true

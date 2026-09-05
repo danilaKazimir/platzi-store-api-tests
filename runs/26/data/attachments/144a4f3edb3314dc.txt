@@ -1,0 +1,79 @@
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_b84395ba49f84021b4cf15845d2de244",
+  "image": "https://www.davis.com/"
+} 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Clothing_b84395ba49f84021b4cf15845d2de244",
+  "slug": "clothing-b84395ba49f84021b4cf15845d2de244",
+  "image": "https://www.davis.com/",
+  "creationAt": "2026-08-08T01:50:08.000Z",
+  "updatedAt": "2026-08-08T01:50:08.000Z"
+}
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Function-based methodical groupware-f12ef56785734b2aaf2d7234496652db",
+  "price": 795,
+  "description": "Triple-buffered secondary superstructure",
+  "categoryId": 16,
+  "images": [
+    "http://moore-bowman.info/"
+  ]
+} 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 54,
+  "title": "Function-based methodical groupware-f12ef56785734b2aaf2d7234496652db",
+  "slug": "function-based-methodical-groupware-f12ef56785734b2aaf2d7234496652db",
+  "price": 795,
+  "description": "Triple-buffered secondary superstructure",
+  "category": {
+    "id": 16,
+    "name": "Clothing_b84395ba49f84021b4cf15845d2de244",
+    "slug": "clothing-b84395ba49f84021b4cf15845d2de244",
+    "image": "https://www.davis.com/",
+    "creationAt": "2026-08-08T01:50:08.000Z",
+    "updatedAt": "2026-08-08T01:50:08.000Z"
+  },
+  "images": [
+    "http://moore-bowman.info/"
+  ],
+  "creationAt": "2026-08-08T01:50:08.000Z",
+  "updatedAt": "2026-08-08T01:50:08.000Z"
+}
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Clothing_b84395ba49f84021b4cf15845d2de244",
+  "slug": "clothing-b84395ba49f84021b4cf15845d2de244",
+  "image": "https://www.davis.com/",
+  "creationAt": "2026-08-08T01:50:08.000Z",
+  "updatedAt": "2026-08-08T01:50:08.000Z"
+} 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-08-08T01:50:08.588Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

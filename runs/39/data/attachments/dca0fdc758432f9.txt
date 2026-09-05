@@ -1,0 +1,81 @@
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Douglas Daniels",
+  "email": "lauren63@example.net",
+  "password": "***",
+  "avatar": "https://www.petersen-hughes.com/"
+} 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 560,
+  "email": "lauren63@example.net",
+  "password": "***",
+  "name": "Douglas Daniels",
+  "role": "customer",
+  "avatar": "https://www.petersen-hughes.com/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+}
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/560
+Body:
+{
+  "name": "Michael Mcdowell",
+  "email": "lopezjo@example.net"
+} 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/560 -> 200
+Body:
+{
+  "id": 560,
+  "email": "lopezjo@example.net",
+  "password": "***",
+  "name": "Michael Mcdowell",
+  "role": "customer",
+  "avatar": "https://www.petersen-hughes.com/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+} 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/560
+Body:
+<empty> 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/560 -> 200
+Body:
+{
+  "id": 560,
+  "email": "lopezjo@example.net",
+  "password": "***",
+  "name": "Michael Mcdowell",
+  "role": "customer",
+  "avatar": "https://www.petersen-hughes.com/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+}
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/560
+Body:
+<empty> 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/560 -> 200
+Body:
+{
+  "id": 560,
+  "email": "lopezjo@example.net",
+  "password": "***",
+  "name": "Michael Mcdowell",
+  "role": "customer",
+  "avatar": "https://www.petersen-hughes.com/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+} 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/560
+Body:
+<empty> 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/560 -> 200
+Body:
+true

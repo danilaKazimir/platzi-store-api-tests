@@ -1,0 +1,107 @@
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_89fe895a926b40a195d8bb8a442bc681",
+  "image": "http://www.fischer.com/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 157,
+  "name": "Home & Kitchen_89fe895a926b40a195d8bb8a442bc681",
+  "slug": "home-kitchen-89fe895a926b40a195d8bb8a442bc681",
+  "image": "http://www.fischer.com/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Secured systemic parallelism-10875ed1f04a4b3f94576fc06ea0950b",
+  "price": 790,
+  "description": "Synergized system-worthy portal",
+  "categoryId": 157,
+  "images": [
+    "https://www.avery.com/"
+  ]
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 237,
+  "title": "Secured systemic parallelism-10875ed1f04a4b3f94576fc06ea0950b",
+  "slug": "secured-systemic-parallelism-10875ed1f04a4b3f94576fc06ea0950b",
+  "price": 790,
+  "description": "Synergized system-worthy portal",
+  "category": {
+    "id": 157,
+    "name": "Home & Kitchen_89fe895a926b40a195d8bb8a442bc681",
+    "slug": "home-kitchen-89fe895a926b40a195d8bb8a442bc681",
+    "image": "http://www.fischer.com/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "https://www.avery.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/237
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/237 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/237
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/237 -> 400
+Body:
+{
+  "path": "/api/v1/products/237",
+  "timestamp": "2026-08-26T01:28:06.042Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 237\n    }\n}"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/237
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/237 -> 400
+Body:
+{
+  "path": "/api/v1/products/237",
+  "timestamp": "2026-08-26T01:28:06.053Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 237\n    }\n}"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/157
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/157 -> 200
+Body:
+{
+  "id": 157,
+  "name": "Home & Kitchen_89fe895a926b40a195d8bb8a442bc681",
+  "slug": "home-kitchen-89fe895a926b40a195d8bb8a442bc681",
+  "image": "http://www.fischer.com/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/157
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/157 -> 200
+Body:
+true

@@ -1,0 +1,68 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=1&limit=3
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=1&limit=3 -> 200
+Body:
+[
+  {
+    "id": 177,
+    "title": "t",
+    "slug": "t",
+    "price": 2,
+    "description": "t",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-25T23:19:56.000Z",
+    "updatedAt": "2026-08-25T23:19:56.000Z"
+  },
+  {
+    "id": 178,
+    "title": "2",
+    "slug": "2",
+    "price": 1,
+    "description": "2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-25T23:25:58.000Z",
+    "updatedAt": "2026-08-25T23:25:58.000Z"
+  },
+  {
+    "id": 179,
+    "title": "test",
+    "slug": "test",
+    "price": 2,
+    "description": "test2",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-08-25T06:45:21.000Z",
+      "updatedAt": "2026-08-25T18:03:29.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-25T23:27:03.000Z",
+    "updatedAt": "2026-08-25T23:27:03.000Z"
+  }
+]

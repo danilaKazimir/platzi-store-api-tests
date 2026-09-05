@@ -1,0 +1,219 @@
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_562b7fa66ea64ad0adf9e7baff468a2f",
+  "image": "https://www.nelson-tanner.com/"
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 129,
+  "name": "Home & Kitchen_562b7fa66ea64ad0adf9e7baff468a2f",
+  "slug": "home-kitchen-562b7fa66ea64ad0adf9e7baff468a2f",
+  "image": "https://www.nelson-tanner.com/",
+  "creationAt": "2026-08-25T01:24:12.000Z",
+  "updatedAt": "2026-08-25T01:24:12.000Z"
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Diverse foreground implementation-e1b26da917654687b2b33a7f177acd73",
+  "price": 510,
+  "description": "Multi-tiered asymmetric process improvement",
+  "categoryId": 129,
+  "images": [
+    "https://green.com/"
+  ]
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 2829,
+  "title": "Diverse foreground implementation-e1b26da917654687b2b33a7f177acd73",
+  "slug": "diverse-foreground-implementation-e1b26da917654687b2b33a7f177acd73",
+  "price": 510,
+  "description": "Multi-tiered asymmetric process improvement",
+  "category": {
+    "id": 129,
+    "name": "Home & Kitchen_562b7fa66ea64ad0adf9e7baff468a2f",
+    "slug": "home-kitchen-562b7fa66ea64ad0adf9e7baff468a2f",
+    "image": "https://www.nelson-tanner.com/",
+    "creationAt": "2026-08-25T01:24:12.000Z",
+    "updatedAt": "2026-08-25T01:24:12.000Z"
+  },
+  "images": [
+    "https://green.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+}
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 2819,
+    "title": "title-d841fbc9-aeb6-43af-9e86-1554d12cb876",
+    "slug": "title-d841fbc9-aeb6-43af-9e86-1554d12cb876",
+    "price": 307,
+    "description": "desc-f015f51c-b0e0-4818-852a-3d4e4a27c97a",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-24T07:54:38.000Z",
+      "updatedAt": "2026-08-24T07:54:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=64109",
+      "https://placehold.co/600x400?img=54233"
+    ],
+    "creationAt": "2026-08-25T00:42:13.000Z",
+    "updatedAt": "2026-08-25T00:42:13.000Z"
+  },
+  {
+    "id": 2820,
+    "title": "title-70f59c6f-eaed-463f-95bc-43e2b59393de",
+    "slug": "title-70f59c6f-eaed-463f-95bc-43e2b59393de",
+    "price": 976,
+    "description": "desc-4d4dfd81-8f73-4ffd-98d8-f62cae3b6b5c",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-08-24T07:54:38.000Z",
+      "updatedAt": "2026-08-24T07:54:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=35817"
+    ],
+    "creationAt": "2026-08-25T00:57:03.000Z",
+    "updatedAt": "2026-08-25T00:57:03.000Z"
+  },
+  {
+    "id": 2821,
+    "title": "title-4c35d5fb-d76b-4382-9c1b-811ceb195d46",
+    "slug": "title-4c35d5fb-d76b-4382-9c1b-811ceb195d46",
+    "price": 208,
+    "description": "desc-5dd2973d-2a53-4a08-96a0-97a8f6009022",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-24T07:54:38.000Z",
+      "updatedAt": "2026-08-24T07:54:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=52087",
+      "https://placehold.co/600x400?img=63383"
+    ],
+    "creationAt": "2026-08-25T01:12:05.000Z",
+    "updatedAt": "2026-08-25T01:12:05.000Z"
+  },
+  {
+    "id": 2824,
+    "title": "Realigned static encryption-06f7259477ee40f2ba8cbd8ad16485d2",
+    "slug": "realigned-static-encryption-06f7259477ee40f2ba8cbd8ad16485d2",
+    "price": 207,
+    "description": "Function-based user-facing groupware",
+    "category": {
+      "id": 125,
+      "name": "Automotive Accessories_ad3f88f8e818493aa58528ed75fe9d1d",
+      "slug": "automotive-accessories-ad3f88f8e818493aa58528ed75fe9d1d",
+      "image": "https://www.perkins-jackson.net/",
+      "creationAt": "2026-08-25T01:24:11.000Z",
+      "updatedAt": "2026-08-25T01:24:11.000Z"
+    },
+    "images": [
+      "https://jones.com/"
+    ],
+    "creationAt": "2026-08-25T01:24:11.000Z",
+    "updatedAt": "2026-08-25T01:24:11.000Z"
+  },
+  {
+    "id": 2829,
+    "title": "Diverse foreground implementation-e1b26da917654687b2b33a7f177acd73",
+    "slug": "diverse-foreground-implementation-e1b26da917654687b2b33a7f177acd73",
+    "price": 510,
+    "description": "Multi-tiered asymmetric process improvement",
+    "category": {
+      "id": 129,
+      "name": "Home & Kitchen_562b7fa66ea64ad0adf9e7baff468a2f",
+      "slug": "home-kitchen-562b7fa66ea64ad0adf9e7baff468a2f",
+      "image": "https://www.nelson-tanner.com/",
+      "creationAt": "2026-08-25T01:24:12.000Z",
+      "updatedAt": "2026-08-25T01:24:12.000Z"
+    },
+    "images": [
+      "https://green.com/"
+    ],
+    "creationAt": "2026-08-25T01:24:13.000Z",
+    "updatedAt": "2026-08-25T01:24:13.000Z"
+  }
+]
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/2829
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/2829 -> 200
+Body:
+{
+  "id": 2829,
+  "title": "Diverse foreground implementation-e1b26da917654687b2b33a7f177acd73",
+  "slug": "diverse-foreground-implementation-e1b26da917654687b2b33a7f177acd73",
+  "price": 510,
+  "description": "Multi-tiered asymmetric process improvement",
+  "category": {
+    "id": 129,
+    "name": "Home & Kitchen_562b7fa66ea64ad0adf9e7baff468a2f",
+    "slug": "home-kitchen-562b7fa66ea64ad0adf9e7baff468a2f",
+    "image": "https://www.nelson-tanner.com/",
+    "creationAt": "2026-08-25T01:24:12.000Z",
+    "updatedAt": "2026-08-25T01:24:12.000Z"
+  },
+  "images": [
+    "https://green.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/2829
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/2829 -> 200
+Body:
+true 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/129
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/129 -> 200
+Body:
+{
+  "id": 129,
+  "name": "Home & Kitchen_562b7fa66ea64ad0adf9e7baff468a2f",
+  "slug": "home-kitchen-562b7fa66ea64ad0adf9e7baff468a2f",
+  "image": "https://www.nelson-tanner.com/",
+  "creationAt": "2026-08-25T01:24:12.000Z",
+  "updatedAt": "2026-08-25T01:24:12.000Z"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/129
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/129 -> 200
+Body:
+true

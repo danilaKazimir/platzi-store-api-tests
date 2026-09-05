@@ -1,0 +1,125 @@
+2026-08-13 02:12:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_28424251ab814f2085d911bd103c8f87",
+  "image": "https://lucero.com/"
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 66,
+  "name": "Clothing_28424251ab814f2085d911bd103c8f87",
+  "slug": "clothing-28424251ab814f2085d911bd103c8f87",
+  "image": "https://lucero.com/",
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-group bifurcated attitude-a4f0333e3f304abc8f35f5313743d36a",
+  "price": 239,
+  "description": "Monitored solution-oriented moderator",
+  "categoryId": 66,
+  "images": [
+    "https://www.miller-peters.com/"
+  ]
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 270,
+  "title": "Cross-group bifurcated attitude-a4f0333e3f304abc8f35f5313743d36a",
+  "slug": "cross-group-bifurcated-attitude-a4f0333e3f304abc8f35f5313743d36a",
+  "price": 239,
+  "description": "Monitored solution-oriented moderator",
+  "category": {
+    "id": 66,
+    "name": "Clothing_28424251ab814f2085d911bd103c8f87",
+    "slug": "clothing-28424251ab814f2085d911bd103c8f87",
+    "image": "https://lucero.com/",
+    "creationAt": "2026-08-13T02:12:33.000Z",
+    "updatedAt": "2026-08-13T02:12:33.000Z"
+  },
+  "images": [
+    "https://www.miller-peters.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+}
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/270
+Body:
+{
+  "title": "Robust holistic task-force-294dea5c5f31423093b15069b87523ec",
+  "price": 95,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/270 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/270
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/270 -> 200
+Body:
+{
+  "id": 270,
+  "title": "Cross-group bifurcated attitude-a4f0333e3f304abc8f35f5313743d36a",
+  "slug": "cross-group-bifurcated-attitude-a4f0333e3f304abc8f35f5313743d36a",
+  "price": 239,
+  "description": "Monitored solution-oriented moderator",
+  "category": {
+    "id": 66,
+    "name": "Clothing_28424251ab814f2085d911bd103c8f87",
+    "slug": "clothing-28424251ab814f2085d911bd103c8f87",
+    "image": "https://lucero.com/",
+    "creationAt": "2026-08-13T02:12:33.000Z",
+    "updatedAt": "2026-08-13T02:12:33.000Z"
+  },
+  "images": [
+    "https://www.miller-peters.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/270
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/270 -> 200
+Body:
+true 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Clothing_28424251ab814f2085d911bd103c8f87",
+  "slug": "clothing-28424251ab814f2085d911bd103c8f87",
+  "image": "https://lucero.com/",
+  "creationAt": "2026-08-13T02:12:33.000Z",
+  "updatedAt": "2026-08-13T02:12:33.000Z"
+} 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-08-13 02:12:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+true

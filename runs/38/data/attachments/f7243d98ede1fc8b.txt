@@ -1,0 +1,367 @@
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_8b6347a95e81453c81ec319e41e0e946",
+  "image": "http://meyer.com/"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1627,
+  "name": "Home & Kitchen_8b6347a95e81453c81ec319e41e0e946",
+  "slug": "home-kitchen-8b6347a95e81453c81ec319e41e0e946",
+  "image": "http://meyer.com/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Nameaaaaaaaaaa",
+    "slug": "updated-category-nameaaaaaaaaaa",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-19T06:03:22.000Z",
+    "updatedAt": "2026-08-19T20:08:48.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-08-19T06:03:22.000Z",
+    "updatedAt": "2026-08-19T06:03:22.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-08-19T06:03:22.000Z",
+    "updatedAt": "2026-08-19T06:03:22.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://api.escuelajs.co/api/v1/files/f10a1.jpg",
+    "creationAt": "2026-08-19T06:03:22.000Z",
+    "updatedAt": "2026-08-19T12:02:22.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-08-19T06:03:22.000Z",
+    "updatedAt": "2026-08-19T06:03:22.000Z"
+  },
+  {
+    "id": 425,
+    "name": "Hello",
+    "slug": "hello",
+    "image": "https://api.escuelajs.co/api/v1/files/3511.jpg",
+    "creationAt": "2026-08-19T13:04:17.000Z",
+    "updatedAt": "2026-08-19T13:04:17.000Z"
+  },
+  {
+    "id": 427,
+    "name": "Colour",
+    "slug": "colour",
+    "image": "https://api.escuelajs.co/api/v1/files/1766.jpg",
+    "creationAt": "2026-08-19T13:24:07.000Z",
+    "updatedAt": "2026-08-19T13:24:07.000Z"
+  },
+  {
+    "id": 428,
+    "name": "Test Category",
+    "slug": "test-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T13:32:33.000Z",
+    "updatedAt": "2026-08-19T13:32:33.000Z"
+  },
+  {
+    "id": 429,
+    "name": "Automation Category",
+    "slug": "automation-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T13:32:34.000Z",
+    "updatedAt": "2026-08-19T13:32:34.000Z"
+  },
+  {
+    "id": 488,
+    "name": "Test Category 1787147294184",
+    "slug": "test-category-1787147294184",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T13:48:14.000Z",
+    "updatedAt": "2026-08-19T13:48:14.000Z"
+  },
+  {
+    "id": 489,
+    "name": "Automation Category 1787147294569",
+    "slug": "automation-category-1787147294569",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T13:48:14.000Z",
+    "updatedAt": "2026-08-19T13:48:14.000Z"
+  },
+  {
+    "id": 490,
+    "name": "Test Category 1787148083826",
+    "slug": "test-category-1787148083826",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T14:01:24.000Z",
+    "updatedAt": "2026-08-19T14:01:24.000Z"
+  },
+  {
+    "id": 491,
+    "name": "Automation Category 1787148084262",
+    "slug": "automation-category-1787148084262",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T14:01:24.000Z",
+    "updatedAt": "2026-08-19T14:01:24.000Z"
+  },
+  {
+    "id": 493,
+    "name": "Test Category 1787148170108",
+    "slug": "test-category-1787148170108",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T14:02:50.000Z",
+    "updatedAt": "2026-08-19T14:02:50.000Z"
+  },
+  {
+    "id": 494,
+    "name": "Automation Category 1787148170843",
+    "slug": "automation-category-1787148170843",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T14:02:51.000Z",
+    "updatedAt": "2026-08-19T14:02:51.000Z"
+  },
+  {
+    "id": 496,
+    "name": "Test Category 1787148178970",
+    "slug": "test-category-1787148178970",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T14:02:59.000Z",
+    "updatedAt": "2026-08-19T14:02:59.000Z"
+  },
+  {
+    "id": 497,
+    "name": "Automation Category 1787148179598",
+    "slug": "automation-category-1787148179598",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T14:02:59.000Z",
+    "updatedAt": "2026-08-19T14:02:59.000Z"
+  },
+  {
+    "id": 557,
+    "name": "Rollout Smoke Inventory",
+    "slug": "rollout-smoke-inventory",
+    "image": "https://picsum.photos/seed/rollout-smoke/600/400",
+    "creationAt": "2026-08-19T15:17:16.000Z",
+    "updatedAt": "2026-08-19T15:17:16.000Z"
+  },
+  {
+    "id": 558,
+    "name": "Harbor Run AUG19X7K3",
+    "slug": "harbor-run-aug19x7k3",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T15:29:01.000Z",
+    "updatedAt": "2026-08-19T15:29:01.000Z"
+  },
+  {
+    "id": 559,
+    "name": "WMS-HOLD-abdecd0b",
+    "slug": "wms-hold-abdecd0b",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T15:29:09.000Z",
+    "updatedAt": "2026-08-19T15:29:09.000Z"
+  },
+  {
+    "id": 560,
+    "name": "Bicon Catalog qpmxnq",
+    "slug": "bicon-catalog-qpmxnq",
+    "image": "https://picsum.photos/seed/qpmxnq-cat/640/480",
+    "creationAt": "2026-08-19T15:29:56.000Z",
+    "updatedAt": "2026-08-19T15:29:56.000Z"
+  },
+  {
+    "id": 561,
+    "name": "Collected Analytics vccf9q7w2e",
+    "slug": "collected-analytics-vccf9q7w2e",
+    "image": "https://placehold.co/600x400?text=vccf9q7w2e",
+    "creationAt": "2026-08-19T15:32:53.000Z",
+    "updatedAt": "2026-08-19T15:32:53.000Z"
+  },
+  {
+    "id": 562,
+    "name": "Clearance Bin ERP-RUN-k3x7m9p2",
+    "slug": "clearance-bin-erp-run-k3x7m9p2",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-19T15:36:42.000Z",
+    "updatedAt": "2026-08-19T15:36:55.000Z"
+  },
+  {
+    "id": 621,
+    "name": "AYX-QW8K3T-PICKS",
+    "slug": "ayx-qw8k3t-picks",
+    "image": "https://picsum.photos/320",
+    "creationAt": "2026-08-19T15:47:42.000Z",
+    "updatedAt": "2026-08-19T15:47:42.000Z"
+  },
+  {
+    "id": 651,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-08-19T17:02:16.000Z",
+    "updatedAt": "2026-08-19T17:02:16.000Z"
+  },
+  {
+    "id": 653,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-19T18:01:20.000Z",
+    "updatedAt": "2026-08-19T18:01:20.000Z"
+  },
+  {
+    "id": 654,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-19T18:02:35.000Z",
+    "updatedAt": "2026-08-19T18:02:35.000Z"
+  },
+  {
+    "id": 780,
+    "name": "test category jangan dobel",
+    "slug": "test-category-jangan-dobel",
+    "image": "https://placeimg.com/640/480",
+    "creationAt": "2026-08-19T19:00:45.000Z",
+    "updatedAt": "2026-08-19T19:00:45.000Z"
+  },
+  {
+    "id": 928,
+    "name": "Clearance Bin ERP-RUN-kx9m2v7q",
+    "slug": "clearance-bin-erp-run-kx9m2v7q",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-19T19:25:08.000Z",
+    "updatedAt": "2026-08-19T19:25:26.000Z"
+  },
+  {
+    "id": 929,
+    "name": "Collected Analytics run-x9qk2m7p4wz",
+    "slug": "collected-analytics-run-x9qk2m7p4wz",
+    "image": "https://placehold.co/600x400?text=run-x9qk2m7p4wz-collection",
+    "creationAt": "2026-08-19T19:25:49.000Z",
+    "updatedAt": "2026-08-19T19:25:49.000Z"
+  },
+  {
+    "id": 1303,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-19T21:03:00.000Z",
+    "updatedAt": "2026-08-19T21:03:00.000Z"
+  },
+  {
+    "id": 1304,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-19T21:03:01.000Z",
+    "updatedAt": "2026-08-19T21:03:01.000Z"
+  },
+  {
+    "id": 1604,
+    "name": "Bicon Catalog f3k9z2",
+    "slug": "bicon-catalog-f3k9z2",
+    "image": "https://placehold.co/640x480.png",
+    "creationAt": "2026-08-19T23:21:25.000Z",
+    "updatedAt": "2026-08-19T23:21:25.000Z"
+  },
+  {
+    "id": 1605,
+    "name": "Clearance Bin ERP-RUN-k7qm2x9p",
+    "slug": "clearance-bin-erp-run-k7qm2x9p",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-08-19T23:30:05.000Z",
+    "updatedAt": "2026-08-19T23:30:16.000Z"
+  },
+  {
+    "id": 1618,
+    "name": "Cypress Category Second 1787187595279",
+    "slug": "cypress-category-second-1787187595279",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-20T00:59:55.000Z",
+    "updatedAt": "2026-08-20T00:59:55.000Z"
+  },
+  {
+    "id": 1620,
+    "name": "Cypress Category Second 1787188231692",
+    "slug": "cypress-category-second-1787188231692",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-20T01:10:32.000Z",
+    "updatedAt": "2026-08-20T01:10:32.000Z"
+  },
+  {
+    "id": 1622,
+    "name": "Cypress Category Second 1787188236599",
+    "slug": "cypress-category-second-1787188236599",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-20T01:10:37.000Z",
+    "updatedAt": "2026-08-20T01:10:37.000Z"
+  },
+  {
+    "id": 1625,
+    "name": "testCategory42a687f375ad4979ae0215a1f321fb2b",
+    "slug": "testcategory42a687f375ad4979ae0215a1f321fb2b",
+    "image": "https://www.rivera.net/",
+    "creationAt": "2026-08-20T01:23:23.000Z",
+    "updatedAt": "2026-08-20T01:23:23.000Z"
+  },
+  {
+    "id": 1626,
+    "name": "test Category3333a1929f23463c956cdeb7f2dc1d5e",
+    "slug": "test-category3333a1929f23463c956cdeb7f2dc1d5e",
+    "image": "https://randolph-wood.com/",
+    "creationAt": "2026-08-20T01:23:23.000Z",
+    "updatedAt": "2026-08-20T01:23:23.000Z"
+  },
+  {
+    "id": 1627,
+    "name": "Home & Kitchen_8b6347a95e81453c81ec319e41e0e946",
+    "slug": "home-kitchen-8b6347a95e81453c81ec319e41e0e946",
+    "image": "http://meyer.com/",
+    "creationAt": "2026-08-20T01:23:24.000Z",
+    "updatedAt": "2026-08-20T01:23:24.000Z"
+  }
+]
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1627
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1627 -> 200
+Body:
+{
+  "id": 1627,
+  "name": "Home & Kitchen_8b6347a95e81453c81ec319e41e0e946",
+  "slug": "home-kitchen-8b6347a95e81453c81ec319e41e0e946",
+  "image": "http://meyer.com/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1627
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1627 -> 200
+Body:
+true

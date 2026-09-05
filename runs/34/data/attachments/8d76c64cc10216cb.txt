@@ -1,0 +1,88 @@
+2026-08-16 01:34:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Michael Williams",
+  "email": "gfreeman@example.net",
+  "password": "***",
+  "avatar": "https://www.lyons.com/"
+} 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 58,
+  "email": "gfreeman@example.net",
+  "password": "***",
+  "name": "Michael Williams",
+  "role": "customer",
+  "avatar": "https://www.lyons.com/",
+  "creationAt": "2026-08-16T01:34:29.000Z",
+  "updatedAt": "2026-08-16T01:34:29.000Z"
+}
+2026-08-16 01:34:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "gfreeman@example.net",
+  "password": "***"
+} 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU4LCJpYXQiOjE3ODY4NDQwNjksImV4cCI6MTc4Njg4MDA2OX0.8MvafJJEDAB8aPUpImB-bQFFbGs6SIk-igQFagNiyIE"
+} 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 58,
+  "email": "gfreeman@example.net",
+  "password": "***",
+  "name": "Michael Williams",
+  "role": "customer",
+  "avatar": "https://www.lyons.com/",
+  "creationAt": "2026-08-16T01:34:29.000Z",
+  "updatedAt": "2026-08-16T01:34:29.000Z"
+}
+2026-08-16 01:34:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/58
+Body:
+<empty> 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/58 -> 200
+Body:
+{
+  "id": 58,
+  "email": "gfreeman@example.net",
+  "password": "***",
+  "name": "Michael Williams",
+  "role": "customer",
+  "avatar": "https://www.lyons.com/",
+  "creationAt": "2026-08-16T01:34:29.000Z",
+  "updatedAt": "2026-08-16T01:34:29.000Z"
+} 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/58
+Body:
+<empty> 
+
+2026-08-16 01:34:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/58 -> 200
+Body:
+true

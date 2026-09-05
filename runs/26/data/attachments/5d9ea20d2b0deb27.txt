@@ -1,0 +1,107 @@
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_1099faf84a5b4f54ad8123048efd2910",
+  "image": "https://williams.com/"
+} 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Food & Beverages_1099faf84a5b4f54ad8123048efd2910",
+  "slug": "food-beverages-1099faf84a5b4f54ad8123048efd2910",
+  "image": "https://williams.com/",
+  "creationAt": "2026-08-08T01:50:08.000Z",
+  "updatedAt": "2026-08-08T01:50:08.000Z"
+} 
+
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergized fresh-thinking array-47df377d11654695b8e7ceb1ed8ad7bd",
+  "price": 648,
+  "description": "Assimilated needs-based collaboration",
+  "categoryId": 19,
+  "images": [
+    "https://hutchinson.com/"
+  ]
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 59,
+  "title": "Synergized fresh-thinking array-47df377d11654695b8e7ceb1ed8ad7bd",
+  "slug": "synergized-fresh-thinking-array-47df377d11654695b8e7ceb1ed8ad7bd",
+  "price": 648,
+  "description": "Assimilated needs-based collaboration",
+  "category": {
+    "id": 19,
+    "name": "Food & Beverages_1099faf84a5b4f54ad8123048efd2910",
+    "slug": "food-beverages-1099faf84a5b4f54ad8123048efd2910",
+    "image": "https://williams.com/",
+    "creationAt": "2026-08-08T01:50:08.000Z",
+    "updatedAt": "2026-08-08T01:50:08.000Z"
+  },
+  "images": [
+    "https://hutchinson.com/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/59 -> 200
+Body:
+true 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/59 -> 400
+Body:
+{
+  "path": "/api/v1/products/59",
+  "timestamp": "2026-08-08T01:50:09.120Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 59\n    }\n}"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/59 -> 400
+Body:
+{
+  "path": "/api/v1/products/59",
+  "timestamp": "2026-08-08T01:50:09.152Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 59\n    }\n}"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Food & Beverages_1099faf84a5b4f54ad8123048efd2910",
+  "slug": "food-beverages-1099faf84a5b4f54ad8123048efd2910",
+  "image": "https://williams.com/",
+  "creationAt": "2026-08-08T01:50:08.000Z",
+  "updatedAt": "2026-08-08T01:50:08.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

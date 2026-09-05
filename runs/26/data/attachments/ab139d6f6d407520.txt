@@ -1,0 +1,88 @@
+2026-08-08 01:50:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Annette Garcia",
+  "email": "piercetim@example.net",
+  "password": "***",
+  "avatar": "https://fernandez.com/"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 4,
+  "email": "piercetim@example.net",
+  "password": "***",
+  "name": "Annette Garcia",
+  "role": "customer",
+  "avatar": "https://fernandez.com/",
+  "creationAt": "2026-08-08T01:50:06.000Z",
+  "updatedAt": "2026-08-08T01:50:06.000Z"
+}
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "piercetim@example.net",
+  "password": "***"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImlhdCI6MTc4NjE1MzgwNiwiZXhwIjoxNzg2MTg5ODA2fQ.GdNrDmFi2J_wQJupKNZnQKBmFv4oomcWUGyAqVDTeNc"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 4,
+  "email": "piercetim@example.net",
+  "password": "***",
+  "name": "Annette Garcia",
+  "role": "customer",
+  "avatar": "https://fernandez.com/",
+  "creationAt": "2026-08-08T01:50:06.000Z",
+  "updatedAt": "2026-08-08T01:50:06.000Z"
+}
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+{
+  "id": 4,
+  "email": "piercetim@example.net",
+  "password": "***",
+  "name": "Annette Garcia",
+  "role": "customer",
+  "avatar": "https://fernandez.com/",
+  "creationAt": "2026-08-08T01:50:06.000Z",
+  "updatedAt": "2026-08-08T01:50:06.000Z"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+true

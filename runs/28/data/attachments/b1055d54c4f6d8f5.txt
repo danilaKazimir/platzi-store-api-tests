@@ -1,0 +1,135 @@
+2026-08-10 02:02:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_48d22f51fecc4d85ac505d01f003a97b",
+  "image": "https://williams-powell.com/"
+} 
+
+2026-08-10 02:02:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 408,
+  "name": "Books_48d22f51fecc4d85ac505d01f003a97b",
+  "slug": "books-48d22f51fecc4d85ac505d01f003a97b",
+  "image": "https://williams-powell.com/",
+  "creationAt": "2026-08-10T02:02:12.000Z",
+  "updatedAt": "2026-08-10T02:02:12.000Z"
+} 
+
+2026-08-10 02:02:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Business-focused impactful infrastructure-a6f371b524f8422092d0194403a41b97",
+  "price": 609,
+  "description": "Ergonomic multi-state array",
+  "categoryId": 408,
+  "images": [
+    "https://www.ward.com/"
+  ]
+} 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 341,
+  "title": "Business-focused impactful infrastructure-a6f371b524f8422092d0194403a41b97",
+  "slug": "business-focused-impactful-infrastructure-a6f371b524f8422092d0194403a41b97",
+  "price": 609,
+  "description": "Ergonomic multi-state array",
+  "category": {
+    "id": 408,
+    "name": "Books_48d22f51fecc4d85ac505d01f003a97b",
+    "slug": "books-48d22f51fecc4d85ac505d01f003a97b",
+    "image": "https://williams-powell.com/",
+    "creationAt": "2026-08-10T02:02:12.000Z",
+    "updatedAt": "2026-08-10T02:02:12.000Z"
+  },
+  "images": [
+    "https://www.ward.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:13.000Z",
+  "updatedAt": "2026-08-10T02:02:13.000Z"
+}
+2026-08-10 02:02:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/341
+Body:
+<empty> 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/341 -> 200
+Body:
+{
+  "id": 341,
+  "title": "Business-focused impactful infrastructure-a6f371b524f8422092d0194403a41b97",
+  "slug": "business-focused-impactful-infrastructure-a6f371b524f8422092d0194403a41b97",
+  "price": 609,
+  "description": "Ergonomic multi-state array",
+  "category": {
+    "id": 408,
+    "name": "Books_48d22f51fecc4d85ac505d01f003a97b",
+    "slug": "books-48d22f51fecc4d85ac505d01f003a97b",
+    "image": "https://williams-powell.com/",
+    "creationAt": "2026-08-10T02:02:12.000Z",
+    "updatedAt": "2026-08-10T02:02:12.000Z"
+  },
+  "images": [
+    "https://www.ward.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:13.000Z",
+  "updatedAt": "2026-08-10T02:02:13.000Z"
+}
+2026-08-10 02:02:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/341
+Body:
+<empty> 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/341 -> 200
+Body:
+{
+  "id": 341,
+  "title": "Business-focused impactful infrastructure-a6f371b524f8422092d0194403a41b97",
+  "slug": "business-focused-impactful-infrastructure-a6f371b524f8422092d0194403a41b97",
+  "price": 609,
+  "description": "Ergonomic multi-state array",
+  "category": {
+    "id": 408,
+    "name": "Books_48d22f51fecc4d85ac505d01f003a97b",
+    "slug": "books-48d22f51fecc4d85ac505d01f003a97b",
+    "image": "https://williams-powell.com/",
+    "creationAt": "2026-08-10T02:02:12.000Z",
+    "updatedAt": "2026-08-10T02:02:12.000Z"
+  },
+  "images": [
+    "https://www.ward.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:13.000Z",
+  "updatedAt": "2026-08-10T02:02:13.000Z"
+} 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/341
+Body:
+<empty> 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/341 -> 200
+Body:
+true 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/408
+Body:
+<empty> 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/408 -> 200
+Body:
+{
+  "id": 408,
+  "name": "Books_48d22f51fecc4d85ac505d01f003a97b",
+  "slug": "books-48d22f51fecc4d85ac505d01f003a97b",
+  "image": "https://williams-powell.com/",
+  "creationAt": "2026-08-10T02:02:12.000Z",
+  "updatedAt": "2026-08-10T02:02:12.000Z"
+} 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/408
+Body:
+<empty> 
+
+2026-08-10 02:02:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/408 -> 200
+Body:
+true

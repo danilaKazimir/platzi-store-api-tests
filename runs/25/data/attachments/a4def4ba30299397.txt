@@ -1,0 +1,119 @@
+2026-08-07 02:48:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_43709894bd6240528b2faf3aec94e1ce",
+  "image": "https://www.hawkins.com/"
+} 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Food & Beverages_43709894bd6240528b2faf3aec94e1ce",
+  "slug": "food-beverages-43709894bd6240528b2faf3aec94e1ce",
+  "image": "https://www.hawkins.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+}
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-08-07T01:00:16.000Z",
+    "updatedAt": "2026-08-07T01:00:16.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Coba-Coba",
+    "slug": "coba-coba",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-07T01:11:30.000Z",
+    "updatedAt": "2026-08-07T01:11:30.000Z"
+  },
+  {
+    "id": 7,
+    "name": "testCategory2f309c1e50de4807bff8928b40565d4c",
+    "slug": "testcategory2f309c1e50de4807bff8928b40565d4c",
+    "image": "https://www.reed.net/",
+    "creationAt": "2026-08-07T02:48:12.000Z",
+    "updatedAt": "2026-08-07T02:48:12.000Z"
+  },
+  {
+    "id": 8,
+    "name": "test Category42ef1d54b8aa42ecb26a31603f455a4a",
+    "slug": "test-category42ef1d54b8aa42ecb26a31603f455a4a",
+    "image": "https://rodriguez-wells.info/",
+    "creationAt": "2026-08-07T02:48:12.000Z",
+    "updatedAt": "2026-08-07T02:48:12.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Food & Beverages_43709894bd6240528b2faf3aec94e1ce",
+    "slug": "food-beverages-43709894bd6240528b2faf3aec94e1ce",
+    "image": "https://www.hawkins.com/",
+    "creationAt": "2026-08-07T02:48:13.000Z",
+    "updatedAt": "2026-08-07T02:48:13.000Z"
+  }
+]
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Food & Beverages_43709894bd6240528b2faf3aec94e1ce",
+  "slug": "food-beverages-43709894bd6240528b2faf3aec94e1ce",
+  "image": "https://www.hawkins.com/",
+  "creationAt": "2026-08-07T02:48:13.000Z",
+  "updatedAt": "2026-08-07T02:48:13.000Z"
+} 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-08-07 02:48:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

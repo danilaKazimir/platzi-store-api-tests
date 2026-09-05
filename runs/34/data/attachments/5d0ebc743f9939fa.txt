@@ -1,0 +1,107 @@
+2026-08-16 01:34:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_ea324ff96bf448c3a8f0a620b2e49bbe",
+  "image": "https://pena.org/"
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2725,
+  "name": "Electronics_ea324ff96bf448c3a8f0a620b2e49bbe",
+  "slug": "electronics-ea324ff96bf448c3a8f0a620b2e49bbe",
+  "image": "https://pena.org/",
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable 3rdgeneration synergy-6dc13f8311054dcca136661d7054abe7",
+  "price": 929,
+  "description": "Advanced 24hour orchestration",
+  "categoryId": 2725,
+  "images": [
+    "https://macdonald.biz/"
+  ]
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1828,
+  "title": "Upgradable 3rdgeneration synergy-6dc13f8311054dcca136661d7054abe7",
+  "slug": "upgradable-3rdgeneration-synergy-6dc13f8311054dcca136661d7054abe7",
+  "price": 929,
+  "description": "Advanced 24hour orchestration",
+  "category": {
+    "id": 2725,
+    "name": "Electronics_ea324ff96bf448c3a8f0a620b2e49bbe",
+    "slug": "electronics-ea324ff96bf448c3a8f0a620b2e49bbe",
+    "image": "https://pena.org/",
+    "creationAt": "2026-08-16T01:34:32.000Z",
+    "updatedAt": "2026-08-16T01:34:32.000Z"
+  },
+  "images": [
+    "https://macdonald.biz/"
+  ],
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+}
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1828
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1828 -> 200
+Body:
+true 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1828
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1828 -> 400
+Body:
+{
+  "path": "/api/v1/products/1828",
+  "timestamp": "2026-08-16T01:34:32.444Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 1828\n    }\n}"
+}
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1828
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1828 -> 400
+Body:
+{
+  "path": "/api/v1/products/1828",
+  "timestamp": "2026-08-16T01:34:32.509Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 1828\n    }\n}"
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2725
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2725 -> 200
+Body:
+{
+  "id": 2725,
+  "name": "Electronics_ea324ff96bf448c3a8f0a620b2e49bbe",
+  "slug": "electronics-ea324ff96bf448c3a8f0a620b2e49bbe",
+  "image": "https://pena.org/",
+  "creationAt": "2026-08-16T01:34:32.000Z",
+  "updatedAt": "2026-08-16T01:34:32.000Z"
+} 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2725
+Body:
+<empty> 
+
+2026-08-16 01:34:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2725 -> 200
+Body:
+true

@@ -1,0 +1,15 @@
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Food & Beverages_4ed2a4ed401f4b5089bad1c3fcd12d86",
+  "image": "http://www.ferguson-garcia.com/"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-15T01:23:37.521Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

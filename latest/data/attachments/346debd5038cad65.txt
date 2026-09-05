@@ -1,0 +1,125 @@
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_aac11e6f95694a0ba337c67cb5696d10",
+  "image": "https://www.bush-boyd.biz/"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Electronics_aac11e6f95694a0ba337c67cb5696d10",
+  "slug": "electronics-aac11e6f95694a0ba337c67cb5696d10",
+  "image": "https://www.bush-boyd.biz/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory real-time monitoring-56499feaa50d42c48e27b77a97fee3e6",
+  "price": 429,
+  "description": "Versatile didactic database",
+  "categoryId": 32,
+  "images": [
+    "http://warren.org/"
+  ]
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 97,
+  "title": "Mandatory real-time monitoring-56499feaa50d42c48e27b77a97fee3e6",
+  "slug": "mandatory-real-time-monitoring-56499feaa50d42c48e27b77a97fee3e6",
+  "price": 429,
+  "description": "Versatile didactic database",
+  "category": {
+    "id": 32,
+    "name": "Electronics_aac11e6f95694a0ba337c67cb5696d10",
+    "slug": "electronics-aac11e6f95694a0ba337c67cb5696d10",
+    "image": "https://www.bush-boyd.biz/",
+    "creationAt": "2026-09-05T03:38:37.000Z",
+    "updatedAt": "2026-09-05T03:38:37.000Z"
+  },
+  "images": [
+    "http://warren.org/"
+  ],
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+}
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/97
+Body:
+{
+  "title": "Digitized motivating synergy-f95692e84e574043a098bb0e524ecfd6",
+  "price": 854,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/97 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-05 03:38:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/97
+Body:
+<empty> 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/97 -> 200
+Body:
+{
+  "id": 97,
+  "title": "Mandatory real-time monitoring-56499feaa50d42c48e27b77a97fee3e6",
+  "slug": "mandatory-real-time-monitoring-56499feaa50d42c48e27b77a97fee3e6",
+  "price": 429,
+  "description": "Versatile didactic database",
+  "category": {
+    "id": 32,
+    "name": "Electronics_aac11e6f95694a0ba337c67cb5696d10",
+    "slug": "electronics-aac11e6f95694a0ba337c67cb5696d10",
+    "image": "https://www.bush-boyd.biz/",
+    "creationAt": "2026-09-05T03:38:37.000Z",
+    "updatedAt": "2026-09-05T03:38:37.000Z"
+  },
+  "images": [
+    "http://warren.org/"
+  ],
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/97
+Body:
+<empty> 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/97 -> 200
+Body:
+true 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Electronics_aac11e6f95694a0ba337c67cb5696d10",
+  "slug": "electronics-aac11e6f95694a0ba337c67cb5696d10",
+  "image": "https://www.bush-boyd.biz/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-05 03:38:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+true

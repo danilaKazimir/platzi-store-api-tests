@@ -1,0 +1,107 @@
+2026-08-22 01:22:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_8d1586806f2043d5b8896b357b31559f",
+  "image": "http://www.evans.com/"
+} 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 734,
+  "name": "Sports & Fitness_8d1586806f2043d5b8896b357b31559f",
+  "slug": "sports-fitness-8d1586806f2043d5b8896b357b31559f",
+  "image": "http://www.evans.com/",
+  "creationAt": "2026-08-22T01:23:00.000Z",
+  "updatedAt": "2026-08-22T01:23:00.000Z"
+} 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-platform leadingedge complexity-e7f9b6e328c64f3c9ae96c7cdfc49c0e",
+  "price": 172,
+  "description": "Visionary radical throughput",
+  "categoryId": 734,
+  "images": [
+    "https://www.rodriguez.org/"
+  ]
+} 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 657,
+  "title": "Cross-platform leadingedge complexity-e7f9b6e328c64f3c9ae96c7cdfc49c0e",
+  "slug": "cross-platform-leadingedge-complexity-e7f9b6e328c64f3c9ae96c7cdfc49c0e",
+  "price": 172,
+  "description": "Visionary radical throughput",
+  "category": {
+    "id": 734,
+    "name": "Sports & Fitness_8d1586806f2043d5b8896b357b31559f",
+    "slug": "sports-fitness-8d1586806f2043d5b8896b357b31559f",
+    "image": "http://www.evans.com/",
+    "creationAt": "2026-08-22T01:23:00.000Z",
+    "updatedAt": "2026-08-22T01:23:00.000Z"
+  },
+  "images": [
+    "https://www.rodriguez.org/"
+  ],
+  "creationAt": "2026-08-22T01:23:00.000Z",
+  "updatedAt": "2026-08-22T01:23:00.000Z"
+}
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/657
+Body:
+<empty> 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/657 -> 200
+Body:
+true 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/657
+Body:
+<empty> 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/657 -> 400
+Body:
+{
+  "path": "/api/v1/products/657",
+  "timestamp": "2026-08-22T01:23:00.401Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 657\n    }\n}"
+}
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/657
+Body:
+<empty> 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/657 -> 400
+Body:
+{
+  "path": "/api/v1/products/657",
+  "timestamp": "2026-08-22T01:23:00.463Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 657\n    }\n}"
+} 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/734
+Body:
+<empty> 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/734 -> 200
+Body:
+{
+  "id": 734,
+  "name": "Sports & Fitness_8d1586806f2043d5b8896b357b31559f",
+  "slug": "sports-fitness-8d1586806f2043d5b8896b357b31559f",
+  "image": "http://www.evans.com/",
+  "creationAt": "2026-08-22T01:23:00.000Z",
+  "updatedAt": "2026-08-22T01:23:00.000Z"
+} 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/734
+Body:
+<empty> 
+
+2026-08-22 01:23:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/734 -> 200
+Body:
+true

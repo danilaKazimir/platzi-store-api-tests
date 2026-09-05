@@ -1,0 +1,12 @@
+2026-08-27 08:18:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/___invalid___
+Body:
+<empty> 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/___invalid___ -> 400
+Body:
+{
+  "path": "/api/v1/categories/slug/___invalid___",
+  "timestamp": "2026-08-27T08:18:46.992Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"where\": {\n        \"slug\": \"___invalid___\"\n    }\n}"
+}

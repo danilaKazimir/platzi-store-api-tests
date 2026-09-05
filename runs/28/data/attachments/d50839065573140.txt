@@ -1,0 +1,71 @@
+2026-08-10 02:02:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_90caf7e5e68041fcbf8a85f75876c8d7",
+  "image": "https://christian.com/"
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 403,
+  "name": "Pet Supplies_90caf7e5e68041fcbf8a85f75876c8d7",
+  "slug": "pet-supplies-90caf7e5e68041fcbf8a85f75876c8d7",
+  "image": "https://christian.com/",
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+}
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/403
+Body:
+{
+  "name": "Electronics_72e98ef15baa4ad6b5e327d5d973e18d",
+  "image": "http://www.rodriguez-porter.com/"
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/403 -> 200
+Body:
+{
+  "id": 403,
+  "name": "Electronics_72e98ef15baa4ad6b5e327d5d973e18d",
+  "slug": "electronics-72e98ef15baa4ad6b5e327d5d973e18d",
+  "image": "http://www.rodriguez-porter.com/",
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/403
+Body:
+<empty> 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/403 -> 200
+Body:
+{
+  "id": 403,
+  "name": "Electronics_72e98ef15baa4ad6b5e327d5d973e18d",
+  "slug": "electronics-72e98ef15baa4ad6b5e327d5d973e18d",
+  "image": "http://www.rodriguez-porter.com/",
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+}
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/403
+Body:
+<empty> 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/403 -> 200
+Body:
+{
+  "id": 403,
+  "name": "Electronics_72e98ef15baa4ad6b5e327d5d973e18d",
+  "slug": "electronics-72e98ef15baa4ad6b5e327d5d973e18d",
+  "image": "http://www.rodriguez-porter.com/",
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/403
+Body:
+<empty> 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/403 -> 200
+Body:
+true

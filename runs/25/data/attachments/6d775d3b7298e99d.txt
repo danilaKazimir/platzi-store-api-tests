@@ -1,0 +1,135 @@
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_3e00522e43da447c8c838a7a58304121",
+  "image": "http://www.martin.com/"
+} 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Electronics_3e00522e43da447c8c838a7a58304121",
+  "slug": "electronics-3e00522e43da447c8c838a7a58304121",
+  "image": "http://www.martin.com/",
+  "creationAt": "2026-08-07T02:48:15.000Z",
+  "updatedAt": "2026-08-07T02:48:15.000Z"
+} 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive web-enabled challenge-090e6b8360e04c999281c59a029c049f",
+  "price": 794,
+  "description": "Business-focused hybrid archive",
+  "categoryId": 21,
+  "images": [
+    "http://rogers.com/"
+  ]
+} 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 62,
+  "title": "Reactive web-enabled challenge-090e6b8360e04c999281c59a029c049f",
+  "slug": "reactive-web-enabled-challenge-090e6b8360e04c999281c59a029c049f",
+  "price": 794,
+  "description": "Business-focused hybrid archive",
+  "category": {
+    "id": 21,
+    "name": "Electronics_3e00522e43da447c8c838a7a58304121",
+    "slug": "electronics-3e00522e43da447c8c838a7a58304121",
+    "image": "http://www.martin.com/",
+    "creationAt": "2026-08-07T02:48:15.000Z",
+    "updatedAt": "2026-08-07T02:48:15.000Z"
+  },
+  "images": [
+    "http://rogers.com/"
+  ],
+  "creationAt": "2026-08-07T02:48:15.000Z",
+  "updatedAt": "2026-08-07T02:48:15.000Z"
+}
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/reactive-web-enabled-challenge-090e6b8360e04c999281c59a029c049f
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/reactive-web-enabled-challenge-090e6b8360e04c999281c59a029c049f -> 200
+Body:
+{
+  "id": 62,
+  "title": "Reactive web-enabled challenge-090e6b8360e04c999281c59a029c049f",
+  "slug": "reactive-web-enabled-challenge-090e6b8360e04c999281c59a029c049f",
+  "price": 794,
+  "description": "Business-focused hybrid archive",
+  "category": {
+    "id": 21,
+    "name": "Electronics_3e00522e43da447c8c838a7a58304121",
+    "slug": "electronics-3e00522e43da447c8c838a7a58304121",
+    "image": "http://www.martin.com/",
+    "creationAt": "2026-08-07T02:48:15.000Z",
+    "updatedAt": "2026-08-07T02:48:15.000Z"
+  },
+  "images": [
+    "http://rogers.com/"
+  ],
+  "creationAt": "2026-08-07T02:48:15.000Z",
+  "updatedAt": "2026-08-07T02:48:15.000Z"
+}
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+{
+  "id": 62,
+  "title": "Reactive web-enabled challenge-090e6b8360e04c999281c59a029c049f",
+  "slug": "reactive-web-enabled-challenge-090e6b8360e04c999281c59a029c049f",
+  "price": 794,
+  "description": "Business-focused hybrid archive",
+  "category": {
+    "id": 21,
+    "name": "Electronics_3e00522e43da447c8c838a7a58304121",
+    "slug": "electronics-3e00522e43da447c8c838a7a58304121",
+    "image": "http://www.martin.com/",
+    "creationAt": "2026-08-07T02:48:15.000Z",
+    "updatedAt": "2026-08-07T02:48:15.000Z"
+  },
+  "images": [
+    "http://rogers.com/"
+  ],
+  "creationAt": "2026-08-07T02:48:15.000Z",
+  "updatedAt": "2026-08-07T02:48:15.000Z"
+} 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+true 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Electronics_3e00522e43da447c8c838a7a58304121",
+  "slug": "electronics-3e00522e43da447c8c838a7a58304121",
+  "image": "http://www.martin.com/",
+  "creationAt": "2026-08-07T02:48:15.000Z",
+  "updatedAt": "2026-08-07T02:48:15.000Z"
+} 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true

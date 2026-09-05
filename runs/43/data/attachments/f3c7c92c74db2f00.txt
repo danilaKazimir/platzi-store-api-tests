@@ -1,0 +1,79 @@
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_ad3f88f8e818493aa58528ed75fe9d1d",
+  "image": "https://www.perkins-jackson.net/"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 125,
+  "name": "Automotive Accessories_ad3f88f8e818493aa58528ed75fe9d1d",
+  "slug": "automotive-accessories-ad3f88f8e818493aa58528ed75fe9d1d",
+  "image": "https://www.perkins-jackson.net/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Realigned static encryption-06f7259477ee40f2ba8cbd8ad16485d2",
+  "price": 207,
+  "description": "Function-based user-facing groupware",
+  "categoryId": 125,
+  "images": [
+    "https://jones.com/"
+  ]
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 2824,
+  "title": "Realigned static encryption-06f7259477ee40f2ba8cbd8ad16485d2",
+  "slug": "realigned-static-encryption-06f7259477ee40f2ba8cbd8ad16485d2",
+  "price": 207,
+  "description": "Function-based user-facing groupware",
+  "category": {
+    "id": 125,
+    "name": "Automotive Accessories_ad3f88f8e818493aa58528ed75fe9d1d",
+    "slug": "automotive-accessories-ad3f88f8e818493aa58528ed75fe9d1d",
+    "image": "https://www.perkins-jackson.net/",
+    "creationAt": "2026-08-25T01:24:11.000Z",
+    "updatedAt": "2026-08-25T01:24:11.000Z"
+  },
+  "images": [
+    "https://jones.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/125
+Body:
+<empty> 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/125 -> 200
+Body:
+{
+  "id": 125,
+  "name": "Automotive Accessories_ad3f88f8e818493aa58528ed75fe9d1d",
+  "slug": "automotive-accessories-ad3f88f8e818493aa58528ed75fe9d1d",
+  "image": "https://www.perkins-jackson.net/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+} 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/125
+Body:
+<empty> 
+
+2026-08-25 01:24:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/125 -> 400
+Body:
+{
+  "path": "/api/v1/categories/125",
+  "timestamp": "2026-08-25T01:24:12.128Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

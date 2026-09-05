@@ -1,0 +1,687 @@
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_dc98f100a7fd4a06821c51807425d8bd",
+  "image": "https://shaw-henderson.biz/"
+} 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 147,
+  "name": "Clothing_dc98f100a7fd4a06821c51807425d8bd",
+  "slug": "clothing-dc98f100a7fd4a06821c51807425d8bd",
+  "image": "https://shaw-henderson.biz/",
+  "creationAt": "2026-08-26T01:28:04.000Z",
+  "updatedAt": "2026-08-26T01:28:04.000Z"
+}
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T18:03:29.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T06:45:21.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Love is light",
+    "slug": "love-is-light",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T23:08:46.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T06:45:21.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-08-25T06:45:21.000Z",
+    "updatedAt": "2026-08-25T06:45:21.000Z"
+  },
+  {
+    "id": 10,
+    "name": "test category",
+    "slug": "test-category",
+    "image": "https://api.escuelajs.co/api/v1/files/ed13.jpeg",
+    "creationAt": "2026-08-25T10:20:06.000Z",
+    "updatedAt": "2026-08-25T10:20:06.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Computer Category",
+    "slug": "computer-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T11:00:15.000Z",
+    "updatedAt": "2026-08-25T11:00:15.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Updated Category",
+    "slug": "updated-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T15:00:14.000Z",
+    "updatedAt": "2026-08-25T18:01:15.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T17:00:44.000Z",
+    "updatedAt": "2026-08-25T17:00:44.000Z"
+  },
+  {
+    "id": 15,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-08-25T17:03:22.000Z",
+    "updatedAt": "2026-08-25T17:03:22.000Z"
+  },
+  {
+    "id": 45,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T18:02:22.000Z",
+    "updatedAt": "2026-08-25T18:02:22.000Z"
+  },
+  {
+    "id": 46,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T18:03:28.000Z",
+    "updatedAt": "2026-08-25T18:03:28.000Z"
+  },
+  {
+    "id": 47,
+    "name": "test category jangan dobel",
+    "slug": "test-category-jangan-dobel",
+    "image": "https://placeimg.com/640/480",
+    "creationAt": "2026-08-25T19:00:47.000Z",
+    "updatedAt": "2026-08-25T19:00:47.000Z"
+  },
+  {
+    "id": 48,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T19:02:28.000Z",
+    "updatedAt": "2026-08-25T19:02:28.000Z"
+  },
+  {
+    "id": 49,
+    "name": "New name category",
+    "slug": "new-name-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T20:45:02.000Z",
+    "updatedAt": "2026-08-25T20:47:40.000Z"
+  },
+  {
+    "id": 50,
+    "name": "Newest Category",
+    "slug": "newest-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-25T20:52:10.000Z",
+    "updatedAt": "2026-08-25T20:52:10.000Z"
+  },
+  {
+    "id": 51,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-25T21:04:01.000Z",
+    "updatedAt": "2026-08-25T21:04:01.000Z"
+  },
+  {
+    "id": 52,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-25T21:04:14.000Z",
+    "updatedAt": "2026-08-25T21:04:14.000Z"
+  },
+  {
+    "id": 53,
+    "name": "Categoria QA 113b2fbc",
+    "slug": "categoria-qa-113b2fbc",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:19:07.000Z",
+    "updatedAt": "2026-08-25T22:19:07.000Z"
+  },
+  {
+    "id": 55,
+    "name": "Categoria QA 95e40948",
+    "slug": "categoria-qa-95e40948",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:21:29.000Z",
+    "updatedAt": "2026-08-25T22:21:29.000Z"
+  },
+  {
+    "id": 56,
+    "name": "Categoria QA actualizada b8724f77",
+    "slug": "categoria-qa-actualizada-b8724f77",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:21:30.000Z",
+    "updatedAt": "2026-08-25T22:21:31.000Z"
+  },
+  {
+    "id": 58,
+    "name": "Categoria QA 3cebca60",
+    "slug": "categoria-qa-3cebca60",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:23:09.000Z",
+    "updatedAt": "2026-08-25T22:23:09.000Z"
+  },
+  {
+    "id": 59,
+    "name": "Categoria QA actualizada f2b6cb0b",
+    "slug": "categoria-qa-actualizada-f2b6cb0b",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:23:10.000Z",
+    "updatedAt": "2026-08-25T22:23:10.000Z"
+  },
+  {
+    "id": 61,
+    "name": "Categoria QA 694a38a3",
+    "slug": "categoria-qa-694a38a3",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:24:33.000Z",
+    "updatedAt": "2026-08-25T22:24:33.000Z"
+  },
+  {
+    "id": 62,
+    "name": "Categoria QA actualizada b70b7e79",
+    "slug": "categoria-qa-actualizada-b70b7e79",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:24:34.000Z",
+    "updatedAt": "2026-08-25T22:24:34.000Z"
+  },
+  {
+    "id": 64,
+    "name": "Categoria QA 33e35f0e",
+    "slug": "categoria-qa-33e35f0e",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:26:19.000Z",
+    "updatedAt": "2026-08-25T22:26:19.000Z"
+  },
+  {
+    "id": 65,
+    "name": "Categoria QA actualizada 8314e9ff",
+    "slug": "categoria-qa-actualizada-8314e9ff",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:26:20.000Z",
+    "updatedAt": "2026-08-25T22:26:20.000Z"
+  },
+  {
+    "id": 67,
+    "name": "Categoria QA 356684fa",
+    "slug": "categoria-qa-356684fa",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:27:07.000Z",
+    "updatedAt": "2026-08-25T22:27:07.000Z"
+  },
+  {
+    "id": 68,
+    "name": "Categoria QA actualizada 1019aab8",
+    "slug": "categoria-qa-actualizada-1019aab8",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:27:08.000Z",
+    "updatedAt": "2026-08-25T22:27:09.000Z"
+  },
+  {
+    "id": 70,
+    "name": "Categoria QA 5407eb11",
+    "slug": "categoria-qa-5407eb11",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:35:05.000Z",
+    "updatedAt": "2026-08-25T22:35:05.000Z"
+  },
+  {
+    "id": 71,
+    "name": "Categoria QA actualizada bf945d52",
+    "slug": "categoria-qa-actualizada-bf945d52",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:35:07.000Z",
+    "updatedAt": "2026-08-25T22:35:07.000Z"
+  },
+  {
+    "id": 73,
+    "name": "Categoria QA 6c9fe5ce",
+    "slug": "categoria-qa-6c9fe5ce",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:39:07.000Z",
+    "updatedAt": "2026-08-25T22:39:07.000Z"
+  },
+  {
+    "id": 74,
+    "name": "Categoria QA actualizada f8ffb8e6",
+    "slug": "categoria-qa-actualizada-f8ffb8e6",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-25T22:39:08.000Z",
+    "updatedAt": "2026-08-25T22:39:09.000Z"
+  },
+  {
+    "id": 86,
+    "name": "Categoria QA f27f2c44",
+    "slug": "categoria-qa-f27f2c44",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:13.000Z",
+    "updatedAt": "2026-08-26T00:41:13.000Z"
+  },
+  {
+    "id": 87,
+    "name": "Categoria QA actualizada 1d0d6bac",
+    "slug": "categoria-qa-actualizada-1d0d6bac",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:14.000Z",
+    "updatedAt": "2026-08-26T00:41:16.000Z"
+  },
+  {
+    "id": 88,
+    "name": "Categoria QA id protegido 9becf139",
+    "slug": "categoria-qa-id-protegido-9becf139",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:17.000Z",
+    "updatedAt": "2026-08-26T00:41:18.000Z"
+  },
+  {
+    "id": 89,
+    "name": "Categoria QA 29e00975",
+    "slug": "categoria-qa-29e00975",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:18.000Z",
+    "updatedAt": "2026-08-26T00:41:18.000Z"
+  },
+  {
+    "id": 90,
+    "name": "Categoria QA a8da3f1a",
+    "slug": "categoria-qa-a8da3f1a",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:41:19.000Z",
+    "updatedAt": "2026-08-26T00:41:19.000Z"
+  },
+  {
+    "id": 92,
+    "name": "Categoria QA 1a3b3645",
+    "slug": "categoria-qa-1a3b3645",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:34.000Z",
+    "updatedAt": "2026-08-26T00:42:34.000Z"
+  },
+  {
+    "id": 93,
+    "name": "Categoria QA actualizada 92bd8316",
+    "slug": "categoria-qa-actualizada-92bd8316",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:35.000Z",
+    "updatedAt": "2026-08-26T00:42:36.000Z"
+  },
+  {
+    "id": 94,
+    "name": "Categoria QA id protegido b58d2ccd",
+    "slug": "categoria-qa-id-protegido-b58d2ccd",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:36.000Z",
+    "updatedAt": "2026-08-26T00:42:37.000Z"
+  },
+  {
+    "id": 95,
+    "name": "123",
+    "slug": "123",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:37.000Z",
+    "updatedAt": "2026-08-26T00:42:37.000Z"
+  },
+  {
+    "id": 96,
+    "name": "Categoria QA b2544fc5",
+    "slug": "categoria-qa-b2544fc5",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:42:38.000Z",
+    "updatedAt": "2026-08-26T00:42:38.000Z"
+  },
+  {
+    "id": 98,
+    "name": "Categoria QA 86f9fc21",
+    "slug": "categoria-qa-86f9fc21",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:43:50.000Z",
+    "updatedAt": "2026-08-26T00:43:50.000Z"
+  },
+  {
+    "id": 99,
+    "name": "Categoria QA actualizada 46054a01",
+    "slug": "categoria-qa-actualizada-46054a01",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:43:51.000Z",
+    "updatedAt": "2026-08-26T00:43:52.000Z"
+  },
+  {
+    "id": 100,
+    "name": "Categoria QA id protegido d86f42ec",
+    "slug": "categoria-qa-id-protegido-d86f42ec",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:43:52.000Z",
+    "updatedAt": "2026-08-26T00:43:53.000Z"
+  },
+  {
+    "id": 101,
+    "name": "Categoria QA 415ae8c1",
+    "slug": "categoria-qa-415ae8c1",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:43:53.000Z",
+    "updatedAt": "2026-08-26T00:43:53.000Z"
+  },
+  {
+    "id": 103,
+    "name": "Categoria QA a6400c99",
+    "slug": "categoria-qa-a6400c99",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:31.000Z",
+    "updatedAt": "2026-08-26T00:44:31.000Z"
+  },
+  {
+    "id": 104,
+    "name": "Categoria QA actualizada c6de2390",
+    "slug": "categoria-qa-actualizada-c6de2390",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:32.000Z",
+    "updatedAt": "2026-08-26T00:44:32.000Z"
+  },
+  {
+    "id": 105,
+    "name": "Categoria QA id protegido 3576ece1",
+    "slug": "categoria-qa-id-protegido-3576ece1",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:33.000Z",
+    "updatedAt": "2026-08-26T00:44:33.000Z"
+  },
+  {
+    "id": 106,
+    "name": "Categoria QA parcial 21af29b2",
+    "slug": "categoria-qa-parcial-21af29b2",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T00:44:34.000Z",
+    "updatedAt": "2026-08-26T00:44:34.000Z"
+  },
+  {
+    "id": 110,
+    "name": "Categoria QA 3aca4cd5",
+    "slug": "categoria-qa-3aca4cd5",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:11:52.000Z",
+    "updatedAt": "2026-08-26T01:11:52.000Z"
+  },
+  {
+    "id": 111,
+    "name": "Categoria QA slug a29781aa",
+    "slug": "categoria-qa-slug-a29781aa",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:11:53.000Z",
+    "updatedAt": "2026-08-26T01:11:53.000Z"
+  },
+  {
+    "id": 112,
+    "name": "Categoria QA consulta 6bb58530",
+    "slug": "categoria-qa-consulta-6bb58530",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:11:53.000Z",
+    "updatedAt": "2026-08-26T01:11:53.000Z"
+  },
+  {
+    "id": 113,
+    "name": "Categoria QA actualizada 0e5cf086",
+    "slug": "categoria-qa-actualizada-0e5cf086",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:11:54.000Z",
+    "updatedAt": "2026-08-26T01:11:55.000Z"
+  },
+  {
+    "id": 114,
+    "name": "Categoria QA id protegido bcb22818",
+    "slug": "categoria-qa-id-protegido-bcb22818",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:11:56.000Z",
+    "updatedAt": "2026-08-26T01:11:56.000Z"
+  },
+  {
+    "id": 115,
+    "name": "Categoria QA parcial 3602640b",
+    "slug": "categoria-qa-parcial-3602640b",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:11:57.000Z",
+    "updatedAt": "2026-08-26T01:11:57.000Z"
+  },
+  {
+    "id": 119,
+    "name": "Categoria QA b8bf8284",
+    "slug": "categoria-qa-b8bf8284",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:47.000Z",
+    "updatedAt": "2026-08-26T01:12:47.000Z"
+  },
+  {
+    "id": 120,
+    "name": "Categoria QA slug 46563801",
+    "slug": "categoria-qa-slug-46563801",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:48.000Z",
+    "updatedAt": "2026-08-26T01:12:48.000Z"
+  },
+  {
+    "id": 121,
+    "name": "Categoria QA consulta f6b82935",
+    "slug": "categoria-qa-consulta-f6b82935",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:48.000Z",
+    "updatedAt": "2026-08-26T01:12:48.000Z"
+  },
+  {
+    "id": 122,
+    "name": "Categoria QA actualizada e750f9d6",
+    "slug": "categoria-qa-actualizada-e750f9d6",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:49.000Z",
+    "updatedAt": "2026-08-26T01:12:50.000Z"
+  },
+  {
+    "id": 123,
+    "name": "Categoria QA id protegido 5bc97c4b",
+    "slug": "categoria-qa-id-protegido-5bc97c4b",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:51.000Z",
+    "updatedAt": "2026-08-26T01:12:51.000Z"
+  },
+  {
+    "id": 124,
+    "name": "Categoria QA parcial 35469134",
+    "slug": "categoria-qa-parcial-35469134",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:12:51.000Z",
+    "updatedAt": "2026-08-26T01:12:52.000Z"
+  },
+  {
+    "id": 128,
+    "name": "Categoria QA 28f5f88a",
+    "slug": "categoria-qa-28f5f88a",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:45.000Z",
+    "updatedAt": "2026-08-26T01:14:45.000Z"
+  },
+  {
+    "id": 129,
+    "name": "Categoria QA 3f1fa0ce",
+    "slug": "categoria-qa-3f1fa0ce",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:45.000Z",
+    "updatedAt": "2026-08-26T01:14:45.000Z"
+  },
+  {
+    "id": 130,
+    "name": "Categoria QA slug 39bb05d1",
+    "slug": "categoria-qa-slug-39bb05d1",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:46.000Z",
+    "updatedAt": "2026-08-26T01:14:46.000Z"
+  },
+  {
+    "id": 131,
+    "name": "Categoria QA consulta 536f582c",
+    "slug": "categoria-qa-consulta-536f582c",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:47.000Z",
+    "updatedAt": "2026-08-26T01:14:47.000Z"
+  },
+  {
+    "id": 132,
+    "name": "Categoria QA actualizada 1e553ae5",
+    "slug": "categoria-qa-actualizada-1e553ae5",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:47.000Z",
+    "updatedAt": "2026-08-26T01:14:48.000Z"
+  },
+  {
+    "id": 133,
+    "name": "Categoria QA id protegido f90cb44d",
+    "slug": "categoria-qa-id-protegido-f90cb44d",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:49.000Z",
+    "updatedAt": "2026-08-26T01:14:49.000Z"
+  },
+  {
+    "id": 134,
+    "name": "Categoria QA parcial 773ada4a",
+    "slug": "categoria-qa-parcial-773ada4a",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:14:49.000Z",
+    "updatedAt": "2026-08-26T01:14:50.000Z"
+  },
+  {
+    "id": 138,
+    "name": "Categoria QA 3faef450",
+    "slug": "categoria-qa-3faef450",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:42.000Z",
+    "updatedAt": "2026-08-26T01:24:42.000Z"
+  },
+  {
+    "id": 139,
+    "name": "Categoria QA 3b08922f",
+    "slug": "categoria-qa-3b08922f",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:42.000Z",
+    "updatedAt": "2026-08-26T01:24:42.000Z"
+  },
+  {
+    "id": 140,
+    "name": "Categoria QA slug db51c93e",
+    "slug": "categoria-qa-slug-db51c93e",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:44.000Z",
+    "updatedAt": "2026-08-26T01:24:44.000Z"
+  },
+  {
+    "id": 141,
+    "name": "Categoria QA consulta 16feaa55",
+    "slug": "categoria-qa-consulta-16feaa55",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:44.000Z",
+    "updatedAt": "2026-08-26T01:24:44.000Z"
+  },
+  {
+    "id": 142,
+    "name": "Categoria QA actualizada d6a5add4",
+    "slug": "categoria-qa-actualizada-d6a5add4",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:45.000Z",
+    "updatedAt": "2026-08-26T01:24:45.000Z"
+  },
+  {
+    "id": 143,
+    "name": "Categoria QA id protegido bf91e64f",
+    "slug": "categoria-qa-id-protegido-bf91e64f",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:46.000Z",
+    "updatedAt": "2026-08-26T01:24:46.000Z"
+  },
+  {
+    "id": 144,
+    "name": "Categoria QA parcial eb8f4ce0",
+    "slug": "categoria-qa-parcial-eb8f4ce0",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-26T01:24:47.000Z",
+    "updatedAt": "2026-08-26T01:24:47.000Z"
+  },
+  {
+    "id": 145,
+    "name": "testCategory514a7efaff0b4c56a2b2f00935e3744e",
+    "slug": "testcategory514a7efaff0b4c56a2b2f00935e3744e",
+    "image": "http://manning.com/",
+    "creationAt": "2026-08-26T01:28:04.000Z",
+    "updatedAt": "2026-08-26T01:28:04.000Z"
+  },
+  {
+    "id": 146,
+    "name": "test Categoryd79e5535c7da4d94ab83747bcfa06443",
+    "slug": "test-categoryd79e5535c7da4d94ab83747bcfa06443",
+    "image": "http://hoover.org/",
+    "creationAt": "2026-08-26T01:28:04.000Z",
+    "updatedAt": "2026-08-26T01:28:04.000Z"
+  },
+  {
+    "id": 147,
+    "name": "Clothing_dc98f100a7fd4a06821c51807425d8bd",
+    "slug": "clothing-dc98f100a7fd4a06821c51807425d8bd",
+    "image": "https://shaw-henderson.biz/",
+    "creationAt": "2026-08-26T01:28:04.000Z",
+    "updatedAt": "2026-08-26T01:28:04.000Z"
+  }
+]
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/147
+Body:
+<empty> 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/147 -> 200
+Body:
+{
+  "id": 147,
+  "name": "Clothing_dc98f100a7fd4a06821c51807425d8bd",
+  "slug": "clothing-dc98f100a7fd4a06821c51807425d8bd",
+  "image": "https://shaw-henderson.biz/",
+  "creationAt": "2026-08-26T01:28:04.000Z",
+  "updatedAt": "2026-08-26T01:28:04.000Z"
+} 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/147
+Body:
+<empty> 
+
+2026-08-26 01:28:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/147 -> 200
+Body:
+true

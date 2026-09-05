@@ -1,0 +1,135 @@
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_6fdaa81f1e9d4c4fb701117962329570",
+  "image": "http://www.preston.net/"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 92,
+  "name": "Toys_6fdaa81f1e9d4c4fb701117962329570",
+  "slug": "toys-6fdaa81f1e9d4c4fb701117962329570",
+  "image": "http://www.preston.net/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive discrete hardware-f0620012d60743f69b84c612d6d9a748",
+  "price": 340,
+  "description": "Realigned attitude-oriented firmware",
+  "categoryId": 92,
+  "images": [
+    "https://hayes.info/"
+  ]
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 350,
+  "title": "Progressive discrete hardware-f0620012d60743f69b84c612d6d9a748",
+  "slug": "progressive-discrete-hardware-f0620012d60743f69b84c612d6d9a748",
+  "price": 340,
+  "description": "Realigned attitude-oriented firmware",
+  "category": {
+    "id": 92,
+    "name": "Toys_6fdaa81f1e9d4c4fb701117962329570",
+    "slug": "toys-6fdaa81f1e9d4c4fb701117962329570",
+    "image": "http://www.preston.net/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "https://hayes.info/"
+  ],
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+}
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/350
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/350 -> 200
+Body:
+{
+  "id": 350,
+  "title": "Progressive discrete hardware-f0620012d60743f69b84c612d6d9a748",
+  "slug": "progressive-discrete-hardware-f0620012d60743f69b84c612d6d9a748",
+  "price": 340,
+  "description": "Realigned attitude-oriented firmware",
+  "category": {
+    "id": 92,
+    "name": "Toys_6fdaa81f1e9d4c4fb701117962329570",
+    "slug": "toys-6fdaa81f1e9d4c4fb701117962329570",
+    "image": "http://www.preston.net/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "https://hayes.info/"
+  ],
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+}
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/350
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/350 -> 200
+Body:
+{
+  "id": 350,
+  "title": "Progressive discrete hardware-f0620012d60743f69b84c612d6d9a748",
+  "slug": "progressive-discrete-hardware-f0620012d60743f69b84c612d6d9a748",
+  "price": 340,
+  "description": "Realigned attitude-oriented firmware",
+  "category": {
+    "id": 92,
+    "name": "Toys_6fdaa81f1e9d4c4fb701117962329570",
+    "slug": "toys-6fdaa81f1e9d4c4fb701117962329570",
+    "image": "http://www.preston.net/",
+    "creationAt": "2026-08-15T01:23:37.000Z",
+    "updatedAt": "2026-08-15T01:23:37.000Z"
+  },
+  "images": [
+    "https://hayes.info/"
+  ],
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/350
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/350 -> 200
+Body:
+true 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/92
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/92 -> 200
+Body:
+{
+  "id": 92,
+  "name": "Toys_6fdaa81f1e9d4c4fb701117962329570",
+  "slug": "toys-6fdaa81f1e9d4c4fb701117962329570",
+  "image": "http://www.preston.net/",
+  "creationAt": "2026-08-15T01:23:37.000Z",
+  "updatedAt": "2026-08-15T01:23:37.000Z"
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/92
+Body:
+<empty> 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/92 -> 200
+Body:
+true

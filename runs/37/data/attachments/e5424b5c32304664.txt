@@ -1,0 +1,80 @@
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Megan Wade",
+  "email": "westsarah@example.net",
+  "password": "***",
+  "avatar": "https://www.mcclure.com/"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 387,
+  "email": "westsarah@example.net",
+  "password": "***",
+  "name": "Megan Wade",
+  "role": "customer",
+  "avatar": "https://www.mcclure.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+}
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/387
+Body:
+{
+  "name": "Faith Wells"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/387 -> 200
+Body:
+{
+  "id": 387,
+  "email": "westsarah@example.net",
+  "password": "***",
+  "name": "Faith Wells",
+  "role": "customer",
+  "avatar": "https://www.mcclure.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/387
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/387 -> 200
+Body:
+{
+  "id": 387,
+  "email": "westsarah@example.net",
+  "password": "***",
+  "name": "Faith Wells",
+  "role": "customer",
+  "avatar": "https://www.mcclure.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+}
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/387
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/387 -> 200
+Body:
+{
+  "id": 387,
+  "email": "westsarah@example.net",
+  "password": "***",
+  "name": "Faith Wells",
+  "role": "customer",
+  "avatar": "https://www.mcclure.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/387
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/387 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_eb7c1a21dc584cd3aff0813090e17bab",
+  "image": "http://www.underwood-chavez.com/"
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 95,
+  "name": "Electronics_eb7c1a21dc584cd3aff0813090e17bab",
+  "slug": "electronics-eb7c1a21dc584cd3aff0813090e17bab",
+  "image": "http://www.underwood-chavez.com/",
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Assimilated optimizing product-56aeae413f4d47cd8271549e55bedeb7",
+  "price": 451,
+  "description": "Polarized dynamic structure",
+  "categoryId": 95,
+  "images": [
+    "https://mendoza-moon.com/"
+  ]
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 355,
+  "title": "Assimilated optimizing product-56aeae413f4d47cd8271549e55bedeb7",
+  "slug": "assimilated-optimizing-product-56aeae413f4d47cd8271549e55bedeb7",
+  "price": 451,
+  "description": "Polarized dynamic structure",
+  "category": {
+    "id": 95,
+    "name": "Electronics_eb7c1a21dc584cd3aff0813090e17bab",
+    "slug": "electronics-eb7c1a21dc584cd3aff0813090e17bab",
+    "image": "http://www.underwood-chavez.com/",
+    "creationAt": "2026-08-15T01:23:38.000Z",
+    "updatedAt": "2026-08-15T01:23:38.000Z"
+  },
+  "images": [
+    "https://mendoza-moon.com/"
+  ],
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+}
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/355
+Body:
+{
+  "title": "Inverse logistical approach-1e29e70c27b843cd8e2fcfca86297cc4",
+  "price": 391,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-15 01:23:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/355 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-15 01:23:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/355
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/355 -> 200
+Body:
+{
+  "id": 355,
+  "title": "Assimilated optimizing product-56aeae413f4d47cd8271549e55bedeb7",
+  "slug": "assimilated-optimizing-product-56aeae413f4d47cd8271549e55bedeb7",
+  "price": 451,
+  "description": "Polarized dynamic structure",
+  "category": {
+    "id": 95,
+    "name": "Electronics_eb7c1a21dc584cd3aff0813090e17bab",
+    "slug": "electronics-eb7c1a21dc584cd3aff0813090e17bab",
+    "image": "http://www.underwood-chavez.com/",
+    "creationAt": "2026-08-15T01:23:38.000Z",
+    "updatedAt": "2026-08-15T01:23:38.000Z"
+  },
+  "images": [
+    "https://mendoza-moon.com/"
+  ],
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+} 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/355
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/355 -> 200
+Body:
+true 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/95
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/95 -> 200
+Body:
+{
+  "id": 95,
+  "name": "Electronics_eb7c1a21dc584cd3aff0813090e17bab",
+  "slug": "electronics-eb7c1a21dc584cd3aff0813090e17bab",
+  "image": "http://www.underwood-chavez.com/",
+  "creationAt": "2026-08-15T01:23:38.000Z",
+  "updatedAt": "2026-08-15T01:23:38.000Z"
+} 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/95
+Body:
+<empty> 
+
+2026-08-15 01:23:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/95 -> 200
+Body:
+true

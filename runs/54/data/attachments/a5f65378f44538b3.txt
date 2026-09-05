@@ -1,0 +1,88 @@
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Colleen Watson",
+  "email": "deborah17@example.com",
+  "password": "***",
+  "avatar": "https://www.garcia.com/"
+} 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 5,
+  "email": "deborah17@example.com",
+  "password": "***",
+  "name": "Colleen Watson",
+  "role": "customer",
+  "avatar": "https://www.garcia.com/",
+  "creationAt": "2026-09-05T03:38:34.000Z",
+  "updatedAt": "2026-09-05T03:38:34.000Z"
+}
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "deborah17@example.com",
+  "password": "***"
+} 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTc4ODU3OTUxNCwiZXhwIjoxNzg4NjE1NTE0fQ.EwYo6xdeumoLCN7H9e4QAOLrNR6GEZREU_G4h23iV8Q"
+} 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 5,
+  "email": "deborah17@example.com",
+  "password": "***",
+  "name": "Colleen Watson",
+  "role": "customer",
+  "avatar": "https://www.garcia.com/",
+  "creationAt": "2026-09-05T03:38:34.000Z",
+  "updatedAt": "2026-09-05T03:38:34.000Z"
+}
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+{
+  "id": 5,
+  "email": "deborah17@example.com",
+  "password": "***",
+  "name": "Colleen Watson",
+  "role": "customer",
+  "avatar": "https://www.garcia.com/",
+  "creationAt": "2026-09-05T03:38:34.000Z",
+  "updatedAt": "2026-09-05T03:38:34.000Z"
+} 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-09-05 03:38:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+true

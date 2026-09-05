@@ -1,0 +1,80 @@
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jaime Jacobs",
+  "email": "kimberly80@example.org",
+  "password": "***",
+  "avatar": "https://www.duncan.com/"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "kimberly80@example.org",
+  "password": "***",
+  "name": "Jaime Jacobs",
+  "role": "customer",
+  "avatar": "https://www.duncan.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+}
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/11
+Body:
+{
+  "name": "Daniel Conner"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "kimberly80@example.org",
+  "password": "***",
+  "name": "Daniel Conner",
+  "role": "customer",
+  "avatar": "https://www.duncan.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "kimberly80@example.org",
+  "password": "***",
+  "name": "Daniel Conner",
+  "role": "customer",
+  "avatar": "https://www.duncan.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+}
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "kimberly80@example.org",
+  "password": "***",
+  "name": "Daniel Conner",
+  "role": "customer",
+  "avatar": "https://www.duncan.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true

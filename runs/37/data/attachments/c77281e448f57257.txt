@@ -1,0 +1,61 @@
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Luis Oliver",
+  "email": "kingerica@example.com",
+  "password": "***",
+  "avatar": "https://www.miller-turner.biz/"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 384,
+  "email": "kingerica@example.com",
+  "password": "***",
+  "name": "Luis Oliver",
+  "role": "customer",
+  "avatar": "https://www.miller-turner.biz/",
+  "creationAt": "2026-08-19T01:24:02.000Z",
+  "updatedAt": "2026-08-19T01:24:02.000Z"
+}
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/384
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/384 -> 200
+Body:
+{
+  "id": 384,
+  "email": "kingerica@example.com",
+  "password": "***",
+  "name": "Luis Oliver",
+  "role": "customer",
+  "avatar": "https://www.miller-turner.biz/",
+  "creationAt": "2026-08-19T01:24:02.000Z",
+  "updatedAt": "2026-08-19T01:24:02.000Z"
+}
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/384
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/384 -> 200
+Body:
+{
+  "id": 384,
+  "email": "kingerica@example.com",
+  "password": "***",
+  "name": "Luis Oliver",
+  "role": "customer",
+  "avatar": "https://www.miller-turner.biz/",
+  "creationAt": "2026-08-19T01:24:02.000Z",
+  "updatedAt": "2026-08-19T01:24:02.000Z"
+} 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/384
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/384 -> 200
+Body:
+true

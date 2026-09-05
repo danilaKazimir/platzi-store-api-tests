@@ -1,0 +1,125 @@
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_8689a93b39fc42228267f45e2a8a1dde",
+  "image": "http://klein-sosa.com/"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1642,
+  "name": "Books_8689a93b39fc42228267f45e2a8a1dde",
+  "slug": "books-8689a93b39fc42228267f45e2a8a1dde",
+  "image": "http://klein-sosa.com/",
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Horizontal content-based application-dd6f15cec8cd44f18c79dec26da86486",
+  "price": 762,
+  "description": "Intuitive needs-based emulation",
+  "categoryId": 1642,
+  "images": [
+    "http://www.whitaker.com/"
+  ]
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1220,
+  "title": "Horizontal content-based application-dd6f15cec8cd44f18c79dec26da86486",
+  "slug": "horizontal-content-based-application-dd6f15cec8cd44f18c79dec26da86486",
+  "price": 762,
+  "description": "Intuitive needs-based emulation",
+  "category": {
+    "id": 1642,
+    "name": "Books_8689a93b39fc42228267f45e2a8a1dde",
+    "slug": "books-8689a93b39fc42228267f45e2a8a1dde",
+    "image": "http://klein-sosa.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "http://www.whitaker.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+}
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/1220
+Body:
+{
+  "title": "Polarized systemic hierarchy-b509ef1e0b9b48c39075d449f42eeeff",
+  "price": 677,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/1220 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1220
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1220 -> 200
+Body:
+{
+  "id": 1220,
+  "title": "Horizontal content-based application-dd6f15cec8cd44f18c79dec26da86486",
+  "slug": "horizontal-content-based-application-dd6f15cec8cd44f18c79dec26da86486",
+  "price": 762,
+  "description": "Intuitive needs-based emulation",
+  "category": {
+    "id": 1642,
+    "name": "Books_8689a93b39fc42228267f45e2a8a1dde",
+    "slug": "books-8689a93b39fc42228267f45e2a8a1dde",
+    "image": "http://klein-sosa.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "http://www.whitaker.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1220
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1220 -> 200
+Body:
+true 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1642
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1642 -> 200
+Body:
+{
+  "id": 1642,
+  "name": "Books_8689a93b39fc42228267f45e2a8a1dde",
+  "slug": "books-8689a93b39fc42228267f45e2a8a1dde",
+  "image": "http://klein-sosa.com/",
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1642
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1642 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_544ee066e58c4ef18b2c7924f6f7b696",
+  "image": "https://www.washington.net/"
+} 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 84,
+  "name": "Pet Supplies_544ee066e58c4ef18b2c7924f6f7b696",
+  "slug": "pet-supplies-544ee066e58c4ef18b2c7924f6f7b696",
+  "image": "https://www.washington.net/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+}
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/84
+Body:
+{
+  "name": "Clothing_17f3e4716b4e49018e4c63ca8db36f2a",
+  "image": "https://salazar.com/"
+} 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/84 -> 200
+Body:
+{
+  "id": 84,
+  "name": "Clothing_17f3e4716b4e49018e4c63ca8db36f2a",
+  "slug": "clothing-17f3e4716b4e49018e4c63ca8db36f2a",
+  "image": "https://salazar.com/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+} 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/84
+Body:
+<empty> 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/84 -> 200
+Body:
+{
+  "id": 84,
+  "name": "Clothing_17f3e4716b4e49018e4c63ca8db36f2a",
+  "slug": "clothing-17f3e4716b4e49018e4c63ca8db36f2a",
+  "image": "https://salazar.com/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+}
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/84
+Body:
+<empty> 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/84 -> 200
+Body:
+{
+  "id": 84,
+  "name": "Clothing_17f3e4716b4e49018e4c63ca8db36f2a",
+  "slug": "clothing-17f3e4716b4e49018e4c63ca8db36f2a",
+  "image": "https://salazar.com/",
+  "creationAt": "2026-08-15T01:23:36.000Z",
+  "updatedAt": "2026-08-15T01:23:36.000Z"
+} 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/84
+Body:
+<empty> 
+
+2026-08-15 01:23:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/84 -> 200
+Body:
+true

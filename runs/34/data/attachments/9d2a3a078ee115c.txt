@@ -1,0 +1,408 @@
+2026-08-16 01:34:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+  "image": "https://floyd.com/"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2728,
+  "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+  "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+  "image": "https://floyd.com/",
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+}
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-layered incremental hierarchy-ae039fd27bd64d11815d2802b85ac9f1",
+  "price": 665,
+  "description": "Reactive multi-state website",
+  "categoryId": 2728,
+  "images": [
+    "https://www.moore.com/"
+  ]
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1832,
+  "title": "Multi-layered incremental hierarchy-ae039fd27bd64d11815d2802b85ac9f1",
+  "slug": "multi-layered-incremental-hierarchy-ae039fd27bd64d11815d2802b85ac9f1",
+  "price": 665,
+  "description": "Reactive multi-state website",
+  "category": {
+    "id": 2728,
+    "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+    "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+    "image": "https://floyd.com/",
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  "images": [
+    "https://www.moore.com/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized disintermediate protocol-4887f13d630641fdb4b1933e0f864b13",
+  "price": 23,
+  "description": "Visionary client-server data-warehouse",
+  "categoryId": 2728,
+  "images": [
+    "https://carter.com/"
+  ]
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1833,
+  "title": "Decentralized disintermediate protocol-4887f13d630641fdb4b1933e0f864b13",
+  "slug": "decentralized-disintermediate-protocol-4887f13d630641fdb4b1933e0f864b13",
+  "price": 23,
+  "description": "Visionary client-server data-warehouse",
+  "category": {
+    "id": 2728,
+    "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+    "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+    "image": "https://floyd.com/",
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  "images": [
+    "https://carter.com/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enhanced 24/7 toolset-76f402a42bf54135a46474ab3ca22758",
+  "price": 684,
+  "description": "Future-proofed transitional software",
+  "categoryId": 2728,
+  "images": [
+    "http://watkins-stephenson.org/"
+  ]
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1834,
+  "title": "Enhanced 24/7 toolset-76f402a42bf54135a46474ab3ca22758",
+  "slug": "enhanced-24-7-toolset-76f402a42bf54135a46474ab3ca22758",
+  "price": 684,
+  "description": "Future-proofed transitional software",
+  "category": {
+    "id": 2728,
+    "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+    "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+    "image": "https://floyd.com/",
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  "images": [
+    "http://watkins-stephenson.org/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_7120fa12c1cc4112a0645f9cce1fcca0",
+  "image": "https://hicks.com/"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 2731,
+  "name": "Electronics_7120fa12c1cc4112a0645f9cce1fcca0",
+  "slug": "electronics-7120fa12c1cc4112a0645f9cce1fcca0",
+  "image": "https://hicks.com/",
+  "creationAt": "2026-08-16T01:34:34.000Z",
+  "updatedAt": "2026-08-16T01:34:34.000Z"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-lateral maximized definition-36d6f9ad9ebf436ea8d9006a1603d282",
+  "price": 575,
+  "description": "Vision-oriented dynamic frame",
+  "categoryId": 2731,
+  "images": [
+    "https://patterson.com/"
+  ]
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1837,
+  "title": "Multi-lateral maximized definition-36d6f9ad9ebf436ea8d9006a1603d282",
+  "slug": "multi-lateral-maximized-definition-36d6f9ad9ebf436ea8d9006a1603d282",
+  "price": 575,
+  "description": "Vision-oriented dynamic frame",
+  "category": {
+    "id": 2731,
+    "name": "Electronics_7120fa12c1cc4112a0645f9cce1fcca0",
+    "slug": "electronics-7120fa12c1cc4112a0645f9cce1fcca0",
+    "image": "https://hicks.com/",
+    "creationAt": "2026-08-16T01:34:34.000Z",
+    "updatedAt": "2026-08-16T01:34:34.000Z"
+  },
+  "images": [
+    "https://patterson.com/"
+  ],
+  "creationAt": "2026-08-16T01:34:34.000Z",
+  "updatedAt": "2026-08-16T01:34:34.000Z"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/multi-layered-incremental-hierarchy-ae039fd27bd64d11815d2802b85ac9f1/related
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/multi-layered-incremental-hierarchy-ae039fd27bd64d11815d2802b85ac9f1/related -> 200
+Body:
+[
+  {
+    "id": 1833,
+    "title": "Decentralized disintermediate protocol-4887f13d630641fdb4b1933e0f864b13",
+    "slug": "decentralized-disintermediate-protocol-4887f13d630641fdb4b1933e0f864b13",
+    "price": 23,
+    "description": "Visionary client-server data-warehouse",
+    "category": {
+      "id": 2728,
+      "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+      "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+      "image": "https://floyd.com/",
+      "creationAt": "2026-08-16T01:34:33.000Z",
+      "updatedAt": "2026-08-16T01:34:33.000Z"
+    },
+    "images": [
+      "https://carter.com/"
+    ],
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  {
+    "id": 1834,
+    "title": "Enhanced 24/7 toolset-76f402a42bf54135a46474ab3ca22758",
+    "slug": "enhanced-24-7-toolset-76f402a42bf54135a46474ab3ca22758",
+    "price": 684,
+    "description": "Future-proofed transitional software",
+    "category": {
+      "id": 2728,
+      "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+      "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+      "image": "https://floyd.com/",
+      "creationAt": "2026-08-16T01:34:33.000Z",
+      "updatedAt": "2026-08-16T01:34:33.000Z"
+    },
+    "images": [
+      "http://watkins-stephenson.org/"
+    ],
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  }
+]
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1837
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1837 -> 200
+Body:
+{
+  "id": 1837,
+  "title": "Multi-lateral maximized definition-36d6f9ad9ebf436ea8d9006a1603d282",
+  "slug": "multi-lateral-maximized-definition-36d6f9ad9ebf436ea8d9006a1603d282",
+  "price": 575,
+  "description": "Vision-oriented dynamic frame",
+  "category": {
+    "id": 2731,
+    "name": "Electronics_7120fa12c1cc4112a0645f9cce1fcca0",
+    "slug": "electronics-7120fa12c1cc4112a0645f9cce1fcca0",
+    "image": "https://hicks.com/",
+    "creationAt": "2026-08-16T01:34:34.000Z",
+    "updatedAt": "2026-08-16T01:34:34.000Z"
+  },
+  "images": [
+    "https://patterson.com/"
+  ],
+  "creationAt": "2026-08-16T01:34:34.000Z",
+  "updatedAt": "2026-08-16T01:34:34.000Z"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1837
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1837 -> 200
+Body:
+true 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1834
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1834 -> 200
+Body:
+{
+  "id": 1834,
+  "title": "Enhanced 24/7 toolset-76f402a42bf54135a46474ab3ca22758",
+  "slug": "enhanced-24-7-toolset-76f402a42bf54135a46474ab3ca22758",
+  "price": 684,
+  "description": "Future-proofed transitional software",
+  "category": {
+    "id": 2728,
+    "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+    "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+    "image": "https://floyd.com/",
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  "images": [
+    "http://watkins-stephenson.org/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1834
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1834 -> 200
+Body:
+true 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1833
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1833 -> 200
+Body:
+{
+  "id": 1833,
+  "title": "Decentralized disintermediate protocol-4887f13d630641fdb4b1933e0f864b13",
+  "slug": "decentralized-disintermediate-protocol-4887f13d630641fdb4b1933e0f864b13",
+  "price": 23,
+  "description": "Visionary client-server data-warehouse",
+  "category": {
+    "id": 2728,
+    "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+    "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+    "image": "https://floyd.com/",
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  "images": [
+    "https://carter.com/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1833
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1833 -> 200
+Body:
+true 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1832
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1832 -> 200
+Body:
+{
+  "id": 1832,
+  "title": "Multi-layered incremental hierarchy-ae039fd27bd64d11815d2802b85ac9f1",
+  "slug": "multi-layered-incremental-hierarchy-ae039fd27bd64d11815d2802b85ac9f1",
+  "price": 665,
+  "description": "Reactive multi-state website",
+  "category": {
+    "id": 2728,
+    "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+    "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+    "image": "https://floyd.com/",
+    "creationAt": "2026-08-16T01:34:33.000Z",
+    "updatedAt": "2026-08-16T01:34:33.000Z"
+  },
+  "images": [
+    "https://www.moore.com/"
+  ],
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1832
+Body:
+<empty> 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1832 -> 200
+Body:
+true 
+
+2026-08-16 01:34:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2731
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2731 -> 200
+Body:
+{
+  "id": 2731,
+  "name": "Electronics_7120fa12c1cc4112a0645f9cce1fcca0",
+  "slug": "electronics-7120fa12c1cc4112a0645f9cce1fcca0",
+  "image": "https://hicks.com/",
+  "creationAt": "2026-08-16T01:34:34.000Z",
+  "updatedAt": "2026-08-16T01:34:34.000Z"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2731
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2731 -> 200
+Body:
+true 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/2728
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/2728 -> 200
+Body:
+{
+  "id": 2728,
+  "name": "Pet Supplies_0d510e60497e41b7923df1930438e96f",
+  "slug": "pet-supplies-0d510e60497e41b7923df1930438e96f",
+  "image": "https://floyd.com/",
+  "creationAt": "2026-08-16T01:34:33.000Z",
+  "updatedAt": "2026-08-16T01:34:33.000Z"
+} 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/2728
+Body:
+<empty> 
+
+2026-08-16 01:34:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/2728 -> 200
+Body:
+true

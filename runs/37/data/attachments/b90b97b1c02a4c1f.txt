@@ -1,0 +1,55 @@
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_81341e9c27dc49fc8213fc7ae47d7527",
+  "image": "http://www.franklin.org/"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 415,
+  "name": "Electronics_81341e9c27dc49fc8213fc7ae47d7527",
+  "slug": "electronics-81341e9c27dc49fc8213fc7ae47d7527",
+  "image": "http://www.franklin.org/",
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+}
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/415
+Body:
+{
+  "name": null,
+  "image": "https://www.gutierrez.biz/"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/415 -> 400
+Body:
+{
+  "path": "/api/v1/categories/415",
+  "timestamp": "2026-08-19T01:23:59.129Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/415
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/415 -> 200
+Body:
+{
+  "id": 415,
+  "name": "Electronics_81341e9c27dc49fc8213fc7ae47d7527",
+  "slug": "electronics-81341e9c27dc49fc8213fc7ae47d7527",
+  "image": "http://www.franklin.org/",
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/415
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/415 -> 200
+Body:
+true

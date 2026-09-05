@@ -1,0 +1,88 @@
+2026-08-22 01:22:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Anthony Chase",
+  "email": "seth65@example.net",
+  "password": "***",
+  "avatar": "https://jackson.net/"
+} 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 316,
+  "email": "seth65@example.net",
+  "password": "***",
+  "name": "Anthony Chase",
+  "role": "customer",
+  "avatar": "https://jackson.net/",
+  "creationAt": "2026-08-22T01:22:56.000Z",
+  "updatedAt": "2026-08-22T01:22:56.000Z"
+}
+2026-08-22 01:22:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "seth65@example.net",
+  "password": "***"
+} 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMxNiwiaWF0IjoxNzg3MzYxNzc2LCJleHAiOjE3ODczOTc3NzZ9.gN1xa8pX6OoNJBLvP2LIlEJInrnjRtSS0BqyfJSyOZQ"
+} 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 316,
+  "email": "seth65@example.net",
+  "password": "***",
+  "name": "Anthony Chase",
+  "role": "customer",
+  "avatar": "https://jackson.net/",
+  "creationAt": "2026-08-22T01:22:56.000Z",
+  "updatedAt": "2026-08-22T01:22:56.000Z"
+}
+2026-08-22 01:22:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/316
+Body:
+<empty> 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/316 -> 200
+Body:
+{
+  "id": 316,
+  "email": "seth65@example.net",
+  "password": "***",
+  "name": "Anthony Chase",
+  "role": "customer",
+  "avatar": "https://jackson.net/",
+  "creationAt": "2026-08-22T01:22:56.000Z",
+  "updatedAt": "2026-08-22T01:22:56.000Z"
+} 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/316
+Body:
+<empty> 
+
+2026-08-22 01:22:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/316 -> 200
+Body:
+true

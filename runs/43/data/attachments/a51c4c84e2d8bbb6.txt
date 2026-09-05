@@ -1,0 +1,53 @@
+2026-08-25 01:24:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_40eb4ea80e47412dad690b0c0fecae74",
+  "image": "http://www.williams.biz/"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 122,
+  "name": "Toys_40eb4ea80e47412dad690b0c0fecae74",
+  "slug": "toys-40eb4ea80e47412dad690b0c0fecae74",
+  "image": "http://www.williams.biz/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/122
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/122 -> 200
+Body:
+{
+  "id": 122,
+  "name": "Toys_40eb4ea80e47412dad690b0c0fecae74",
+  "slug": "toys-40eb4ea80e47412dad690b0c0fecae74",
+  "image": "http://www.williams.biz/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/122
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/122 -> 200
+Body:
+{
+  "id": 122,
+  "name": "Toys_40eb4ea80e47412dad690b0c0fecae74",
+  "slug": "toys-40eb4ea80e47412dad690b0c0fecae74",
+  "image": "http://www.williams.biz/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/122
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/122 -> 200
+Body:
+true

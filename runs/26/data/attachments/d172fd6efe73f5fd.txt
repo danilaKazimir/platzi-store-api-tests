@@ -1,0 +1,95 @@
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_4973409f2fc64dc78331315ed9a44f52",
+  "image": "http://www.rice.com/"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 6,
+  "name": "Automotive Accessories_4973409f2fc64dc78331315ed9a44f52",
+  "slug": "automotive-accessories-4973409f2fc64dc78331315ed9a44f52",
+  "image": "http://www.rice.com/",
+  "creationAt": "2026-08-08T01:50:06.000Z",
+  "updatedAt": "2026-08-08T01:50:06.000Z"
+}
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-08-08T01:41:43.000Z",
+    "updatedAt": "2026-08-08T01:41:43.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-08-08T01:41:43.000Z",
+    "updatedAt": "2026-08-08T01:41:43.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-08-08T01:41:43.000Z",
+    "updatedAt": "2026-08-08T01:41:43.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-08-08T01:41:43.000Z",
+    "updatedAt": "2026-08-08T01:41:43.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-08-08T01:41:43.000Z",
+    "updatedAt": "2026-08-08T01:41:43.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Automotive Accessories_4973409f2fc64dc78331315ed9a44f52",
+    "slug": "automotive-accessories-4973409f2fc64dc78331315ed9a44f52",
+    "image": "http://www.rice.com/",
+    "creationAt": "2026-08-08T01:50:06.000Z",
+    "updatedAt": "2026-08-08T01:50:06.000Z"
+  }
+]
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/6
+Body:
+<empty> 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/6 -> 200
+Body:
+{
+  "id": 6,
+  "name": "Automotive Accessories_4973409f2fc64dc78331315ed9a44f52",
+  "slug": "automotive-accessories-4973409f2fc64dc78331315ed9a44f52",
+  "image": "http://www.rice.com/",
+  "creationAt": "2026-08-08T01:50:06.000Z",
+  "updatedAt": "2026-08-08T01:50:06.000Z"
+} 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/6
+Body:
+<empty> 
+
+2026-08-08 01:50:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/6 -> 200
+Body:
+true

@@ -1,0 +1,55 @@
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_73ed5282ef6945aba6d8472d2552fff7",
+  "image": "http://krueger-weber.info/"
+} 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Clothing_73ed5282ef6945aba6d8472d2552fff7",
+  "slug": "clothing-73ed5282ef6945aba6d8472d2552fff7",
+  "image": "http://krueger-weber.info/",
+  "creationAt": "2026-08-27T08:18:47.000Z",
+  "updatedAt": "2026-08-27T08:18:47.000Z"
+}
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/11
+Body:
+{
+  "name": "Home & Kitchen_c132c9493f544ed899f79d2bb456188b",
+  "image": null
+} 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/11 -> 400
+Body:
+{
+  "path": "/api/v1/categories/11",
+  "timestamp": "2026-08-27T08:18:47.565Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Clothing_73ed5282ef6945aba6d8472d2552fff7",
+  "slug": "clothing-73ed5282ef6945aba6d8472d2552fff7",
+  "image": "http://krueger-weber.info/",
+  "creationAt": "2026-08-27T08:18:47.000Z",
+  "updatedAt": "2026-08-27T08:18:47.000Z"
+} 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+true

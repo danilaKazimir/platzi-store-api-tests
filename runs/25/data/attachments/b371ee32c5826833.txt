@@ -1,0 +1,15 @@
+2026-08-07 02:48:16 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/0
+Body:
+{
+  "name": "Kyle King",
+  "email": "williamstimothy@example.com"
+} 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/0 -> 400
+Body:
+{
+  "path": "/api/v1/users/0",
+  "timestamp": "2026-08-07T02:48:16.970Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"User\" matching: {\n    \"id\": 0\n}"
+}

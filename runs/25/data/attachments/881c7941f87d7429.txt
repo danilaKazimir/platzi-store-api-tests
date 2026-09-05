@@ -1,0 +1,80 @@
+2026-08-07 02:48:16 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Glenn Dennis",
+  "email": "kelleymelissa@example.com",
+  "password": "***",
+  "avatar": "https://riley.biz/"
+} 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "kelleymelissa@example.com",
+  "password": "***",
+  "name": "Glenn Dennis",
+  "role": "customer",
+  "avatar": "https://riley.biz/",
+  "creationAt": "2026-08-07T02:48:16.000Z",
+  "updatedAt": "2026-08-07T02:48:16.000Z"
+}
+2026-08-07 02:48:16 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/11
+Body:
+{
+  "email": "andrewscassidy@example.org"
+} 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "andrewscassidy@example.org",
+  "password": "***",
+  "name": "Glenn Dennis",
+  "role": "customer",
+  "avatar": "https://riley.biz/",
+  "creationAt": "2026-08-07T02:48:16.000Z",
+  "updatedAt": "2026-08-07T02:48:16.000Z"
+} 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "andrewscassidy@example.org",
+  "password": "***",
+  "name": "Glenn Dennis",
+  "role": "customer",
+  "avatar": "https://riley.biz/",
+  "creationAt": "2026-08-07T02:48:16.000Z",
+  "updatedAt": "2026-08-07T02:48:16.000Z"
+}
+2026-08-07 02:48:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "andrewscassidy@example.org",
+  "password": "***",
+  "name": "Glenn Dennis",
+  "role": "customer",
+  "avatar": "https://riley.biz/",
+  "creationAt": "2026-08-07T02:48:16.000Z",
+  "updatedAt": "2026-08-07T02:48:16.000Z"
+} 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-08-07 02:48:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true

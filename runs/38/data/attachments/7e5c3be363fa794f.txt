@@ -1,0 +1,71 @@
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_bac6887874af4921853032b64272d6e1",
+  "image": "https://www.brown.com/"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1630,
+  "name": "Clothing_bac6887874af4921853032b64272d6e1",
+  "slug": "clothing-bac6887874af4921853032b64272d6e1",
+  "image": "https://www.brown.com/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/1630
+Body:
+{
+  "name": "Toys_f6fee82d2d124e8ea22b33787c5e0f69",
+  "image": "https://www.hardy.info/"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/1630 -> 200
+Body:
+{
+  "id": 1630,
+  "name": "Toys_f6fee82d2d124e8ea22b33787c5e0f69",
+  "slug": "toys-f6fee82d2d124e8ea22b33787c5e0f69",
+  "image": "https://www.hardy.info/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1630
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1630 -> 200
+Body:
+{
+  "id": 1630,
+  "name": "Toys_f6fee82d2d124e8ea22b33787c5e0f69",
+  "slug": "toys-f6fee82d2d124e8ea22b33787c5e0f69",
+  "image": "https://www.hardy.info/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1630
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1630 -> 200
+Body:
+{
+  "id": 1630,
+  "name": "Toys_f6fee82d2d124e8ea22b33787c5e0f69",
+  "slug": "toys-f6fee82d2d124e8ea22b33787c5e0f69",
+  "image": "https://www.hardy.info/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1630
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1630 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-08-14 02:10:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_ab42c240e6db4fa0b1b017881d2a7b54",
+  "image": "https://www.jimenez.com/"
+} 
+
+2026-08-14 02:10:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1334,
+  "name": "Food & Beverages_ab42c240e6db4fa0b1b017881d2a7b54",
+  "slug": "food-beverages-ab42c240e6db4fa0b1b017881d2a7b54",
+  "image": "https://www.jimenez.com/",
+  "creationAt": "2026-08-14T02:10:37.000Z",
+  "updatedAt": "2026-08-14T02:10:37.000Z"
+}
+2026-08-14 02:10:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1334
+Body:
+<empty> 
+
+2026-08-14 02:10:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1334 -> 200
+Body:
+{
+  "id": 1334,
+  "name": "Food & Beverages_ab42c240e6db4fa0b1b017881d2a7b54",
+  "slug": "food-beverages-ab42c240e6db4fa0b1b017881d2a7b54",
+  "image": "https://www.jimenez.com/",
+  "creationAt": "2026-08-14T02:10:37.000Z",
+  "updatedAt": "2026-08-14T02:10:37.000Z"
+}
+2026-08-14 02:10:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1334
+Body:
+<empty> 
+
+2026-08-14 02:10:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1334 -> 200
+Body:
+{
+  "id": 1334,
+  "name": "Food & Beverages_ab42c240e6db4fa0b1b017881d2a7b54",
+  "slug": "food-beverages-ab42c240e6db4fa0b1b017881d2a7b54",
+  "image": "https://www.jimenez.com/",
+  "creationAt": "2026-08-14T02:10:37.000Z",
+  "updatedAt": "2026-08-14T02:10:37.000Z"
+} 
+
+2026-08-14 02:10:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1334
+Body:
+<empty> 
+
+2026-08-14 02:10:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1334 -> 200
+Body:
+true

@@ -1,0 +1,80 @@
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Carolyn Nunez",
+  "email": "megan42@example.com",
+  "password": "***",
+  "avatar": "https://www.gomez.com/"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 12,
+  "email": "megan42@example.com",
+  "password": "***",
+  "name": "Carolyn Nunez",
+  "role": "customer",
+  "avatar": "https://www.gomez.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+}
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/12
+Body:
+{
+  "email": "connerjacob@example.com"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "connerjacob@example.com",
+  "password": "***",
+  "name": "Carolyn Nunez",
+  "role": "customer",
+  "avatar": "https://www.gomez.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "connerjacob@example.com",
+  "password": "***",
+  "name": "Carolyn Nunez",
+  "role": "customer",
+  "avatar": "https://www.gomez.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+}
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "connerjacob@example.com",
+  "password": "***",
+  "name": "Carolyn Nunez",
+  "role": "customer",
+  "avatar": "https://www.gomez.com/",
+  "creationAt": "2026-09-05T03:38:37.000Z",
+  "updatedAt": "2026-09-05T03:38:37.000Z"
+} 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-05 03:38:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+true

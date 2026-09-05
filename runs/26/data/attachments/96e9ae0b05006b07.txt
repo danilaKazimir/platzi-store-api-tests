@@ -1,0 +1,135 @@
+2026-08-08 01:50:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_57f1a354e9da4289b4f2da3a884dd203",
+  "image": "http://perry.org/"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Food & Beverages_57f1a354e9da4289b4f2da3a884dd203",
+  "slug": "food-beverages-57f1a354e9da4289b4f2da3a884dd203",
+  "image": "http://perry.org/",
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Seamless local framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "price": 546,
+  "description": "De-engineered real-time monitoring",
+  "categoryId": 20,
+  "images": [
+    "http://christian.net/"
+  ]
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 60,
+  "title": "Seamless local framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "slug": "seamless-local-framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "price": 546,
+  "description": "De-engineered real-time monitoring",
+  "category": {
+    "id": 20,
+    "name": "Food & Beverages_57f1a354e9da4289b4f2da3a884dd203",
+    "slug": "food-beverages-57f1a354e9da4289b4f2da3a884dd203",
+    "image": "http://perry.org/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://christian.net/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/seamless-local-framework-79a99dcbc69c4223a84e0e23c11b5979
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/seamless-local-framework-79a99dcbc69c4223a84e0e23c11b5979 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Seamless local framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "slug": "seamless-local-framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "price": 546,
+  "description": "De-engineered real-time monitoring",
+  "category": {
+    "id": 20,
+    "name": "Food & Beverages_57f1a354e9da4289b4f2da3a884dd203",
+    "slug": "food-beverages-57f1a354e9da4289b4f2da3a884dd203",
+    "image": "http://perry.org/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://christian.net/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+}
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Seamless local framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "slug": "seamless-local-framework-79a99dcbc69c4223a84e0e23c11b5979",
+  "price": 546,
+  "description": "De-engineered real-time monitoring",
+  "category": {
+    "id": 20,
+    "name": "Food & Beverages_57f1a354e9da4289b4f2da3a884dd203",
+    "slug": "food-beverages-57f1a354e9da4289b4f2da3a884dd203",
+    "image": "http://perry.org/",
+    "creationAt": "2026-08-08T01:50:09.000Z",
+    "updatedAt": "2026-08-08T01:50:09.000Z"
+  },
+  "images": [
+    "http://christian.net/"
+  ],
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+true 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Food & Beverages_57f1a354e9da4289b4f2da3a884dd203",
+  "slug": "food-beverages-57f1a354e9da4289b4f2da3a884dd203",
+  "image": "http://perry.org/",
+  "creationAt": "2026-08-08T01:50:09.000Z",
+  "updatedAt": "2026-08-08T01:50:09.000Z"
+} 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-08-08 01:50:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

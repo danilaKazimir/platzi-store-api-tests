@@ -1,0 +1,107 @@
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_aa856d23732a44cbb5bf95b6a7a11bde",
+  "image": "http://www.peterson.biz/"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1253,
+  "name": "Toys_aa856d23732a44cbb5bf95b6a7a11bde",
+  "slug": "toys-aa856d23732a44cbb5bf95b6a7a11bde",
+  "image": "http://www.peterson.biz/",
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source intermediate groupware-b9306ae6f99e4fda84fa2f3f6ad06423",
+  "price": 570,
+  "description": "Automated didactic function",
+  "categoryId": 1253,
+  "images": [
+    "https://www.bender.biz/"
+  ]
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1502,
+  "title": "Open-source intermediate groupware-b9306ae6f99e4fda84fa2f3f6ad06423",
+  "slug": "open-source-intermediate-groupware-b9306ae6f99e4fda84fa2f3f6ad06423",
+  "price": 570,
+  "description": "Automated didactic function",
+  "category": {
+    "id": 1253,
+    "name": "Toys_aa856d23732a44cbb5bf95b6a7a11bde",
+    "slug": "toys-aa856d23732a44cbb5bf95b6a7a11bde",
+    "image": "http://www.peterson.biz/",
+    "creationAt": "2026-08-21T01:32:39.000Z",
+    "updatedAt": "2026-08-21T01:32:39.000Z"
+  },
+  "images": [
+    "https://www.bender.biz/"
+  ],
+  "creationAt": "2026-08-21T01:32:40.000Z",
+  "updatedAt": "2026-08-21T01:32:40.000Z"
+}
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1502
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1502 -> 200
+Body:
+true 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1502
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1502 -> 400
+Body:
+{
+  "path": "/api/v1/products/1502",
+  "timestamp": "2026-08-21T01:32:40.202Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 1502\n    }\n}"
+}
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1502
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1502 -> 400
+Body:
+{
+  "path": "/api/v1/products/1502",
+  "timestamp": "2026-08-21T01:32:40.244Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 1502\n    }\n}"
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1253
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1253 -> 200
+Body:
+{
+  "id": 1253,
+  "name": "Toys_aa856d23732a44cbb5bf95b6a7a11bde",
+  "slug": "toys-aa856d23732a44cbb5bf95b6a7a11bde",
+  "image": "http://www.peterson.biz/",
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+} 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1253
+Body:
+<empty> 
+
+2026-08-21 01:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1253 -> 200
+Body:
+true

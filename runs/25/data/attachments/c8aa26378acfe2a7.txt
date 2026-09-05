@@ -1,0 +1,135 @@
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_9a027fb5b37949428f64ef1bfe0ca2e1",
+  "image": "https://www.brown.net/"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Electronics_9a027fb5b37949428f64ef1bfe0ca2e1",
+  "slug": "electronics-9a027fb5b37949428f64ef1bfe0ca2e1",
+  "image": "https://www.brown.net/",
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced heuristic Graphic Interface-54d50e92ee0f436f89a90529d6c32716",
+  "price": 22,
+  "description": "Face-to-face grid-enabled system engine",
+  "categoryId": 20,
+  "images": [
+    "http://www.moore.biz/"
+  ]
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 60,
+  "title": "Advanced heuristic Graphic Interface-54d50e92ee0f436f89a90529d6c32716",
+  "slug": "advanced-heuristic-graphic-interface-54d50e92ee0f436f89a90529d6c32716",
+  "price": 22,
+  "description": "Face-to-face grid-enabled system engine",
+  "category": {
+    "id": 20,
+    "name": "Electronics_9a027fb5b37949428f64ef1bfe0ca2e1",
+    "slug": "electronics-9a027fb5b37949428f64ef1bfe0ca2e1",
+    "image": "https://www.brown.net/",
+    "creationAt": "2026-08-07T02:48:14.000Z",
+    "updatedAt": "2026-08-07T02:48:14.000Z"
+  },
+  "images": [
+    "http://www.moore.biz/"
+  ],
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+}
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Advanced heuristic Graphic Interface-54d50e92ee0f436f89a90529d6c32716",
+  "slug": "advanced-heuristic-graphic-interface-54d50e92ee0f436f89a90529d6c32716",
+  "price": 22,
+  "description": "Face-to-face grid-enabled system engine",
+  "category": {
+    "id": 20,
+    "name": "Electronics_9a027fb5b37949428f64ef1bfe0ca2e1",
+    "slug": "electronics-9a027fb5b37949428f64ef1bfe0ca2e1",
+    "image": "https://www.brown.net/",
+    "creationAt": "2026-08-07T02:48:14.000Z",
+    "updatedAt": "2026-08-07T02:48:14.000Z"
+  },
+  "images": [
+    "http://www.moore.biz/"
+  ],
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+}
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Advanced heuristic Graphic Interface-54d50e92ee0f436f89a90529d6c32716",
+  "slug": "advanced-heuristic-graphic-interface-54d50e92ee0f436f89a90529d6c32716",
+  "price": 22,
+  "description": "Face-to-face grid-enabled system engine",
+  "category": {
+    "id": 20,
+    "name": "Electronics_9a027fb5b37949428f64ef1bfe0ca2e1",
+    "slug": "electronics-9a027fb5b37949428f64ef1bfe0ca2e1",
+    "image": "https://www.brown.net/",
+    "creationAt": "2026-08-07T02:48:14.000Z",
+    "updatedAt": "2026-08-07T02:48:14.000Z"
+  },
+  "images": [
+    "http://www.moore.biz/"
+  ],
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+} 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+true 
+
+2026-08-07 02:48:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Electronics_9a027fb5b37949428f64ef1bfe0ca2e1",
+  "slug": "electronics-9a027fb5b37949428f64ef1bfe0ca2e1",
+  "image": "https://www.brown.net/",
+  "creationAt": "2026-08-07T02:48:14.000Z",
+  "updatedAt": "2026-08-07T02:48:14.000Z"
+} 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-08-07 02:48:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

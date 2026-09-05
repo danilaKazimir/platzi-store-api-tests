@@ -1,0 +1,735 @@
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_bcec5d303f8d431f95482b898e38d029",
+  "image": "http://www.hernandez-graham.com/"
+} 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 111,
+  "name": "Sports & Fitness_bcec5d303f8d431f95482b898e38d029",
+  "slug": "sports-fitness-bcec5d303f8d431f95482b898e38d029",
+  "image": "http://www.hernandez-graham.com/",
+  "creationAt": "2026-08-24T01:27:43.000Z",
+  "updatedAt": "2026-08-24T01:27:43.000Z"
+}
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T07:35:30.000Z",
+    "updatedAt": "2026-08-23T18:00:15.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-08-23T07:35:30.000Z",
+    "updatedAt": "2026-08-23T07:35:30.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-08-23T07:35:30.000Z",
+    "updatedAt": "2026-08-23T07:35:30.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-08-23T07:35:30.000Z",
+    "updatedAt": "2026-08-23T07:35:30.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-08-23T07:35:30.000Z",
+    "updatedAt": "2026-08-23T07:35:30.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Grosery",
+    "slug": "grosery",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T11:02:45.000Z",
+    "updatedAt": "2026-08-23T11:02:45.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Computer Category",
+    "slug": "computer-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T11:02:47.000Z",
+    "updatedAt": "2026-08-23T11:02:47.000Z"
+  },
+  {
+    "id": 8,
+    "name": "OcStorefront-ijmk7d80dn",
+    "slug": "ocstorefront-ijmk7d80dn",
+    "image": "https://placehold.co/600x400.png",
+    "creationAt": "2026-08-23T14:44:18.000Z",
+    "updatedAt": "2026-08-23T14:44:18.000Z"
+  },
+  {
+    "id": 9,
+    "name": "* K35IIZE2 GF674F8BA0F review *",
+    "slug": "k35iize2-gf674f8ba0f-review",
+    "image": "https://placehold.co/600x400.png",
+    "creationAt": "2026-08-23T14:54:27.000Z",
+    "updatedAt": "2026-08-23T14:58:31.000Z"
+  },
+  {
+    "id": 10,
+    "name": "GONDOLINE_WEST_49f6c087",
+    "slug": "gondoline-west-49f6c087",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-23T14:56:19.000Z",
+    "updatedAt": "2026-08-23T14:56:19.000Z"
+  },
+  {
+    "id": 11,
+    "name": "GONDOLINE_VETTED_49f6c087",
+    "slug": "gondoline-vetted-49f6c087",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-23T14:56:28.000Z",
+    "updatedAt": "2026-08-23T14:57:50.000Z"
+  },
+  {
+    "id": 12,
+    "name": "catalog-ab5eb7367e1e67e9",
+    "slug": "catalog-ab5eb7367e1e67e9",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-08-23T14:59:54.000Z",
+    "updatedAt": "2026-08-23T14:59:54.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Updated Category",
+    "slug": "updated-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T15:00:37.000Z",
+    "updatedAt": "2026-08-23T18:03:24.000Z"
+  },
+  {
+    "id": 14,
+    "name": "New Category 3",
+    "slug": "new-category-3",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T15:00:59.000Z",
+    "updatedAt": "2026-08-23T15:00:59.000Z"
+  },
+  {
+    "id": 15,
+    "name": "BI Dashboard – Sales Regions Overview",
+    "slug": "bi-dashboard-sales-regions-overview",
+    "image": "https://picsum.photos/seed/bi-sales-dashboard/640/480",
+    "creationAt": "2026-08-23T15:02:31.000Z",
+    "updatedAt": "2026-08-23T15:02:31.000Z"
+  },
+  {
+    "id": 17,
+    "name": "F5RUN7G2KQ9X4 Supplier Group",
+    "slug": "f5run7g2kq9x4-supplier-group",
+    "image": "https://picsum.photos/seed/F5RUN7G2KQ9X4/640/480",
+    "creationAt": "2026-08-23T15:06:39.000Z",
+    "updatedAt": "2026-08-23T15:06:39.000Z"
+  },
+  {
+    "id": 18,
+    "name": "kx7m2q9p Apparel",
+    "slug": "kx7m2q9p-apparel",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-23T15:07:03.000Z",
+    "updatedAt": "2026-08-23T15:07:03.000Z"
+  },
+  {
+    "id": 19,
+    "name": "kx7m2q9p Gadgets",
+    "slug": "kx7m2q9p-gadgets",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-23T15:07:04.000Z",
+    "updatedAt": "2026-08-23T15:07:04.000Z"
+  },
+  {
+    "id": 20,
+    "name": "kx7m2q9p Pantry",
+    "slug": "kx7m2q9p-pantry",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-23T15:07:05.000Z",
+    "updatedAt": "2026-08-23T15:07:05.000Z"
+  },
+  {
+    "id": 22,
+    "name": "HP 1",
+    "slug": "hp-1",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-08-23T15:14:26.000Z",
+    "updatedAt": "2026-08-23T17:02:32.000Z"
+  },
+  {
+    "id": 23,
+    "name": "K3RUN7XQD9 Outdoor Gear Ledger",
+    "slug": "k3run7xqd9-outdoor-gear-ledger",
+    "image": "https://example.com/k3run7xqd9-ledger.png",
+    "creationAt": "2026-08-23T15:16:21.000Z",
+    "updatedAt": "2026-08-23T15:16:21.000Z"
+  },
+  {
+    "id": 24,
+    "name": "REFINERY-js819v",
+    "slug": "refinery-js819v",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T15:18:14.000Z",
+    "updatedAt": "2026-08-23T15:18:14.000Z"
+  },
+  {
+    "id": 25,
+    "name": "AuditZone AUDIT-1787498482-2043830129",
+    "slug": "auditzone-audit-1787498482-2043830129",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-23T15:21:44.000Z",
+    "updatedAt": "2026-08-23T15:21:44.000Z"
+  },
+  {
+    "id": 27,
+    "name": "NW_RT14",
+    "slug": "nw-rt14",
+    "image": "https://picsum.photos/800",
+    "creationAt": "2026-08-23T15:26:49.000Z",
+    "updatedAt": "2026-08-23T15:26:49.000Z"
+  },
+  {
+    "id": 29,
+    "name": "Harbor Maintenance Charter K9W4-260823",
+    "slug": "harbor-maintenance-charter-k9w4-260823",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-23T15:36:47.000Z",
+    "updatedAt": "2026-08-23T15:36:47.000Z"
+  },
+  {
+    "id": 31,
+    "name": "MFG-DOPAMINE-K9W4",
+    "slug": "mfg-dopamine-k9w4",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-23T15:37:33.000Z",
+    "updatedAt": "2026-08-23T15:37:33.000Z"
+  },
+  {
+    "id": 32,
+    "name": "ERPX-Supplier-Novatech",
+    "slug": "erpx-supplier-novatech",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-23T15:37:40.000Z",
+    "updatedAt": "2026-08-23T15:37:40.000Z"
+  },
+  {
+    "id": 34,
+    "name": "Registration PO-2026-xqqb49o0hg",
+    "slug": "registration-po-2026-xqqb49o0hg",
+    "image": "https://placehold.co/600x400.png?text=PO-2026-xqqb49o0hg",
+    "creationAt": "2026-08-23T15:47:03.000Z",
+    "updatedAt": "2026-08-23T15:47:03.000Z"
+  },
+  {
+    "id": 35,
+    "name": "Settlement PO-2026-xqqb49o0hg",
+    "slug": "settlement-po-2026-xqqb49o0hg",
+    "image": "https://placehold.co/600x400.png?text=PO-2026-xqqb49o0hg",
+    "creationAt": "2026-08-23T15:47:11.000Z",
+    "updatedAt": "2026-08-23T15:47:11.000Z"
+  },
+  {
+    "id": 36,
+    "name": "hflabs0823",
+    "slug": "hflabs0823",
+    "image": "https://picsum.photos/600/600",
+    "creationAt": "2026-08-23T15:50:00.000Z",
+    "updatedAt": "2026-08-23T15:50:00.000Z"
+  },
+  {
+    "id": 37,
+    "name": "pilot-c291214e",
+    "slug": "pilot-c291214e",
+    "image": "https://api.lorem.space/image/furniture?w=640&h=480&r=4271",
+    "creationAt": "2026-08-23T15:51:04.000Z",
+    "updatedAt": "2026-08-23T15:51:04.000Z"
+  },
+  {
+    "id": 38,
+    "name": "Port MD Cargo Ledger",
+    "slug": "port-md-cargo-ledger",
+    "image": "https://img.example/port-md/category.png",
+    "creationAt": "2026-08-23T15:51:09.000Z",
+    "updatedAt": "2026-08-23T15:51:09.000Z"
+  },
+  {
+    "id": 39,
+    "name": "rtk-run-58xq-stock",
+    "slug": "rtk-run-58xq-stock",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-23T15:53:12.000Z",
+    "updatedAt": "2026-08-23T15:53:12.000Z"
+  },
+  {
+    "id": 40,
+    "name": "panel-7cmel3te",
+    "slug": "panel-7cmel3te",
+    "image": "https://placehold.co/600x400.png",
+    "creationAt": "2026-08-23T15:53:35.000Z",
+    "updatedAt": "2026-08-23T15:53:35.000Z"
+  },
+  {
+    "id": 41,
+    "name": "REQ-QX42Z7",
+    "slug": "req-qx42z7",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-23T15:54:06.000Z",
+    "updatedAt": "2026-08-23T15:54:06.000Z"
+  },
+  {
+    "id": 42,
+    "name": "Vendora Ledger Goods 1787500621",
+    "slug": "vendora-ledger-goods-1787500621",
+    "image": "https://picsum.photos/seed/cat1787500621/640/480",
+    "creationAt": "2026-08-23T15:57:02.000Z",
+    "updatedAt": "2026-08-23T15:57:02.000Z"
+  },
+  {
+    "id": 43,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T17:01:23.000Z",
+    "updatedAt": "2026-08-23T17:01:23.000Z"
+  },
+  {
+    "id": 44,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-08-23T17:02:32.000Z",
+    "updatedAt": "2026-08-23T17:02:32.000Z"
+  },
+  {
+    "id": 45,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T18:00:14.000Z",
+    "updatedAt": "2026-08-23T18:00:14.000Z"
+  },
+  {
+    "id": 46,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T18:00:34.000Z",
+    "updatedAt": "2026-08-23T18:00:34.000Z"
+  },
+  {
+    "id": 47,
+    "name": "test category jangan dobel",
+    "slug": "test-category-jangan-dobel",
+    "image": "https://placeimg.com/640/480",
+    "creationAt": "2026-08-23T19:00:34.000Z",
+    "updatedAt": "2026-08-23T19:00:34.000Z"
+  },
+  {
+    "id": 48,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T19:00:57.000Z",
+    "updatedAt": "2026-08-23T19:00:57.000Z"
+  },
+  {
+    "id": 49,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-23T21:00:41.000Z",
+    "updatedAt": "2026-08-23T21:00:41.000Z"
+  },
+  {
+    "id": 50,
+    "name": "Storefront-32838096-24496",
+    "slug": "storefront-32838096-24496",
+    "image": "https://picsum.photos/seed/32703/640/480",
+    "creationAt": "2026-08-23T21:02:42.000Z",
+    "updatedAt": "2026-08-23T21:02:42.000Z"
+  },
+  {
+    "id": 51,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-23T21:03:33.000Z",
+    "updatedAt": "2026-08-23T21:03:33.000Z"
+  },
+  {
+    "id": 52,
+    "name": "* KX7QZ9W2MP G5AD7EA28C3 review *",
+    "slug": "kx7qz9w2mp-g5ad7ea28c3-review",
+    "image": "https://placehold.co/600x400/png",
+    "creationAt": "2026-08-23T21:14:24.000Z",
+    "updatedAt": "2026-08-23T21:20:57.000Z"
+  },
+  {
+    "id": 53,
+    "name": "BI Dashboard Sales Regions",
+    "slug": "bi-dashboard-sales-regions",
+    "image": "https://placeimg.com/640/480/tech",
+    "creationAt": "2026-08-23T21:14:55.000Z",
+    "updatedAt": "2026-08-23T21:14:55.000Z"
+  },
+  {
+    "id": 54,
+    "name": "bi-catalog-01a03079cf00736e",
+    "slug": "bi-catalog-01a03079cf00736e",
+    "image": "https://picsum.photos/seed/01a03079cf00736e/640/480",
+    "creationAt": "2026-08-23T21:17:49.000Z",
+    "updatedAt": "2026-08-23T21:17:49.000Z"
+  },
+  {
+    "id": 55,
+    "name": "GONDOLINE_WEST_76b609ce",
+    "slug": "gondoline-west-76b609ce",
+    "image": "https://picsum.photos/seed/gondoline-west/640/480",
+    "creationAt": "2026-08-23T21:20:00.000Z",
+    "updatedAt": "2026-08-23T21:20:00.000Z"
+  },
+  {
+    "id": 56,
+    "name": "GONDOLINE_VETTED_76b609ce",
+    "slug": "gondoline-vetted-76b609ce",
+    "image": "https://picsum.photos/seed/gondoline-suppliers/640/480",
+    "creationAt": "2026-08-23T21:20:02.000Z",
+    "updatedAt": "2026-08-23T21:21:46.000Z"
+  },
+  {
+    "id": 57,
+    "name": "Ottilie Prewitt Wares",
+    "slug": "ottilie-prewitt-wares",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T21:21:05.000Z",
+    "updatedAt": "2026-08-23T21:21:05.000Z"
+  },
+  {
+    "id": 59,
+    "name": "q7kx2jv Trail Gear",
+    "slug": "q7kx2jv-trail-gear",
+    "image": "https://picsum.photos/seed/q7kx2jv1/640/480",
+    "creationAt": "2026-08-23T21:30:33.000Z",
+    "updatedAt": "2026-08-23T21:30:33.000Z"
+  },
+  {
+    "id": 60,
+    "name": "q7kx2jv Home Comforts",
+    "slug": "q7kx2jv-home-comforts",
+    "image": "https://picsum.photos/seed/q7kx2jv2/640/480",
+    "creationAt": "2026-08-23T21:30:34.000Z",
+    "updatedAt": "2026-08-23T21:30:34.000Z"
+  },
+  {
+    "id": 61,
+    "name": "q7kx2jv Gadget Shelf",
+    "slug": "q7kx2jv-gadget-shelf",
+    "image": "https://picsum.photos/seed/q7kx2jv3/640/480",
+    "creationAt": "2026-08-23T21:30:35.000Z",
+    "updatedAt": "2026-08-23T21:30:35.000Z"
+  },
+  {
+    "id": 62,
+    "name": "QXDAAAF0 Outdoor Gear Ledger",
+    "slug": "qxdaaaf0-outdoor-gear-ledger",
+    "image": "https://placeimg.com/640/480/nature",
+    "creationAt": "2026-08-23T21:42:29.000Z",
+    "updatedAt": "2026-08-23T21:42:29.000Z"
+  },
+  {
+    "id": 63,
+    "name": "Audit Category audit-1787521705-2033231768",
+    "slug": "audit-category-audit-1787521705-2033231768",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-23T21:48:26.000Z",
+    "updatedAt": "2026-08-23T21:48:26.000Z"
+  },
+  {
+    "id": 65,
+    "name": "PO-2026-08-23-SUP-01 Ledger",
+    "slug": "po-2026-08-23-sup-01-ledger",
+    "image": "https://placehold.co/640x480?rev=1",
+    "creationAt": "2026-08-23T21:51:54.000Z",
+    "updatedAt": "2026-08-23T21:57:21.000Z"
+  },
+  {
+    "id": 66,
+    "name": "REFINERY-h8m3pw",
+    "slug": "refinery-h8m3pw",
+    "image": "https://picsum.photos/800",
+    "creationAt": "2026-08-23T21:54:11.000Z",
+    "updatedAt": "2026-08-23T21:54:11.000Z"
+  },
+  {
+    "id": 69,
+    "name": "HARBOR-MAINT-K9W4-1787522884",
+    "slug": "harbor-maint-k9w4-1787522884",
+    "image": "https://placeimg.com/640/480/tech",
+    "creationAt": "2026-08-23T22:08:05.000Z",
+    "updatedAt": "2026-08-23T22:08:05.000Z"
+  },
+  {
+    "id": 70,
+    "name": "NWWAVE_RUN_201",
+    "slug": "nwwave-run-201",
+    "image": "https://picsum.photos/seed/nwavecat201/640/480",
+    "creationAt": "2026-08-23T22:10:34.000Z",
+    "updatedAt": "2026-08-23T22:10:34.000Z"
+  },
+  {
+    "id": 72,
+    "name": "ERPX-Supplier-Nova-1787523091",
+    "slug": "erpx-supplier-nova-1787523091",
+    "image": "https://picsum.photos/seed/erpx-1787523091/640/480",
+    "creationAt": "2026-08-23T22:11:32.000Z",
+    "updatedAt": "2026-08-23T22:11:32.000Z"
+  },
+  {
+    "id": 74,
+    "name": "hflabscat01",
+    "slug": "hflabscat01",
+    "image": "https://picsum.photos/640/640",
+    "creationAt": "2026-08-23T22:19:23.000Z",
+    "updatedAt": "2026-08-23T22:19:23.000Z"
+  },
+  {
+    "id": 75,
+    "name": "Books",
+    "slug": "books",
+    "image": "https://api.lorem.space/image/book?w=150&h=220",
+    "creationAt": "2026-08-23T22:19:37.000Z",
+    "updatedAt": "2026-08-23T22:19:37.000Z"
+  },
+  {
+    "id": 76,
+    "name": "pilot-e9da0c64",
+    "slug": "pilot-e9da0c64",
+    "image": "https://picsum.photos/seed/pilot-e9da0c64/640/480",
+    "creationAt": "2026-08-23T22:23:09.000Z",
+    "updatedAt": "2026-08-23T22:23:09.000Z"
+  },
+  {
+    "id": 77,
+    "name": "Registration PO-2026-3hfjtqlzgd",
+    "slug": "registration-po-2026-3hfjtqlzgd",
+    "image": "https://example.com/settlement/PO-2026-3hfjtqlzgd.png",
+    "creationAt": "2026-08-23T22:25:24.000Z",
+    "updatedAt": "2026-08-23T22:25:24.000Z"
+  },
+  {
+    "id": 78,
+    "name": "Settlement PO-2026-3hfjtqlzgd",
+    "slug": "settlement-po-2026-3hfjtqlzgd",
+    "image": "https://example.com/settlement/PO-2026-3hfjtqlzgd.png",
+    "creationAt": "2026-08-23T22:25:25.000Z",
+    "updatedAt": "2026-08-23T22:25:25.000Z"
+  },
+  {
+    "id": 79,
+    "name": "panel-ndi3e06x",
+    "slug": "panel-ndi3e06x",
+    "image": "https://placehold.co/600x400.png",
+    "creationAt": "2026-08-23T22:25:28.000Z",
+    "updatedAt": "2026-08-23T22:25:28.000Z"
+  },
+  {
+    "id": 80,
+    "name": "REQ-6PRK7MOM",
+    "slug": "req-6prk7mom",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-23T22:26:20.000Z",
+    "updatedAt": "2026-08-23T22:26:20.000Z"
+  },
+  {
+    "id": 81,
+    "name": "zrun-box-1787524179-cc12fda4",
+    "slug": "zrun-box-1787524179-cc12fda4",
+    "image": "https://picsum.photos/640",
+    "creationAt": "2026-08-23T22:29:56.000Z",
+    "updatedAt": "2026-08-23T22:29:56.000Z"
+  },
+  {
+    "id": 82,
+    "name": "erp-cat-erp-lab-1787524255",
+    "slug": "erp-cat-erp-lab-1787524255",
+    "image": "https://picsum.photos/seed/erp-lab-1787524255/640/480",
+    "creationAt": "2026-08-23T22:30:56.000Z",
+    "updatedAt": "2026-08-23T22:30:56.000Z"
+  },
+  {
+    "id": 83,
+    "name": "Books_theo",
+    "slug": "books-theo",
+    "image": "https://api.lorem.space/image/book?w=150&h=220",
+    "creationAt": "2026-08-23T23:19:37.000Z",
+    "updatedAt": "2026-08-23T23:19:37.000Z"
+  },
+  {
+    "id": 84,
+    "name": "Books_theo1",
+    "slug": "books-theo1",
+    "image": "https://api.lorem.space/image/book?w=150&h=220",
+    "creationAt": "2026-08-23T23:19:42.000Z",
+    "updatedAt": "2026-08-23T23:19:42.000Z"
+  },
+  {
+    "id": 85,
+    "name": "Books_theo2",
+    "slug": "books-theo2",
+    "image": "https://api.lorem.space/image/book?w=150&h=220",
+    "creationAt": "2026-08-23T23:50:15.000Z",
+    "updatedAt": "2026-08-23T23:50:15.000Z"
+  },
+  {
+    "id": 96,
+    "name": "Integration Test Category",
+    "slug": "integration-test-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T00:22:19.000Z",
+    "updatedAt": "2026-08-24T00:22:19.000Z"
+  },
+  {
+    "id": 97,
+    "name": "Integration Test Category 6ac17264ca29496d97be5d7e91f71223",
+    "slug": "integration-test-category-6ac17264ca29496d97be5d7e91f71223",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T00:38:49.000Z",
+    "updatedAt": "2026-08-24T00:38:49.000Z"
+  },
+  {
+    "id": 98,
+    "name": "ClearKiosk-c90e2d1e-a374-4eb2-9a9e-08aa324d8f1c",
+    "slug": "clearkiosk-c90e2d1e-a374-4eb2-9a9e-08aa324d8f1c",
+    "image": "https://picsum.photos/seed/clearkiosk/640/480",
+    "creationAt": "2026-08-24T01:14:37.000Z",
+    "updatedAt": "2026-08-24T01:14:37.000Z"
+  },
+  {
+    "id": 99,
+    "name": "Marisol Vantrel Selections",
+    "slug": "marisol-vantrel-selections",
+    "image": "https://picsum.photos/seed/mvantrel/640/480",
+    "creationAt": "2026-08-24T01:20:16.000Z",
+    "updatedAt": "2026-08-24T01:20:16.000Z"
+  },
+  {
+    "id": 100,
+    "name": "BI Sales Regions Overview K3-0824",
+    "slug": "bi-sales-regions-overview-k3-0824",
+    "image": "https://placehold.co/640x480/003366/ffffff.png",
+    "creationAt": "2026-08-24T01:20:23.000Z",
+    "updatedAt": "2026-08-24T01:20:23.000Z"
+  },
+  {
+    "id": 101,
+    "name": "catalog-384bdfc2d99a57c4",
+    "slug": "catalog-384bdfc2d99a57c4",
+    "image": "https://placeimg.com/640/480/tech",
+    "creationAt": "2026-08-24T01:20:26.000Z",
+    "updatedAt": "2026-08-24T01:20:26.000Z"
+  },
+  {
+    "id": 102,
+    "name": "REFINERY-hsqkt1",
+    "slug": "refinery-hsqkt1",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T01:21:45.000Z",
+    "updatedAt": "2026-08-24T01:21:45.000Z"
+  },
+  {
+    "id": 104,
+    "name": "atlas824 Provisions",
+    "slug": "atlas824-provisions",
+    "image": "https://placehold.co/640x480/png",
+    "creationAt": "2026-08-24T01:24:59.000Z",
+    "updatedAt": "2026-08-24T01:24:59.000Z"
+  },
+  {
+    "id": 105,
+    "name": "atlas824 Textiles",
+    "slug": "atlas824-textiles",
+    "image": "https://placehold.co/640x480/png",
+    "creationAt": "2026-08-24T01:25:00.000Z",
+    "updatedAt": "2026-08-24T01:25:00.000Z"
+  },
+  {
+    "id": 106,
+    "name": "atlas824 Hardware",
+    "slug": "atlas824-hardware",
+    "image": "https://placehold.co/640x480/png",
+    "creationAt": "2026-08-24T01:25:01.000Z",
+    "updatedAt": "2026-08-24T01:25:01.000Z"
+  },
+  {
+    "id": 108,
+    "name": "NW_WAVE_711",
+    "slug": "nw-wave-711",
+    "image": "https://picsum.photos/seed/nwcategory/640/480",
+    "creationAt": "2026-08-24T01:26:53.000Z",
+    "updatedAt": "2026-08-24T01:26:53.000Z"
+  },
+  {
+    "id": 110,
+    "name": "testCategory1a7123fae8d74694a15c2d0825bbe0b9",
+    "slug": "testcategory1a7123fae8d74694a15c2d0825bbe0b9",
+    "image": "https://www.matthews.net/",
+    "creationAt": "2026-08-24T01:27:43.000Z",
+    "updatedAt": "2026-08-24T01:27:43.000Z"
+  },
+  {
+    "id": 111,
+    "name": "Sports & Fitness_bcec5d303f8d431f95482b898e38d029",
+    "slug": "sports-fitness-bcec5d303f8d431f95482b898e38d029",
+    "image": "http://www.hernandez-graham.com/",
+    "creationAt": "2026-08-24T01:27:43.000Z",
+    "updatedAt": "2026-08-24T01:27:43.000Z"
+  }
+]
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/111
+Body:
+<empty> 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/111 -> 200
+Body:
+{
+  "id": 111,
+  "name": "Sports & Fitness_bcec5d303f8d431f95482b898e38d029",
+  "slug": "sports-fitness-bcec5d303f8d431f95482b898e38d029",
+  "image": "http://www.hernandez-graham.com/",
+  "creationAt": "2026-08-24T01:27:43.000Z",
+  "updatedAt": "2026-08-24T01:27:43.000Z"
+} 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/111
+Body:
+<empty> 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/111 -> 200
+Body:
+true

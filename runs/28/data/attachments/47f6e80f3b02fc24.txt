@@ -1,0 +1,79 @@
+2026-08-10 02:02:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_87f14a5a282f402785746ab2a3154586",
+  "image": "http://www.page.com/"
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 402,
+  "name": "Food & Beverages_87f14a5a282f402785746ab2a3154586",
+  "slug": "food-beverages-87f14a5a282f402785746ab2a3154586",
+  "image": "http://www.page.com/",
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+}
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal object-oriented concept-0793b0ea3a124e8fa642bc760c19c41a",
+  "price": 430,
+  "description": "Proactive 4thgeneration intranet",
+  "categoryId": 402,
+  "images": [
+    "http://www.nguyen.com/"
+  ]
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 336,
+  "title": "Universal object-oriented concept-0793b0ea3a124e8fa642bc760c19c41a",
+  "slug": "universal-object-oriented-concept-0793b0ea3a124e8fa642bc760c19c41a",
+  "price": 430,
+  "description": "Proactive 4thgeneration intranet",
+  "category": {
+    "id": 402,
+    "name": "Food & Beverages_87f14a5a282f402785746ab2a3154586",
+    "slug": "food-beverages-87f14a5a282f402785746ab2a3154586",
+    "image": "http://www.page.com/",
+    "creationAt": "2026-08-10T02:02:11.000Z",
+    "updatedAt": "2026-08-10T02:02:11.000Z"
+  },
+  "images": [
+    "http://www.nguyen.com/"
+  ],
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+}
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/402
+Body:
+<empty> 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/402 -> 200
+Body:
+{
+  "id": 402,
+  "name": "Food & Beverages_87f14a5a282f402785746ab2a3154586",
+  "slug": "food-beverages-87f14a5a282f402785746ab2a3154586",
+  "image": "http://www.page.com/",
+  "creationAt": "2026-08-10T02:02:11.000Z",
+  "updatedAt": "2026-08-10T02:02:11.000Z"
+} 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/402
+Body:
+<empty> 
+
+2026-08-10 02:02:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/402 -> 400
+Body:
+{
+  "path": "/api/v1/categories/402",
+  "timestamp": "2026-08-10T02:02:11.635Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

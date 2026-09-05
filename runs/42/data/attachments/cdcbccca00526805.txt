@@ -1,0 +1,79 @@
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_0668fc4a77074b2da89e017147f19c8d",
+  "image": "http://mccoy-stevens.com/"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 118,
+  "name": "Electronics_0668fc4a77074b2da89e017147f19c8d",
+  "slug": "electronics-0668fc4a77074b2da89e017147f19c8d",
+  "image": "http://mccoy-stevens.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Distributed neutral policy-794195402a2c48a9a0b5869585ce4767",
+  "price": 709,
+  "description": "Sharable static array",
+  "categoryId": 118,
+  "images": [
+    "http://www.weaver-fuller.com/"
+  ]
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 404,
+  "title": "Distributed neutral policy-794195402a2c48a9a0b5869585ce4767",
+  "slug": "distributed-neutral-policy-794195402a2c48a9a0b5869585ce4767",
+  "price": 709,
+  "description": "Sharable static array",
+  "category": {
+    "id": 118,
+    "name": "Electronics_0668fc4a77074b2da89e017147f19c8d",
+    "slug": "electronics-0668fc4a77074b2da89e017147f19c8d",
+    "image": "http://mccoy-stevens.com/",
+    "creationAt": "2026-08-24T01:27:44.000Z",
+    "updatedAt": "2026-08-24T01:27:44.000Z"
+  },
+  "images": [
+    "http://www.weaver-fuller.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/118
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/118 -> 200
+Body:
+{
+  "id": 118,
+  "name": "Electronics_0668fc4a77074b2da89e017147f19c8d",
+  "slug": "electronics-0668fc4a77074b2da89e017147f19c8d",
+  "image": "http://mccoy-stevens.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/118
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/118 -> 400
+Body:
+{
+  "path": "/api/v1/categories/118",
+  "timestamp": "2026-08-24T01:27:44.455Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

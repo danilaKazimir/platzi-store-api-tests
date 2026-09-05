@@ -1,0 +1,408 @@
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+  "image": "http://avery.org/"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1199,
+  "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+  "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+  "image": "http://avery.org/",
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+}
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated background array-0bb5fa26360e4612a20223b09a23a661",
+  "price": 568,
+  "description": "Cross-platform clear-thinking website",
+  "categoryId": 1199,
+  "images": [
+    "http://www.gordon-porter.net/"
+  ]
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 768,
+  "title": "Ameliorated background array-0bb5fa26360e4612a20223b09a23a661",
+  "slug": "ameliorated-background-array-0bb5fa26360e4612a20223b09a23a661",
+  "price": 568,
+  "description": "Cross-platform clear-thinking website",
+  "category": {
+    "id": 1199,
+    "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+    "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+    "image": "http://avery.org/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://www.gordon-porter.net/"
+  ],
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+} 
+
+2026-08-17 01:25:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-platform bifurcated success-8ce37d35fb314b319f1ac9a4f5b10118",
+  "price": 102,
+  "description": "Operative high-level open system",
+  "categoryId": 1199,
+  "images": [
+    "http://smith.com/"
+  ]
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 769,
+  "title": "Cross-platform bifurcated success-8ce37d35fb314b319f1ac9a4f5b10118",
+  "slug": "cross-platform-bifurcated-success-8ce37d35fb314b319f1ac9a4f5b10118",
+  "price": 102,
+  "description": "Operative high-level open system",
+  "category": {
+    "id": 1199,
+    "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+    "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+    "image": "http://avery.org/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://smith.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive zero administration projection-e78b6f60913a44c48d29801c60cd0421",
+  "price": 298,
+  "description": "Integrated incremental open architecture",
+  "categoryId": 1199,
+  "images": [
+    "http://www.lee.com/"
+  ]
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 771,
+  "title": "Reactive zero administration projection-e78b6f60913a44c48d29801c60cd0421",
+  "slug": "reactive-zero-administration-projection-e78b6f60913a44c48d29801c60cd0421",
+  "price": 298,
+  "description": "Integrated incremental open architecture",
+  "category": {
+    "id": 1199,
+    "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+    "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+    "image": "http://avery.org/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://www.lee.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_56980cbabe504a468498330331660b87",
+  "image": "https://www.garcia.com/"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1201,
+  "name": "Electronics_56980cbabe504a468498330331660b87",
+  "slug": "electronics-56980cbabe504a468498330331660b87",
+  "image": "https://www.garcia.com/",
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Monitored high-level open architecture-ff0cba80e0cf476aa3b02b1f5d991d77",
+  "price": 984,
+  "description": "Grass-roots 3rdgeneration collaboration",
+  "categoryId": 1201,
+  "images": [
+    "http://www.wilkerson-golden.com/"
+  ]
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 772,
+  "title": "Monitored high-level open architecture-ff0cba80e0cf476aa3b02b1f5d991d77",
+  "slug": "monitored-high-level-open-architecture-ff0cba80e0cf476aa3b02b1f5d991d77",
+  "price": 984,
+  "description": "Grass-roots 3rdgeneration collaboration",
+  "category": {
+    "id": 1201,
+    "name": "Electronics_56980cbabe504a468498330331660b87",
+    "slug": "electronics-56980cbabe504a468498330331660b87",
+    "image": "https://www.garcia.com/",
+    "creationAt": "2026-08-17T01:25:32.000Z",
+    "updatedAt": "2026-08-17T01:25:32.000Z"
+  },
+  "images": [
+    "http://www.wilkerson-golden.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/ameliorated-background-array-0bb5fa26360e4612a20223b09a23a661/related
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/ameliorated-background-array-0bb5fa26360e4612a20223b09a23a661/related -> 200
+Body:
+[
+  {
+    "id": 769,
+    "title": "Cross-platform bifurcated success-8ce37d35fb314b319f1ac9a4f5b10118",
+    "slug": "cross-platform-bifurcated-success-8ce37d35fb314b319f1ac9a4f5b10118",
+    "price": 102,
+    "description": "Operative high-level open system",
+    "category": {
+      "id": 1199,
+      "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+      "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+      "image": "http://avery.org/",
+      "creationAt": "2026-08-17T01:25:31.000Z",
+      "updatedAt": "2026-08-17T01:25:31.000Z"
+    },
+    "images": [
+      "http://smith.com/"
+    ],
+    "creationAt": "2026-08-17T01:25:32.000Z",
+    "updatedAt": "2026-08-17T01:25:32.000Z"
+  },
+  {
+    "id": 771,
+    "title": "Reactive zero administration projection-e78b6f60913a44c48d29801c60cd0421",
+    "slug": "reactive-zero-administration-projection-e78b6f60913a44c48d29801c60cd0421",
+    "price": 298,
+    "description": "Integrated incremental open architecture",
+    "category": {
+      "id": 1199,
+      "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+      "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+      "image": "http://avery.org/",
+      "creationAt": "2026-08-17T01:25:31.000Z",
+      "updatedAt": "2026-08-17T01:25:31.000Z"
+    },
+    "images": [
+      "http://www.lee.com/"
+    ],
+    "creationAt": "2026-08-17T01:25:32.000Z",
+    "updatedAt": "2026-08-17T01:25:32.000Z"
+  }
+]
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/772
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/772 -> 200
+Body:
+{
+  "id": 772,
+  "title": "Monitored high-level open architecture-ff0cba80e0cf476aa3b02b1f5d991d77",
+  "slug": "monitored-high-level-open-architecture-ff0cba80e0cf476aa3b02b1f5d991d77",
+  "price": 984,
+  "description": "Grass-roots 3rdgeneration collaboration",
+  "category": {
+    "id": 1201,
+    "name": "Electronics_56980cbabe504a468498330331660b87",
+    "slug": "electronics-56980cbabe504a468498330331660b87",
+    "image": "https://www.garcia.com/",
+    "creationAt": "2026-08-17T01:25:32.000Z",
+    "updatedAt": "2026-08-17T01:25:32.000Z"
+  },
+  "images": [
+    "http://www.wilkerson-golden.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/772
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/772 -> 200
+Body:
+true 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/771
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/771 -> 200
+Body:
+{
+  "id": 771,
+  "title": "Reactive zero administration projection-e78b6f60913a44c48d29801c60cd0421",
+  "slug": "reactive-zero-administration-projection-e78b6f60913a44c48d29801c60cd0421",
+  "price": 298,
+  "description": "Integrated incremental open architecture",
+  "category": {
+    "id": 1199,
+    "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+    "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+    "image": "http://avery.org/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://www.lee.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/771
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/771 -> 200
+Body:
+true 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/769
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/769 -> 200
+Body:
+{
+  "id": 769,
+  "title": "Cross-platform bifurcated success-8ce37d35fb314b319f1ac9a4f5b10118",
+  "slug": "cross-platform-bifurcated-success-8ce37d35fb314b319f1ac9a4f5b10118",
+  "price": 102,
+  "description": "Operative high-level open system",
+  "category": {
+    "id": 1199,
+    "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+    "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+    "image": "http://avery.org/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://smith.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/769
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/769 -> 200
+Body:
+true 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/768
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/768 -> 200
+Body:
+{
+  "id": 768,
+  "title": "Ameliorated background array-0bb5fa26360e4612a20223b09a23a661",
+  "slug": "ameliorated-background-array-0bb5fa26360e4612a20223b09a23a661",
+  "price": 568,
+  "description": "Cross-platform clear-thinking website",
+  "category": {
+    "id": 1199,
+    "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+    "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+    "image": "http://avery.org/",
+    "creationAt": "2026-08-17T01:25:31.000Z",
+    "updatedAt": "2026-08-17T01:25:31.000Z"
+  },
+  "images": [
+    "http://www.gordon-porter.net/"
+  ],
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/768
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/768 -> 200
+Body:
+true 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1201
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1201 -> 200
+Body:
+{
+  "id": 1201,
+  "name": "Electronics_56980cbabe504a468498330331660b87",
+  "slug": "electronics-56980cbabe504a468498330331660b87",
+  "image": "https://www.garcia.com/",
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1201
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1201 -> 200
+Body:
+true 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1199
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1199 -> 200
+Body:
+{
+  "id": 1199,
+  "name": "Personal Care_930cc2f044f94e928b3998491152e9e2",
+  "slug": "personal-care-930cc2f044f94e928b3998491152e9e2",
+  "image": "http://avery.org/",
+  "creationAt": "2026-08-17T01:25:31.000Z",
+  "updatedAt": "2026-08-17T01:25:31.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1199
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1199 -> 200
+Body:
+true

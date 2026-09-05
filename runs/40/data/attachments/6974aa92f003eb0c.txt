@@ -1,0 +1,53 @@
+2026-08-22 01:22:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_876762dec668423bb23f69bdc12dd348",
+  "image": "https://www.hampton.com/"
+} 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 728,
+  "name": "Toys_876762dec668423bb23f69bdc12dd348",
+  "slug": "toys-876762dec668423bb23f69bdc12dd348",
+  "image": "https://www.hampton.com/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+}
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/toys-876762dec668423bb23f69bdc12dd348
+Body:
+<empty> 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/toys-876762dec668423bb23f69bdc12dd348 -> 200
+Body:
+{
+  "id": 728,
+  "name": "Toys_876762dec668423bb23f69bdc12dd348",
+  "slug": "toys-876762dec668423bb23f69bdc12dd348",
+  "image": "https://www.hampton.com/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+}
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/728
+Body:
+<empty> 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/728 -> 200
+Body:
+{
+  "id": 728,
+  "name": "Toys_876762dec668423bb23f69bdc12dd348",
+  "slug": "toys-876762dec668423bb23f69bdc12dd348",
+  "image": "https://www.hampton.com/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+} 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/728
+Body:
+<empty> 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/728 -> 200
+Body:
+true

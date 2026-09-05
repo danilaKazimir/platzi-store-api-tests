@@ -1,0 +1,135 @@
+2026-08-14 02:10:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_7b5c67eb108c435b8ee04c5ab4a82ec9",
+  "image": "http://www.elliott.net/"
+} 
+
+2026-08-14 02:10:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1342,
+  "name": "Home & Kitchen_7b5c67eb108c435b8ee04c5ab4a82ec9",
+  "slug": "home-kitchen-7b5c67eb108c435b8ee04c5ab4a82ec9",
+  "image": "http://www.elliott.net/",
+  "creationAt": "2026-08-14T02:10:39.000Z",
+  "updatedAt": "2026-08-14T02:10:39.000Z"
+} 
+
+2026-08-14 02:10:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Sharable impactful standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "price": 226,
+  "description": "Enterprise-wide web-enabled methodology",
+  "categoryId": 1342,
+  "images": [
+    "http://young.com/"
+  ]
+} 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 818,
+  "title": "Sharable impactful standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "slug": "sharable-impactful-standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "price": 226,
+  "description": "Enterprise-wide web-enabled methodology",
+  "category": {
+    "id": 1342,
+    "name": "Home & Kitchen_7b5c67eb108c435b8ee04c5ab4a82ec9",
+    "slug": "home-kitchen-7b5c67eb108c435b8ee04c5ab4a82ec9",
+    "image": "http://www.elliott.net/",
+    "creationAt": "2026-08-14T02:10:39.000Z",
+    "updatedAt": "2026-08-14T02:10:39.000Z"
+  },
+  "images": [
+    "http://young.com/"
+  ],
+  "creationAt": "2026-08-14T02:10:40.000Z",
+  "updatedAt": "2026-08-14T02:10:40.000Z"
+}
+2026-08-14 02:10:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/818
+Body:
+<empty> 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/818 -> 200
+Body:
+{
+  "id": 818,
+  "title": "Sharable impactful standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "slug": "sharable-impactful-standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "price": 226,
+  "description": "Enterprise-wide web-enabled methodology",
+  "category": {
+    "id": 1342,
+    "name": "Home & Kitchen_7b5c67eb108c435b8ee04c5ab4a82ec9",
+    "slug": "home-kitchen-7b5c67eb108c435b8ee04c5ab4a82ec9",
+    "image": "http://www.elliott.net/",
+    "creationAt": "2026-08-14T02:10:39.000Z",
+    "updatedAt": "2026-08-14T02:10:39.000Z"
+  },
+  "images": [
+    "http://young.com/"
+  ],
+  "creationAt": "2026-08-14T02:10:40.000Z",
+  "updatedAt": "2026-08-14T02:10:40.000Z"
+}
+2026-08-14 02:10:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/818
+Body:
+<empty> 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/818 -> 200
+Body:
+{
+  "id": 818,
+  "title": "Sharable impactful standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "slug": "sharable-impactful-standardization-5c22e37dc1a54452b7f57b4b04e358be",
+  "price": 226,
+  "description": "Enterprise-wide web-enabled methodology",
+  "category": {
+    "id": 1342,
+    "name": "Home & Kitchen_7b5c67eb108c435b8ee04c5ab4a82ec9",
+    "slug": "home-kitchen-7b5c67eb108c435b8ee04c5ab4a82ec9",
+    "image": "http://www.elliott.net/",
+    "creationAt": "2026-08-14T02:10:39.000Z",
+    "updatedAt": "2026-08-14T02:10:39.000Z"
+  },
+  "images": [
+    "http://young.com/"
+  ],
+  "creationAt": "2026-08-14T02:10:40.000Z",
+  "updatedAt": "2026-08-14T02:10:40.000Z"
+} 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/818
+Body:
+<empty> 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/818 -> 200
+Body:
+true 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1342
+Body:
+<empty> 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1342 -> 200
+Body:
+{
+  "id": 1342,
+  "name": "Home & Kitchen_7b5c67eb108c435b8ee04c5ab4a82ec9",
+  "slug": "home-kitchen-7b5c67eb108c435b8ee04c5ab4a82ec9",
+  "image": "http://www.elliott.net/",
+  "creationAt": "2026-08-14T02:10:39.000Z",
+  "updatedAt": "2026-08-14T02:10:39.000Z"
+} 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1342
+Body:
+<empty> 
+
+2026-08-14 02:10:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1342 -> 200
+Body:
+true

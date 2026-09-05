@@ -1,0 +1,71 @@
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3eadb6584fcb477ba4bd058eb4f6f82a",
+  "image": "http://garrett-humphrey.biz/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1188,
+  "name": "Sports & Fitness_3eadb6584fcb477ba4bd058eb4f6f82a",
+  "slug": "sports-fitness-3eadb6584fcb477ba4bd058eb4f6f82a",
+  "image": "http://garrett-humphrey.biz/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/1188
+Body:
+{
+  "name": "Food & Beverages_bdd289f83b604ebaa521d3c02c30ebfb",
+  "image": "http://www.munoz-bell.com/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/1188 -> 200
+Body:
+{
+  "id": 1188,
+  "name": "Food & Beverages_bdd289f83b604ebaa521d3c02c30ebfb",
+  "slug": "food-beverages-bdd289f83b604ebaa521d3c02c30ebfb",
+  "image": "http://www.munoz-bell.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1188
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1188 -> 200
+Body:
+{
+  "id": 1188,
+  "name": "Food & Beverages_bdd289f83b604ebaa521d3c02c30ebfb",
+  "slug": "food-beverages-bdd289f83b604ebaa521d3c02c30ebfb",
+  "image": "http://www.munoz-bell.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1188
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1188 -> 200
+Body:
+{
+  "id": 1188,
+  "name": "Food & Beverages_bdd289f83b604ebaa521d3c02c30ebfb",
+  "slug": "food-beverages-bdd289f83b604ebaa521d3c02c30ebfb",
+  "image": "http://www.munoz-bell.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1188
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1188 -> 200
+Body:
+true

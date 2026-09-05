@@ -1,0 +1,135 @@
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_3d4406fe041b4ab6aac87d0970c10af4",
+  "image": "http://www.dunlap-sullivan.net/"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 481,
+  "name": "Toys_3d4406fe041b4ab6aac87d0970c10af4",
+  "slug": "toys-3d4406fe041b4ab6aac87d0970c10af4",
+  "image": "http://www.dunlap-sullivan.net/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Right-sized reciprocal solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "price": 210,
+  "description": "Centralized scalable function",
+  "categoryId": 481,
+  "images": [
+    "https://www.jones-myers.com/"
+  ]
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 500,
+  "title": "Right-sized reciprocal solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "slug": "right-sized-reciprocal-solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "price": 210,
+  "description": "Centralized scalable function",
+  "category": {
+    "id": 481,
+    "name": "Toys_3d4406fe041b4ab6aac87d0970c10af4",
+    "slug": "toys-3d4406fe041b4ab6aac87d0970c10af4",
+    "image": "http://www.dunlap-sullivan.net/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "https://www.jones-myers.com/"
+  ],
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+}
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/500
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/500 -> 200
+Body:
+{
+  "id": 500,
+  "title": "Right-sized reciprocal solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "slug": "right-sized-reciprocal-solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "price": 210,
+  "description": "Centralized scalable function",
+  "category": {
+    "id": 481,
+    "name": "Toys_3d4406fe041b4ab6aac87d0970c10af4",
+    "slug": "toys-3d4406fe041b4ab6aac87d0970c10af4",
+    "image": "http://www.dunlap-sullivan.net/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "https://www.jones-myers.com/"
+  ],
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+}
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/500
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/500 -> 200
+Body:
+{
+  "id": 500,
+  "title": "Right-sized reciprocal solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "slug": "right-sized-reciprocal-solution-89944b868e0f4263b915e9b1d0d6f4d7",
+  "price": 210,
+  "description": "Centralized scalable function",
+  "category": {
+    "id": 481,
+    "name": "Toys_3d4406fe041b4ab6aac87d0970c10af4",
+    "slug": "toys-3d4406fe041b4ab6aac87d0970c10af4",
+    "image": "http://www.dunlap-sullivan.net/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "https://www.jones-myers.com/"
+  ],
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/500
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/500 -> 200
+Body:
+true 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/481
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/481 -> 200
+Body:
+{
+  "id": 481,
+  "name": "Toys_3d4406fe041b4ab6aac87d0970c10af4",
+  "slug": "toys-3d4406fe041b4ab6aac87d0970c10af4",
+  "image": "http://www.dunlap-sullivan.net/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/481
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/481 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-08-13 02:12:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_91d73117550b4858bd04497221c2de83",
+  "image": "http://www.robertson.com/"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 59,
+  "name": "Clothing_91d73117550b4858bd04497221c2de83",
+  "slug": "clothing-91d73117550b4858bd04497221c2de83",
+  "image": "http://www.robertson.com/",
+  "creationAt": "2026-08-13T02:12:31.000Z",
+  "updatedAt": "2026-08-13T02:12:31.000Z"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-engineered empowering infrastructure-72846e5f612e439eaf6a8f6191c3d0c6",
+  "price": 308,
+  "description": "Cross-group 4thgeneration interface",
+  "categoryId": 59,
+  "images": [
+    "http://davis.com/"
+  ]
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 262,
+  "title": "Re-engineered empowering infrastructure-72846e5f612e439eaf6a8f6191c3d0c6",
+  "slug": "re-engineered-empowering-infrastructure-72846e5f612e439eaf6a8f6191c3d0c6",
+  "price": 308,
+  "description": "Cross-group 4thgeneration interface",
+  "category": {
+    "id": 59,
+    "name": "Clothing_91d73117550b4858bd04497221c2de83",
+    "slug": "clothing-91d73117550b4858bd04497221c2de83",
+    "image": "http://www.robertson.com/",
+    "creationAt": "2026-08-13T02:12:31.000Z",
+    "updatedAt": "2026-08-13T02:12:31.000Z"
+  },
+  "images": [
+    "http://davis.com/"
+  ],
+  "creationAt": "2026-08-13T02:12:31.000Z",
+  "updatedAt": "2026-08-13T02:12:31.000Z"
+}
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/262
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/262 -> 200
+Body:
+true 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/262
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/262 -> 400
+Body:
+{
+  "path": "/api/v1/products/262",
+  "timestamp": "2026-08-13T02:12:31.621Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 262\n    }\n}"
+}
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/262
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/262 -> 400
+Body:
+{
+  "path": "/api/v1/products/262",
+  "timestamp": "2026-08-13T02:12:31.679Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 262\n    }\n}"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/59
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/59 -> 200
+Body:
+{
+  "id": 59,
+  "name": "Clothing_91d73117550b4858bd04497221c2de83",
+  "slug": "clothing-91d73117550b4858bd04497221c2de83",
+  "image": "http://www.robertson.com/",
+  "creationAt": "2026-08-13T02:12:31.000Z",
+  "updatedAt": "2026-08-13T02:12:31.000Z"
+} 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/59
+Body:
+<empty> 
+
+2026-08-13 02:12:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/59 -> 200
+Body:
+true

@@ -1,0 +1,79 @@
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3616879da1a34518952ff8584ec5adc3",
+  "image": "http://www.hawkins.com/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 154,
+  "name": "Sports & Fitness_3616879da1a34518952ff8584ec5adc3",
+  "slug": "sports-fitness-3616879da1a34518952ff8584ec5adc3",
+  "image": "http://www.hawkins.com/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Versatile bifurcated Graphical User Interface-cc290009ea714308b3908afa6f999eb6",
+  "price": 58,
+  "description": "Switchable dynamic parallelism",
+  "categoryId": 154,
+  "images": [
+    "http://www.lewis-williams.com/"
+  ]
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 234,
+  "title": "Versatile bifurcated Graphical User Interface-cc290009ea714308b3908afa6f999eb6",
+  "slug": "versatile-bifurcated-graphical-user-interface-cc290009ea714308b3908afa6f999eb6",
+  "price": 58,
+  "description": "Switchable dynamic parallelism",
+  "category": {
+    "id": 154,
+    "name": "Sports & Fitness_3616879da1a34518952ff8584ec5adc3",
+    "slug": "sports-fitness-3616879da1a34518952ff8584ec5adc3",
+    "image": "http://www.hawkins.com/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "http://www.lewis-williams.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/154
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/154 -> 200
+Body:
+{
+  "id": 154,
+  "name": "Sports & Fitness_3616879da1a34518952ff8584ec5adc3",
+  "slug": "sports-fitness-3616879da1a34518952ff8584ec5adc3",
+  "image": "http://www.hawkins.com/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/154
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/154 -> 400
+Body:
+{
+  "path": "/api/v1/categories/154",
+  "timestamp": "2026-08-26T01:28:05.675Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}
