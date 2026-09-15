@@ -1,0 +1,53 @@
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_d8a52893c56941c081aea271d0cb30fe",
+  "image": "https://ochoa.com/"
+} 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 409,
+  "name": "Sports & Fitness_d8a52893c56941c081aea271d0cb30fe",
+  "slug": "sports-fitness-d8a52893c56941c081aea271d0cb30fe",
+  "image": "https://ochoa.com/",
+  "creationAt": "2026-08-19T01:23:57.000Z",
+  "updatedAt": "2026-08-19T01:23:57.000Z"
+}
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/sports-fitness-d8a52893c56941c081aea271d0cb30fe
+Body:
+<empty> 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/sports-fitness-d8a52893c56941c081aea271d0cb30fe -> 200
+Body:
+{
+  "id": 409,
+  "name": "Sports & Fitness_d8a52893c56941c081aea271d0cb30fe",
+  "slug": "sports-fitness-d8a52893c56941c081aea271d0cb30fe",
+  "image": "https://ochoa.com/",
+  "creationAt": "2026-08-19T01:23:57.000Z",
+  "updatedAt": "2026-08-19T01:23:57.000Z"
+}
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/409
+Body:
+<empty> 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/409 -> 200
+Body:
+{
+  "id": 409,
+  "name": "Sports & Fitness_d8a52893c56941c081aea271d0cb30fe",
+  "slug": "sports-fitness-d8a52893c56941c081aea271d0cb30fe",
+  "image": "https://ochoa.com/",
+  "creationAt": "2026-08-19T01:23:57.000Z",
+  "updatedAt": "2026-08-19T01:23:57.000Z"
+} 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/409
+Body:
+<empty> 
+
+2026-08-19 01:23:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/409 -> 200
+Body:
+true

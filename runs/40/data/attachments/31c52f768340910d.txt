@@ -1,0 +1,53 @@
+2026-08-22 01:22:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_c6636e74077842e6acead772b353b8c2",
+  "image": "https://www.fisher.org/"
+} 
+
+2026-08-22 01:22:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 725,
+  "name": "Electronics_c6636e74077842e6acead772b353b8c2",
+  "slug": "electronics-c6636e74077842e6acead772b353b8c2",
+  "image": "https://www.fisher.org/",
+  "creationAt": "2026-08-22T01:22:57.000Z",
+  "updatedAt": "2026-08-22T01:22:57.000Z"
+}
+2026-08-22 01:22:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/725
+Body:
+<empty> 
+
+2026-08-22 01:22:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/725 -> 200
+Body:
+{
+  "id": 725,
+  "name": "Electronics_c6636e74077842e6acead772b353b8c2",
+  "slug": "electronics-c6636e74077842e6acead772b353b8c2",
+  "image": "https://www.fisher.org/",
+  "creationAt": "2026-08-22T01:22:57.000Z",
+  "updatedAt": "2026-08-22T01:22:57.000Z"
+}
+2026-08-22 01:22:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/725
+Body:
+<empty> 
+
+2026-08-22 01:22:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/725 -> 200
+Body:
+{
+  "id": 725,
+  "name": "Electronics_c6636e74077842e6acead772b353b8c2",
+  "slug": "electronics-c6636e74077842e6acead772b353b8c2",
+  "image": "https://www.fisher.org/",
+  "creationAt": "2026-08-22T01:22:57.000Z",
+  "updatedAt": "2026-08-22T01:22:57.000Z"
+} 
+
+2026-08-22 01:22:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/725
+Body:
+<empty> 
+
+2026-08-22 01:22:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/725 -> 200
+Body:
+true

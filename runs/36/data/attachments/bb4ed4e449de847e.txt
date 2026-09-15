@@ -1,0 +1,53 @@
+2026-08-18 01:22:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_cded052bf93e4b8896284d3c29555779",
+  "image": "https://www.levine.net/"
+} 
+
+2026-08-18 01:22:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 472,
+  "name": "Food & Beverages_cded052bf93e4b8896284d3c29555779",
+  "slug": "food-beverages-cded052bf93e4b8896284d3c29555779",
+  "image": "https://www.levine.net/",
+  "creationAt": "2026-08-18T01:22:18.000Z",
+  "updatedAt": "2026-08-18T01:22:18.000Z"
+}
+2026-08-18 01:22:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/472
+Body:
+<empty> 
+
+2026-08-18 01:22:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/472 -> 200
+Body:
+{
+  "id": 472,
+  "name": "Food & Beverages_cded052bf93e4b8896284d3c29555779",
+  "slug": "food-beverages-cded052bf93e4b8896284d3c29555779",
+  "image": "https://www.levine.net/",
+  "creationAt": "2026-08-18T01:22:18.000Z",
+  "updatedAt": "2026-08-18T01:22:18.000Z"
+}
+2026-08-18 01:22:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/472
+Body:
+<empty> 
+
+2026-08-18 01:22:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/472 -> 200
+Body:
+{
+  "id": 472,
+  "name": "Food & Beverages_cded052bf93e4b8896284d3c29555779",
+  "slug": "food-beverages-cded052bf93e4b8896284d3c29555779",
+  "image": "https://www.levine.net/",
+  "creationAt": "2026-08-18T01:22:18.000Z",
+  "updatedAt": "2026-08-18T01:22:18.000Z"
+} 
+
+2026-08-18 01:22:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/472
+Body:
+<empty> 
+
+2026-08-18 01:22:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/472 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_bc9ff0e3278f431b8a6fb5b8bf179723",
+  "image": "https://blair-smith.info/"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1202,
+  "name": "Food & Beverages_bc9ff0e3278f431b8a6fb5b8bf179723",
+  "slug": "food-beverages-bc9ff0e3278f431b8a6fb5b8bf179723",
+  "image": "https://blair-smith.info/",
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enterprise-wide regional intranet-89f53f44621849e0bd6f02e220f70d13",
+  "price": 867,
+  "description": "Adaptive zero-defect toolset",
+  "categoryId": 1202,
+  "images": [
+    "http://rodriguez-stark.com/"
+  ]
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 773,
+  "title": "Enterprise-wide regional intranet-89f53f44621849e0bd6f02e220f70d13",
+  "slug": "enterprise-wide-regional-intranet-89f53f44621849e0bd6f02e220f70d13",
+  "price": 867,
+  "description": "Adaptive zero-defect toolset",
+  "category": {
+    "id": 1202,
+    "name": "Food & Beverages_bc9ff0e3278f431b8a6fb5b8bf179723",
+    "slug": "food-beverages-bc9ff0e3278f431b8a6fb5b8bf179723",
+    "image": "https://blair-smith.info/",
+    "creationAt": "2026-08-17T01:25:32.000Z",
+    "updatedAt": "2026-08-17T01:25:32.000Z"
+  },
+  "images": [
+    "http://rodriguez-stark.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+}
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/773
+Body:
+{
+  "title": "Visionary explicit toolset-259f8d8a68474424b82ae5db8f9dea69",
+  "price": 532,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/773 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/773
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/773 -> 200
+Body:
+{
+  "id": 773,
+  "title": "Enterprise-wide regional intranet-89f53f44621849e0bd6f02e220f70d13",
+  "slug": "enterprise-wide-regional-intranet-89f53f44621849e0bd6f02e220f70d13",
+  "price": 867,
+  "description": "Adaptive zero-defect toolset",
+  "category": {
+    "id": 1202,
+    "name": "Food & Beverages_bc9ff0e3278f431b8a6fb5b8bf179723",
+    "slug": "food-beverages-bc9ff0e3278f431b8a6fb5b8bf179723",
+    "image": "https://blair-smith.info/",
+    "creationAt": "2026-08-17T01:25:32.000Z",
+    "updatedAt": "2026-08-17T01:25:32.000Z"
+  },
+  "images": [
+    "http://rodriguez-stark.com/"
+  ],
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/773
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/773 -> 200
+Body:
+true 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1202
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1202 -> 200
+Body:
+{
+  "id": 1202,
+  "name": "Food & Beverages_bc9ff0e3278f431b8a6fb5b8bf179723",
+  "slug": "food-beverages-bc9ff0e3278f431b8a6fb5b8bf179723",
+  "image": "https://blair-smith.info/",
+  "creationAt": "2026-08-17T01:25:32.000Z",
+  "updatedAt": "2026-08-17T01:25:32.000Z"
+} 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1202
+Body:
+<empty> 
+
+2026-08-17 01:25:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1202 -> 200
+Body:
+true

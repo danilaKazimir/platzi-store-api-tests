@@ -1,0 +1,88 @@
+2026-08-23 01:36:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jacqueline Andrews",
+  "email": "wellsbrent@example.net",
+  "password": "***",
+  "avatar": "http://henson.com/"
+} 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 50,
+  "email": "wellsbrent@example.net",
+  "password": "***",
+  "name": "Jacqueline Andrews",
+  "role": "customer",
+  "avatar": "http://henson.com/",
+  "creationAt": "2026-08-23T01:36:21.000Z",
+  "updatedAt": "2026-08-23T01:36:21.000Z"
+}
+2026-08-23 01:36:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "wellsbrent@example.net",
+  "password": "***"
+} 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUwLCJpYXQiOjE3ODc0NDg5ODIsImV4cCI6MTc4NzQ4NDk4Mn0.PMZNbdlW8HXLDQHv2GO6wLbEGeh2gvIyTSdqLl79MKw"
+} 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 50,
+  "email": "wellsbrent@example.net",
+  "password": "***",
+  "name": "Jacqueline Andrews",
+  "role": "customer",
+  "avatar": "http://henson.com/",
+  "creationAt": "2026-08-23T01:36:21.000Z",
+  "updatedAt": "2026-08-23T01:36:21.000Z"
+}
+2026-08-23 01:36:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/50
+Body:
+<empty> 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/50 -> 200
+Body:
+{
+  "id": 50,
+  "email": "wellsbrent@example.net",
+  "password": "***",
+  "name": "Jacqueline Andrews",
+  "role": "customer",
+  "avatar": "http://henson.com/",
+  "creationAt": "2026-08-23T01:36:21.000Z",
+  "updatedAt": "2026-08-23T01:36:21.000Z"
+} 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/50
+Body:
+<empty> 
+
+2026-08-23 01:36:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/50 -> 200
+Body:
+true

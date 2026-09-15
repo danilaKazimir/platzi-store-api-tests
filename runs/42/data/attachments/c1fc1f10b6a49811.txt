@@ -1,0 +1,125 @@
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_b09a907ab1bf43d4b7fe28df0cdfe5e2",
+  "image": "https://harrison-tran.com/"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 126,
+  "name": "Toys_b09a907ab1bf43d4b7fe28df0cdfe5e2",
+  "slug": "toys-b09a907ab1bf43d4b7fe28df0cdfe5e2",
+  "image": "https://harrison-tran.com/",
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-engineered impactful middleware-35d0374e49da4a9f8a3efd86bd4a72b8",
+  "price": 416,
+  "description": "Innovative systemic secured line",
+  "categoryId": 126,
+  "images": [
+    "https://www.nash.com/"
+  ]
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 411,
+  "title": "Re-engineered impactful middleware-35d0374e49da4a9f8a3efd86bd4a72b8",
+  "slug": "re-engineered-impactful-middleware-35d0374e49da4a9f8a3efd86bd4a72b8",
+  "price": 416,
+  "description": "Innovative systemic secured line",
+  "category": {
+    "id": 126,
+    "name": "Toys_b09a907ab1bf43d4b7fe28df0cdfe5e2",
+    "slug": "toys-b09a907ab1bf43d4b7fe28df0cdfe5e2",
+    "image": "https://harrison-tran.com/",
+    "creationAt": "2026-08-24T01:27:45.000Z",
+    "updatedAt": "2026-08-24T01:27:45.000Z"
+  },
+  "images": [
+    "https://www.nash.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+}
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/411
+Body:
+{
+  "title": "User-friendly even-keeled implementation-9d0f6dd4f2f04a16ade82e8c16b2e861",
+  "price": 149,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/411 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/411
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/411 -> 200
+Body:
+{
+  "id": 411,
+  "title": "Re-engineered impactful middleware-35d0374e49da4a9f8a3efd86bd4a72b8",
+  "slug": "re-engineered-impactful-middleware-35d0374e49da4a9f8a3efd86bd4a72b8",
+  "price": 416,
+  "description": "Innovative systemic secured line",
+  "category": {
+    "id": 126,
+    "name": "Toys_b09a907ab1bf43d4b7fe28df0cdfe5e2",
+    "slug": "toys-b09a907ab1bf43d4b7fe28df0cdfe5e2",
+    "image": "https://harrison-tran.com/",
+    "creationAt": "2026-08-24T01:27:45.000Z",
+    "updatedAt": "2026-08-24T01:27:45.000Z"
+  },
+  "images": [
+    "https://www.nash.com/"
+  ],
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/411
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/411 -> 200
+Body:
+true 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/126
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/126 -> 200
+Body:
+{
+  "id": 126,
+  "name": "Toys_b09a907ab1bf43d4b7fe28df0cdfe5e2",
+  "slug": "toys-b09a907ab1bf43d4b7fe28df0cdfe5e2",
+  "image": "https://harrison-tran.com/",
+  "creationAt": "2026-08-24T01:27:45.000Z",
+  "updatedAt": "2026-08-24T01:27:45.000Z"
+} 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/126
+Body:
+<empty> 
+
+2026-08-24 01:27:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/126 -> 200
+Body:
+true

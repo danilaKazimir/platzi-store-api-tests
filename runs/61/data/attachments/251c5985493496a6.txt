@@ -1,0 +1,125 @@
+2026-09-12 03:48:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_0b1039980a8d45c8aef41dad95b63355",
+  "image": "https://www.odonnell.org/"
+} 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 45,
+  "name": "Home & Kitchen_0b1039980a8d45c8aef41dad95b63355",
+  "slug": "home-kitchen-0b1039980a8d45c8aef41dad95b63355",
+  "image": "https://www.odonnell.org/",
+  "creationAt": "2026-09-12T03:48:39.000Z",
+  "updatedAt": "2026-09-12T03:48:39.000Z"
+} 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profit-focused optimizing algorithm-680581881bc84e5cb80d9b66a40ea0e6",
+  "price": 849,
+  "description": "Stand-alone executive implementation",
+  "categoryId": 45,
+  "images": [
+    "https://www.jones-davis.biz/"
+  ]
+} 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 103,
+  "title": "Profit-focused optimizing algorithm-680581881bc84e5cb80d9b66a40ea0e6",
+  "slug": "profit-focused-optimizing-algorithm-680581881bc84e5cb80d9b66a40ea0e6",
+  "price": 849,
+  "description": "Stand-alone executive implementation",
+  "category": {
+    "id": 45,
+    "name": "Home & Kitchen_0b1039980a8d45c8aef41dad95b63355",
+    "slug": "home-kitchen-0b1039980a8d45c8aef41dad95b63355",
+    "image": "https://www.odonnell.org/",
+    "creationAt": "2026-09-12T03:48:39.000Z",
+    "updatedAt": "2026-09-12T03:48:39.000Z"
+  },
+  "images": [
+    "https://www.jones-davis.biz/"
+  ],
+  "creationAt": "2026-09-12T03:48:40.000Z",
+  "updatedAt": "2026-09-12T03:48:40.000Z"
+}
+2026-09-12 03:48:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/103
+Body:
+{
+  "title": "Automated tangible projection-b1a2f471c9304f8f9fa90af9a23ffacc",
+  "price": 461,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/103 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-12 03:48:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/103
+Body:
+<empty> 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/103 -> 200
+Body:
+{
+  "id": 103,
+  "title": "Profit-focused optimizing algorithm-680581881bc84e5cb80d9b66a40ea0e6",
+  "slug": "profit-focused-optimizing-algorithm-680581881bc84e5cb80d9b66a40ea0e6",
+  "price": 849,
+  "description": "Stand-alone executive implementation",
+  "category": {
+    "id": 45,
+    "name": "Home & Kitchen_0b1039980a8d45c8aef41dad95b63355",
+    "slug": "home-kitchen-0b1039980a8d45c8aef41dad95b63355",
+    "image": "https://www.odonnell.org/",
+    "creationAt": "2026-09-12T03:48:39.000Z",
+    "updatedAt": "2026-09-12T03:48:39.000Z"
+  },
+  "images": [
+    "https://www.jones-davis.biz/"
+  ],
+  "creationAt": "2026-09-12T03:48:40.000Z",
+  "updatedAt": "2026-09-12T03:48:40.000Z"
+} 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/103
+Body:
+<empty> 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/103 -> 200
+Body:
+true 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+{
+  "id": 45,
+  "name": "Home & Kitchen_0b1039980a8d45c8aef41dad95b63355",
+  "slug": "home-kitchen-0b1039980a8d45c8aef41dad95b63355",
+  "image": "https://www.odonnell.org/",
+  "creationAt": "2026-09-12T03:48:39.000Z",
+  "updatedAt": "2026-09-12T03:48:39.000Z"
+} 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-09-12 03:48:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+true

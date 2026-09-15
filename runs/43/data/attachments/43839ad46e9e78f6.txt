@@ -1,0 +1,80 @@
+2026-08-25 01:24:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Anthony Ware",
+  "email": "lesliebrewer@example.com",
+  "password": "***",
+  "avatar": "https://white-collins.com/"
+} 
+
+2026-08-25 01:24:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 78,
+  "email": "lesliebrewer@example.com",
+  "password": "***",
+  "name": "Anthony Ware",
+  "role": "customer",
+  "avatar": "https://white-collins.com/",
+  "creationAt": "2026-08-25T01:24:15.000Z",
+  "updatedAt": "2026-08-25T01:24:15.000Z"
+}
+2026-08-25 01:24:15 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/78
+Body:
+{
+  "email": "manderson@example.org"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/78 -> 200
+Body:
+{
+  "id": 78,
+  "email": "manderson@example.org",
+  "password": "***",
+  "name": "Anthony Ware",
+  "role": "customer",
+  "avatar": "https://white-collins.com/",
+  "creationAt": "2026-08-25T01:24:15.000Z",
+  "updatedAt": "2026-08-25T01:24:15.000Z"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/78
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/78 -> 200
+Body:
+{
+  "id": 78,
+  "email": "manderson@example.org",
+  "password": "***",
+  "name": "Anthony Ware",
+  "role": "customer",
+  "avatar": "https://white-collins.com/",
+  "creationAt": "2026-08-25T01:24:15.000Z",
+  "updatedAt": "2026-08-25T01:24:15.000Z"
+}
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/78
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/78 -> 200
+Body:
+{
+  "id": 78,
+  "email": "manderson@example.org",
+  "password": "***",
+  "name": "Anthony Ware",
+  "role": "customer",
+  "avatar": "https://white-collins.com/",
+  "creationAt": "2026-08-25T01:24:15.000Z",
+  "updatedAt": "2026-08-25T01:24:15.000Z"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/78
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/78 -> 200
+Body:
+true

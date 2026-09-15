@@ -1,0 +1,15 @@
+2026-09-11 03:45:24 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Personal Care_864fa3c83ff14fcb91dd06e6ea3e5b12",
+  "image": "http://www.bryan-shaw.biz/"
+} 
+
+2026-09-11 03:45:24 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-09-11T03:45:24.931Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

@@ -1,0 +1,135 @@
+2026-09-08 03:44:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_d213e40b5628459cb0e0f2cf344cdde8",
+  "image": "http://www.montes.net/"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Sports & Fitness_d213e40b5628459cb0e0f2cf344cdde8",
+  "slug": "sports-fitness-d213e40b5628459cb0e0f2cf344cdde8",
+  "image": "http://www.montes.net/",
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source object-oriented system engine-63c58e39146445ae8e524255ee733f0c",
+  "price": 692,
+  "description": "Vision-oriented bottom-line synergy",
+  "categoryId": 24,
+  "images": [
+    "http://miller.biz/"
+  ]
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 80,
+  "title": "Open-source object-oriented system engine-63c58e39146445ae8e524255ee733f0c",
+  "slug": "open-source-object-oriented-system-engine-63c58e39146445ae8e524255ee733f0c",
+  "price": 692,
+  "description": "Vision-oriented bottom-line synergy",
+  "category": {
+    "id": 24,
+    "name": "Sports & Fitness_d213e40b5628459cb0e0f2cf344cdde8",
+    "slug": "sports-fitness-d213e40b5628459cb0e0f2cf344cdde8",
+    "image": "http://www.montes.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://miller.biz/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+}
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/open-source-object-oriented-system-engine-63c58e39146445ae8e524255ee733f0c
+Body:
+<empty> 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/open-source-object-oriented-system-engine-63c58e39146445ae8e524255ee733f0c -> 200
+Body:
+{
+  "id": 80,
+  "title": "Open-source object-oriented system engine-63c58e39146445ae8e524255ee733f0c",
+  "slug": "open-source-object-oriented-system-engine-63c58e39146445ae8e524255ee733f0c",
+  "price": 692,
+  "description": "Vision-oriented bottom-line synergy",
+  "category": {
+    "id": 24,
+    "name": "Sports & Fitness_d213e40b5628459cb0e0f2cf344cdde8",
+    "slug": "sports-fitness-d213e40b5628459cb0e0f2cf344cdde8",
+    "image": "http://www.montes.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://miller.biz/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+}
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/80
+Body:
+<empty> 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/80 -> 200
+Body:
+{
+  "id": 80,
+  "title": "Open-source object-oriented system engine-63c58e39146445ae8e524255ee733f0c",
+  "slug": "open-source-object-oriented-system-engine-63c58e39146445ae8e524255ee733f0c",
+  "price": 692,
+  "description": "Vision-oriented bottom-line synergy",
+  "category": {
+    "id": 24,
+    "name": "Sports & Fitness_d213e40b5628459cb0e0f2cf344cdde8",
+    "slug": "sports-fitness-d213e40b5628459cb0e0f2cf344cdde8",
+    "image": "http://www.montes.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://miller.biz/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/80
+Body:
+<empty> 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/80 -> 200
+Body:
+true 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Sports & Fitness_d213e40b5628459cb0e0f2cf344cdde8",
+  "slug": "sports-fitness-d213e40b5628459cb0e0f2cf344cdde8",
+  "image": "http://www.montes.net/",
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

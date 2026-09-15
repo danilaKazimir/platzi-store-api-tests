@@ -1,0 +1,79 @@
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_384c8d5a6cc1423d822304c5be5e71f6",
+  "image": "https://www.davis.com/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1190,
+  "name": "Home & Kitchen_384c8d5a6cc1423d822304c5be5e71f6",
+  "slug": "home-kitchen-384c8d5a6cc1423d822304c5be5e71f6",
+  "image": "https://www.davis.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded system-worthy time-frame-f25967f710344d39a8a71a428ebc16a2",
+  "price": 490,
+  "description": "Persistent logistical encoding",
+  "categoryId": 1190,
+  "images": [
+    "https://james.biz/"
+  ]
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 757,
+  "title": "Expanded system-worthy time-frame-f25967f710344d39a8a71a428ebc16a2",
+  "slug": "expanded-system-worthy-time-frame-f25967f710344d39a8a71a428ebc16a2",
+  "price": 490,
+  "description": "Persistent logistical encoding",
+  "category": {
+    "id": 1190,
+    "name": "Home & Kitchen_384c8d5a6cc1423d822304c5be5e71f6",
+    "slug": "home-kitchen-384c8d5a6cc1423d822304c5be5e71f6",
+    "image": "https://www.davis.com/",
+    "creationAt": "2026-08-17T01:25:30.000Z",
+    "updatedAt": "2026-08-17T01:25:30.000Z"
+  },
+  "images": [
+    "https://james.biz/"
+  ],
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1190
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1190 -> 200
+Body:
+{
+  "id": 1190,
+  "name": "Home & Kitchen_384c8d5a6cc1423d822304c5be5e71f6",
+  "slug": "home-kitchen-384c8d5a6cc1423d822304c5be5e71f6",
+  "image": "https://www.davis.com/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1190
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1190 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1190",
+  "timestamp": "2026-08-17T01:25:30.507Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

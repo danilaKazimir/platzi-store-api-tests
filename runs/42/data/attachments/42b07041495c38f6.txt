@@ -1,0 +1,55 @@
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_15c1fc8dc3e94f189a066caa397d2393",
+  "image": "http://www.meyer.com/"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 117,
+  "name": "Electronics_15c1fc8dc3e94f189a066caa397d2393",
+  "slug": "electronics-15c1fc8dc3e94f189a066caa397d2393",
+  "image": "http://www.meyer.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/117
+Body:
+{
+  "name": "Sports & Fitness_85c2889ef06542a8b52acba60749f3d3",
+  "image": null
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/117 -> 400
+Body:
+{
+  "path": "/api/v1/categories/117",
+  "timestamp": "2026-08-24T01:27:44.292Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/117
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/117 -> 200
+Body:
+{
+  "id": 117,
+  "name": "Electronics_15c1fc8dc3e94f189a066caa397d2393",
+  "slug": "electronics-15c1fc8dc3e94f189a066caa397d2393",
+  "image": "http://www.meyer.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/117
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/117 -> 200
+Body:
+true

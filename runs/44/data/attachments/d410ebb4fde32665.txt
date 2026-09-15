@@ -1,0 +1,21 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Alex Baker",
+  "email": "thomassmith@example.org",
+  "password": "***",
+  "avatar": "https://martin.info/"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 131,
+  "email": "thomassmith@example.org",
+  "password": "***",
+  "name": "Alex Baker",
+  "role": "customer",
+  "avatar": "https://martin.info/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}

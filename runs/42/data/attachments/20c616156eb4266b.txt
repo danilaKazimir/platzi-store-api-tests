@@ -1,0 +1,53 @@
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_b56f326010ff450cb47eda1499e560c7",
+  "image": "https://www.sanchez.com/"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 115,
+  "name": "Automotive Accessories_b56f326010ff450cb47eda1499e560c7",
+  "slug": "automotive-accessories-b56f326010ff450cb47eda1499e560c7",
+  "image": "https://www.sanchez.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/115
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/115 -> 200
+Body:
+{
+  "id": 115,
+  "name": "Automotive Accessories_b56f326010ff450cb47eda1499e560c7",
+  "slug": "automotive-accessories-b56f326010ff450cb47eda1499e560c7",
+  "image": "https://www.sanchez.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/115
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/115 -> 200
+Body:
+{
+  "id": 115,
+  "name": "Automotive Accessories_b56f326010ff450cb47eda1499e560c7",
+  "slug": "automotive-accessories-b56f326010ff450cb47eda1499e560c7",
+  "image": "https://www.sanchez.com/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/115
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/115 -> 200
+Body:
+true

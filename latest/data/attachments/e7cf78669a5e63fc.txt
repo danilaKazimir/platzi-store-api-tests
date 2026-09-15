@@ -1,0 +1,79 @@
+2026-09-15 04:03:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_1825f5b8b48f4adca391d0f7a7b3758a",
+  "image": "http://www.schmidt.org/"
+} 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Books_1825f5b8b48f4adca391d0f7a7b3758a",
+  "slug": "books-1825f5b8b48f4adca391d0f7a7b3758a",
+  "image": "http://www.schmidt.org/",
+  "creationAt": "2026-09-15T04:03:33.000Z",
+  "updatedAt": "2026-09-15T04:03:33.000Z"
+}
+2026-09-15 04:03:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative 6thgeneration service-desk-4652136567c24c7caaaac80ff23e8b2e",
+  "price": 683,
+  "description": "Multi-tiered bottom-line architecture",
+  "categoryId": 18,
+  "images": [
+    "http://www.johnson.org/"
+  ]
+} 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 63,
+  "title": "Innovative 6thgeneration service-desk-4652136567c24c7caaaac80ff23e8b2e",
+  "slug": "innovative-6thgeneration-service-desk-4652136567c24c7caaaac80ff23e8b2e",
+  "price": 683,
+  "description": "Multi-tiered bottom-line architecture",
+  "category": {
+    "id": 18,
+    "name": "Books_1825f5b8b48f4adca391d0f7a7b3758a",
+    "slug": "books-1825f5b8b48f4adca391d0f7a7b3758a",
+    "image": "http://www.schmidt.org/",
+    "creationAt": "2026-09-15T04:03:33.000Z",
+    "updatedAt": "2026-09-15T04:03:33.000Z"
+  },
+  "images": [
+    "http://www.johnson.org/"
+  ],
+  "creationAt": "2026-09-15T04:03:33.000Z",
+  "updatedAt": "2026-09-15T04:03:33.000Z"
+}
+2026-09-15 04:03:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Books_1825f5b8b48f4adca391d0f7a7b3758a",
+  "slug": "books-1825f5b8b48f4adca391d0f7a7b3758a",
+  "image": "http://www.schmidt.org/",
+  "creationAt": "2026-09-15T04:03:33.000Z",
+  "updatedAt": "2026-09-15T04:03:33.000Z"
+} 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 400
+Body:
+{
+  "path": "/api/v1/categories/18",
+  "timestamp": "2026-09-15T04:03:33.572Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

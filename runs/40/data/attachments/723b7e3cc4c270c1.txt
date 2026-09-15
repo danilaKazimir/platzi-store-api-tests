@@ -1,0 +1,71 @@
+2026-08-22 01:22:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_db12e88fc50d40bfb62db4b45468be62",
+  "image": "https://www.owens.com/"
+} 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 727,
+  "name": "Books_db12e88fc50d40bfb62db4b45468be62",
+  "slug": "books-db12e88fc50d40bfb62db4b45468be62",
+  "image": "https://www.owens.com/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+}
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/727
+Body:
+{
+  "name": "Pet Supplies_2998f520038c4b229a36c8055af54e2b",
+  "image": "https://www.riley-coleman.net/"
+} 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/727 -> 200
+Body:
+{
+  "id": 727,
+  "name": "Pet Supplies_2998f520038c4b229a36c8055af54e2b",
+  "slug": "pet-supplies-2998f520038c4b229a36c8055af54e2b",
+  "image": "https://www.riley-coleman.net/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+} 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/727
+Body:
+<empty> 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/727 -> 200
+Body:
+{
+  "id": 727,
+  "name": "Pet Supplies_2998f520038c4b229a36c8055af54e2b",
+  "slug": "pet-supplies-2998f520038c4b229a36c8055af54e2b",
+  "image": "https://www.riley-coleman.net/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+}
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/727
+Body:
+<empty> 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/727 -> 200
+Body:
+{
+  "id": 727,
+  "name": "Pet Supplies_2998f520038c4b229a36c8055af54e2b",
+  "slug": "pet-supplies-2998f520038c4b229a36c8055af54e2b",
+  "image": "https://www.riley-coleman.net/",
+  "creationAt": "2026-08-22T01:22:58.000Z",
+  "updatedAt": "2026-08-22T01:22:58.000Z"
+} 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/727
+Body:
+<empty> 
+
+2026-08-22 01:22:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/727 -> 200
+Body:
+true

@@ -1,0 +1,3858 @@
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_54b4d3715e0a41e1a8aa756fdd03b0b3",
+  "image": "http://www.chavez.com/"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 479,
+  "name": "Pet Supplies_54b4d3715e0a41e1a8aa756fdd03b0b3",
+  "slug": "pet-supplies-54b4d3715e0a41e1a8aa756fdd03b0b3",
+  "image": "http://www.chavez.com/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized bi-directional interface-721e126ee72e4ef79531a315990fcaeb",
+  "price": 674,
+  "description": "Networked homogeneous capability",
+  "categoryId": 479,
+  "images": [
+    "http://www.montgomery-wilkins.org/"
+  ]
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 499,
+  "title": "Decentralized bi-directional interface-721e126ee72e4ef79531a315990fcaeb",
+  "slug": "decentralized-bi-directional-interface-721e126ee72e4ef79531a315990fcaeb",
+  "price": 674,
+  "description": "Networked homogeneous capability",
+  "category": {
+    "id": 479,
+    "name": "Pet Supplies_54b4d3715e0a41e1a8aa756fdd03b0b3",
+    "slug": "pet-supplies-54b4d3715e0a41e1a8aa756fdd03b0b3",
+    "image": "http://www.chavez.com/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "http://www.montgomery-wilkins.org/"
+  ],
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+}
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 60,
+    "title": "Futuristic Laptop 1",
+    "slug": "futuristic-laptop-1",
+    "price": 358,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=60&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:24.000Z",
+    "updatedAt": "2026-08-17T06:17:43.000Z"
+  },
+  {
+    "id": 61,
+    "title": "Sleek Laptop 2",
+    "slug": "sleek-laptop-2",
+    "price": 850,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=61&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:25.000Z",
+    "updatedAt": "2026-08-17T06:17:44.000Z"
+  },
+  {
+    "id": 62,
+    "title": "Awesome Hat 3",
+    "slug": "awesome-hat-3",
+    "price": 846,
+    "description": "A description for product 3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=62&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:26.000Z",
+    "updatedAt": "2026-08-17T06:17:45.000Z"
+  },
+  {
+    "id": 63,
+    "title": "Sleek Bicycle 1",
+    "slug": "sleek-bicycle-1",
+    "price": 873,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=63&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:28.000Z",
+    "updatedAt": "2026-08-17T06:17:46.000Z"
+  },
+  {
+    "id": 64,
+    "title": "Sleek Laptop 1",
+    "slug": "sleek-laptop-1",
+    "price": 425,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=64&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:30.000Z",
+    "updatedAt": "2026-08-17T06:17:48.000Z"
+  },
+  {
+    "id": 65,
+    "title": "Ergonomic Table 1",
+    "slug": "ergonomic-table-1",
+    "price": 628,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=65&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:32.000Z",
+    "updatedAt": "2026-08-17T06:17:49.000Z"
+  },
+  {
+    "id": 66,
+    "title": "Rustic Headphones 2",
+    "slug": "rustic-headphones-2",
+    "price": 929,
+    "description": "A description for product 2",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=66&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:32.000Z",
+    "updatedAt": "2026-08-17T06:17:50.000Z"
+  },
+  {
+    "id": 67,
+    "title": "Rustic Table 1",
+    "slug": "rustic-table-1",
+    "price": 725,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=67&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:35.000Z",
+    "updatedAt": "2026-08-17T06:17:51.000Z"
+  },
+  {
+    "id": 68,
+    "title": "Ergonomic Headphones 2",
+    "slug": "ergonomic-headphones-2",
+    "price": 679,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=68&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:36.000Z",
+    "updatedAt": "2026-08-17T06:17:52.000Z"
+  },
+  {
+    "id": 69,
+    "title": "Sleek Bicycle 3",
+    "slug": "sleek-bicycle-3",
+    "price": 222,
+    "description": "A description for product 3",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=69&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:37.000Z",
+    "updatedAt": "2026-08-17T06:17:53.000Z"
+  },
+  {
+    "id": 70,
+    "title": "Elegant Headphones 4",
+    "slug": "elegant-headphones-4",
+    "price": 142,
+    "description": "A description for product 4",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=70&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:38.000Z",
+    "updatedAt": "2026-08-17T06:17:54.000Z"
+  },
+  {
+    "id": 71,
+    "title": "Sleek Table 5",
+    "slug": "sleek-table-5",
+    "price": 643,
+    "description": "A description for product 5",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=71&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:41.000Z",
+    "updatedAt": "2026-08-17T06:17:56.000Z"
+  },
+  {
+    "id": 72,
+    "title": "Ergonomic Hat 1",
+    "slug": "ergonomic-hat-1",
+    "price": 678,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=72&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:44.000Z",
+    "updatedAt": "2026-08-17T06:17:57.000Z"
+  },
+  {
+    "id": 73,
+    "title": "Futuristic Shoes 2",
+    "slug": "futuristic-shoes-2",
+    "price": 569,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=73&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:45.000Z",
+    "updatedAt": "2026-08-17T06:17:58.000Z"
+  },
+  {
+    "id": 74,
+    "title": "Sleek Shoes 3",
+    "slug": "sleek-shoes-3",
+    "price": 152,
+    "description": "A description for product 3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=74&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:46.000Z",
+    "updatedAt": "2026-08-17T06:18:00.000Z"
+  },
+  {
+    "id": 75,
+    "title": "Rustic Shoes 1",
+    "slug": "rustic-shoes-1",
+    "price": 939,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=75&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:49.000Z",
+    "updatedAt": "2026-08-17T06:18:01.000Z"
+  },
+  {
+    "id": 76,
+    "title": "Ergonomic Laptop 2",
+    "slug": "ergonomic-laptop-2",
+    "price": 580,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=76&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:50.000Z",
+    "updatedAt": "2026-08-17T06:18:02.000Z"
+  },
+  {
+    "id": 77,
+    "title": "Ergonomic Bicycle 1",
+    "slug": "ergonomic-bicycle-1",
+    "price": 747,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=77&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:56.000Z",
+    "updatedAt": "2026-08-17T06:18:04.000Z"
+  },
+  {
+    "id": 78,
+    "title": "Elegant Table 1",
+    "slug": "elegant-table-1",
+    "price": 314,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=78&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:05:59.000Z",
+    "updatedAt": "2026-08-17T06:18:05.000Z"
+  },
+  {
+    "id": 79,
+    "title": "Ergonomic Shoes 2",
+    "slug": "ergonomic-shoes-2",
+    "price": 823,
+    "description": "A description for product 2",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=79&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:00.000Z",
+    "updatedAt": "2026-08-17T06:18:06.000Z"
+  },
+  {
+    "id": 80,
+    "title": "Ergonomic Chair 1",
+    "slug": "ergonomic-chair-1",
+    "price": 150,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=80&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:02.000Z",
+    "updatedAt": "2026-08-17T06:18:07.000Z"
+  },
+  {
+    "id": 81,
+    "title": "Sleek Chair 1",
+    "slug": "sleek-chair-1",
+    "price": 719,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=81&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:04.000Z",
+    "updatedAt": "2026-08-17T06:18:08.000Z"
+  },
+  {
+    "id": 82,
+    "title": "Futuristic Table 1",
+    "slug": "futuristic-table-1",
+    "price": 674,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=82&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:07.000Z",
+    "updatedAt": "2026-08-17T06:18:10.000Z"
+  },
+  {
+    "id": 83,
+    "title": "Awesome Bicycle 1",
+    "slug": "awesome-bicycle-1",
+    "price": 283,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=83&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:11.000Z",
+    "updatedAt": "2026-08-17T06:18:11.000Z"
+  },
+  {
+    "id": 84,
+    "title": "Elegant Laptop 2",
+    "slug": "elegant-laptop-2",
+    "price": 131,
+    "description": "A description for product 2",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=84&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:12.000Z",
+    "updatedAt": "2026-08-17T06:18:12.000Z"
+  },
+  {
+    "id": 85,
+    "title": "Rustic Hat 3",
+    "slug": "rustic-hat-3",
+    "price": 372,
+    "description": "A description for product 3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=85&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:13.000Z",
+    "updatedAt": "2026-08-17T06:18:13.000Z"
+  },
+  {
+    "id": 86,
+    "title": "Sleek Bicycle 4",
+    "slug": "sleek-bicycle-4",
+    "price": 370,
+    "description": "A description for product 4",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=86&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:15.000Z",
+    "updatedAt": "2026-08-17T06:18:14.000Z"
+  },
+  {
+    "id": 87,
+    "title": "Futuristic Shoes 1",
+    "slug": "futuristic-shoes-1",
+    "price": 891,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=87&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:19.000Z",
+    "updatedAt": "2026-08-17T06:18:16.000Z"
+  },
+  {
+    "id": 88,
+    "title": "Sleek Bicycle 2",
+    "slug": "sleek-bicycle-2",
+    "price": 430,
+    "description": "A description for product 2",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=88&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:20.000Z",
+    "updatedAt": "2026-08-17T06:18:17.000Z"
+  },
+  {
+    "id": 89,
+    "title": "Elegant Headphones 1",
+    "slug": "elegant-headphones-1",
+    "price": 278,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=89&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:25.000Z",
+    "updatedAt": "2026-08-17T06:18:18.000Z"
+  },
+  {
+    "id": 90,
+    "title": "Elegant Shoes 2",
+    "slug": "elegant-shoes-2",
+    "price": 753,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=90&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:26.000Z",
+    "updatedAt": "2026-08-17T06:18:20.000Z"
+  },
+  {
+    "id": 91,
+    "title": "Rustic Laptop 3",
+    "slug": "rustic-laptop-3",
+    "price": 602,
+    "description": "A description for product 3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=91&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:27.000Z",
+    "updatedAt": "2026-08-17T06:18:21.000Z"
+  },
+  {
+    "id": 92,
+    "title": "Elegant Laptop 1",
+    "slug": "elegant-laptop-1",
+    "price": 14,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=92&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:31.000Z",
+    "updatedAt": "2026-08-17T06:18:23.000Z"
+  },
+  {
+    "id": 93,
+    "title": "Elegant Table 2",
+    "slug": "elegant-table-2",
+    "price": 845,
+    "description": "A description for product 2",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=93&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:32.000Z",
+    "updatedAt": "2026-08-17T06:18:24.000Z"
+  },
+  {
+    "id": 94,
+    "title": "Elegant Shoes 3",
+    "slug": "elegant-shoes-3",
+    "price": 920,
+    "description": "A description for product 3",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=94&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:33.000Z",
+    "updatedAt": "2026-08-17T06:18:25.000Z"
+  },
+  {
+    "id": 95,
+    "title": "Awesome Hat 4",
+    "slug": "awesome-hat-4",
+    "price": 819,
+    "description": "A description for product 4",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=95&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:34.000Z",
+    "updatedAt": "2026-08-17T06:18:26.000Z"
+  },
+  {
+    "id": 96,
+    "title": "Elegant Shoes 5",
+    "slug": "elegant-shoes-5",
+    "price": 336,
+    "description": "A description for product 5",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=96&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:37.000Z",
+    "updatedAt": "2026-08-17T06:18:28.000Z"
+  },
+  {
+    "id": 97,
+    "title": "Sleek Chair 6",
+    "slug": "sleek-chair-6",
+    "price": 619,
+    "description": "A description for product 6",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=97&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:38.000Z",
+    "updatedAt": "2026-08-17T06:18:29.000Z"
+  },
+  {
+    "id": 98,
+    "title": "Sleek Hat 1",
+    "slug": "sleek-hat-1",
+    "price": 562,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=98&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:41.000Z",
+    "updatedAt": "2026-08-17T06:18:31.000Z"
+  },
+  {
+    "id": 99,
+    "title": "Elegant Hat 1",
+    "slug": "elegant-hat-1",
+    "price": 610,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=99&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:45.000Z",
+    "updatedAt": "2026-08-17T06:18:32.000Z"
+  },
+  {
+    "id": 100,
+    "title": "Futuristic Hat 1",
+    "slug": "futuristic-hat-1",
+    "price": 47,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=100&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:47.000Z",
+    "updatedAt": "2026-08-17T06:18:33.000Z"
+  },
+  {
+    "id": 101,
+    "title": "Rustic Laptop 2",
+    "slug": "rustic-laptop-2",
+    "price": 243,
+    "description": "A description for product 2",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=101&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:49.000Z",
+    "updatedAt": "2026-08-17T06:18:34.000Z"
+  },
+  {
+    "id": 102,
+    "title": "Futuristic Chair 1",
+    "slug": "futuristic-chair-1",
+    "price": 148,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=102&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:54.000Z",
+    "updatedAt": "2026-08-17T06:18:36.000Z"
+  },
+  {
+    "id": 103,
+    "title": "Ergonomic Headphones 1",
+    "slug": "ergonomic-headphones-1",
+    "price": 767,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=103&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:06:59.000Z",
+    "updatedAt": "2026-08-17T06:18:37.000Z"
+  },
+  {
+    "id": 104,
+    "title": "Rustic Hat 1",
+    "slug": "rustic-hat-1",
+    "price": 464,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=104&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:02.000Z",
+    "updatedAt": "2026-08-17T06:18:39.000Z"
+  },
+  {
+    "id": 105,
+    "title": "Ergonomic Bicycle 2",
+    "slug": "ergonomic-bicycle-2",
+    "price": 501,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=105&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:03.000Z",
+    "updatedAt": "2026-08-17T06:18:40.000Z"
+  },
+  {
+    "id": 106,
+    "title": "Sleek Shoes 1",
+    "slug": "sleek-shoes-1",
+    "price": 743,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=106&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:08.000Z",
+    "updatedAt": "2026-08-17T06:18:41.000Z"
+  },
+  {
+    "id": 107,
+    "title": "Rustic Chair 1",
+    "slug": "rustic-chair-1",
+    "price": 101,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=107&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:12.000Z",
+    "updatedAt": "2026-08-17T06:18:43.000Z"
+  },
+  {
+    "id": 108,
+    "title": "Awesome Shoes 2",
+    "slug": "awesome-shoes-2",
+    "price": 919,
+    "description": "A description for product 2",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=108&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:14.000Z",
+    "updatedAt": "2026-08-17T06:18:44.000Z"
+  },
+  {
+    "id": 109,
+    "title": "Awesome Hat 1",
+    "slug": "awesome-hat-1",
+    "price": 923,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=109&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:19.000Z",
+    "updatedAt": "2026-08-17T06:18:45.000Z"
+  },
+  {
+    "id": 110,
+    "title": "Elegant Bicycle 2",
+    "slug": "elegant-bicycle-2",
+    "price": 713,
+    "description": "A description for product 2",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=110&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:20.000Z",
+    "updatedAt": "2026-08-17T06:18:46.000Z"
+  },
+  {
+    "id": 111,
+    "title": "Elegant Chair 1",
+    "slug": "elegant-chair-1",
+    "price": 397,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=111&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:26.000Z",
+    "updatedAt": "2026-08-17T06:18:47.000Z"
+  },
+  {
+    "id": 112,
+    "title": "Awesome Laptop 1",
+    "slug": "awesome-laptop-1",
+    "price": 760,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=112&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:33.000Z",
+    "updatedAt": "2026-08-17T06:18:48.000Z"
+  },
+  {
+    "id": 113,
+    "title": "Rustic Headphones 1",
+    "slug": "rustic-headphones-1",
+    "price": 137,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=113&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:38.000Z",
+    "updatedAt": "2026-08-17T06:18:50.000Z"
+  },
+  {
+    "id": 114,
+    "title": "Rustic Laptop 1",
+    "slug": "rustic-laptop-1",
+    "price": 744,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=114&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:46.000Z",
+    "updatedAt": "2026-08-17T06:18:51.000Z"
+  },
+  {
+    "id": 115,
+    "title": "Awesome Chair 1",
+    "slug": "awesome-chair-1",
+    "price": 187,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=115&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:51.000Z",
+    "updatedAt": "2026-08-17T06:18:56.000Z"
+  },
+  {
+    "id": 116,
+    "title": "Futuristic Headphones 2",
+    "slug": "futuristic-headphones-2",
+    "price": 76,
+    "description": "A description for product 2",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=116&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:52.000Z",
+    "updatedAt": "2026-08-17T06:18:57.000Z"
+  },
+  {
+    "id": 117,
+    "title": "Futuristic Bicycle 1",
+    "slug": "futuristic-bicycle-1",
+    "price": 885,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=117&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:54.000Z",
+    "updatedAt": "2026-08-17T06:18:59.000Z"
+  },
+  {
+    "id": 118,
+    "title": "Sleek Hat 2",
+    "slug": "sleek-hat-2",
+    "price": 705,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=118&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:55.000Z",
+    "updatedAt": "2026-08-17T06:19:01.000Z"
+  },
+  {
+    "id": 119,
+    "title": "Ergonomic Headphones 3",
+    "slug": "ergonomic-headphones-3",
+    "price": 781,
+    "description": "A description for product 3",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=119&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:57.000Z",
+    "updatedAt": "2026-08-17T06:19:02.000Z"
+  },
+  {
+    "id": 121,
+    "title": "Ergonomic Table 5",
+    "slug": "ergonomic-table-5",
+    "price": 985,
+    "description": "A description for product 5",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=121&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:07:59.000Z",
+    "updatedAt": "2026-08-17T06:19:05.000Z"
+  },
+  {
+    "id": 122,
+    "title": "Awesome Chair 6",
+    "slug": "awesome-chair-6",
+    "price": 310,
+    "description": "A description for product 6",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=122&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:00.000Z",
+    "updatedAt": "2026-08-17T06:19:07.000Z"
+  },
+  {
+    "id": 123,
+    "title": "Awesome Headphones 1",
+    "slug": "awesome-headphones-1",
+    "price": 890,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=123&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:05.000Z",
+    "updatedAt": "2026-08-17T06:19:08.000Z"
+  },
+  {
+    "id": 124,
+    "title": "Rustic Bicycle 1",
+    "slug": "rustic-bicycle-1",
+    "price": 843,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=124&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:09.000Z",
+    "updatedAt": "2026-08-17T06:19:09.000Z"
+  },
+  {
+    "id": 125,
+    "title": "Futuristic Headphones 1",
+    "slug": "futuristic-headphones-1",
+    "price": 131,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=125&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:16.000Z",
+    "updatedAt": "2026-08-17T06:19:10.000Z"
+  },
+  {
+    "id": 126,
+    "title": "Elegant Headphones 2",
+    "slug": "elegant-headphones-2",
+    "price": 118,
+    "description": "A description for product 2",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=126&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:16.000Z",
+    "updatedAt": "2026-08-17T06:19:12.000Z"
+  },
+  {
+    "id": 127,
+    "title": "Sleek Laptop 3",
+    "slug": "sleek-laptop-3",
+    "price": 129,
+    "description": "A description for product 3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=127&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:17.000Z",
+    "updatedAt": "2026-08-17T06:19:13.000Z"
+  },
+  {
+    "id": 128,
+    "title": "Elegant Table 4",
+    "slug": "elegant-table-4",
+    "price": 473,
+    "description": "A description for product 4",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=128&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:18.000Z",
+    "updatedAt": "2026-08-17T06:19:14.000Z"
+  },
+  {
+    "id": 129,
+    "title": "Ergonomic Laptop 1",
+    "slug": "ergonomic-laptop-1",
+    "price": 568,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=129&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:20.000Z",
+    "updatedAt": "2026-08-17T06:19:15.000Z"
+  },
+  {
+    "id": 130,
+    "title": "Sleek Headphones 1",
+    "slug": "sleek-headphones-1",
+    "price": 126,
+    "description": "A description for product 1",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/headphones?lock=130&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:23.000Z",
+    "updatedAt": "2026-08-17T06:19:17.000Z"
+  },
+  {
+    "id": 131,
+    "title": "Awesome Table 1",
+    "slug": "awesome-table-1",
+    "price": 157,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/table?lock=131&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:08:31.000Z",
+    "updatedAt": "2026-08-17T06:19:19.000Z"
+  },
+  {
+    "id": 132,
+    "title": "Ergonomic Shoes 1",
+    "slug": "ergonomic-shoes-1",
+    "price": 343,
+    "description": "A description for product 1",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/shoes?lock=132&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:09:29.000Z",
+    "updatedAt": "2026-08-17T06:19:21.000Z"
+  },
+  {
+    "id": 133,
+    "title": "Futuristic Hat 2",
+    "slug": "futuristic-hat-2",
+    "price": 31,
+    "description": "A description for product 2",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/clothing?lock=133&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:09:30.000Z",
+    "updatedAt": "2026-08-17T06:19:23.000Z"
+  },
+  {
+    "id": 134,
+    "title": "Elegant Laptop 3",
+    "slug": "elegant-laptop-3",
+    "price": 89,
+    "description": "A description for product 3",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/laptop?lock=134&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:09:31.000Z",
+    "updatedAt": "2026-08-17T06:19:25.000Z"
+  },
+  {
+    "id": 135,
+    "title": "Rustic Bicycle 4",
+    "slug": "rustic-bicycle-4",
+    "price": 685,
+    "description": "A description for product 4",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=135&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:09:32.000Z",
+    "updatedAt": "2026-08-17T06:19:27.000Z"
+  },
+  {
+    "id": 136,
+    "title": "Elegant Bicycle 1",
+    "slug": "elegant-bicycle-1",
+    "price": 553,
+    "description": "A description for product 1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/bicycle?lock=136&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:10:04.000Z",
+    "updatedAt": "2026-08-17T06:19:29.000Z"
+  },
+  {
+    "id": 137,
+    "title": "title-06379fe3-3dd4-4cd9-bfd1-d2892b98a64f",
+    "slug": "title-06379fe3-3dd4-4cd9-bfd1-d2892b98a64f",
+    "price": 558,
+    "description": "desc-b655699c-66a2-43f3-8ea8-334e3d6dbd51",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://loremflickr.com/640/480/product?lock=137&ext=.jpg"
+    ],
+    "creationAt": "2026-08-17T06:12:06.000Z",
+    "updatedAt": "2026-08-17T06:19:31.000Z"
+  },
+  {
+    "id": 138,
+    "title": "title-30a7418a-55aa-43f1-add9-e53420d2d1a7",
+    "slug": "title-30a7418a-55aa-43f1-add9-e53420d2d1a7",
+    "price": 864,
+    "description": "desc-87ed5e89-7e08-4436-ba83-7857f9e82d76",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=18330",
+      "https://placehold.co/600x400?img=40604"
+    ],
+    "creationAt": "2026-08-17T06:27:04.000Z",
+    "updatedAt": "2026-08-17T06:27:04.000Z"
+  },
+  {
+    "id": 139,
+    "title": "title-150ce7e2-2c1c-40f1-9e16-04178f11c774",
+    "slug": "title-150ce7e2-2c1c-40f1-9e16-04178f11c774",
+    "price": 336,
+    "description": "desc-d738ec9f-be96-407e-81f4-6bdfc7aa3713",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=56682"
+    ],
+    "creationAt": "2026-08-17T06:42:13.000Z",
+    "updatedAt": "2026-08-17T06:42:13.000Z"
+  },
+  {
+    "id": 140,
+    "title": "title-40bcadcf-5ead-49ad-82e4-a3122d187003",
+    "slug": "title-40bcadcf-5ead-49ad-82e4-a3122d187003",
+    "price": 361,
+    "description": "desc-277323f3-5af8-4404-9d48-8fde1a45b9a9",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=24741"
+    ],
+    "creationAt": "2026-08-17T07:12:05.000Z",
+    "updatedAt": "2026-08-17T07:12:05.000Z"
+  },
+  {
+    "id": 141,
+    "title": "title-aee41eab-1e6f-4dec-add6-aa68526bdfd4",
+    "slug": "title-aee41eab-1e6f-4dec-add6-aa68526bdfd4",
+    "price": 297,
+    "description": "desc-bd175758-05a0-405e-8bc0-8df06dd605f7",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49715",
+      "https://placehold.co/600x400?img=46899",
+      "https://placehold.co/600x400?img=42782"
+    ],
+    "creationAt": "2026-08-17T07:27:05.000Z",
+    "updatedAt": "2026-08-17T07:27:05.000Z"
+  },
+  {
+    "id": 142,
+    "title": "Laptop",
+    "slug": "laptop",
+    "price": 400,
+    "description": "fwefwef",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://img.freepik.com/free-photo/mythical-video-game-inspired-landscape-with-nature_23-2150974539.jpg?semt=ais_hybrid&w=740&q=80"
+    ],
+    "creationAt": "2026-08-17T07:29:30.000Z",
+    "updatedAt": "2026-08-17T07:29:30.000Z"
+  },
+  {
+    "id": 143,
+    "title": "Car",
+    "slug": "car",
+    "price": 2,
+    "description": "car car",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://cdn3d.iconscout.com/3d/premium/thumb/product-3d-icon-png-download-4863042.png"
+    ],
+    "creationAt": "2026-08-17T07:31:08.000Z",
+    "updatedAt": "2026-08-17T07:31:08.000Z"
+  },
+  {
+    "id": 144,
+    "title": "title-72edc359-13b7-4299-9b6a-e02dec3101ad",
+    "slug": "title-72edc359-13b7-4299-9b6a-e02dec3101ad",
+    "price": 513,
+    "description": "desc-8fcb8046-b399-410d-be57-42936598e2ad",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=60994",
+      "https://placehold.co/600x400?img=42459"
+    ],
+    "creationAt": "2026-08-17T08:27:05.000Z",
+    "updatedAt": "2026-08-17T08:27:05.000Z"
+  },
+  {
+    "id": 145,
+    "title": "title-f0abbc04-daf2-4361-8061-fa05c16f11e8",
+    "slug": "title-f0abbc04-daf2-4361-8061-fa05c16f11e8",
+    "price": 537,
+    "description": "desc-fef8ffe1-7c1c-4bdb-b1c4-e243aaddaf0e",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=24535",
+      "https://placehold.co/600x400?img=27644",
+      "https://placehold.co/600x400?img=87012"
+    ],
+    "creationAt": "2026-08-17T08:57:02.000Z",
+    "updatedAt": "2026-08-17T08:57:02.000Z"
+  },
+  {
+    "id": 146,
+    "title": "title-bd05df6e-86be-4006-9b9a-2c32424090b9",
+    "slug": "title-bd05df6e-86be-4006-9b9a-2c32424090b9",
+    "price": 844,
+    "description": "desc-d72e754d-e9f9-4dca-87f3-a6470985981b",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=14381"
+    ],
+    "creationAt": "2026-08-17T09:12:07.000Z",
+    "updatedAt": "2026-08-17T09:12:07.000Z"
+  },
+  {
+    "id": 147,
+    "title": "title-17a6d590-bbcf-4c91-8d41-ef4f81c42e66",
+    "slug": "title-17a6d590-bbcf-4c91-8d41-ef4f81c42e66",
+    "price": 649,
+    "description": "desc-7279d274-d4b4-4a7a-8c0b-7dc311e2cae0",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=57256",
+      "https://placehold.co/600x400?img=10371"
+    ],
+    "creationAt": "2026-08-17T10:27:04.000Z",
+    "updatedAt": "2026-08-17T10:27:04.000Z"
+  },
+  {
+    "id": 148,
+    "title": "title-51b0d559-4611-4cf2-84bd-2fab92f7bca1",
+    "slug": "title-51b0d559-4611-4cf2-84bd-2fab92f7bca1",
+    "price": 186,
+    "description": "desc-3f3cb1c7-db2a-411a-8ed6-0059c87d62a3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=13070",
+      "https://placehold.co/600x400?img=68322"
+    ],
+    "creationAt": "2026-08-17T10:42:03.000Z",
+    "updatedAt": "2026-08-17T10:42:03.000Z"
+  },
+  {
+    "id": 149,
+    "title": "title-b601c140-c53c-45df-9f41-5eac06fb8e14",
+    "slug": "title-b601c140-c53c-45df-9f41-5eac06fb8e14",
+    "price": 523,
+    "description": "desc-dfde398f-7f71-4006-81a1-45e12e27e7e6",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=379",
+      "https://placehold.co/600x400?img=10133"
+    ],
+    "creationAt": "2026-08-17T10:57:02.000Z",
+    "updatedAt": "2026-08-17T10:57:02.000Z"
+  },
+  {
+    "id": 150,
+    "title": "title-93b80adc-b130-4463-8c5f-bdf44bd0515b",
+    "slug": "title-93b80adc-b130-4463-8c5f-bdf44bd0515b",
+    "price": 848,
+    "description": "desc-9715a6c4-9a9b-4447-b215-331ea2e0c6fa",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=52408",
+      "https://placehold.co/600x400?img=87280"
+    ],
+    "creationAt": "2026-08-17T11:12:05.000Z",
+    "updatedAt": "2026-08-17T11:12:05.000Z"
+  },
+  {
+    "id": 151,
+    "title": "title-6cfe442a-9106-4509-b656-df7d906c9fc1",
+    "slug": "title-6cfe442a-9106-4509-b656-df7d906c9fc1",
+    "price": 199,
+    "description": "desc-6d11e2fc-3365-4e31-9bb6-56b21811da8b",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=94650"
+    ],
+    "creationAt": "2026-08-17T11:27:05.000Z",
+    "updatedAt": "2026-08-17T11:27:05.000Z"
+  },
+  {
+    "id": 152,
+    "title": "title-69583769-49ef-4120-80fd-39dab799f56a",
+    "slug": "title-69583769-49ef-4120-80fd-39dab799f56a",
+    "price": 829,
+    "description": "desc-edb13f8a-8172-4bea-9bbb-13f3544eafb4",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=68744",
+      "https://placehold.co/600x400?img=48806"
+    ],
+    "creationAt": "2026-08-17T11:42:04.000Z",
+    "updatedAt": "2026-08-17T11:42:04.000Z"
+  },
+  {
+    "id": 153,
+    "title": "title-9b8cac85-e4c3-4b98-8802-70e6e25776c4",
+    "slug": "title-9b8cac85-e4c3-4b98-8802-70e6e25776c4",
+    "price": 525,
+    "description": "desc-976346fa-abc9-49b8-9d09-da006ca9dc5c",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49857",
+      "https://placehold.co/600x400?img=15608",
+      "https://placehold.co/600x400?img=62763"
+    ],
+    "creationAt": "2026-08-17T11:57:13.000Z",
+    "updatedAt": "2026-08-17T11:57:13.000Z"
+  },
+  {
+    "id": 154,
+    "title": "title-6ae5b9c3-416d-4a04-86c0-856679c11a69",
+    "slug": "title-6ae5b9c3-416d-4a04-86c0-856679c11a69",
+    "price": 866,
+    "description": "desc-df166040-def6-45e9-89b2-aa4683cfc259",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=42224"
+    ],
+    "creationAt": "2026-08-17T12:27:04.000Z",
+    "updatedAt": "2026-08-17T12:27:04.000Z"
+  },
+  {
+    "id": 155,
+    "title": "title-3334b22d-a4bb-41e8-8bfa-72226ced9d26",
+    "slug": "title-3334b22d-a4bb-41e8-8bfa-72226ced9d26",
+    "price": 459,
+    "description": "desc-68d86058-2b77-4c8c-ae96-02f0968f375d",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=77587",
+      "https://placehold.co/600x400?img=41280"
+    ],
+    "creationAt": "2026-08-17T12:42:03.000Z",
+    "updatedAt": "2026-08-17T12:42:03.000Z"
+  },
+  {
+    "id": 156,
+    "title": "title-348c07e9-bd18-4002-9058-28f478fb9e22",
+    "slug": "title-348c07e9-bd18-4002-9058-28f478fb9e22",
+    "price": 795,
+    "description": "desc-e3704775-742d-40a7-8149-177b19a5c262",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=50755",
+      "https://placehold.co/600x400?img=25041",
+      "https://placehold.co/600x400?img=62251"
+    ],
+    "creationAt": "2026-08-17T13:42:04.000Z",
+    "updatedAt": "2026-08-17T13:42:04.000Z"
+  },
+  {
+    "id": 157,
+    "title": "title-7cb7f043-04fc-405b-bc20-acb6090b96cc",
+    "slug": "title-7cb7f043-04fc-405b-bc20-acb6090b96cc",
+    "price": 43,
+    "description": "desc-45d4fad3-7d47-46b6-8cd0-f035b4aa1dbb",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=14618",
+      "https://placehold.co/600x400?img=26391",
+      "https://placehold.co/600x400?img=52552"
+    ],
+    "creationAt": "2026-08-17T13:57:02.000Z",
+    "updatedAt": "2026-08-17T13:57:02.000Z"
+  },
+  {
+    "id": 158,
+    "title": "New Product",
+    "slug": "new-product",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T14:13:11.000Z",
+    "updatedAt": "2026-08-17T14:13:11.000Z"
+  },
+  {
+    "id": 159,
+    "title": "New Product2",
+    "slug": "new-product2",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T14:14:23.000Z",
+    "updatedAt": "2026-08-17T14:14:23.000Z"
+  },
+  {
+    "id": 160,
+    "title": "RG{Bx4RJSIPU-AB} RG{Bx54E33IH-AB}",
+    "slug": "rg-bx4rjsipu-ab-rg-bx54e33ih-ab",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T14:22:56.000Z",
+    "updatedAt": "2026-08-17T14:22:56.000Z"
+  },
+  {
+    "id": 161,
+    "title": "RG{Bx4RJSIPU-AB} RG{Bx54E33IH-AC} RG{Bx5P1SXW6-AB}",
+    "slug": "rg-bx4rjsipu-ab-rg-bx54e33ih-ac-rg-bx5p1sxw6-ab",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T14:24:01.000Z",
+    "updatedAt": "2026-08-17T14:24:01.000Z"
+  },
+  {
+    "id": 180,
+    "title": "title-31f5c0f9-5adb-4d14-bdf8-7d306ac55514",
+    "slug": "title-31f5c0f9-5adb-4d14-bdf8-7d306ac55514",
+    "price": 745,
+    "description": "desc-4fc481c7-6dcc-4364-b71b-1edce741a096",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=60984",
+      "https://placehold.co/600x400?img=42354",
+      "https://placehold.co/600x400?img=40068"
+    ],
+    "creationAt": "2026-08-17T14:42:14.000Z",
+    "updatedAt": "2026-08-17T14:42:14.000Z"
+  },
+  {
+    "id": 181,
+    "title": "RG{Bx4RJSIPU-AB} RG{Bx54E33IH-AC} RG{Bx5P1SXW6-AB} RG{Bx12VW39D-AB}",
+    "slug": "rg-bx4rjsipu-ab-rg-bx54e33ih-ac-rg-bx5p1sxw6-ab-rg-bx12vw39d-ab",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T14:46:22.000Z",
+    "updatedAt": "2026-08-17T14:46:22.000Z"
+  },
+  {
+    "id": 182,
+    "title": "title-3bd53e68-210a-4a46-9e2a-826ed0515747",
+    "slug": "title-3bd53e68-210a-4a46-9e2a-826ed0515747",
+    "price": 981,
+    "description": "desc-b33ac7fd-8cb0-4e94-9cee-41e16dd20936",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=18763"
+    ],
+    "creationAt": "2026-08-17T14:57:02.000Z",
+    "updatedAt": "2026-08-17T14:57:02.000Z"
+  },
+  {
+    "id": 183,
+    "title": "New Produttct",
+    "slug": "new-produttct",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T15:08:03.000Z",
+    "updatedAt": "2026-08-17T15:08:03.000Z"
+  },
+  {
+    "id": 184,
+    "title": "fgggggggggggggtttt",
+    "slug": "fgggggggggggggtttt",
+    "price": 333333,
+    "description": "fffffffffffffffffffffff",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T15:09:10.000Z",
+    "updatedAt": "2026-08-17T15:09:10.000Z"
+  },
+  {
+    "id": 185,
+    "title": "product newwww",
+    "slug": "product-newwww",
+    "price": 333333,
+    "description": "fffffffffffffffffffffff",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T15:10:38.000Z",
+    "updatedAt": "2026-08-17T15:10:38.000Z"
+  },
+  {
+    "id": 186,
+    "title": "product newwwwrrrrr",
+    "slug": "product-newwwwrrrrr",
+    "price": 333333,
+    "description": "fffffffffffffffffffffff",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T15:13:25.000Z",
+    "updatedAt": "2026-08-17T15:13:25.000Z"
+  },
+  {
+    "id": 187,
+    "title": "product newwwwrrrrrrrr",
+    "slug": "product-newwwwrrrrrrrr",
+    "price": 333333,
+    "description": "fffffffffffffffffffffff",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T15:13:40.000Z",
+    "updatedAt": "2026-08-17T15:13:40.000Z"
+  },
+  {
+    "id": 188,
+    "title": "ttttttttttthhhhhhhhhhh",
+    "slug": "ttttttttttthhhhhhhhhhh",
+    "price": 77,
+    "description": "ggggssssssssff",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T15:16:41.000Z",
+    "updatedAt": "2026-08-17T15:16:41.000Z"
+  },
+  {
+    "id": 189,
+    "title": "title-2b183c8d-7714-47b4-80fb-d950de0a229c",
+    "slug": "title-2b183c8d-7714-47b4-80fb-d950de0a229c",
+    "price": 965,
+    "description": "desc-858b6893-d05a-474e-bf62-9336e0e1f828",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=43670",
+      "https://placehold.co/600x400?img=84489",
+      "https://placehold.co/600x400?img=53696"
+    ],
+    "creationAt": "2026-08-17T15:42:03.000Z",
+    "updatedAt": "2026-08-17T15:42:03.000Z"
+  },
+  {
+    "id": 226,
+    "title": "title-e192fc3e-6511-41f0-ac3b-6f1abf2d15ed",
+    "slug": "title-e192fc3e-6511-41f0-ac3b-6f1abf2d15ed",
+    "price": 609,
+    "description": "desc-cf7588d6-3bf7-489c-a27d-bfd48e5a1d63",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=59233",
+      "https://placehold.co/600x400?img=15089"
+    ],
+    "creationAt": "2026-08-17T16:12:12.000Z",
+    "updatedAt": "2026-08-17T16:12:12.000Z"
+  },
+  {
+    "id": 227,
+    "title": "title-97d9a6e1-f0e9-4598-9928-54709b05bbd5",
+    "slug": "title-97d9a6e1-f0e9-4598-9928-54709b05bbd5",
+    "price": 489,
+    "description": "desc-dd19f642-4b80-4b09-bc21-a09b63b1703c",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=57779",
+      "https://placehold.co/600x400?img=1378",
+      "https://placehold.co/600x400?img=939"
+    ],
+    "creationAt": "2026-08-17T16:27:01.000Z",
+    "updatedAt": "2026-08-17T16:27:01.000Z"
+  },
+  {
+    "id": 228,
+    "title": "nike",
+    "slug": "nike",
+    "price": 100,
+    "description": "yt6yugf uyguyg",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://images.uzum.uz/d38orjb4eu2s0bgjabg0/t_product_540_high.jpg"
+    ],
+    "creationAt": "2026-08-17T16:44:58.000Z",
+    "updatedAt": "2026-08-17T16:44:58.000Z"
+  },
+  {
+    "id": 229,
+    "title": "title-96fd7fad-fb0a-4025-987f-b5e5745af762",
+    "slug": "title-96fd7fad-fb0a-4025-987f-b5e5745af762",
+    "price": 778,
+    "description": "desc-a64da70c-92d1-4f69-a846-84968049ced5",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=47805"
+    ],
+    "creationAt": "2026-08-17T16:57:02.000Z",
+    "updatedAt": "2026-08-17T16:57:02.000Z"
+  },
+  {
+    "id": 248,
+    "title": "title-189b049e-f0c1-483b-97be-adbb4e5285c0",
+    "slug": "title-189b049e-f0c1-483b-97be-adbb4e5285c0",
+    "price": 595,
+    "description": "desc-a55b6ef2-237a-4e94-9ba0-029202458574",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=42804",
+      "https://placehold.co/600x400?img=42199"
+    ],
+    "creationAt": "2026-08-17T17:12:09.000Z",
+    "updatedAt": "2026-08-17T17:12:09.000Z"
+  },
+  {
+    "id": 249,
+    "title": "blue shoes",
+    "slug": "blue-shoes",
+    "price": 678,
+    "description": "description for 5",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://images.pexels.com/photos/9611/flowers.jpg?cs=srgb&dl=flowers-nature-pink-9611.jpg&fm=jpg"
+    ],
+    "creationAt": "2026-08-17T17:40:52.000Z",
+    "updatedAt": "2026-08-17T17:40:52.000Z"
+  },
+  {
+    "id": 250,
+    "title": "title-46689b2c-f408-44aa-8aa6-13c296b8fd85",
+    "slug": "title-46689b2c-f408-44aa-8aa6-13c296b8fd85",
+    "price": 605,
+    "description": "desc-1a613bc2-a511-47b5-bada-1160f117de5c",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=61617"
+    ],
+    "creationAt": "2026-08-17T17:57:02.000Z",
+    "updatedAt": "2026-08-17T17:57:02.000Z"
+  },
+  {
+    "id": 363,
+    "title": "title-35d22abc-3895-4854-8dc7-c3f047ccd06d",
+    "slug": "title-35d22abc-3895-4854-8dc7-c3f047ccd06d",
+    "price": 807,
+    "description": "desc-a61f1272-a549-4c48-9dcb-97dcab0083f0",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=39245",
+      "https://placehold.co/600x400?img=79673"
+    ],
+    "creationAt": "2026-08-17T18:42:03.000Z",
+    "updatedAt": "2026-08-17T18:42:03.000Z"
+  },
+  {
+    "id": 364,
+    "title": "title-2b6351e7-130f-40b6-8812-73ea03507e99",
+    "slug": "title-2b6351e7-130f-40b6-8812-73ea03507e99",
+    "price": 456,
+    "description": "desc-a49ea59f-114e-4ecf-8260-31e1205c6747",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=95163",
+      "https://placehold.co/600x400?img=72528"
+    ],
+    "creationAt": "2026-08-17T18:57:02.000Z",
+    "updatedAt": "2026-08-17T18:57:02.000Z"
+  },
+  {
+    "id": 366,
+    "title": "QA Base 14401",
+    "slug": "qa-base-14401",
+    "price": 100,
+    "description": "d",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T18:58:40.000Z",
+    "updatedAt": "2026-08-17T18:58:40.000Z"
+  },
+  {
+    "id": 367,
+    "title": "QA Base 5955",
+    "slug": "qa-base-5955",
+    "price": 100,
+    "description": "d",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T18:58:42.000Z",
+    "updatedAt": "2026-08-17T18:58:42.000Z"
+  },
+  {
+    "id": 368,
+    "title": "QA Base 3190",
+    "slug": "qa-base-3190",
+    "price": 100,
+    "description": "d",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T18:58:43.000Z",
+    "updatedAt": "2026-08-17T18:58:43.000Z"
+  },
+  {
+    "id": 369,
+    "title": "QA Img",
+    "slug": "qa-img",
+    "price": 400,
+    "description": "d",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T18:58:44.000Z",
+    "updatedAt": "2026-08-17T18:58:46.000Z"
+  },
+  {
+    "id": 370,
+    "title": "FiltroQA2ff9b9326f4c-436a-b26b-863b7f2b3aad",
+    "slug": "filtroqa2ff9b9326f4c-436a-b26b-863b7f2b3aad",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:02:07.000Z",
+    "updatedAt": "2026-08-17T19:02:07.000Z"
+  },
+  {
+    "id": 371,
+    "title": "ComboQAe9a11e839242-495c-a90b-4e9e8531ddd6",
+    "slug": "comboqae9a11e839242-495c-a90b-4e9e8531ddd6",
+    "price": 450,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:02:07.000Z",
+    "updatedAt": "2026-08-17T19:02:07.000Z"
+  },
+  {
+    "id": 372,
+    "title": "Producto QA e15196ec-20da-4729-82ff-f96863c8ae49",
+    "slug": "producto-qa-e15196ec-20da-4729-82ff-f96863c8ae49",
+    "price": 349,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:02:08.000Z",
+    "updatedAt": "2026-08-17T19:02:08.000Z"
+  },
+  {
+    "id": 373,
+    "title": "Producto QA 79ad9f14-30e1-4676-aceb-4ed0e7eea7d6",
+    "slug": "producto-qa-79ad9f14-30e1-4676-aceb-4ed0e7eea7d6",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:02:08.000Z",
+    "updatedAt": "2026-08-17T19:02:08.000Z"
+  },
+  {
+    "id": 374,
+    "title": "Producto QA Actualizado 8d096d5b-cb02-4663-99ab-58bbff5b460e",
+    "slug": "producto-qa-actualizado-8d096d5b-cb02-4663-99ab-58bbff5b460e",
+    "price": 555,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:02:08.000Z",
+    "updatedAt": "2026-08-17T19:02:08.000Z"
+  },
+  {
+    "id": 376,
+    "title": "Producto QA 1977773d-78bf-4754-88d4-0a021b268272",
+    "slug": "producto-qa-1977773d-78bf-4754-88d4-0a021b268272",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:02:09.000Z",
+    "updatedAt": "2026-08-17T19:02:09.000Z"
+  },
+  {
+    "id": 378,
+    "title": "FiltroQA7deae3ad6ec5-4130-a139-568d0f08f5bf",
+    "slug": "filtroqa7deae3ad6ec5-4130-a139-568d0f08f5bf",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:05:09.000Z",
+    "updatedAt": "2026-08-17T19:05:09.000Z"
+  },
+  {
+    "id": 379,
+    "title": "ComboQAa32d4b68d355-4c18-a1bb-46e53f7129f7",
+    "slug": "comboqaa32d4b68d355-4c18-a1bb-46e53f7129f7",
+    "price": 450,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:05:10.000Z",
+    "updatedAt": "2026-08-17T19:05:10.000Z"
+  },
+  {
+    "id": 380,
+    "title": "Producto QA 8ccfa32a-95e9-4e50-bbc7-847086a7375d",
+    "slug": "producto-qa-8ccfa32a-95e9-4e50-bbc7-847086a7375d",
+    "price": 349,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:05:10.000Z",
+    "updatedAt": "2026-08-17T19:05:10.000Z"
+  },
+  {
+    "id": 381,
+    "title": "Producto QA 036a1937-2b15-4a03-978c-90953047515c",
+    "slug": "producto-qa-036a1937-2b15-4a03-978c-90953047515c",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:05:10.000Z",
+    "updatedAt": "2026-08-17T19:05:10.000Z"
+  },
+  {
+    "id": 382,
+    "title": "Producto QA Actualizado 4af79e44-1a3a-4962-a323-1c4867859c38",
+    "slug": "producto-qa-actualizado-4af79e44-1a3a-4962-a323-1c4867859c38",
+    "price": 555,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:05:10.000Z",
+    "updatedAt": "2026-08-17T19:05:11.000Z"
+  },
+  {
+    "id": 384,
+    "title": "Producto QA b05e8435-ecac-4c5a-a00d-20b5f05c5e4f",
+    "slug": "producto-qa-b05e8435-ecac-4c5a-a00d-20b5f05c5e4f",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:05:11.000Z",
+    "updatedAt": "2026-08-17T19:05:11.000Z"
+  },
+  {
+    "id": 385,
+    "title": "FiltroQA11575d702215-4fdc-9971-dda1fe1549a9",
+    "slug": "filtroqa11575d702215-4fdc-9971-dda1fe1549a9",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:06:28.000Z",
+    "updatedAt": "2026-08-17T19:06:28.000Z"
+  },
+  {
+    "id": 386,
+    "title": "ComboQA6ee2df981e7d-4c7a-b825-47731f00c27c",
+    "slug": "comboqa6ee2df981e7d-4c7a-b825-47731f00c27c",
+    "price": 450,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:06:29.000Z",
+    "updatedAt": "2026-08-17T19:06:29.000Z"
+  },
+  {
+    "id": 387,
+    "title": "Producto QA 5efa876f-39a6-46ed-af89-472d4d65585c",
+    "slug": "producto-qa-5efa876f-39a6-46ed-af89-472d4d65585c",
+    "price": 349,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:06:29.000Z",
+    "updatedAt": "2026-08-17T19:06:29.000Z"
+  },
+  {
+    "id": 388,
+    "title": "Producto QA 5038c174-5789-4929-b259-e991de9335dd",
+    "slug": "producto-qa-5038c174-5789-4929-b259-e991de9335dd",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:06:29.000Z",
+    "updatedAt": "2026-08-17T19:06:29.000Z"
+  },
+  {
+    "id": 390,
+    "title": "Producto QA Actualizado 16e9a515-9a8e-4a31-8559-1f61fb2aae97",
+    "slug": "producto-qa-actualizado-16e9a515-9a8e-4a31-8559-1f61fb2aae97",
+    "price": 555,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:06:29.000Z",
+    "updatedAt": "2026-08-17T19:06:30.000Z"
+  },
+  {
+    "id": 391,
+    "title": "Producto QA c2c9a900-e20a-43bb-9be9-adc3ad7a1e59",
+    "slug": "producto-qa-c2c9a900-e20a-43bb-9be9-adc3ad7a1e59",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:06:30.000Z",
+    "updatedAt": "2026-08-17T19:06:30.000Z"
+  },
+  {
+    "id": 392,
+    "title": "title-025c791e-3db7-42a5-9b64-1eebc0570565",
+    "slug": "title-025c791e-3db7-42a5-9b64-1eebc0570565",
+    "price": 996,
+    "description": "desc-c4e7a3bd-707f-4e7c-b16b-8d157544de94",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=51080",
+      "https://placehold.co/600x400?img=14039"
+    ],
+    "creationAt": "2026-08-17T19:12:06.000Z",
+    "updatedAt": "2026-08-17T19:12:06.000Z"
+  },
+  {
+    "id": 393,
+    "title": "FiltroQA1c850ee27787-4258-9b40-52bd389a7a80",
+    "slug": "filtroqa1c850ee27787-4258-9b40-52bd389a7a80",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:19:15.000Z",
+    "updatedAt": "2026-08-17T19:19:15.000Z"
+  },
+  {
+    "id": 394,
+    "title": "ComboQA70faa0b8205f-40a0-b579-e84b5a018dc0",
+    "slug": "comboqa70faa0b8205f-40a0-b579-e84b5a018dc0",
+    "price": 450,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:19:16.000Z",
+    "updatedAt": "2026-08-17T19:19:16.000Z"
+  },
+  {
+    "id": 395,
+    "title": "Producto QA d6e6cf2b-159b-4675-b8b8-c59704c2d9e7",
+    "slug": "producto-qa-d6e6cf2b-159b-4675-b8b8-c59704c2d9e7",
+    "price": 349,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:19:16.000Z",
+    "updatedAt": "2026-08-17T19:19:16.000Z"
+  },
+  {
+    "id": 396,
+    "title": "Producto QA bfe4f4fe-dc0e-4bc8-a43a-559d6e02e5d2",
+    "slug": "producto-qa-bfe4f4fe-dc0e-4bc8-a43a-559d6e02e5d2",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:19:16.000Z",
+    "updatedAt": "2026-08-17T19:19:16.000Z"
+  },
+  {
+    "id": 398,
+    "title": "Producto QA Actualizado d8a43b20-b34b-44cd-b135-97042e1e5a0a",
+    "slug": "producto-qa-actualizado-d8a43b20-b34b-44cd-b135-97042e1e5a0a",
+    "price": 555,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:19:16.000Z",
+    "updatedAt": "2026-08-17T19:19:17.000Z"
+  },
+  {
+    "id": 399,
+    "title": "Producto QA 0bc44d03-e7f9-40e5-b2f1-abd9c3b765bc",
+    "slug": "producto-qa-0bc44d03-e7f9-40e5-b2f1-abd9c3b765bc",
+    "price": 199,
+    "description": "Producto creado por la automatizacion QA",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400.png"
+    ],
+    "creationAt": "2026-08-17T19:19:17.000Z",
+    "updatedAt": "2026-08-17T19:19:17.000Z"
+  },
+  {
+    "id": 401,
+    "title": "title-267203f5-d4cc-4ca4-97f4-ca7b13741170",
+    "slug": "title-267203f5-d4cc-4ca4-97f4-ca7b13741170",
+    "price": 780,
+    "description": "desc-46a111a5-104c-4a98-9c88-8a9239a85e45",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=14646"
+    ],
+    "creationAt": "2026-08-17T19:27:05.000Z",
+    "updatedAt": "2026-08-17T19:27:05.000Z"
+  },
+  {
+    "id": 403,
+    "title": "Producto Karate 1ac44dcf-4464-4206-a1bf-5d448ae4a403",
+    "slug": "producto-karate-1ac44dcf-4464-4206-a1bf-5d448ae4a403",
+    "price": 99,
+    "description": "Producto creado desde automatización - 1ac44dcf-4464-4206-a1bf-5d448ae4a403",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T19:35:37.000Z",
+    "updatedAt": "2026-08-17T19:35:37.000Z"
+  },
+  {
+    "id": 404,
+    "title": "NEW PRODUCTC UPDATE",
+    "slug": "new-productc-update",
+    "price": 100,
+    "description": "dsadsa",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T19:45:02.000Z",
+    "updatedAt": "2026-08-17T19:45:03.000Z"
+  },
+  {
+    "id": 435,
+    "title": "title-964f6a04-12e1-491a-94fe-5bd215197127",
+    "slug": "title-964f6a04-12e1-491a-94fe-5bd215197127",
+    "price": 676,
+    "description": "desc-11469161-079a-4218-ae07-48743e7413c3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=33931",
+      "https://placehold.co/600x400?img=54163"
+    ],
+    "creationAt": "2026-08-17T19:57:03.000Z",
+    "updatedAt": "2026-08-17T19:57:03.000Z"
+  },
+  {
+    "id": 462,
+    "title": "Producto Karate a4368a60-c55f-43af-8a52-eec0a687265f",
+    "slug": "producto-karate-a4368a60-c55f-43af-8a52-eec0a687265f",
+    "price": 99,
+    "description": "Producto creado desde automatización - a4368a60-c55f-43af-8a52-eec0a687265f",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:12:22.000Z",
+    "updatedAt": "2026-08-17T20:12:22.000Z"
+  },
+  {
+    "id": 463,
+    "title": "Producto Karate bed17eed-1e07-44fe-a759-8029864638f3",
+    "slug": "producto-karate-bed17eed-1e07-44fe-a759-8029864638f3",
+    "price": 99,
+    "description": "Producto creado desde automatización - bed17eed-1e07-44fe-a759-8029864638f3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:13:51.000Z",
+    "updatedAt": "2026-08-17T20:13:51.000Z"
+  },
+  {
+    "id": 464,
+    "title": "Producto Karate 5425e2d3-3658-415b-96b5-1476559e742a",
+    "slug": "producto-karate-5425e2d3-3658-415b-96b5-1476559e742a",
+    "price": 99,
+    "description": "Producto creado desde automatización - 5425e2d3-3658-415b-96b5-1476559e742a",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:15:27.000Z",
+    "updatedAt": "2026-08-17T20:15:27.000Z"
+  },
+  {
+    "id": 465,
+    "title": "Producto Karate 76bb0b47-74f4-4e11-9a32-603dc0cf4737",
+    "slug": "producto-karate-76bb0b47-74f4-4e11-9a32-603dc0cf4737",
+    "price": 99,
+    "description": "Producto creado desde automatización - 76bb0b47-74f4-4e11-9a32-603dc0cf4737",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:16:51.000Z",
+    "updatedAt": "2026-08-17T20:16:51.000Z"
+  },
+  {
+    "id": 468,
+    "title": "Producto Karate ba943aba-883d-4487-af1d-a3a0325c1b93",
+    "slug": "producto-karate-ba943aba-883d-4487-af1d-a3a0325c1b93",
+    "price": 99,
+    "description": "Producto creado desde automatización - ba943aba-883d-4487-af1d-a3a0325c1b93",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:23:59.000Z",
+    "updatedAt": "2026-08-17T20:23:59.000Z"
+  },
+  {
+    "id": 469,
+    "title": "Producto Karate0b09948bc-60d8-4db6-9dda-b2c716bc3f4c",
+    "slug": "producto-karate0b09948bc-60d8-4db6-9dda-b2c716bc3f4c",
+    "price": 99,
+    "description": "Producto creado desde automatización - b09948bc-60d8-4db6-9dda-b2c716bc3f4c",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:24:27.000Z",
+    "updatedAt": "2026-08-17T20:24:27.000Z"
+  },
+  {
+    "id": 470,
+    "title": "title-c0d98256-fda7-4907-8670-010e7c566a89",
+    "slug": "title-c0d98256-fda7-4907-8670-010e7c566a89",
+    "price": 805,
+    "description": "desc-740dfec1-d081-4c30-b561-2d3c205d3d73",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=2597"
+    ],
+    "creationAt": "2026-08-17T20:27:05.000Z",
+    "updatedAt": "2026-08-17T20:27:05.000Z"
+  },
+  {
+    "id": 474,
+    "title": "Producto Karate5fd2aece-4385-4f1e-ad90-525b65d9725c",
+    "slug": "producto-karate5fd2aece-4385-4f1e-ad90-525b65d9725c",
+    "price": 99,
+    "description": "Producto creado desde automatización - 5fd2aece-4385-4f1e-ad90-525b65d9725c",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:34:36.000Z",
+    "updatedAt": "2026-08-17T20:34:36.000Z"
+  },
+  {
+    "id": 475,
+    "title": "NEW PRODUCT UPDATE",
+    "slug": "new-product-update",
+    "price": 100,
+    "description": "dsadsa",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:43:17.000Z",
+    "updatedAt": "2026-08-17T20:43:17.000Z"
+  },
+  {
+    "id": 477,
+    "title": "NEW PRODUCT UPDATE ef9cec47-93aa-4a2a-b6a8-b4d2f5a6e489",
+    "slug": "new-product-update-ef9cec47-93aa-4a2a-b6a8-b4d2f5a6e489",
+    "price": 100,
+    "description": "dsadsa",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:52:21.000Z",
+    "updatedAt": "2026-08-17T20:52:21.000Z"
+  },
+  {
+    "id": 478,
+    "title": "NEW PRODUCT UPDATE dd5f7ec0-4ade-4a45-9126-5035c0cb95be",
+    "slug": "new-product-update-dd5f7ec0-4ade-4a45-9126-5035c0cb95be",
+    "price": 100,
+    "description": "dsadsa",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T20:52:39.000Z",
+    "updatedAt": "2026-08-17T20:52:40.000Z"
+  },
+  {
+    "id": 479,
+    "title": "title-1130d501-698e-4ff7-99a3-90379a099674",
+    "slug": "title-1130d501-698e-4ff7-99a3-90379a099674",
+    "price": 413,
+    "description": "desc-b9aad000-c5f0-49f7-958b-d665e1478688",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=64510",
+      "https://placehold.co/600x400?img=90405"
+    ],
+    "creationAt": "2026-08-17T20:57:03.000Z",
+    "updatedAt": "2026-08-17T20:57:03.000Z"
+  },
+  {
+    "id": 480,
+    "title": "string",
+    "slug": "string",
+    "price": 100,
+    "description": "string",
+    "category": {
+      "id": 455,
+      "name": "string",
+      "slug": "string",
+      "image": "https://pravatar.cc/",
+      "creationAt": "2026-08-17T21:00:33.000Z",
+      "updatedAt": "2026-08-17T21:00:33.000Z"
+    },
+    "images": [
+      "https://pravatar.cc/"
+    ],
+    "creationAt": "2026-08-17T21:00:33.000Z",
+    "updatedAt": "2026-08-17T21:00:33.000Z"
+  },
+  {
+    "id": 481,
+    "title": "title-831f0a79-2426-484a-be03-8b3679c095cd",
+    "slug": "title-831f0a79-2426-484a-be03-8b3679c095cd",
+    "price": 687,
+    "description": "desc-b6f0873d-c3ed-47f7-a7ea-6ad3f0ab6254",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=96034",
+      "https://placehold.co/600x400?img=20628",
+      "https://placehold.co/600x400?img=46417"
+    ],
+    "creationAt": "2026-08-17T21:12:15.000Z",
+    "updatedAt": "2026-08-17T21:12:15.000Z"
+  },
+  {
+    "id": 482,
+    "title": "title-e7b18c83-9663-430b-a6ca-1f868bf9611d",
+    "slug": "title-e7b18c83-9663-430b-a6ca-1f868bf9611d",
+    "price": 171,
+    "description": "desc-91afcfcf-319a-4817-a51a-4e72b93b0040",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=13861",
+      "https://placehold.co/600x400?img=98280"
+    ],
+    "creationAt": "2026-08-17T21:57:03.000Z",
+    "updatedAt": "2026-08-17T21:57:03.000Z"
+  },
+  {
+    "id": 483,
+    "title": "NEW PRODUCT UPDATE ea5f523d-ae56-4e5c-b585-aa10469e17a9",
+    "slug": "new-product-update-ea5f523d-ae56-4e5c-b585-aa10469e17a9",
+    "price": 100,
+    "description": "dsadsa",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-08-17T22:10:34.000Z",
+    "updatedAt": "2026-08-17T22:10:35.000Z"
+  },
+  {
+    "id": 484,
+    "title": "title-68096340-59da-4930-8750-17543b283b24",
+    "slug": "title-68096340-59da-4930-8750-17543b283b24",
+    "price": 887,
+    "description": "desc-5cea920f-2816-4514-8ba6-8ebff8a71b18",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=55539"
+    ],
+    "creationAt": "2026-08-17T22:12:05.000Z",
+    "updatedAt": "2026-08-17T22:12:05.000Z"
+  },
+  {
+    "id": 485,
+    "title": "title-2d240af6-faf5-4287-810c-5359e2e9c6ec",
+    "slug": "title-2d240af6-faf5-4287-810c-5359e2e9c6ec",
+    "price": 902,
+    "description": "desc-b84c1afb-5ade-4c2d-9eac-dd64590dda80",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=77502",
+      "https://placehold.co/600x400?img=21506"
+    ],
+    "creationAt": "2026-08-17T22:27:05.000Z",
+    "updatedAt": "2026-08-17T22:27:05.000Z"
+  },
+  {
+    "id": 486,
+    "title": "title-263019da-619a-4c5a-b947-bad4be0f43ea",
+    "slug": "title-263019da-619a-4c5a-b947-bad4be0f43ea",
+    "price": 731,
+    "description": "desc-0a713fe6-e4d5-4a9e-b6f3-87bf7c5253b4",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=8533"
+    ],
+    "creationAt": "2026-08-17T22:42:03.000Z",
+    "updatedAt": "2026-08-17T22:42:03.000Z"
+  },
+  {
+    "id": 487,
+    "title": "nuevo3",
+    "slug": "nuevo3",
+    "price": 12,
+    "description": "nuevo3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://youtube.com"
+    ],
+    "creationAt": "2026-08-17T22:52:35.000Z",
+    "updatedAt": "2026-08-17T22:52:35.000Z"
+  },
+  {
+    "id": 488,
+    "title": "title-0b01d121-d756-4571-8964-f9c1e124dce1",
+    "slug": "title-0b01d121-d756-4571-8964-f9c1e124dce1",
+    "price": 413,
+    "description": "desc-4e8c9795-f112-4a29-a5ae-e2c349273fe7",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=25353",
+      "https://placehold.co/600x400?img=47699",
+      "https://placehold.co/600x400?img=13448"
+    ],
+    "creationAt": "2026-08-17T22:57:02.000Z",
+    "updatedAt": "2026-08-17T22:57:02.000Z"
+  },
+  {
+    "id": 489,
+    "title": "title-f53977f3-f173-4014-8ba4-4c210c979f2c",
+    "slug": "title-f53977f3-f173-4014-8ba4-4c210c979f2c",
+    "price": 813,
+    "description": "desc-ec4145ba-270b-4b15-9979-b0abdd857ad3",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=41512",
+      "https://placehold.co/600x400?img=85824"
+    ],
+    "creationAt": "2026-08-17T23:12:06.000Z",
+    "updatedAt": "2026-08-17T23:12:06.000Z"
+  },
+  {
+    "id": 490,
+    "title": "title-3b752be4-12f0-4904-85e9-56cf6a4312a2",
+    "slug": "title-3b752be4-12f0-4904-85e9-56cf6a4312a2",
+    "price": 769,
+    "description": "desc-f5cd5d38-d303-40ee-9e4e-b0075589ca13",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=84212"
+    ],
+    "creationAt": "2026-08-17T23:27:04.000Z",
+    "updatedAt": "2026-08-17T23:27:04.000Z"
+  },
+  {
+    "id": 491,
+    "title": "title-1d8c5872-ed73-4848-b17a-d7f4e2a96bb1",
+    "slug": "title-1d8c5872-ed73-4848-b17a-d7f4e2a96bb1",
+    "price": 765,
+    "description": "desc-0801448e-5f0d-45db-bafe-03a3bd52f212",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=96807",
+      "https://placehold.co/600x400?img=45966"
+    ],
+    "creationAt": "2026-08-17T23:42:03.000Z",
+    "updatedAt": "2026-08-17T23:42:03.000Z"
+  },
+  {
+    "id": 492,
+    "title": "title-42eeb847-b14b-4839-8ff8-ad393cce3e80",
+    "slug": "title-42eeb847-b14b-4839-8ff8-ad393cce3e80",
+    "price": 803,
+    "description": "desc-7d3e5c52-febb-4188-a293-3575ca0913b9",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=1759",
+      "https://placehold.co/600x400?img=20212"
+    ],
+    "creationAt": "2026-08-17T23:57:02.000Z",
+    "updatedAt": "2026-08-17T23:57:02.000Z"
+  },
+  {
+    "id": 493,
+    "title": "title-7873755b-ae7c-405e-b0c5-ef4979346bda",
+    "slug": "title-7873755b-ae7c-405e-b0c5-ef4979346bda",
+    "price": 217,
+    "description": "desc-f2c0e6a4-8345-4fa7-ab3c-4600067b324d",
+    "category": {
+      "id": 3,
+      "name": "Electronic",
+      "slug": "electronic",
+      "image": "https://api.escuelajs.co/api/v1/files/2a61.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T07:35:55.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=23993",
+      "https://placehold.co/600x400?img=20076"
+    ],
+    "creationAt": "2026-08-18T00:12:03.000Z",
+    "updatedAt": "2026-08-18T00:12:03.000Z"
+  },
+  {
+    "id": 494,
+    "title": "title-3ccc019d-69b7-49d3-9c31-f497c06090f5",
+    "slug": "title-3ccc019d-69b7-49d3-9c31-f497c06090f5",
+    "price": 283,
+    "description": "desc-ae66b938-e3db-4047-994c-3398198d7f60",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:47:20.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=69700"
+    ],
+    "creationAt": "2026-08-18T00:27:02.000Z",
+    "updatedAt": "2026-08-18T00:27:02.000Z"
+  },
+  {
+    "id": 495,
+    "title": "title-419e43b3-33eb-4099-8283-08b34fe155e3",
+    "slug": "title-419e43b3-33eb-4099-8283-08b34fe155e3",
+    "price": 27,
+    "description": "desc-ef99a275-083d-4775-81a8-90dcb7584da1",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://api.escuelajs.co/api/v1/files/74d8.jpeg",
+      "creationAt": "2026-08-17T05:06:47.000Z",
+      "updatedAt": "2026-08-17T12:38:05.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=88569"
+    ],
+    "creationAt": "2026-08-18T00:42:04.000Z",
+    "updatedAt": "2026-08-18T00:42:04.000Z"
+  },
+  {
+    "id": 496,
+    "title": "Grass-roots upward-trending initiative-1915cf04ef304362a3725f8ef364af6c",
+    "slug": "grass-roots-upward-trending-initiative-1915cf04ef304362a3725f8ef364af6c",
+    "price": 579,
+    "description": "Optimized multi-tasking artificial intelligence",
+    "category": {
+      "id": 477,
+      "name": "Personal Care_b5ec84419a404302947af091dd1246a1",
+      "slug": "personal-care-b5ec84419a404302947af091dd1246a1",
+      "image": "https://www.mendoza-farmer.org/",
+      "creationAt": "2026-08-18T01:22:19.000Z",
+      "updatedAt": "2026-08-18T01:22:19.000Z"
+    },
+    "images": [
+      "http://www.patel.net/"
+    ],
+    "creationAt": "2026-08-18T01:22:19.000Z",
+    "updatedAt": "2026-08-18T01:22:19.000Z"
+  },
+  {
+    "id": 497,
+    "title": "Automated client-server hardware-0469e5792a774a85b2048d525a590fc9",
+    "slug": "automated-client-server-hardware-0469e5792a774a85b2048d525a590fc9",
+    "price": 100,
+    "description": "Business-focused full-range monitoring",
+    "category": {
+      "id": 480,
+      "name": "Home & Kitchen_57c1a102934a410a9ade26b470acc697",
+      "slug": "home-kitchen-57c1a102934a410a9ade26b470acc697",
+      "image": "http://www.riddle.net/",
+      "creationAt": "2026-08-18T01:22:20.000Z",
+      "updatedAt": "2026-08-18T01:22:20.000Z"
+    },
+    "images": [
+      "https://www.gray-griffin.biz/"
+    ],
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  {
+    "id": 498,
+    "title": "Centralized empowering info-mediaries-d49c0eb380394b0bb5ffa0c372ee52b6",
+    "slug": "centralized-empowering-info-mediaries-d49c0eb380394b0bb5ffa0c372ee52b6",
+    "price": 832,
+    "description": "Integrated cohesive firmware",
+    "category": {
+      "id": 477,
+      "name": "Personal Care_b5ec84419a404302947af091dd1246a1",
+      "slug": "personal-care-b5ec84419a404302947af091dd1246a1",
+      "image": "https://www.mendoza-farmer.org/",
+      "creationAt": "2026-08-18T01:22:19.000Z",
+      "updatedAt": "2026-08-18T01:22:19.000Z"
+    },
+    "images": [
+      "https://www.jenkins.org/"
+    ],
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  {
+    "id": 499,
+    "title": "Decentralized bi-directional interface-721e126ee72e4ef79531a315990fcaeb",
+    "slug": "decentralized-bi-directional-interface-721e126ee72e4ef79531a315990fcaeb",
+    "price": 674,
+    "description": "Networked homogeneous capability",
+    "category": {
+      "id": 479,
+      "name": "Pet Supplies_54b4d3715e0a41e1a8aa756fdd03b0b3",
+      "slug": "pet-supplies-54b4d3715e0a41e1a8aa756fdd03b0b3",
+      "image": "http://www.chavez.com/",
+      "creationAt": "2026-08-18T01:22:20.000Z",
+      "updatedAt": "2026-08-18T01:22:20.000Z"
+    },
+    "images": [
+      "http://www.montgomery-wilkins.org/"
+    ],
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  }
+]
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/499
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/499 -> 200
+Body:
+{
+  "id": 499,
+  "title": "Decentralized bi-directional interface-721e126ee72e4ef79531a315990fcaeb",
+  "slug": "decentralized-bi-directional-interface-721e126ee72e4ef79531a315990fcaeb",
+  "price": 674,
+  "description": "Networked homogeneous capability",
+  "category": {
+    "id": 479,
+    "name": "Pet Supplies_54b4d3715e0a41e1a8aa756fdd03b0b3",
+    "slug": "pet-supplies-54b4d3715e0a41e1a8aa756fdd03b0b3",
+    "image": "http://www.chavez.com/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "http://www.montgomery-wilkins.org/"
+  ],
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/499
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/499 -> 200
+Body:
+true 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/479
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/479 -> 200
+Body:
+{
+  "id": 479,
+  "name": "Pet Supplies_54b4d3715e0a41e1a8aa756fdd03b0b3",
+  "slug": "pet-supplies-54b4d3715e0a41e1a8aa756fdd03b0b3",
+  "image": "http://www.chavez.com/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/479
+Body:
+<empty> 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/479 -> 200
+Body:
+true

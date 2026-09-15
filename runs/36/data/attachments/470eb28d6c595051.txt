@@ -1,0 +1,15 @@
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Automotive Accessories_6a5d9a06070542669a2b1337bf5ea8a0",
+  "image": "https://ramirez-meyer.com/"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-18T01:22:20.021Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

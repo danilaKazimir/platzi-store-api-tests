@@ -1,0 +1,79 @@
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_4ae0c876482e4bca8f655ec197fb668e",
+  "image": "http://lyons.com/"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1250,
+  "name": "Automotive Accessories_4ae0c876482e4bca8f655ec197fb668e",
+  "slug": "automotive-accessories-4ae0c876482e4bca8f655ec197fb668e",
+  "image": "http://lyons.com/",
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+}
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative explicit project-84f649855518459a8b1faf28f825b056",
+  "price": 22,
+  "description": "Intuitive leadingedge benchmark",
+  "categoryId": 1250,
+  "images": [
+    "http://www.stuart.com/"
+  ]
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1499,
+  "title": "Innovative explicit project-84f649855518459a8b1faf28f825b056",
+  "slug": "innovative-explicit-project-84f649855518459a8b1faf28f825b056",
+  "price": 22,
+  "description": "Intuitive leadingedge benchmark",
+  "category": {
+    "id": 1250,
+    "name": "Automotive Accessories_4ae0c876482e4bca8f655ec197fb668e",
+    "slug": "automotive-accessories-4ae0c876482e4bca8f655ec197fb668e",
+    "image": "http://lyons.com/",
+    "creationAt": "2026-08-21T01:32:39.000Z",
+    "updatedAt": "2026-08-21T01:32:39.000Z"
+  },
+  "images": [
+    "http://www.stuart.com/"
+  ],
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+}
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1250
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1250 -> 200
+Body:
+{
+  "id": 1250,
+  "name": "Automotive Accessories_4ae0c876482e4bca8f655ec197fb668e",
+  "slug": "automotive-accessories-4ae0c876482e4bca8f655ec197fb668e",
+  "image": "http://lyons.com/",
+  "creationAt": "2026-08-21T01:32:39.000Z",
+  "updatedAt": "2026-08-21T01:32:39.000Z"
+} 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1250
+Body:
+<empty> 
+
+2026-08-21 01:32:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1250 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1250",
+  "timestamp": "2026-08-21T01:32:39.557Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

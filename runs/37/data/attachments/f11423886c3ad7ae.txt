@@ -1,0 +1,15 @@
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Pet Supplies_55213a4862e7466395bed08104a898a3",
+  "image": "https://robertson.org/"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-19T01:23:58.766Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

@@ -1,0 +1,88 @@
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Sydney Torres",
+  "email": "brandy87@example.net",
+  "password": "***",
+  "avatar": "http://www.abbott.com/"
+} 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 717,
+  "email": "brandy87@example.net",
+  "password": "***",
+  "name": "Sydney Torres",
+  "role": "customer",
+  "avatar": "http://www.abbott.com/",
+  "creationAt": "2026-08-20T01:23:23.000Z",
+  "updatedAt": "2026-08-20T01:23:23.000Z"
+}
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "brandy87@example.net",
+  "password": "***"
+} 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjcxNywiaWF0IjoxNzg3MTg5MDAzLCJleHAiOjE3ODcyMjUwMDN9.k6U08UP6Jx0J-SWQAb9KsO-UQkNRHOtb0BsFuRSjibE"
+} 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 717,
+  "email": "brandy87@example.net",
+  "password": "***",
+  "name": "Sydney Torres",
+  "role": "customer",
+  "avatar": "http://www.abbott.com/",
+  "creationAt": "2026-08-20T01:23:23.000Z",
+  "updatedAt": "2026-08-20T01:23:23.000Z"
+}
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/717
+Body:
+<empty> 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/717 -> 200
+Body:
+{
+  "id": 717,
+  "email": "brandy87@example.net",
+  "password": "***",
+  "name": "Sydney Torres",
+  "role": "customer",
+  "avatar": "http://www.abbott.com/",
+  "creationAt": "2026-08-20T01:23:23.000Z",
+  "updatedAt": "2026-08-20T01:23:23.000Z"
+} 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/717
+Body:
+<empty> 
+
+2026-08-20 01:23:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/717 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_089b117e0e2d4f80909ac9eb23fe8278",
+  "image": "http://www.vaughan-love.net/"
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Pet Supplies_089b117e0e2d4f80909ac9eb23fe8278",
+  "slug": "pet-supplies-089b117e0e2d4f80909ac9eb23fe8278",
+  "image": "http://www.vaughan-love.net/",
+  "creationAt": "2026-09-14T04:04:27.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered client-server frame-66e170c5997a4f00aea498f7d96094b7",
+  "price": 134,
+  "description": "Inverse context-sensitive benchmark",
+  "categoryId": 19,
+  "images": [
+    "http://barnes-simon.info/"
+  ]
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 72,
+  "title": "Multi-tiered client-server frame-66e170c5997a4f00aea498f7d96094b7",
+  "slug": "multi-tiered-client-server-frame-66e170c5997a4f00aea498f7d96094b7",
+  "price": 134,
+  "description": "Inverse context-sensitive benchmark",
+  "category": {
+    "id": 19,
+    "name": "Pet Supplies_089b117e0e2d4f80909ac9eb23fe8278",
+    "slug": "pet-supplies-089b117e0e2d4f80909ac9eb23fe8278",
+    "image": "http://www.vaughan-love.net/",
+    "creationAt": "2026-09-14T04:04:27.000Z",
+    "updatedAt": "2026-09-14T04:04:27.000Z"
+  },
+  "images": [
+    "http://barnes-simon.info/"
+  ],
+  "creationAt": "2026-09-14T04:04:27.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+}
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+true 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 400
+Body:
+{
+  "path": "/api/v1/products/72",
+  "timestamp": "2026-09-14T04:04:28.004Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 72\n    }\n}"
+}
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 400
+Body:
+{
+  "path": "/api/v1/products/72",
+  "timestamp": "2026-09-14T04:04:28.063Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 72\n    }\n}"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Pet Supplies_089b117e0e2d4f80909ac9eb23fe8278",
+  "slug": "pet-supplies-089b117e0e2d4f80909ac9eb23fe8278",
+  "image": "http://www.vaughan-love.net/",
+  "creationAt": "2026-09-14T04:04:27.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

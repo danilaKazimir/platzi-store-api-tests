@@ -1,0 +1,81 @@
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jennifer Duncan",
+  "email": "jaredgeorge@example.com",
+  "password": "***",
+  "avatar": "http://rivas-lane.com/"
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 12,
+  "email": "jaredgeorge@example.com",
+  "password": "***",
+  "name": "Jennifer Duncan",
+  "role": "customer",
+  "avatar": "http://rivas-lane.com/",
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+}
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/12
+Body:
+{
+  "name": "Mr. Edward Kennedy",
+  "email": "rperez@example.net"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "rperez@example.net",
+  "password": "***",
+  "name": "Mr. Edward Kennedy",
+  "role": "customer",
+  "avatar": "http://rivas-lane.com/",
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "rperez@example.net",
+  "password": "***",
+  "name": "Mr. Edward Kennedy",
+  "role": "customer",
+  "avatar": "http://rivas-lane.com/",
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+}
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "rperez@example.net",
+  "password": "***",
+  "name": "Mr. Edward Kennedy",
+  "role": "customer",
+  "avatar": "http://rivas-lane.com/",
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+true

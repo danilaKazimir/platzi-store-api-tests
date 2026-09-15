@@ -1,0 +1,15 @@
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Books_ae0fbb8d4b184814afb7320e5db65b1b",
+  "image": "http://www.becker.com/"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-25T01:24:11.941Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

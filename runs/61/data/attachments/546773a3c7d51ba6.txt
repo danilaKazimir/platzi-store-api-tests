@@ -1,0 +1,53 @@
+2026-09-12 03:48:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Dawn Barajas",
+  "email": "kromero@example.org",
+  "password": "***",
+  "avatar": "https://www.young-morales.net/"
+} 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 34,
+  "email": "kromero@example.org",
+  "password": "***",
+  "name": "Dawn Barajas",
+  "role": "customer",
+  "avatar": "https://www.young-morales.net/",
+  "creationAt": "2026-09-12T03:48:39.000Z",
+  "updatedAt": "2026-09-12T03:48:39.000Z"
+}
+2026-09-12 03:48:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+true 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/34 -> 400
+Body:
+{
+  "path": "/api/v1/users/34",
+  "timestamp": "2026-09-12T03:48:39.855Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"User\" matching: {\n    \"id\": 34\n}"
+}
+2026-09-12 03:48:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-09-12 03:48:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/34 -> 400
+Body:
+{
+  "path": "/api/v1/users/34",
+  "timestamp": "2026-09-12T03:48:39.915Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"User\" matching: {\n    \"id\": 34\n}"
+}

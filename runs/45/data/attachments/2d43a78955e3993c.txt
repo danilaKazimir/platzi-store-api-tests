@@ -1,0 +1,135 @@
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_53a4a8b25260445d89ff9b606c595104",
+  "image": "http://brown-avila.org/"
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Clothing_53a4a8b25260445d89ff9b606c595104",
+  "slug": "clothing-53a4a8b25260445d89ff9b606c595104",
+  "image": "http://brown-avila.org/",
+  "creationAt": "2026-08-27T08:18:48.000Z",
+  "updatedAt": "2026-08-27T08:18:48.000Z"
+} 
+
+2026-08-27 08:18:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Distributed systematic pricing structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "price": 332,
+  "description": "Customer-focused impactful instruction set",
+  "categoryId": 19,
+  "images": [
+    "http://www.daniels.com/"
+  ]
+} 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 58,
+  "title": "Distributed systematic pricing structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "slug": "distributed-systematic-pricing-structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "price": 332,
+  "description": "Customer-focused impactful instruction set",
+  "category": {
+    "id": 19,
+    "name": "Clothing_53a4a8b25260445d89ff9b606c595104",
+    "slug": "clothing-53a4a8b25260445d89ff9b606c595104",
+    "image": "http://brown-avila.org/",
+    "creationAt": "2026-08-27T08:18:48.000Z",
+    "updatedAt": "2026-08-27T08:18:48.000Z"
+  },
+  "images": [
+    "http://www.daniels.com/"
+  ],
+  "creationAt": "2026-08-27T08:18:49.000Z",
+  "updatedAt": "2026-08-27T08:18:49.000Z"
+}
+2026-08-27 08:18:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/58 -> 200
+Body:
+{
+  "id": 58,
+  "title": "Distributed systematic pricing structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "slug": "distributed-systematic-pricing-structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "price": 332,
+  "description": "Customer-focused impactful instruction set",
+  "category": {
+    "id": 19,
+    "name": "Clothing_53a4a8b25260445d89ff9b606c595104",
+    "slug": "clothing-53a4a8b25260445d89ff9b606c595104",
+    "image": "http://brown-avila.org/",
+    "creationAt": "2026-08-27T08:18:48.000Z",
+    "updatedAt": "2026-08-27T08:18:48.000Z"
+  },
+  "images": [
+    "http://www.daniels.com/"
+  ],
+  "creationAt": "2026-08-27T08:18:49.000Z",
+  "updatedAt": "2026-08-27T08:18:49.000Z"
+}
+2026-08-27 08:18:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/58 -> 200
+Body:
+{
+  "id": 58,
+  "title": "Distributed systematic pricing structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "slug": "distributed-systematic-pricing-structure-9ff30d2b0f2d467781115e8fcd0cd332",
+  "price": 332,
+  "description": "Customer-focused impactful instruction set",
+  "category": {
+    "id": 19,
+    "name": "Clothing_53a4a8b25260445d89ff9b606c595104",
+    "slug": "clothing-53a4a8b25260445d89ff9b606c595104",
+    "image": "http://brown-avila.org/",
+    "creationAt": "2026-08-27T08:18:48.000Z",
+    "updatedAt": "2026-08-27T08:18:48.000Z"
+  },
+  "images": [
+    "http://www.daniels.com/"
+  ],
+  "creationAt": "2026-08-27T08:18:49.000Z",
+  "updatedAt": "2026-08-27T08:18:49.000Z"
+} 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/58 -> 200
+Body:
+true 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Clothing_53a4a8b25260445d89ff9b606c595104",
+  "slug": "clothing-53a4a8b25260445d89ff9b606c595104",
+  "image": "http://brown-avila.org/",
+  "creationAt": "2026-08-27T08:18:48.000Z",
+  "updatedAt": "2026-08-27T08:18:48.000Z"
+} 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-08-27 08:18:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-08-23 01:36:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_15d3a44aef9246fcaf9a160d9112147c",
+  "image": "https://stephens-christensen.org/"
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 77,
+  "name": "Electronics_15d3a44aef9246fcaf9a160d9112147c",
+  "slug": "electronics-15d3a44aef9246fcaf9a160d9112147c",
+  "image": "https://stephens-christensen.org/",
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Monitored cohesive productivity-32a06a69039845ba824755b508ba9f97",
+  "price": 502,
+  "description": "Multi-channeled incremental customer loyalty",
+  "categoryId": 77,
+  "images": [
+    "http://www.west-hayes.com/"
+  ]
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 240,
+  "title": "Monitored cohesive productivity-32a06a69039845ba824755b508ba9f97",
+  "slug": "monitored-cohesive-productivity-32a06a69039845ba824755b508ba9f97",
+  "price": 502,
+  "description": "Multi-channeled incremental customer loyalty",
+  "category": {
+    "id": 77,
+    "name": "Electronics_15d3a44aef9246fcaf9a160d9112147c",
+    "slug": "electronics-15d3a44aef9246fcaf9a160d9112147c",
+    "image": "https://stephens-christensen.org/",
+    "creationAt": "2026-08-23T01:36:26.000Z",
+    "updatedAt": "2026-08-23T01:36:26.000Z"
+  },
+  "images": [
+    "http://www.west-hayes.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+}
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/monitored-cohesive-productivity-32a06a69039845ba824755b508ba9f97
+Body:
+<empty> 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/monitored-cohesive-productivity-32a06a69039845ba824755b508ba9f97 -> 200
+Body:
+{
+  "id": 240,
+  "title": "Monitored cohesive productivity-32a06a69039845ba824755b508ba9f97",
+  "slug": "monitored-cohesive-productivity-32a06a69039845ba824755b508ba9f97",
+  "price": 502,
+  "description": "Multi-channeled incremental customer loyalty",
+  "category": {
+    "id": 77,
+    "name": "Electronics_15d3a44aef9246fcaf9a160d9112147c",
+    "slug": "electronics-15d3a44aef9246fcaf9a160d9112147c",
+    "image": "https://stephens-christensen.org/",
+    "creationAt": "2026-08-23T01:36:26.000Z",
+    "updatedAt": "2026-08-23T01:36:26.000Z"
+  },
+  "images": [
+    "http://www.west-hayes.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+}
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/240
+Body:
+<empty> 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/240 -> 200
+Body:
+{
+  "id": 240,
+  "title": "Monitored cohesive productivity-32a06a69039845ba824755b508ba9f97",
+  "slug": "monitored-cohesive-productivity-32a06a69039845ba824755b508ba9f97",
+  "price": 502,
+  "description": "Multi-channeled incremental customer loyalty",
+  "category": {
+    "id": 77,
+    "name": "Electronics_15d3a44aef9246fcaf9a160d9112147c",
+    "slug": "electronics-15d3a44aef9246fcaf9a160d9112147c",
+    "image": "https://stephens-christensen.org/",
+    "creationAt": "2026-08-23T01:36:26.000Z",
+    "updatedAt": "2026-08-23T01:36:26.000Z"
+  },
+  "images": [
+    "http://www.west-hayes.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/240
+Body:
+<empty> 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/240 -> 200
+Body:
+true 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/77
+Body:
+<empty> 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/77 -> 200
+Body:
+{
+  "id": 77,
+  "name": "Electronics_15d3a44aef9246fcaf9a160d9112147c",
+  "slug": "electronics-15d3a44aef9246fcaf9a160d9112147c",
+  "image": "https://stephens-christensen.org/",
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/77
+Body:
+<empty> 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/77 -> 200
+Body:
+true

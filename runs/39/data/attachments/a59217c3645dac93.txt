@@ -1,0 +1,80 @@
+2026-08-21 01:32:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Christina Allison",
+  "email": "sarah45@example.net",
+  "password": "***",
+  "avatar": "http://www.white.com/"
+} 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 563,
+  "email": "sarah45@example.net",
+  "password": "***",
+  "name": "Christina Allison",
+  "role": "customer",
+  "avatar": "http://www.white.com/",
+  "creationAt": "2026-08-21T01:32:42.000Z",
+  "updatedAt": "2026-08-21T01:32:42.000Z"
+}
+2026-08-21 01:32:42 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/563
+Body:
+{
+  "email": "marshallphilip@example.org"
+} 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/563 -> 200
+Body:
+{
+  "id": 563,
+  "email": "marshallphilip@example.org",
+  "password": "***",
+  "name": "Christina Allison",
+  "role": "customer",
+  "avatar": "http://www.white.com/",
+  "creationAt": "2026-08-21T01:32:42.000Z",
+  "updatedAt": "2026-08-21T01:32:42.000Z"
+} 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/563
+Body:
+<empty> 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/563 -> 200
+Body:
+{
+  "id": 563,
+  "email": "marshallphilip@example.org",
+  "password": "***",
+  "name": "Christina Allison",
+  "role": "customer",
+  "avatar": "http://www.white.com/",
+  "creationAt": "2026-08-21T01:32:42.000Z",
+  "updatedAt": "2026-08-21T01:32:42.000Z"
+}
+2026-08-21 01:32:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/563
+Body:
+<empty> 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/563 -> 200
+Body:
+{
+  "id": 563,
+  "email": "marshallphilip@example.org",
+  "password": "***",
+  "name": "Christina Allison",
+  "role": "customer",
+  "avatar": "http://www.white.com/",
+  "creationAt": "2026-08-21T01:32:42.000Z",
+  "updatedAt": "2026-08-21T01:32:42.000Z"
+} 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/563
+Body:
+<empty> 
+
+2026-08-21 01:32:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/563 -> 200
+Body:
+true

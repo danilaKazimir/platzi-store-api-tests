@@ -1,0 +1,71 @@
+2026-08-19 01:23:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_db9ece1238104ea9afb73ab18c808d55",
+  "image": "https://www.thompson.com/"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 412,
+  "name": "Toys_db9ece1238104ea9afb73ab18c808d55",
+  "slug": "toys-db9ece1238104ea9afb73ab18c808d55",
+  "image": "https://www.thompson.com/",
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+}
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/412
+Body:
+{
+  "name": "Sports & Fitness_338ad5dbfc9c4900b90a031eb8d5bf62",
+  "image": "https://www.suarez.com/"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/412 -> 200
+Body:
+{
+  "id": 412,
+  "name": "Sports & Fitness_338ad5dbfc9c4900b90a031eb8d5bf62",
+  "slug": "sports-fitness-338ad5dbfc9c4900b90a031eb8d5bf62",
+  "image": "https://www.suarez.com/",
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/412
+Body:
+<empty> 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/412 -> 200
+Body:
+{
+  "id": 412,
+  "name": "Sports & Fitness_338ad5dbfc9c4900b90a031eb8d5bf62",
+  "slug": "sports-fitness-338ad5dbfc9c4900b90a031eb8d5bf62",
+  "image": "https://www.suarez.com/",
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+}
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/412
+Body:
+<empty> 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/412 -> 200
+Body:
+{
+  "id": 412,
+  "name": "Sports & Fitness_338ad5dbfc9c4900b90a031eb8d5bf62",
+  "slug": "sports-fitness-338ad5dbfc9c4900b90a031eb8d5bf62",
+  "image": "https://www.suarez.com/",
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/412
+Body:
+<empty> 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/412 -> 200
+Body:
+true

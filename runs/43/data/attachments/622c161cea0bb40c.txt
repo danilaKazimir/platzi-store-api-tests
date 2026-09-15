@@ -1,0 +1,125 @@
+2026-08-25 01:24:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_1e0475b74570430bad7c44de7655aaf6",
+  "image": "http://www.rosales.com/"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 136,
+  "name": "Electronics_1e0475b74570430bad7c44de7655aaf6",
+  "slug": "electronics-1e0475b74570430bad7c44de7655aaf6",
+  "image": "http://www.rosales.com/",
+  "creationAt": "2026-08-25T01:24:16.000Z",
+  "updatedAt": "2026-08-25T01:24:16.000Z"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Distributed attitude-oriented adapter-c14e24ca35474f4280c1df2cb895faa4",
+  "price": 944,
+  "description": "Open-source directional core",
+  "categoryId": 136,
+  "images": [
+    "https://salazar-kramer.com/"
+  ]
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 2839,
+  "title": "Distributed attitude-oriented adapter-c14e24ca35474f4280c1df2cb895faa4",
+  "slug": "distributed-attitude-oriented-adapter-c14e24ca35474f4280c1df2cb895faa4",
+  "price": 944,
+  "description": "Open-source directional core",
+  "category": {
+    "id": 136,
+    "name": "Electronics_1e0475b74570430bad7c44de7655aaf6",
+    "slug": "electronics-1e0475b74570430bad7c44de7655aaf6",
+    "image": "http://www.rosales.com/",
+    "creationAt": "2026-08-25T01:24:16.000Z",
+    "updatedAt": "2026-08-25T01:24:16.000Z"
+  },
+  "images": [
+    "https://salazar-kramer.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:16.000Z",
+  "updatedAt": "2026-08-25T01:24:16.000Z"
+}
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/2839
+Body:
+{
+  "title": "Automated systemic archive-97b38fbdbaeb4497a051f853276c8e16",
+  "price": 422,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/2839 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/2839
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/2839 -> 200
+Body:
+{
+  "id": 2839,
+  "title": "Distributed attitude-oriented adapter-c14e24ca35474f4280c1df2cb895faa4",
+  "slug": "distributed-attitude-oriented-adapter-c14e24ca35474f4280c1df2cb895faa4",
+  "price": 944,
+  "description": "Open-source directional core",
+  "category": {
+    "id": 136,
+    "name": "Electronics_1e0475b74570430bad7c44de7655aaf6",
+    "slug": "electronics-1e0475b74570430bad7c44de7655aaf6",
+    "image": "http://www.rosales.com/",
+    "creationAt": "2026-08-25T01:24:16.000Z",
+    "updatedAt": "2026-08-25T01:24:16.000Z"
+  },
+  "images": [
+    "https://salazar-kramer.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:16.000Z",
+  "updatedAt": "2026-08-25T01:24:16.000Z"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/2839
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/2839 -> 200
+Body:
+true 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/136
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/136 -> 200
+Body:
+{
+  "id": 136,
+  "name": "Electronics_1e0475b74570430bad7c44de7655aaf6",
+  "slug": "electronics-1e0475b74570430bad7c44de7655aaf6",
+  "image": "http://www.rosales.com/",
+  "creationAt": "2026-08-25T01:24:16.000Z",
+  "updatedAt": "2026-08-25T01:24:16.000Z"
+} 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/136
+Body:
+<empty> 
+
+2026-08-25 01:24:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/136 -> 200
+Body:
+true

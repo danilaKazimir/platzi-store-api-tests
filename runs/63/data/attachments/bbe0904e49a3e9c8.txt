@@ -1,0 +1,46 @@
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_b4cf8d18927548d6aafb546a6dc3aa31",
+  "image": "https://parrish.com/"
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Pet Supplies_b4cf8d18927548d6aafb546a6dc3aa31",
+  "slug": "pet-supplies-b4cf8d18927548d6aafb546a6dc3aa31",
+  "image": "https://parrish.com/",
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+}
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24/products
+Body:
+<empty> 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24/products -> 200
+Body:
+[]
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Pet Supplies_b4cf8d18927548d6aafb546a6dc3aa31",
+  "slug": "pet-supplies-b4cf8d18927548d6aafb546a6dc3aa31",
+  "image": "https://parrish.com/",
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

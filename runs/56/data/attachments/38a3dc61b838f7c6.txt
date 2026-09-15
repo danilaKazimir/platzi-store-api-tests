@@ -1,0 +1,127 @@
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_c3404b3992664226b88144678a6fdbea",
+  "image": "http://www.williams.org/"
+} 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 12,
+  "name": "Food & Beverages_c3404b3992664226b88144678a6fdbea",
+  "slug": "food-beverages-c3404b3992664226b88144678a6fdbea",
+  "image": "http://www.williams.org/",
+  "creationAt": "2026-09-07T03:40:03.000Z",
+  "updatedAt": "2026-09-07T03:40:03.000Z"
+}
+2026-09-07 03:40:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes ",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-06T22:37:07.000Z",
+    "updatedAt": "2026-09-07T02:43:04.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-06T22:37:07.000Z",
+    "updatedAt": "2026-09-06T22:37:07.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-06T22:37:07.000Z",
+    "updatedAt": "2026-09-06T22:37:07.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-06T22:37:07.000Z",
+    "updatedAt": "2026-09-06T22:37:07.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-06T22:37:07.000Z",
+    "updatedAt": "2026-09-06T22:37:07.000Z"
+  },
+  {
+    "id": 7,
+    "name": "cloth",
+    "slug": "cloth",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-07T00:27:02.000Z",
+    "updatedAt": "2026-09-07T00:27:02.000Z"
+  },
+  {
+    "id": 9,
+    "name": "futbol",
+    "slug": "futbol",
+    "image": "https://png.pngtree.com/png-vector/20190130/ourlarge/pngtree-living-supplies-bath-bamboo-basket-cartoon-necessitiesbathinglittle-yellow-duckbathingsoap-png-image_677319.jpg",
+    "creationAt": "2026-09-07T03:35:20.000Z",
+    "updatedAt": "2026-09-07T03:35:20.000Z"
+  },
+  {
+    "id": 10,
+    "name": "testCategory7bcf1ed8ee21419d9dd7958fefc662ce",
+    "slug": "testcategory7bcf1ed8ee21419d9dd7958fefc662ce",
+    "image": "http://www.smith.org/",
+    "creationAt": "2026-09-07T03:40:03.000Z",
+    "updatedAt": "2026-09-07T03:40:03.000Z"
+  },
+  {
+    "id": 11,
+    "name": "test Category31d5a1dc4c4c462e8e921b85fe6cc754",
+    "slug": "test-category31d5a1dc4c4c462e8e921b85fe6cc754",
+    "image": "http://lowe-stevens.com/",
+    "creationAt": "2026-09-07T03:40:03.000Z",
+    "updatedAt": "2026-09-07T03:40:03.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Food & Beverages_c3404b3992664226b88144678a6fdbea",
+    "slug": "food-beverages-c3404b3992664226b88144678a6fdbea",
+    "image": "http://www.williams.org/",
+    "creationAt": "2026-09-07T03:40:03.000Z",
+    "updatedAt": "2026-09-07T03:40:03.000Z"
+  }
+]
+2026-09-07 03:40:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+{
+  "id": 12,
+  "name": "Food & Beverages_c3404b3992664226b88144678a6fdbea",
+  "slug": "food-beverages-c3404b3992664226b88144678a6fdbea",
+  "image": "http://www.williams.org/",
+  "creationAt": "2026-09-07T03:40:03.000Z",
+  "updatedAt": "2026-09-07T03:40:03.000Z"
+} 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+true

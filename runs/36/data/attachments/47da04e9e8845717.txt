@@ -1,0 +1,71 @@
+2026-08-18 01:22:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_e57f8f514b1247c787d051d93b5b5f72",
+  "image": "https://moore.com/"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 475,
+  "name": "Personal Care_e57f8f514b1247c787d051d93b5b5f72",
+  "slug": "personal-care-e57f8f514b1247c787d051d93b5b5f72",
+  "image": "https://moore.com/",
+  "creationAt": "2026-08-18T01:22:19.000Z",
+  "updatedAt": "2026-08-18T01:22:19.000Z"
+}
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/475
+Body:
+{
+  "name": "Books_0e1f416170264573906441d0c946d624",
+  "image": "https://www.gutierrez-schaefer.com/"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/475 -> 200
+Body:
+{
+  "id": 475,
+  "name": "Books_0e1f416170264573906441d0c946d624",
+  "slug": "books-0e1f416170264573906441d0c946d624",
+  "image": "https://www.gutierrez-schaefer.com/",
+  "creationAt": "2026-08-18T01:22:19.000Z",
+  "updatedAt": "2026-08-18T01:22:19.000Z"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/475
+Body:
+<empty> 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/475 -> 200
+Body:
+{
+  "id": 475,
+  "name": "Books_0e1f416170264573906441d0c946d624",
+  "slug": "books-0e1f416170264573906441d0c946d624",
+  "image": "https://www.gutierrez-schaefer.com/",
+  "creationAt": "2026-08-18T01:22:19.000Z",
+  "updatedAt": "2026-08-18T01:22:19.000Z"
+}
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/475
+Body:
+<empty> 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/475 -> 200
+Body:
+{
+  "id": 475,
+  "name": "Books_0e1f416170264573906441d0c946d624",
+  "slug": "books-0e1f416170264573906441d0c946d624",
+  "image": "https://www.gutierrez-schaefer.com/",
+  "creationAt": "2026-08-18T01:22:19.000Z",
+  "updatedAt": "2026-08-18T01:22:19.000Z"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/475
+Body:
+<empty> 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/475 -> 200
+Body:
+true

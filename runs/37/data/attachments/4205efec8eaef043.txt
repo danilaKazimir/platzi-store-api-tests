@@ -1,0 +1,81 @@
+2026-08-19 01:24:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Penny Bean",
+  "email": "amy46@example.net",
+  "password": "***",
+  "avatar": "https://hernandez-green.com/"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 386,
+  "email": "amy46@example.net",
+  "password": "***",
+  "name": "Penny Bean",
+  "role": "customer",
+  "avatar": "https://hernandez-green.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+}
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/386
+Body:
+{
+  "name": "Dean Nelson",
+  "email": "iparker@example.com"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/386 -> 200
+Body:
+{
+  "id": 386,
+  "email": "iparker@example.com",
+  "password": "***",
+  "name": "Dean Nelson",
+  "role": "customer",
+  "avatar": "https://hernandez-green.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/386
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/386 -> 200
+Body:
+{
+  "id": 386,
+  "email": "iparker@example.com",
+  "password": "***",
+  "name": "Dean Nelson",
+  "role": "customer",
+  "avatar": "https://hernandez-green.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+}
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/386
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/386 -> 200
+Body:
+{
+  "id": 386,
+  "email": "iparker@example.com",
+  "password": "***",
+  "name": "Dean Nelson",
+  "role": "customer",
+  "avatar": "https://hernandez-green.com/",
+  "creationAt": "2026-08-19T01:24:03.000Z",
+  "updatedAt": "2026-08-19T01:24:03.000Z"
+} 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/386
+Body:
+<empty> 
+
+2026-08-19 01:24:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/386 -> 200
+Body:
+true

@@ -1,0 +1,81 @@
+2026-08-24 01:27:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kathryn Harrington",
+  "email": "lauriesoto@example.org",
+  "password": "***",
+  "avatar": "https://www.brown.com/"
+} 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 126,
+  "email": "lauriesoto@example.org",
+  "password": "***",
+  "name": "Kathryn Harrington",
+  "role": "customer",
+  "avatar": "https://www.brown.com/",
+  "creationAt": "2026-08-24T01:27:46.000Z",
+  "updatedAt": "2026-08-24T01:27:46.000Z"
+}
+2026-08-24 01:27:46 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/126
+Body:
+{
+  "name": "Sherry Stephens",
+  "email": "robertsalazar@example.org"
+} 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/126 -> 200
+Body:
+{
+  "id": 126,
+  "email": "robertsalazar@example.org",
+  "password": "***",
+  "name": "Sherry Stephens",
+  "role": "customer",
+  "avatar": "https://www.brown.com/",
+  "creationAt": "2026-08-24T01:27:46.000Z",
+  "updatedAt": "2026-08-24T01:27:46.000Z"
+} 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/126
+Body:
+<empty> 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/126 -> 200
+Body:
+{
+  "id": 126,
+  "email": "robertsalazar@example.org",
+  "password": "***",
+  "name": "Sherry Stephens",
+  "role": "customer",
+  "avatar": "https://www.brown.com/",
+  "creationAt": "2026-08-24T01:27:46.000Z",
+  "updatedAt": "2026-08-24T01:27:46.000Z"
+}
+2026-08-24 01:27:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/126
+Body:
+<empty> 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/126 -> 200
+Body:
+{
+  "id": 126,
+  "email": "robertsalazar@example.org",
+  "password": "***",
+  "name": "Sherry Stephens",
+  "role": "customer",
+  "avatar": "https://www.brown.com/",
+  "creationAt": "2026-08-24T01:27:46.000Z",
+  "updatedAt": "2026-08-24T01:27:46.000Z"
+} 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/126
+Body:
+<empty> 
+
+2026-08-24 01:27:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/126 -> 200
+Body:
+true

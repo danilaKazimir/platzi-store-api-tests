@@ -1,0 +1,135 @@
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_aef5a9577e984f4e89bdbca6ca4399fe",
+  "image": "http://www.fuller.com/"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 130,
+  "name": "Personal Care_aef5a9577e984f4e89bdbca6ca4399fe",
+  "slug": "personal-care-aef5a9577e984f4e89bdbca6ca4399fe",
+  "image": "http://www.fuller.com/",
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered fresh-thinking middleware-6743bad535a441a58db0605e33cc5ef9",
+  "price": 294,
+  "description": "Streamlined scalable focus group",
+  "categoryId": 130,
+  "images": [
+    "http://www.roberts.com/"
+  ]
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 2830,
+  "title": "Multi-tiered fresh-thinking middleware-6743bad535a441a58db0605e33cc5ef9",
+  "slug": "multi-tiered-fresh-thinking-middleware-6743bad535a441a58db0605e33cc5ef9",
+  "price": 294,
+  "description": "Streamlined scalable focus group",
+  "category": {
+    "id": 130,
+    "name": "Personal Care_aef5a9577e984f4e89bdbca6ca4399fe",
+    "slug": "personal-care-aef5a9577e984f4e89bdbca6ca4399fe",
+    "image": "http://www.fuller.com/",
+    "creationAt": "2026-08-25T01:24:13.000Z",
+    "updatedAt": "2026-08-25T01:24:13.000Z"
+  },
+  "images": [
+    "http://www.roberts.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+}
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/multi-tiered-fresh-thinking-middleware-6743bad535a441a58db0605e33cc5ef9
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/multi-tiered-fresh-thinking-middleware-6743bad535a441a58db0605e33cc5ef9 -> 200
+Body:
+{
+  "id": 2830,
+  "title": "Multi-tiered fresh-thinking middleware-6743bad535a441a58db0605e33cc5ef9",
+  "slug": "multi-tiered-fresh-thinking-middleware-6743bad535a441a58db0605e33cc5ef9",
+  "price": 294,
+  "description": "Streamlined scalable focus group",
+  "category": {
+    "id": 130,
+    "name": "Personal Care_aef5a9577e984f4e89bdbca6ca4399fe",
+    "slug": "personal-care-aef5a9577e984f4e89bdbca6ca4399fe",
+    "image": "http://www.fuller.com/",
+    "creationAt": "2026-08-25T01:24:13.000Z",
+    "updatedAt": "2026-08-25T01:24:13.000Z"
+  },
+  "images": [
+    "http://www.roberts.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+}
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/2830
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/2830 -> 200
+Body:
+{
+  "id": 2830,
+  "title": "Multi-tiered fresh-thinking middleware-6743bad535a441a58db0605e33cc5ef9",
+  "slug": "multi-tiered-fresh-thinking-middleware-6743bad535a441a58db0605e33cc5ef9",
+  "price": 294,
+  "description": "Streamlined scalable focus group",
+  "category": {
+    "id": 130,
+    "name": "Personal Care_aef5a9577e984f4e89bdbca6ca4399fe",
+    "slug": "personal-care-aef5a9577e984f4e89bdbca6ca4399fe",
+    "image": "http://www.fuller.com/",
+    "creationAt": "2026-08-25T01:24:13.000Z",
+    "updatedAt": "2026-08-25T01:24:13.000Z"
+  },
+  "images": [
+    "http://www.roberts.com/"
+  ],
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/2830
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/2830 -> 200
+Body:
+true 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/130
+Body:
+<empty> 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/130 -> 200
+Body:
+{
+  "id": 130,
+  "name": "Personal Care_aef5a9577e984f4e89bdbca6ca4399fe",
+  "slug": "personal-care-aef5a9577e984f4e89bdbca6ca4399fe",
+  "image": "http://www.fuller.com/",
+  "creationAt": "2026-08-25T01:24:13.000Z",
+  "updatedAt": "2026-08-25T01:24:13.000Z"
+} 
+
+2026-08-25 01:24:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/130
+Body:
+<empty> 
+
+2026-08-25 01:24:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/130 -> 200
+Body:
+true

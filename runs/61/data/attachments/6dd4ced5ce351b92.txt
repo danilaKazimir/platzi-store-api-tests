@@ -1,0 +1,71 @@
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_29e9f955c84447f8a7204b79f8a651c3",
+  "image": "http://taylor.biz/"
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Clothing_29e9f955c84447f8a7204b79f8a651c3",
+  "slug": "clothing-29e9f955c84447f8a7204b79f8a651c3",
+  "image": "http://taylor.biz/",
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+}
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/33
+Body:
+{
+  "name": "Clothing_40c838ca01004521bb118a51b342c1f2",
+  "image": "https://www.valencia.com/"
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Clothing_40c838ca01004521bb118a51b342c1f2",
+  "slug": "clothing-40c838ca01004521bb118a51b342c1f2",
+  "image": "https://www.valencia.com/",
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Clothing_40c838ca01004521bb118a51b342c1f2",
+  "slug": "clothing-40c838ca01004521bb118a51b342c1f2",
+  "image": "https://www.valencia.com/",
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+}
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Clothing_40c838ca01004521bb118a51b342c1f2",
+  "slug": "clothing-40c838ca01004521bb118a51b342c1f2",
+  "image": "https://www.valencia.com/",
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_fd34c6f9b7184a079db77979c2a23d57",
+  "image": "https://www.mercer-porter.net/"
+} 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Toys_fd34c6f9b7184a079db77979c2a23d57",
+  "slug": "toys-fd34c6f9b7184a079db77979c2a23d57",
+  "image": "https://www.mercer-porter.net/",
+  "creationAt": "2026-09-13T03:56:54.000Z",
+  "updatedAt": "2026-09-13T03:56:54.000Z"
+} 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profound mission-critical infrastructure-d4d2d12c8ada4cb486549bd52cf32c4f",
+  "price": 623,
+  "description": "Implemented foreground help-desk",
+  "categoryId": 26,
+  "images": [
+    "https://www.hawkins.com/"
+  ]
+} 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 83,
+  "title": "Profound mission-critical infrastructure-d4d2d12c8ada4cb486549bd52cf32c4f",
+  "slug": "profound-mission-critical-infrastructure-d4d2d12c8ada4cb486549bd52cf32c4f",
+  "price": 623,
+  "description": "Implemented foreground help-desk",
+  "category": {
+    "id": 26,
+    "name": "Toys_fd34c6f9b7184a079db77979c2a23d57",
+    "slug": "toys-fd34c6f9b7184a079db77979c2a23d57",
+    "image": "https://www.mercer-porter.net/",
+    "creationAt": "2026-09-13T03:56:54.000Z",
+    "updatedAt": "2026-09-13T03:56:54.000Z"
+  },
+  "images": [
+    "https://www.hawkins.com/"
+  ],
+  "creationAt": "2026-09-13T03:56:54.000Z",
+  "updatedAt": "2026-09-13T03:56:54.000Z"
+}
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/83
+Body:
+{
+  "title": "Distributed reciprocal strategy-2da02ef452264b908cc38c5b77956044",
+  "price": 491,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/83 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+{
+  "id": 83,
+  "title": "Profound mission-critical infrastructure-d4d2d12c8ada4cb486549bd52cf32c4f",
+  "slug": "profound-mission-critical-infrastructure-d4d2d12c8ada4cb486549bd52cf32c4f",
+  "price": 623,
+  "description": "Implemented foreground help-desk",
+  "category": {
+    "id": 26,
+    "name": "Toys_fd34c6f9b7184a079db77979c2a23d57",
+    "slug": "toys-fd34c6f9b7184a079db77979c2a23d57",
+    "image": "https://www.mercer-porter.net/",
+    "creationAt": "2026-09-13T03:56:54.000Z",
+    "updatedAt": "2026-09-13T03:56:54.000Z"
+  },
+  "images": [
+    "https://www.hawkins.com/"
+  ],
+  "creationAt": "2026-09-13T03:56:54.000Z",
+  "updatedAt": "2026-09-13T03:56:54.000Z"
+} 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+true 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Toys_fd34c6f9b7184a079db77979c2a23d57",
+  "slug": "toys-fd34c6f9b7184a079db77979c2a23d57",
+  "image": "https://www.mercer-porter.net/",
+  "creationAt": "2026-09-13T03:56:54.000Z",
+  "updatedAt": "2026-09-13T03:56:54.000Z"
+} 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-13 03:56:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-08-22 01:23:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_298e8b0c04064baeb9bcb83f4ab60ee4",
+  "image": "https://www.flowers.org/"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 736,
+  "name": "Toys_298e8b0c04064baeb9bcb83f4ab60ee4",
+  "slug": "toys-298e8b0c04064baeb9bcb83f4ab60ee4",
+  "image": "https://www.flowers.org/",
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enterprise-wide regional pricing structure-27e85b47463d4cfa89b7c43400c92c84",
+  "price": 412,
+  "description": "Total multi-state archive",
+  "categoryId": 736,
+  "images": [
+    "https://lopez-williams.com/"
+  ]
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 662,
+  "title": "Enterprise-wide regional pricing structure-27e85b47463d4cfa89b7c43400c92c84",
+  "slug": "enterprise-wide-regional-pricing-structure-27e85b47463d4cfa89b7c43400c92c84",
+  "price": 412,
+  "description": "Total multi-state archive",
+  "category": {
+    "id": 736,
+    "name": "Toys_298e8b0c04064baeb9bcb83f4ab60ee4",
+    "slug": "toys-298e8b0c04064baeb9bcb83f4ab60ee4",
+    "image": "https://www.flowers.org/",
+    "creationAt": "2026-08-22T01:23:01.000Z",
+    "updatedAt": "2026-08-22T01:23:01.000Z"
+  },
+  "images": [
+    "https://lopez-williams.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+}
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/662
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/662 -> 200
+Body:
+{
+  "id": 662,
+  "title": "Enterprise-wide regional pricing structure-27e85b47463d4cfa89b7c43400c92c84",
+  "slug": "enterprise-wide-regional-pricing-structure-27e85b47463d4cfa89b7c43400c92c84",
+  "price": 412,
+  "description": "Total multi-state archive",
+  "category": {
+    "id": 736,
+    "name": "Toys_298e8b0c04064baeb9bcb83f4ab60ee4",
+    "slug": "toys-298e8b0c04064baeb9bcb83f4ab60ee4",
+    "image": "https://www.flowers.org/",
+    "creationAt": "2026-08-22T01:23:01.000Z",
+    "updatedAt": "2026-08-22T01:23:01.000Z"
+  },
+  "images": [
+    "https://lopez-williams.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+}
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/662
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/662 -> 200
+Body:
+{
+  "id": 662,
+  "title": "Enterprise-wide regional pricing structure-27e85b47463d4cfa89b7c43400c92c84",
+  "slug": "enterprise-wide-regional-pricing-structure-27e85b47463d4cfa89b7c43400c92c84",
+  "price": 412,
+  "description": "Total multi-state archive",
+  "category": {
+    "id": 736,
+    "name": "Toys_298e8b0c04064baeb9bcb83f4ab60ee4",
+    "slug": "toys-298e8b0c04064baeb9bcb83f4ab60ee4",
+    "image": "https://www.flowers.org/",
+    "creationAt": "2026-08-22T01:23:01.000Z",
+    "updatedAt": "2026-08-22T01:23:01.000Z"
+  },
+  "images": [
+    "https://lopez-williams.com/"
+  ],
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/662
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/662 -> 200
+Body:
+true 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/736
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/736 -> 200
+Body:
+{
+  "id": 736,
+  "name": "Toys_298e8b0c04064baeb9bcb83f4ab60ee4",
+  "slug": "toys-298e8b0c04064baeb9bcb83f4ab60ee4",
+  "image": "https://www.flowers.org/",
+  "creationAt": "2026-08-22T01:23:01.000Z",
+  "updatedAt": "2026-08-22T01:23:01.000Z"
+} 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/736
+Body:
+<empty> 
+
+2026-08-22 01:23:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/736 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_c1e47a6620e04778b36011c9264f121a",
+  "image": "https://barrera.org/"
+} 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Electronics_c1e47a6620e04778b36011c9264f121a",
+  "slug": "electronics-c1e47a6620e04778b36011c9264f121a",
+  "image": "https://barrera.org/",
+  "creationAt": "2026-09-15T04:03:36.000Z",
+  "updatedAt": "2026-09-15T04:03:36.000Z"
+} 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Versatile actuating toolset-b6caa3353d464de3a47a3e4c9abefbf1",
+  "price": 21,
+  "description": "Devolved discrete array",
+  "categoryId": 28,
+  "images": [
+    "https://www.olson-todd.org/"
+  ]
+} 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 74,
+  "title": "Versatile actuating toolset-b6caa3353d464de3a47a3e4c9abefbf1",
+  "slug": "versatile-actuating-toolset-b6caa3353d464de3a47a3e4c9abefbf1",
+  "price": 21,
+  "description": "Devolved discrete array",
+  "category": {
+    "id": 28,
+    "name": "Electronics_c1e47a6620e04778b36011c9264f121a",
+    "slug": "electronics-c1e47a6620e04778b36011c9264f121a",
+    "image": "https://barrera.org/",
+    "creationAt": "2026-09-15T04:03:36.000Z",
+    "updatedAt": "2026-09-15T04:03:36.000Z"
+  },
+  "images": [
+    "https://www.olson-todd.org/"
+  ],
+  "creationAt": "2026-09-15T04:03:36.000Z",
+  "updatedAt": "2026-09-15T04:03:36.000Z"
+}
+2026-09-15 04:03:36 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/74
+Body:
+{
+  "title": "Stand-alone background instruction set-6aa960a0e31149f49a19331fd0ce606f",
+  "price": 187,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/74 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-15 04:03:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/74
+Body:
+<empty> 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/74 -> 200
+Body:
+{
+  "id": 74,
+  "title": "Versatile actuating toolset-b6caa3353d464de3a47a3e4c9abefbf1",
+  "slug": "versatile-actuating-toolset-b6caa3353d464de3a47a3e4c9abefbf1",
+  "price": 21,
+  "description": "Devolved discrete array",
+  "category": {
+    "id": 28,
+    "name": "Electronics_c1e47a6620e04778b36011c9264f121a",
+    "slug": "electronics-c1e47a6620e04778b36011c9264f121a",
+    "image": "https://barrera.org/",
+    "creationAt": "2026-09-15T04:03:36.000Z",
+    "updatedAt": "2026-09-15T04:03:36.000Z"
+  },
+  "images": [
+    "https://www.olson-todd.org/"
+  ],
+  "creationAt": "2026-09-15T04:03:36.000Z",
+  "updatedAt": "2026-09-15T04:03:36.000Z"
+} 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/74
+Body:
+<empty> 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/74 -> 200
+Body:
+true 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Electronics_c1e47a6620e04778b36011c9264f121a",
+  "slug": "electronics-c1e47a6620e04778b36011c9264f121a",
+  "image": "https://barrera.org/",
+  "creationAt": "2026-09-15T04:03:36.000Z",
+  "updatedAt": "2026-09-15T04:03:36.000Z"
+} 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-09-15 04:03:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true

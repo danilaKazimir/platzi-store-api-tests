@@ -1,0 +1,135 @@
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_bcac44fef012452b81b799bd0fc132ea",
+  "image": "http://kline.biz/"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Electronics_bcac44fef012452b81b799bd0fc132ea",
+  "slug": "electronics-bcac44fef012452b81b799bd0fc132ea",
+  "image": "http://kline.biz/",
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-engineered fresh-thinking circuit-37419698d1004350b10b550585df50da",
+  "price": 75,
+  "description": "Assimilated hybrid frame",
+  "categoryId": 26,
+  "images": [
+    "http://contreras.com/"
+  ]
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 88,
+  "title": "Re-engineered fresh-thinking circuit-37419698d1004350b10b550585df50da",
+  "slug": "re-engineered-fresh-thinking-circuit-37419698d1004350b10b550585df50da",
+  "price": 75,
+  "description": "Assimilated hybrid frame",
+  "category": {
+    "id": 26,
+    "name": "Electronics_bcac44fef012452b81b799bd0fc132ea",
+    "slug": "electronics-bcac44fef012452b81b799bd0fc132ea",
+    "image": "http://kline.biz/",
+    "creationAt": "2026-09-05T03:38:36.000Z",
+    "updatedAt": "2026-09-05T03:38:36.000Z"
+  },
+  "images": [
+    "http://contreras.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+}
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+{
+  "id": 88,
+  "title": "Re-engineered fresh-thinking circuit-37419698d1004350b10b550585df50da",
+  "slug": "re-engineered-fresh-thinking-circuit-37419698d1004350b10b550585df50da",
+  "price": 75,
+  "description": "Assimilated hybrid frame",
+  "category": {
+    "id": 26,
+    "name": "Electronics_bcac44fef012452b81b799bd0fc132ea",
+    "slug": "electronics-bcac44fef012452b81b799bd0fc132ea",
+    "image": "http://kline.biz/",
+    "creationAt": "2026-09-05T03:38:36.000Z",
+    "updatedAt": "2026-09-05T03:38:36.000Z"
+  },
+  "images": [
+    "http://contreras.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+}
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+{
+  "id": 88,
+  "title": "Re-engineered fresh-thinking circuit-37419698d1004350b10b550585df50da",
+  "slug": "re-engineered-fresh-thinking-circuit-37419698d1004350b10b550585df50da",
+  "price": 75,
+  "description": "Assimilated hybrid frame",
+  "category": {
+    "id": 26,
+    "name": "Electronics_bcac44fef012452b81b799bd0fc132ea",
+    "slug": "electronics-bcac44fef012452b81b799bd0fc132ea",
+    "image": "http://kline.biz/",
+    "creationAt": "2026-09-05T03:38:36.000Z",
+    "updatedAt": "2026-09-05T03:38:36.000Z"
+  },
+  "images": [
+    "http://contreras.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+true 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Electronics_bcac44fef012452b81b799bd0fc132ea",
+  "slug": "electronics-bcac44fef012452b81b799bd0fc132ea",
+  "image": "http://kline.biz/",
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

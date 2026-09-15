@@ -1,0 +1,135 @@
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_1990caf7f869478fbbb6c58d87620071",
+  "image": "http://perez-butler.com/"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 416,
+  "name": "Clothing_1990caf7f869478fbbb6c58d87620071",
+  "slug": "clothing-1990caf7f869478fbbb6c58d87620071",
+  "image": "http://perez-butler.com/",
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Total 6thgeneration interface-0fc4cbdb223840d18de1422b05ffb410",
+  "price": 303,
+  "description": "Decentralized bottom-line projection",
+  "categoryId": 416,
+  "images": [
+    "https://www.gutierrez.net/"
+  ]
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 366,
+  "title": "Total 6thgeneration interface-0fc4cbdb223840d18de1422b05ffb410",
+  "slug": "total-6thgeneration-interface-0fc4cbdb223840d18de1422b05ffb410",
+  "price": 303,
+  "description": "Decentralized bottom-line projection",
+  "category": {
+    "id": 416,
+    "name": "Clothing_1990caf7f869478fbbb6c58d87620071",
+    "slug": "clothing-1990caf7f869478fbbb6c58d87620071",
+    "image": "http://perez-butler.com/",
+    "creationAt": "2026-08-19T01:23:59.000Z",
+    "updatedAt": "2026-08-19T01:23:59.000Z"
+  },
+  "images": [
+    "https://www.gutierrez.net/"
+  ],
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+}
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/366
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/366 -> 200
+Body:
+{
+  "id": 366,
+  "title": "Total 6thgeneration interface-0fc4cbdb223840d18de1422b05ffb410",
+  "slug": "total-6thgeneration-interface-0fc4cbdb223840d18de1422b05ffb410",
+  "price": 303,
+  "description": "Decentralized bottom-line projection",
+  "category": {
+    "id": 416,
+    "name": "Clothing_1990caf7f869478fbbb6c58d87620071",
+    "slug": "clothing-1990caf7f869478fbbb6c58d87620071",
+    "image": "http://perez-butler.com/",
+    "creationAt": "2026-08-19T01:23:59.000Z",
+    "updatedAt": "2026-08-19T01:23:59.000Z"
+  },
+  "images": [
+    "https://www.gutierrez.net/"
+  ],
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+}
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/366
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/366 -> 200
+Body:
+{
+  "id": 366,
+  "title": "Total 6thgeneration interface-0fc4cbdb223840d18de1422b05ffb410",
+  "slug": "total-6thgeneration-interface-0fc4cbdb223840d18de1422b05ffb410",
+  "price": 303,
+  "description": "Decentralized bottom-line projection",
+  "category": {
+    "id": 416,
+    "name": "Clothing_1990caf7f869478fbbb6c58d87620071",
+    "slug": "clothing-1990caf7f869478fbbb6c58d87620071",
+    "image": "http://perez-butler.com/",
+    "creationAt": "2026-08-19T01:23:59.000Z",
+    "updatedAt": "2026-08-19T01:23:59.000Z"
+  },
+  "images": [
+    "https://www.gutierrez.net/"
+  ],
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/366
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/366 -> 200
+Body:
+true 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/416
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/416 -> 200
+Body:
+{
+  "id": 416,
+  "name": "Clothing_1990caf7f869478fbbb6c58d87620071",
+  "slug": "clothing-1990caf7f869478fbbb6c58d87620071",
+  "image": "http://perez-butler.com/",
+  "creationAt": "2026-08-19T01:23:59.000Z",
+  "updatedAt": "2026-08-19T01:23:59.000Z"
+} 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/416
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/416 -> 200
+Body:
+true

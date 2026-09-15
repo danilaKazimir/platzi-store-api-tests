@@ -1,0 +1,53 @@
+2026-09-15 04:03:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_e8dd1c571f29419299e6ce7d593c3935",
+  "image": "http://flores.org/"
+} 
+
+2026-09-15 04:03:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Electronics_e8dd1c571f29419299e6ce7d593c3935",
+  "slug": "electronics-e8dd1c571f29419299e6ce7d593c3935",
+  "image": "http://flores.org/",
+  "creationAt": "2026-09-15T04:03:32.000Z",
+  "updatedAt": "2026-09-15T04:03:32.000Z"
+}
+2026-09-15 04:03:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-15 04:03:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Electronics_e8dd1c571f29419299e6ce7d593c3935",
+  "slug": "electronics-e8dd1c571f29419299e6ce7d593c3935",
+  "image": "http://flores.org/",
+  "creationAt": "2026-09-15T04:03:32.000Z",
+  "updatedAt": "2026-09-15T04:03:32.000Z"
+}
+2026-09-15 04:03:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-15 04:03:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Electronics_e8dd1c571f29419299e6ce7d593c3935",
+  "slug": "electronics-e8dd1c571f29419299e6ce7d593c3935",
+  "image": "http://flores.org/",
+  "creationAt": "2026-09-15T04:03:32.000Z",
+  "updatedAt": "2026-09-15T04:03:32.000Z"
+} 
+
+2026-09-15 04:03:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-15 04:03:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

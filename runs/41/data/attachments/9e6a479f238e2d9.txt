@@ -1,0 +1,125 @@
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_4c7a702a51104b0d9fd8214073e782b0",
+  "image": "https://morgan.net/"
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 79,
+  "name": "Electronics_4c7a702a51104b0d9fd8214073e782b0",
+  "slug": "electronics-4c7a702a51104b0d9fd8214073e782b0",
+  "image": "https://morgan.net/",
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Organic incremental extranet-224aae10dfe3444f8625bcb516a3f310",
+  "price": 500,
+  "description": "Pre-emptive bandwidth-monitored analyzer",
+  "categoryId": 79,
+  "images": [
+    "https://ballard.com/"
+  ]
+} 
+
+2026-08-23 01:36:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 242,
+  "title": "Organic incremental extranet-224aae10dfe3444f8625bcb516a3f310",
+  "slug": "organic-incremental-extranet-224aae10dfe3444f8625bcb516a3f310",
+  "price": 500,
+  "description": "Pre-emptive bandwidth-monitored analyzer",
+  "category": {
+    "id": 79,
+    "name": "Electronics_4c7a702a51104b0d9fd8214073e782b0",
+    "slug": "electronics-4c7a702a51104b0d9fd8214073e782b0",
+    "image": "https://morgan.net/",
+    "creationAt": "2026-08-23T01:36:26.000Z",
+    "updatedAt": "2026-08-23T01:36:26.000Z"
+  },
+  "images": [
+    "https://ballard.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+}
+2026-08-23 01:36:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/242
+Body:
+{
+  "title": "Self-enabling clear-thinking capacity-b8091cb0806444339c322422901d0701",
+  "price": 11,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/242 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+{
+  "id": 242,
+  "title": "Organic incremental extranet-224aae10dfe3444f8625bcb516a3f310",
+  "slug": "organic-incremental-extranet-224aae10dfe3444f8625bcb516a3f310",
+  "price": 500,
+  "description": "Pre-emptive bandwidth-monitored analyzer",
+  "category": {
+    "id": 79,
+    "name": "Electronics_4c7a702a51104b0d9fd8214073e782b0",
+    "slug": "electronics-4c7a702a51104b0d9fd8214073e782b0",
+    "image": "https://morgan.net/",
+    "creationAt": "2026-08-23T01:36:26.000Z",
+    "updatedAt": "2026-08-23T01:36:26.000Z"
+  },
+  "images": [
+    "https://ballard.com/"
+  ],
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+true 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/79
+Body:
+<empty> 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/79 -> 200
+Body:
+{
+  "id": 79,
+  "name": "Electronics_4c7a702a51104b0d9fd8214073e782b0",
+  "slug": "electronics-4c7a702a51104b0d9fd8214073e782b0",
+  "image": "https://morgan.net/",
+  "creationAt": "2026-08-23T01:36:26.000Z",
+  "updatedAt": "2026-08-23T01:36:26.000Z"
+} 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/79
+Body:
+<empty> 
+
+2026-08-23 01:36:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/79 -> 200
+Body:
+true

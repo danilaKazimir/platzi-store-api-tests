@@ -1,0 +1,408 @@
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+  "image": "http://bates.com/"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1640,
+  "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+  "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+  "image": "http://bates.com/",
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+}
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive client-server methodology-2cd83187792249ff9c0a5ade4ec628e5",
+  "price": 910,
+  "description": "Visionary high-level workforce",
+  "categoryId": 1640,
+  "images": [
+    "https://www.jones.com/"
+  ]
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1218,
+  "title": "Progressive client-server methodology-2cd83187792249ff9c0a5ade4ec628e5",
+  "slug": "progressive-client-server-methodology-2cd83187792249ff9c0a5ade4ec628e5",
+  "price": 910,
+  "description": "Visionary high-level workforce",
+  "category": {
+    "id": 1640,
+    "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+    "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+    "image": "http://bates.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "https://www.jones.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reduced logistical firmware-a0f114a5b3444627814baac28cf9b8e2",
+  "price": 488,
+  "description": "Customizable coherent support",
+  "categoryId": 1640,
+  "images": [
+    "http://www.fuller.com/"
+  ]
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1221,
+  "title": "Reduced logistical firmware-a0f114a5b3444627814baac28cf9b8e2",
+  "slug": "reduced-logistical-firmware-a0f114a5b3444627814baac28cf9b8e2",
+  "price": 488,
+  "description": "Customizable coherent support",
+  "category": {
+    "id": 1640,
+    "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+    "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+    "image": "http://bates.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "http://www.fuller.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Triple-buffered interactive encryption-257908fa20ae4f5ca10a662d37fa1be4",
+  "price": 788,
+  "description": "Mandatory asymmetric flexibility",
+  "categoryId": 1640,
+  "images": [
+    "http://contreras.com/"
+  ]
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1223,
+  "title": "Triple-buffered interactive encryption-257908fa20ae4f5ca10a662d37fa1be4",
+  "slug": "triple-buffered-interactive-encryption-257908fa20ae4f5ca10a662d37fa1be4",
+  "price": 788,
+  "description": "Mandatory asymmetric flexibility",
+  "category": {
+    "id": 1640,
+    "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+    "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+    "image": "http://bates.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "http://contreras.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_693ca601d5bf49469524bb7e3f0b4aae",
+  "image": "https://www.baldwin.net/"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1644,
+  "name": "Clothing_693ca601d5bf49469524bb7e3f0b4aae",
+  "slug": "clothing-693ca601d5bf49469524bb7e3f0b4aae",
+  "image": "https://www.baldwin.net/",
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Up-sized clear-thinking budgetary management-8f95cc5da26e472d95dba651cb77c34e",
+  "price": 701,
+  "description": "Total needs-based circuit",
+  "categoryId": 1644,
+  "images": [
+    "https://www.matthews.com/"
+  ]
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1225,
+  "title": "Up-sized clear-thinking budgetary management-8f95cc5da26e472d95dba651cb77c34e",
+  "slug": "up-sized-clear-thinking-budgetary-management-8f95cc5da26e472d95dba651cb77c34e",
+  "price": 701,
+  "description": "Total needs-based circuit",
+  "category": {
+    "id": 1644,
+    "name": "Clothing_693ca601d5bf49469524bb7e3f0b4aae",
+    "slug": "clothing-693ca601d5bf49469524bb7e3f0b4aae",
+    "image": "https://www.baldwin.net/",
+    "creationAt": "2026-08-20T01:23:28.000Z",
+    "updatedAt": "2026-08-20T01:23:28.000Z"
+  },
+  "images": [
+    "https://www.matthews.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1218/related
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1218/related -> 200
+Body:
+[
+  {
+    "id": 1221,
+    "title": "Reduced logistical firmware-a0f114a5b3444627814baac28cf9b8e2",
+    "slug": "reduced-logistical-firmware-a0f114a5b3444627814baac28cf9b8e2",
+    "price": 488,
+    "description": "Customizable coherent support",
+    "category": {
+      "id": 1640,
+      "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+      "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+      "image": "http://bates.com/",
+      "creationAt": "2026-08-20T01:23:27.000Z",
+      "updatedAt": "2026-08-20T01:23:27.000Z"
+    },
+    "images": [
+      "http://www.fuller.com/"
+    ],
+    "creationAt": "2026-08-20T01:23:28.000Z",
+    "updatedAt": "2026-08-20T01:23:28.000Z"
+  },
+  {
+    "id": 1223,
+    "title": "Triple-buffered interactive encryption-257908fa20ae4f5ca10a662d37fa1be4",
+    "slug": "triple-buffered-interactive-encryption-257908fa20ae4f5ca10a662d37fa1be4",
+    "price": 788,
+    "description": "Mandatory asymmetric flexibility",
+    "category": {
+      "id": 1640,
+      "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+      "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+      "image": "http://bates.com/",
+      "creationAt": "2026-08-20T01:23:27.000Z",
+      "updatedAt": "2026-08-20T01:23:27.000Z"
+    },
+    "images": [
+      "http://contreras.com/"
+    ],
+    "creationAt": "2026-08-20T01:23:28.000Z",
+    "updatedAt": "2026-08-20T01:23:28.000Z"
+  }
+]
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1225
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1225 -> 200
+Body:
+{
+  "id": 1225,
+  "title": "Up-sized clear-thinking budgetary management-8f95cc5da26e472d95dba651cb77c34e",
+  "slug": "up-sized-clear-thinking-budgetary-management-8f95cc5da26e472d95dba651cb77c34e",
+  "price": 701,
+  "description": "Total needs-based circuit",
+  "category": {
+    "id": 1644,
+    "name": "Clothing_693ca601d5bf49469524bb7e3f0b4aae",
+    "slug": "clothing-693ca601d5bf49469524bb7e3f0b4aae",
+    "image": "https://www.baldwin.net/",
+    "creationAt": "2026-08-20T01:23:28.000Z",
+    "updatedAt": "2026-08-20T01:23:28.000Z"
+  },
+  "images": [
+    "https://www.matthews.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1225
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1225 -> 200
+Body:
+true 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1223
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1223 -> 200
+Body:
+{
+  "id": 1223,
+  "title": "Triple-buffered interactive encryption-257908fa20ae4f5ca10a662d37fa1be4",
+  "slug": "triple-buffered-interactive-encryption-257908fa20ae4f5ca10a662d37fa1be4",
+  "price": 788,
+  "description": "Mandatory asymmetric flexibility",
+  "category": {
+    "id": 1640,
+    "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+    "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+    "image": "http://bates.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "http://contreras.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1223
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1223 -> 200
+Body:
+true 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1221
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1221 -> 200
+Body:
+{
+  "id": 1221,
+  "title": "Reduced logistical firmware-a0f114a5b3444627814baac28cf9b8e2",
+  "slug": "reduced-logistical-firmware-a0f114a5b3444627814baac28cf9b8e2",
+  "price": 488,
+  "description": "Customizable coherent support",
+  "category": {
+    "id": 1640,
+    "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+    "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+    "image": "http://bates.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "http://www.fuller.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1221
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1221 -> 200
+Body:
+true 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1218
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1218 -> 200
+Body:
+{
+  "id": 1218,
+  "title": "Progressive client-server methodology-2cd83187792249ff9c0a5ade4ec628e5",
+  "slug": "progressive-client-server-methodology-2cd83187792249ff9c0a5ade4ec628e5",
+  "price": 910,
+  "description": "Visionary high-level workforce",
+  "category": {
+    "id": 1640,
+    "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+    "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+    "image": "http://bates.com/",
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  "images": [
+    "https://www.jones.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1218
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1218 -> 200
+Body:
+true 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1644
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1644 -> 200
+Body:
+{
+  "id": 1644,
+  "name": "Clothing_693ca601d5bf49469524bb7e3f0b4aae",
+  "slug": "clothing-693ca601d5bf49469524bb7e3f0b4aae",
+  "image": "https://www.baldwin.net/",
+  "creationAt": "2026-08-20T01:23:28.000Z",
+  "updatedAt": "2026-08-20T01:23:28.000Z"
+} 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1644
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1644 -> 200
+Body:
+true 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1640
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1640 -> 200
+Body:
+{
+  "id": 1640,
+  "name": "Personal Care_ace10ff5af7e4c59a6637b3ae763b0c3",
+  "slug": "personal-care-ace10ff5af7e4c59a6637b3ae763b0c3",
+  "image": "http://bates.com/",
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1640
+Body:
+<empty> 
+
+2026-08-20 01:23:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1640 -> 200
+Body:
+true

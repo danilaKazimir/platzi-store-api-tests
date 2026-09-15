@@ -1,0 +1,79 @@
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_7726e86828ff4d72be2bd4143a422495",
+  "image": "https://jones.info/"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 413,
+  "name": "Sports & Fitness_7726e86828ff4d72be2bd4143a422495",
+  "slug": "sports-fitness-7726e86828ff4d72be2bd4143a422495",
+  "image": "https://jones.info/",
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+}
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Diverse intangible Graphical User Interface-edb4eef128e049a09f8a512d7d7a6479",
+  "price": 402,
+  "description": "Decentralized 4thgeneration flexibility",
+  "categoryId": 413,
+  "images": [
+    "http://gutierrez.com/"
+  ]
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 362,
+  "title": "Diverse intangible Graphical User Interface-edb4eef128e049a09f8a512d7d7a6479",
+  "slug": "diverse-intangible-graphical-user-interface-edb4eef128e049a09f8a512d7d7a6479",
+  "price": 402,
+  "description": "Decentralized 4thgeneration flexibility",
+  "category": {
+    "id": 413,
+    "name": "Sports & Fitness_7726e86828ff4d72be2bd4143a422495",
+    "slug": "sports-fitness-7726e86828ff4d72be2bd4143a422495",
+    "image": "https://jones.info/",
+    "creationAt": "2026-08-19T01:23:58.000Z",
+    "updatedAt": "2026-08-19T01:23:58.000Z"
+  },
+  "images": [
+    "http://gutierrez.com/"
+  ],
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+}
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/413
+Body:
+<empty> 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/413 -> 200
+Body:
+{
+  "id": 413,
+  "name": "Sports & Fitness_7726e86828ff4d72be2bd4143a422495",
+  "slug": "sports-fitness-7726e86828ff4d72be2bd4143a422495",
+  "image": "https://jones.info/",
+  "creationAt": "2026-08-19T01:23:58.000Z",
+  "updatedAt": "2026-08-19T01:23:58.000Z"
+} 
+
+2026-08-19 01:23:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/413
+Body:
+<empty> 
+
+2026-08-19 01:23:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/413 -> 400
+Body:
+{
+  "path": "/api/v1/categories/413",
+  "timestamp": "2026-08-19T01:23:58.974Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

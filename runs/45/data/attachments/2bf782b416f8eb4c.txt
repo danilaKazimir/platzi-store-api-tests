@@ -1,0 +1,88 @@
+2026-08-27 08:18:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Benjamin Young",
+  "email": "judithneal@example.com",
+  "password": "***",
+  "avatar": "http://www.suarez-smith.com/"
+} 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 5,
+  "email": "judithneal@example.com",
+  "password": "***",
+  "name": "Benjamin Young",
+  "role": "customer",
+  "avatar": "http://www.suarez-smith.com/",
+  "creationAt": "2026-08-27T08:18:45.000Z",
+  "updatedAt": "2026-08-27T08:18:45.000Z"
+}
+2026-08-27 08:18:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "judithneal@example.com",
+  "password": "***"
+} 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTc4NzgxODcyNSwiZXhwIjoxNzg3ODU0NzI1fQ.UEhkluiz0RDsswIMKb9ex9zVpoANGtJR7423Flxt-0M"
+} 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 5,
+  "email": "judithneal@example.com",
+  "password": "***",
+  "name": "Benjamin Young",
+  "role": "customer",
+  "avatar": "http://www.suarez-smith.com/",
+  "creationAt": "2026-08-27T08:18:45.000Z",
+  "updatedAt": "2026-08-27T08:18:45.000Z"
+}
+2026-08-27 08:18:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+{
+  "id": 5,
+  "email": "judithneal@example.com",
+  "password": "***",
+  "name": "Benjamin Young",
+  "role": "customer",
+  "avatar": "http://www.suarez-smith.com/",
+  "creationAt": "2026-08-27T08:18:45.000Z",
+  "updatedAt": "2026-08-27T08:18:45.000Z"
+} 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-08-27 08:18:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+true

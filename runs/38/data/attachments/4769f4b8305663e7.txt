@@ -1,0 +1,407 @@
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+  "image": "http://rodgers-phillips.com/"
+} 
+
+2026-08-20 01:23:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1639,
+  "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+  "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+  "image": "http://rodgers-phillips.com/",
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+}
+2026-08-20 01:23:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive object-oriented infrastructure-eee284f94c164f6eb4681ae650018707",
+  "price": 765,
+  "description": "Stand-alone client-server Graphical User Interface",
+  "categoryId": 1639,
+  "images": [
+    "https://www.carlson-brown.info/"
+  ]
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1213,
+  "title": "Progressive object-oriented infrastructure-eee284f94c164f6eb4681ae650018707",
+  "slug": "progressive-object-oriented-infrastructure-eee284f94c164f6eb4681ae650018707",
+  "price": 765,
+  "description": "Stand-alone client-server Graphical User Interface",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "https://www.carlson-brown.info/"
+  ],
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-contextualized regional intranet-58a8c44faa684cbd83e798ae1b260c19",
+  "price": 738,
+  "description": "Business-focused modular process improvement",
+  "categoryId": 1639,
+  "images": [
+    "https://www.davis.com/"
+  ]
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1215,
+  "title": "Re-contextualized regional intranet-58a8c44faa684cbd83e798ae1b260c19",
+  "slug": "re-contextualized-regional-intranet-58a8c44faa684cbd83e798ae1b260c19",
+  "price": 738,
+  "description": "Business-focused modular process improvement",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Function-based bi-directional interface-24e41979888a4322a2a5147335942825",
+  "price": 379,
+  "description": "Assimilated holistic capability",
+  "categoryId": 1639,
+  "images": [
+    "http://sanchez-parker.com/"
+  ]
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1216,
+  "title": "Function-based bi-directional interface-24e41979888a4322a2a5147335942825",
+  "slug": "function-based-bi-directional-interface-24e41979888a4322a2a5147335942825",
+  "price": 379,
+  "description": "Assimilated holistic capability",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "http://sanchez-parker.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Devolved empowering collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+  "price": 182,
+  "description": "Cloned holistic approach",
+  "categoryId": 1639,
+  "images": [
+    "https://robinson-alvarado.com/"
+  ]
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 1217,
+  "title": "Devolved empowering collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+  "slug": "devolved-empowering-collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+  "price": 182,
+  "description": "Cloned holistic approach",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "https://robinson-alvarado.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1639/products
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1639/products -> 200
+Body:
+[
+  {
+    "id": 1213,
+    "title": "Progressive object-oriented infrastructure-eee284f94c164f6eb4681ae650018707",
+    "slug": "progressive-object-oriented-infrastructure-eee284f94c164f6eb4681ae650018707",
+    "price": 765,
+    "description": "Stand-alone client-server Graphical User Interface",
+    "category": {
+      "id": 1639,
+      "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+      "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+      "image": "http://rodgers-phillips.com/",
+      "creationAt": "2026-08-20T01:23:26.000Z",
+      "updatedAt": "2026-08-20T01:23:26.000Z"
+    },
+    "images": [
+      "https://www.carlson-brown.info/"
+    ],
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  {
+    "id": 1215,
+    "title": "Re-contextualized regional intranet-58a8c44faa684cbd83e798ae1b260c19",
+    "slug": "re-contextualized-regional-intranet-58a8c44faa684cbd83e798ae1b260c19",
+    "price": 738,
+    "description": "Business-focused modular process improvement",
+    "category": {
+      "id": 1639,
+      "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+      "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+      "image": "http://rodgers-phillips.com/",
+      "creationAt": "2026-08-20T01:23:26.000Z",
+      "updatedAt": "2026-08-20T01:23:26.000Z"
+    },
+    "images": [
+      "https://www.davis.com/"
+    ],
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  {
+    "id": 1216,
+    "title": "Function-based bi-directional interface-24e41979888a4322a2a5147335942825",
+    "slug": "function-based-bi-directional-interface-24e41979888a4322a2a5147335942825",
+    "price": 379,
+    "description": "Assimilated holistic capability",
+    "category": {
+      "id": 1639,
+      "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+      "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+      "image": "http://rodgers-phillips.com/",
+      "creationAt": "2026-08-20T01:23:26.000Z",
+      "updatedAt": "2026-08-20T01:23:26.000Z"
+    },
+    "images": [
+      "http://sanchez-parker.com/"
+    ],
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  },
+  {
+    "id": 1217,
+    "title": "Devolved empowering collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+    "slug": "devolved-empowering-collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+    "price": 182,
+    "description": "Cloned holistic approach",
+    "category": {
+      "id": 1639,
+      "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+      "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+      "image": "http://rodgers-phillips.com/",
+      "creationAt": "2026-08-20T01:23:26.000Z",
+      "updatedAt": "2026-08-20T01:23:26.000Z"
+    },
+    "images": [
+      "https://robinson-alvarado.com/"
+    ],
+    "creationAt": "2026-08-20T01:23:27.000Z",
+    "updatedAt": "2026-08-20T01:23:27.000Z"
+  }
+]
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1217
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1217 -> 200
+Body:
+{
+  "id": 1217,
+  "title": "Devolved empowering collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+  "slug": "devolved-empowering-collaboration-108f7862a1aa480cb85f6c3cd10b1a4c",
+  "price": 182,
+  "description": "Cloned holistic approach",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "https://robinson-alvarado.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1217
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1217 -> 200
+Body:
+true 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1216
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1216 -> 200
+Body:
+{
+  "id": 1216,
+  "title": "Function-based bi-directional interface-24e41979888a4322a2a5147335942825",
+  "slug": "function-based-bi-directional-interface-24e41979888a4322a2a5147335942825",
+  "price": 379,
+  "description": "Assimilated holistic capability",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "http://sanchez-parker.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1216
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1216 -> 200
+Body:
+true 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1215
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1215 -> 200
+Body:
+{
+  "id": 1215,
+  "title": "Re-contextualized regional intranet-58a8c44faa684cbd83e798ae1b260c19",
+  "slug": "re-contextualized-regional-intranet-58a8c44faa684cbd83e798ae1b260c19",
+  "price": 738,
+  "description": "Business-focused modular process improvement",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-08-20T01:23:27.000Z",
+  "updatedAt": "2026-08-20T01:23:27.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1215
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1215 -> 200
+Body:
+true 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/1213
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/1213 -> 200
+Body:
+{
+  "id": 1213,
+  "title": "Progressive object-oriented infrastructure-eee284f94c164f6eb4681ae650018707",
+  "slug": "progressive-object-oriented-infrastructure-eee284f94c164f6eb4681ae650018707",
+  "price": 765,
+  "description": "Stand-alone client-server Graphical User Interface",
+  "category": {
+    "id": 1639,
+    "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+    "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+    "image": "http://rodgers-phillips.com/",
+    "creationAt": "2026-08-20T01:23:26.000Z",
+    "updatedAt": "2026-08-20T01:23:26.000Z"
+  },
+  "images": [
+    "https://www.carlson-brown.info/"
+  ],
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/1213
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/1213 -> 200
+Body:
+true 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1639
+Body:
+<empty> 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1639 -> 200
+Body:
+{
+  "id": 1639,
+  "name": "Food & Beverages_eb67b0ed1d0a48aa8499d4bb003b660d",
+  "slug": "food-beverages-eb67b0ed1d0a48aa8499d4bb003b660d",
+  "image": "http://rodgers-phillips.com/",
+  "creationAt": "2026-08-20T01:23:26.000Z",
+  "updatedAt": "2026-08-20T01:23:26.000Z"
+} 
+
+2026-08-20 01:23:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1639
+Body:
+<empty> 
+
+2026-08-20 01:23:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1639 -> 200
+Body:
+true

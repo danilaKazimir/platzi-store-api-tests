@@ -1,0 +1,53 @@
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_d62b0b59e34d4faab9c1ec870083b635",
+  "image": "http://www.huff.com/"
+} 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 109,
+  "name": "Home & Kitchen_d62b0b59e34d4faab9c1ec870083b635",
+  "slug": "home-kitchen-d62b0b59e34d4faab9c1ec870083b635",
+  "image": "http://www.huff.com/",
+  "creationAt": "2026-08-24T01:27:43.000Z",
+  "updatedAt": "2026-08-24T01:27:43.000Z"
+}
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-d62b0b59e34d4faab9c1ec870083b635
+Body:
+<empty> 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-d62b0b59e34d4faab9c1ec870083b635 -> 200
+Body:
+{
+  "id": 109,
+  "name": "Home & Kitchen_d62b0b59e34d4faab9c1ec870083b635",
+  "slug": "home-kitchen-d62b0b59e34d4faab9c1ec870083b635",
+  "image": "http://www.huff.com/",
+  "creationAt": "2026-08-24T01:27:43.000Z",
+  "updatedAt": "2026-08-24T01:27:43.000Z"
+}
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/109
+Body:
+<empty> 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/109 -> 200
+Body:
+{
+  "id": 109,
+  "name": "Home & Kitchen_d62b0b59e34d4faab9c1ec870083b635",
+  "slug": "home-kitchen-d62b0b59e34d4faab9c1ec870083b635",
+  "image": "http://www.huff.com/",
+  "creationAt": "2026-08-24T01:27:43.000Z",
+  "updatedAt": "2026-08-24T01:27:43.000Z"
+} 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/109
+Body:
+<empty> 
+
+2026-08-24 01:27:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/109 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_33c0d2b44f6148529262081bdf1f1273",
+  "image": "https://hunter.com/"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 422,
+  "name": "Electronics_33c0d2b44f6148529262081bdf1f1273",
+  "slug": "electronics-33c0d2b44f6148529262081bdf1f1273",
+  "image": "https://hunter.com/",
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly holistic groupware-d5f9a105ae104a2ea3234b99fbc46f9e",
+  "price": 146,
+  "description": "Future-proofed multi-state database",
+  "categoryId": 422,
+  "images": [
+    "https://thompson.com/"
+  ]
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 372,
+  "title": "User-friendly holistic groupware-d5f9a105ae104a2ea3234b99fbc46f9e",
+  "slug": "user-friendly-holistic-groupware-d5f9a105ae104a2ea3234b99fbc46f9e",
+  "price": 146,
+  "description": "Future-proofed multi-state database",
+  "category": {
+    "id": 422,
+    "name": "Electronics_33c0d2b44f6148529262081bdf1f1273",
+    "slug": "electronics-33c0d2b44f6148529262081bdf1f1273",
+    "image": "https://hunter.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "https://thompson.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+}
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/372
+Body:
+{
+  "title": "Digitized fresh-thinking migration-8b132c71e70f4cbfa9536f5b0e49f28a",
+  "price": 638,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/372 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/372
+Body:
+<empty> 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/372 -> 200
+Body:
+{
+  "id": 372,
+  "title": "User-friendly holistic groupware-d5f9a105ae104a2ea3234b99fbc46f9e",
+  "slug": "user-friendly-holistic-groupware-d5f9a105ae104a2ea3234b99fbc46f9e",
+  "price": 146,
+  "description": "Future-proofed multi-state database",
+  "category": {
+    "id": 422,
+    "name": "Electronics_33c0d2b44f6148529262081bdf1f1273",
+    "slug": "electronics-33c0d2b44f6148529262081bdf1f1273",
+    "image": "https://hunter.com/",
+    "creationAt": "2026-08-19T01:24:01.000Z",
+    "updatedAt": "2026-08-19T01:24:01.000Z"
+  },
+  "images": [
+    "https://thompson.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/372
+Body:
+<empty> 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/372 -> 200
+Body:
+true 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/422
+Body:
+<empty> 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/422 -> 200
+Body:
+{
+  "id": 422,
+  "name": "Electronics_33c0d2b44f6148529262081bdf1f1273",
+  "slug": "electronics-33c0d2b44f6148529262081bdf1f1273",
+  "image": "https://hunter.com/",
+  "creationAt": "2026-08-19T01:24:01.000Z",
+  "updatedAt": "2026-08-19T01:24:01.000Z"
+} 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/422
+Body:
+<empty> 
+
+2026-08-19 01:24:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/422 -> 200
+Body:
+true

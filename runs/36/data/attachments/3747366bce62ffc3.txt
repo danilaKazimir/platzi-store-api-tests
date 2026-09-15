@@ -1,0 +1,55 @@
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_bd96ebb1e7d8466ca121a497b9b25499",
+  "image": "http://www.peterson.com/"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 478,
+  "name": "Pet Supplies_bd96ebb1e7d8466ca121a497b9b25499",
+  "slug": "pet-supplies-bd96ebb1e7d8466ca121a497b9b25499",
+  "image": "http://www.peterson.com/",
+  "creationAt": "2026-08-18T01:22:19.000Z",
+  "updatedAt": "2026-08-18T01:22:19.000Z"
+}
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/478
+Body:
+{
+  "name": null,
+  "image": "https://murphy.info/"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/478 -> 400
+Body:
+{
+  "path": "/api/v1/categories/478",
+  "timestamp": "2026-08-18T01:22:19.718Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/478
+Body:
+<empty> 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/478 -> 200
+Body:
+{
+  "id": 478,
+  "name": "Pet Supplies_bd96ebb1e7d8466ca121a497b9b25499",
+  "slug": "pet-supplies-bd96ebb1e7d8466ca121a497b9b25499",
+  "image": "http://www.peterson.com/",
+  "creationAt": "2026-08-18T01:22:19.000Z",
+  "updatedAt": "2026-08-18T01:22:19.000Z"
+} 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/478
+Body:
+<empty> 
+
+2026-08-18 01:22:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/478 -> 200
+Body:
+true

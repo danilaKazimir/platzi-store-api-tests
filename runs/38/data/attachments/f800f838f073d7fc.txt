@@ -1,0 +1,49 @@
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_4b5b53cb82c349faa557db30fe11a9a6",
+  "image": "http://www.logan-patterson.com/"
+} 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1628,
+  "name": "Pet Supplies_4b5b53cb82c349faa557db30fe11a9a6",
+  "slug": "pet-supplies-4b5b53cb82c349faa557db30fe11a9a6",
+  "image": "http://www.logan-patterson.com/",
+  "creationAt": "2026-08-20T01:23:24.000Z",
+  "updatedAt": "2026-08-20T01:23:24.000Z"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1628
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1628 -> 200
+Body:
+true 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1628
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1628 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1628",
+  "timestamp": "2026-08-20T01:23:24.310Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 1628\n}"
+}
+2026-08-20 01:23:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1628
+Body:
+<empty> 
+
+2026-08-20 01:23:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1628 -> 400
+Body:
+{
+  "path": "/api/v1/categories/1628",
+  "timestamp": "2026-08-20T01:23:24.343Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 1628\n}"
+}

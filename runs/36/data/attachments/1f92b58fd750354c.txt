@@ -1,0 +1,135 @@
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_25a6ea7c06c64b5c985a7476b17957e3",
+  "image": "http://www.harrison.info/"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 483,
+  "name": "Electronics_25a6ea7c06c64b5c985a7476b17957e3",
+  "slug": "electronics-25a6ea7c06c64b5c985a7476b17957e3",
+  "image": "http://www.harrison.info/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated background parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "price": 836,
+  "description": "Multi-lateral upward-trending strategy",
+  "categoryId": 483,
+  "images": [
+    "http://www.barnes.com/"
+  ]
+} 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 502,
+  "title": "Ameliorated background parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "slug": "ameliorated-background-parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "price": 836,
+  "description": "Multi-lateral upward-trending strategy",
+  "category": {
+    "id": 483,
+    "name": "Electronics_25a6ea7c06c64b5c985a7476b17957e3",
+    "slug": "electronics-25a6ea7c06c64b5c985a7476b17957e3",
+    "image": "http://www.harrison.info/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "http://www.barnes.com/"
+  ],
+  "creationAt": "2026-08-18T01:22:21.000Z",
+  "updatedAt": "2026-08-18T01:22:21.000Z"
+}
+2026-08-18 01:22:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/ameliorated-background-parallelism-1456deacdf8341ef896182e6ef42a93a
+Body:
+<empty> 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/ameliorated-background-parallelism-1456deacdf8341ef896182e6ef42a93a -> 200
+Body:
+{
+  "id": 502,
+  "title": "Ameliorated background parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "slug": "ameliorated-background-parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "price": 836,
+  "description": "Multi-lateral upward-trending strategy",
+  "category": {
+    "id": 483,
+    "name": "Electronics_25a6ea7c06c64b5c985a7476b17957e3",
+    "slug": "electronics-25a6ea7c06c64b5c985a7476b17957e3",
+    "image": "http://www.harrison.info/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "http://www.barnes.com/"
+  ],
+  "creationAt": "2026-08-18T01:22:21.000Z",
+  "updatedAt": "2026-08-18T01:22:21.000Z"
+}
+2026-08-18 01:22:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/502
+Body:
+<empty> 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/502 -> 200
+Body:
+{
+  "id": 502,
+  "title": "Ameliorated background parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "slug": "ameliorated-background-parallelism-1456deacdf8341ef896182e6ef42a93a",
+  "price": 836,
+  "description": "Multi-lateral upward-trending strategy",
+  "category": {
+    "id": 483,
+    "name": "Electronics_25a6ea7c06c64b5c985a7476b17957e3",
+    "slug": "electronics-25a6ea7c06c64b5c985a7476b17957e3",
+    "image": "http://www.harrison.info/",
+    "creationAt": "2026-08-18T01:22:20.000Z",
+    "updatedAt": "2026-08-18T01:22:20.000Z"
+  },
+  "images": [
+    "http://www.barnes.com/"
+  ],
+  "creationAt": "2026-08-18T01:22:21.000Z",
+  "updatedAt": "2026-08-18T01:22:21.000Z"
+} 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/502
+Body:
+<empty> 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/502 -> 200
+Body:
+true 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/483
+Body:
+<empty> 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/483 -> 200
+Body:
+{
+  "id": 483,
+  "name": "Electronics_25a6ea7c06c64b5c985a7476b17957e3",
+  "slug": "electronics-25a6ea7c06c64b5c985a7476b17957e3",
+  "image": "http://www.harrison.info/",
+  "creationAt": "2026-08-18T01:22:20.000Z",
+  "updatedAt": "2026-08-18T01:22:20.000Z"
+} 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/483
+Body:
+<empty> 
+
+2026-08-18 01:22:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/483 -> 200
+Body:
+true

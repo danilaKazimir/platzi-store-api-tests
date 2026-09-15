@@ -1,0 +1,53 @@
+2026-08-17 01:25:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_335bcb46262449a39e5ccd4289861d69",
+  "image": "https://lopez-lee.info/"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1186,
+  "name": "Home & Kitchen_335bcb46262449a39e5ccd4289861d69",
+  "slug": "home-kitchen-335bcb46262449a39e5ccd4289861d69",
+  "image": "https://lopez-lee.info/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-335bcb46262449a39e5ccd4289861d69
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-335bcb46262449a39e5ccd4289861d69 -> 200
+Body:
+{
+  "id": 1186,
+  "name": "Home & Kitchen_335bcb46262449a39e5ccd4289861d69",
+  "slug": "home-kitchen-335bcb46262449a39e5ccd4289861d69",
+  "image": "https://lopez-lee.info/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+}
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1186
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1186 -> 200
+Body:
+{
+  "id": 1186,
+  "name": "Home & Kitchen_335bcb46262449a39e5ccd4289861d69",
+  "slug": "home-kitchen-335bcb46262449a39e5ccd4289861d69",
+  "image": "https://lopez-lee.info/",
+  "creationAt": "2026-08-17T01:25:30.000Z",
+  "updatedAt": "2026-08-17T01:25:30.000Z"
+} 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1186
+Body:
+<empty> 
+
+2026-08-17 01:25:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1186 -> 200
+Body:
+true

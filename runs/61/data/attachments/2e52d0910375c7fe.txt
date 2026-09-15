@@ -1,0 +1,135 @@
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_b388aa0762564255a646f48e6e2d1855",
+  "image": "http://allen.com/"
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Home & Kitchen_b388aa0762564255a646f48e6e2d1855",
+  "slug": "home-kitchen-b388aa0762564255a646f48e6e2d1855",
+  "image": "http://allen.com/",
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Virtual object-oriented paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "price": 396,
+  "description": "Vision-oriented actuating model",
+  "categoryId": 38,
+  "images": [
+    "https://www.brown.com/"
+  ]
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 93,
+  "title": "Virtual object-oriented paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "slug": "virtual-object-oriented-paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "price": 396,
+  "description": "Vision-oriented actuating model",
+  "category": {
+    "id": 38,
+    "name": "Home & Kitchen_b388aa0762564255a646f48e6e2d1855",
+    "slug": "home-kitchen-b388aa0762564255a646f48e6e2d1855",
+    "image": "http://allen.com/",
+    "creationAt": "2026-09-12T03:48:36.000Z",
+    "updatedAt": "2026-09-12T03:48:36.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+}
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+{
+  "id": 93,
+  "title": "Virtual object-oriented paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "slug": "virtual-object-oriented-paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "price": 396,
+  "description": "Vision-oriented actuating model",
+  "category": {
+    "id": 38,
+    "name": "Home & Kitchen_b388aa0762564255a646f48e6e2d1855",
+    "slug": "home-kitchen-b388aa0762564255a646f48e6e2d1855",
+    "image": "http://allen.com/",
+    "creationAt": "2026-09-12T03:48:36.000Z",
+    "updatedAt": "2026-09-12T03:48:36.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+}
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+{
+  "id": 93,
+  "title": "Virtual object-oriented paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "slug": "virtual-object-oriented-paradigm-2c60a7b89dfc420487c3e3433b5a4683",
+  "price": 396,
+  "description": "Vision-oriented actuating model",
+  "category": {
+    "id": 38,
+    "name": "Home & Kitchen_b388aa0762564255a646f48e6e2d1855",
+    "slug": "home-kitchen-b388aa0762564255a646f48e6e2d1855",
+    "image": "http://allen.com/",
+    "creationAt": "2026-09-12T03:48:36.000Z",
+    "updatedAt": "2026-09-12T03:48:36.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+true 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Home & Kitchen_b388aa0762564255a646f48e6e2d1855",
+  "slug": "home-kitchen-b388aa0762564255a646f48e6e2d1855",
+  "image": "http://allen.com/",
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+true

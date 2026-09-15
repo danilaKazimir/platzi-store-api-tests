@@ -1,0 +1,107 @@
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_a6e4912999f141adaa4f586acd319795",
+  "image": "https://www.murray.com/"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Sports & Fitness_a6e4912999f141adaa4f586acd319795",
+  "slug": "sports-fitness-a6e4912999f141adaa4f586acd319795",
+  "image": "https://www.murray.com/",
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fundamental 5thgeneration process improvement-d771a70d6c4a49bca82ddf9a03a6c47c",
+  "price": 118,
+  "description": "Profound motivating model",
+  "categoryId": 16,
+  "images": [
+    "https://harris-floyd.biz/"
+  ]
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 64,
+  "title": "Fundamental 5thgeneration process improvement-d771a70d6c4a49bca82ddf9a03a6c47c",
+  "slug": "fundamental-5thgeneration-process-improvement-d771a70d6c4a49bca82ddf9a03a6c47c",
+  "price": 118,
+  "description": "Profound motivating model",
+  "category": {
+    "id": 16,
+    "name": "Sports & Fitness_a6e4912999f141adaa4f586acd319795",
+    "slug": "sports-fitness-a6e4912999f141adaa4f586acd319795",
+    "image": "https://www.murray.com/",
+    "creationAt": "2026-09-10T03:48:23.000Z",
+    "updatedAt": "2026-09-10T03:48:23.000Z"
+  },
+  "images": [
+    "https://harris-floyd.biz/"
+  ],
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+true 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 400
+Body:
+{
+  "path": "/api/v1/products/64",
+  "timestamp": "2026-09-10T03:48:23.426Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 64\n    }\n}"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 400
+Body:
+{
+  "path": "/api/v1/products/64",
+  "timestamp": "2026-09-10T03:48:23.436Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 64\n    }\n}"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Sports & Fitness_a6e4912999f141adaa4f586acd319795",
+  "slug": "sports-fitness-a6e4912999f141adaa4f586acd319795",
+  "image": "https://www.murray.com/",
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+true

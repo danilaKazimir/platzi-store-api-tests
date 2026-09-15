@@ -1,0 +1,135 @@
+2026-08-19 01:23:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_de234c973549419da4d60d6af04ee895",
+  "image": "http://downs-patel.com/"
+} 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 419,
+  "name": "Personal Care_de234c973549419da4d60d6af04ee895",
+  "slug": "personal-care-de234c973549419da4d60d6af04ee895",
+  "image": "http://downs-patel.com/",
+  "creationAt": "2026-08-19T01:24:00.000Z",
+  "updatedAt": "2026-08-19T01:24:00.000Z"
+} 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Streamlined attitude-oriented process improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "price": 8,
+  "description": "Ergonomic hybrid alliance",
+  "categoryId": 419,
+  "images": [
+    "http://hale.com/"
+  ]
+} 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 370,
+  "title": "Streamlined attitude-oriented process improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "slug": "streamlined-attitude-oriented-process-improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "price": 8,
+  "description": "Ergonomic hybrid alliance",
+  "category": {
+    "id": 419,
+    "name": "Personal Care_de234c973549419da4d60d6af04ee895",
+    "slug": "personal-care-de234c973549419da4d60d6af04ee895",
+    "image": "http://downs-patel.com/",
+    "creationAt": "2026-08-19T01:24:00.000Z",
+    "updatedAt": "2026-08-19T01:24:00.000Z"
+  },
+  "images": [
+    "http://hale.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:00.000Z",
+  "updatedAt": "2026-08-19T01:24:00.000Z"
+}
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/streamlined-attitude-oriented-process-improvement-a09b5c0d568940339a7f8648c56ff5ab
+Body:
+<empty> 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/streamlined-attitude-oriented-process-improvement-a09b5c0d568940339a7f8648c56ff5ab -> 200
+Body:
+{
+  "id": 370,
+  "title": "Streamlined attitude-oriented process improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "slug": "streamlined-attitude-oriented-process-improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "price": 8,
+  "description": "Ergonomic hybrid alliance",
+  "category": {
+    "id": 419,
+    "name": "Personal Care_de234c973549419da4d60d6af04ee895",
+    "slug": "personal-care-de234c973549419da4d60d6af04ee895",
+    "image": "http://downs-patel.com/",
+    "creationAt": "2026-08-19T01:24:00.000Z",
+    "updatedAt": "2026-08-19T01:24:00.000Z"
+  },
+  "images": [
+    "http://hale.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:00.000Z",
+  "updatedAt": "2026-08-19T01:24:00.000Z"
+}
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/370
+Body:
+<empty> 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/370 -> 200
+Body:
+{
+  "id": 370,
+  "title": "Streamlined attitude-oriented process improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "slug": "streamlined-attitude-oriented-process-improvement-a09b5c0d568940339a7f8648c56ff5ab",
+  "price": 8,
+  "description": "Ergonomic hybrid alliance",
+  "category": {
+    "id": 419,
+    "name": "Personal Care_de234c973549419da4d60d6af04ee895",
+    "slug": "personal-care-de234c973549419da4d60d6af04ee895",
+    "image": "http://downs-patel.com/",
+    "creationAt": "2026-08-19T01:24:00.000Z",
+    "updatedAt": "2026-08-19T01:24:00.000Z"
+  },
+  "images": [
+    "http://hale.com/"
+  ],
+  "creationAt": "2026-08-19T01:24:00.000Z",
+  "updatedAt": "2026-08-19T01:24:00.000Z"
+} 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/370
+Body:
+<empty> 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/370 -> 200
+Body:
+true 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/419
+Body:
+<empty> 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/419 -> 200
+Body:
+{
+  "id": 419,
+  "name": "Personal Care_de234c973549419da4d60d6af04ee895",
+  "slug": "personal-care-de234c973549419da4d60d6af04ee895",
+  "image": "http://downs-patel.com/",
+  "creationAt": "2026-08-19T01:24:00.000Z",
+  "updatedAt": "2026-08-19T01:24:00.000Z"
+} 
+
+2026-08-19 01:24:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/419
+Body:
+<empty> 
+
+2026-08-19 01:24:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/419 -> 200
+Body:
+true
