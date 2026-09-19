@@ -1,0 +1,80 @@
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Ronald Lewis",
+  "email": "paulavazquez@example.com",
+  "password": "***",
+  "avatar": "https://www.williams.com/"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 133,
+  "email": "paulavazquez@example.com",
+  "password": "***",
+  "name": "Ronald Lewis",
+  "role": "customer",
+  "avatar": "https://www.williams.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/133
+Body:
+{
+  "name": "Karina Collins"
+} 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/133 -> 200
+Body:
+{
+  "id": 133,
+  "email": "paulavazquez@example.com",
+  "password": "***",
+  "name": "Karina Collins",
+  "role": "customer",
+  "avatar": "https://www.williams.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:07.000Z"
+} 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/133
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/133 -> 200
+Body:
+{
+  "id": 133,
+  "email": "paulavazquez@example.com",
+  "password": "***",
+  "name": "Karina Collins",
+  "role": "customer",
+  "avatar": "https://www.williams.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:07.000Z"
+}
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/133
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/133 -> 200
+Body:
+{
+  "id": 133,
+  "email": "paulavazquez@example.com",
+  "password": "***",
+  "name": "Karina Collins",
+  "role": "customer",
+  "avatar": "https://www.williams.com/",
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:07.000Z"
+} 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/133
+Body:
+<empty> 
+
+2026-08-26 01:28:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/133 -> 200
+Body:
+true

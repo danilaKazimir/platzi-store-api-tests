@@ -1,0 +1,53 @@
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_0e6c16c0d49f45c6b10424adda5f6b0f",
+  "image": "https://www.matthews.info/"
+} 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Books_0e6c16c0d49f45c6b10424adda5f6b0f",
+  "slug": "books-0e6c16c0d49f45c6b10424adda5f6b0f",
+  "image": "https://www.matthews.info/",
+  "creationAt": "2026-09-07T03:40:04.000Z",
+  "updatedAt": "2026-09-07T03:40:04.000Z"
+}
+2026-09-07 03:40:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/books-0e6c16c0d49f45c6b10424adda5f6b0f
+Body:
+<empty> 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/books-0e6c16c0d49f45c6b10424adda5f6b0f -> 200
+Body:
+{
+  "id": 14,
+  "name": "Books_0e6c16c0d49f45c6b10424adda5f6b0f",
+  "slug": "books-0e6c16c0d49f45c6b10424adda5f6b0f",
+  "image": "https://www.matthews.info/",
+  "creationAt": "2026-09-07T03:40:04.000Z",
+  "updatedAt": "2026-09-07T03:40:04.000Z"
+}
+2026-09-07 03:40:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Books_0e6c16c0d49f45c6b10424adda5f6b0f",
+  "slug": "books-0e6c16c0d49f45c6b10424adda5f6b0f",
+  "image": "https://www.matthews.info/",
+  "creationAt": "2026-09-07T03:40:04.000Z",
+  "updatedAt": "2026-09-07T03:40:04.000Z"
+} 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-07 03:40:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

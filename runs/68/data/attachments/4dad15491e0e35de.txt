@@ -1,0 +1,80 @@
+2026-09-19 03:49:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Melissa Sellers",
+  "email": "matthewmitchell@example.net",
+  "password": "***",
+  "avatar": "http://www.thompson-lewis.com/"
+} 
+
+2026-09-19 03:49:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 57,
+  "email": "matthewmitchell@example.net",
+  "password": "***",
+  "name": "Melissa Sellers",
+  "role": "customer",
+  "avatar": "http://www.thompson-lewis.com/",
+  "creationAt": "2026-09-19T03:49:59.000Z",
+  "updatedAt": "2026-09-19T03:49:59.000Z"
+}
+2026-09-19 03:49:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/57
+Body:
+{
+  "email": "natalie66@example.net"
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+{
+  "id": 57,
+  "email": "natalie66@example.net",
+  "password": "***",
+  "name": "Melissa Sellers",
+  "role": "customer",
+  "avatar": "http://www.thompson-lewis.com/",
+  "creationAt": "2026-09-19T03:49:59.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/57
+Body:
+<empty> 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+{
+  "id": 57,
+  "email": "natalie66@example.net",
+  "password": "***",
+  "name": "Melissa Sellers",
+  "role": "customer",
+  "avatar": "http://www.thompson-lewis.com/",
+  "creationAt": "2026-09-19T03:49:59.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+}
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/57
+Body:
+<empty> 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+{
+  "id": 57,
+  "email": "natalie66@example.net",
+  "password": "***",
+  "name": "Melissa Sellers",
+  "role": "customer",
+  "avatar": "http://www.thompson-lewis.com/",
+  "creationAt": "2026-09-19T03:49:59.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/57
+Body:
+<empty> 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+true

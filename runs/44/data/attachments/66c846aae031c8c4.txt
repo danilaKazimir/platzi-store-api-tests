@@ -1,0 +1,15 @@
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Automotive Accessories_221aca5fefb64627b606286c8bc612cd",
+  "image": "http://harris.net/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-08-26T01:28:05.641Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

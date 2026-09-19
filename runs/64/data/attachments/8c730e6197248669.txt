@@ -1,0 +1,107 @@
+2026-09-15 04:03:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_cc7cd461199844c6ac4face843b4a7d2",
+  "image": "https://hughes.org/"
+} 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Pet Supplies_cc7cd461199844c6ac4face843b4a7d2",
+  "slug": "pet-supplies-cc7cd461199844c6ac4face843b4a7d2",
+  "image": "https://hughes.org/",
+  "creationAt": "2026-09-15T04:03:33.000Z",
+  "updatedAt": "2026-09-15T04:03:33.000Z"
+} 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Down-sized eco-centric neural-net-48cb4e2036fa4dd8b8777b4c17f062a4",
+  "price": 849,
+  "description": "Ameliorated exuding array",
+  "categoryId": 20,
+  "images": [
+    "https://huynh.net/"
+  ]
+} 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 65,
+  "title": "Down-sized eco-centric neural-net-48cb4e2036fa4dd8b8777b4c17f062a4",
+  "slug": "down-sized-eco-centric-neural-net-48cb4e2036fa4dd8b8777b4c17f062a4",
+  "price": 849,
+  "description": "Ameliorated exuding array",
+  "category": {
+    "id": 20,
+    "name": "Pet Supplies_cc7cd461199844c6ac4face843b4a7d2",
+    "slug": "pet-supplies-cc7cd461199844c6ac4face843b4a7d2",
+    "image": "https://hughes.org/",
+    "creationAt": "2026-09-15T04:03:33.000Z",
+    "updatedAt": "2026-09-15T04:03:33.000Z"
+  },
+  "images": [
+    "https://huynh.net/"
+  ],
+  "creationAt": "2026-09-15T04:03:34.000Z",
+  "updatedAt": "2026-09-15T04:03:34.000Z"
+}
+2026-09-15 04:03:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+true 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/65 -> 400
+Body:
+{
+  "path": "/api/v1/products/65",
+  "timestamp": "2026-09-15T04:03:34.320Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 65\n    }\n}"
+}
+2026-09-15 04:03:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/65 -> 400
+Body:
+{
+  "path": "/api/v1/products/65",
+  "timestamp": "2026-09-15T04:03:34.384Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 65\n    }\n}"
+} 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Pet Supplies_cc7cd461199844c6ac4face843b4a7d2",
+  "slug": "pet-supplies-cc7cd461199844c6ac4face843b4a7d2",
+  "image": "https://hughes.org/",
+  "creationAt": "2026-09-15T04:03:33.000Z",
+  "updatedAt": "2026-09-15T04:03:33.000Z"
+} 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-15 04:03:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

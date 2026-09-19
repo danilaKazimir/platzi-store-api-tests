@@ -1,0 +1,135 @@
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_ff3a9984520b4ce4b23e90c1fbda2398",
+  "image": "https://www.bowers.biz/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 155,
+  "name": "Toys_ff3a9984520b4ce4b23e90c1fbda2398",
+  "slug": "toys-ff3a9984520b4ce4b23e90c1fbda2398",
+  "image": "https://www.bowers.biz/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated leadingedge Internet solution-b256972ae6ce4d3389446358d398c491",
+  "price": 307,
+  "description": "Upgradable context-sensitive success",
+  "categoryId": 155,
+  "images": [
+    "https://park.com/"
+  ]
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 238,
+  "title": "Ameliorated leadingedge Internet solution-b256972ae6ce4d3389446358d398c491",
+  "slug": "ameliorated-leadingedge-internet-solution-b256972ae6ce4d3389446358d398c491",
+  "price": 307,
+  "description": "Upgradable context-sensitive success",
+  "category": {
+    "id": 155,
+    "name": "Toys_ff3a9984520b4ce4b23e90c1fbda2398",
+    "slug": "toys-ff3a9984520b4ce4b23e90c1fbda2398",
+    "image": "https://www.bowers.biz/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "https://park.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/238
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/238 -> 200
+Body:
+{
+  "id": 238,
+  "title": "Ameliorated leadingedge Internet solution-b256972ae6ce4d3389446358d398c491",
+  "slug": "ameliorated-leadingedge-internet-solution-b256972ae6ce4d3389446358d398c491",
+  "price": 307,
+  "description": "Upgradable context-sensitive success",
+  "category": {
+    "id": 155,
+    "name": "Toys_ff3a9984520b4ce4b23e90c1fbda2398",
+    "slug": "toys-ff3a9984520b4ce4b23e90c1fbda2398",
+    "image": "https://www.bowers.biz/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "https://park.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+}
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/238
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/238 -> 200
+Body:
+{
+  "id": 238,
+  "title": "Ameliorated leadingedge Internet solution-b256972ae6ce4d3389446358d398c491",
+  "slug": "ameliorated-leadingedge-internet-solution-b256972ae6ce4d3389446358d398c491",
+  "price": 307,
+  "description": "Upgradable context-sensitive success",
+  "category": {
+    "id": 155,
+    "name": "Toys_ff3a9984520b4ce4b23e90c1fbda2398",
+    "slug": "toys-ff3a9984520b4ce4b23e90c1fbda2398",
+    "image": "https://www.bowers.biz/",
+    "creationAt": "2026-08-26T01:28:05.000Z",
+    "updatedAt": "2026-08-26T01:28:05.000Z"
+  },
+  "images": [
+    "https://park.com/"
+  ],
+  "creationAt": "2026-08-26T01:28:06.000Z",
+  "updatedAt": "2026-08-26T01:28:06.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/238
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/238 -> 200
+Body:
+true 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/155
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/155 -> 200
+Body:
+{
+  "id": 155,
+  "name": "Toys_ff3a9984520b4ce4b23e90c1fbda2398",
+  "slug": "toys-ff3a9984520b4ce4b23e90c1fbda2398",
+  "image": "https://www.bowers.biz/",
+  "creationAt": "2026-08-26T01:28:05.000Z",
+  "updatedAt": "2026-08-26T01:28:05.000Z"
+} 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/155
+Body:
+<empty> 
+
+2026-08-26 01:28:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/155 -> 200
+Body:
+true

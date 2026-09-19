@@ -1,0 +1,107 @@
+2026-09-16 04:00:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_2d472649e2ba4dd694c35fcb72564c3c",
+  "image": "https://www.gonzalez-montgomery.com/"
+} 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Books_2d472649e2ba4dd694c35fcb72564c3c",
+  "slug": "books-2d472649e2ba4dd694c35fcb72564c3c",
+  "image": "https://www.gonzalez-montgomery.com/",
+  "creationAt": "2026-09-16T04:00:31.000Z",
+  "updatedAt": "2026-09-16T04:00:31.000Z"
+} 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Realigned dedicated approach-4a32415c3f334f32804a119c58edf091",
+  "price": 857,
+  "description": "Operative methodical structure",
+  "categoryId": 18,
+  "images": [
+    "http://owen.com/"
+  ]
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 67,
+  "title": "Realigned dedicated approach-4a32415c3f334f32804a119c58edf091",
+  "slug": "realigned-dedicated-approach-4a32415c3f334f32804a119c58edf091",
+  "price": 857,
+  "description": "Operative methodical structure",
+  "category": {
+    "id": 18,
+    "name": "Books_2d472649e2ba4dd694c35fcb72564c3c",
+    "slug": "books-2d472649e2ba4dd694c35fcb72564c3c",
+    "image": "https://www.gonzalez-montgomery.com/",
+    "creationAt": "2026-09-16T04:00:31.000Z",
+    "updatedAt": "2026-09-16T04:00:31.000Z"
+  },
+  "images": [
+    "http://owen.com/"
+  ],
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+}
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+true 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 400
+Body:
+{
+  "path": "/api/v1/products/67",
+  "timestamp": "2026-09-16T04:00:32.118Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 67\n    }\n}"
+}
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 400
+Body:
+{
+  "path": "/api/v1/products/67",
+  "timestamp": "2026-09-16T04:00:32.152Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 67\n    }\n}"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Books_2d472649e2ba4dd694c35fcb72564c3c",
+  "slug": "books-2d472649e2ba4dd694c35fcb72564c3c",
+  "image": "https://www.gonzalez-montgomery.com/",
+  "creationAt": "2026-09-16T04:00:31.000Z",
+  "updatedAt": "2026-09-16T04:00:31.000Z"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

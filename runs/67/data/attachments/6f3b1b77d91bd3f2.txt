@@ -1,0 +1,80 @@
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jade Mitchell",
+  "email": "david27@example.net",
+  "password": "***",
+  "avatar": "http://www.jensen-kane.com/"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 10,
+  "email": "david27@example.net",
+  "password": "***",
+  "name": "Jade Mitchell",
+  "role": "customer",
+  "avatar": "http://www.jensen-kane.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+}
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/10
+Body:
+{
+  "email": "erintaylor@example.net"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "erintaylor@example.net",
+  "password": "***",
+  "name": "Jade Mitchell",
+  "role": "customer",
+  "avatar": "http://www.jensen-kane.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "erintaylor@example.net",
+  "password": "***",
+  "name": "Jade Mitchell",
+  "role": "customer",
+  "avatar": "http://www.jensen-kane.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+}
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "erintaylor@example.net",
+  "password": "***",
+  "name": "Jade Mitchell",
+  "role": "customer",
+  "avatar": "http://www.jensen-kane.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+true

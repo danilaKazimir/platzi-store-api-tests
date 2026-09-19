@@ -1,0 +1,135 @@
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_3ea81641011f44ac86af01287e33297d",
+  "image": "https://www.carlson.com/"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Food & Beverages_3ea81641011f44ac86af01287e33297d",
+  "slug": "food-beverages-3ea81641011f44ac86af01287e33297d",
+  "image": "https://www.carlson.com/",
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Self-enabling systematic knowledge user-4e56be41d6be49a9928ac4c348a52b0a",
+  "price": 517,
+  "description": "Distributed 24/7 approach",
+  "categoryId": 19,
+  "images": [
+    "https://www.jones.org/"
+  ]
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 60,
+  "title": "Self-enabling systematic knowledge user-4e56be41d6be49a9928ac4c348a52b0a",
+  "slug": "self-enabling-systematic-knowledge-user-4e56be41d6be49a9928ac4c348a52b0a",
+  "price": 517,
+  "description": "Distributed 24/7 approach",
+  "category": {
+    "id": 19,
+    "name": "Food & Beverages_3ea81641011f44ac86af01287e33297d",
+    "slug": "food-beverages-3ea81641011f44ac86af01287e33297d",
+    "image": "https://www.carlson.com/",
+    "creationAt": "2026-09-18T03:53:05.000Z",
+    "updatedAt": "2026-09-18T03:53:05.000Z"
+  },
+  "images": [
+    "https://www.jones.org/"
+  ],
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+}
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/self-enabling-systematic-knowledge-user-4e56be41d6be49a9928ac4c348a52b0a
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/self-enabling-systematic-knowledge-user-4e56be41d6be49a9928ac4c348a52b0a -> 200
+Body:
+{
+  "id": 60,
+  "title": "Self-enabling systematic knowledge user-4e56be41d6be49a9928ac4c348a52b0a",
+  "slug": "self-enabling-systematic-knowledge-user-4e56be41d6be49a9928ac4c348a52b0a",
+  "price": 517,
+  "description": "Distributed 24/7 approach",
+  "category": {
+    "id": 19,
+    "name": "Food & Beverages_3ea81641011f44ac86af01287e33297d",
+    "slug": "food-beverages-3ea81641011f44ac86af01287e33297d",
+    "image": "https://www.carlson.com/",
+    "creationAt": "2026-09-18T03:53:05.000Z",
+    "updatedAt": "2026-09-18T03:53:05.000Z"
+  },
+  "images": [
+    "https://www.jones.org/"
+  ],
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+}
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Self-enabling systematic knowledge user-4e56be41d6be49a9928ac4c348a52b0a",
+  "slug": "self-enabling-systematic-knowledge-user-4e56be41d6be49a9928ac4c348a52b0a",
+  "price": 517,
+  "description": "Distributed 24/7 approach",
+  "category": {
+    "id": 19,
+    "name": "Food & Beverages_3ea81641011f44ac86af01287e33297d",
+    "slug": "food-beverages-3ea81641011f44ac86af01287e33297d",
+    "image": "https://www.carlson.com/",
+    "creationAt": "2026-09-18T03:53:05.000Z",
+    "updatedAt": "2026-09-18T03:53:05.000Z"
+  },
+  "images": [
+    "https://www.jones.org/"
+  ],
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+true 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Food & Beverages_3ea81641011f44ac86af01287e33297d",
+  "slug": "food-beverages-3ea81641011f44ac86af01287e33297d",
+  "image": "https://www.carlson.com/",
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

@@ -1,0 +1,88 @@
+2026-09-18 03:52:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Joel Paul",
+  "email": "rhonda04@example.net",
+  "password": "***",
+  "avatar": "https://www.miranda.com/"
+} 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 4,
+  "email": "rhonda04@example.net",
+  "password": "***",
+  "name": "Joel Paul",
+  "role": "customer",
+  "avatar": "https://www.miranda.com/",
+  "creationAt": "2026-09-18T03:52:59.000Z",
+  "updatedAt": "2026-09-18T03:52:59.000Z"
+}
+2026-09-18 03:53:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "rhonda04@example.net",
+  "password": "***"
+} 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImlhdCI6MTc4OTcwMzU4MCwiZXhwIjoxNzg5NzM5NTgwfQ.Fi7wKDWHW9B7aze1a2rhonjraeuKl01xnIOr8zHV0Dk"
+} 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 4,
+  "email": "rhonda04@example.net",
+  "password": "***",
+  "name": "Joel Paul",
+  "role": "customer",
+  "avatar": "https://www.miranda.com/",
+  "creationAt": "2026-09-18T03:52:59.000Z",
+  "updatedAt": "2026-09-18T03:52:59.000Z"
+}
+2026-09-18 03:53:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+{
+  "id": 4,
+  "email": "rhonda04@example.net",
+  "password": "***",
+  "name": "Joel Paul",
+  "role": "customer",
+  "avatar": "https://www.miranda.com/",
+  "creationAt": "2026-09-18T03:52:59.000Z",
+  "updatedAt": "2026-09-18T03:52:59.000Z"
+} 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-09-18 03:53:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+true

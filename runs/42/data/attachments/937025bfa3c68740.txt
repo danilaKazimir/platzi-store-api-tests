@@ -1,0 +1,49 @@
+2026-08-24 01:27:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_05393e9036664407b2d372bf06839af1",
+  "image": "http://warner-carter.org/"
+} 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 116,
+  "name": "Automotive Accessories_05393e9036664407b2d372bf06839af1",
+  "slug": "automotive-accessories-05393e9036664407b2d372bf06839af1",
+  "image": "http://warner-carter.org/",
+  "creationAt": "2026-08-24T01:27:44.000Z",
+  "updatedAt": "2026-08-24T01:27:44.000Z"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/116
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/116 -> 200
+Body:
+true 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/116
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/116 -> 400
+Body:
+{
+  "path": "/api/v1/categories/116",
+  "timestamp": "2026-08-24T01:27:44.086Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 116\n}"
+}
+2026-08-24 01:27:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/116
+Body:
+<empty> 
+
+2026-08-24 01:27:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/116 -> 400
+Body:
+{
+  "path": "/api/v1/categories/116",
+  "timestamp": "2026-08-24T01:27:44.092Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 116\n}"
+}

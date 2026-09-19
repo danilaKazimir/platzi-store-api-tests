@@ -1,0 +1,135 @@
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_5adaf6069f034ab9aa49cf2c881c7e7f",
+  "image": "https://diaz.com/"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Sports & Fitness_5adaf6069f034ab9aa49cf2c881c7e7f",
+  "slug": "sports-fitness-5adaf6069f034ab9aa49cf2c881c7e7f",
+  "image": "https://diaz.com/",
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source non-volatile focus group-be5316f6d1094209ad5d16e93f519401",
+  "price": 511,
+  "description": "Synchronized demand-driven matrix",
+  "categoryId": 31,
+  "images": [
+    "https://www.ramirez-simmons.com/"
+  ]
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 79,
+  "title": "Open-source non-volatile focus group-be5316f6d1094209ad5d16e93f519401",
+  "slug": "open-source-non-volatile-focus-group-be5316f6d1094209ad5d16e93f519401",
+  "price": 511,
+  "description": "Synchronized demand-driven matrix",
+  "category": {
+    "id": 31,
+    "name": "Sports & Fitness_5adaf6069f034ab9aa49cf2c881c7e7f",
+    "slug": "sports-fitness-5adaf6069f034ab9aa49cf2c881c7e7f",
+    "image": "https://diaz.com/",
+    "creationAt": "2026-09-09T03:49:38.000Z",
+    "updatedAt": "2026-09-09T03:49:38.000Z"
+  },
+  "images": [
+    "https://www.ramirez-simmons.com/"
+  ],
+  "creationAt": "2026-09-09T03:49:39.000Z",
+  "updatedAt": "2026-09-09T03:49:39.000Z"
+}
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/79
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/79 -> 200
+Body:
+{
+  "id": 79,
+  "title": "Open-source non-volatile focus group-be5316f6d1094209ad5d16e93f519401",
+  "slug": "open-source-non-volatile-focus-group-be5316f6d1094209ad5d16e93f519401",
+  "price": 511,
+  "description": "Synchronized demand-driven matrix",
+  "category": {
+    "id": 31,
+    "name": "Sports & Fitness_5adaf6069f034ab9aa49cf2c881c7e7f",
+    "slug": "sports-fitness-5adaf6069f034ab9aa49cf2c881c7e7f",
+    "image": "https://diaz.com/",
+    "creationAt": "2026-09-09T03:49:38.000Z",
+    "updatedAt": "2026-09-09T03:49:38.000Z"
+  },
+  "images": [
+    "https://www.ramirez-simmons.com/"
+  ],
+  "creationAt": "2026-09-09T03:49:39.000Z",
+  "updatedAt": "2026-09-09T03:49:39.000Z"
+}
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/79
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/79 -> 200
+Body:
+{
+  "id": 79,
+  "title": "Open-source non-volatile focus group-be5316f6d1094209ad5d16e93f519401",
+  "slug": "open-source-non-volatile-focus-group-be5316f6d1094209ad5d16e93f519401",
+  "price": 511,
+  "description": "Synchronized demand-driven matrix",
+  "category": {
+    "id": 31,
+    "name": "Sports & Fitness_5adaf6069f034ab9aa49cf2c881c7e7f",
+    "slug": "sports-fitness-5adaf6069f034ab9aa49cf2c881c7e7f",
+    "image": "https://diaz.com/",
+    "creationAt": "2026-09-09T03:49:38.000Z",
+    "updatedAt": "2026-09-09T03:49:38.000Z"
+  },
+  "images": [
+    "https://www.ramirez-simmons.com/"
+  ],
+  "creationAt": "2026-09-09T03:49:39.000Z",
+  "updatedAt": "2026-09-09T03:49:39.000Z"
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/79
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/79 -> 200
+Body:
+true 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Sports & Fitness_5adaf6069f034ab9aa49cf2c881c7e7f",
+  "slug": "sports-fitness-5adaf6069f034ab9aa49cf2c881c7e7f",
+  "image": "https://diaz.com/",
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

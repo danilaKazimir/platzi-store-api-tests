@@ -1,0 +1,15 @@
+2026-09-03 03:38:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Natalie Walton",
+  "email": "kennedyjames@example.net",
+  "password": "***",
+  "avatar": "https://www.chapman.com/"
+} 
+
+2026-09-03 03:38:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}

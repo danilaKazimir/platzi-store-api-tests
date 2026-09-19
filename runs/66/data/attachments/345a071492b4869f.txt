@@ -1,0 +1,79 @@
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+  "image": "https://smith.com/"
+} 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Sports & Fitness_52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+  "slug": "sports-fitness-52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+  "image": "https://smith.com/",
+  "creationAt": "2026-09-17T04:07:10.000Z",
+  "updatedAt": "2026-09-17T04:07:10.000Z"
+}
+2026-09-17 04:07:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented zero administration hub-58e603dd8fcd4264a1ab5eb151104f88",
+  "price": 456,
+  "description": "Multi-layered demand-driven success",
+  "categoryId": 16,
+  "images": [
+    "https://www.campos.com/"
+  ]
+} 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 57,
+  "title": "Vision-oriented zero administration hub-58e603dd8fcd4264a1ab5eb151104f88",
+  "slug": "vision-oriented-zero-administration-hub-58e603dd8fcd4264a1ab5eb151104f88",
+  "price": 456,
+  "description": "Multi-layered demand-driven success",
+  "category": {
+    "id": 16,
+    "name": "Sports & Fitness_52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+    "slug": "sports-fitness-52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+    "image": "https://smith.com/",
+    "creationAt": "2026-09-17T04:07:10.000Z",
+    "updatedAt": "2026-09-17T04:07:10.000Z"
+  },
+  "images": [
+    "https://www.campos.com/"
+  ],
+  "creationAt": "2026-09-17T04:07:10.000Z",
+  "updatedAt": "2026-09-17T04:07:10.000Z"
+}
+2026-09-17 04:07:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Sports & Fitness_52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+  "slug": "sports-fitness-52e0be3bf2dc43c9b2a0ec2b1ab176a3",
+  "image": "https://smith.com/",
+  "creationAt": "2026-09-17T04:07:10.000Z",
+  "updatedAt": "2026-09-17T04:07:10.000Z"
+} 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-09-17T04:07:10.250Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

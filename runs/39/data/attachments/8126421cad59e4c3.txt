@@ -1,0 +1,53 @@
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_91c3fc2249a94012bdb614aa9e89e757",
+  "image": "https://www.hughes.com/"
+} 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 1248,
+  "name": "Toys_91c3fc2249a94012bdb614aa9e89e757",
+  "slug": "toys-91c3fc2249a94012bdb614aa9e89e757",
+  "image": "https://www.hughes.com/",
+  "creationAt": "2026-08-21T01:32:38.000Z",
+  "updatedAt": "2026-08-21T01:32:38.000Z"
+}
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1248
+Body:
+<empty> 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1248 -> 200
+Body:
+{
+  "id": 1248,
+  "name": "Toys_91c3fc2249a94012bdb614aa9e89e757",
+  "slug": "toys-91c3fc2249a94012bdb614aa9e89e757",
+  "image": "https://www.hughes.com/",
+  "creationAt": "2026-08-21T01:32:38.000Z",
+  "updatedAt": "2026-08-21T01:32:38.000Z"
+}
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/1248
+Body:
+<empty> 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/1248 -> 200
+Body:
+{
+  "id": 1248,
+  "name": "Toys_91c3fc2249a94012bdb614aa9e89e757",
+  "slug": "toys-91c3fc2249a94012bdb614aa9e89e757",
+  "image": "https://www.hughes.com/",
+  "creationAt": "2026-08-21T01:32:38.000Z",
+  "updatedAt": "2026-08-21T01:32:38.000Z"
+} 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/1248
+Body:
+<empty> 
+
+2026-08-21 01:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/1248 -> 200
+Body:
+true

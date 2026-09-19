@@ -1,0 +1,80 @@
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "David Jordan",
+  "email": "tmata@example.com",
+  "password": "***",
+  "avatar": "https://www.richmond.com/"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 16,
+  "email": "tmata@example.com",
+  "password": "***",
+  "name": "David Jordan",
+  "role": "customer",
+  "avatar": "https://www.richmond.com/",
+  "creationAt": "2026-09-09T03:49:41.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+}
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/16
+Body:
+{
+  "email": "charris@example.com"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/16 -> 200
+Body:
+{
+  "id": 16,
+  "email": "charris@example.com",
+  "password": "***",
+  "name": "David Jordan",
+  "role": "customer",
+  "avatar": "https://www.richmond.com/",
+  "creationAt": "2026-09-09T03:49:41.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/16
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/16 -> 200
+Body:
+{
+  "id": 16,
+  "email": "charris@example.com",
+  "password": "***",
+  "name": "David Jordan",
+  "role": "customer",
+  "avatar": "https://www.richmond.com/",
+  "creationAt": "2026-09-09T03:49:41.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+}
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/16
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/16 -> 200
+Body:
+{
+  "id": 16,
+  "email": "charris@example.com",
+  "password": "***",
+  "name": "David Jordan",
+  "role": "customer",
+  "avatar": "https://www.richmond.com/",
+  "creationAt": "2026-09-09T03:49:41.000Z",
+  "updatedAt": "2026-09-09T03:49:41.000Z"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/16
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/16 -> 200
+Body:
+true

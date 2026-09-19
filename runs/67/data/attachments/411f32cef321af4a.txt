@@ -1,0 +1,107 @@
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_aede2055b6d0456395588e683b7a506f",
+  "image": "http://www.alvarez.net/"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Automotive Accessories_aede2055b6d0456395588e683b7a506f",
+  "slug": "automotive-accessories-aede2055b6d0456395588e683b7a506f",
+  "image": "http://www.alvarez.net/",
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-centric zero administration budgetary management-cb729f9e8c0f465db54e7c8d6b7f4498",
+  "price": 76,
+  "description": "Automated object-oriented installation",
+  "categoryId": 18,
+  "images": [
+    "http://santiago-carroll.com/"
+  ]
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 59,
+  "title": "User-centric zero administration budgetary management-cb729f9e8c0f465db54e7c8d6b7f4498",
+  "slug": "user-centric-zero-administration-budgetary-management-cb729f9e8c0f465db54e7c8d6b7f4498",
+  "price": 76,
+  "description": "Automated object-oriented installation",
+  "category": {
+    "id": 18,
+    "name": "Automotive Accessories_aede2055b6d0456395588e683b7a506f",
+    "slug": "automotive-accessories-aede2055b6d0456395588e683b7a506f",
+    "image": "http://www.alvarez.net/",
+    "creationAt": "2026-09-18T03:53:05.000Z",
+    "updatedAt": "2026-09-18T03:53:05.000Z"
+  },
+  "images": [
+    "http://santiago-carroll.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+}
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/59 -> 200
+Body:
+true 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/59 -> 400
+Body:
+{
+  "path": "/api/v1/products/59",
+  "timestamp": "2026-09-18T03:53:05.444Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 59\n    }\n}"
+}
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/59 -> 400
+Body:
+{
+  "path": "/api/v1/products/59",
+  "timestamp": "2026-09-18T03:53:05.479Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 59\n    }\n}"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Automotive Accessories_aede2055b6d0456395588e683b7a506f",
+  "slug": "automotive-accessories-aede2055b6d0456395588e683b7a506f",
+  "image": "http://www.alvarez.net/",
+  "creationAt": "2026-09-18T03:53:05.000Z",
+  "updatedAt": "2026-09-18T03:53:05.000Z"
+} 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-18 03:53:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-08-26 01:28:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_6d2bc07571f5434a83b78aac0a41ff65",
+  "image": "https://downs.com/"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 150,
+  "name": "Books_6d2bc07571f5434a83b78aac0a41ff65",
+  "slug": "books-6d2bc07571f5434a83b78aac0a41ff65",
+  "image": "https://downs.com/",
+  "creationAt": "2026-08-26T01:28:04.000Z",
+  "updatedAt": "2026-08-26T01:28:04.000Z"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/150
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/150 -> 200
+Body:
+{
+  "id": 150,
+  "name": "Books_6d2bc07571f5434a83b78aac0a41ff65",
+  "slug": "books-6d2bc07571f5434a83b78aac0a41ff65",
+  "image": "https://downs.com/",
+  "creationAt": "2026-08-26T01:28:04.000Z",
+  "updatedAt": "2026-08-26T01:28:04.000Z"
+}
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/150
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/150 -> 200
+Body:
+{
+  "id": 150,
+  "name": "Books_6d2bc07571f5434a83b78aac0a41ff65",
+  "slug": "books-6d2bc07571f5434a83b78aac0a41ff65",
+  "image": "https://downs.com/",
+  "creationAt": "2026-08-26T01:28:04.000Z",
+  "updatedAt": "2026-08-26T01:28:04.000Z"
+} 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/150
+Body:
+<empty> 
+
+2026-08-26 01:28:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/150 -> 200
+Body:
+true

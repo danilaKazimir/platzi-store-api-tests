@@ -1,0 +1,58 @@
+2026-09-14 04:04:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Harry Berg",
+  "email": "shawn07@example.net",
+  "password": "***",
+  "avatar": "http://bishop.com/"
+} 
+
+2026-09-14 04:04:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 5,
+  "email": "shawn07@example.net",
+  "password": "***",
+  "name": "Harry Berg",
+  "role": "customer",
+  "avatar": "http://bishop.com/",
+  "creationAt": "2026-09-14T04:04:25.000Z",
+  "updatedAt": "2026-09-14T04:04:25.000Z"
+}
+2026-09-14 04:04:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "shawn07@example.net",
+  "password": "***"
+} 
+
+2026-09-14 04:04:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+}
+2026-09-14 04:04:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-09-14 04:04:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+{
+  "id": 5,
+  "email": "shawn07@example.net",
+  "password": "***",
+  "name": "Harry Berg",
+  "role": "customer",
+  "avatar": "http://bishop.com/",
+  "creationAt": "2026-09-14T04:04:25.000Z",
+  "updatedAt": "2026-09-14T04:04:25.000Z"
+} 
+
+2026-09-14 04:04:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-09-14 04:04:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+true

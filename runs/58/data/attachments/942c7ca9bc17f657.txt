@@ -1,0 +1,71 @@
+2026-09-09 03:49:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_36dcf8eb186742839b06ad584c7d5823",
+  "image": "http://jones-durham.com/"
+} 
+
+2026-09-09 03:49:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Sports & Fitness_36dcf8eb186742839b06ad584c7d5823",
+  "slug": "sports-fitness-36dcf8eb186742839b06ad584c7d5823",
+  "image": "http://jones-durham.com/",
+  "creationAt": "2026-09-09T03:49:37.000Z",
+  "updatedAt": "2026-09-09T03:49:37.000Z"
+}
+2026-09-09 03:49:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/25
+Body:
+{
+  "name": "Clothing_dc1edf868c1a454db2de673539925ec2",
+  "image": "http://rowe-walter.com/"
+} 
+
+2026-09-09 03:49:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Clothing_dc1edf868c1a454db2de673539925ec2",
+  "slug": "clothing-dc1edf868c1a454db2de673539925ec2",
+  "image": "http://rowe-walter.com/",
+  "creationAt": "2026-09-09T03:49:37.000Z",
+  "updatedAt": "2026-09-09T03:49:37.000Z"
+} 
+
+2026-09-09 03:49:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Clothing_dc1edf868c1a454db2de673539925ec2",
+  "slug": "clothing-dc1edf868c1a454db2de673539925ec2",
+  "image": "http://rowe-walter.com/",
+  "creationAt": "2026-09-09T03:49:37.000Z",
+  "updatedAt": "2026-09-09T03:49:37.000Z"
+}
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Clothing_dc1edf868c1a454db2de673539925ec2",
+  "slug": "clothing-dc1edf868c1a454db2de673539925ec2",
+  "image": "http://rowe-walter.com/",
+  "creationAt": "2026-09-09T03:49:37.000Z",
+  "updatedAt": "2026-09-09T03:49:37.000Z"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

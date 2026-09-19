@@ -1,0 +1,125 @@
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_e2525cc8196d401abe7d666df929b1ee",
+  "image": "https://dyer.com/"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Food & Beverages_e2525cc8196d401abe7d666df929b1ee",
+  "slug": "food-beverages-e2525cc8196d401abe7d666df929b1ee",
+  "image": "https://dyer.com/",
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synchronized fault-tolerant model-fabbdd01d72a423fa9418b04df86f540",
+  "price": 540,
+  "description": "Function-based local intranet",
+  "categoryId": 24,
+  "images": [
+    "https://www.contreras.com/"
+  ]
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 64,
+  "title": "Synchronized fault-tolerant model-fabbdd01d72a423fa9418b04df86f540",
+  "slug": "synchronized-fault-tolerant-model-fabbdd01d72a423fa9418b04df86f540",
+  "price": 540,
+  "description": "Function-based local intranet",
+  "category": {
+    "id": 24,
+    "name": "Food & Beverages_e2525cc8196d401abe7d666df929b1ee",
+    "slug": "food-beverages-e2525cc8196d401abe7d666df929b1ee",
+    "image": "https://dyer.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "https://www.contreras.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+}
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/64
+Body:
+{
+  "title": "Versatile explicit Graphic Interface-76051240b43743adbcb0c67e48900bf4",
+  "price": 81,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/64 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+{
+  "id": 64,
+  "title": "Synchronized fault-tolerant model-fabbdd01d72a423fa9418b04df86f540",
+  "slug": "synchronized-fault-tolerant-model-fabbdd01d72a423fa9418b04df86f540",
+  "price": 540,
+  "description": "Function-based local intranet",
+  "category": {
+    "id": 24,
+    "name": "Food & Beverages_e2525cc8196d401abe7d666df929b1ee",
+    "slug": "food-beverages-e2525cc8196d401abe7d666df929b1ee",
+    "image": "https://dyer.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "https://www.contreras.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+true 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Food & Beverages_e2525cc8196d401abe7d666df929b1ee",
+  "slug": "food-beverages-e2525cc8196d401abe7d666df929b1ee",
+  "image": "https://dyer.com/",
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

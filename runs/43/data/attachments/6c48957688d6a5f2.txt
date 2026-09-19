@@ -1,0 +1,639 @@
+2026-08-25 01:24:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_fba9a98d45ef4438b73ae31252748c99",
+  "image": "https://www.jenkins.info/"
+} 
+
+2026-08-25 01:24:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 118,
+  "name": "Personal Care_fba9a98d45ef4438b73ae31252748c99",
+  "slug": "personal-care-fba9a98d45ef4438b73ae31252748c99",
+  "image": "https://www.jenkins.info/",
+  "creationAt": "2026-08-25T01:24:10.000Z",
+  "updatedAt": "2026-08-25T01:24:10.000Z"
+}
+2026-08-25 01:24:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-08-25 01:24:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "nuevo",
+    "slug": "nuevo",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T07:54:38.000Z",
+    "updatedAt": "2026-08-24T19:15:53.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-08-24T07:54:38.000Z",
+    "updatedAt": "2026-08-24T07:54:38.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Love is light",
+    "slug": "love-is-light",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-08-24T07:54:38.000Z",
+    "updatedAt": "2026-08-24T23:40:14.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-08-24T07:54:38.000Z",
+    "updatedAt": "2026-08-24T07:54:38.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-08-24T07:54:38.000Z",
+    "updatedAt": "2026-08-24T07:54:38.000Z"
+  },
+  {
+    "id": 27,
+    "name": "Books 552860a0437444f1a02db6e6a8dda980",
+    "slug": "books-552860a0437444f1a02db6e6a8dda980",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T09:09:11.000Z",
+    "updatedAt": "2026-08-24T09:09:11.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Integration Test Category a6084288a5ef4ceb82ebff1a6346d152",
+    "slug": "integration-test-category-a6084288a5ef4ceb82ebff1a6346d152",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:09:12.000Z",
+    "updatedAt": "2026-08-24T09:09:12.000Z"
+  },
+  {
+    "id": 29,
+    "name": "Category A 8eacd62d43dc4a1c9f1784f4e86dc592",
+    "slug": "category-a-8eacd62d43dc4a1c9f1784f4e86dc592",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:09:12.000Z",
+    "updatedAt": "2026-08-24T09:09:12.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Category B be40f83dd1e840a08f6b1a47a0d80075",
+    "slug": "category-b-be40f83dd1e840a08f6b1a47a0d80075",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:09:12.000Z",
+    "updatedAt": "2026-08-24T09:09:12.000Z"
+  },
+  {
+    "id": 31,
+    "name": "Books 8a416c06d1ed46ba9f7e320ef56d850b",
+    "slug": "books-8a416c06d1ed46ba9f7e320ef56d850b",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T09:11:36.000Z",
+    "updatedAt": "2026-08-24T09:11:36.000Z"
+  },
+  {
+    "id": 32,
+    "name": "Integration Test Category 65d1298439084c3895ddcc4eb32fa9a0",
+    "slug": "integration-test-category-65d1298439084c3895ddcc4eb32fa9a0",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:11:36.000Z",
+    "updatedAt": "2026-08-24T09:11:36.000Z"
+  },
+  {
+    "id": 34,
+    "name": "Category B 2dde5d77761e4a2cb5cafa459d279eb4",
+    "slug": "category-b-2dde5d77761e4a2cb5cafa459d279eb4",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:11:37.000Z",
+    "updatedAt": "2026-08-24T09:11:37.000Z"
+  },
+  {
+    "id": 35,
+    "name": "Test Cat",
+    "slug": "test-cat",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:12:57.000Z",
+    "updatedAt": "2026-08-24T09:12:57.000Z"
+  },
+  {
+    "id": 36,
+    "name": "Books 7ba6fdad82cc47e790db40b5c19c7049",
+    "slug": "books-7ba6fdad82cc47e790db40b5c19c7049",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T09:13:07.000Z",
+    "updatedAt": "2026-08-24T09:13:07.000Z"
+  },
+  {
+    "id": 37,
+    "name": "Integration Test Category a742c26064ec4e02996cbc34e19cfcde",
+    "slug": "integration-test-category-a742c26064ec4e02996cbc34e19cfcde",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:13:07.000Z",
+    "updatedAt": "2026-08-24T09:13:07.000Z"
+  },
+  {
+    "id": 39,
+    "name": "Category B c6a3374533ba4eddb208f425e9f2c597",
+    "slug": "category-b-c6a3374533ba4eddb208f425e9f2c597",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:13:08.000Z",
+    "updatedAt": "2026-08-24T09:13:08.000Z"
+  },
+  {
+    "id": 40,
+    "name": "Books 53ee547e6d004024a3d72ec5df4f826d",
+    "slug": "books-53ee547e6d004024a3d72ec5df4f826d",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T09:13:16.000Z",
+    "updatedAt": "2026-08-24T09:13:16.000Z"
+  },
+  {
+    "id": 41,
+    "name": "Integration Test Category 80c85ee9985a4f5bb32f02442fb6d5a1",
+    "slug": "integration-test-category-80c85ee9985a4f5bb32f02442fb6d5a1",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:13:17.000Z",
+    "updatedAt": "2026-08-24T09:13:17.000Z"
+  },
+  {
+    "id": 42,
+    "name": "Category A e8757c791a4b4a0297959d060c0b0496",
+    "slug": "category-a-e8757c791a4b4a0297959d060c0b0496",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:13:17.000Z",
+    "updatedAt": "2026-08-24T09:13:17.000Z"
+  },
+  {
+    "id": 43,
+    "name": "Category B fabf88b0f6204bb9911e37d3916f8c3a",
+    "slug": "category-b-fabf88b0f6204bb9911e37d3916f8c3a",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T09:13:17.000Z",
+    "updatedAt": "2026-08-24T09:13:17.000Z"
+  },
+  {
+    "id": 44,
+    "name": "Books 3236cc977e1c4c17972c0cd6c5670219",
+    "slug": "books-3236cc977e1c4c17972c0cd6c5670219",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T10:12:03.000Z",
+    "updatedAt": "2026-08-24T10:12:03.000Z"
+  },
+  {
+    "id": 45,
+    "name": "Integration Test Category 4c5ad187c8404cbb97ef072fe605cb0a",
+    "slug": "integration-test-category-4c5ad187c8404cbb97ef072fe605cb0a",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:12:04.000Z",
+    "updatedAt": "2026-08-24T10:12:04.000Z"
+  },
+  {
+    "id": 46,
+    "name": "Category A bd6b1ec217f44f519c78460feb9b612d",
+    "slug": "category-a-bd6b1ec217f44f519c78460feb9b612d",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:12:04.000Z",
+    "updatedAt": "2026-08-24T10:12:04.000Z"
+  },
+  {
+    "id": 47,
+    "name": "Category B ae861240310d4c63b47fa68b94c6dff6",
+    "slug": "category-b-ae861240310d4c63b47fa68b94c6dff6",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:12:04.000Z",
+    "updatedAt": "2026-08-24T10:12:04.000Z"
+  },
+  {
+    "id": 48,
+    "name": "Books 2fbb504372ea4850949f97a8b1fa4b00",
+    "slug": "books-2fbb504372ea4850949f97a8b1fa4b00",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T10:14:45.000Z",
+    "updatedAt": "2026-08-24T10:14:45.000Z"
+  },
+  {
+    "id": 49,
+    "name": "Integration Test Category 258b25a008fa463bb35576b5f15d9e57",
+    "slug": "integration-test-category-258b25a008fa463bb35576b5f15d9e57",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:14:45.000Z",
+    "updatedAt": "2026-08-24T10:14:45.000Z"
+  },
+  {
+    "id": 50,
+    "name": "Category A dbef4961f6e0430da243bdc0bb747e67",
+    "slug": "category-a-dbef4961f6e0430da243bdc0bb747e67",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:14:46.000Z",
+    "updatedAt": "2026-08-24T10:14:46.000Z"
+  },
+  {
+    "id": 51,
+    "name": "Category B 96a1e06b2373450a9b672a03afa1d7f3",
+    "slug": "category-b-96a1e06b2373450a9b672a03afa1d7f3",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:14:46.000Z",
+    "updatedAt": "2026-08-24T10:14:46.000Z"
+  },
+  {
+    "id": 52,
+    "name": "Books a958c94a0834449ba9c0e9681187da71",
+    "slug": "books-a958c94a0834449ba9c0e9681187da71",
+    "image": "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    "creationAt": "2026-08-24T10:16:47.000Z",
+    "updatedAt": "2026-08-24T10:16:47.000Z"
+  },
+  {
+    "id": 53,
+    "name": "Integration Test Category 4df757002bbf401398d48ac92fa5c60b",
+    "slug": "integration-test-category-4df757002bbf401398d48ac92fa5c60b",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:16:47.000Z",
+    "updatedAt": "2026-08-24T10:16:47.000Z"
+  },
+  {
+    "id": 54,
+    "name": "Category A 2f2ef70be3a54ef188d3d7c01e3b3bcd",
+    "slug": "category-a-2f2ef70be3a54ef188d3d7c01e3b3bcd",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:16:48.000Z",
+    "updatedAt": "2026-08-24T10:16:48.000Z"
+  },
+  {
+    "id": 55,
+    "name": "Category B cd9483e7c5254e7392e6dc86209935e8",
+    "slug": "category-b-cd9483e7c5254e7392e6dc86209935e8",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:16:48.000Z",
+    "updatedAt": "2026-08-24T10:16:48.000Z"
+  },
+  {
+    "id": 56,
+    "name": "New category",
+    "slug": "new-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:40:54.000Z",
+    "updatedAt": "2026-08-24T10:40:54.000Z"
+  },
+  {
+    "id": 57,
+    "name": "New category coco",
+    "slug": "new-category-coco",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T10:42:04.000Z",
+    "updatedAt": "2026-08-24T10:42:04.000Z"
+  },
+  {
+    "id": 58,
+    "name": "Grosery",
+    "slug": "grosery",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T11:03:28.000Z",
+    "updatedAt": "2026-08-24T11:03:28.000Z"
+  },
+  {
+    "id": 59,
+    "name": "Computer Category",
+    "slug": "computer-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T11:03:30.000Z",
+    "updatedAt": "2026-08-24T11:03:30.000Z"
+  },
+  {
+    "id": 61,
+    "name": "New Category 3",
+    "slug": "new-category-3",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T15:00:35.000Z",
+    "updatedAt": "2026-08-24T15:00:35.000Z"
+  },
+  {
+    "id": 63,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T17:02:19.000Z",
+    "updatedAt": "2026-08-24T17:02:19.000Z"
+  },
+  {
+    "id": 64,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-08-24T17:04:10.000Z",
+    "updatedAt": "2026-08-24T17:04:10.000Z"
+  },
+  {
+    "id": 65,
+    "name": "Books",
+    "slug": "books",
+    "image": "https://api.lorem.space/image/book?w=150&h=220",
+    "creationAt": "2026-08-24T17:50:08.000Z",
+    "updatedAt": "2026-08-24T17:50:08.000Z"
+  },
+  {
+    "id": 66,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T18:01:45.000Z",
+    "updatedAt": "2026-08-24T18:01:45.000Z"
+  },
+  {
+    "id": 67,
+    "name": "test category jangan dobel",
+    "slug": "test-category-jangan-dobel",
+    "image": "https://placeimg.com/640/480",
+    "creationAt": "2026-08-24T19:00:56.000Z",
+    "updatedAt": "2026-08-24T19:00:56.000Z"
+  },
+  {
+    "id": 68,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-08-24T19:00:58.000Z",
+    "updatedAt": "2026-08-24T19:00:58.000Z"
+  },
+  {
+    "id": 69,
+    "name": "Kimi Slate 9f4ae2",
+    "slug": "kimi-slate-9f4ae2",
+    "image": "https://placeimg.com/640/480/tech",
+    "creationAt": "2026-08-24T19:25:39.000Z",
+    "updatedAt": "2026-08-24T19:25:39.000Z"
+  },
+  {
+    "id": 70,
+    "name": "BI Sales Regions Overview 2026-08-20",
+    "slug": "bi-sales-regions-overview-2026-08-20",
+    "image": "https://picsum.photos/seed/bi-regions/640/480",
+    "creationAt": "2026-08-24T19:34:42.000Z",
+    "updatedAt": "2026-08-24T19:34:42.000Z"
+  },
+  {
+    "id": 71,
+    "name": "Elowen Martridge Wares",
+    "slug": "elowen-martridge-wares",
+    "image": "https://picsum.photos/seed/elowen-wares/640/480",
+    "creationAt": "2026-08-24T19:37:35.000Z",
+    "updatedAt": "2026-08-24T19:37:35.000Z"
+  },
+  {
+    "id": 72,
+    "name": "k3run826 Outfitters",
+    "slug": "k3run826-outfitters",
+    "image": "https://placehold.co/640x480",
+    "creationAt": "2026-08-24T19:38:26.000Z",
+    "updatedAt": "2026-08-24T19:38:26.000Z"
+  },
+  {
+    "id": 73,
+    "name": "k3run826 Supply Co",
+    "slug": "k3run826-supply-co",
+    "image": "https://placehold.co/650x480",
+    "creationAt": "2026-08-24T19:38:27.000Z",
+    "updatedAt": "2026-08-24T19:38:27.000Z"
+  },
+  {
+    "id": 74,
+    "name": "k3run826 Market Row",
+    "slug": "k3run826-market-row",
+    "image": "https://placehold.co/660x480",
+    "creationAt": "2026-08-24T19:38:28.000Z",
+    "updatedAt": "2026-08-24T19:38:28.000Z"
+  },
+  {
+    "id": 76,
+    "name": "bi-wh-bc203846be3b34e7",
+    "slug": "bi-wh-bc203846be3b34e7",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-24T19:39:39.000Z",
+    "updatedAt": "2026-08-24T19:39:39.000Z"
+  },
+  {
+    "id": 79,
+    "name": "REFINERY-e1de8d",
+    "slug": "refinery-e1de8d",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-24T20:01:46.000Z",
+    "updatedAt": "2026-08-24T20:01:46.000Z"
+  },
+  {
+    "id": 81,
+    "name": "NW_WAVE_ANALYTICS_15",
+    "slug": "nw-wave-analytics-15",
+    "image": "https://api.escuelajs.co/api/v1/files/logo.png",
+    "creationAt": "2026-08-24T20:05:10.000Z",
+    "updatedAt": "2026-08-24T20:05:10.000Z"
+  },
+  {
+    "id": 82,
+    "name": "hflabsmeridak3",
+    "slug": "hflabsmeridak3",
+    "image": "https://picsum.photos/600",
+    "creationAt": "2026-08-24T20:08:50.000Z",
+    "updatedAt": "2026-08-24T20:08:50.000Z"
+  },
+  {
+    "id": 83,
+    "name": "* ERPDVCRZZYB G413F947CAF review *",
+    "slug": "erpdvcrzzyb-g413f947caf-review",
+    "image": "https://placehold.co/640x480",
+    "creationAt": "2026-08-24T20:09:37.000Z",
+    "updatedAt": "2026-08-24T20:12:30.000Z"
+  },
+  {
+    "id": 84,
+    "name": "Sales Regions Overview BI Hub Q7X2",
+    "slug": "sales-regions-overview-bi-hub-q7x2",
+    "image": "https://picsum.photos/seed/bihubq7x2/640/480",
+    "creationAt": "2026-08-24T20:12:43.000Z",
+    "updatedAt": "2026-08-24T20:12:43.000Z"
+  },
+  {
+    "id": 85,
+    "name": "Storefront-1366cc13-4908",
+    "slug": "storefront-1366cc13-4908",
+    "image": "https://placeimg.com/640/480/tech",
+    "creationAt": "2026-08-24T20:14:12.000Z",
+    "updatedAt": "2026-08-24T20:14:12.000Z"
+  },
+  {
+    "id": 86,
+    "name": "biwh-75128d3611c7b354-catalog",
+    "slug": "biwh-75128d3611c7b354-catalog",
+    "image": "https://picsum.photos/seed/75128d3611c7b354/640/480",
+    "creationAt": "2026-08-24T20:14:44.000Z",
+    "updatedAt": "2026-08-24T20:14:44.000Z"
+  },
+  {
+    "id": 87,
+    "name": "Zebediah Crosswell Provisions",
+    "slug": "zebediah-crosswell-provisions",
+    "image": "https://picsum.photos/seed/zebediah/640/480",
+    "creationAt": "2026-08-24T20:17:06.000Z",
+    "updatedAt": "2026-08-24T20:17:06.000Z"
+  },
+  {
+    "id": 89,
+    "name": "atls42 Trail Goods",
+    "slug": "atls42-trail-goods",
+    "image": "https://picsum.photos/seed/atls42-trail/640/480",
+    "creationAt": "2026-08-24T20:27:56.000Z",
+    "updatedAt": "2026-08-24T20:27:56.000Z"
+  },
+  {
+    "id": 90,
+    "name": "atls42 Kitchen Lab",
+    "slug": "atls42-kitchen-lab",
+    "image": "https://picsum.photos/seed/atls42-kitchen/640/480",
+    "creationAt": "2026-08-24T20:27:57.000Z",
+    "updatedAt": "2026-08-24T20:27:57.000Z"
+  },
+  {
+    "id": 91,
+    "name": "atls42 Garden Depot",
+    "slug": "atls42-garden-depot",
+    "image": "https://picsum.photos/seed/atls42-garden/640/480",
+    "creationAt": "2026-08-24T20:27:58.000Z",
+    "updatedAt": "2026-08-24T20:27:58.000Z"
+  },
+  {
+    "id": 92,
+    "name": "REFINERY-m1pahb",
+    "slug": "refinery-m1pahb",
+    "image": "https://picsum.photos/640/480",
+    "creationAt": "2026-08-24T20:41:23.000Z",
+    "updatedAt": "2026-08-24T20:41:23.000Z"
+  },
+  {
+    "id": 93,
+    "name": "PO-20260820-SUP-01 Ledger 2026-08-24",
+    "slug": "po-20260820-sup-01-ledger-2026-08-24",
+    "image": "https://placehold.co/640x480?revision=1",
+    "creationAt": "2026-08-24T20:44:28.000Z",
+    "updatedAt": "2026-08-24T20:46:19.000Z"
+  },
+  {
+    "id": 95,
+    "name": "NWAVE_RT36",
+    "slug": "nwave-rt36",
+    "image": "https://picsum.photos/seed/nwwavecat/640/480",
+    "creationAt": "2026-08-24T20:51:53.000Z",
+    "updatedAt": "2026-08-24T20:51:53.000Z"
+  },
+  {
+    "id": 97,
+    "name": "hflabs5093196",
+    "slug": "hflabs5093196",
+    "image": "https://picsum.photos/seed/hflabs/600/600",
+    "creationAt": "2026-08-24T20:58:14.000Z",
+    "updatedAt": "2026-08-24T20:58:14.000Z"
+  },
+  {
+    "id": 98,
+    "name": "ERPX-Vendor-Acme-7f3k",
+    "slug": "erpx-vendor-acme-7f3k",
+    "image": "https://placehold.co/640x480.png",
+    "creationAt": "2026-08-24T20:59:51.000Z",
+    "updatedAt": "2026-08-24T20:59:51.000Z"
+  },
+  {
+    "id": 99,
+    "name": "Harbor Maintenance Charter K2R7",
+    "slug": "harbor-maintenance-charter-k2r7",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T21:01:36.000Z",
+    "updatedAt": "2026-08-24T21:01:36.000Z"
+  },
+  {
+    "id": 100,
+    "name": "MFG-DOPAMINE-K9W4",
+    "slug": "mfg-dopamine-k9w4",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-08-24T21:01:38.000Z",
+    "updatedAt": "2026-08-24T21:01:38.000Z"
+  },
+  {
+    "id": 101,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-24T21:01:39.000Z",
+    "updatedAt": "2026-08-24T21:01:39.000Z"
+  },
+  {
+    "id": 102,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-08-24T21:01:39.000Z",
+    "updatedAt": "2026-08-24T21:01:39.000Z"
+  },
+  {
+    "id": 103,
+    "name": "zedrun-stor8907",
+    "slug": "zedrun-stor8907",
+    "image": "https://placeimg.com/640/480/tech",
+    "creationAt": "2026-08-24T21:15:25.000Z",
+    "updatedAt": "2026-08-24T21:15:25.000Z"
+  },
+  {
+    "id": 116,
+    "name": "testCategoryb60ba0cfc6134fa1bf75dae6a46e556d",
+    "slug": "testcategoryb60ba0cfc6134fa1bf75dae6a46e556d",
+    "image": "http://www.ramos.org/",
+    "creationAt": "2026-08-25T01:24:09.000Z",
+    "updatedAt": "2026-08-25T01:24:09.000Z"
+  },
+  {
+    "id": 117,
+    "name": "test Categoryc12fe2c68ab04dd9a403585df26baaad",
+    "slug": "test-categoryc12fe2c68ab04dd9a403585df26baaad",
+    "image": "https://www.sampson.com/",
+    "creationAt": "2026-08-25T01:24:10.000Z",
+    "updatedAt": "2026-08-25T01:24:10.000Z"
+  },
+  {
+    "id": 118,
+    "name": "Personal Care_fba9a98d45ef4438b73ae31252748c99",
+    "slug": "personal-care-fba9a98d45ef4438b73ae31252748c99",
+    "image": "https://www.jenkins.info/",
+    "creationAt": "2026-08-25T01:24:10.000Z",
+    "updatedAt": "2026-08-25T01:24:10.000Z"
+  }
+]
+2026-08-25 01:24:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/118
+Body:
+<empty> 
+
+2026-08-25 01:24:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/118 -> 200
+Body:
+{
+  "id": 118,
+  "name": "Personal Care_fba9a98d45ef4438b73ae31252748c99",
+  "slug": "personal-care-fba9a98d45ef4438b73ae31252748c99",
+  "image": "https://www.jenkins.info/",
+  "creationAt": "2026-08-25T01:24:10.000Z",
+  "updatedAt": "2026-08-25T01:24:10.000Z"
+} 
+
+2026-08-25 01:24:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/118
+Body:
+<empty> 
+
+2026-08-25 01:24:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/118 -> 200
+Body:
+true

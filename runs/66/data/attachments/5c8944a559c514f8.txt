@@ -1,0 +1,135 @@
+2026-09-17 04:07:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_f90a7001572941189a3e9d56106609b7",
+  "image": "https://brown.net/"
+} 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_f90a7001572941189a3e9d56106609b7",
+  "slug": "sports-fitness-f90a7001572941189a3e9d56106609b7",
+  "image": "https://brown.net/",
+  "creationAt": "2026-09-17T04:07:10.000Z",
+  "updatedAt": "2026-09-17T04:07:10.000Z"
+} 
+
+2026-09-17 04:07:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Persevering 5thgeneration Local Area Network-775a5b9199ff4950885b4ee76f211944",
+  "price": 276,
+  "description": "Face-to-face attitude-oriented intranet",
+  "categoryId": 20,
+  "images": [
+    "http://blevins.com/"
+  ]
+} 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 64,
+  "title": "Persevering 5thgeneration Local Area Network-775a5b9199ff4950885b4ee76f211944",
+  "slug": "persevering-5thgeneration-local-area-network-775a5b9199ff4950885b4ee76f211944",
+  "price": 276,
+  "description": "Face-to-face attitude-oriented intranet",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_f90a7001572941189a3e9d56106609b7",
+    "slug": "sports-fitness-f90a7001572941189a3e9d56106609b7",
+    "image": "https://brown.net/",
+    "creationAt": "2026-09-17T04:07:10.000Z",
+    "updatedAt": "2026-09-17T04:07:10.000Z"
+  },
+  "images": [
+    "http://blevins.com/"
+  ],
+  "creationAt": "2026-09-17T04:07:11.000Z",
+  "updatedAt": "2026-09-17T04:07:11.000Z"
+}
+2026-09-17 04:07:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/persevering-5thgeneration-local-area-network-775a5b9199ff4950885b4ee76f211944
+Body:
+<empty> 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/persevering-5thgeneration-local-area-network-775a5b9199ff4950885b4ee76f211944 -> 200
+Body:
+{
+  "id": 64,
+  "title": "Persevering 5thgeneration Local Area Network-775a5b9199ff4950885b4ee76f211944",
+  "slug": "persevering-5thgeneration-local-area-network-775a5b9199ff4950885b4ee76f211944",
+  "price": 276,
+  "description": "Face-to-face attitude-oriented intranet",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_f90a7001572941189a3e9d56106609b7",
+    "slug": "sports-fitness-f90a7001572941189a3e9d56106609b7",
+    "image": "https://brown.net/",
+    "creationAt": "2026-09-17T04:07:10.000Z",
+    "updatedAt": "2026-09-17T04:07:10.000Z"
+  },
+  "images": [
+    "http://blevins.com/"
+  ],
+  "creationAt": "2026-09-17T04:07:11.000Z",
+  "updatedAt": "2026-09-17T04:07:11.000Z"
+}
+2026-09-17 04:07:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+{
+  "id": 64,
+  "title": "Persevering 5thgeneration Local Area Network-775a5b9199ff4950885b4ee76f211944",
+  "slug": "persevering-5thgeneration-local-area-network-775a5b9199ff4950885b4ee76f211944",
+  "price": 276,
+  "description": "Face-to-face attitude-oriented intranet",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_f90a7001572941189a3e9d56106609b7",
+    "slug": "sports-fitness-f90a7001572941189a3e9d56106609b7",
+    "image": "https://brown.net/",
+    "creationAt": "2026-09-17T04:07:10.000Z",
+    "updatedAt": "2026-09-17T04:07:10.000Z"
+  },
+  "images": [
+    "http://blevins.com/"
+  ],
+  "creationAt": "2026-09-17T04:07:11.000Z",
+  "updatedAt": "2026-09-17T04:07:11.000Z"
+} 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+true 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_f90a7001572941189a3e9d56106609b7",
+  "slug": "sports-fitness-f90a7001572941189a3e9d56106609b7",
+  "image": "https://brown.net/",
+  "creationAt": "2026-09-17T04:07:10.000Z",
+  "updatedAt": "2026-09-17T04:07:10.000Z"
+} 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-17 04:07:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

@@ -1,0 +1,79 @@
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_a2cc611645124768b6a31ecc538bc7e9",
+  "image": "https://oconnor.info/"
+} 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Sports & Fitness_a2cc611645124768b6a31ecc538bc7e9",
+  "slug": "sports-fitness-a2cc611645124768b6a31ecc538bc7e9",
+  "image": "https://oconnor.info/",
+  "creationAt": "2026-08-27T08:18:47.000Z",
+  "updatedAt": "2026-08-27T08:18:47.000Z"
+}
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Self-enabling 24/7 moratorium-c4a76f14a6934bf78066205ff9fea173",
+  "price": 688,
+  "description": "Focused well-modulated superstructure",
+  "categoryId": 10,
+  "images": [
+    "http://mathews-baker.biz/"
+  ]
+} 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 53,
+  "title": "Self-enabling 24/7 moratorium-c4a76f14a6934bf78066205ff9fea173",
+  "slug": "self-enabling-24-7-moratorium-c4a76f14a6934bf78066205ff9fea173",
+  "price": 688,
+  "description": "Focused well-modulated superstructure",
+  "category": {
+    "id": 10,
+    "name": "Sports & Fitness_a2cc611645124768b6a31ecc538bc7e9",
+    "slug": "sports-fitness-a2cc611645124768b6a31ecc538bc7e9",
+    "image": "https://oconnor.info/",
+    "creationAt": "2026-08-27T08:18:47.000Z",
+    "updatedAt": "2026-08-27T08:18:47.000Z"
+  },
+  "images": [
+    "http://mathews-baker.biz/"
+  ],
+  "creationAt": "2026-08-27T08:18:47.000Z",
+  "updatedAt": "2026-08-27T08:18:47.000Z"
+}
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Sports & Fitness_a2cc611645124768b6a31ecc538bc7e9",
+  "slug": "sports-fitness-a2cc611645124768b6a31ecc538bc7e9",
+  "image": "https://oconnor.info/",
+  "creationAt": "2026-08-27T08:18:47.000Z",
+  "updatedAt": "2026-08-27T08:18:47.000Z"
+} 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-08-27 08:18:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 400
+Body:
+{
+  "path": "/api/v1/categories/10",
+  "timestamp": "2026-08-27T08:18:47.686Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

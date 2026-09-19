@@ -1,0 +1,125 @@
+2026-08-27 08:18:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_18caae9f26ba4d048bdd476cb967fc3b",
+  "image": "https://may.com/"
+} 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Home & Kitchen_18caae9f26ba4d048bdd476cb967fc3b",
+  "slug": "home-kitchen-18caae9f26ba4d048bdd476cb967fc3b",
+  "image": "https://may.com/",
+  "creationAt": "2026-08-27T08:18:51.000Z",
+  "updatedAt": "2026-08-27T08:18:51.000Z"
+} 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative tangible architecture-f700e3ba60e149fc82dc90b9d02b68a7",
+  "price": 604,
+  "description": "Adaptive responsive throughput",
+  "categoryId": 26,
+  "images": [
+    "http://www.james.com/"
+  ]
+} 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 70,
+  "title": "Innovative tangible architecture-f700e3ba60e149fc82dc90b9d02b68a7",
+  "slug": "innovative-tangible-architecture-f700e3ba60e149fc82dc90b9d02b68a7",
+  "price": 604,
+  "description": "Adaptive responsive throughput",
+  "category": {
+    "id": 26,
+    "name": "Home & Kitchen_18caae9f26ba4d048bdd476cb967fc3b",
+    "slug": "home-kitchen-18caae9f26ba4d048bdd476cb967fc3b",
+    "image": "https://may.com/",
+    "creationAt": "2026-08-27T08:18:51.000Z",
+    "updatedAt": "2026-08-27T08:18:51.000Z"
+  },
+  "images": [
+    "http://www.james.com/"
+  ],
+  "creationAt": "2026-08-27T08:18:52.000Z",
+  "updatedAt": "2026-08-27T08:18:52.000Z"
+}
+2026-08-27 08:18:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/70
+Body:
+{
+  "title": "Innovative bottom-line circuit-828b4a80d91c42508bba04c93096e725",
+  "price": 784,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/70 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-08-27 08:18:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+{
+  "id": 70,
+  "title": "Innovative tangible architecture-f700e3ba60e149fc82dc90b9d02b68a7",
+  "slug": "innovative-tangible-architecture-f700e3ba60e149fc82dc90b9d02b68a7",
+  "price": 604,
+  "description": "Adaptive responsive throughput",
+  "category": {
+    "id": 26,
+    "name": "Home & Kitchen_18caae9f26ba4d048bdd476cb967fc3b",
+    "slug": "home-kitchen-18caae9f26ba4d048bdd476cb967fc3b",
+    "image": "https://may.com/",
+    "creationAt": "2026-08-27T08:18:51.000Z",
+    "updatedAt": "2026-08-27T08:18:51.000Z"
+  },
+  "images": [
+    "http://www.james.com/"
+  ],
+  "creationAt": "2026-08-27T08:18:52.000Z",
+  "updatedAt": "2026-08-27T08:18:52.000Z"
+} 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+true 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Home & Kitchen_18caae9f26ba4d048bdd476cb967fc3b",
+  "slug": "home-kitchen-18caae9f26ba4d048bdd476cb967fc3b",
+  "image": "https://may.com/",
+  "creationAt": "2026-08-27T08:18:51.000Z",
+  "updatedAt": "2026-08-27T08:18:51.000Z"
+} 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-08-27 08:18:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

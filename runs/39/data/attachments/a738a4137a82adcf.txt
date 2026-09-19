@@ -1,0 +1,61 @@
+2026-08-21 01:32:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Tanya Silva",
+  "email": "ndawson@example.net",
+  "password": "***",
+  "avatar": "https://www.mercado.info/"
+} 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 558,
+  "email": "ndawson@example.net",
+  "password": "***",
+  "name": "Tanya Silva",
+  "role": "customer",
+  "avatar": "https://www.mercado.info/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+}
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/558
+Body:
+<empty> 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/558 -> 200
+Body:
+{
+  "id": 558,
+  "email": "ndawson@example.net",
+  "password": "***",
+  "name": "Tanya Silva",
+  "role": "customer",
+  "avatar": "https://www.mercado.info/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+}
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/558
+Body:
+<empty> 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/558 -> 200
+Body:
+{
+  "id": 558,
+  "email": "ndawson@example.net",
+  "password": "***",
+  "name": "Tanya Silva",
+  "role": "customer",
+  "avatar": "https://www.mercado.info/",
+  "creationAt": "2026-08-21T01:32:41.000Z",
+  "updatedAt": "2026-08-21T01:32:41.000Z"
+} 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/558
+Body:
+<empty> 
+
+2026-08-21 01:32:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/558 -> 200
+Body:
+true

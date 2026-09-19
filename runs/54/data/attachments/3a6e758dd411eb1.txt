@@ -1,0 +1,107 @@
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_cd872ffff8664804bd66ac17f7c6ae84",
+  "image": "http://nelson.com/"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Clothing_cd872ffff8664804bd66ac17f7c6ae84",
+  "slug": "clothing-cd872ffff8664804bd66ac17f7c6ae84",
+  "image": "http://nelson.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Seamless coherent strategy-d7406c655fd548cd93c01364bddeb840",
+  "price": 768,
+  "description": "Inverse heuristic data-warehouse",
+  "categoryId": 24,
+  "images": [
+    "https://www.palmer.com/"
+  ]
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 85,
+  "title": "Seamless coherent strategy-d7406c655fd548cd93c01364bddeb840",
+  "slug": "seamless-coherent-strategy-d7406c655fd548cd93c01364bddeb840",
+  "price": 768,
+  "description": "Inverse heuristic data-warehouse",
+  "category": {
+    "id": 24,
+    "name": "Clothing_cd872ffff8664804bd66ac17f7c6ae84",
+    "slug": "clothing-cd872ffff8664804bd66ac17f7c6ae84",
+    "image": "http://nelson.com/",
+    "creationAt": "2026-09-05T03:38:35.000Z",
+    "updatedAt": "2026-09-05T03:38:35.000Z"
+  },
+  "images": [
+    "https://www.palmer.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+}
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/85 -> 200
+Body:
+true 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/85 -> 400
+Body:
+{
+  "path": "/api/v1/products/85",
+  "timestamp": "2026-09-05T03:38:36.179Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 85\n    }\n}"
+}
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/85 -> 400
+Body:
+{
+  "path": "/api/v1/products/85",
+  "timestamp": "2026-09-05T03:38:36.187Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 85\n    }\n}"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Clothing_cd872ffff8664804bd66ac17f7c6ae84",
+  "slug": "clothing-cd872ffff8664804bd66ac17f7c6ae84",
+  "image": "http://nelson.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

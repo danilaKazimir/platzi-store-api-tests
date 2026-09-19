@@ -1,0 +1,71 @@
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_61a9fdb5ffb04fcb881a827f8c2f6d35",
+  "image": "http://www.perez.com/"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 124,
+  "name": "Toys_61a9fdb5ffb04fcb881a827f8c2f6d35",
+  "slug": "toys-61a9fdb5ffb04fcb881a827f8c2f6d35",
+  "image": "http://www.perez.com/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/124
+Body:
+{
+  "name": "Toys_c49b6d9962884f51aab98a62c76701a6",
+  "image": "https://www.scott.org/"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/124 -> 200
+Body:
+{
+  "id": 124,
+  "name": "Toys_c49b6d9962884f51aab98a62c76701a6",
+  "slug": "toys-c49b6d9962884f51aab98a62c76701a6",
+  "image": "https://www.scott.org/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/124
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/124 -> 200
+Body:
+{
+  "id": 124,
+  "name": "Toys_c49b6d9962884f51aab98a62c76701a6",
+  "slug": "toys-c49b6d9962884f51aab98a62c76701a6",
+  "image": "https://www.scott.org/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+}
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/124
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/124 -> 200
+Body:
+{
+  "id": 124,
+  "name": "Toys_c49b6d9962884f51aab98a62c76701a6",
+  "slug": "toys-c49b6d9962884f51aab98a62c76701a6",
+  "image": "https://www.scott.org/",
+  "creationAt": "2026-08-25T01:24:11.000Z",
+  "updatedAt": "2026-08-25T01:24:11.000Z"
+} 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/124
+Body:
+<empty> 
+
+2026-08-25 01:24:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/124 -> 200
+Body:
+true

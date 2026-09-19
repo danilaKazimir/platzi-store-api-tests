@@ -1,0 +1,125 @@
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_ebbacbe7768148439197cf8923849250",
+  "image": "http://erickson.biz/"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_ebbacbe7768148439197cf8923849250",
+  "slug": "automotive-accessories-ebbacbe7768148439197cf8923849250",
+  "image": "http://erickson.biz/",
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Centralized non-volatile website-0de8e33144ff4c8cbaab005a59545399",
+  "price": 177,
+  "description": "Inverse demand-driven project",
+  "categoryId": 26,
+  "images": [
+    "https://garcia-sharp.net/"
+  ]
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 78,
+  "title": "Centralized non-volatile website-0de8e33144ff4c8cbaab005a59545399",
+  "slug": "centralized-non-volatile-website-0de8e33144ff4c8cbaab005a59545399",
+  "price": 177,
+  "description": "Inverse demand-driven project",
+  "category": {
+    "id": 26,
+    "name": "Automotive Accessories_ebbacbe7768148439197cf8923849250",
+    "slug": "automotive-accessories-ebbacbe7768148439197cf8923849250",
+    "image": "http://erickson.biz/",
+    "creationAt": "2026-09-16T04:00:34.000Z",
+    "updatedAt": "2026-09-16T04:00:34.000Z"
+  },
+  "images": [
+    "https://garcia-sharp.net/"
+  ],
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+}
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/78
+Body:
+{
+  "title": "Seamless user-facing capability-b6d0de26854649a1a97b92c3f8be1943",
+  "price": 767,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/78 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/78
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/78 -> 200
+Body:
+{
+  "id": 78,
+  "title": "Centralized non-volatile website-0de8e33144ff4c8cbaab005a59545399",
+  "slug": "centralized-non-volatile-website-0de8e33144ff4c8cbaab005a59545399",
+  "price": 177,
+  "description": "Inverse demand-driven project",
+  "category": {
+    "id": 26,
+    "name": "Automotive Accessories_ebbacbe7768148439197cf8923849250",
+    "slug": "automotive-accessories-ebbacbe7768148439197cf8923849250",
+    "image": "http://erickson.biz/",
+    "creationAt": "2026-09-16T04:00:34.000Z",
+    "updatedAt": "2026-09-16T04:00:34.000Z"
+  },
+  "images": [
+    "https://garcia-sharp.net/"
+  ],
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/78
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/78 -> 200
+Body:
+true 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_ebbacbe7768148439197cf8923849250",
+  "slug": "automotive-accessories-ebbacbe7768148439197cf8923849250",
+  "image": "http://erickson.biz/",
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_9f94f3675ab6416ea98d974178f3170e",
+  "image": "https://www.robinson-wilson.biz/"
+} 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 7,
+  "name": "Books_9f94f3675ab6416ea98d974178f3170e",
+  "slug": "books-9f94f3675ab6416ea98d974178f3170e",
+  "image": "https://www.robinson-wilson.biz/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+}
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/books-9f94f3675ab6416ea98d974178f3170e
+Body:
+<empty> 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/books-9f94f3675ab6416ea98d974178f3170e -> 200
+Body:
+{
+  "id": 7,
+  "name": "Books_9f94f3675ab6416ea98d974178f3170e",
+  "slug": "books-9f94f3675ab6416ea98d974178f3170e",
+  "image": "https://www.robinson-wilson.biz/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+}
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/7
+Body:
+<empty> 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/7 -> 200
+Body:
+{
+  "id": 7,
+  "name": "Books_9f94f3675ab6416ea98d974178f3170e",
+  "slug": "books-9f94f3675ab6416ea98d974178f3170e",
+  "image": "https://www.robinson-wilson.biz/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+} 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/7
+Body:
+<empty> 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/7 -> 200
+Body:
+true

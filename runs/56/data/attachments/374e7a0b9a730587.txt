@@ -1,0 +1,408 @@
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+  "image": "http://www.murray.com/"
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+  "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+  "image": "http://www.murray.com/",
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+}
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory dynamic productivity-d1bbf85c022748968b6447dd56294c50",
+  "price": 215,
+  "description": "Implemented multimedia benchmark",
+  "categoryId": 26,
+  "images": [
+    "http://www.lang.com/"
+  ]
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 87,
+  "title": "Mandatory dynamic productivity-d1bbf85c022748968b6447dd56294c50",
+  "slug": "mandatory-dynamic-productivity-d1bbf85c022748968b6447dd56294c50",
+  "price": 215,
+  "description": "Implemented multimedia benchmark",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+    "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+    "image": "http://www.murray.com/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://www.lang.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced bi-directional website-0366889c9d194848964e97bec68f39e5",
+  "price": 671,
+  "description": "User-friendly leadingedge collaboration",
+  "categoryId": 26,
+  "images": [
+    "https://www.elliott.info/"
+  ]
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 90,
+  "title": "Advanced bi-directional website-0366889c9d194848964e97bec68f39e5",
+  "slug": "advanced-bi-directional-website-0366889c9d194848964e97bec68f39e5",
+  "price": 671,
+  "description": "User-friendly leadingedge collaboration",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+    "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+    "image": "http://www.murray.com/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "https://www.elliott.info/"
+  ],
+  "creationAt": "2026-09-07T03:40:08.000Z",
+  "updatedAt": "2026-09-07T03:40:08.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Seamless grid-enabled pricing structure-7e930a5a6dd24845ac89f107b4d66e03",
+  "price": 23,
+  "description": "Universal tangible groupware",
+  "categoryId": 26,
+  "images": [
+    "https://www.levy.com/"
+  ]
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 93,
+  "title": "Seamless grid-enabled pricing structure-7e930a5a6dd24845ac89f107b4d66e03",
+  "slug": "seamless-grid-enabled-pricing-structure-7e930a5a6dd24845ac89f107b4d66e03",
+  "price": 23,
+  "description": "Universal tangible groupware",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+    "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+    "image": "http://www.murray.com/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "https://www.levy.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:08.000Z",
+  "updatedAt": "2026-09-07T03:40:08.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_3a67d306b82b45b6a0be7179bd3c46f7",
+  "image": "http://miller.info/"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_3a67d306b82b45b6a0be7179bd3c46f7",
+  "slug": "home-kitchen-3a67d306b82b45b6a0be7179bd3c46f7",
+  "image": "http://miller.info/",
+  "creationAt": "2026-09-07T03:40:08.000Z",
+  "updatedAt": "2026-09-07T03:40:08.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source discrete capability-aa75aae268584a09978f3d65135ebdc5",
+  "price": 623,
+  "description": "Synchronized 3rdgeneration capability",
+  "categoryId": 30,
+  "images": [
+    "https://www.gonzales-andrade.com/"
+  ]
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 95,
+  "title": "Open-source discrete capability-aa75aae268584a09978f3d65135ebdc5",
+  "slug": "open-source-discrete-capability-aa75aae268584a09978f3d65135ebdc5",
+  "price": 623,
+  "description": "Synchronized 3rdgeneration capability",
+  "category": {
+    "id": 30,
+    "name": "Home & Kitchen_3a67d306b82b45b6a0be7179bd3c46f7",
+    "slug": "home-kitchen-3a67d306b82b45b6a0be7179bd3c46f7",
+    "image": "http://miller.info/",
+    "creationAt": "2026-09-07T03:40:08.000Z",
+    "updatedAt": "2026-09-07T03:40:08.000Z"
+  },
+  "images": [
+    "https://www.gonzales-andrade.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:09.000Z",
+  "updatedAt": "2026-09-07T03:40:09.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/87/related
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/87/related -> 200
+Body:
+[
+  {
+    "id": 90,
+    "title": "Advanced bi-directional website-0366889c9d194848964e97bec68f39e5",
+    "slug": "advanced-bi-directional-website-0366889c9d194848964e97bec68f39e5",
+    "price": 671,
+    "description": "User-friendly leadingedge collaboration",
+    "category": {
+      "id": 26,
+      "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+      "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+      "image": "http://www.murray.com/",
+      "creationAt": "2026-09-07T03:40:07.000Z",
+      "updatedAt": "2026-09-07T03:40:07.000Z"
+    },
+    "images": [
+      "https://www.elliott.info/"
+    ],
+    "creationAt": "2026-09-07T03:40:08.000Z",
+    "updatedAt": "2026-09-07T03:40:08.000Z"
+  },
+  {
+    "id": 93,
+    "title": "Seamless grid-enabled pricing structure-7e930a5a6dd24845ac89f107b4d66e03",
+    "slug": "seamless-grid-enabled-pricing-structure-7e930a5a6dd24845ac89f107b4d66e03",
+    "price": 23,
+    "description": "Universal tangible groupware",
+    "category": {
+      "id": 26,
+      "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+      "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+      "image": "http://www.murray.com/",
+      "creationAt": "2026-09-07T03:40:07.000Z",
+      "updatedAt": "2026-09-07T03:40:07.000Z"
+    },
+    "images": [
+      "https://www.levy.com/"
+    ],
+    "creationAt": "2026-09-07T03:40:08.000Z",
+    "updatedAt": "2026-09-07T03:40:08.000Z"
+  }
+]
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+{
+  "id": 95,
+  "title": "Open-source discrete capability-aa75aae268584a09978f3d65135ebdc5",
+  "slug": "open-source-discrete-capability-aa75aae268584a09978f3d65135ebdc5",
+  "price": 623,
+  "description": "Synchronized 3rdgeneration capability",
+  "category": {
+    "id": 30,
+    "name": "Home & Kitchen_3a67d306b82b45b6a0be7179bd3c46f7",
+    "slug": "home-kitchen-3a67d306b82b45b6a0be7179bd3c46f7",
+    "image": "http://miller.info/",
+    "creationAt": "2026-09-07T03:40:08.000Z",
+    "updatedAt": "2026-09-07T03:40:08.000Z"
+  },
+  "images": [
+    "https://www.gonzales-andrade.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:09.000Z",
+  "updatedAt": "2026-09-07T03:40:09.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+true 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+{
+  "id": 93,
+  "title": "Seamless grid-enabled pricing structure-7e930a5a6dd24845ac89f107b4d66e03",
+  "slug": "seamless-grid-enabled-pricing-structure-7e930a5a6dd24845ac89f107b4d66e03",
+  "price": 23,
+  "description": "Universal tangible groupware",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+    "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+    "image": "http://www.murray.com/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "https://www.levy.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:08.000Z",
+  "updatedAt": "2026-09-07T03:40:08.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+true 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/90
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/90 -> 200
+Body:
+{
+  "id": 90,
+  "title": "Advanced bi-directional website-0366889c9d194848964e97bec68f39e5",
+  "slug": "advanced-bi-directional-website-0366889c9d194848964e97bec68f39e5",
+  "price": 671,
+  "description": "User-friendly leadingedge collaboration",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+    "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+    "image": "http://www.murray.com/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "https://www.elliott.info/"
+  ],
+  "creationAt": "2026-09-07T03:40:08.000Z",
+  "updatedAt": "2026-09-07T03:40:08.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/90
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/90 -> 200
+Body:
+true 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/87
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/87 -> 200
+Body:
+{
+  "id": 87,
+  "title": "Mandatory dynamic productivity-d1bbf85c022748968b6447dd56294c50",
+  "slug": "mandatory-dynamic-productivity-d1bbf85c022748968b6447dd56294c50",
+  "price": 215,
+  "description": "Implemented multimedia benchmark",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+    "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+    "image": "http://www.murray.com/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://www.lang.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/87
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/87 -> 200
+Body:
+true 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_3a67d306b82b45b6a0be7179bd3c46f7",
+  "slug": "home-kitchen-3a67d306b82b45b6a0be7179bd3c46f7",
+  "image": "http://miller.info/",
+  "creationAt": "2026-09-07T03:40:08.000Z",
+  "updatedAt": "2026-09-07T03:40:08.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Pet Supplies_d0e34aa0e5024b99807183f8ef9e6ef4",
+  "slug": "pet-supplies-d0e34aa0e5024b99807183f8ef9e6ef4",
+  "image": "http://www.murray.com/",
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-09-07 03:40:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

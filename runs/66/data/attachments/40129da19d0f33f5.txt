@@ -1,0 +1,71 @@
+2026-09-17 04:07:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_2e927bf639ba4a18bb17e7908d728073",
+  "image": "http://padilla.com/"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Automotive Accessories_2e927bf639ba4a18bb17e7908d728073",
+  "slug": "automotive-accessories-2e927bf639ba4a18bb17e7908d728073",
+  "image": "http://padilla.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/9
+Body:
+{
+  "name": "Food & Beverages_9880d68b65d74573bd4bb448c53af34e",
+  "image": "http://blanchard-reid.com/"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Food & Beverages_9880d68b65d74573bd4bb448c53af34e",
+  "slug": "food-beverages-9880d68b65d74573bd4bb448c53af34e",
+  "image": "http://blanchard-reid.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Food & Beverages_9880d68b65d74573bd4bb448c53af34e",
+  "slug": "food-beverages-9880d68b65d74573bd4bb448c53af34e",
+  "image": "http://blanchard-reid.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Food & Beverages_9880d68b65d74573bd4bb448c53af34e",
+  "slug": "food-beverages-9880d68b65d74573bd4bb448c53af34e",
+  "image": "http://blanchard-reid.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

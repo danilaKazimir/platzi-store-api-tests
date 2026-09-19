@@ -1,0 +1,61 @@
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Alexander Carter",
+  "email": "matthewcantu@example.net",
+  "password": "***",
+  "avatar": "http://www.parker-franklin.com/"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 18,
+  "email": "matthewcantu@example.net",
+  "password": "***",
+  "name": "Alexander Carter",
+  "role": "customer",
+  "avatar": "http://www.parker-franklin.com/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+}
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/18
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/18 -> 200
+Body:
+{
+  "id": 18,
+  "email": "matthewcantu@example.net",
+  "password": "***",
+  "name": "Alexander Carter",
+  "role": "customer",
+  "avatar": "http://www.parker-franklin.com/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+}
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/18
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/18 -> 200
+Body:
+{
+  "id": 18,
+  "email": "matthewcantu@example.net",
+  "password": "***",
+  "name": "Alexander Carter",
+  "role": "customer",
+  "avatar": "http://www.parker-franklin.com/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/18
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/18 -> 200
+Body:
+true

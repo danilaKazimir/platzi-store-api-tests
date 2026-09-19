@@ -1,0 +1,88 @@
+2026-09-07 03:40:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Amy Castillo",
+  "email": "jaimewells@example.com",
+  "password": "***",
+  "avatar": "https://browning-tate.org/"
+} 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 17,
+  "email": "jaimewells@example.com",
+  "password": "***",
+  "name": "Amy Castillo",
+  "role": "customer",
+  "avatar": "https://browning-tate.org/",
+  "creationAt": "2026-09-07T03:40:03.000Z",
+  "updatedAt": "2026-09-07T03:40:03.000Z"
+}
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "jaimewells@example.com",
+  "password": "***"
+} 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE3LCJpYXQiOjE3ODg3NTI0MDMsImV4cCI6MTc4ODc4ODQwM30.seWdp2lHcoqOBK4YCOpdmOTnHUr_Hrmvs3w9T7J2rJs"
+} 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 17,
+  "email": "jaimewells@example.com",
+  "password": "***",
+  "name": "Amy Castillo",
+  "role": "customer",
+  "avatar": "https://browning-tate.org/",
+  "creationAt": "2026-09-07T03:40:03.000Z",
+  "updatedAt": "2026-09-07T03:40:03.000Z"
+}
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/17
+Body:
+<empty> 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/17 -> 200
+Body:
+{
+  "id": 17,
+  "email": "jaimewells@example.com",
+  "password": "***",
+  "name": "Amy Castillo",
+  "role": "customer",
+  "avatar": "https://browning-tate.org/",
+  "creationAt": "2026-09-07T03:40:03.000Z",
+  "updatedAt": "2026-09-07T03:40:03.000Z"
+} 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/17
+Body:
+<empty> 
+
+2026-09-07 03:40:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/17 -> 200
+Body:
+true
