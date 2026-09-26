@@ -1,0 +1,107 @@
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_66b57808dfa8499bbc6ec45e10450b64",
+  "image": "http://www.tucker.biz/"
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 67,
+  "name": "Clothing_66b57808dfa8499bbc6ec45e10450b64",
+  "slug": "clothing-66b57808dfa8499bbc6ec45e10450b64",
+  "image": "http://www.tucker.biz/",
+  "creationAt": "2026-09-22T04:01:02.000Z",
+  "updatedAt": "2026-09-22T04:01:02.000Z"
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Exclusive foreground definition-8f1442e34cf449608c35df955e07f393",
+  "price": 954,
+  "description": "Managed disintermediate hierarchy",
+  "categoryId": 67,
+  "images": [
+    "https://www.smith.org/"
+  ]
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 298,
+  "title": "Exclusive foreground definition-8f1442e34cf449608c35df955e07f393",
+  "slug": "exclusive-foreground-definition-8f1442e34cf449608c35df955e07f393",
+  "price": 954,
+  "description": "Managed disintermediate hierarchy",
+  "category": {
+    "id": 67,
+    "name": "Clothing_66b57808dfa8499bbc6ec45e10450b64",
+    "slug": "clothing-66b57808dfa8499bbc6ec45e10450b64",
+    "image": "http://www.tucker.biz/",
+    "creationAt": "2026-09-22T04:01:02.000Z",
+    "updatedAt": "2026-09-22T04:01:02.000Z"
+  },
+  "images": [
+    "https://www.smith.org/"
+  ],
+  "creationAt": "2026-09-22T04:01:02.000Z",
+  "updatedAt": "2026-09-22T04:01:02.000Z"
+}
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/298
+Body:
+<empty> 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/298 -> 200
+Body:
+true 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/298
+Body:
+<empty> 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/298 -> 400
+Body:
+{
+  "path": "/api/v1/products/298",
+  "timestamp": "2026-09-22T04:01:02.921Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 298\n    }\n}"
+}
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/298
+Body:
+<empty> 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/298 -> 400
+Body:
+{
+  "path": "/api/v1/products/298",
+  "timestamp": "2026-09-22T04:01:02.987Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 298\n    }\n}"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/67
+Body:
+<empty> 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/67 -> 200
+Body:
+{
+  "id": 67,
+  "name": "Clothing_66b57808dfa8499bbc6ec45e10450b64",
+  "slug": "clothing-66b57808dfa8499bbc6ec45e10450b64",
+  "image": "http://www.tucker.biz/",
+  "creationAt": "2026-09-22T04:01:02.000Z",
+  "updatedAt": "2026-09-22T04:01:02.000Z"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/67
+Body:
+<empty> 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/67 -> 200
+Body:
+true

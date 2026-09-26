@@ -1,0 +1,81 @@
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Sergio Gray",
+  "email": "angelaewing@example.com",
+  "password": "***",
+  "avatar": "https://www.lyons.info/"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 9,
+  "email": "angelaewing@example.com",
+  "password": "***",
+  "name": "Sergio Gray",
+  "role": "customer",
+  "avatar": "https://www.lyons.info/",
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+}
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/9
+Body:
+{
+  "name": "William Coleman",
+  "email": "taylorharris@example.org"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "taylorharris@example.org",
+  "password": "***",
+  "name": "William Coleman",
+  "role": "customer",
+  "avatar": "https://www.lyons.info/",
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "taylorharris@example.org",
+  "password": "***",
+  "name": "William Coleman",
+  "role": "customer",
+  "avatar": "https://www.lyons.info/",
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+}
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "taylorharris@example.org",
+  "password": "***",
+  "name": "William Coleman",
+  "role": "customer",
+  "avatar": "https://www.lyons.info/",
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+true

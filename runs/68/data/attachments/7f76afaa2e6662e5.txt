@@ -1,0 +1,71 @@
+2026-09-19 03:49:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_088bb7d7198f4b8ebe26bd96716b049b",
+  "image": "http://www.white.com/"
+} 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Sports & Fitness_088bb7d7198f4b8ebe26bd96716b049b",
+  "slug": "sports-fitness-088bb7d7198f4b8ebe26bd96716b049b",
+  "image": "http://www.white.com/",
+  "creationAt": "2026-09-19T03:49:55.000Z",
+  "updatedAt": "2026-09-19T03:49:55.000Z"
+}
+2026-09-19 03:49:55 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/33
+Body:
+{
+  "name": "Toys_de2e2958cd8a4093925bcafb6692b405",
+  "image": "https://davis-rose.biz/"
+} 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Toys_de2e2958cd8a4093925bcafb6692b405",
+  "slug": "toys-de2e2958cd8a4093925bcafb6692b405",
+  "image": "https://davis-rose.biz/",
+  "creationAt": "2026-09-19T03:49:55.000Z",
+  "updatedAt": "2026-09-19T03:49:55.000Z"
+} 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Toys_de2e2958cd8a4093925bcafb6692b405",
+  "slug": "toys-de2e2958cd8a4093925bcafb6692b405",
+  "image": "https://davis-rose.biz/",
+  "creationAt": "2026-09-19T03:49:55.000Z",
+  "updatedAt": "2026-09-19T03:49:55.000Z"
+}
+2026-09-19 03:49:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Toys_de2e2958cd8a4093925bcafb6692b405",
+  "slug": "toys-de2e2958cd8a4093925bcafb6692b405",
+  "image": "https://davis-rose.biz/",
+  "creationAt": "2026-09-19T03:49:55.000Z",
+  "updatedAt": "2026-09-19T03:49:55.000Z"
+} 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-19 03:49:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

@@ -1,0 +1,127 @@
+2026-09-09 03:49:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_ac4befd4dd0f4a67a050bea323b1002c",
+  "image": "https://murray.org/"
+} 
+
+2026-09-09 03:49:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Home & Kitchen_ac4befd4dd0f4a67a050bea323b1002c",
+  "slug": "home-kitchen-ac4befd4dd0f4a67a050bea323b1002c",
+  "image": "https://murray.org/",
+  "creationAt": "2026-09-09T03:49:36.000Z",
+  "updatedAt": "2026-09-09T03:49:36.000Z"
+}
+2026-09-09 03:49:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-09 03:49:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-08T23:47:06.000Z",
+    "updatedAt": "2026-09-08T23:47:06.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-08T23:47:06.000Z",
+    "updatedAt": "2026-09-08T23:47:06.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-08T23:47:06.000Z",
+    "updatedAt": "2026-09-08T23:47:06.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-08T23:47:06.000Z",
+    "updatedAt": "2026-09-08T23:47:06.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-08T23:47:06.000Z",
+    "updatedAt": "2026-09-08T23:47:06.000Z"
+  },
+  {
+    "id": 16,
+    "name": "wb-9f3a",
+    "slug": "wb-9f3a",
+    "image": "https://placehold.co/600x400/png",
+    "creationAt": "2026-09-09T01:25:58.000Z",
+    "updatedAt": "2026-09-09T01:25:58.000Z"
+  },
+  {
+    "id": 17,
+    "name": "Galaxy",
+    "slug": "galaxy",
+    "image": "https://placehold.co/600x400/png",
+    "creationAt": "2026-09-09T03:41:16.000Z",
+    "updatedAt": "2026-09-09T03:41:16.000Z"
+  },
+  {
+    "id": 18,
+    "name": "IA Tools",
+    "slug": "ia-tools",
+    "image": "https://placehold.co/600x400/png",
+    "creationAt": "2026-09-09T03:47:08.000Z",
+    "updatedAt": "2026-09-09T03:47:08.000Z"
+  },
+  {
+    "id": 19,
+    "name": "Home & Kitchen_ac4befd4dd0f4a67a050bea323b1002c",
+    "slug": "home-kitchen-ac4befd4dd0f4a67a050bea323b1002c",
+    "image": "https://murray.org/",
+    "creationAt": "2026-09-09T03:49:36.000Z",
+    "updatedAt": "2026-09-09T03:49:36.000Z"
+  },
+  {
+    "id": 20,
+    "name": "testCategory91c426c947e449b4988195ac661c8255",
+    "slug": "testcategory91c426c947e449b4988195ac661c8255",
+    "image": "http://www.weaver.com/",
+    "creationAt": "2026-09-09T03:49:36.000Z",
+    "updatedAt": "2026-09-09T03:49:36.000Z"
+  }
+]
+2026-09-09 03:49:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-09-09 03:49:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Home & Kitchen_ac4befd4dd0f4a67a050bea323b1002c",
+  "slug": "home-kitchen-ac4befd4dd0f4a67a050bea323b1002c",
+  "image": "https://murray.org/",
+  "creationAt": "2026-09-09T03:49:36.000Z",
+  "updatedAt": "2026-09-09T03:49:36.000Z"
+} 
+
+2026-09-09 03:49:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-09-09 03:49:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

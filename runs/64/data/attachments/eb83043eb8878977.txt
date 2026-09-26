@@ -1,0 +1,135 @@
+2026-09-15 04:03:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_0f37d9079851406d941777295bcbb717",
+  "image": "http://www.johnson-hawkins.com/"
+} 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Personal Care_0f37d9079851406d941777295bcbb717",
+  "slug": "personal-care-0f37d9079851406d941777295bcbb717",
+  "image": "http://www.johnson-hawkins.com/",
+  "creationAt": "2026-09-15T04:03:35.000Z",
+  "updatedAt": "2026-09-15T04:03:35.000Z"
+} 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Function-based exuding pricing structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "price": 280,
+  "description": "Fully-configurable hybrid customer loyalty",
+  "categoryId": 25,
+  "images": [
+    "http://www.hinton.com/"
+  ]
+} 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 69,
+  "title": "Function-based exuding pricing structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "slug": "function-based-exuding-pricing-structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "price": 280,
+  "description": "Fully-configurable hybrid customer loyalty",
+  "category": {
+    "id": 25,
+    "name": "Personal Care_0f37d9079851406d941777295bcbb717",
+    "slug": "personal-care-0f37d9079851406d941777295bcbb717",
+    "image": "http://www.johnson-hawkins.com/",
+    "creationAt": "2026-09-15T04:03:35.000Z",
+    "updatedAt": "2026-09-15T04:03:35.000Z"
+  },
+  "images": [
+    "http://www.hinton.com/"
+  ],
+  "creationAt": "2026-09-15T04:03:35.000Z",
+  "updatedAt": "2026-09-15T04:03:35.000Z"
+}
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/function-based-exuding-pricing-structure-de031337df7341f4ac7e8d54b2e3a8fe
+Body:
+<empty> 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/function-based-exuding-pricing-structure-de031337df7341f4ac7e8d54b2e3a8fe -> 200
+Body:
+{
+  "id": 69,
+  "title": "Function-based exuding pricing structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "slug": "function-based-exuding-pricing-structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "price": 280,
+  "description": "Fully-configurable hybrid customer loyalty",
+  "category": {
+    "id": 25,
+    "name": "Personal Care_0f37d9079851406d941777295bcbb717",
+    "slug": "personal-care-0f37d9079851406d941777295bcbb717",
+    "image": "http://www.johnson-hawkins.com/",
+    "creationAt": "2026-09-15T04:03:35.000Z",
+    "updatedAt": "2026-09-15T04:03:35.000Z"
+  },
+  "images": [
+    "http://www.hinton.com/"
+  ],
+  "creationAt": "2026-09-15T04:03:35.000Z",
+  "updatedAt": "2026-09-15T04:03:35.000Z"
+}
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Function-based exuding pricing structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "slug": "function-based-exuding-pricing-structure-de031337df7341f4ac7e8d54b2e3a8fe",
+  "price": 280,
+  "description": "Fully-configurable hybrid customer loyalty",
+  "category": {
+    "id": 25,
+    "name": "Personal Care_0f37d9079851406d941777295bcbb717",
+    "slug": "personal-care-0f37d9079851406d941777295bcbb717",
+    "image": "http://www.johnson-hawkins.com/",
+    "creationAt": "2026-09-15T04:03:35.000Z",
+    "updatedAt": "2026-09-15T04:03:35.000Z"
+  },
+  "images": [
+    "http://www.hinton.com/"
+  ],
+  "creationAt": "2026-09-15T04:03:35.000Z",
+  "updatedAt": "2026-09-15T04:03:35.000Z"
+} 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+true 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Personal Care_0f37d9079851406d941777295bcbb717",
+  "slug": "personal-care-0f37d9079851406d941777295bcbb717",
+  "image": "http://www.johnson-hawkins.com/",
+  "creationAt": "2026-09-15T04:03:35.000Z",
+  "updatedAt": "2026-09-15T04:03:35.000Z"
+} 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-15 04:03:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

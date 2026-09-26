@@ -1,0 +1,135 @@
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_4b08a343e8d3491586be6219a381e349",
+  "image": "http://lynn-maxwell.com/"
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Toys_4b08a343e8d3491586be6219a381e349",
+  "slug": "toys-4b08a343e8d3491586be6219a381e349",
+  "image": "http://lynn-maxwell.com/",
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory zero administration orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "price": 763,
+  "description": "User-centric real-time challenge",
+  "categoryId": 40,
+  "images": [
+    "https://www.moss.com/"
+  ]
+} 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 94,
+  "title": "Mandatory zero administration orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "slug": "mandatory-zero-administration-orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "price": 763,
+  "description": "User-centric real-time challenge",
+  "category": {
+    "id": 40,
+    "name": "Toys_4b08a343e8d3491586be6219a381e349",
+    "slug": "toys-4b08a343e8d3491586be6219a381e349",
+    "image": "http://lynn-maxwell.com/",
+    "creationAt": "2026-09-12T03:48:36.000Z",
+    "updatedAt": "2026-09-12T03:48:36.000Z"
+  },
+  "images": [
+    "https://www.moss.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+}
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/mandatory-zero-administration-orchestration-b1aa1ed66fd8481a8cb6221b672fd871
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/mandatory-zero-administration-orchestration-b1aa1ed66fd8481a8cb6221b672fd871 -> 200
+Body:
+{
+  "id": 94,
+  "title": "Mandatory zero administration orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "slug": "mandatory-zero-administration-orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "price": 763,
+  "description": "User-centric real-time challenge",
+  "category": {
+    "id": 40,
+    "name": "Toys_4b08a343e8d3491586be6219a381e349",
+    "slug": "toys-4b08a343e8d3491586be6219a381e349",
+    "image": "http://lynn-maxwell.com/",
+    "creationAt": "2026-09-12T03:48:36.000Z",
+    "updatedAt": "2026-09-12T03:48:36.000Z"
+  },
+  "images": [
+    "https://www.moss.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+}
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/94
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/94 -> 200
+Body:
+{
+  "id": 94,
+  "title": "Mandatory zero administration orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "slug": "mandatory-zero-administration-orchestration-b1aa1ed66fd8481a8cb6221b672fd871",
+  "price": 763,
+  "description": "User-centric real-time challenge",
+  "category": {
+    "id": 40,
+    "name": "Toys_4b08a343e8d3491586be6219a381e349",
+    "slug": "toys-4b08a343e8d3491586be6219a381e349",
+    "image": "http://lynn-maxwell.com/",
+    "creationAt": "2026-09-12T03:48:36.000Z",
+    "updatedAt": "2026-09-12T03:48:36.000Z"
+  },
+  "images": [
+    "https://www.moss.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/94
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/94 -> 200
+Body:
+true 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Toys_4b08a343e8d3491586be6219a381e349",
+  "slug": "toys-4b08a343e8d3491586be6219a381e349",
+  "image": "http://lynn-maxwell.com/",
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-09-12 03:48:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

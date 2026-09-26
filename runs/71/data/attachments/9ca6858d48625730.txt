@@ -1,0 +1,58 @@
+2026-09-22 04:00:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Rebecca Simon",
+  "email": "johnnywood@example.org",
+  "password": "***",
+  "avatar": "http://www.garcia.com/"
+} 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 58,
+  "email": "johnnywood@example.org",
+  "password": "***",
+  "name": "Rebecca Simon",
+  "role": "customer",
+  "avatar": "http://www.garcia.com/",
+  "creationAt": "2026-09-22T04:00:59.000Z",
+  "updatedAt": "2026-09-22T04:00:59.000Z"
+}
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "johnnywood@example.org",
+  "password": "***"
+} 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+}
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/58
+Body:
+<empty> 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/58 -> 200
+Body:
+{
+  "id": 58,
+  "email": "johnnywood@example.org",
+  "password": "***",
+  "name": "Rebecca Simon",
+  "role": "customer",
+  "avatar": "http://www.garcia.com/",
+  "creationAt": "2026-09-22T04:00:59.000Z",
+  "updatedAt": "2026-09-22T04:00:59.000Z"
+} 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/58
+Body:
+<empty> 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/58 -> 200
+Body:
+true

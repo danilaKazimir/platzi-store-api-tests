@@ -1,0 +1,135 @@
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_a974bacc5da04194bf3a8469877d15e1",
+  "image": "https://www.guerra.net/"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 69,
+  "name": "Personal Care_a974bacc5da04194bf3a8469877d15e1",
+  "slug": "personal-care-a974bacc5da04194bf3a8469877d15e1",
+  "image": "https://www.guerra.net/",
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face maximized software-5b18d4ae80db4189af2573bd336500bf",
+  "price": 590,
+  "description": "Distributed human-resource paradigm",
+  "categoryId": 69,
+  "images": [
+    "https://rubio.com/"
+  ]
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 300,
+  "title": "Face-to-face maximized software-5b18d4ae80db4189af2573bd336500bf",
+  "slug": "face-to-face-maximized-software-5b18d4ae80db4189af2573bd336500bf",
+  "price": 590,
+  "description": "Distributed human-resource paradigm",
+  "category": {
+    "id": 69,
+    "name": "Personal Care_a974bacc5da04194bf3a8469877d15e1",
+    "slug": "personal-care-a974bacc5da04194bf3a8469877d15e1",
+    "image": "https://www.guerra.net/",
+    "creationAt": "2026-09-22T04:01:03.000Z",
+    "updatedAt": "2026-09-22T04:01:03.000Z"
+  },
+  "images": [
+    "https://rubio.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+}
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/300
+Body:
+<empty> 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/300 -> 200
+Body:
+{
+  "id": 300,
+  "title": "Face-to-face maximized software-5b18d4ae80db4189af2573bd336500bf",
+  "slug": "face-to-face-maximized-software-5b18d4ae80db4189af2573bd336500bf",
+  "price": 590,
+  "description": "Distributed human-resource paradigm",
+  "category": {
+    "id": 69,
+    "name": "Personal Care_a974bacc5da04194bf3a8469877d15e1",
+    "slug": "personal-care-a974bacc5da04194bf3a8469877d15e1",
+    "image": "https://www.guerra.net/",
+    "creationAt": "2026-09-22T04:01:03.000Z",
+    "updatedAt": "2026-09-22T04:01:03.000Z"
+  },
+  "images": [
+    "https://rubio.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+}
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/300
+Body:
+<empty> 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/300 -> 200
+Body:
+{
+  "id": 300,
+  "title": "Face-to-face maximized software-5b18d4ae80db4189af2573bd336500bf",
+  "slug": "face-to-face-maximized-software-5b18d4ae80db4189af2573bd336500bf",
+  "price": 590,
+  "description": "Distributed human-resource paradigm",
+  "category": {
+    "id": 69,
+    "name": "Personal Care_a974bacc5da04194bf3a8469877d15e1",
+    "slug": "personal-care-a974bacc5da04194bf3a8469877d15e1",
+    "image": "https://www.guerra.net/",
+    "creationAt": "2026-09-22T04:01:03.000Z",
+    "updatedAt": "2026-09-22T04:01:03.000Z"
+  },
+  "images": [
+    "https://rubio.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/300
+Body:
+<empty> 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/300 -> 200
+Body:
+true 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+{
+  "id": 69,
+  "name": "Personal Care_a974bacc5da04194bf3a8469877d15e1",
+  "slug": "personal-care-a974bacc5da04194bf3a8469877d15e1",
+  "image": "https://www.guerra.net/",
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+true

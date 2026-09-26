@@ -1,0 +1,71 @@
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_a43539073dd146479adddf2e7b45f2cc",
+  "image": "https://glenn.net/"
+} 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Books_a43539073dd146479adddf2e7b45f2cc",
+  "slug": "books-a43539073dd146479adddf2e7b45f2cc",
+  "image": "https://glenn.net/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+}
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/10
+Body:
+{
+  "name": "Automotive Accessories_ffeb0bf5a33f4f348df24d3f102dd193",
+  "image": "https://www.johnson.biz/"
+} 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_ffeb0bf5a33f4f348df24d3f102dd193",
+  "slug": "automotive-accessories-ffeb0bf5a33f4f348df24d3f102dd193",
+  "image": "https://www.johnson.biz/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+} 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-13 03:56:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_ffeb0bf5a33f4f348df24d3f102dd193",
+  "slug": "automotive-accessories-ffeb0bf5a33f4f348df24d3f102dd193",
+  "image": "https://www.johnson.biz/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+}
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_ffeb0bf5a33f4f348df24d3f102dd193",
+  "slug": "automotive-accessories-ffeb0bf5a33f4f348df24d3f102dd193",
+  "image": "https://www.johnson.biz/",
+  "creationAt": "2026-09-13T03:56:51.000Z",
+  "updatedAt": "2026-09-13T03:56:51.000Z"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true

@@ -1,0 +1,46 @@
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_0601fa49d40b4e1aaf18ff76fc5df744",
+  "image": "https://www.young-phillips.com/"
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Pet Supplies_0601fa49d40b4e1aaf18ff76fc5df744",
+  "slug": "pet-supplies-0601fa49d40b4e1aaf18ff76fc5df744",
+  "image": "https://www.young-phillips.com/",
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+}
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39/products
+Body:
+<empty> 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39/products -> 200
+Body:
+[]
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Pet Supplies_0601fa49d40b4e1aaf18ff76fc5df744",
+  "slug": "pet-supplies-0601fa49d40b4e1aaf18ff76fc5df744",
+  "image": "https://www.young-phillips.com/",
+  "creationAt": "2026-09-12T03:48:36.000Z",
+  "updatedAt": "2026-09-12T03:48:36.000Z"
+} 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-12 03:48:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

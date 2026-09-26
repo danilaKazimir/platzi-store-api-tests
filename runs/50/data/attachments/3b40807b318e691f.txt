@@ -1,0 +1,12 @@
+2026-09-01 04:16:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/0
+Body:
+<empty> 
+
+2026-09-01 04:16:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/0 -> 400
+Body:
+{
+  "path": "/api/v1/users/0",
+  "timestamp": "2026-09-01T04:16:09.053Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"User\" matching: {\n    \"id\": 0\n}"
+}

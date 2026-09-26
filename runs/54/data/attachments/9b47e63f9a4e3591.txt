@@ -1,0 +1,135 @@
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_2a0f2764439240efb17c989a33a1d7cc",
+  "image": "http://www.rhodes-smith.com/"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Electronics_2a0f2764439240efb17c989a33a1d7cc",
+  "slug": "electronics-2a0f2764439240efb17c989a33a1d7cc",
+  "image": "http://www.rhodes-smith.com/",
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Persevering maximized extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "price": 995,
+  "description": "Customizable even-keeled alliance",
+  "categoryId": 25,
+  "images": [
+    "http://www.rodriguez.com/"
+  ]
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 86,
+  "title": "Persevering maximized extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "slug": "persevering-maximized-extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "price": 995,
+  "description": "Customizable even-keeled alliance",
+  "category": {
+    "id": 25,
+    "name": "Electronics_2a0f2764439240efb17c989a33a1d7cc",
+    "slug": "electronics-2a0f2764439240efb17c989a33a1d7cc",
+    "image": "http://www.rhodes-smith.com/",
+    "creationAt": "2026-09-05T03:38:36.000Z",
+    "updatedAt": "2026-09-05T03:38:36.000Z"
+  },
+  "images": [
+    "http://www.rodriguez.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+}
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/persevering-maximized-extranet-2bd1140eccd54d45afe52d3712af4d3d
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/persevering-maximized-extranet-2bd1140eccd54d45afe52d3712af4d3d -> 200
+Body:
+{
+  "id": 86,
+  "title": "Persevering maximized extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "slug": "persevering-maximized-extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "price": 995,
+  "description": "Customizable even-keeled alliance",
+  "category": {
+    "id": 25,
+    "name": "Electronics_2a0f2764439240efb17c989a33a1d7cc",
+    "slug": "electronics-2a0f2764439240efb17c989a33a1d7cc",
+    "image": "http://www.rhodes-smith.com/",
+    "creationAt": "2026-09-05T03:38:36.000Z",
+    "updatedAt": "2026-09-05T03:38:36.000Z"
+  },
+  "images": [
+    "http://www.rodriguez.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+}
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+{
+  "id": 86,
+  "title": "Persevering maximized extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "slug": "persevering-maximized-extranet-2bd1140eccd54d45afe52d3712af4d3d",
+  "price": 995,
+  "description": "Customizable even-keeled alliance",
+  "category": {
+    "id": 25,
+    "name": "Electronics_2a0f2764439240efb17c989a33a1d7cc",
+    "slug": "electronics-2a0f2764439240efb17c989a33a1d7cc",
+    "image": "http://www.rhodes-smith.com/",
+    "creationAt": "2026-09-05T03:38:36.000Z",
+    "updatedAt": "2026-09-05T03:38:36.000Z"
+  },
+  "images": [
+    "http://www.rodriguez.com/"
+  ],
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+true 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Electronics_2a0f2764439240efb17c989a33a1d7cc",
+  "slug": "electronics-2a0f2764439240efb17c989a33a1d7cc",
+  "image": "http://www.rhodes-smith.com/",
+  "creationAt": "2026-09-05T03:38:36.000Z",
+  "updatedAt": "2026-09-05T03:38:36.000Z"
+} 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-05 03:38:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

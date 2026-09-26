@@ -1,0 +1,70 @@
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3 -> 200
+Body:
+[
+  {
+    "id": 127,
+    "title": "i23rt1",
+    "slug": "i23rt1",
+    "price": 1234567,
+    "description": "wqertyeeewe",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmdHnCK5eT2fMtBwjvtQWxJW-PbWZAlsot3TpedUCaA&s=10",
+      "https://api.escuelajs.co/api/v1/files/3cae.jpg",
+      "https://api.escuelajs.co/api/v1/files/26f4.jpg"
+    ],
+    "creationAt": "2026-09-19T12:50:41.000Z",
+    "updatedAt": "2026-09-19T17:28:45.000Z"
+  },
+  {
+    "id": 135,
+    "title": "title-98ddbcb4-0f98-4588-a7e8-deff74d79267",
+    "slug": "title-98ddbcb4-0f98-4588-a7e8-deff74d79267",
+    "price": 351,
+    "description": "desc-a130f856-c762-4c21-bae8-1a42ff38196e",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=99282"
+    ],
+    "creationAt": "2026-09-19T13:27:02.000Z",
+    "updatedAt": "2026-09-19T13:27:02.000Z"
+  },
+  {
+    "id": 136,
+    "title": "Test Product 1",
+    "slug": "test-product-1",
+    "price": 21,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/1/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:46.000Z",
+    "updatedAt": "2026-09-19T13:30:46.000Z"
+  }
+]

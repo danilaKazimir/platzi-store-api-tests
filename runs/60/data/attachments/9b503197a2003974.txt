@@ -1,0 +1,88 @@
+2026-09-11 03:45:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Daniel Owens",
+  "email": "allison71@example.org",
+  "password": "***",
+  "avatar": "https://myers.biz/"
+} 
+
+2026-09-11 03:45:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 9,
+  "email": "allison71@example.org",
+  "password": "***",
+  "name": "Daniel Owens",
+  "role": "customer",
+  "avatar": "https://myers.biz/",
+  "creationAt": "2026-09-11T03:45:21.000Z",
+  "updatedAt": "2026-09-11T03:45:21.000Z"
+}
+2026-09-11 03:45:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "allison71@example.org",
+  "password": "***"
+} 
+
+2026-09-11 03:45:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-11 03:45:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjksImlhdCI6MTc4OTA5ODMyMSwiZXhwIjoxNzg5MTM0MzIxfQ.qWhdxJCna0Lbedu41yepv_mjv6vtuK5wsmZpthRo-2s"
+} 
+
+2026-09-11 03:45:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-11 03:45:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-11 03:45:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 9,
+  "email": "allison71@example.org",
+  "password": "***",
+  "name": "Daniel Owens",
+  "role": "customer",
+  "avatar": "https://myers.biz/",
+  "creationAt": "2026-09-11T03:45:21.000Z",
+  "updatedAt": "2026-09-11T03:45:21.000Z"
+}
+2026-09-11 03:45:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-11 03:45:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "allison71@example.org",
+  "password": "***",
+  "name": "Daniel Owens",
+  "role": "customer",
+  "avatar": "https://myers.biz/",
+  "creationAt": "2026-09-11T03:45:21.000Z",
+  "updatedAt": "2026-09-11T03:45:21.000Z"
+} 
+
+2026-09-11 03:45:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-11 03:45:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+true

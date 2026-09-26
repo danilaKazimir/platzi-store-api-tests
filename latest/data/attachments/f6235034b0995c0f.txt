@@ -1,0 +1,71 @@
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_1feb4d916d264e2a91af19e0590f02ef",
+  "image": "http://www.peters-williams.com/"
+} 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 263,
+  "name": "Electronics_1feb4d916d264e2a91af19e0590f02ef",
+  "slug": "electronics-1feb4d916d264e2a91af19e0590f02ef",
+  "image": "http://www.peters-williams.com/",
+  "creationAt": "2026-09-26T04:12:03.000Z",
+  "updatedAt": "2026-09-26T04:12:03.000Z"
+}
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/263
+Body:
+{
+  "name": "Electronics_af390fdc6f184560af9a982fc85e1d43",
+  "image": "http://khan.net/"
+} 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/263 -> 200
+Body:
+{
+  "id": 263,
+  "name": "Electronics_af390fdc6f184560af9a982fc85e1d43",
+  "slug": "electronics-af390fdc6f184560af9a982fc85e1d43",
+  "image": "http://khan.net/",
+  "creationAt": "2026-09-26T04:12:03.000Z",
+  "updatedAt": "2026-09-26T04:12:03.000Z"
+} 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/263
+Body:
+<empty> 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/263 -> 200
+Body:
+{
+  "id": 263,
+  "name": "Electronics_af390fdc6f184560af9a982fc85e1d43",
+  "slug": "electronics-af390fdc6f184560af9a982fc85e1d43",
+  "image": "http://khan.net/",
+  "creationAt": "2026-09-26T04:12:03.000Z",
+  "updatedAt": "2026-09-26T04:12:03.000Z"
+}
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/263
+Body:
+<empty> 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/263 -> 200
+Body:
+{
+  "id": 263,
+  "name": "Electronics_af390fdc6f184560af9a982fc85e1d43",
+  "slug": "electronics-af390fdc6f184560af9a982fc85e1d43",
+  "image": "http://khan.net/",
+  "creationAt": "2026-09-26T04:12:03.000Z",
+  "updatedAt": "2026-09-26T04:12:03.000Z"
+} 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/263
+Body:
+<empty> 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/263 -> 200
+Body:
+true

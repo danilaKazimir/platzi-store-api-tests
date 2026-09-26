@@ -1,0 +1,79 @@
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_45807e5a7eb34bd5bf6e2d64b6faef78",
+  "image": "https://www.carter.com/"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Clothing_45807e5a7eb34bd5bf6e2d64b6faef78",
+  "slug": "clothing-45807e5a7eb34bd5bf6e2d64b6faef78",
+  "image": "https://www.carter.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reduced methodical architecture-1f98d044769d441dac0a1b8a9083ddb0",
+  "price": 572,
+  "description": "Upgradable encompassing structure",
+  "categoryId": 21,
+  "images": [
+    "https://johnson.org/"
+  ]
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 81,
+  "title": "Reduced methodical architecture-1f98d044769d441dac0a1b8a9083ddb0",
+  "slug": "reduced-methodical-architecture-1f98d044769d441dac0a1b8a9083ddb0",
+  "price": 572,
+  "description": "Upgradable encompassing structure",
+  "category": {
+    "id": 21,
+    "name": "Clothing_45807e5a7eb34bd5bf6e2d64b6faef78",
+    "slug": "clothing-45807e5a7eb34bd5bf6e2d64b6faef78",
+    "image": "https://www.carter.com/",
+    "creationAt": "2026-09-05T03:38:35.000Z",
+    "updatedAt": "2026-09-05T03:38:35.000Z"
+  },
+  "images": [
+    "https://johnson.org/"
+  ],
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Clothing_45807e5a7eb34bd5bf6e2d64b6faef78",
+  "slug": "clothing-45807e5a7eb34bd5bf6e2d64b6faef78",
+  "image": "https://www.carter.com/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 400
+Body:
+{
+  "path": "/api/v1/categories/21",
+  "timestamp": "2026-09-05T03:38:35.842Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

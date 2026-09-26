@@ -1,0 +1,53 @@
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_0c259273ea9541f191d4a5be9b8a64f7",
+  "image": "http://www.villegas-greene.org/"
+} 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_0c259273ea9541f191d4a5be9b8a64f7",
+  "slug": "home-kitchen-0c259273ea9541f191d4a5be9b8a64f7",
+  "image": "http://www.villegas-greene.org/",
+  "creationAt": "2026-09-12T03:48:34.000Z",
+  "updatedAt": "2026-09-12T03:48:34.000Z"
+}
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_0c259273ea9541f191d4a5be9b8a64f7",
+  "slug": "home-kitchen-0c259273ea9541f191d4a5be9b8a64f7",
+  "image": "http://www.villegas-greene.org/",
+  "creationAt": "2026-09-12T03:48:34.000Z",
+  "updatedAt": "2026-09-12T03:48:34.000Z"
+}
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_0c259273ea9541f191d4a5be9b8a64f7",
+  "slug": "home-kitchen-0c259273ea9541f191d4a5be9b8a64f7",
+  "image": "http://www.villegas-greene.org/",
+  "creationAt": "2026-09-12T03:48:34.000Z",
+  "updatedAt": "2026-09-12T03:48:34.000Z"
+} 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

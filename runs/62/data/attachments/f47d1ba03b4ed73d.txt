@@ -1,0 +1,135 @@
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_eedb8cb219b949f4a0ca9243069d9096",
+  "image": "https://www.thomas.biz/"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Toys_eedb8cb219b949f4a0ca9243069d9096",
+  "slug": "toys-eedb8cb219b949f4a0ca9243069d9096",
+  "image": "https://www.thomas.biz/",
+  "creationAt": "2026-09-13T03:56:52.000Z",
+  "updatedAt": "2026-09-13T03:56:52.000Z"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based holistic approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "price": 128,
+  "description": "User-friendly multimedia interface",
+  "categoryId": 18,
+  "images": [
+    "https://peck.com/"
+  ]
+} 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 72,
+  "title": "Object-based holistic approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "slug": "object-based-holistic-approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "price": 128,
+  "description": "User-friendly multimedia interface",
+  "category": {
+    "id": 18,
+    "name": "Toys_eedb8cb219b949f4a0ca9243069d9096",
+    "slug": "toys-eedb8cb219b949f4a0ca9243069d9096",
+    "image": "https://www.thomas.biz/",
+    "creationAt": "2026-09-13T03:56:52.000Z",
+    "updatedAt": "2026-09-13T03:56:52.000Z"
+  },
+  "images": [
+    "https://peck.com/"
+  ],
+  "creationAt": "2026-09-13T03:56:53.000Z",
+  "updatedAt": "2026-09-13T03:56:53.000Z"
+}
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/object-based-holistic-approach-6f7893e2424b43068ef1b4b6c9895f93
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/object-based-holistic-approach-6f7893e2424b43068ef1b4b6c9895f93 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Object-based holistic approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "slug": "object-based-holistic-approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "price": 128,
+  "description": "User-friendly multimedia interface",
+  "category": {
+    "id": 18,
+    "name": "Toys_eedb8cb219b949f4a0ca9243069d9096",
+    "slug": "toys-eedb8cb219b949f4a0ca9243069d9096",
+    "image": "https://www.thomas.biz/",
+    "creationAt": "2026-09-13T03:56:52.000Z",
+    "updatedAt": "2026-09-13T03:56:52.000Z"
+  },
+  "images": [
+    "https://peck.com/"
+  ],
+  "creationAt": "2026-09-13T03:56:53.000Z",
+  "updatedAt": "2026-09-13T03:56:53.000Z"
+}
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Object-based holistic approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "slug": "object-based-holistic-approach-6f7893e2424b43068ef1b4b6c9895f93",
+  "price": 128,
+  "description": "User-friendly multimedia interface",
+  "category": {
+    "id": 18,
+    "name": "Toys_eedb8cb219b949f4a0ca9243069d9096",
+    "slug": "toys-eedb8cb219b949f4a0ca9243069d9096",
+    "image": "https://www.thomas.biz/",
+    "creationAt": "2026-09-13T03:56:52.000Z",
+    "updatedAt": "2026-09-13T03:56:52.000Z"
+  },
+  "images": [
+    "https://peck.com/"
+  ],
+  "creationAt": "2026-09-13T03:56:53.000Z",
+  "updatedAt": "2026-09-13T03:56:53.000Z"
+} 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+true 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Toys_eedb8cb219b949f4a0ca9243069d9096",
+  "slug": "toys-eedb8cb219b949f4a0ca9243069d9096",
+  "image": "https://www.thomas.biz/",
+  "creationAt": "2026-09-13T03:56:52.000Z",
+  "updatedAt": "2026-09-13T03:56:52.000Z"
+} 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

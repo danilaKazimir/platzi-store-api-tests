@@ -1,0 +1,408 @@
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+  "image": "http://www.mendoza.info/"
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 501,
+  "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+  "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+  "image": "http://www.mendoza.info/",
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+}
+2026-09-25 04:07:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Future-proofed maximized initiative-7e37745934c14cca9560aac3ad5e6668",
+  "price": 326,
+  "description": "Phased systematic policy",
+  "categoryId": 501,
+  "images": [
+    "http://daniels.biz/"
+  ]
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 355,
+  "title": "Future-proofed maximized initiative-7e37745934c14cca9560aac3ad5e6668",
+  "slug": "future-proofed-maximized-initiative-7e37745934c14cca9560aac3ad5e6668",
+  "price": 326,
+  "description": "Phased systematic policy",
+  "category": {
+    "id": 501,
+    "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+    "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+    "image": "http://www.mendoza.info/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "http://daniels.biz/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ergonomic full-range budgetary management-308e681cc99342aaa93137f47f39c55c",
+  "price": 776,
+  "description": "Down-sized intermediate process improvement",
+  "categoryId": 501,
+  "images": [
+    "http://www.williams-townsend.com/"
+  ]
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 356,
+  "title": "Ergonomic full-range budgetary management-308e681cc99342aaa93137f47f39c55c",
+  "slug": "ergonomic-full-range-budgetary-management-308e681cc99342aaa93137f47f39c55c",
+  "price": 776,
+  "description": "Down-sized intermediate process improvement",
+  "category": {
+    "id": 501,
+    "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+    "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+    "image": "http://www.mendoza.info/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "http://www.williams-townsend.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optimized grid-enabled parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+  "price": 879,
+  "description": "Stand-alone real-time website",
+  "categoryId": 501,
+  "images": [
+    "https://www.lloyd-hayes.org/"
+  ]
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 359,
+  "title": "Optimized grid-enabled parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+  "slug": "optimized-grid-enabled-parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+  "price": 879,
+  "description": "Stand-alone real-time website",
+  "category": {
+    "id": 501,
+    "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+    "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+    "image": "http://www.mendoza.info/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "https://www.lloyd-hayes.org/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_c79c2254e2fc43e091b844a4f4b6b7d1",
+  "image": "https://www.gibbs-harris.com/"
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 503,
+  "name": "Books_c79c2254e2fc43e091b844a4f4b6b7d1",
+  "slug": "books-c79c2254e2fc43e091b844a4f4b6b7d1",
+  "image": "https://www.gibbs-harris.com/",
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded asynchronous open architecture-33e0fd954197474cb3ef3c99e989796e",
+  "price": 662,
+  "description": "Enhanced disintermediate emulation",
+  "categoryId": 503,
+  "images": [
+    "https://www.martin.com/"
+  ]
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 361,
+  "title": "Expanded asynchronous open architecture-33e0fd954197474cb3ef3c99e989796e",
+  "slug": "expanded-asynchronous-open-architecture-33e0fd954197474cb3ef3c99e989796e",
+  "price": 662,
+  "description": "Enhanced disintermediate emulation",
+  "category": {
+    "id": 503,
+    "name": "Books_c79c2254e2fc43e091b844a4f4b6b7d1",
+    "slug": "books-c79c2254e2fc43e091b844a4f4b6b7d1",
+    "image": "https://www.gibbs-harris.com/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "https://www.martin.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/355/related
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/355/related -> 200
+Body:
+[
+  {
+    "id": 356,
+    "title": "Ergonomic full-range budgetary management-308e681cc99342aaa93137f47f39c55c",
+    "slug": "ergonomic-full-range-budgetary-management-308e681cc99342aaa93137f47f39c55c",
+    "price": 776,
+    "description": "Down-sized intermediate process improvement",
+    "category": {
+      "id": 501,
+      "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+      "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+      "image": "http://www.mendoza.info/",
+      "creationAt": "2026-09-25T04:07:05.000Z",
+      "updatedAt": "2026-09-25T04:07:05.000Z"
+    },
+    "images": [
+      "http://www.williams-townsend.com/"
+    ],
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  {
+    "id": 359,
+    "title": "Optimized grid-enabled parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+    "slug": "optimized-grid-enabled-parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+    "price": 879,
+    "description": "Stand-alone real-time website",
+    "category": {
+      "id": 501,
+      "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+      "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+      "image": "http://www.mendoza.info/",
+      "creationAt": "2026-09-25T04:07:05.000Z",
+      "updatedAt": "2026-09-25T04:07:05.000Z"
+    },
+    "images": [
+      "https://www.lloyd-hayes.org/"
+    ],
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  }
+]
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/361
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/361 -> 200
+Body:
+{
+  "id": 361,
+  "title": "Expanded asynchronous open architecture-33e0fd954197474cb3ef3c99e989796e",
+  "slug": "expanded-asynchronous-open-architecture-33e0fd954197474cb3ef3c99e989796e",
+  "price": 662,
+  "description": "Enhanced disintermediate emulation",
+  "category": {
+    "id": 503,
+    "name": "Books_c79c2254e2fc43e091b844a4f4b6b7d1",
+    "slug": "books-c79c2254e2fc43e091b844a4f4b6b7d1",
+    "image": "https://www.gibbs-harris.com/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "https://www.martin.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/361
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/361 -> 200
+Body:
+true 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/359
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/359 -> 200
+Body:
+{
+  "id": 359,
+  "title": "Optimized grid-enabled parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+  "slug": "optimized-grid-enabled-parallelism-afe0e5b49b7b4f87ba4370413858ebbd",
+  "price": 879,
+  "description": "Stand-alone real-time website",
+  "category": {
+    "id": 501,
+    "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+    "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+    "image": "http://www.mendoza.info/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "https://www.lloyd-hayes.org/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/359
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/359 -> 200
+Body:
+true 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/356
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/356 -> 200
+Body:
+{
+  "id": 356,
+  "title": "Ergonomic full-range budgetary management-308e681cc99342aaa93137f47f39c55c",
+  "slug": "ergonomic-full-range-budgetary-management-308e681cc99342aaa93137f47f39c55c",
+  "price": 776,
+  "description": "Down-sized intermediate process improvement",
+  "category": {
+    "id": 501,
+    "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+    "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+    "image": "http://www.mendoza.info/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "http://www.williams-townsend.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/356
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/356 -> 200
+Body:
+true 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/355
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/355 -> 200
+Body:
+{
+  "id": 355,
+  "title": "Future-proofed maximized initiative-7e37745934c14cca9560aac3ad5e6668",
+  "slug": "future-proofed-maximized-initiative-7e37745934c14cca9560aac3ad5e6668",
+  "price": 326,
+  "description": "Phased systematic policy",
+  "category": {
+    "id": 501,
+    "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+    "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+    "image": "http://www.mendoza.info/",
+    "creationAt": "2026-09-25T04:07:05.000Z",
+    "updatedAt": "2026-09-25T04:07:05.000Z"
+  },
+  "images": [
+    "http://daniels.biz/"
+  ],
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/355
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/355 -> 200
+Body:
+true 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/503
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/503 -> 200
+Body:
+{
+  "id": 503,
+  "name": "Books_c79c2254e2fc43e091b844a4f4b6b7d1",
+  "slug": "books-c79c2254e2fc43e091b844a4f4b6b7d1",
+  "image": "https://www.gibbs-harris.com/",
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/503
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/503 -> 200
+Body:
+true 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/501
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/501 -> 200
+Body:
+{
+  "id": 501,
+  "name": "Clothing_ff5a64b65ccf44c9947727c79b19b5b8",
+  "slug": "clothing-ff5a64b65ccf44c9947727c79b19b5b8",
+  "image": "http://www.mendoza.info/",
+  "creationAt": "2026-09-25T04:07:05.000Z",
+  "updatedAt": "2026-09-25T04:07:05.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/501
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/501 -> 200
+Body:
+true

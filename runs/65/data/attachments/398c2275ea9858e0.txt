@@ -1,0 +1,80 @@
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Mary Torres",
+  "email": "amber35@example.net",
+  "password": "***",
+  "avatar": "https://castillo-smith.info/"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 12,
+  "email": "amber35@example.net",
+  "password": "***",
+  "name": "Mary Torres",
+  "role": "customer",
+  "avatar": "https://castillo-smith.info/",
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+}
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/12
+Body:
+{
+  "email": "jerrythompson@example.org"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "jerrythompson@example.org",
+  "password": "***",
+  "name": "Mary Torres",
+  "role": "customer",
+  "avatar": "https://castillo-smith.info/",
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "jerrythompson@example.org",
+  "password": "***",
+  "name": "Mary Torres",
+  "role": "customer",
+  "avatar": "https://castillo-smith.info/",
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+}
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+{
+  "id": 12,
+  "email": "jerrythompson@example.org",
+  "password": "***",
+  "name": "Mary Torres",
+  "role": "customer",
+  "avatar": "https://castillo-smith.info/",
+  "creationAt": "2026-09-16T04:00:34.000Z",
+  "updatedAt": "2026-09-16T04:00:34.000Z"
+} 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/12
+Body:
+<empty> 
+
+2026-09-16 04:00:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/12 -> 200
+Body:
+true

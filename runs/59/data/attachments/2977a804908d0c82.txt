@@ -1,0 +1,71 @@
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_426c145c7aea4231b57113e05802423b",
+  "image": "https://james.com/"
+} 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Automotive Accessories_426c145c7aea4231b57113e05802423b",
+  "slug": "automotive-accessories-426c145c7aea4231b57113e05802423b",
+  "image": "https://james.com/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+}
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/14
+Body:
+{
+  "name": "Electronics_31ae6bdf13294d85bef3e807909a791a",
+  "image": "http://www.hill.org/"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Electronics_31ae6bdf13294d85bef3e807909a791a",
+  "slug": "electronics-31ae6bdf13294d85bef3e807909a791a",
+  "image": "http://www.hill.org/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Electronics_31ae6bdf13294d85bef3e807909a791a",
+  "slug": "electronics-31ae6bdf13294d85bef3e807909a791a",
+  "image": "http://www.hill.org/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Electronics_31ae6bdf13294d85bef3e807909a791a",
+  "slug": "electronics-31ae6bdf13294d85bef3e807909a791a",
+  "image": "http://www.hill.org/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

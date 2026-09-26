@@ -1,0 +1,81 @@
+2026-09-10 03:48:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Christopher Johnson",
+  "email": "bakerbrian@example.com",
+  "password": "***",
+  "avatar": "http://weber.net/"
+} 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 23,
+  "email": "bakerbrian@example.com",
+  "password": "***",
+  "name": "Christopher Johnson",
+  "role": "customer",
+  "avatar": "http://weber.net/",
+  "creationAt": "2026-09-10T03:48:25.000Z",
+  "updatedAt": "2026-09-10T03:48:25.000Z"
+}
+2026-09-10 03:48:25 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/23
+Body:
+{
+  "name": "Melissa Smith",
+  "email": "sallymcdonald@example.com"
+} 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/23 -> 200
+Body:
+{
+  "id": 23,
+  "email": "sallymcdonald@example.com",
+  "password": "***",
+  "name": "Melissa Smith",
+  "role": "customer",
+  "avatar": "http://weber.net/",
+  "creationAt": "2026-09-10T03:48:25.000Z",
+  "updatedAt": "2026-09-10T03:48:25.000Z"
+} 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/23
+Body:
+<empty> 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/23 -> 200
+Body:
+{
+  "id": 23,
+  "email": "sallymcdonald@example.com",
+  "password": "***",
+  "name": "Melissa Smith",
+  "role": "customer",
+  "avatar": "http://weber.net/",
+  "creationAt": "2026-09-10T03:48:25.000Z",
+  "updatedAt": "2026-09-10T03:48:25.000Z"
+}
+2026-09-10 03:48:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/23
+Body:
+<empty> 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/23 -> 200
+Body:
+{
+  "id": 23,
+  "email": "sallymcdonald@example.com",
+  "password": "***",
+  "name": "Melissa Smith",
+  "role": "customer",
+  "avatar": "http://weber.net/",
+  "creationAt": "2026-09-10T03:48:25.000Z",
+  "updatedAt": "2026-09-10T03:48:25.000Z"
+} 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/23
+Body:
+<empty> 
+
+2026-09-10 03:48:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/23 -> 200
+Body:
+true

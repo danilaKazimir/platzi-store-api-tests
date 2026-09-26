@@ -1,0 +1,107 @@
+2026-09-07 03:40:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_e8f8863c45bb4b9c9f726c709a7992e7",
+  "image": "https://www.lewis.com/"
+} 
+
+2026-09-07 03:40:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Home & Kitchen_e8f8863c45bb4b9c9f726c709a7992e7",
+  "slug": "home-kitchen-e8f8863c45bb4b9c9f726c709a7992e7",
+  "image": "https://www.lewis.com/",
+  "creationAt": "2026-09-07T03:40:05.000Z",
+  "updatedAt": "2026-09-07T03:40:05.000Z"
+} 
+
+2026-09-07 03:40:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Grass-roots client-server structure-6761cd0ee96e4f7c9dd33d9bda822ed6",
+  "price": 752,
+  "description": "Automated even-keeled ability",
+  "categoryId": 20,
+  "images": [
+    "https://www.sanders.com/"
+  ]
+} 
+
+2026-09-07 03:40:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 83,
+  "title": "Grass-roots client-server structure-6761cd0ee96e4f7c9dd33d9bda822ed6",
+  "slug": "grass-roots-client-server-structure-6761cd0ee96e4f7c9dd33d9bda822ed6",
+  "price": 752,
+  "description": "Automated even-keeled ability",
+  "category": {
+    "id": 20,
+    "name": "Home & Kitchen_e8f8863c45bb4b9c9f726c709a7992e7",
+    "slug": "home-kitchen-e8f8863c45bb4b9c9f726c709a7992e7",
+    "image": "https://www.lewis.com/",
+    "creationAt": "2026-09-07T03:40:05.000Z",
+    "updatedAt": "2026-09-07T03:40:05.000Z"
+  },
+  "images": [
+    "https://www.sanders.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:05.000Z",
+  "updatedAt": "2026-09-07T03:40:05.000Z"
+}
+2026-09-07 03:40:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+true 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/83 -> 400
+Body:
+{
+  "path": "/api/v1/products/83",
+  "timestamp": "2026-09-07T03:40:06.074Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 83\n    }\n}"
+}
+2026-09-07 03:40:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/83 -> 400
+Body:
+{
+  "path": "/api/v1/products/83",
+  "timestamp": "2026-09-07T03:40:06.138Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 83\n    }\n}"
+} 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Home & Kitchen_e8f8863c45bb4b9c9f726c709a7992e7",
+  "slug": "home-kitchen-e8f8863c45bb4b9c9f726c709a7992e7",
+  "image": "https://www.lewis.com/",
+  "creationAt": "2026-09-07T03:40:05.000Z",
+  "updatedAt": "2026-09-07T03:40:05.000Z"
+} 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-07 03:40:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

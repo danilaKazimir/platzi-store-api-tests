@@ -1,0 +1,15 @@
+2026-09-02 03:38:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Allison Anderson",
+  "email": "hubbardashley@example.net",
+  "password": "***",
+  "avatar": "https://www.hamilton-nash.com/"
+} 
+
+2026-09-02 03:39:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}

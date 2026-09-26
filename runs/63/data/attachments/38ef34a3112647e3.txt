@@ -1,0 +1,79 @@
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_6256f861a5e3444f9efbefab9448dff6",
+  "image": "https://ramirez-burnett.com/"
+} 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Electronics_6256f861a5e3444f9efbefab9448dff6",
+  "slug": "electronics-6256f861a5e3444f9efbefab9448dff6",
+  "image": "https://ramirez-burnett.com/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:26.000Z"
+}
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal needs-based interface-4cd3abf81d0e4ac18f8a0c4b3d57e355",
+  "price": 705,
+  "description": "Team-oriented object-oriented hub",
+  "categoryId": 16,
+  "images": [
+    "https://www.phillips.info/"
+  ]
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 70,
+  "title": "Universal needs-based interface-4cd3abf81d0e4ac18f8a0c4b3d57e355",
+  "slug": "universal-needs-based-interface-4cd3abf81d0e4ac18f8a0c4b3d57e355",
+  "price": 705,
+  "description": "Team-oriented object-oriented hub",
+  "category": {
+    "id": 16,
+    "name": "Electronics_6256f861a5e3444f9efbefab9448dff6",
+    "slug": "electronics-6256f861a5e3444f9efbefab9448dff6",
+    "image": "https://ramirez-burnett.com/",
+    "creationAt": "2026-09-14T04:04:26.000Z",
+    "updatedAt": "2026-09-14T04:04:26.000Z"
+  },
+  "images": [
+    "https://www.phillips.info/"
+  ],
+  "creationAt": "2026-09-14T04:04:27.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+}
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Electronics_6256f861a5e3444f9efbefab9448dff6",
+  "slug": "electronics-6256f861a5e3444f9efbefab9448dff6",
+  "image": "https://ramirez-burnett.com/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:26.000Z"
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-09-14T04:04:27.279Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

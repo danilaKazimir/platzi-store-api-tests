@@ -1,0 +1,135 @@
+2026-09-11 03:45:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_7ef24ebc66b3464d8382351dd5dca3ee",
+  "image": "http://watson.com/"
+} 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 36,
+  "name": "Clothing_7ef24ebc66b3464d8382351dd5dca3ee",
+  "slug": "clothing-7ef24ebc66b3464d8382351dd5dca3ee",
+  "image": "http://watson.com/",
+  "creationAt": "2026-09-11T03:45:25.000Z",
+  "updatedAt": "2026-09-11T03:45:25.000Z"
+} 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Exclusive 4thgeneration complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "price": 248,
+  "description": "Synergized demand-driven data-warehouse",
+  "categoryId": 36,
+  "images": [
+    "http://www.rogers.com/"
+  ]
+} 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 67,
+  "title": "Exclusive 4thgeneration complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "slug": "exclusive-4thgeneration-complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "price": 248,
+  "description": "Synergized demand-driven data-warehouse",
+  "category": {
+    "id": 36,
+    "name": "Clothing_7ef24ebc66b3464d8382351dd5dca3ee",
+    "slug": "clothing-7ef24ebc66b3464d8382351dd5dca3ee",
+    "image": "http://watson.com/",
+    "creationAt": "2026-09-11T03:45:25.000Z",
+    "updatedAt": "2026-09-11T03:45:25.000Z"
+  },
+  "images": [
+    "http://www.rogers.com/"
+  ],
+  "creationAt": "2026-09-11T03:45:25.000Z",
+  "updatedAt": "2026-09-11T03:45:25.000Z"
+}
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+{
+  "id": 67,
+  "title": "Exclusive 4thgeneration complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "slug": "exclusive-4thgeneration-complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "price": 248,
+  "description": "Synergized demand-driven data-warehouse",
+  "category": {
+    "id": 36,
+    "name": "Clothing_7ef24ebc66b3464d8382351dd5dca3ee",
+    "slug": "clothing-7ef24ebc66b3464d8382351dd5dca3ee",
+    "image": "http://watson.com/",
+    "creationAt": "2026-09-11T03:45:25.000Z",
+    "updatedAt": "2026-09-11T03:45:25.000Z"
+  },
+  "images": [
+    "http://www.rogers.com/"
+  ],
+  "creationAt": "2026-09-11T03:45:25.000Z",
+  "updatedAt": "2026-09-11T03:45:25.000Z"
+}
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+{
+  "id": 67,
+  "title": "Exclusive 4thgeneration complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "slug": "exclusive-4thgeneration-complexity-988f9c7dd26f415d96436bde61b4e5d1",
+  "price": 248,
+  "description": "Synergized demand-driven data-warehouse",
+  "category": {
+    "id": 36,
+    "name": "Clothing_7ef24ebc66b3464d8382351dd5dca3ee",
+    "slug": "clothing-7ef24ebc66b3464d8382351dd5dca3ee",
+    "image": "http://watson.com/",
+    "creationAt": "2026-09-11T03:45:25.000Z",
+    "updatedAt": "2026-09-11T03:45:25.000Z"
+  },
+  "images": [
+    "http://www.rogers.com/"
+  ],
+  "creationAt": "2026-09-11T03:45:25.000Z",
+  "updatedAt": "2026-09-11T03:45:25.000Z"
+} 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+true 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+{
+  "id": 36,
+  "name": "Clothing_7ef24ebc66b3464d8382351dd5dca3ee",
+  "slug": "clothing-7ef24ebc66b3464d8382351dd5dca3ee",
+  "image": "http://watson.com/",
+  "creationAt": "2026-09-11T03:45:25.000Z",
+  "updatedAt": "2026-09-11T03:45:25.000Z"
+} 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-09-11 03:45:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+true

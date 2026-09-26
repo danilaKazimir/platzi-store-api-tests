@@ -1,0 +1,21 @@
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jennifer Smith",
+  "email": "chasecharles@example.net",
+  "password": "***",
+  "avatar": "http://www.price.com/"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 7,
+  "email": "chasecharles@example.net",
+  "password": "***",
+  "name": "Jennifer Smith",
+  "role": "customer",
+  "avatar": "http://www.price.com/",
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+}

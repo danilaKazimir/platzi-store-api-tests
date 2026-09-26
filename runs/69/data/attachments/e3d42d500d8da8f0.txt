@@ -1,0 +1,107 @@
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_45aab32c5cef40babe999b79d5085c93",
+  "image": "http://www.gay-villanueva.com/"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 42,
+  "name": "Books_45aab32c5cef40babe999b79d5085c93",
+  "slug": "books-45aab32c5cef40babe999b79d5085c93",
+  "image": "http://www.gay-villanueva.com/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-group 3rdgeneration Graphic Interface-5503cd6ded9743769dc1596ad6586b6e",
+  "price": 725,
+  "description": "Inverse zero administration structure",
+  "categoryId": 42,
+  "images": [
+    "https://eaton-webb.info/"
+  ]
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 197,
+  "title": "Cross-group 3rdgeneration Graphic Interface-5503cd6ded9743769dc1596ad6586b6e",
+  "slug": "cross-group-3rdgeneration-graphic-interface-5503cd6ded9743769dc1596ad6586b6e",
+  "price": 725,
+  "description": "Inverse zero administration structure",
+  "category": {
+    "id": 42,
+    "name": "Books_45aab32c5cef40babe999b79d5085c93",
+    "slug": "books-45aab32c5cef40babe999b79d5085c93",
+    "image": "http://www.gay-villanueva.com/",
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  "images": [
+    "https://eaton-webb.info/"
+  ],
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/197 -> 200
+Body:
+true 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/197 -> 400
+Body:
+{
+  "path": "/api/v1/products/197",
+  "timestamp": "2026-09-20T04:06:38.958Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 197\n    }\n}"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/197 -> 400
+Body:
+{
+  "path": "/api/v1/products/197",
+  "timestamp": "2026-09-20T04:06:38.969Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 197\n    }\n}"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+{
+  "id": 42,
+  "name": "Books_45aab32c5cef40babe999b79d5085c93",
+  "slug": "books-45aab32c5cef40babe999b79d5085c93",
+  "image": "http://www.gay-villanueva.com/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+true

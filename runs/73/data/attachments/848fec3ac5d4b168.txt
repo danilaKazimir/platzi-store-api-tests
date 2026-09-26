@@ -1,0 +1,135 @@
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_18065479b8cf4288b8ee2420a0d42e1d",
+  "image": "http://www.davis.com/"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 176,
+  "name": "Automotive Accessories_18065479b8cf4288b8ee2420a0d42e1d",
+  "slug": "automotive-accessories-18065479b8cf4288b8ee2420a0d42e1d",
+  "image": "http://www.davis.com/",
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-engineered secondary structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "price": 484,
+  "description": "Team-oriented disintermediate instruction set",
+  "categoryId": 176,
+  "images": [
+    "http://newman.org/"
+  ]
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 407,
+  "title": "Re-engineered secondary structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "slug": "re-engineered-secondary-structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "price": 484,
+  "description": "Team-oriented disintermediate instruction set",
+  "category": {
+    "id": 176,
+    "name": "Automotive Accessories_18065479b8cf4288b8ee2420a0d42e1d",
+    "slug": "automotive-accessories-18065479b8cf4288b8ee2420a0d42e1d",
+    "image": "http://www.davis.com/",
+    "creationAt": "2026-09-24T03:52:05.000Z",
+    "updatedAt": "2026-09-24T03:52:05.000Z"
+  },
+  "images": [
+    "http://newman.org/"
+  ],
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+}
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/407
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/407 -> 200
+Body:
+{
+  "id": 407,
+  "title": "Re-engineered secondary structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "slug": "re-engineered-secondary-structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "price": 484,
+  "description": "Team-oriented disintermediate instruction set",
+  "category": {
+    "id": 176,
+    "name": "Automotive Accessories_18065479b8cf4288b8ee2420a0d42e1d",
+    "slug": "automotive-accessories-18065479b8cf4288b8ee2420a0d42e1d",
+    "image": "http://www.davis.com/",
+    "creationAt": "2026-09-24T03:52:05.000Z",
+    "updatedAt": "2026-09-24T03:52:05.000Z"
+  },
+  "images": [
+    "http://newman.org/"
+  ],
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+}
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/407
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/407 -> 200
+Body:
+{
+  "id": 407,
+  "title": "Re-engineered secondary structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "slug": "re-engineered-secondary-structure-3d7ff3c9b4624079bca3010ea1f2dacf",
+  "price": 484,
+  "description": "Team-oriented disintermediate instruction set",
+  "category": {
+    "id": 176,
+    "name": "Automotive Accessories_18065479b8cf4288b8ee2420a0d42e1d",
+    "slug": "automotive-accessories-18065479b8cf4288b8ee2420a0d42e1d",
+    "image": "http://www.davis.com/",
+    "creationAt": "2026-09-24T03:52:05.000Z",
+    "updatedAt": "2026-09-24T03:52:05.000Z"
+  },
+  "images": [
+    "http://newman.org/"
+  ],
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/407
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/407 -> 200
+Body:
+true 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/176
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/176 -> 200
+Body:
+{
+  "id": 176,
+  "name": "Automotive Accessories_18065479b8cf4288b8ee2420a0d42e1d",
+  "slug": "automotive-accessories-18065479b8cf4288b8ee2420a0d42e1d",
+  "image": "http://www.davis.com/",
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/176
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/176 -> 200
+Body:
+true

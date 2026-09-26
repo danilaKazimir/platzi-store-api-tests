@@ -1,0 +1,135 @@
+2026-09-21 04:03:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_5fb4e4e1d0034a0f92e130523538228c",
+  "image": "http://miller.com/"
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 42,
+  "name": "Clothing_5fb4e4e1d0034a0f92e130523538228c",
+  "slug": "clothing-5fb4e4e1d0034a0f92e130523538228c",
+  "image": "http://miller.com/",
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly tertiary capacity-6363025affe74889ab2e327d2011280e",
+  "price": 650,
+  "description": "Expanded foreground array",
+  "categoryId": 42,
+  "images": [
+    "http://hall-walter.org/"
+  ]
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 225,
+  "title": "User-friendly tertiary capacity-6363025affe74889ab2e327d2011280e",
+  "slug": "user-friendly-tertiary-capacity-6363025affe74889ab2e327d2011280e",
+  "price": 650,
+  "description": "Expanded foreground array",
+  "category": {
+    "id": 42,
+    "name": "Clothing_5fb4e4e1d0034a0f92e130523538228c",
+    "slug": "clothing-5fb4e4e1d0034a0f92e130523538228c",
+    "image": "http://miller.com/",
+    "creationAt": "2026-09-21T04:03:55.000Z",
+    "updatedAt": "2026-09-21T04:03:55.000Z"
+  },
+  "images": [
+    "http://hall-walter.org/"
+  ],
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+}
+2026-09-21 04:03:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/user-friendly-tertiary-capacity-6363025affe74889ab2e327d2011280e
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/user-friendly-tertiary-capacity-6363025affe74889ab2e327d2011280e -> 200
+Body:
+{
+  "id": 225,
+  "title": "User-friendly tertiary capacity-6363025affe74889ab2e327d2011280e",
+  "slug": "user-friendly-tertiary-capacity-6363025affe74889ab2e327d2011280e",
+  "price": 650,
+  "description": "Expanded foreground array",
+  "category": {
+    "id": 42,
+    "name": "Clothing_5fb4e4e1d0034a0f92e130523538228c",
+    "slug": "clothing-5fb4e4e1d0034a0f92e130523538228c",
+    "image": "http://miller.com/",
+    "creationAt": "2026-09-21T04:03:55.000Z",
+    "updatedAt": "2026-09-21T04:03:55.000Z"
+  },
+  "images": [
+    "http://hall-walter.org/"
+  ],
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+}
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/225
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/225 -> 200
+Body:
+{
+  "id": 225,
+  "title": "User-friendly tertiary capacity-6363025affe74889ab2e327d2011280e",
+  "slug": "user-friendly-tertiary-capacity-6363025affe74889ab2e327d2011280e",
+  "price": 650,
+  "description": "Expanded foreground array",
+  "category": {
+    "id": 42,
+    "name": "Clothing_5fb4e4e1d0034a0f92e130523538228c",
+    "slug": "clothing-5fb4e4e1d0034a0f92e130523538228c",
+    "image": "http://miller.com/",
+    "creationAt": "2026-09-21T04:03:55.000Z",
+    "updatedAt": "2026-09-21T04:03:55.000Z"
+  },
+  "images": [
+    "http://hall-walter.org/"
+  ],
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/225
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/225 -> 200
+Body:
+true 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+{
+  "id": 42,
+  "name": "Clothing_5fb4e4e1d0034a0f92e130523538228c",
+  "slug": "clothing-5fb4e4e1d0034a0f92e130523538228c",
+  "image": "http://miller.com/",
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+true

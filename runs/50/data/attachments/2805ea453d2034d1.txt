@@ -1,0 +1,12 @@
+2026-09-01 04:16:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/___invalid___
+Body:
+<empty> 
+
+2026-09-01 04:16:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/___invalid___ -> 400
+Body:
+{
+  "path": "/api/v1/products/slug/___invalid___",
+  "timestamp": "2026-09-01T04:16:06.702Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"slug\": \"___invalid___\"\n    }\n}"
+}

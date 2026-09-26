@@ -1,0 +1,135 @@
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_2bae6d7ce8ca4d17b6e00eb678c8df4e",
+  "image": "https://www.joseph.com/"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 276,
+  "name": "Automotive Accessories_2bae6d7ce8ca4d17b6e00eb678c8df4e",
+  "slug": "automotive-accessories-2bae6d7ce8ca4d17b6e00eb678c8df4e",
+  "image": "https://www.joseph.com/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable explicit ability-b3e8524ae1884bf3bfb9550740739259",
+  "price": 492,
+  "description": "Front-line uniform software",
+  "categoryId": 276,
+  "images": [
+    "https://www.shaw.org/"
+  ]
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 241,
+  "title": "Upgradable explicit ability-b3e8524ae1884bf3bfb9550740739259",
+  "slug": "upgradable-explicit-ability-b3e8524ae1884bf3bfb9550740739259",
+  "price": 492,
+  "description": "Front-line uniform software",
+  "category": {
+    "id": 276,
+    "name": "Automotive Accessories_2bae6d7ce8ca4d17b6e00eb678c8df4e",
+    "slug": "automotive-accessories-2bae6d7ce8ca4d17b6e00eb678c8df4e",
+    "image": "https://www.joseph.com/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "https://www.shaw.org/"
+  ],
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/241 -> 200
+Body:
+{
+  "id": 241,
+  "title": "Upgradable explicit ability-b3e8524ae1884bf3bfb9550740739259",
+  "slug": "upgradable-explicit-ability-b3e8524ae1884bf3bfb9550740739259",
+  "price": 492,
+  "description": "Front-line uniform software",
+  "category": {
+    "id": 276,
+    "name": "Automotive Accessories_2bae6d7ce8ca4d17b6e00eb678c8df4e",
+    "slug": "automotive-accessories-2bae6d7ce8ca4d17b6e00eb678c8df4e",
+    "image": "https://www.joseph.com/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "https://www.shaw.org/"
+  ],
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/241 -> 200
+Body:
+{
+  "id": 241,
+  "title": "Upgradable explicit ability-b3e8524ae1884bf3bfb9550740739259",
+  "slug": "upgradable-explicit-ability-b3e8524ae1884bf3bfb9550740739259",
+  "price": 492,
+  "description": "Front-line uniform software",
+  "category": {
+    "id": 276,
+    "name": "Automotive Accessories_2bae6d7ce8ca4d17b6e00eb678c8df4e",
+    "slug": "automotive-accessories-2bae6d7ce8ca4d17b6e00eb678c8df4e",
+    "image": "https://www.joseph.com/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "https://www.shaw.org/"
+  ],
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/241 -> 200
+Body:
+true 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/276
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/276 -> 200
+Body:
+{
+  "id": 276,
+  "name": "Automotive Accessories_2bae6d7ce8ca4d17b6e00eb678c8df4e",
+  "slug": "automotive-accessories-2bae6d7ce8ca4d17b6e00eb678c8df4e",
+  "image": "https://www.joseph.com/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/276
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/276 -> 200
+Body:
+true

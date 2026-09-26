@@ -1,0 +1,53 @@
+2026-09-24 03:52:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_c632b75259be4a3ca3caa415abb9228a",
+  "image": "https://lindsey-obrien.com/"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 170,
+  "name": "Food & Beverages_c632b75259be4a3ca3caa415abb9228a",
+  "slug": "food-beverages-c632b75259be4a3ca3caa415abb9228a",
+  "image": "https://lindsey-obrien.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+}
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/food-beverages-c632b75259be4a3ca3caa415abb9228a
+Body:
+<empty> 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/food-beverages-c632b75259be4a3ca3caa415abb9228a -> 200
+Body:
+{
+  "id": 170,
+  "name": "Food & Beverages_c632b75259be4a3ca3caa415abb9228a",
+  "slug": "food-beverages-c632b75259be4a3ca3caa415abb9228a",
+  "image": "https://lindsey-obrien.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+}
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/170
+Body:
+<empty> 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/170 -> 200
+Body:
+{
+  "id": 170,
+  "name": "Food & Beverages_c632b75259be4a3ca3caa415abb9228a",
+  "slug": "food-beverages-c632b75259be4a3ca3caa415abb9228a",
+  "image": "https://lindsey-obrien.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/170
+Body:
+<empty> 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/170 -> 200
+Body:
+true

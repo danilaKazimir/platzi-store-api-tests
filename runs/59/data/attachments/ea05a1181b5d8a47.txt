@@ -1,0 +1,135 @@
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_688a240145dc4950a3dda5e72d1612ed",
+  "image": "https://www.odom.com/"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Books_688a240145dc4950a3dda5e72d1612ed",
+  "slug": "books-688a240145dc4950a3dda5e72d1612ed",
+  "image": "https://www.odom.com/",
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory optimal capacity-566f2d4dd59244fb92637c0c5990c518",
+  "price": 999,
+  "description": "Vision-oriented zero-defect archive",
+  "categoryId": 18,
+  "images": [
+    "http://barnes-armstrong.com/"
+  ]
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 66,
+  "title": "Mandatory optimal capacity-566f2d4dd59244fb92637c0c5990c518",
+  "slug": "mandatory-optimal-capacity-566f2d4dd59244fb92637c0c5990c518",
+  "price": 999,
+  "description": "Vision-oriented zero-defect archive",
+  "category": {
+    "id": 18,
+    "name": "Books_688a240145dc4950a3dda5e72d1612ed",
+    "slug": "books-688a240145dc4950a3dda5e72d1612ed",
+    "image": "https://www.odom.com/",
+    "creationAt": "2026-09-10T03:48:23.000Z",
+    "updatedAt": "2026-09-10T03:48:23.000Z"
+  },
+  "images": [
+    "http://barnes-armstrong.com/"
+  ],
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/mandatory-optimal-capacity-566f2d4dd59244fb92637c0c5990c518
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/mandatory-optimal-capacity-566f2d4dd59244fb92637c0c5990c518 -> 200
+Body:
+{
+  "id": 66,
+  "title": "Mandatory optimal capacity-566f2d4dd59244fb92637c0c5990c518",
+  "slug": "mandatory-optimal-capacity-566f2d4dd59244fb92637c0c5990c518",
+  "price": 999,
+  "description": "Vision-oriented zero-defect archive",
+  "category": {
+    "id": 18,
+    "name": "Books_688a240145dc4950a3dda5e72d1612ed",
+    "slug": "books-688a240145dc4950a3dda5e72d1612ed",
+    "image": "https://www.odom.com/",
+    "creationAt": "2026-09-10T03:48:23.000Z",
+    "updatedAt": "2026-09-10T03:48:23.000Z"
+  },
+  "images": [
+    "http://barnes-armstrong.com/"
+  ],
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/66
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/66 -> 200
+Body:
+{
+  "id": 66,
+  "title": "Mandatory optimal capacity-566f2d4dd59244fb92637c0c5990c518",
+  "slug": "mandatory-optimal-capacity-566f2d4dd59244fb92637c0c5990c518",
+  "price": 999,
+  "description": "Vision-oriented zero-defect archive",
+  "category": {
+    "id": 18,
+    "name": "Books_688a240145dc4950a3dda5e72d1612ed",
+    "slug": "books-688a240145dc4950a3dda5e72d1612ed",
+    "image": "https://www.odom.com/",
+    "creationAt": "2026-09-10T03:48:23.000Z",
+    "updatedAt": "2026-09-10T03:48:23.000Z"
+  },
+  "images": [
+    "http://barnes-armstrong.com/"
+  ],
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/66
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/66 -> 200
+Body:
+true 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Books_688a240145dc4950a3dda5e72d1612ed",
+  "slug": "books-688a240145dc4950a3dda5e72d1612ed",
+  "image": "https://www.odom.com/",
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

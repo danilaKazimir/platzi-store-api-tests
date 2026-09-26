@@ -1,0 +1,53 @@
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_2c2cf735b79e4eb582664fe3162bb31c",
+  "image": "https://www.rosario.com/"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Home & Kitchen_2c2cf735b79e4eb582664fe3162bb31c",
+  "slug": "home-kitchen-2c2cf735b79e4eb582664fe3162bb31c",
+  "image": "https://www.rosario.com/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+}
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-2c2cf735b79e4eb582664fe3162bb31c
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-2c2cf735b79e4eb582664fe3162bb31c -> 200
+Body:
+{
+  "id": 31,
+  "name": "Home & Kitchen_2c2cf735b79e4eb582664fe3162bb31c",
+  "slug": "home-kitchen-2c2cf735b79e4eb582664fe3162bb31c",
+  "image": "https://www.rosario.com/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+}
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Home & Kitchen_2c2cf735b79e4eb582664fe3162bb31c",
+  "slug": "home-kitchen-2c2cf735b79e4eb582664fe3162bb31c",
+  "image": "https://www.rosario.com/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

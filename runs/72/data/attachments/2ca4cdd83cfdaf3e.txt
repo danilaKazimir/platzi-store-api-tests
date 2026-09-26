@@ -1,0 +1,408 @@
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+  "image": "https://www.morgan-watson.com/"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 50,
+  "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+  "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+  "image": "https://www.morgan-watson.com/",
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+}
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Realigned actuating service-desk-d1ef065b98cf41069204457e5bbc83b4",
+  "price": 414,
+  "description": "Mandatory eco-centric product",
+  "categoryId": 50,
+  "images": [
+    "https://arnold.com/"
+  ]
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 245,
+  "title": "Realigned actuating service-desk-d1ef065b98cf41069204457e5bbc83b4",
+  "slug": "realigned-actuating-service-desk-d1ef065b98cf41069204457e5bbc83b4",
+  "price": 414,
+  "description": "Mandatory eco-centric product",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+    "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+    "image": "https://www.morgan-watson.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "https://arnold.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Focused disintermediate frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+  "price": 950,
+  "description": "Self-enabling tangible groupware",
+  "categoryId": 50,
+  "images": [
+    "https://www.taylor-krause.com/"
+  ]
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 246,
+  "title": "Focused disintermediate frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+  "slug": "focused-disintermediate-frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+  "price": 950,
+  "description": "Self-enabling tangible groupware",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+    "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+    "image": "https://www.morgan-watson.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "https://www.taylor-krause.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Down-sized mobile extranet-39a7508d958f4267acf072582a072a4a",
+  "price": 156,
+  "description": "Operative well-modulated architecture",
+  "categoryId": 50,
+  "images": [
+    "http://perez-cruz.com/"
+  ]
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 247,
+  "title": "Down-sized mobile extranet-39a7508d958f4267acf072582a072a4a",
+  "slug": "down-sized-mobile-extranet-39a7508d958f4267acf072582a072a4a",
+  "price": 156,
+  "description": "Operative well-modulated architecture",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+    "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+    "image": "https://www.morgan-watson.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "http://perez-cruz.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_2742d367bca542ca886a53388200466c",
+  "image": "http://rodgers.com/"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 52,
+  "name": "Pet Supplies_2742d367bca542ca886a53388200466c",
+  "slug": "pet-supplies-2742d367bca542ca886a53388200466c",
+  "image": "http://rodgers.com/",
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fully-configurable national capacity-29f2c8786a444bf288913e18b34a8ebb",
+  "price": 83,
+  "description": "Secured client-server projection",
+  "categoryId": 52,
+  "images": [
+    "https://www.bennett.com/"
+  ]
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 249,
+  "title": "Fully-configurable national capacity-29f2c8786a444bf288913e18b34a8ebb",
+  "slug": "fully-configurable-national-capacity-29f2c8786a444bf288913e18b34a8ebb",
+  "price": 83,
+  "description": "Secured client-server projection",
+  "category": {
+    "id": 52,
+    "name": "Pet Supplies_2742d367bca542ca886a53388200466c",
+    "slug": "pet-supplies-2742d367bca542ca886a53388200466c",
+    "image": "http://rodgers.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "https://www.bennett.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/realigned-actuating-service-desk-d1ef065b98cf41069204457e5bbc83b4/related
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/realigned-actuating-service-desk-d1ef065b98cf41069204457e5bbc83b4/related -> 200
+Body:
+[
+  {
+    "id": 246,
+    "title": "Focused disintermediate frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+    "slug": "focused-disintermediate-frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+    "price": 950,
+    "description": "Self-enabling tangible groupware",
+    "category": {
+      "id": 50,
+      "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+      "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+      "image": "https://www.morgan-watson.com/",
+      "creationAt": "2026-09-23T03:58:04.000Z",
+      "updatedAt": "2026-09-23T03:58:04.000Z"
+    },
+    "images": [
+      "https://www.taylor-krause.com/"
+    ],
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  {
+    "id": 247,
+    "title": "Down-sized mobile extranet-39a7508d958f4267acf072582a072a4a",
+    "slug": "down-sized-mobile-extranet-39a7508d958f4267acf072582a072a4a",
+    "price": 156,
+    "description": "Operative well-modulated architecture",
+    "category": {
+      "id": 50,
+      "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+      "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+      "image": "https://www.morgan-watson.com/",
+      "creationAt": "2026-09-23T03:58:04.000Z",
+      "updatedAt": "2026-09-23T03:58:04.000Z"
+    },
+    "images": [
+      "http://perez-cruz.com/"
+    ],
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  }
+]
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/249
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/249 -> 200
+Body:
+{
+  "id": 249,
+  "title": "Fully-configurable national capacity-29f2c8786a444bf288913e18b34a8ebb",
+  "slug": "fully-configurable-national-capacity-29f2c8786a444bf288913e18b34a8ebb",
+  "price": 83,
+  "description": "Secured client-server projection",
+  "category": {
+    "id": 52,
+    "name": "Pet Supplies_2742d367bca542ca886a53388200466c",
+    "slug": "pet-supplies-2742d367bca542ca886a53388200466c",
+    "image": "http://rodgers.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "https://www.bennett.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/249
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/249 -> 200
+Body:
+true 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/247
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/247 -> 200
+Body:
+{
+  "id": 247,
+  "title": "Down-sized mobile extranet-39a7508d958f4267acf072582a072a4a",
+  "slug": "down-sized-mobile-extranet-39a7508d958f4267acf072582a072a4a",
+  "price": 156,
+  "description": "Operative well-modulated architecture",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+    "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+    "image": "https://www.morgan-watson.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "http://perez-cruz.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/247
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/247 -> 200
+Body:
+true 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+{
+  "id": 246,
+  "title": "Focused disintermediate frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+  "slug": "focused-disintermediate-frame-fb1cb0e42c414ad28e2abb9f6d8700a3",
+  "price": 950,
+  "description": "Self-enabling tangible groupware",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+    "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+    "image": "https://www.morgan-watson.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "https://www.taylor-krause.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+true 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/245
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/245 -> 200
+Body:
+{
+  "id": 245,
+  "title": "Realigned actuating service-desk-d1ef065b98cf41069204457e5bbc83b4",
+  "slug": "realigned-actuating-service-desk-d1ef065b98cf41069204457e5bbc83b4",
+  "price": 414,
+  "description": "Mandatory eco-centric product",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+    "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+    "image": "https://www.morgan-watson.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "https://arnold.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/245
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/245 -> 200
+Body:
+true 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/52
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/52 -> 200
+Body:
+{
+  "id": 52,
+  "name": "Pet Supplies_2742d367bca542ca886a53388200466c",
+  "slug": "pet-supplies-2742d367bca542ca886a53388200466c",
+  "image": "http://rodgers.com/",
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/52
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/52 -> 200
+Body:
+true 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/50
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/50 -> 200
+Body:
+{
+  "id": 50,
+  "name": "Personal Care_d96c4504ab084c758bf498167b2e59fd",
+  "slug": "personal-care-d96c4504ab084c758bf498167b2e59fd",
+  "image": "https://www.morgan-watson.com/",
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/50
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/50 -> 200
+Body:
+true

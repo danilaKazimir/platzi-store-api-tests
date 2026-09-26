@@ -1,0 +1,53 @@
+2026-09-17 04:07:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_7919d2f7394a4443a9436487761bd5ea",
+  "image": "https://dyer-fuentes.biz/"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 8,
+  "name": "Automotive Accessories_7919d2f7394a4443a9436487761bd5ea",
+  "slug": "automotive-accessories-7919d2f7394a4443a9436487761bd5ea",
+  "image": "https://dyer-fuentes.biz/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-7919d2f7394a4443a9436487761bd5ea
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-7919d2f7394a4443a9436487761bd5ea -> 200
+Body:
+{
+  "id": 8,
+  "name": "Automotive Accessories_7919d2f7394a4443a9436487761bd5ea",
+  "slug": "automotive-accessories-7919d2f7394a4443a9436487761bd5ea",
+  "image": "https://dyer-fuentes.biz/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+{
+  "id": 8,
+  "name": "Automotive Accessories_7919d2f7394a4443a9436487761bd5ea",
+  "slug": "automotive-accessories-7919d2f7394a4443a9436487761bd5ea",
+  "image": "https://dyer-fuentes.biz/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_446140cb4c724869a34d3311cf35c04f",
+  "image": "https://gonzales.net/"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 177,
+  "name": "Books_446140cb4c724869a34d3311cf35c04f",
+  "slug": "books-446140cb4c724869a34d3311cf35c04f",
+  "image": "https://gonzales.net/",
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable bifurcated analyzer-c4fd013f9d9845cdb5a2f1ffb837289e",
+  "price": 419,
+  "description": "Public-key uniform solution",
+  "categoryId": 177,
+  "images": [
+    "https://stewart-santos.biz/"
+  ]
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 409,
+  "title": "Upgradable bifurcated analyzer-c4fd013f9d9845cdb5a2f1ffb837289e",
+  "slug": "upgradable-bifurcated-analyzer-c4fd013f9d9845cdb5a2f1ffb837289e",
+  "price": 419,
+  "description": "Public-key uniform solution",
+  "category": {
+    "id": 177,
+    "name": "Books_446140cb4c724869a34d3311cf35c04f",
+    "slug": "books-446140cb4c724869a34d3311cf35c04f",
+    "image": "https://gonzales.net/",
+    "creationAt": "2026-09-24T03:52:05.000Z",
+    "updatedAt": "2026-09-24T03:52:05.000Z"
+  },
+  "images": [
+    "https://stewart-santos.biz/"
+  ],
+  "creationAt": "2026-09-24T03:52:06.000Z",
+  "updatedAt": "2026-09-24T03:52:06.000Z"
+}
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/409
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/409 -> 200
+Body:
+true 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/409
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/409 -> 400
+Body:
+{
+  "path": "/api/v1/products/409",
+  "timestamp": "2026-09-24T03:52:06.244Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 409\n    }\n}"
+}
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/409
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/409 -> 400
+Body:
+{
+  "path": "/api/v1/products/409",
+  "timestamp": "2026-09-24T03:52:06.284Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 409\n    }\n}"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/177
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/177 -> 200
+Body:
+{
+  "id": 177,
+  "name": "Books_446140cb4c724869a34d3311cf35c04f",
+  "slug": "books-446140cb4c724869a34d3311cf35c04f",
+  "image": "https://gonzales.net/",
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/177
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/177 -> 200
+Body:
+true

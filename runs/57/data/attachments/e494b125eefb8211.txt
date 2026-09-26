@@ -1,0 +1,53 @@
+2026-09-08 03:44:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_10a5baec22f748d98deda4d9a00207ca",
+  "image": "http://villa.biz/"
+} 
+
+2026-09-08 03:44:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Clothing_10a5baec22f748d98deda4d9a00207ca",
+  "slug": "clothing-10a5baec22f748d98deda4d9a00207ca",
+  "image": "http://villa.biz/",
+  "creationAt": "2026-09-08T03:44:55.000Z",
+  "updatedAt": "2026-09-08T03:44:55.000Z"
+}
+2026-09-08 03:44:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-08 03:44:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Clothing_10a5baec22f748d98deda4d9a00207ca",
+  "slug": "clothing-10a5baec22f748d98deda4d9a00207ca",
+  "image": "http://villa.biz/",
+  "creationAt": "2026-09-08T03:44:55.000Z",
+  "updatedAt": "2026-09-08T03:44:55.000Z"
+}
+2026-09-08 03:44:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-08 03:44:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Clothing_10a5baec22f748d98deda4d9a00207ca",
+  "slug": "clothing-10a5baec22f748d98deda4d9a00207ca",
+  "image": "http://villa.biz/",
+  "creationAt": "2026-09-08T03:44:55.000Z",
+  "updatedAt": "2026-09-08T03:44:55.000Z"
+} 
+
+2026-09-08 03:44:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-08 03:44:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

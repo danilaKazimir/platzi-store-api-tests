@@ -1,0 +1,80 @@
+2026-09-11 03:45:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "George Smith",
+  "email": "isaacarnold@example.org",
+  "password": "***",
+  "avatar": "https://silva.com/"
+} 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 15,
+  "email": "isaacarnold@example.org",
+  "password": "***",
+  "name": "George Smith",
+  "role": "customer",
+  "avatar": "https://silva.com/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:27.000Z"
+}
+2026-09-11 03:45:28 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/15
+Body:
+{
+  "name": "Nicole Fields"
+} 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+{
+  "id": 15,
+  "email": "isaacarnold@example.org",
+  "password": "***",
+  "name": "Nicole Fields",
+  "role": "customer",
+  "avatar": "https://silva.com/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:28.000Z"
+} 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/15
+Body:
+<empty> 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+{
+  "id": 15,
+  "email": "isaacarnold@example.org",
+  "password": "***",
+  "name": "Nicole Fields",
+  "role": "customer",
+  "avatar": "https://silva.com/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:28.000Z"
+}
+2026-09-11 03:45:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/15
+Body:
+<empty> 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+{
+  "id": 15,
+  "email": "isaacarnold@example.org",
+  "password": "***",
+  "name": "Nicole Fields",
+  "role": "customer",
+  "avatar": "https://silva.com/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:28.000Z"
+} 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/15
+Body:
+<empty> 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+true

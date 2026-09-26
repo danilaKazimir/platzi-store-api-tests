@@ -1,0 +1,135 @@
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_e29c58a126154e62ac580b43612293c5",
+  "image": "https://www.ortega.com/"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 47,
+  "name": "Electronics_e29c58a126154e62ac580b43612293c5",
+  "slug": "electronics-e29c58a126154e62ac580b43612293c5",
+  "image": "https://www.ortega.com/",
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal directional initiative-418c05ee5c054fe785020f51f1f9308f",
+  "price": 648,
+  "description": "User-friendly actuating hardware",
+  "categoryId": 47,
+  "images": [
+    "http://ward.com/"
+  ]
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 242,
+  "title": "Universal directional initiative-418c05ee5c054fe785020f51f1f9308f",
+  "slug": "universal-directional-initiative-418c05ee5c054fe785020f51f1f9308f",
+  "price": 648,
+  "description": "User-friendly actuating hardware",
+  "category": {
+    "id": 47,
+    "name": "Electronics_e29c58a126154e62ac580b43612293c5",
+    "slug": "electronics-e29c58a126154e62ac580b43612293c5",
+    "image": "https://www.ortega.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "http://ward.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+}
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/universal-directional-initiative-418c05ee5c054fe785020f51f1f9308f
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/universal-directional-initiative-418c05ee5c054fe785020f51f1f9308f -> 200
+Body:
+{
+  "id": 242,
+  "title": "Universal directional initiative-418c05ee5c054fe785020f51f1f9308f",
+  "slug": "universal-directional-initiative-418c05ee5c054fe785020f51f1f9308f",
+  "price": 648,
+  "description": "User-friendly actuating hardware",
+  "category": {
+    "id": 47,
+    "name": "Electronics_e29c58a126154e62ac580b43612293c5",
+    "slug": "electronics-e29c58a126154e62ac580b43612293c5",
+    "image": "https://www.ortega.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "http://ward.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+}
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+{
+  "id": 242,
+  "title": "Universal directional initiative-418c05ee5c054fe785020f51f1f9308f",
+  "slug": "universal-directional-initiative-418c05ee5c054fe785020f51f1f9308f",
+  "price": 648,
+  "description": "User-friendly actuating hardware",
+  "category": {
+    "id": 47,
+    "name": "Electronics_e29c58a126154e62ac580b43612293c5",
+    "slug": "electronics-e29c58a126154e62ac580b43612293c5",
+    "image": "https://www.ortega.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "http://ward.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+true 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+{
+  "id": 47,
+  "name": "Electronics_e29c58a126154e62ac580b43612293c5",
+  "slug": "electronics-e29c58a126154e62ac580b43612293c5",
+  "image": "https://www.ortega.com/",
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+true

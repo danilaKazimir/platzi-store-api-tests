@@ -1,0 +1,1226 @@
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_b8a75a54dcf24a49be3012f1b3d265a2",
+  "image": "https://gill.com/"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Food & Beverages_b8a75a54dcf24a49be3012f1b3d265a2",
+  "slug": "food-beverages-b8a75a54dcf24a49be3012f1b3d265a2",
+  "image": "https://gill.com/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Polarized multi-tasking knowledge user-da2b01d827df4f048a2a79e03f0d9e87",
+  "price": 406,
+  "description": "Ergonomic content-based alliance",
+  "categoryId": 40,
+  "images": [
+    "http://murphy-mcdonald.com/"
+  ]
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 195,
+  "title": "Polarized multi-tasking knowledge user-da2b01d827df4f048a2a79e03f0d9e87",
+  "slug": "polarized-multi-tasking-knowledge-user-da2b01d827df4f048a2a79e03f0d9e87",
+  "price": 406,
+  "description": "Ergonomic content-based alliance",
+  "category": {
+    "id": 40,
+    "name": "Food & Beverages_b8a75a54dcf24a49be3012f1b3d265a2",
+    "slug": "food-beverages-b8a75a54dcf24a49be3012f1b3d265a2",
+    "image": "https://gill.com/",
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  "images": [
+    "http://murphy-mcdonald.com/"
+  ],
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 127,
+    "title": "i23rt1",
+    "slug": "i23rt1",
+    "price": 1234567,
+    "description": "wqertyeeewe",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmdHnCK5eT2fMtBwjvtQWxJW-PbWZAlsot3TpedUCaA&s=10",
+      "https://api.escuelajs.co/api/v1/files/3cae.jpg",
+      "https://api.escuelajs.co/api/v1/files/26f4.jpg"
+    ],
+    "creationAt": "2026-09-19T12:50:41.000Z",
+    "updatedAt": "2026-09-19T17:28:45.000Z"
+  },
+  {
+    "id": 135,
+    "title": "title-98ddbcb4-0f98-4588-a7e8-deff74d79267",
+    "slug": "title-98ddbcb4-0f98-4588-a7e8-deff74d79267",
+    "price": 351,
+    "description": "desc-a130f856-c762-4c21-bae8-1a42ff38196e",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=99282"
+    ],
+    "creationAt": "2026-09-19T13:27:02.000Z",
+    "updatedAt": "2026-09-19T13:27:02.000Z"
+  },
+  {
+    "id": 136,
+    "title": "Test Product 1",
+    "slug": "test-product-1",
+    "price": 21,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/1/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:46.000Z",
+    "updatedAt": "2026-09-19T13:30:46.000Z"
+  },
+  {
+    "id": 137,
+    "title": "Test Product 2",
+    "slug": "test-product-2",
+    "price": 22,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/2/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:47.000Z",
+    "updatedAt": "2026-09-19T13:30:47.000Z"
+  },
+  {
+    "id": 138,
+    "title": "Tour Huilo Huilo",
+    "slug": "tour-huilo-huilo",
+    "price": 200,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/3/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:48.000Z",
+    "updatedAt": "2026-09-19T21:54:40.000Z"
+  },
+  {
+    "id": 140,
+    "title": "Test Product 5",
+    "slug": "test-product-5",
+    "price": 25,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/5/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:50.000Z",
+    "updatedAt": "2026-09-19T13:30:50.000Z"
+  },
+  {
+    "id": 141,
+    "title": "Test Product 6",
+    "slug": "test-product-6",
+    "price": 26,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/6/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:51.000Z",
+    "updatedAt": "2026-09-19T13:30:51.000Z"
+  },
+  {
+    "id": 142,
+    "title": "Test Product 7",
+    "slug": "test-product-7",
+    "price": 27,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/7/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:51.000Z",
+    "updatedAt": "2026-09-19T13:30:51.000Z"
+  },
+  {
+    "id": 144,
+    "title": "Test Product 9",
+    "slug": "test-product-9",
+    "price": 29,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/9/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:53.000Z",
+    "updatedAt": "2026-09-19T13:30:53.000Z"
+  },
+  {
+    "id": 145,
+    "title": "Test Product 10",
+    "slug": "test-product-10",
+    "price": 30,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/10/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:53.000Z",
+    "updatedAt": "2026-09-19T13:30:53.000Z"
+  },
+  {
+    "id": 146,
+    "title": "Test Product 11",
+    "slug": "test-product-11",
+    "price": 31,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/11/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:54.000Z",
+    "updatedAt": "2026-09-19T13:30:54.000Z"
+  },
+  {
+    "id": 147,
+    "title": "Test Product 12",
+    "slug": "test-product-12",
+    "price": 32,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/12/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:55.000Z",
+    "updatedAt": "2026-09-19T13:30:55.000Z"
+  },
+  {
+    "id": 148,
+    "title": "Test Product 13",
+    "slug": "test-product-13",
+    "price": 33,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/13/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:55.000Z",
+    "updatedAt": "2026-09-19T13:30:55.000Z"
+  },
+  {
+    "id": 149,
+    "title": "Test Product 14",
+    "slug": "test-product-14",
+    "price": 34,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/14/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:56.000Z",
+    "updatedAt": "2026-09-19T13:30:56.000Z"
+  },
+  {
+    "id": 150,
+    "title": "Test Product 15",
+    "slug": "test-product-15",
+    "price": 35,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/15/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:57.000Z",
+    "updatedAt": "2026-09-19T13:30:57.000Z"
+  },
+  {
+    "id": 151,
+    "title": "Test Product 16",
+    "slug": "test-product-16",
+    "price": 36,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/16/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:58.000Z",
+    "updatedAt": "2026-09-19T13:30:58.000Z"
+  },
+  {
+    "id": 152,
+    "title": "Test Product 17",
+    "slug": "test-product-17",
+    "price": 37,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/17/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:58.000Z",
+    "updatedAt": "2026-09-19T13:30:58.000Z"
+  },
+  {
+    "id": 153,
+    "title": "Test Product 18",
+    "slug": "test-product-18",
+    "price": 38,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/18/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:59.000Z",
+    "updatedAt": "2026-09-19T13:30:59.000Z"
+  },
+  {
+    "id": 154,
+    "title": "Test Product 19",
+    "slug": "test-product-19",
+    "price": 39,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/19/400/400"
+    ],
+    "creationAt": "2026-09-19T13:30:59.000Z",
+    "updatedAt": "2026-09-19T13:30:59.000Z"
+  },
+  {
+    "id": 155,
+    "title": "Test Product 20",
+    "slug": "test-product-20",
+    "price": 40,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/20/400/400"
+    ],
+    "creationAt": "2026-09-19T13:31:00.000Z",
+    "updatedAt": "2026-09-19T13:31:00.000Z"
+  },
+  {
+    "id": 156,
+    "title": "Test Product 21",
+    "slug": "test-product-21",
+    "price": 41,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/21/400/400"
+    ],
+    "creationAt": "2026-09-19T13:31:01.000Z",
+    "updatedAt": "2026-09-19T13:31:01.000Z"
+  },
+  {
+    "id": 157,
+    "title": "Test Product 22",
+    "slug": "test-product-22",
+    "price": 42,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/22/400/400"
+    ],
+    "creationAt": "2026-09-19T13:31:02.000Z",
+    "updatedAt": "2026-09-19T13:31:02.000Z"
+  },
+  {
+    "id": 158,
+    "title": "Test Product 23",
+    "slug": "test-product-23",
+    "price": 43,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/23/400/400"
+    ],
+    "creationAt": "2026-09-19T13:31:03.000Z",
+    "updatedAt": "2026-09-19T13:31:03.000Z"
+  },
+  {
+    "id": 159,
+    "title": "Test Product 24",
+    "slug": "test-product-24",
+    "price": 44,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/24/400/400"
+    ],
+    "creationAt": "2026-09-19T13:31:04.000Z",
+    "updatedAt": "2026-09-19T13:31:04.000Z"
+  },
+  {
+    "id": 160,
+    "title": "Test Product 25",
+    "slug": "test-product-25",
+    "price": 45,
+    "description": "A demo product created for pagination testing.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/25/400/400"
+    ],
+    "creationAt": "2026-09-19T13:31:04.000Z",
+    "updatedAt": "2026-09-19T13:31:04.000Z"
+  },
+  {
+    "id": 161,
+    "title": "title-08c98b5a-74b3-4437-87d0-52a03975f8ca",
+    "slug": "title-08c98b5a-74b3-4437-87d0-52a03975f8ca",
+    "price": 168,
+    "description": "desc-d6cd3aab-6320-41fc-b68e-d6264234506c",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=76567",
+      "https://placehold.co/600x400?img=64271",
+      "https://placehold.co/600x400?img=78838"
+    ],
+    "creationAt": "2026-09-19T13:42:05.000Z",
+    "updatedAt": "2026-09-19T13:42:05.000Z"
+  },
+  {
+    "id": 164,
+    "title": "title-cd4718f9-bbda-4825-b259-eab7f27632c8",
+    "slug": "title-cd4718f9-bbda-4825-b259-eab7f27632c8",
+    "price": 159,
+    "description": "desc-f564c328-7eaf-4f4f-8fd0-57ef3dca136b",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=85845"
+    ],
+    "creationAt": "2026-09-19T14:27:07.000Z",
+    "updatedAt": "2026-09-19T14:27:07.000Z"
+  },
+  {
+    "id": 165,
+    "title": "title-955b4c45-475a-46b1-a0bd-3aeb311ea86d",
+    "slug": "title-955b4c45-475a-46b1-a0bd-3aeb311ea86d",
+    "price": 444,
+    "description": "desc-362b3685-ae22-4da5-8ca2-5da1d2927841",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=35499",
+      "https://placehold.co/600x400?img=13271"
+    ],
+    "creationAt": "2026-09-19T15:12:06.000Z",
+    "updatedAt": "2026-09-19T15:12:06.000Z"
+  },
+  {
+    "id": 166,
+    "title": "title-e61b3280-42ad-4ef0-9926-c46f3f624b78",
+    "slug": "title-e61b3280-42ad-4ef0-9926-c46f3f624b78",
+    "price": 237,
+    "description": "desc-a931bb91-1b45-4d44-b968-c1b5d212fce0",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=48552"
+    ],
+    "creationAt": "2026-09-19T15:27:06.000Z",
+    "updatedAt": "2026-09-19T15:27:06.000Z"
+  },
+  {
+    "id": 167,
+    "title": "title-516ec987-a9c2-4d2e-9281-bf2d91923881",
+    "slug": "title-516ec987-a9c2-4d2e-9281-bf2d91923881",
+    "price": 457,
+    "description": "desc-474b8c63-8a8d-4666-b232-850e859b86eb",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=98912",
+      "https://placehold.co/600x400?img=74854"
+    ],
+    "creationAt": "2026-09-19T15:42:05.000Z",
+    "updatedAt": "2026-09-19T15:42:05.000Z"
+  },
+  {
+    "id": 168,
+    "title": "title-71cb1d6f-53d8-4a61-9028-4e062aa37231",
+    "slug": "title-71cb1d6f-53d8-4a61-9028-4e062aa37231",
+    "price": 535,
+    "description": "desc-14728eb4-e85f-42de-ab0e-16cba04b285d",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49032"
+    ],
+    "creationAt": "2026-09-19T15:57:04.000Z",
+    "updatedAt": "2026-09-19T15:57:04.000Z"
+  },
+  {
+    "id": 169,
+    "title": "title-bab5139a-d484-4a68-bbf6-5bb7bd1044ed",
+    "slug": "title-bab5139a-d484-4a68-bbf6-5bb7bd1044ed",
+    "price": 743,
+    "description": "desc-b9560b7b-de3a-4ee9-a16e-e99e0cfe1133",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=2450",
+      "https://placehold.co/600x400?img=59146"
+    ],
+    "creationAt": "2026-09-19T16:12:02.000Z",
+    "updatedAt": "2026-09-19T16:12:02.000Z"
+  },
+  {
+    "id": 170,
+    "title": "title-72cfff05-fb91-469c-938e-708ca04579b4",
+    "slug": "title-72cfff05-fb91-469c-938e-708ca04579b4",
+    "price": 922,
+    "description": "desc-02c969c7-89f4-45d7-8fa0-c4caa6f4b8c4",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=87279",
+      "https://placehold.co/600x400?img=71453"
+    ],
+    "creationAt": "2026-09-19T16:27:06.000Z",
+    "updatedAt": "2026-09-19T16:27:06.000Z"
+  },
+  {
+    "id": 171,
+    "title": "ass",
+    "slug": "ass",
+    "price": 234,
+    "description": "Xzcvbn",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://s.yimg.com/fz/api/res/1.2/ISSenHClPgmUZDVKIbbphQ--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD00MTI7cHhvZmY9NTA7cHlvZmY9MTAwO3E9ODA7c3M9MTt3PTM4OA--/https://i.pinimg.com/736x/ff/02/f7/ff02f7641f6bcb0832c8b9d5c30b660e.jpg"
+    ],
+    "creationAt": "2026-09-19T16:30:40.000Z",
+    "updatedAt": "2026-09-19T16:30:40.000Z"
+  },
+  {
+    "id": 172,
+    "title": "title-68f6f7e7-6e1e-4eab-9b75-304551875e0e",
+    "slug": "title-68f6f7e7-6e1e-4eab-9b75-304551875e0e",
+    "price": 132,
+    "description": "desc-8818d9d8-66e7-46fe-961c-57b2b76f27b5",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=60720"
+    ],
+    "creationAt": "2026-09-19T16:57:04.000Z",
+    "updatedAt": "2026-09-19T16:57:04.000Z"
+  },
+  {
+    "id": 173,
+    "title": "UploadedImageTest",
+    "slug": "uploadedimagetest",
+    "price": 75,
+    "description": "Testing the image upload flow.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://api.escuelajs.co/api/v1/files/2cff.jpg"
+    ],
+    "creationAt": "2026-09-19T16:58:33.000Z",
+    "updatedAt": "2026-09-19T16:58:33.000Z"
+  },
+  {
+    "id": 174,
+    "title": "MultiImageGalleryTest",
+    "slug": "multiimagegallerytest",
+    "price": 42,
+    "description": "Testing the swipeable image gallery on the detail page.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://picsum.photos/id/1015/600/600",
+      "https://picsum.photos/id/1016/600/600",
+      "https://picsum.photos/id/1018/600/600"
+    ],
+    "creationAt": "2026-09-19T17:30:34.000Z",
+    "updatedAt": "2026-09-19T17:30:34.000Z"
+  },
+  {
+    "id": 175,
+    "title": "GalleryDemo",
+    "slug": "gallerydemo",
+    "price": 42,
+    "description": "Swipe through multiple photos.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://picsum.photos/id/1015/600/600",
+      "https://picsum.photos/id/1016/600/600",
+      "https://picsum.photos/id/1018/600/600"
+    ],
+    "creationAt": "2026-09-19T17:32:36.000Z",
+    "updatedAt": "2026-09-19T17:32:36.000Z"
+  },
+  {
+    "id": 176,
+    "title": "title-df10d619-aff6-4002-847c-6ac4135ddb1a",
+    "slug": "title-df10d619-aff6-4002-847c-6ac4135ddb1a",
+    "price": 143,
+    "description": "desc-e6cb1b4b-6e5d-41b2-9c0e-618dd8e04112",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=21690",
+      "https://placehold.co/600x400?img=12932"
+    ],
+    "creationAt": "2026-09-19T18:12:02.000Z",
+    "updatedAt": "2026-09-19T18:12:02.000Z"
+  },
+  {
+    "id": 177,
+    "title": "title-7484ccde-5ae4-41a9-aa57-a9f9439ec63b",
+    "slug": "title-7484ccde-5ae4-41a9-aa57-a9f9439ec63b",
+    "price": 249,
+    "description": "desc-90c77edb-4c9e-4655-b0e5-731f5b51c7ac",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=81013",
+      "https://placehold.co/600x400?img=63697"
+    ],
+    "creationAt": "2026-09-19T18:42:04.000Z",
+    "updatedAt": "2026-09-19T18:42:04.000Z"
+  },
+  {
+    "id": 178,
+    "title": "title-920baa22-02cd-4fe4-aa0f-dd766f5f8bf5",
+    "slug": "title-920baa22-02cd-4fe4-aa0f-dd766f5f8bf5",
+    "price": 971,
+    "description": "desc-081322a8-a43a-47fd-8811-3e8de1383fab",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=1007",
+      "https://placehold.co/600x400?img=4081",
+      "https://placehold.co/600x400?img=51198"
+    ],
+    "creationAt": "2026-09-19T19:57:03.000Z",
+    "updatedAt": "2026-09-19T19:57:03.000Z"
+  },
+  {
+    "id": 179,
+    "title": "title-c488b95a-bb0d-47fc-97f0-7db51c5fde3a",
+    "slug": "title-c488b95a-bb0d-47fc-97f0-7db51c5fde3a",
+    "price": 918,
+    "description": "desc-4bd12acd-01d4-43a5-b0e5-9e2cc5646123",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=8674",
+      "https://placehold.co/600x400?img=95480",
+      "https://placehold.co/600x400?img=47938"
+    ],
+    "creationAt": "2026-09-19T20:27:05.000Z",
+    "updatedAt": "2026-09-19T20:27:05.000Z"
+  },
+  {
+    "id": 180,
+    "title": "title-0a53f729-9002-4ba5-bf6c-8c6088f44079",
+    "slug": "title-0a53f729-9002-4ba5-bf6c-8c6088f44079",
+    "price": 668,
+    "description": "desc-5142474e-090b-48a8-af46-16f792f11d1c",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=89513",
+      "https://placehold.co/600x400?img=48409"
+    ],
+    "creationAt": "2026-09-19T20:57:02.000Z",
+    "updatedAt": "2026-09-19T20:57:02.000Z"
+  },
+  {
+    "id": 181,
+    "title": "title-3f8d07fd-63d5-41f3-af2c-95bbb9abb6b5",
+    "slug": "title-3f8d07fd-63d5-41f3-af2c-95bbb9abb6b5",
+    "price": 630,
+    "description": "desc-45e201f6-5d65-4e6e-93ab-3fcc974e5edd",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=88112",
+      "https://placehold.co/600x400?img=30560"
+    ],
+    "creationAt": "2026-09-19T21:12:06.000Z",
+    "updatedAt": "2026-09-19T21:12:06.000Z"
+  },
+  {
+    "id": 182,
+    "title": "title-7c416a88-179d-4974-9876-c8fe40f6e7a1",
+    "slug": "title-7c416a88-179d-4974-9876-c8fe40f6e7a1",
+    "price": 697,
+    "description": "desc-32d852ca-9999-415b-9d76-7a100a06cce7",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=97058",
+      "https://placehold.co/600x400?img=84221"
+    ],
+    "creationAt": "2026-09-19T21:57:02.000Z",
+    "updatedAt": "2026-09-19T21:57:02.000Z"
+  },
+  {
+    "id": 183,
+    "title": "title-d5605460-48fb-4ff7-b34b-392596405cc5",
+    "slug": "title-d5605460-48fb-4ff7-b34b-392596405cc5",
+    "price": 360,
+    "description": "desc-41e83e48-a4a8-45c7-b9ed-67b2a63f1aa3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=61522",
+      "https://placehold.co/600x400?img=6384",
+      "https://placehold.co/600x400?img=91926"
+    ],
+    "creationAt": "2026-09-19T23:12:06.000Z",
+    "updatedAt": "2026-09-19T23:12:06.000Z"
+  },
+  {
+    "id": 184,
+    "title": "title-af6f9d00-2f42-4a1d-b41c-ccfdae9d43e7",
+    "slug": "title-af6f9d00-2f42-4a1d-b41c-ccfdae9d43e7",
+    "price": 538,
+    "description": "desc-65fde179-af26-4c69-8a31-6e4a45c52b57",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=32816",
+      "https://placehold.co/600x400?img=29309"
+    ],
+    "creationAt": "2026-09-19T23:27:05.000Z",
+    "updatedAt": "2026-09-19T23:27:05.000Z"
+  },
+  {
+    "id": 185,
+    "title": "title-7d29bf00-bfa2-4c46-9055-ef7859bfcc3a",
+    "slug": "title-7d29bf00-bfa2-4c46-9055-ef7859bfcc3a",
+    "price": 963,
+    "description": "desc-c7846e8a-a202-41a0-823f-07d3b76d5c02",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=4390",
+      "https://placehold.co/600x400?img=97358",
+      "https://placehold.co/600x400?img=6436"
+    ],
+    "creationAt": "2026-09-20T00:12:06.000Z",
+    "updatedAt": "2026-09-20T00:12:06.000Z"
+  },
+  {
+    "id": 186,
+    "title": "title-0bb63b5e-349a-492d-bebb-150773037900",
+    "slug": "title-0bb63b5e-349a-492d-bebb-150773037900",
+    "price": 338,
+    "description": "desc-6ffe61a7-92f7-4334-9c04-872e162da104",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49190",
+      "https://placehold.co/600x400?img=48797"
+    ],
+    "creationAt": "2026-09-20T01:42:02.000Z",
+    "updatedAt": "2026-09-20T01:42:02.000Z"
+  },
+  {
+    "id": 187,
+    "title": "title-78bb9ad0-3582-45b2-91f5-acad42a482d2",
+    "slug": "title-78bb9ad0-3582-45b2-91f5-acad42a482d2",
+    "price": 47,
+    "description": "desc-e889df5b-ea2d-44de-94c9-830c1715366d",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MKvUPjvoDrx_qSzMj_4H9hcR3en18WNVC9mxjL0f_Njg-fQ6t0Rs_yo&s=10",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T09:11:41.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=92007"
+    ],
+    "creationAt": "2026-09-20T02:27:04.000Z",
+    "updatedAt": "2026-09-20T02:27:04.000Z"
+  },
+  {
+    "id": 188,
+    "title": "title-c00514e9-d263-404a-b85f-a6dd6a1cd039",
+    "slug": "title-c00514e9-d263-404a-b85f-a6dd6a1cd039",
+    "price": 245,
+    "description": "desc-1332f9e4-4336-4264-8632-0a91cb0fc118",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=94310",
+      "https://placehold.co/600x400?img=25778"
+    ],
+    "creationAt": "2026-09-20T02:42:12.000Z",
+    "updatedAt": "2026-09-20T02:42:12.000Z"
+  },
+  {
+    "id": 189,
+    "title": "title-e95cc5a7-6b7d-4d9c-bffa-c836fc294419",
+    "slug": "title-e95cc5a7-6b7d-4d9c-bffa-c836fc294419",
+    "price": 744,
+    "description": "desc-f214dc70-fabe-49fe-9052-fb441bd85007",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-09-19T04:16:07.000Z",
+      "updatedAt": "2026-09-19T04:16:07.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=2462",
+      "https://placehold.co/600x400?img=11092"
+    ],
+    "creationAt": "2026-09-20T03:57:06.000Z",
+    "updatedAt": "2026-09-20T03:57:06.000Z"
+  },
+  {
+    "id": 194,
+    "title": "Managed static interface-cc230316fc334e7ca582b16a971cf8cd",
+    "slug": "managed-static-interface-cc230316fc334e7ca582b16a971cf8cd",
+    "price": 599,
+    "description": "Cross-platform clear-thinking encryption",
+    "category": {
+      "id": 39,
+      "name": "Electronics_71f988d6a43341928a36160e34034c6e",
+      "slug": "electronics-71f988d6a43341928a36160e34034c6e",
+      "image": "http://www.suarez.info/",
+      "creationAt": "2026-09-20T04:06:38.000Z",
+      "updatedAt": "2026-09-20T04:06:38.000Z"
+    },
+    "images": [
+      "http://www.johnson.com/"
+    ],
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  {
+    "id": 195,
+    "title": "Polarized multi-tasking knowledge user-da2b01d827df4f048a2a79e03f0d9e87",
+    "slug": "polarized-multi-tasking-knowledge-user-da2b01d827df4f048a2a79e03f0d9e87",
+    "price": 406,
+    "description": "Ergonomic content-based alliance",
+    "category": {
+      "id": 40,
+      "name": "Food & Beverages_b8a75a54dcf24a49be3012f1b3d265a2",
+      "slug": "food-beverages-b8a75a54dcf24a49be3012f1b3d265a2",
+      "image": "https://gill.com/",
+      "creationAt": "2026-09-20T04:06:38.000Z",
+      "updatedAt": "2026-09-20T04:06:38.000Z"
+    },
+    "images": [
+      "http://murphy-mcdonald.com/"
+    ],
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  }
+]
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/195
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/195 -> 200
+Body:
+{
+  "id": 195,
+  "title": "Polarized multi-tasking knowledge user-da2b01d827df4f048a2a79e03f0d9e87",
+  "slug": "polarized-multi-tasking-knowledge-user-da2b01d827df4f048a2a79e03f0d9e87",
+  "price": 406,
+  "description": "Ergonomic content-based alliance",
+  "category": {
+    "id": 40,
+    "name": "Food & Beverages_b8a75a54dcf24a49be3012f1b3d265a2",
+    "slug": "food-beverages-b8a75a54dcf24a49be3012f1b3d265a2",
+    "image": "https://gill.com/",
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  "images": [
+    "http://murphy-mcdonald.com/"
+  ],
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/195
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/195 -> 200
+Body:
+true 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Food & Beverages_b8a75a54dcf24a49be3012f1b3d265a2",
+  "slug": "food-beverages-b8a75a54dcf24a49be3012f1b3d265a2",
+  "image": "https://gill.com/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

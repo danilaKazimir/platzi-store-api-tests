@@ -1,0 +1,88 @@
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Taylor Oconnor",
+  "email": "bbaker@example.org",
+  "password": "***",
+  "avatar": "https://www.garcia-williams.com/"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 26,
+  "email": "bbaker@example.org",
+  "password": "***",
+  "name": "Taylor Oconnor",
+  "role": "customer",
+  "avatar": "https://www.garcia-williams.com/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+}
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "bbaker@example.org",
+  "password": "***"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjI2LCJpYXQiOjE3ODk4NzcxOTYsImV4cCI6MTc4OTkxMzE5Nn0.Rv9I2DnW2pAe8FAJYCPTTE1wy6dt5zGNm_9jnNbTtlE"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 26,
+  "email": "bbaker@example.org",
+  "password": "***",
+  "name": "Taylor Oconnor",
+  "role": "customer",
+  "avatar": "https://www.garcia-williams.com/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+}
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/26
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/26 -> 200
+Body:
+{
+  "id": 26,
+  "email": "bbaker@example.org",
+  "password": "***",
+  "name": "Taylor Oconnor",
+  "role": "customer",
+  "avatar": "https://www.garcia-williams.com/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/26
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/26 -> 200
+Body:
+true

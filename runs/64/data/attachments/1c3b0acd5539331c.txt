@@ -1,0 +1,80 @@
+2026-09-15 04:03:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Brandon Richards",
+  "email": "kingjacob@example.org",
+  "password": "***",
+  "avatar": "http://www.smith.com/"
+} 
+
+2026-09-15 04:03:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 14,
+  "email": "kingjacob@example.org",
+  "password": "***",
+  "name": "Brandon Richards",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-09-15T04:03:37.000Z",
+  "updatedAt": "2026-09-15T04:03:37.000Z"
+}
+2026-09-15 04:03:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/14
+Body:
+{
+  "name": "Jessica Ingram"
+} 
+
+2026-09-15 04:03:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "kingjacob@example.org",
+  "password": "***",
+  "name": "Jessica Ingram",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-09-15T04:03:37.000Z",
+  "updatedAt": "2026-09-15T04:03:37.000Z"
+} 
+
+2026-09-15 04:03:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-09-15 04:03:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "kingjacob@example.org",
+  "password": "***",
+  "name": "Jessica Ingram",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-09-15T04:03:37.000Z",
+  "updatedAt": "2026-09-15T04:03:37.000Z"
+}
+2026-09-15 04:03:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-09-15 04:03:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "kingjacob@example.org",
+  "password": "***",
+  "name": "Jessica Ingram",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-09-15T04:03:37.000Z",
+  "updatedAt": "2026-09-15T04:03:37.000Z"
+} 
+
+2026-09-15 04:03:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-09-15 04:03:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+true

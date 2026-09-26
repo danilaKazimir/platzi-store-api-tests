@@ -1,0 +1,125 @@
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_cbda5a9e5f1e4ddd81b53fed9da400d4",
+  "image": "http://mann.org/"
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_cbda5a9e5f1e4ddd81b53fed9da400d4",
+  "slug": "automotive-accessories-cbda5a9e5f1e4ddd81b53fed9da400d4",
+  "image": "http://mann.org/",
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Implemented systematic portal-373c8d4a22d143fa915cbc5f32d0fc14",
+  "price": 771,
+  "description": "Organic demand-driven complexity",
+  "categoryId": 27,
+  "images": [
+    "http://adams-glover.biz/"
+  ]
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 88,
+  "title": "Implemented systematic portal-373c8d4a22d143fa915cbc5f32d0fc14",
+  "slug": "implemented-systematic-portal-373c8d4a22d143fa915cbc5f32d0fc14",
+  "price": 771,
+  "description": "Organic demand-driven complexity",
+  "category": {
+    "id": 27,
+    "name": "Automotive Accessories_cbda5a9e5f1e4ddd81b53fed9da400d4",
+    "slug": "automotive-accessories-cbda5a9e5f1e4ddd81b53fed9da400d4",
+    "image": "http://mann.org/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://adams-glover.biz/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+}
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/88
+Body:
+{
+  "title": "Customer-focused cohesive pricing structure-e9f04fa44df14385acb04f4454375d59",
+  "price": 175,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/88 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+{
+  "id": 88,
+  "title": "Implemented systematic portal-373c8d4a22d143fa915cbc5f32d0fc14",
+  "slug": "implemented-systematic-portal-373c8d4a22d143fa915cbc5f32d0fc14",
+  "price": 771,
+  "description": "Organic demand-driven complexity",
+  "category": {
+    "id": 27,
+    "name": "Automotive Accessories_cbda5a9e5f1e4ddd81b53fed9da400d4",
+    "slug": "automotive-accessories-cbda5a9e5f1e4ddd81b53fed9da400d4",
+    "image": "http://mann.org/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://adams-glover.biz/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+true 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_cbda5a9e5f1e4ddd81b53fed9da400d4",
+  "slug": "automotive-accessories-cbda5a9e5f1e4ddd81b53fed9da400d4",
+  "image": "http://mann.org/",
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

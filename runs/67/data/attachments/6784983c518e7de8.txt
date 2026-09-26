@@ -1,0 +1,55 @@
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_cc0e516b17a7434c86a91664f591a55f",
+  "image": "http://www.soto.com/"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Toys_cc0e516b17a7434c86a91664f591a55f",
+  "slug": "toys-cc0e516b17a7434c86a91664f591a55f",
+  "image": "http://www.soto.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+}
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/15
+Body:
+{
+  "name": null,
+  "image": "http://mccall-mcbride.com/"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/15 -> 400
+Body:
+{
+  "path": "/api/v1/categories/15",
+  "timestamp": "2026-09-18T03:53:04.524Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Toys_cc0e516b17a7434c86a91664f591a55f",
+  "slug": "toys-cc0e516b17a7434c86a91664f591a55f",
+  "image": "http://www.soto.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+true

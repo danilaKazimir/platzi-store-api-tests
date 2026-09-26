@@ -1,0 +1,107 @@
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_6a445fabce38412ba328088503991f7e",
+  "image": "http://garcia.net/"
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Home & Kitchen_6a445fabce38412ba328088503991f7e",
+  "slug": "home-kitchen-6a445fabce38412ba328088503991f7e",
+  "image": "http://garcia.net/",
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Triple-buffered logistical toolset-1e89027376fb45f49d9bb0f02e0e1eac",
+  "price": 902,
+  "description": "De-engineered encompassing open architecture",
+  "categoryId": 39,
+  "images": [
+    "https://www.perez-wallace.biz/"
+  ]
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 226,
+  "title": "Triple-buffered logistical toolset-1e89027376fb45f49d9bb0f02e0e1eac",
+  "slug": "triple-buffered-logistical-toolset-1e89027376fb45f49d9bb0f02e0e1eac",
+  "price": 902,
+  "description": "De-engineered encompassing open architecture",
+  "category": {
+    "id": 39,
+    "name": "Home & Kitchen_6a445fabce38412ba328088503991f7e",
+    "slug": "home-kitchen-6a445fabce38412ba328088503991f7e",
+    "image": "http://garcia.net/",
+    "creationAt": "2026-09-21T04:03:55.000Z",
+    "updatedAt": "2026-09-21T04:03:55.000Z"
+  },
+  "images": [
+    "https://www.perez-wallace.biz/"
+  ],
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+}
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/226
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/226 -> 200
+Body:
+true 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/226
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/226 -> 400
+Body:
+{
+  "path": "/api/v1/products/226",
+  "timestamp": "2026-09-21T04:03:56.060Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 226\n    }\n}"
+}
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/226
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/226 -> 400
+Body:
+{
+  "path": "/api/v1/products/226",
+  "timestamp": "2026-09-21T04:03:56.091Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 226\n    }\n}"
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Home & Kitchen_6a445fabce38412ba328088503991f7e",
+  "slug": "home-kitchen-6a445fabce38412ba328088503991f7e",
+  "image": "http://garcia.net/",
+  "creationAt": "2026-09-21T04:03:55.000Z",
+  "updatedAt": "2026-09-21T04:03:55.000Z"
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

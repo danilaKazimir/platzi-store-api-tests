@@ -1,0 +1,79 @@
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_e0840b6de2ef47cca07ee4394e48726d",
+  "image": "https://www.boyer.com/"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 174,
+  "name": "Pet Supplies_e0840b6de2ef47cca07ee4394e48726d",
+  "slug": "pet-supplies-e0840b6de2ef47cca07ee4394e48726d",
+  "image": "https://www.boyer.com/",
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+}
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profit-focused dedicated extranet-cf8674085ca3463d9292445d86cb09a4",
+  "price": 365,
+  "description": "Digitized heuristic alliance",
+  "categoryId": 174,
+  "images": [
+    "https://www.woodard-garcia.com/"
+  ]
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 404,
+  "title": "Profit-focused dedicated extranet-cf8674085ca3463d9292445d86cb09a4",
+  "slug": "profit-focused-dedicated-extranet-cf8674085ca3463d9292445d86cb09a4",
+  "price": 365,
+  "description": "Digitized heuristic alliance",
+  "category": {
+    "id": 174,
+    "name": "Pet Supplies_e0840b6de2ef47cca07ee4394e48726d",
+    "slug": "pet-supplies-e0840b6de2ef47cca07ee4394e48726d",
+    "image": "https://www.boyer.com/",
+    "creationAt": "2026-09-24T03:52:05.000Z",
+    "updatedAt": "2026-09-24T03:52:05.000Z"
+  },
+  "images": [
+    "https://www.woodard-garcia.com/"
+  ],
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+}
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/174
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/174 -> 200
+Body:
+{
+  "id": 174,
+  "name": "Pet Supplies_e0840b6de2ef47cca07ee4394e48726d",
+  "slug": "pet-supplies-e0840b6de2ef47cca07ee4394e48726d",
+  "image": "https://www.boyer.com/",
+  "creationAt": "2026-09-24T03:52:05.000Z",
+  "updatedAt": "2026-09-24T03:52:05.000Z"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/174
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/174 -> 400
+Body:
+{
+  "path": "/api/v1/categories/174",
+  "timestamp": "2026-09-24T03:52:05.370Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

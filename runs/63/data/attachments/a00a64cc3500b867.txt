@@ -1,0 +1,15 @@
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Automotive Accessories_76ee05f57ba34d8fbe99bf2a81b53ebf",
+  "image": "https://www.ross-bailey.info/"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-09-14T04:04:28.466Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}
