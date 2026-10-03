@@ -1,0 +1,79 @@
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_1fbeb0bfb4e5444694560360932e7792",
+  "image": "https://sullivan-smith.org/"
+} 
+
+2026-09-29 04:57:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 100,
+  "name": "Pet Supplies_1fbeb0bfb4e5444694560360932e7792",
+  "slug": "pet-supplies-1fbeb0bfb4e5444694560360932e7792",
+  "image": "https://sullivan-smith.org/",
+  "creationAt": "2026-09-29T04:57:32.000Z",
+  "updatedAt": "2026-09-29T04:57:32.000Z"
+}
+2026-09-29 04:57:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synchronized human-resource core-2a796ed0883b49a3bea529344955a513",
+  "price": 621,
+  "description": "Persevering multi-tasking benchmark",
+  "categoryId": 100,
+  "images": [
+    "http://delacruz.com/"
+  ]
+} 
+
+2026-09-29 04:57:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 317,
+  "title": "Synchronized human-resource core-2a796ed0883b49a3bea529344955a513",
+  "slug": "synchronized-human-resource-core-2a796ed0883b49a3bea529344955a513",
+  "price": 621,
+  "description": "Persevering multi-tasking benchmark",
+  "category": {
+    "id": 100,
+    "name": "Pet Supplies_1fbeb0bfb4e5444694560360932e7792",
+    "slug": "pet-supplies-1fbeb0bfb4e5444694560360932e7792",
+    "image": "https://sullivan-smith.org/",
+    "creationAt": "2026-09-29T04:57:32.000Z",
+    "updatedAt": "2026-09-29T04:57:32.000Z"
+  },
+  "images": [
+    "http://delacruz.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:32.000Z",
+  "updatedAt": "2026-09-29T04:57:32.000Z"
+}
+2026-09-29 04:57:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/100
+Body:
+<empty> 
+
+2026-09-29 04:57:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/100 -> 200
+Body:
+{
+  "id": 100,
+  "name": "Pet Supplies_1fbeb0bfb4e5444694560360932e7792",
+  "slug": "pet-supplies-1fbeb0bfb4e5444694560360932e7792",
+  "image": "https://sullivan-smith.org/",
+  "creationAt": "2026-09-29T04:57:32.000Z",
+  "updatedAt": "2026-09-29T04:57:32.000Z"
+} 
+
+2026-09-29 04:57:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/100
+Body:
+<empty> 
+
+2026-09-29 04:57:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/100 -> 400
+Body:
+{
+  "path": "/api/v1/categories/100",
+  "timestamp": "2026-09-29T04:57:32.940Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

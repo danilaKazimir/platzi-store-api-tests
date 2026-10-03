@@ -1,0 +1,15 @@
+2026-09-07 03:40:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Personal Care_124be6db007740848b55c6f7d8ae9e51",
+  "image": "https://www.tran-richardson.com/"
+} 
+
+2026-09-07 03:40:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-09-07T03:40:05.718Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

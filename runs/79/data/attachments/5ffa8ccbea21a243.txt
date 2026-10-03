@@ -1,0 +1,107 @@
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_b66751445f3441baa1e50a3b8482ff30",
+  "image": "http://www.goodman.com/"
+} 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 170,
+  "name": "Sports & Fitness_b66751445f3441baa1e50a3b8482ff30",
+  "slug": "sports-fitness-b66751445f3441baa1e50a3b8482ff30",
+  "image": "http://www.goodman.com/",
+  "creationAt": "2026-09-30T04:44:12.000Z",
+  "updatedAt": "2026-09-30T04:44:12.000Z"
+} 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Up-sized neutral utilization-ca5b309bfa3242b985ea37a974609f0d",
+  "price": 756,
+  "description": "Profit-focused user-facing focus group",
+  "categoryId": 170,
+  "images": [
+    "https://www.small.com/"
+  ]
+} 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 284,
+  "title": "Up-sized neutral utilization-ca5b309bfa3242b985ea37a974609f0d",
+  "slug": "up-sized-neutral-utilization-ca5b309bfa3242b985ea37a974609f0d",
+  "price": 756,
+  "description": "Profit-focused user-facing focus group",
+  "category": {
+    "id": 170,
+    "name": "Sports & Fitness_b66751445f3441baa1e50a3b8482ff30",
+    "slug": "sports-fitness-b66751445f3441baa1e50a3b8482ff30",
+    "image": "http://www.goodman.com/",
+    "creationAt": "2026-09-30T04:44:12.000Z",
+    "updatedAt": "2026-09-30T04:44:12.000Z"
+  },
+  "images": [
+    "https://www.small.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:12.000Z",
+  "updatedAt": "2026-09-30T04:44:12.000Z"
+}
+2026-09-30 04:44:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/284
+Body:
+<empty> 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/284 -> 200
+Body:
+true 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/284
+Body:
+<empty> 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/284 -> 400
+Body:
+{
+  "path": "/api/v1/products/284",
+  "timestamp": "2026-09-30T04:44:12.741Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 284\n    }\n}"
+}
+2026-09-30 04:44:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/284
+Body:
+<empty> 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/284 -> 400
+Body:
+{
+  "path": "/api/v1/products/284",
+  "timestamp": "2026-09-30T04:44:12.826Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 284\n    }\n}"
+} 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/170
+Body:
+<empty> 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/170 -> 200
+Body:
+{
+  "id": 170,
+  "name": "Sports & Fitness_b66751445f3441baa1e50a3b8482ff30",
+  "slug": "sports-fitness-b66751445f3441baa1e50a3b8482ff30",
+  "image": "http://www.goodman.com/",
+  "creationAt": "2026-09-30T04:44:12.000Z",
+  "updatedAt": "2026-09-30T04:44:12.000Z"
+} 
+
+2026-09-30 04:44:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/170
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/170 -> 200
+Body:
+true

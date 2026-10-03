@@ -1,0 +1,135 @@
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_b0a9472a6a1b4e9786de8145ec24aadd",
+  "image": "http://holmes-stevens.com/"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 498,
+  "name": "Books_b0a9472a6a1b4e9786de8145ec24aadd",
+  "slug": "books-b0a9472a6a1b4e9786de8145ec24aadd",
+  "image": "http://holmes-stevens.com/",
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Down-sized 5thgeneration collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "price": 988,
+  "description": "User-centric dedicated matrix",
+  "categoryId": 498,
+  "images": [
+    "http://www.roth.com/"
+  ]
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 352,
+  "title": "Down-sized 5thgeneration collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "slug": "down-sized-5thgeneration-collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "price": 988,
+  "description": "User-centric dedicated matrix",
+  "category": {
+    "id": 498,
+    "name": "Books_b0a9472a6a1b4e9786de8145ec24aadd",
+    "slug": "books-b0a9472a6a1b4e9786de8145ec24aadd",
+    "image": "http://holmes-stevens.com/",
+    "creationAt": "2026-09-25T04:07:04.000Z",
+    "updatedAt": "2026-09-25T04:07:04.000Z"
+  },
+  "images": [
+    "http://www.roth.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+}
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/down-sized-5thgeneration-collaboration-9823db638d4f4fc7b9807290abdf77e2
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/down-sized-5thgeneration-collaboration-9823db638d4f4fc7b9807290abdf77e2 -> 200
+Body:
+{
+  "id": 352,
+  "title": "Down-sized 5thgeneration collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "slug": "down-sized-5thgeneration-collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "price": 988,
+  "description": "User-centric dedicated matrix",
+  "category": {
+    "id": 498,
+    "name": "Books_b0a9472a6a1b4e9786de8145ec24aadd",
+    "slug": "books-b0a9472a6a1b4e9786de8145ec24aadd",
+    "image": "http://holmes-stevens.com/",
+    "creationAt": "2026-09-25T04:07:04.000Z",
+    "updatedAt": "2026-09-25T04:07:04.000Z"
+  },
+  "images": [
+    "http://www.roth.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+}
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/352
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/352 -> 200
+Body:
+{
+  "id": 352,
+  "title": "Down-sized 5thgeneration collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "slug": "down-sized-5thgeneration-collaboration-9823db638d4f4fc7b9807290abdf77e2",
+  "price": 988,
+  "description": "User-centric dedicated matrix",
+  "category": {
+    "id": 498,
+    "name": "Books_b0a9472a6a1b4e9786de8145ec24aadd",
+    "slug": "books-b0a9472a6a1b4e9786de8145ec24aadd",
+    "image": "http://holmes-stevens.com/",
+    "creationAt": "2026-09-25T04:07:04.000Z",
+    "updatedAt": "2026-09-25T04:07:04.000Z"
+  },
+  "images": [
+    "http://www.roth.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/352
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/352 -> 200
+Body:
+true 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/498
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/498 -> 200
+Body:
+{
+  "id": 498,
+  "name": "Books_b0a9472a6a1b4e9786de8145ec24aadd",
+  "slug": "books-b0a9472a6a1b4e9786de8145ec24aadd",
+  "image": "http://holmes-stevens.com/",
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/498
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/498 -> 200
+Body:
+true

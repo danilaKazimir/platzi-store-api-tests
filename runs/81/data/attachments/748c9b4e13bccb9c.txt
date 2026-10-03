@@ -1,0 +1,53 @@
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_eb2ea64f316845498acb92adec1d2acc",
+  "image": "https://buck-morgan.com/"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 503,
+  "name": "Food & Beverages_eb2ea64f316845498acb92adec1d2acc",
+  "slug": "food-beverages-eb2ea64f316845498acb92adec1d2acc",
+  "image": "https://buck-morgan.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+}
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/food-beverages-eb2ea64f316845498acb92adec1d2acc
+Body:
+<empty> 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/food-beverages-eb2ea64f316845498acb92adec1d2acc -> 200
+Body:
+{
+  "id": 503,
+  "name": "Food & Beverages_eb2ea64f316845498acb92adec1d2acc",
+  "slug": "food-beverages-eb2ea64f316845498acb92adec1d2acc",
+  "image": "https://buck-morgan.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+}
+2026-10-02 04:46:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/503
+Body:
+<empty> 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/503 -> 200
+Body:
+{
+  "id": 503,
+  "name": "Food & Beverages_eb2ea64f316845498acb92adec1d2acc",
+  "slug": "food-beverages-eb2ea64f316845498acb92adec1d2acc",
+  "image": "https://buck-morgan.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+} 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/503
+Body:
+<empty> 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/503 -> 200
+Body:
+true

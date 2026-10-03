@@ -1,0 +1,80 @@
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Michael Bass",
+  "email": "brewermichael@example.org",
+  "password": "***",
+  "avatar": "https://johnson-obrien.net/"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 15,
+  "email": "brewermichael@example.org",
+  "password": "***",
+  "name": "Michael Bass",
+  "role": "customer",
+  "avatar": "https://johnson-obrien.net/",
+  "creationAt": "2026-09-06T03:40:28.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+}
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/15
+Body:
+{
+  "email": "aware@example.net"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+{
+  "id": 15,
+  "email": "aware@example.net",
+  "password": "***",
+  "name": "Michael Bass",
+  "role": "customer",
+  "avatar": "https://johnson-obrien.net/",
+  "creationAt": "2026-09-06T03:40:28.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/15
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+{
+  "id": 15,
+  "email": "aware@example.net",
+  "password": "***",
+  "name": "Michael Bass",
+  "role": "customer",
+  "avatar": "https://johnson-obrien.net/",
+  "creationAt": "2026-09-06T03:40:28.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+}
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/15
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+{
+  "id": 15,
+  "email": "aware@example.net",
+  "password": "***",
+  "name": "Michael Bass",
+  "role": "customer",
+  "avatar": "https://johnson-obrien.net/",
+  "creationAt": "2026-09-06T03:40:28.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/15
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/15 -> 200
+Body:
+true

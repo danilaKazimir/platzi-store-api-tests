@@ -1,0 +1,119 @@
+2026-09-06 03:40:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_4a1600f810d843c3a595b7fcba35a5ed",
+  "image": "https://day-mccarthy.com/"
+} 
+
+2026-09-06 03:40:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Home & Kitchen_4a1600f810d843c3a595b7fcba35a5ed",
+  "slug": "home-kitchen-4a1600f810d843c3a595b7fcba35a5ed",
+  "image": "https://day-mccarthy.com/",
+  "creationAt": "2026-09-06T03:40:22.000Z",
+  "updatedAt": "2026-09-06T03:40:22.000Z"
+}
+2026-09-06 03:40:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-06 03:40:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "nueva ropa",
+    "slug": "nueva-ropa",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-05T22:10:12.000Z",
+    "updatedAt": "2026-09-06T00:11:33.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-05T22:10:12.000Z",
+    "updatedAt": "2026-09-05T22:10:12.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-05T22:10:12.000Z",
+    "updatedAt": "2026-09-05T22:10:12.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-05T22:10:12.000Z",
+    "updatedAt": "2026-09-05T22:10:12.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-05T22:10:12.000Z",
+    "updatedAt": "2026-09-05T22:10:12.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Carton",
+    "slug": "carton",
+    "image": "https://5.imimg.com/data5/FM/YN/SR/SELLER-482298/corrugated-box-pad-500x500.jpg",
+    "creationAt": "2026-09-05T22:47:29.000Z",
+    "updatedAt": "2026-09-05T22:47:29.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Madera",
+    "slug": "madera",
+    "image": "https://m.media-amazon.com/images/I/61zgHJ8mdvL.jpg",
+    "creationAt": "2026-09-06T00:18:16.000Z",
+    "updatedAt": "2026-09-06T00:18:16.000Z"
+  },
+  {
+    "id": 9,
+    "name": "testCategory79a5425e8c224708b06a9d0055cc2583",
+    "slug": "testcategory79a5425e8c224708b06a9d0055cc2583",
+    "image": "http://wagner.com/",
+    "creationAt": "2026-09-06T03:40:22.000Z",
+    "updatedAt": "2026-09-06T03:40:22.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Home & Kitchen_4a1600f810d843c3a595b7fcba35a5ed",
+    "slug": "home-kitchen-4a1600f810d843c3a595b7fcba35a5ed",
+    "image": "https://day-mccarthy.com/",
+    "creationAt": "2026-09-06T03:40:22.000Z",
+    "updatedAt": "2026-09-06T03:40:22.000Z"
+  }
+]
+2026-09-06 03:40:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-06 03:40:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Home & Kitchen_4a1600f810d843c3a595b7fcba35a5ed",
+  "slug": "home-kitchen-4a1600f810d843c3a595b7fcba35a5ed",
+  "image": "https://day-mccarthy.com/",
+  "creationAt": "2026-09-06T03:40:22.000Z",
+  "updatedAt": "2026-09-06T03:40:22.000Z"
+} 
+
+2026-09-06 03:40:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-06 03:40:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true

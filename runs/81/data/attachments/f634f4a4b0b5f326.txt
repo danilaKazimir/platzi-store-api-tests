@@ -1,0 +1,80 @@
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Omar Woods",
+  "email": "jhernandez@example.com",
+  "password": "***",
+  "avatar": "http://www.martin-alexander.com/"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 220,
+  "email": "jhernandez@example.com",
+  "password": "***",
+  "name": "Omar Woods",
+  "role": "customer",
+  "avatar": "http://www.martin-alexander.com/",
+  "creationAt": "2026-10-02T04:47:00.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+}
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/220
+Body:
+{
+  "email": "brian41@example.net"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/220 -> 200
+Body:
+{
+  "id": 220,
+  "email": "brian41@example.net",
+  "password": "***",
+  "name": "Omar Woods",
+  "role": "customer",
+  "avatar": "http://www.martin-alexander.com/",
+  "creationAt": "2026-10-02T04:47:00.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/220
+Body:
+<empty> 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/220 -> 200
+Body:
+{
+  "id": 220,
+  "email": "brian41@example.net",
+  "password": "***",
+  "name": "Omar Woods",
+  "role": "customer",
+  "avatar": "http://www.martin-alexander.com/",
+  "creationAt": "2026-10-02T04:47:00.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+}
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/220
+Body:
+<empty> 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/220 -> 200
+Body:
+{
+  "id": 220,
+  "email": "brian41@example.net",
+  "password": "***",
+  "name": "Omar Woods",
+  "role": "customer",
+  "avatar": "http://www.martin-alexander.com/",
+  "creationAt": "2026-10-02T04:47:00.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/220
+Body:
+<empty> 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/220 -> 200
+Body:
+true

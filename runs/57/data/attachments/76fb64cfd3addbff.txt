@@ -1,0 +1,408 @@
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+  "image": "http://www.archer.com/"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+  "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+  "image": "http://www.archer.com/",
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+}
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Quality-focused didactic instruction set-aba221705bcc4a43b7bcfe39de698f9e",
+  "price": 989,
+  "description": "Multi-layered client-server methodology",
+  "categoryId": 27,
+  "images": [
+    "https://www.fischer-dixon.info/"
+  ]
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 84,
+  "title": "Quality-focused didactic instruction set-aba221705bcc4a43b7bcfe39de698f9e",
+  "slug": "quality-focused-didactic-instruction-set-aba221705bcc4a43b7bcfe39de698f9e",
+  "price": 989,
+  "description": "Multi-layered client-server methodology",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "image": "http://www.archer.com/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "https://www.fischer-dixon.info/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Centralized contextually-based extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+  "price": 88,
+  "description": "Object-based uniform conglomeration",
+  "categoryId": 27,
+  "images": [
+    "http://www.lewis.net/"
+  ]
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 86,
+  "title": "Centralized contextually-based extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+  "slug": "centralized-contextually-based-extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+  "price": 88,
+  "description": "Object-based uniform conglomeration",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "image": "http://www.archer.com/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://www.lewis.net/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Digitized global process improvement-5dd19562c06f4c9792150ff5778b8976",
+  "price": 466,
+  "description": "Stand-alone bifurcated framework",
+  "categoryId": 27,
+  "images": [
+    "http://carter.biz/"
+  ]
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 87,
+  "title": "Digitized global process improvement-5dd19562c06f4c9792150ff5778b8976",
+  "slug": "digitized-global-process-improvement-5dd19562c06f4c9792150ff5778b8976",
+  "price": 466,
+  "description": "Stand-alone bifurcated framework",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "image": "http://www.archer.com/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://carter.biz/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_b87a0a626208435bbfef537b5dbc5d39",
+  "image": "https://www.king-pope.com/"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Books_b87a0a626208435bbfef537b5dbc5d39",
+  "slug": "books-b87a0a626208435bbfef537b5dbc5d39",
+  "image": "https://www.king-pope.com/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Inverse didactic migration-000c593ce2654e09b254f026a4ce395f",
+  "price": 242,
+  "description": "Synergized multi-state application",
+  "categoryId": 29,
+  "images": [
+    "https://norton.net/"
+  ]
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 89,
+  "title": "Inverse didactic migration-000c593ce2654e09b254f026a4ce395f",
+  "slug": "inverse-didactic-migration-000c593ce2654e09b254f026a4ce395f",
+  "price": 242,
+  "description": "Synergized multi-state application",
+  "category": {
+    "id": 29,
+    "name": "Books_b87a0a626208435bbfef537b5dbc5d39",
+    "slug": "books-b87a0a626208435bbfef537b5dbc5d39",
+    "image": "https://www.king-pope.com/",
+    "creationAt": "2026-09-08T03:45:00.000Z",
+    "updatedAt": "2026-09-08T03:45:00.000Z"
+  },
+  "images": [
+    "https://norton.net/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/quality-focused-didactic-instruction-set-aba221705bcc4a43b7bcfe39de698f9e/related
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/quality-focused-didactic-instruction-set-aba221705bcc4a43b7bcfe39de698f9e/related -> 200
+Body:
+[
+  {
+    "id": 86,
+    "title": "Centralized contextually-based extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+    "slug": "centralized-contextually-based-extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+    "price": 88,
+    "description": "Object-based uniform conglomeration",
+    "category": {
+      "id": 27,
+      "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+      "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+      "image": "http://www.archer.com/",
+      "creationAt": "2026-09-08T03:44:59.000Z",
+      "updatedAt": "2026-09-08T03:44:59.000Z"
+    },
+    "images": [
+      "http://www.lewis.net/"
+    ],
+    "creationAt": "2026-09-08T03:45:00.000Z",
+    "updatedAt": "2026-09-08T03:45:00.000Z"
+  },
+  {
+    "id": 87,
+    "title": "Digitized global process improvement-5dd19562c06f4c9792150ff5778b8976",
+    "slug": "digitized-global-process-improvement-5dd19562c06f4c9792150ff5778b8976",
+    "price": 466,
+    "description": "Stand-alone bifurcated framework",
+    "category": {
+      "id": 27,
+      "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+      "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+      "image": "http://www.archer.com/",
+      "creationAt": "2026-09-08T03:44:59.000Z",
+      "updatedAt": "2026-09-08T03:44:59.000Z"
+    },
+    "images": [
+      "http://carter.biz/"
+    ],
+    "creationAt": "2026-09-08T03:45:00.000Z",
+    "updatedAt": "2026-09-08T03:45:00.000Z"
+  }
+]
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/89 -> 200
+Body:
+{
+  "id": 89,
+  "title": "Inverse didactic migration-000c593ce2654e09b254f026a4ce395f",
+  "slug": "inverse-didactic-migration-000c593ce2654e09b254f026a4ce395f",
+  "price": 242,
+  "description": "Synergized multi-state application",
+  "category": {
+    "id": 29,
+    "name": "Books_b87a0a626208435bbfef537b5dbc5d39",
+    "slug": "books-b87a0a626208435bbfef537b5dbc5d39",
+    "image": "https://www.king-pope.com/",
+    "creationAt": "2026-09-08T03:45:00.000Z",
+    "updatedAt": "2026-09-08T03:45:00.000Z"
+  },
+  "images": [
+    "https://norton.net/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/89 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/87
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/87 -> 200
+Body:
+{
+  "id": 87,
+  "title": "Digitized global process improvement-5dd19562c06f4c9792150ff5778b8976",
+  "slug": "digitized-global-process-improvement-5dd19562c06f4c9792150ff5778b8976",
+  "price": 466,
+  "description": "Stand-alone bifurcated framework",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "image": "http://www.archer.com/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://carter.biz/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/87
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/87 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+{
+  "id": 86,
+  "title": "Centralized contextually-based extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+  "slug": "centralized-contextually-based-extranet-fef607d3b74c48d9aa40a6d0e9de7cfd",
+  "price": 88,
+  "description": "Object-based uniform conglomeration",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "image": "http://www.archer.com/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://www.lewis.net/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+{
+  "id": 84,
+  "title": "Quality-focused didactic instruction set-aba221705bcc4a43b7bcfe39de698f9e",
+  "slug": "quality-focused-didactic-instruction-set-aba221705bcc4a43b7bcfe39de698f9e",
+  "price": 989,
+  "description": "Multi-layered client-server methodology",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+    "image": "http://www.archer.com/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "https://www.fischer-dixon.info/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Books_b87a0a626208435bbfef537b5dbc5d39",
+  "slug": "books-b87a0a626208435bbfef537b5dbc5d39",
+  "image": "https://www.king-pope.com/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Home & Kitchen_59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+  "slug": "home-kitchen-59dd5f45e7bc45e29e0d9d35eb9cb3fa",
+  "image": "http://www.archer.com/",
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

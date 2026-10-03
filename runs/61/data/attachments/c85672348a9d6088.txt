@@ -1,0 +1,79 @@
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_ad280653d1b3401ca77497dc63bbed14",
+  "image": "https://www.herman.com/"
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Books_ad280653d1b3401ca77497dc63bbed14",
+  "slug": "books-ad280653d1b3401ca77497dc63bbed14",
+  "image": "https://www.herman.com/",
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+}
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Operative contextually-based hub-57f87de7f4c140d591a10520d4d28723",
+  "price": 250,
+  "description": "Streamlined actuating concept",
+  "categoryId": 32,
+  "images": [
+    "http://www.frank.com/"
+  ]
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 87,
+  "title": "Operative contextually-based hub-57f87de7f4c140d591a10520d4d28723",
+  "slug": "operative-contextually-based-hub-57f87de7f4c140d591a10520d4d28723",
+  "price": 250,
+  "description": "Streamlined actuating concept",
+  "category": {
+    "id": 32,
+    "name": "Books_ad280653d1b3401ca77497dc63bbed14",
+    "slug": "books-ad280653d1b3401ca77497dc63bbed14",
+    "image": "https://www.herman.com/",
+    "creationAt": "2026-09-12T03:48:35.000Z",
+    "updatedAt": "2026-09-12T03:48:35.000Z"
+  },
+  "images": [
+    "http://www.frank.com/"
+  ],
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+}
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Books_ad280653d1b3401ca77497dc63bbed14",
+  "slug": "books-ad280653d1b3401ca77497dc63bbed14",
+  "image": "https://www.herman.com/",
+  "creationAt": "2026-09-12T03:48:35.000Z",
+  "updatedAt": "2026-09-12T03:48:35.000Z"
+} 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-12 03:48:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 400
+Body:
+{
+  "path": "/api/v1/categories/32",
+  "timestamp": "2026-09-12T03:48:35.306Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

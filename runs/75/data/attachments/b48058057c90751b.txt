@@ -1,0 +1,79 @@
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_c12babe7338344548fd76f33977f06b4",
+  "image": "http://www.wright.com/"
+} 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 268,
+  "name": "Clothing_c12babe7338344548fd76f33977f06b4",
+  "slug": "clothing-c12babe7338344548fd76f33977f06b4",
+  "image": "http://www.wright.com/",
+  "creationAt": "2026-09-26T04:12:03.000Z",
+  "updatedAt": "2026-09-26T04:12:03.000Z"
+}
+2026-09-26 04:12:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Sharable full-range service-desk-9a3a8b2ff961427693ec3dd4082d8e07",
+  "price": 958,
+  "description": "Profound demand-driven customer loyalty",
+  "categoryId": 268,
+  "images": [
+    "http://carter.org/"
+  ]
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 234,
+  "title": "Sharable full-range service-desk-9a3a8b2ff961427693ec3dd4082d8e07",
+  "slug": "sharable-full-range-service-desk-9a3a8b2ff961427693ec3dd4082d8e07",
+  "price": 958,
+  "description": "Profound demand-driven customer loyalty",
+  "category": {
+    "id": 268,
+    "name": "Clothing_c12babe7338344548fd76f33977f06b4",
+    "slug": "clothing-c12babe7338344548fd76f33977f06b4",
+    "image": "http://www.wright.com/",
+    "creationAt": "2026-09-26T04:12:03.000Z",
+    "updatedAt": "2026-09-26T04:12:03.000Z"
+  },
+  "images": [
+    "http://carter.org/"
+  ],
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+}
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/268
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/268 -> 200
+Body:
+{
+  "id": 268,
+  "name": "Clothing_c12babe7338344548fd76f33977f06b4",
+  "slug": "clothing-c12babe7338344548fd76f33977f06b4",
+  "image": "http://www.wright.com/",
+  "creationAt": "2026-09-26T04:12:03.000Z",
+  "updatedAt": "2026-09-26T04:12:03.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/268
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/268 -> 400
+Body:
+{
+  "path": "/api/v1/categories/268",
+  "timestamp": "2026-09-26T04:12:04.077Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

@@ -1,0 +1,55 @@
+2026-09-30 04:44:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_7b782ef7b96248a4864dab8f47b85acb",
+  "image": "http://fitzgerald.com/"
+} 
+
+2026-09-30 04:44:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 166,
+  "name": "Home & Kitchen_7b782ef7b96248a4864dab8f47b85acb",
+  "slug": "home-kitchen-7b782ef7b96248a4864dab8f47b85acb",
+  "image": "http://fitzgerald.com/",
+  "creationAt": "2026-09-30T04:44:10.000Z",
+  "updatedAt": "2026-09-30T04:44:10.000Z"
+}
+2026-09-30 04:44:10 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/166
+Body:
+{
+  "name": "Clothing_89a42b310090421cbb04e66d71da154a",
+  "image": null
+} 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/166 -> 400
+Body:
+{
+  "path": "/api/v1/categories/166",
+  "timestamp": "2026-09-30T04:44:11.066Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/166
+Body:
+<empty> 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/166 -> 200
+Body:
+{
+  "id": 166,
+  "name": "Home & Kitchen_7b782ef7b96248a4864dab8f47b85acb",
+  "slug": "home-kitchen-7b782ef7b96248a4864dab8f47b85acb",
+  "image": "http://fitzgerald.com/",
+  "creationAt": "2026-09-30T04:44:10.000Z",
+  "updatedAt": "2026-09-30T04:44:10.000Z"
+} 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/166
+Body:
+<empty> 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/166 -> 200
+Body:
+true

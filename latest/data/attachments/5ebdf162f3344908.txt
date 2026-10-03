@@ -1,0 +1,55 @@
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_90d325a366a04a79898eddbc495bf528",
+  "image": "http://www.murray-lawson.info/"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 671,
+  "name": "Sports & Fitness_90d325a366a04a79898eddbc495bf528",
+  "slug": "sports-fitness-90d325a366a04a79898eddbc495bf528",
+  "image": "http://www.murray-lawson.info/",
+  "creationAt": "2026-10-03T04:29:18.000Z",
+  "updatedAt": "2026-10-03T04:29:18.000Z"
+}
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/671
+Body:
+{
+  "name": "Toys_5c9e1db057174f8dbca765dede0ceb66",
+  "image": null
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/671 -> 400
+Body:
+{
+  "path": "/api/v1/categories/671",
+  "timestamp": "2026-10-03T04:29:19.076Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/671
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/671 -> 200
+Body:
+{
+  "id": 671,
+  "name": "Sports & Fitness_90d325a366a04a79898eddbc495bf528",
+  "slug": "sports-fitness-90d325a366a04a79898eddbc495bf528",
+  "image": "http://www.murray-lawson.info/",
+  "creationAt": "2026-10-03T04:29:18.000Z",
+  "updatedAt": "2026-10-03T04:29:18.000Z"
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/671
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/671 -> 200
+Body:
+true

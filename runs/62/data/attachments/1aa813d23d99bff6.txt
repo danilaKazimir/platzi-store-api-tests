@@ -1,0 +1,46 @@
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_10821ae309ed45d997b80940e98c76df",
+  "image": "https://www.hawkins.info/"
+} 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Pet Supplies_10821ae309ed45d997b80940e98c76df",
+  "slug": "pet-supplies-10821ae309ed45d997b80940e98c76df",
+  "image": "https://www.hawkins.info/",
+  "creationAt": "2026-09-13T03:56:53.000Z",
+  "updatedAt": "2026-09-13T03:56:53.000Z"
+}
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20/products
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20/products -> 200
+Body:
+[]
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Pet Supplies_10821ae309ed45d997b80940e98c76df",
+  "slug": "pet-supplies-10821ae309ed45d997b80940e98c76df",
+  "image": "https://www.hawkins.info/",
+  "creationAt": "2026-09-13T03:56:53.000Z",
+  "updatedAt": "2026-09-13T03:56:53.000Z"
+} 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-13 03:56:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

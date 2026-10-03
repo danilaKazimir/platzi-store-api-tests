@@ -1,0 +1,79 @@
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3cf99c9d03944b2dba560ba277a8c069",
+  "image": "http://abbott-barnett.com/"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Sports & Fitness_3cf99c9d03944b2dba560ba277a8c069",
+  "slug": "sports-fitness-3cf99c9d03944b2dba560ba277a8c069",
+  "image": "http://abbott-barnett.com/",
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+}
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergized global artificial intelligence-58197e4ecdbf49e7bb594314f5cd8780",
+  "price": 891,
+  "description": "Mandatory radical artificial intelligence",
+  "categoryId": 28,
+  "images": [
+    "http://burns-dougherty.net/"
+  ]
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 75,
+  "title": "Synergized global artificial intelligence-58197e4ecdbf49e7bb594314f5cd8780",
+  "slug": "synergized-global-artificial-intelligence-58197e4ecdbf49e7bb594314f5cd8780",
+  "price": 891,
+  "description": "Mandatory radical artificial intelligence",
+  "category": {
+    "id": 28,
+    "name": "Sports & Fitness_3cf99c9d03944b2dba560ba277a8c069",
+    "slug": "sports-fitness-3cf99c9d03944b2dba560ba277a8c069",
+    "image": "http://abbott-barnett.com/",
+    "creationAt": "2026-09-09T03:49:38.000Z",
+    "updatedAt": "2026-09-09T03:49:38.000Z"
+  },
+  "images": [
+    "http://burns-dougherty.net/"
+  ],
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+}
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Sports & Fitness_3cf99c9d03944b2dba560ba277a8c069",
+  "slug": "sports-fitness-3cf99c9d03944b2dba560ba277a8c069",
+  "image": "http://abbott-barnett.com/",
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 400
+Body:
+{
+  "path": "/api/v1/categories/28",
+  "timestamp": "2026-09-09T03:49:38.548Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

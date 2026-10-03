@@ -1,0 +1,53 @@
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_c0932bf9b3b940a29843c1845b33ad0f",
+  "image": "http://www.jones-rowland.com/"
+} 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_c0932bf9b3b940a29843c1845b33ad0f",
+  "slug": "automotive-accessories-c0932bf9b3b940a29843c1845b33ad0f",
+  "image": "http://www.jones-rowland.com/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+}
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-c0932bf9b3b940a29843c1845b33ad0f
+Body:
+<empty> 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-c0932bf9b3b940a29843c1845b33ad0f -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_c0932bf9b3b940a29843c1845b33ad0f",
+  "slug": "automotive-accessories-c0932bf9b3b940a29843c1845b33ad0f",
+  "image": "http://www.jones-rowland.com/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+}
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_c0932bf9b3b940a29843c1845b33ad0f",
+  "slug": "automotive-accessories-c0932bf9b3b940a29843c1845b33ad0f",
+  "image": "http://www.jones-rowland.com/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+} 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true

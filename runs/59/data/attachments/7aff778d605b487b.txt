@@ -1,0 +1,55 @@
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_610fa8648ad544d2884761788f7eff5d",
+  "image": "https://www.warner.com/"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Electronics_610fa8648ad544d2884761788f7eff5d",
+  "slug": "electronics-610fa8648ad544d2884761788f7eff5d",
+  "image": "https://www.warner.com/",
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/17
+Body:
+{
+  "name": null,
+  "image": "https://hoffman.com/"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/17 -> 400
+Body:
+{
+  "path": "/api/v1/categories/17",
+  "timestamp": "2026-09-10T03:48:23.313Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Electronics_610fa8648ad544d2884761788f7eff5d",
+  "slug": "electronics-610fa8648ad544d2884761788f7eff5d",
+  "image": "https://www.warner.com/",
+  "creationAt": "2026-09-10T03:48:23.000Z",
+  "updatedAt": "2026-09-10T03:48:23.000Z"
+} 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-09-10 03:48:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true

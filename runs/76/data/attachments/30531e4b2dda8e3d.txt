@@ -1,0 +1,125 @@
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_8a1247f447814c568b1e6a30ea07e549",
+  "image": "https://carter.biz/"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 221,
+  "name": "Clothing_8a1247f447814c568b1e6a30ea07e549",
+  "slug": "clothing-8a1247f447814c568b1e6a30ea07e549",
+  "image": "https://carter.biz/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Function-based local process improvement-11ce790cf1a84da480163d864a6dc6e9",
+  "price": 272,
+  "description": "Optimized zero tolerance installation",
+  "categoryId": 221,
+  "images": [
+    "https://wheeler-johnson.com/"
+  ]
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 246,
+  "title": "Function-based local process improvement-11ce790cf1a84da480163d864a6dc6e9",
+  "slug": "function-based-local-process-improvement-11ce790cf1a84da480163d864a6dc6e9",
+  "price": 272,
+  "description": "Optimized zero tolerance installation",
+  "category": {
+    "id": 221,
+    "name": "Clothing_8a1247f447814c568b1e6a30ea07e549",
+    "slug": "clothing-8a1247f447814c568b1e6a30ea07e549",
+    "image": "https://carter.biz/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "https://wheeler-johnson.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/246
+Body:
+{
+  "title": "Programmable bottom-line matrices-babcbf54566d48988f159063e71e27ee",
+  "price": 548,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/246 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-27 04:27:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+{
+  "id": 246,
+  "title": "Function-based local process improvement-11ce790cf1a84da480163d864a6dc6e9",
+  "slug": "function-based-local-process-improvement-11ce790cf1a84da480163d864a6dc6e9",
+  "price": 272,
+  "description": "Optimized zero tolerance installation",
+  "category": {
+    "id": 221,
+    "name": "Clothing_8a1247f447814c568b1e6a30ea07e549",
+    "slug": "clothing-8a1247f447814c568b1e6a30ea07e549",
+    "image": "https://carter.biz/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "https://wheeler-johnson.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+true 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/221
+Body:
+<empty> 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/221 -> 200
+Body:
+{
+  "id": 221,
+  "name": "Clothing_8a1247f447814c568b1e6a30ea07e549",
+  "slug": "clothing-8a1247f447814c568b1e6a30ea07e549",
+  "image": "https://carter.biz/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/221
+Body:
+<empty> 
+
+2026-09-27 04:27:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/221 -> 200
+Body:
+true

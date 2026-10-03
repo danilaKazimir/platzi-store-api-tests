@@ -1,0 +1,135 @@
+2026-09-06 03:40:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_3c51d648653140529c87953b7a91bb0b",
+  "image": "http://gordon.net/"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Toys_3c51d648653140529c87953b7a91bb0b",
+  "slug": "toys-3c51d648653140529c87953b7a91bb0b",
+  "image": "http://gordon.net/",
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Proactive regional product-47b9aeadeaef42398114ff8fa774555a",
+  "price": 690,
+  "description": "Innovative secondary knowledge user",
+  "categoryId": 20,
+  "images": [
+    "https://wood-gilmore.com/"
+  ]
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 84,
+  "title": "Proactive regional product-47b9aeadeaef42398114ff8fa774555a",
+  "slug": "proactive-regional-product-47b9aeadeaef42398114ff8fa774555a",
+  "price": 690,
+  "description": "Innovative secondary knowledge user",
+  "category": {
+    "id": 20,
+    "name": "Toys_3c51d648653140529c87953b7a91bb0b",
+    "slug": "toys-3c51d648653140529c87953b7a91bb0b",
+    "image": "http://gordon.net/",
+    "creationAt": "2026-09-06T03:40:25.000Z",
+    "updatedAt": "2026-09-06T03:40:25.000Z"
+  },
+  "images": [
+    "https://wood-gilmore.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+}
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+{
+  "id": 84,
+  "title": "Proactive regional product-47b9aeadeaef42398114ff8fa774555a",
+  "slug": "proactive-regional-product-47b9aeadeaef42398114ff8fa774555a",
+  "price": 690,
+  "description": "Innovative secondary knowledge user",
+  "category": {
+    "id": 20,
+    "name": "Toys_3c51d648653140529c87953b7a91bb0b",
+    "slug": "toys-3c51d648653140529c87953b7a91bb0b",
+    "image": "http://gordon.net/",
+    "creationAt": "2026-09-06T03:40:25.000Z",
+    "updatedAt": "2026-09-06T03:40:25.000Z"
+  },
+  "images": [
+    "https://wood-gilmore.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+}
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+{
+  "id": 84,
+  "title": "Proactive regional product-47b9aeadeaef42398114ff8fa774555a",
+  "slug": "proactive-regional-product-47b9aeadeaef42398114ff8fa774555a",
+  "price": 690,
+  "description": "Innovative secondary knowledge user",
+  "category": {
+    "id": 20,
+    "name": "Toys_3c51d648653140529c87953b7a91bb0b",
+    "slug": "toys-3c51d648653140529c87953b7a91bb0b",
+    "image": "http://gordon.net/",
+    "creationAt": "2026-09-06T03:40:25.000Z",
+    "updatedAt": "2026-09-06T03:40:25.000Z"
+  },
+  "images": [
+    "https://wood-gilmore.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+true 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Toys_3c51d648653140529c87953b7a91bb0b",
+  "slug": "toys-3c51d648653140529c87953b7a91bb0b",
+  "image": "http://gordon.net/",
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

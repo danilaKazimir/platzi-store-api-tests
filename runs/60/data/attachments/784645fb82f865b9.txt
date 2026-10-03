@@ -1,0 +1,135 @@
+2026-09-11 03:45:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_52c5e68ce04242838f3352f5a9dd7191",
+  "image": "https://miller.com/"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Electronics_52c5e68ce04242838f3352f5a9dd7191",
+  "slug": "electronics-52c5e68ce04242838f3352f5a9dd7191",
+  "image": "https://miller.com/",
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable high-level Graphic Interface-8d27519f3f1540f49c278c02c0990fe7",
+  "price": 250,
+  "description": "Configurable non-volatile analyzer",
+  "categoryId": 40,
+  "images": [
+    "https://robinson.info/"
+  ]
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 70,
+  "title": "Upgradable high-level Graphic Interface-8d27519f3f1540f49c278c02c0990fe7",
+  "slug": "upgradable-high-level-graphic-interface-8d27519f3f1540f49c278c02c0990fe7",
+  "price": 250,
+  "description": "Configurable non-volatile analyzer",
+  "category": {
+    "id": 40,
+    "name": "Electronics_52c5e68ce04242838f3352f5a9dd7191",
+    "slug": "electronics-52c5e68ce04242838f3352f5a9dd7191",
+    "image": "https://miller.com/",
+    "creationAt": "2026-09-11T03:45:26.000Z",
+    "updatedAt": "2026-09-11T03:45:26.000Z"
+  },
+  "images": [
+    "https://robinson.info/"
+  ],
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+}
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/upgradable-high-level-graphic-interface-8d27519f3f1540f49c278c02c0990fe7
+Body:
+<empty> 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/upgradable-high-level-graphic-interface-8d27519f3f1540f49c278c02c0990fe7 -> 200
+Body:
+{
+  "id": 70,
+  "title": "Upgradable high-level Graphic Interface-8d27519f3f1540f49c278c02c0990fe7",
+  "slug": "upgradable-high-level-graphic-interface-8d27519f3f1540f49c278c02c0990fe7",
+  "price": 250,
+  "description": "Configurable non-volatile analyzer",
+  "category": {
+    "id": 40,
+    "name": "Electronics_52c5e68ce04242838f3352f5a9dd7191",
+    "slug": "electronics-52c5e68ce04242838f3352f5a9dd7191",
+    "image": "https://miller.com/",
+    "creationAt": "2026-09-11T03:45:26.000Z",
+    "updatedAt": "2026-09-11T03:45:26.000Z"
+  },
+  "images": [
+    "https://robinson.info/"
+  ],
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+}
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+{
+  "id": 70,
+  "title": "Upgradable high-level Graphic Interface-8d27519f3f1540f49c278c02c0990fe7",
+  "slug": "upgradable-high-level-graphic-interface-8d27519f3f1540f49c278c02c0990fe7",
+  "price": 250,
+  "description": "Configurable non-volatile analyzer",
+  "category": {
+    "id": 40,
+    "name": "Electronics_52c5e68ce04242838f3352f5a9dd7191",
+    "slug": "electronics-52c5e68ce04242838f3352f5a9dd7191",
+    "image": "https://miller.com/",
+    "creationAt": "2026-09-11T03:45:26.000Z",
+    "updatedAt": "2026-09-11T03:45:26.000Z"
+  },
+  "images": [
+    "https://robinson.info/"
+  ],
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+true 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Electronics_52c5e68ce04242838f3352f5a9dd7191",
+  "slug": "electronics-52c5e68ce04242838f3352f5a9dd7191",
+  "image": "https://miller.com/",
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

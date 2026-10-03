@@ -1,0 +1,71 @@
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_c7deba83e13748d29251b2e221563f83",
+  "image": "https://hodge.com/"
+} 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Pet Supplies_c7deba83e13748d29251b2e221563f83",
+  "slug": "pet-supplies-c7deba83e13748d29251b2e221563f83",
+  "image": "https://hodge.com/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:26.000Z"
+}
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/14
+Body:
+{
+  "name": "Toys_8871abfe3e7c4f00b4080b4563508bc3",
+  "image": "https://www.stephens.com/"
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Toys_8871abfe3e7c4f00b4080b4563508bc3",
+  "slug": "toys-8871abfe3e7c4f00b4080b4563508bc3",
+  "image": "https://www.stephens.com/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Toys_8871abfe3e7c4f00b4080b4563508bc3",
+  "slug": "toys-8871abfe3e7c4f00b4080b4563508bc3",
+  "image": "https://www.stephens.com/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+}
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Toys_8871abfe3e7c4f00b4080b4563508bc3",
+  "slug": "toys-8871abfe3e7c4f00b4080b4563508bc3",
+  "image": "https://www.stephens.com/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:27.000Z"
+} 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-14 04:04:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

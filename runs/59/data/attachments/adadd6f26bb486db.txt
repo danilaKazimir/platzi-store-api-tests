@@ -1,0 +1,79 @@
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_6d9684c506434ce59c729516ab81fd03",
+  "image": "http://cook-lewis.com/"
+} 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 12,
+  "name": "Electronics_6d9684c506434ce59c729516ab81fd03",
+  "slug": "electronics-6d9684c506434ce59c729516ab81fd03",
+  "image": "http://cook-lewis.com/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+}
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented composite info-mediaries-685f477202fc409881463badb756642f",
+  "price": 655,
+  "description": "Profound uniform challenge",
+  "categoryId": 12,
+  "images": [
+    "http://ward.com/"
+  ]
+} 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 61,
+  "title": "Vision-oriented composite info-mediaries-685f477202fc409881463badb756642f",
+  "slug": "vision-oriented-composite-info-mediaries-685f477202fc409881463badb756642f",
+  "price": 655,
+  "description": "Profound uniform challenge",
+  "category": {
+    "id": 12,
+    "name": "Electronics_6d9684c506434ce59c729516ab81fd03",
+    "slug": "electronics-6d9684c506434ce59c729516ab81fd03",
+    "image": "http://cook-lewis.com/",
+    "creationAt": "2026-09-10T03:48:22.000Z",
+    "updatedAt": "2026-09-10T03:48:22.000Z"
+  },
+  "images": [
+    "http://ward.com/"
+  ],
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+}
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+{
+  "id": 12,
+  "name": "Electronics_6d9684c506434ce59c729516ab81fd03",
+  "slug": "electronics-6d9684c506434ce59c729516ab81fd03",
+  "image": "http://cook-lewis.com/",
+  "creationAt": "2026-09-10T03:48:22.000Z",
+  "updatedAt": "2026-09-10T03:48:22.000Z"
+} 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-09-10 03:48:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/12 -> 400
+Body:
+{
+  "path": "/api/v1/categories/12",
+  "timestamp": "2026-09-10T03:48:22.982Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

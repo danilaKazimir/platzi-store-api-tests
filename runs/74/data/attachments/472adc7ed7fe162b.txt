@@ -1,0 +1,79 @@
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_438a7c69b4184bfcac08676e3bbe7080",
+  "image": "https://www.henry.com/"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 492,
+  "name": "Clothing_438a7c69b4184bfcac08676e3bbe7080",
+  "slug": "clothing-438a7c69b4184bfcac08676e3bbe7080",
+  "image": "https://www.henry.com/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+}
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered zero administration open architecture-715a8649e9034cbabf2feb7d25c0c351",
+  "price": 238,
+  "description": "Cloned bandwidth-monitored access",
+  "categoryId": 492,
+  "images": [
+    "https://www.fitzgerald.com/"
+  ]
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 349,
+  "title": "Multi-tiered zero administration open architecture-715a8649e9034cbabf2feb7d25c0c351",
+  "slug": "multi-tiered-zero-administration-open-architecture-715a8649e9034cbabf2feb7d25c0c351",
+  "price": 238,
+  "description": "Cloned bandwidth-monitored access",
+  "category": {
+    "id": 492,
+    "name": "Clothing_438a7c69b4184bfcac08676e3bbe7080",
+    "slug": "clothing-438a7c69b4184bfcac08676e3bbe7080",
+    "image": "https://www.henry.com/",
+    "creationAt": "2026-09-25T04:07:03.000Z",
+    "updatedAt": "2026-09-25T04:07:03.000Z"
+  },
+  "images": [
+    "https://www.fitzgerald.com/"
+  ],
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+}
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/492
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/492 -> 200
+Body:
+{
+  "id": 492,
+  "name": "Clothing_438a7c69b4184bfcac08676e3bbe7080",
+  "slug": "clothing-438a7c69b4184bfcac08676e3bbe7080",
+  "image": "https://www.henry.com/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/492
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/492 -> 400
+Body:
+{
+  "path": "/api/v1/categories/492",
+  "timestamp": "2026-09-25T04:07:04.213Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

@@ -1,0 +1,79 @@
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_7e50a00116534db39818e4f1d215efc6",
+  "image": "https://www.munoz.net/"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 214,
+  "name": "Toys_7e50a00116534db39818e4f1d215efc6",
+  "slug": "toys-7e50a00116534db39818e4f1d215efc6",
+  "image": "https://www.munoz.net/",
+  "creationAt": "2026-09-27T04:27:01.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Virtual zero tolerance Graphic Interface-10d18205ac8844748c45b474597687ea",
+  "price": 675,
+  "description": "Monitored well-modulated attitude",
+  "categoryId": 214,
+  "images": [
+    "https://www.mann.com/"
+  ]
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 237,
+  "title": "Virtual zero tolerance Graphic Interface-10d18205ac8844748c45b474597687ea",
+  "slug": "virtual-zero-tolerance-graphic-interface-10d18205ac8844748c45b474597687ea",
+  "price": 675,
+  "description": "Monitored well-modulated attitude",
+  "category": {
+    "id": 214,
+    "name": "Toys_7e50a00116534db39818e4f1d215efc6",
+    "slug": "toys-7e50a00116534db39818e4f1d215efc6",
+    "image": "https://www.munoz.net/",
+    "creationAt": "2026-09-27T04:27:01.000Z",
+    "updatedAt": "2026-09-27T04:27:01.000Z"
+  },
+  "images": [
+    "https://www.mann.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:01.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/214
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/214 -> 200
+Body:
+{
+  "id": 214,
+  "name": "Toys_7e50a00116534db39818e4f1d215efc6",
+  "slug": "toys-7e50a00116534db39818e4f1d215efc6",
+  "image": "https://www.munoz.net/",
+  "creationAt": "2026-09-27T04:27:01.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/214
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/214 -> 400
+Body:
+{
+  "path": "/api/v1/categories/214",
+  "timestamp": "2026-09-27T04:27:01.951Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

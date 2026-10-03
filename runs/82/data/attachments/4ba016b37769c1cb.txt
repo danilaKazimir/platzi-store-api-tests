@@ -1,0 +1,79 @@
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_bcea4d1230be4b5bb556d0156627fb63",
+  "image": "https://www.edwards-lewis.net/"
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 676,
+  "name": "Pet Supplies_bcea4d1230be4b5bb556d0156627fb63",
+  "slug": "pet-supplies-bcea4d1230be4b5bb556d0156627fb63",
+  "image": "https://www.edwards-lewis.net/",
+  "creationAt": "2026-10-03T04:29:19.000Z",
+  "updatedAt": "2026-10-03T04:29:19.000Z"
+}
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Switchable high-level productivity-ae3ed095f74840bdbb4a5a171762d4de",
+  "price": 146,
+  "description": "Extended contextually-based synergy",
+  "categoryId": 676,
+  "images": [
+    "https://martinez.net/"
+  ]
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 536,
+  "title": "Switchable high-level productivity-ae3ed095f74840bdbb4a5a171762d4de",
+  "slug": "switchable-high-level-productivity-ae3ed095f74840bdbb4a5a171762d4de",
+  "price": 146,
+  "description": "Extended contextually-based synergy",
+  "category": {
+    "id": 676,
+    "name": "Pet Supplies_bcea4d1230be4b5bb556d0156627fb63",
+    "slug": "pet-supplies-bcea4d1230be4b5bb556d0156627fb63",
+    "image": "https://www.edwards-lewis.net/",
+    "creationAt": "2026-10-03T04:29:19.000Z",
+    "updatedAt": "2026-10-03T04:29:19.000Z"
+  },
+  "images": [
+    "https://martinez.net/"
+  ],
+  "creationAt": "2026-10-03T04:29:19.000Z",
+  "updatedAt": "2026-10-03T04:29:19.000Z"
+}
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/676
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/676 -> 200
+Body:
+{
+  "id": 676,
+  "name": "Pet Supplies_bcea4d1230be4b5bb556d0156627fb63",
+  "slug": "pet-supplies-bcea4d1230be4b5bb556d0156627fb63",
+  "image": "https://www.edwards-lewis.net/",
+  "creationAt": "2026-10-03T04:29:19.000Z",
+  "updatedAt": "2026-10-03T04:29:19.000Z"
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/676
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/676 -> 400
+Body:
+{
+  "path": "/api/v1/categories/676",
+  "timestamp": "2026-10-03T04:29:19.957Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

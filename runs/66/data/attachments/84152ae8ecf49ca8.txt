@@ -1,0 +1,53 @@
+2026-09-17 04:07:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_957838e3d6a94f6c81c9cab1da5f5c69",
+  "image": "http://www.perkins-grant.com/"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Pet Supplies_957838e3d6a94f6c81c9cab1da5f5c69",
+  "slug": "pet-supplies-957838e3d6a94f6c81c9cab1da5f5c69",
+  "image": "http://www.perkins-grant.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Pet Supplies_957838e3d6a94f6c81c9cab1da5f5c69",
+  "slug": "pet-supplies-957838e3d6a94f6c81c9cab1da5f5c69",
+  "image": "http://www.perkins-grant.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Pet Supplies_957838e3d6a94f6c81c9cab1da5f5c69",
+  "slug": "pet-supplies-957838e3d6a94f6c81c9cab1da5f5c69",
+  "image": "http://www.perkins-grant.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true

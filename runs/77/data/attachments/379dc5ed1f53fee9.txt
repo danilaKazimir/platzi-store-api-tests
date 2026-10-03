@@ -1,0 +1,15 @@
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Automotive Accessories_7a04ac2d927a492fa1118ddae5e56033",
+  "image": "https://mays-davis.com/"
+} 
+
+2026-09-28 04:28:18 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-09-28T04:28:18.120Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

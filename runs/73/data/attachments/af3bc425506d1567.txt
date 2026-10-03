@@ -1,0 +1,135 @@
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_3e3a9d7c78fe414cb56b9b796d64cfa9",
+  "image": "http://brewer.com/"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 178,
+  "name": "Automotive Accessories_3e3a9d7c78fe414cb56b9b796d64cfa9",
+  "slug": "automotive-accessories-3e3a9d7c78fe414cb56b9b796d64cfa9",
+  "image": "http://brewer.com/",
+  "creationAt": "2026-09-24T03:52:06.000Z",
+  "updatedAt": "2026-09-24T03:52:06.000Z"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative multi-state info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "price": 601,
+  "description": "Implemented transitional capability",
+  "categoryId": 178,
+  "images": [
+    "http://www.garcia-walker.org/"
+  ]
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 411,
+  "title": "Innovative multi-state info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "slug": "innovative-multi-state-info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "price": 601,
+  "description": "Implemented transitional capability",
+  "category": {
+    "id": 178,
+    "name": "Automotive Accessories_3e3a9d7c78fe414cb56b9b796d64cfa9",
+    "slug": "automotive-accessories-3e3a9d7c78fe414cb56b9b796d64cfa9",
+    "image": "http://brewer.com/",
+    "creationAt": "2026-09-24T03:52:06.000Z",
+    "updatedAt": "2026-09-24T03:52:06.000Z"
+  },
+  "images": [
+    "http://www.garcia-walker.org/"
+  ],
+  "creationAt": "2026-09-24T03:52:06.000Z",
+  "updatedAt": "2026-09-24T03:52:06.000Z"
+}
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/innovative-multi-state-info-mediaries-9f812da94aad4891b7df1d00a02814db
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/innovative-multi-state-info-mediaries-9f812da94aad4891b7df1d00a02814db -> 200
+Body:
+{
+  "id": 411,
+  "title": "Innovative multi-state info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "slug": "innovative-multi-state-info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "price": 601,
+  "description": "Implemented transitional capability",
+  "category": {
+    "id": 178,
+    "name": "Automotive Accessories_3e3a9d7c78fe414cb56b9b796d64cfa9",
+    "slug": "automotive-accessories-3e3a9d7c78fe414cb56b9b796d64cfa9",
+    "image": "http://brewer.com/",
+    "creationAt": "2026-09-24T03:52:06.000Z",
+    "updatedAt": "2026-09-24T03:52:06.000Z"
+  },
+  "images": [
+    "http://www.garcia-walker.org/"
+  ],
+  "creationAt": "2026-09-24T03:52:06.000Z",
+  "updatedAt": "2026-09-24T03:52:06.000Z"
+}
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/411
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/411 -> 200
+Body:
+{
+  "id": 411,
+  "title": "Innovative multi-state info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "slug": "innovative-multi-state-info-mediaries-9f812da94aad4891b7df1d00a02814db",
+  "price": 601,
+  "description": "Implemented transitional capability",
+  "category": {
+    "id": 178,
+    "name": "Automotive Accessories_3e3a9d7c78fe414cb56b9b796d64cfa9",
+    "slug": "automotive-accessories-3e3a9d7c78fe414cb56b9b796d64cfa9",
+    "image": "http://brewer.com/",
+    "creationAt": "2026-09-24T03:52:06.000Z",
+    "updatedAt": "2026-09-24T03:52:06.000Z"
+  },
+  "images": [
+    "http://www.garcia-walker.org/"
+  ],
+  "creationAt": "2026-09-24T03:52:06.000Z",
+  "updatedAt": "2026-09-24T03:52:06.000Z"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/411
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/411 -> 200
+Body:
+true 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/178
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/178 -> 200
+Body:
+{
+  "id": 178,
+  "name": "Automotive Accessories_3e3a9d7c78fe414cb56b9b796d64cfa9",
+  "slug": "automotive-accessories-3e3a9d7c78fe414cb56b9b796d64cfa9",
+  "image": "http://brewer.com/",
+  "creationAt": "2026-09-24T03:52:06.000Z",
+  "updatedAt": "2026-09-24T03:52:06.000Z"
+} 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/178
+Body:
+<empty> 
+
+2026-09-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/178 -> 200
+Body:
+true

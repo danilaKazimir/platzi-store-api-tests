@@ -1,0 +1,71 @@
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7e73513e6714415298d70f48e744174b",
+  "image": "http://www.strickland.org/"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 96,
+  "name": "Books_7e73513e6714415298d70f48e744174b",
+  "slug": "books-7e73513e6714415298d70f48e744174b",
+  "image": "http://www.strickland.org/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+}
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/96
+Body:
+{
+  "name": "Electronics_4b9b9e5da0b44c6d91516d831a867011",
+  "image": "http://pace.com/"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/96 -> 200
+Body:
+{
+  "id": 96,
+  "name": "Electronics_4b9b9e5da0b44c6d91516d831a867011",
+  "slug": "electronics-4b9b9e5da0b44c6d91516d831a867011",
+  "image": "http://pace.com/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/96
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/96 -> 200
+Body:
+{
+  "id": 96,
+  "name": "Electronics_4b9b9e5da0b44c6d91516d831a867011",
+  "slug": "electronics-4b9b9e5da0b44c6d91516d831a867011",
+  "image": "http://pace.com/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+}
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/96
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/96 -> 200
+Body:
+{
+  "id": 96,
+  "name": "Electronics_4b9b9e5da0b44c6d91516d831a867011",
+  "slug": "electronics-4b9b9e5da0b44c6d91516d831a867011",
+  "image": "http://pace.com/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/96
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/96 -> 200
+Body:
+true

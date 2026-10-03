@@ -1,0 +1,135 @@
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_6d4d0ceea45d4607bba8c8e36187fa1e",
+  "image": "http://www.kelley.org/"
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Home & Kitchen_6d4d0ceea45d4607bba8c8e36187fa1e",
+  "slug": "home-kitchen-6d4d0ceea45d4607bba8c8e36187fa1e",
+  "image": "http://www.kelley.org/",
+  "creationAt": "2026-09-09T03:49:39.000Z",
+  "updatedAt": "2026-09-09T03:49:39.000Z"
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Customizable zero tolerance framework-d349c5a21ffe477892266c3388f2737b",
+  "price": 379,
+  "description": "Front-line bandwidth-monitored alliance",
+  "categoryId": 35,
+  "images": [
+    "http://rodriguez.com/"
+  ]
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 83,
+  "title": "Customizable zero tolerance framework-d349c5a21ffe477892266c3388f2737b",
+  "slug": "customizable-zero-tolerance-framework-d349c5a21ffe477892266c3388f2737b",
+  "price": 379,
+  "description": "Front-line bandwidth-monitored alliance",
+  "category": {
+    "id": 35,
+    "name": "Home & Kitchen_6d4d0ceea45d4607bba8c8e36187fa1e",
+    "slug": "home-kitchen-6d4d0ceea45d4607bba8c8e36187fa1e",
+    "image": "http://www.kelley.org/",
+    "creationAt": "2026-09-09T03:49:39.000Z",
+    "updatedAt": "2026-09-09T03:49:39.000Z"
+  },
+  "images": [
+    "http://rodriguez.com/"
+  ],
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+}
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/customizable-zero-tolerance-framework-d349c5a21ffe477892266c3388f2737b
+Body:
+<empty> 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/customizable-zero-tolerance-framework-d349c5a21ffe477892266c3388f2737b -> 200
+Body:
+{
+  "id": 83,
+  "title": "Customizable zero tolerance framework-d349c5a21ffe477892266c3388f2737b",
+  "slug": "customizable-zero-tolerance-framework-d349c5a21ffe477892266c3388f2737b",
+  "price": 379,
+  "description": "Front-line bandwidth-monitored alliance",
+  "category": {
+    "id": 35,
+    "name": "Home & Kitchen_6d4d0ceea45d4607bba8c8e36187fa1e",
+    "slug": "home-kitchen-6d4d0ceea45d4607bba8c8e36187fa1e",
+    "image": "http://www.kelley.org/",
+    "creationAt": "2026-09-09T03:49:39.000Z",
+    "updatedAt": "2026-09-09T03:49:39.000Z"
+  },
+  "images": [
+    "http://rodriguez.com/"
+  ],
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+}
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+{
+  "id": 83,
+  "title": "Customizable zero tolerance framework-d349c5a21ffe477892266c3388f2737b",
+  "slug": "customizable-zero-tolerance-framework-d349c5a21ffe477892266c3388f2737b",
+  "price": 379,
+  "description": "Front-line bandwidth-monitored alliance",
+  "category": {
+    "id": 35,
+    "name": "Home & Kitchen_6d4d0ceea45d4607bba8c8e36187fa1e",
+    "slug": "home-kitchen-6d4d0ceea45d4607bba8c8e36187fa1e",
+    "image": "http://www.kelley.org/",
+    "creationAt": "2026-09-09T03:49:39.000Z",
+    "updatedAt": "2026-09-09T03:49:39.000Z"
+  },
+  "images": [
+    "http://rodriguez.com/"
+  ],
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+true 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Home & Kitchen_6d4d0ceea45d4607bba8c8e36187fa1e",
+  "slug": "home-kitchen-6d4d0ceea45d4607bba8c8e36187fa1e",
+  "image": "http://www.kelley.org/",
+  "creationAt": "2026-09-09T03:49:39.000Z",
+  "updatedAt": "2026-09-09T03:49:39.000Z"
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

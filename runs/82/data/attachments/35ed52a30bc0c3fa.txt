@@ -1,0 +1,135 @@
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_011d9069946547219e1e57cdbac6768f",
+  "image": "http://www.bryan.com/"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 681,
+  "name": "Toys_011d9069946547219e1e57cdbac6768f",
+  "slug": "toys-011d9069946547219e1e57cdbac6768f",
+  "image": "http://www.bryan.com/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered well-modulated implementation-a97960972911497bad93a4af2b82fd0d",
+  "price": 516,
+  "description": "De-engineered interactive circuit",
+  "categoryId": 681,
+  "images": [
+    "http://www.lee-alvarez.com/"
+  ]
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 542,
+  "title": "Reverse-engineered well-modulated implementation-a97960972911497bad93a4af2b82fd0d",
+  "slug": "reverse-engineered-well-modulated-implementation-a97960972911497bad93a4af2b82fd0d",
+  "price": 516,
+  "description": "De-engineered interactive circuit",
+  "category": {
+    "id": 681,
+    "name": "Toys_011d9069946547219e1e57cdbac6768f",
+    "slug": "toys-011d9069946547219e1e57cdbac6768f",
+    "image": "http://www.bryan.com/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "http://www.lee-alvarez.com/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+}
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/reverse-engineered-well-modulated-implementation-a97960972911497bad93a4af2b82fd0d
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/reverse-engineered-well-modulated-implementation-a97960972911497bad93a4af2b82fd0d -> 200
+Body:
+{
+  "id": 542,
+  "title": "Reverse-engineered well-modulated implementation-a97960972911497bad93a4af2b82fd0d",
+  "slug": "reverse-engineered-well-modulated-implementation-a97960972911497bad93a4af2b82fd0d",
+  "price": 516,
+  "description": "De-engineered interactive circuit",
+  "category": {
+    "id": 681,
+    "name": "Toys_011d9069946547219e1e57cdbac6768f",
+    "slug": "toys-011d9069946547219e1e57cdbac6768f",
+    "image": "http://www.bryan.com/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "http://www.lee-alvarez.com/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+}
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/542
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/542 -> 200
+Body:
+{
+  "id": 542,
+  "title": "Reverse-engineered well-modulated implementation-a97960972911497bad93a4af2b82fd0d",
+  "slug": "reverse-engineered-well-modulated-implementation-a97960972911497bad93a4af2b82fd0d",
+  "price": 516,
+  "description": "De-engineered interactive circuit",
+  "category": {
+    "id": 681,
+    "name": "Toys_011d9069946547219e1e57cdbac6768f",
+    "slug": "toys-011d9069946547219e1e57cdbac6768f",
+    "image": "http://www.bryan.com/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "http://www.lee-alvarez.com/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/542
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/542 -> 200
+Body:
+true 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/681
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/681 -> 200
+Body:
+{
+  "id": 681,
+  "name": "Toys_011d9069946547219e1e57cdbac6768f",
+  "slug": "toys-011d9069946547219e1e57cdbac6768f",
+  "image": "http://www.bryan.com/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/681
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/681 -> 200
+Body:
+true

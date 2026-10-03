@@ -1,0 +1,46 @@
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_79596a96f32a43c5b9255c526c9a26fd",
+  "image": "https://www.olson.com/"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 106,
+  "name": "Clothing_79596a96f32a43c5b9255c526c9a26fd",
+  "slug": "clothing-79596a96f32a43c5b9255c526c9a26fd",
+  "image": "https://www.olson.com/",
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+}
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/106/products
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/106/products -> 200
+Body:
+[]
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/106
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/106 -> 200
+Body:
+{
+  "id": 106,
+  "name": "Clothing_79596a96f32a43c5b9255c526c9a26fd",
+  "slug": "clothing-79596a96f32a43c5b9255c526c9a26fd",
+  "image": "https://www.olson.com/",
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/106
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/106 -> 200
+Body:
+true

@@ -1,0 +1,55 @@
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_1ea70eccca704b8d8abfe29878c29060",
+  "image": "http://www.walter-hurley.com/"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 12,
+  "name": "Automotive Accessories_1ea70eccca704b8d8abfe29878c29060",
+  "slug": "automotive-accessories-1ea70eccca704b8d8abfe29878c29060",
+  "image": "http://www.walter-hurley.com/",
+  "creationAt": "2026-09-13T03:56:52.000Z",
+  "updatedAt": "2026-09-13T03:56:52.000Z"
+}
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/12
+Body:
+{
+  "name": null,
+  "image": "https://allen-ellis.com/"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/12 -> 400
+Body:
+{
+  "path": "/api/v1/categories/12",
+  "timestamp": "2026-09-13T03:56:52.210Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+{
+  "id": 12,
+  "name": "Automotive Accessories_1ea70eccca704b8d8abfe29878c29060",
+  "slug": "automotive-accessories-1ea70eccca704b8d8abfe29878c29060",
+  "image": "http://www.walter-hurley.com/",
+  "creationAt": "2026-09-13T03:56:52.000Z",
+  "updatedAt": "2026-09-13T03:56:52.000Z"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+true

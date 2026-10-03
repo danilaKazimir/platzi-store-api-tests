@@ -1,0 +1,135 @@
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_4ed226d3646346c7a4c51f7eaefeab96",
+  "image": "http://jimenez-hicks.com/"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 516,
+  "name": "Home & Kitchen_4ed226d3646346c7a4c51f7eaefeab96",
+  "slug": "home-kitchen-4ed226d3646346c7a4c51f7eaefeab96",
+  "image": "http://jimenez-hicks.com/",
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synchronized demand-driven analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "price": 619,
+  "description": "Optional disintermediate throughput",
+  "categoryId": 516,
+  "images": [
+    "http://www.king.net/"
+  ]
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 499,
+  "title": "Synchronized demand-driven analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "slug": "synchronized-demand-driven-analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "price": 619,
+  "description": "Optional disintermediate throughput",
+  "category": {
+    "id": 516,
+    "name": "Home & Kitchen_4ed226d3646346c7a4c51f7eaefeab96",
+    "slug": "home-kitchen-4ed226d3646346c7a4c51f7eaefeab96",
+    "image": "http://jimenez-hicks.com/",
+    "creationAt": "2026-10-02T04:46:58.000Z",
+    "updatedAt": "2026-10-02T04:46:58.000Z"
+  },
+  "images": [
+    "http://www.king.net/"
+  ],
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+}
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/synchronized-demand-driven-analyzer-a6c94ffda4dd4d068db961d561fd632b
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/synchronized-demand-driven-analyzer-a6c94ffda4dd4d068db961d561fd632b -> 200
+Body:
+{
+  "id": 499,
+  "title": "Synchronized demand-driven analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "slug": "synchronized-demand-driven-analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "price": 619,
+  "description": "Optional disintermediate throughput",
+  "category": {
+    "id": 516,
+    "name": "Home & Kitchen_4ed226d3646346c7a4c51f7eaefeab96",
+    "slug": "home-kitchen-4ed226d3646346c7a4c51f7eaefeab96",
+    "image": "http://jimenez-hicks.com/",
+    "creationAt": "2026-10-02T04:46:58.000Z",
+    "updatedAt": "2026-10-02T04:46:58.000Z"
+  },
+  "images": [
+    "http://www.king.net/"
+  ],
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+}
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/499
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/499 -> 200
+Body:
+{
+  "id": 499,
+  "title": "Synchronized demand-driven analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "slug": "synchronized-demand-driven-analyzer-a6c94ffda4dd4d068db961d561fd632b",
+  "price": 619,
+  "description": "Optional disintermediate throughput",
+  "category": {
+    "id": 516,
+    "name": "Home & Kitchen_4ed226d3646346c7a4c51f7eaefeab96",
+    "slug": "home-kitchen-4ed226d3646346c7a4c51f7eaefeab96",
+    "image": "http://jimenez-hicks.com/",
+    "creationAt": "2026-10-02T04:46:58.000Z",
+    "updatedAt": "2026-10-02T04:46:58.000Z"
+  },
+  "images": [
+    "http://www.king.net/"
+  ],
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/499
+Body:
+<empty> 
+
+2026-10-02 04:46:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/499 -> 200
+Body:
+true 
+
+2026-10-02 04:46:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/516
+Body:
+<empty> 
+
+2026-10-02 04:46:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/516 -> 200
+Body:
+{
+  "id": 516,
+  "name": "Home & Kitchen_4ed226d3646346c7a4c51f7eaefeab96",
+  "slug": "home-kitchen-4ed226d3646346c7a4c51f7eaefeab96",
+  "image": "http://jimenez-hicks.com/",
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+} 
+
+2026-10-02 04:46:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/516
+Body:
+<empty> 
+
+2026-10-02 04:46:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/516 -> 200
+Body:
+true

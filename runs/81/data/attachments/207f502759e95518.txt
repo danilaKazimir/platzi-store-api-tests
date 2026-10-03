@@ -1,0 +1,135 @@
+2026-10-02 04:46:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_139a31e92d9b456b8cfb7ec36325b9ab",
+  "image": "https://allen-thornton.com/"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 515,
+  "name": "Books_139a31e92d9b456b8cfb7ec36325b9ab",
+  "slug": "books-139a31e92d9b456b8cfb7ec36325b9ab",
+  "image": "https://allen-thornton.com/",
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Organic 6thgeneration emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "price": 198,
+  "description": "Multi-layered systemic focus group",
+  "categoryId": 515,
+  "images": [
+    "https://alvarez.com/"
+  ]
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 497,
+  "title": "Organic 6thgeneration emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "slug": "organic-6thgeneration-emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "price": 198,
+  "description": "Multi-layered systemic focus group",
+  "category": {
+    "id": 515,
+    "name": "Books_139a31e92d9b456b8cfb7ec36325b9ab",
+    "slug": "books-139a31e92d9b456b8cfb7ec36325b9ab",
+    "image": "https://allen-thornton.com/",
+    "creationAt": "2026-10-02T04:46:58.000Z",
+    "updatedAt": "2026-10-02T04:46:58.000Z"
+  },
+  "images": [
+    "https://alvarez.com/"
+  ],
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+}
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/497
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/497 -> 200
+Body:
+{
+  "id": 497,
+  "title": "Organic 6thgeneration emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "slug": "organic-6thgeneration-emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "price": 198,
+  "description": "Multi-layered systemic focus group",
+  "category": {
+    "id": 515,
+    "name": "Books_139a31e92d9b456b8cfb7ec36325b9ab",
+    "slug": "books-139a31e92d9b456b8cfb7ec36325b9ab",
+    "image": "https://allen-thornton.com/",
+    "creationAt": "2026-10-02T04:46:58.000Z",
+    "updatedAt": "2026-10-02T04:46:58.000Z"
+  },
+  "images": [
+    "https://alvarez.com/"
+  ],
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+}
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/497
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/497 -> 200
+Body:
+{
+  "id": 497,
+  "title": "Organic 6thgeneration emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "slug": "organic-6thgeneration-emulation-ce643269acbd41b4a5644c5c612e08c7",
+  "price": 198,
+  "description": "Multi-layered systemic focus group",
+  "category": {
+    "id": 515,
+    "name": "Books_139a31e92d9b456b8cfb7ec36325b9ab",
+    "slug": "books-139a31e92d9b456b8cfb7ec36325b9ab",
+    "image": "https://allen-thornton.com/",
+    "creationAt": "2026-10-02T04:46:58.000Z",
+    "updatedAt": "2026-10-02T04:46:58.000Z"
+  },
+  "images": [
+    "https://alvarez.com/"
+  ],
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/497
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/497 -> 200
+Body:
+true 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/515
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/515 -> 200
+Body:
+{
+  "id": 515,
+  "name": "Books_139a31e92d9b456b8cfb7ec36325b9ab",
+  "slug": "books-139a31e92d9b456b8cfb7ec36325b9ab",
+  "image": "https://allen-thornton.com/",
+  "creationAt": "2026-10-02T04:46:58.000Z",
+  "updatedAt": "2026-10-02T04:46:58.000Z"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/515
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/515 -> 200
+Body:
+true

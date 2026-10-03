@@ -1,0 +1,55 @@
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_9fdb62847c7d4073bf9688b38ff466fc",
+  "image": "https://www.estrada.info/"
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 55,
+  "name": "Sports & Fitness_9fdb62847c7d4073bf9688b38ff466fc",
+  "slug": "sports-fitness-9fdb62847c7d4073bf9688b38ff466fc",
+  "image": "https://www.estrada.info/",
+  "creationAt": "2026-10-01T04:56:32.000Z",
+  "updatedAt": "2026-10-01T04:56:32.000Z"
+}
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/55
+Body:
+{
+  "name": null,
+  "image": "https://fields.biz/"
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/55 -> 400
+Body:
+{
+  "path": "/api/v1/categories/55",
+  "timestamp": "2026-10-01T04:56:32.543Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+{
+  "id": 55,
+  "name": "Sports & Fitness_9fdb62847c7d4073bf9688b38ff466fc",
+  "slug": "sports-fitness-9fdb62847c7d4073bf9688b38ff466fc",
+  "image": "https://www.estrada.info/",
+  "creationAt": "2026-10-01T04:56:32.000Z",
+  "updatedAt": "2026-10-01T04:56:32.000Z"
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+true

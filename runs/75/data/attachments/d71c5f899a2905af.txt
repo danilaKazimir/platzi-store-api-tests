@@ -1,0 +1,639 @@
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_f8bb788c028a41e78edb93b95bc81389",
+  "image": "https://smith.com/"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 259,
+  "name": "Home & Kitchen_f8bb788c028a41e78edb93b95bc81389",
+  "slug": "home-kitchen-f8bb788c028a41e78edb93b95bc81389",
+  "image": "https://smith.com/",
+  "creationAt": "2026-09-26T04:12:02.000Z",
+  "updatedAt": "2026-09-26T04:12:02.000Z"
+}
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T07:06:58.000Z",
+    "updatedAt": "2026-09-25T18:02:57.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Update Name Category",
+    "slug": "update-name-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-25T07:06:58.000Z",
+    "updatedAt": "2026-09-26T03:56:29.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Fresh Beverages Update",
+    "slug": "fresh-beverages-update",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-25T07:06:58.000Z",
+    "updatedAt": "2026-09-25T11:28:01.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-25T07:06:58.000Z",
+    "updatedAt": "2026-09-25T07:06:58.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-25T07:06:58.000Z",
+    "updatedAt": "2026-09-25T07:06:58.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Auto Category 1790326763824",
+    "slug": "auto-category-1790326763824",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T08:59:24.000Z",
+    "updatedAt": "2026-09-25T08:59:24.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Updated Name 1790326767282",
+    "slug": "updated-name-1790326767282",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T08:59:27.000Z",
+    "updatedAt": "2026-09-25T08:59:27.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Auto Category 1790326786741",
+    "slug": "auto-category-1790326786741",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T08:59:46.000Z",
+    "updatedAt": "2026-09-25T08:59:46.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Updated Name 1790326789101",
+    "slug": "updated-name-1790326789101",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T08:59:48.000Z",
+    "updatedAt": "2026-09-25T08:59:49.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Kepin",
+    "slug": "kepin",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-09-25T09:24:14.000Z",
+    "updatedAt": "2026-09-25T09:24:16.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Automation Category",
+    "slug": "automation-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-25T09:33:29.000Z",
+    "updatedAt": "2026-09-25T09:33:29.000Z"
+  },
+  {
+    "id": 16,
+    "name": "Auto Category Kedua 1790329329101",
+    "slug": "auto-category-kedua-1790329329101",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:42:09.000Z",
+    "updatedAt": "2026-09-25T09:42:09.000Z"
+  },
+  {
+    "id": 18,
+    "name": "Auto Category Kedua 1790329538034",
+    "slug": "auto-category-kedua-1790329538034",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:45:38.000Z",
+    "updatedAt": "2026-09-25T09:45:38.000Z"
+  },
+  {
+    "id": 20,
+    "name": "Updated Name Category",
+    "slug": "updated-name-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-25T09:46:25.000Z",
+    "updatedAt": "2026-09-26T03:47:56.000Z"
+  },
+  {
+    "id": 22,
+    "name": "HP 1",
+    "slug": "hp-1",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-09-25T09:46:54.000Z",
+    "updatedAt": "2026-09-25T17:01:38.000Z"
+  },
+  {
+    "id": 24,
+    "name": "Auto Category Kedua 1790329632952",
+    "slug": "auto-category-kedua-1790329632952",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:47:13.000Z",
+    "updatedAt": "2026-09-25T09:47:13.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Auto Category Kedua 1790329755372",
+    "slug": "auto-category-kedua-1790329755372",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:49:15.000Z",
+    "updatedAt": "2026-09-25T09:49:15.000Z"
+  },
+  {
+    "id": 31,
+    "name": "Auto Category Kedua 1790329968345",
+    "slug": "auto-category-kedua-1790329968345",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:52:48.000Z",
+    "updatedAt": "2026-09-25T09:52:48.000Z"
+  },
+  {
+    "id": 35,
+    "name": "Auto Category Kedua 1790330160399",
+    "slug": "auto-category-kedua-1790330160399",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:56:00.000Z",
+    "updatedAt": "2026-09-25T09:56:00.000Z"
+  },
+  {
+    "id": 36,
+    "name": "Kategori Komedi",
+    "slug": "kategori-komedi",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:56:33.000Z",
+    "updatedAt": "2026-09-25T09:56:33.000Z"
+  },
+  {
+    "id": 39,
+    "name": "yuk ayo semangat",
+    "slug": "yuk-ayo-semangat",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T09:59:03.000Z",
+    "updatedAt": "2026-09-25T11:24:37.000Z"
+  },
+  {
+    "id": 45,
+    "name": "Kategori Komed",
+    "slug": "kategori-komed",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T10:09:44.000Z",
+    "updatedAt": "2026-09-25T10:09:44.000Z"
+  },
+  {
+    "id": 46,
+    "name": "BeautyStore",
+    "slug": "beautystore",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T10:10:15.000Z",
+    "updatedAt": "2026-09-25T10:10:15.000Z"
+  },
+  {
+    "id": 47,
+    "name": "Makeup",
+    "slug": "makeup",
+    "image": "https://placeimg.com/640/480/anu",
+    "creationAt": "2026-09-25T10:10:16.000Z",
+    "updatedAt": "2026-09-25T10:10:16.000Z"
+  },
+  {
+    "id": 49,
+    "name": "Kategori Kome",
+    "slug": "kategori-kome",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T10:11:59.000Z",
+    "updatedAt": "2026-09-25T10:11:59.000Z"
+  },
+  {
+    "id": 52,
+    "name": "Bisa yuk 123",
+    "slug": "bisa-yuk-123",
+    "image": "https://placeimg.com/2345/",
+    "creationAt": "2026-09-25T10:17:42.000Z",
+    "updatedAt": "2026-09-25T10:17:42.000Z"
+  },
+  {
+    "id": 57,
+    "name": "Kategori Seram",
+    "slug": "kategori-seram",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T10:32:21.000Z",
+    "updatedAt": "2026-09-25T10:32:21.000Z"
+  },
+  {
+    "id": 58,
+    "name": "Grosery",
+    "slug": "grosery",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:02:55.000Z",
+    "updatedAt": "2026-09-25T11:02:55.000Z"
+  },
+  {
+    "id": 59,
+    "name": "Computer Category",
+    "slug": "computer-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:02:57.000Z",
+    "updatedAt": "2026-09-25T11:02:57.000Z"
+  },
+  {
+    "id": 89,
+    "name": "Bookstore",
+    "slug": "bookstore",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:27:14.000Z",
+    "updatedAt": "2026-09-25T11:27:14.000Z"
+  },
+  {
+    "id": 90,
+    "name": "BrushStore",
+    "slug": "brushstore",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:29:26.000Z",
+    "updatedAt": "2026-09-25T11:29:26.000Z"
+  },
+  {
+    "id": 102,
+    "name": "PeralatanMasak",
+    "slug": "peralatanmasak",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:31:42.000Z",
+    "updatedAt": "2026-09-25T11:31:42.000Z"
+  },
+  {
+    "id": 122,
+    "name": "Hand",
+    "slug": "hand",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:32:36.000Z",
+    "updatedAt": "2026-09-25T11:32:36.000Z"
+  },
+  {
+    "id": 123,
+    "name": "Elektronik",
+    "slug": "elektronik",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:32:40.000Z",
+    "updatedAt": "2026-09-25T11:32:40.000Z"
+  },
+  {
+    "id": 153,
+    "name": "Bac",
+    "slug": "bac",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:47:24.000Z",
+    "updatedAt": "2026-09-25T11:47:24.000Z"
+  },
+  {
+    "id": 154,
+    "name": "Backpack",
+    "slug": "backpack",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:47:27.000Z",
+    "updatedAt": "2026-09-25T11:47:27.000Z"
+  },
+  {
+    "id": 155,
+    "name": "Backpack Merah",
+    "slug": "backpack-merah",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:47:58.000Z",
+    "updatedAt": "2026-09-25T11:47:58.000Z"
+  },
+  {
+    "id": 156,
+    "name": "T-Shirt Hijau",
+    "slug": "t-shirt-hijau",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:57:46.000Z",
+    "updatedAt": "2026-09-25T11:57:46.000Z"
+  },
+  {
+    "id": 157,
+    "name": "T-Shirt Hijau Neon",
+    "slug": "t-shirt-hijau-neon",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T11:58:09.000Z",
+    "updatedAt": "2026-09-25T11:58:09.000Z"
+  },
+  {
+    "id": 158,
+    "name": "hoodies",
+    "slug": "hoodies",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3pQdumCDIaSFe7CISkkMX6OmsXMzZ_on4-q2zo-2utg&s=10",
+    "creationAt": "2026-09-25T12:21:25.000Z",
+    "updatedAt": "2026-09-25T12:21:25.000Z"
+  },
+  {
+    "id": 159,
+    "name": "Bella",
+    "slug": "bella",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:33:05.000Z",
+    "updatedAt": "2026-09-25T12:33:05.000Z"
+  },
+  {
+    "id": 160,
+    "name": "Jambrong-1",
+    "slug": "jambrong-1",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:33:53.000Z",
+    "updatedAt": "2026-09-25T12:33:53.000Z"
+  },
+  {
+    "id": 161,
+    "name": "Jambrong-2",
+    "slug": "jambrong-2",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:34:35.000Z",
+    "updatedAt": "2026-09-25T12:34:35.000Z"
+  },
+  {
+    "id": 162,
+    "name": "Jambrong-3",
+    "slug": "jambrong-3",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:35:01.000Z",
+    "updatedAt": "2026-09-25T12:35:01.000Z"
+  },
+  {
+    "id": 163,
+    "name": "Test Category Diganti yaaa -w",
+    "slug": "test-category-diganti-yaaa-w",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T12:35:30.000Z",
+    "updatedAt": "2026-09-25T19:02:55.000Z"
+  },
+  {
+    "id": 164,
+    "name": "Jambrong-5",
+    "slug": "jambrong-5",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:44:57.000Z",
+    "updatedAt": "2026-09-25T12:44:57.000Z"
+  },
+  {
+    "id": 165,
+    "name": "Jambrong-6",
+    "slug": "jambrong-6",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:45:12.000Z",
+    "updatedAt": "2026-09-25T12:45:12.000Z"
+  },
+  {
+    "id": 166,
+    "name": "Jambrong-7",
+    "slug": "jambrong-7",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T12:48:52.000Z",
+    "updatedAt": "2026-09-25T12:48:52.000Z"
+  },
+  {
+    "id": 167,
+    "name": "Jambrong-8",
+    "slug": "jambrong-8",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T13:03:35.000Z",
+    "updatedAt": "2026-09-25T13:03:35.000Z"
+  },
+  {
+    "id": 168,
+    "name": "Jambrong-9",
+    "slug": "jambrong-9",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T13:04:03.000Z",
+    "updatedAt": "2026-09-25T13:04:03.000Z"
+  },
+  {
+    "id": 169,
+    "name": "Jambrong-10",
+    "slug": "jambrong-10",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T13:04:51.000Z",
+    "updatedAt": "2026-09-25T13:04:51.000Z"
+  },
+  {
+    "id": 170,
+    "name": "Kepin-11",
+    "slug": "kepin-11",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-09-25T13:05:46.000Z",
+    "updatedAt": "2026-09-25T13:05:47.000Z"
+  },
+  {
+    "id": 171,
+    "name": "Kepin-12",
+    "slug": "kepin-12",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-09-25T13:06:27.000Z",
+    "updatedAt": "2026-09-25T13:06:27.000Z"
+  },
+  {
+    "id": 172,
+    "name": "Jambrong-12",
+    "slug": "jambrong-12",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T13:08:47.000Z",
+    "updatedAt": "2026-09-25T13:08:47.000Z"
+  },
+  {
+    "id": 173,
+    "name": "Kepin-13",
+    "slug": "kepin-13",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-09-25T13:09:11.000Z",
+    "updatedAt": "2026-09-25T13:09:11.000Z"
+  },
+  {
+    "id": 174,
+    "name": "Jambrong-13",
+    "slug": "jambrong-13",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T13:10:50.000Z",
+    "updatedAt": "2026-09-25T13:10:50.000Z"
+  },
+  {
+    "id": 175,
+    "name": "Kepin-14",
+    "slug": "kepin-14",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-09-25T13:13:59.000Z",
+    "updatedAt": "2026-09-25T13:13:59.000Z"
+  },
+  {
+    "id": 176,
+    "name": "Jambrong-14",
+    "slug": "jambrong-14",
+    "image": "https://picsum.photos/1300/1200",
+    "creationAt": "2026-09-25T13:14:05.000Z",
+    "updatedAt": "2026-09-25T13:14:05.000Z"
+  },
+  {
+    "id": 177,
+    "name": "Kepin-15",
+    "slug": "kepin-15",
+    "image": "https://picsum.photos/600/400",
+    "creationAt": "2026-09-25T13:15:32.000Z",
+    "updatedAt": "2026-09-25T13:15:32.000Z"
+  },
+  {
+    "id": 183,
+    "name": "New Category 3",
+    "slug": "new-category-3",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T15:00:20.000Z",
+    "updatedAt": "2026-09-25T15:00:20.000Z"
+  },
+  {
+    "id": 184,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-09-25T17:01:38.000Z",
+    "updatedAt": "2026-09-25T17:01:38.000Z"
+  },
+  {
+    "id": 185,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T17:01:40.000Z",
+    "updatedAt": "2026-09-25T17:01:40.000Z"
+  },
+  {
+    "id": 186,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T18:00:43.000Z",
+    "updatedAt": "2026-09-25T18:00:43.000Z"
+  },
+  {
+    "id": 187,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-25T18:02:57.000Z",
+    "updatedAt": "2026-09-25T18:02:57.000Z"
+  },
+  {
+    "id": 218,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-09-25T21:02:38.000Z",
+    "updatedAt": "2026-09-25T21:02:38.000Z"
+  },
+  {
+    "id": 219,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-09-25T21:02:39.000Z",
+    "updatedAt": "2026-09-25T21:02:39.000Z"
+  },
+  {
+    "id": 231,
+    "name": "CapzsparttanZ",
+    "slug": "capzsparttanz",
+    "image": "https://www.xtrafondos.com/wallpapers/halo-combat-evolved-playa-con-gran-formacion-rocosa-14457.jpg",
+    "creationAt": "2026-09-26T00:05:11.000Z",
+    "updatedAt": "2026-09-26T00:05:11.000Z"
+  },
+  {
+    "id": 240,
+    "name": "apitest-probe-item-1790388356-diag",
+    "slug": "apitest-probe-item-1790388356-diag",
+    "image": "https://placehold.co/600x400.png",
+    "creationAt": "2026-09-26T02:07:46.000Z",
+    "updatedAt": "2026-09-26T02:07:46.000Z"
+  },
+  {
+    "id": 243,
+    "name": "Test Category",
+    "slug": "test-category",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-26T03:36:29.000Z",
+    "updatedAt": "2026-09-26T03:36:29.000Z"
+  },
+  {
+    "id": 244,
+    "name": "Movies",
+    "slug": "movies",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-26T03:37:58.000Z",
+    "updatedAt": "2026-09-26T03:37:58.000Z"
+  },
+  {
+    "id": 245,
+    "name": "Kpop Song",
+    "slug": "kpop-song",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-26T03:39:25.000Z",
+    "updatedAt": "2026-09-26T03:39:25.000Z"
+  },
+  {
+    "id": 246,
+    "name": "Action Movie",
+    "slug": "action-movie",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-09-26T03:53:59.000Z",
+    "updatedAt": "2026-09-26T03:53:59.000Z"
+  },
+  {
+    "id": 259,
+    "name": "Home & Kitchen_f8bb788c028a41e78edb93b95bc81389",
+    "slug": "home-kitchen-f8bb788c028a41e78edb93b95bc81389",
+    "image": "https://smith.com/",
+    "creationAt": "2026-09-26T04:12:02.000Z",
+    "updatedAt": "2026-09-26T04:12:02.000Z"
+  },
+  {
+    "id": 260,
+    "name": "testCategoryfa60b358231a4df990dd9bb7e67feb58",
+    "slug": "testcategoryfa60b358231a4df990dd9bb7e67feb58",
+    "image": "https://frye-weber.com/",
+    "creationAt": "2026-09-26T04:12:02.000Z",
+    "updatedAt": "2026-09-26T04:12:02.000Z"
+  }
+]
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/259
+Body:
+<empty> 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/259 -> 200
+Body:
+{
+  "id": 259,
+  "name": "Home & Kitchen_f8bb788c028a41e78edb93b95bc81389",
+  "slug": "home-kitchen-f8bb788c028a41e78edb93b95bc81389",
+  "image": "https://smith.com/",
+  "creationAt": "2026-09-26T04:12:02.000Z",
+  "updatedAt": "2026-09-26T04:12:02.000Z"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/259
+Body:
+<empty> 
+
+2026-09-26 04:12:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/259 -> 200
+Body:
+true

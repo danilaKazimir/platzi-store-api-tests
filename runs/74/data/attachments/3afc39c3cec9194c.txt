@@ -1,0 +1,125 @@
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_ed0db0843f5049f1924832ebb54c54da",
+  "image": "https://johnson.com/"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 504,
+  "name": "Books_ed0db0843f5049f1924832ebb54c54da",
+  "slug": "books-ed0db0843f5049f1924832ebb54c54da",
+  "image": "https://johnson.com/",
+  "creationAt": "2026-09-25T04:07:06.000Z",
+  "updatedAt": "2026-09-25T04:07:06.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Polarized cohesive system engine-b3cf63ec2b20478fbc5cf995f2ef338e",
+  "price": 87,
+  "description": "Mandatory coherent orchestration",
+  "categoryId": 504,
+  "images": [
+    "http://macdonald-wright.org/"
+  ]
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 362,
+  "title": "Polarized cohesive system engine-b3cf63ec2b20478fbc5cf995f2ef338e",
+  "slug": "polarized-cohesive-system-engine-b3cf63ec2b20478fbc5cf995f2ef338e",
+  "price": 87,
+  "description": "Mandatory coherent orchestration",
+  "category": {
+    "id": 504,
+    "name": "Books_ed0db0843f5049f1924832ebb54c54da",
+    "slug": "books-ed0db0843f5049f1924832ebb54c54da",
+    "image": "https://johnson.com/",
+    "creationAt": "2026-09-25T04:07:06.000Z",
+    "updatedAt": "2026-09-25T04:07:06.000Z"
+  },
+  "images": [
+    "http://macdonald-wright.org/"
+  ],
+  "creationAt": "2026-09-25T04:07:06.000Z",
+  "updatedAt": "2026-09-25T04:07:06.000Z"
+}
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/362
+Body:
+{
+  "title": "Universal bottom-line time-frame-745c54f085f74d26be3f61b7cfbabc3c",
+  "price": 728,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/362 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/362
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/362 -> 200
+Body:
+{
+  "id": 362,
+  "title": "Polarized cohesive system engine-b3cf63ec2b20478fbc5cf995f2ef338e",
+  "slug": "polarized-cohesive-system-engine-b3cf63ec2b20478fbc5cf995f2ef338e",
+  "price": 87,
+  "description": "Mandatory coherent orchestration",
+  "category": {
+    "id": 504,
+    "name": "Books_ed0db0843f5049f1924832ebb54c54da",
+    "slug": "books-ed0db0843f5049f1924832ebb54c54da",
+    "image": "https://johnson.com/",
+    "creationAt": "2026-09-25T04:07:06.000Z",
+    "updatedAt": "2026-09-25T04:07:06.000Z"
+  },
+  "images": [
+    "http://macdonald-wright.org/"
+  ],
+  "creationAt": "2026-09-25T04:07:06.000Z",
+  "updatedAt": "2026-09-25T04:07:06.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/362
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/362 -> 200
+Body:
+true 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/504
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/504 -> 200
+Body:
+{
+  "id": 504,
+  "name": "Books_ed0db0843f5049f1924832ebb54c54da",
+  "slug": "books-ed0db0843f5049f1924832ebb54c54da",
+  "image": "https://johnson.com/",
+  "creationAt": "2026-09-25T04:07:06.000Z",
+  "updatedAt": "2026-09-25T04:07:06.000Z"
+} 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/504
+Body:
+<empty> 
+
+2026-09-25 04:07:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/504 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-09-06 03:40:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_ddbe7687fb9140fabbdc5c802ec5ef59",
+  "image": "https://www.harris.biz/"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 22,
+  "name": "Pet Supplies_ddbe7687fb9140fabbdc5c802ec5ef59",
+  "slug": "pet-supplies-ddbe7687fb9140fabbdc5c802ec5ef59",
+  "image": "https://www.harris.biz/",
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face dedicated model-0ec6729b7f7744f99b1fe55d209c9297",
+  "price": 258,
+  "description": "Multi-channeled intermediate infrastructure",
+  "categoryId": 22,
+  "images": [
+    "https://munoz.org/"
+  ]
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 85,
+  "title": "Face-to-face dedicated model-0ec6729b7f7744f99b1fe55d209c9297",
+  "slug": "face-to-face-dedicated-model-0ec6729b7f7744f99b1fe55d209c9297",
+  "price": 258,
+  "description": "Multi-channeled intermediate infrastructure",
+  "category": {
+    "id": 22,
+    "name": "Pet Supplies_ddbe7687fb9140fabbdc5c802ec5ef59",
+    "slug": "pet-supplies-ddbe7687fb9140fabbdc5c802ec5ef59",
+    "image": "https://www.harris.biz/",
+    "creationAt": "2026-09-06T03:40:25.000Z",
+    "updatedAt": "2026-09-06T03:40:25.000Z"
+  },
+  "images": [
+    "https://munoz.org/"
+  ],
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+}
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/85 -> 200
+Body:
+true 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/85 -> 400
+Body:
+{
+  "path": "/api/v1/products/85",
+  "timestamp": "2026-09-06T03:40:25.459Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 85\n    }\n}"
+}
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/85 -> 400
+Body:
+{
+  "path": "/api/v1/products/85",
+  "timestamp": "2026-09-06T03:40:25.518Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 85\n    }\n}"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Pet Supplies_ddbe7687fb9140fabbdc5c802ec5ef59",
+  "slug": "pet-supplies-ddbe7687fb9140fabbdc5c802ec5ef59",
+  "image": "https://www.harris.biz/",
+  "creationAt": "2026-09-06T03:40:25.000Z",
+  "updatedAt": "2026-09-06T03:40:25.000Z"
+} 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-09-06 03:40:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+true

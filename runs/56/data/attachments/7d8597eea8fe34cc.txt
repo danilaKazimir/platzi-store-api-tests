@@ -1,0 +1,135 @@
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_5aea85a7a46c4f4e95e5aa855a354ab4",
+  "image": "http://www.bailey.net/"
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Clothing_5aea85a7a46c4f4e95e5aa855a354ab4",
+  "slug": "clothing-5aea85a7a46c4f4e95e5aa855a354ab4",
+  "image": "http://www.bailey.net/",
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Realigned multi-tasking alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "price": 909,
+  "description": "Focused context-sensitive open architecture",
+  "categoryId": 25,
+  "images": [
+    "http://faulkner-thomas.com/"
+  ]
+} 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 86,
+  "title": "Realigned multi-tasking alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "slug": "realigned-multi-tasking-alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "price": 909,
+  "description": "Focused context-sensitive open architecture",
+  "category": {
+    "id": 25,
+    "name": "Clothing_5aea85a7a46c4f4e95e5aa855a354ab4",
+    "slug": "clothing-5aea85a7a46c4f4e95e5aa855a354ab4",
+    "image": "http://www.bailey.net/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://faulkner-thomas.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+}
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/realigned-multi-tasking-alliance-c2f753b4d0be46349f24902c6c59ea9f
+Body:
+<empty> 
+
+2026-09-07 03:40:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/realigned-multi-tasking-alliance-c2f753b4d0be46349f24902c6c59ea9f -> 200
+Body:
+{
+  "id": 86,
+  "title": "Realigned multi-tasking alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "slug": "realigned-multi-tasking-alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "price": 909,
+  "description": "Focused context-sensitive open architecture",
+  "category": {
+    "id": 25,
+    "name": "Clothing_5aea85a7a46c4f4e95e5aa855a354ab4",
+    "slug": "clothing-5aea85a7a46c4f4e95e5aa855a354ab4",
+    "image": "http://www.bailey.net/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://faulkner-thomas.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+}
+2026-09-07 03:40:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+{
+  "id": 86,
+  "title": "Realigned multi-tasking alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "slug": "realigned-multi-tasking-alliance-c2f753b4d0be46349f24902c6c59ea9f",
+  "price": 909,
+  "description": "Focused context-sensitive open architecture",
+  "category": {
+    "id": 25,
+    "name": "Clothing_5aea85a7a46c4f4e95e5aa855a354ab4",
+    "slug": "clothing-5aea85a7a46c4f4e95e5aa855a354ab4",
+    "image": "http://www.bailey.net/",
+    "creationAt": "2026-09-07T03:40:07.000Z",
+    "updatedAt": "2026-09-07T03:40:07.000Z"
+  },
+  "images": [
+    "http://faulkner-thomas.com/"
+  ],
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+true 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Clothing_5aea85a7a46c4f4e95e5aa855a354ab4",
+  "slug": "clothing-5aea85a7a46c4f4e95e5aa855a354ab4",
+  "image": "http://www.bailey.net/",
+  "creationAt": "2026-09-07T03:40:07.000Z",
+  "updatedAt": "2026-09-07T03:40:07.000Z"
+} 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-07 03:40:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

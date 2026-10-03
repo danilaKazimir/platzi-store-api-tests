@@ -1,0 +1,107 @@
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_0b58bd9159ec4dcbb041654acb055b33",
+  "image": "https://gonzalez.com/"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Clothing_0b58bd9159ec4dcbb041654acb055b33",
+  "slug": "clothing-0b58bd9159ec4dcbb041654acb055b33",
+  "image": "https://gonzalez.com/",
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Pre-emptive well-modulated migration-0748c34a3e33481388d1908ef03c238f",
+  "price": 786,
+  "description": "Implemented bandwidth-monitored forecast",
+  "categoryId": 30,
+  "images": [
+    "https://rivera.info/"
+  ]
+} 
+
+2026-09-09 03:49:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 77,
+  "title": "Pre-emptive well-modulated migration-0748c34a3e33481388d1908ef03c238f",
+  "slug": "pre-emptive-well-modulated-migration-0748c34a3e33481388d1908ef03c238f",
+  "price": 786,
+  "description": "Implemented bandwidth-monitored forecast",
+  "category": {
+    "id": 30,
+    "name": "Clothing_0b58bd9159ec4dcbb041654acb055b33",
+    "slug": "clothing-0b58bd9159ec4dcbb041654acb055b33",
+    "image": "https://gonzalez.com/",
+    "creationAt": "2026-09-09T03:49:38.000Z",
+    "updatedAt": "2026-09-09T03:49:38.000Z"
+  },
+  "images": [
+    "https://rivera.info/"
+  ],
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+}
+2026-09-09 03:49:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/77
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/77 -> 200
+Body:
+true 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/77
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/77 -> 400
+Body:
+{
+  "path": "/api/v1/products/77",
+  "timestamp": "2026-09-09T03:49:39.014Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 77\n    }\n}"
+}
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/77
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/77 -> 400
+Body:
+{
+  "path": "/api/v1/products/77",
+  "timestamp": "2026-09-09T03:49:39.044Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 77\n    }\n}"
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Clothing_0b58bd9159ec4dcbb041654acb055b33",
+  "slug": "clothing-0b58bd9159ec4dcbb041654acb055b33",
+  "image": "https://gonzalez.com/",
+  "creationAt": "2026-09-09T03:49:38.000Z",
+  "updatedAt": "2026-09-09T03:49:38.000Z"
+} 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-09 03:49:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

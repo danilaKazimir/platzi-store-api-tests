@@ -1,0 +1,408 @@
+2026-09-08 03:44:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+  "image": "https://www.ballard.net/"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+  "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+  "image": "https://www.ballard.net/",
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+}
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Business-focused leadingedge workforce-746b40d5829d4309a93c30cea92c9c39",
+  "price": 950,
+  "description": "Phased disintermediate utilization",
+  "categoryId": 25,
+  "images": [
+    "http://nelson.org/"
+  ]
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 81,
+  "title": "Business-focused leadingedge workforce-746b40d5829d4309a93c30cea92c9c39",
+  "slug": "business-focused-leadingedge-workforce-746b40d5829d4309a93c30cea92c9c39",
+  "price": 950,
+  "description": "Phased disintermediate utilization",
+  "category": {
+    "id": 25,
+    "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+    "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+    "image": "https://www.ballard.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://nelson.org/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fully-configurable grid-enabled collaboration-0ce4d386868a4ddc9d639d8651038a19",
+  "price": 247,
+  "description": "Inverse zero tolerance Graphic Interface",
+  "categoryId": 25,
+  "images": [
+    "http://www.castro-mendoza.biz/"
+  ]
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 83,
+  "title": "Fully-configurable grid-enabled collaboration-0ce4d386868a4ddc9d639d8651038a19",
+  "slug": "fully-configurable-grid-enabled-collaboration-0ce4d386868a4ddc9d639d8651038a19",
+  "price": 247,
+  "description": "Inverse zero tolerance Graphic Interface",
+  "category": {
+    "id": 25,
+    "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+    "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+    "image": "https://www.ballard.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://www.castro-mendoza.biz/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-lateral executive workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+  "price": 731,
+  "description": "Integrated next generation project",
+  "categoryId": 25,
+  "images": [
+    "https://ramirez.com/"
+  ]
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 85,
+  "title": "Multi-lateral executive workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+  "slug": "multi-lateral-executive-workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+  "price": 731,
+  "description": "Integrated next generation project",
+  "category": {
+    "id": 25,
+    "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+    "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+    "image": "https://www.ballard.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "https://ramirez.com/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_a12bc279cbda460693177d5f007c3e6a",
+  "image": "https://www.garrison.net/"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Sports & Fitness_a12bc279cbda460693177d5f007c3e6a",
+  "slug": "sports-fitness-a12bc279cbda460693177d5f007c3e6a",
+  "image": "https://www.garrison.net/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Devolved radical info-mediaries-fd29de2fb9164699a97a48e3b564db5a",
+  "price": 427,
+  "description": "Automated even-keeled implementation",
+  "categoryId": 28,
+  "images": [
+    "http://www.allen.com/"
+  ]
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 88,
+  "title": "Devolved radical info-mediaries-fd29de2fb9164699a97a48e3b564db5a",
+  "slug": "devolved-radical-info-mediaries-fd29de2fb9164699a97a48e3b564db5a",
+  "price": 427,
+  "description": "Automated even-keeled implementation",
+  "category": {
+    "id": 28,
+    "name": "Sports & Fitness_a12bc279cbda460693177d5f007c3e6a",
+    "slug": "sports-fitness-a12bc279cbda460693177d5f007c3e6a",
+    "image": "https://www.garrison.net/",
+    "creationAt": "2026-09-08T03:45:00.000Z",
+    "updatedAt": "2026-09-08T03:45:00.000Z"
+  },
+  "images": [
+    "http://www.allen.com/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/81/related
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/81/related -> 200
+Body:
+[
+  {
+    "id": 83,
+    "title": "Fully-configurable grid-enabled collaboration-0ce4d386868a4ddc9d639d8651038a19",
+    "slug": "fully-configurable-grid-enabled-collaboration-0ce4d386868a4ddc9d639d8651038a19",
+    "price": 247,
+    "description": "Inverse zero tolerance Graphic Interface",
+    "category": {
+      "id": 25,
+      "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+      "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+      "image": "https://www.ballard.net/",
+      "creationAt": "2026-09-08T03:44:59.000Z",
+      "updatedAt": "2026-09-08T03:44:59.000Z"
+    },
+    "images": [
+      "http://www.castro-mendoza.biz/"
+    ],
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  {
+    "id": 85,
+    "title": "Multi-lateral executive workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+    "slug": "multi-lateral-executive-workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+    "price": 731,
+    "description": "Integrated next generation project",
+    "category": {
+      "id": 25,
+      "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+      "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+      "image": "https://www.ballard.net/",
+      "creationAt": "2026-09-08T03:44:59.000Z",
+      "updatedAt": "2026-09-08T03:44:59.000Z"
+    },
+    "images": [
+      "https://ramirez.com/"
+    ],
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  }
+]
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+{
+  "id": 88,
+  "title": "Devolved radical info-mediaries-fd29de2fb9164699a97a48e3b564db5a",
+  "slug": "devolved-radical-info-mediaries-fd29de2fb9164699a97a48e3b564db5a",
+  "price": 427,
+  "description": "Automated even-keeled implementation",
+  "category": {
+    "id": 28,
+    "name": "Sports & Fitness_a12bc279cbda460693177d5f007c3e6a",
+    "slug": "sports-fitness-a12bc279cbda460693177d5f007c3e6a",
+    "image": "https://www.garrison.net/",
+    "creationAt": "2026-09-08T03:45:00.000Z",
+    "updatedAt": "2026-09-08T03:45:00.000Z"
+  },
+  "images": [
+    "http://www.allen.com/"
+  ],
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+true 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/85 -> 200
+Body:
+{
+  "id": 85,
+  "title": "Multi-lateral executive workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+  "slug": "multi-lateral-executive-workforce-d4f0cf6c58674a6f80eb6c2d1dae3e4c",
+  "price": 731,
+  "description": "Integrated next generation project",
+  "category": {
+    "id": 25,
+    "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+    "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+    "image": "https://www.ballard.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "https://ramirez.com/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/85
+Body:
+<empty> 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/85 -> 200
+Body:
+true 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+{
+  "id": 83,
+  "title": "Fully-configurable grid-enabled collaboration-0ce4d386868a4ddc9d639d8651038a19",
+  "slug": "fully-configurable-grid-enabled-collaboration-0ce4d386868a4ddc9d639d8651038a19",
+  "price": 247,
+  "description": "Inverse zero tolerance Graphic Interface",
+  "category": {
+    "id": 25,
+    "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+    "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+    "image": "https://www.ballard.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://www.castro-mendoza.biz/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/81
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/81 -> 200
+Body:
+{
+  "id": 81,
+  "title": "Business-focused leadingedge workforce-746b40d5829d4309a93c30cea92c9c39",
+  "slug": "business-focused-leadingedge-workforce-746b40d5829d4309a93c30cea92c9c39",
+  "price": 950,
+  "description": "Phased disintermediate utilization",
+  "category": {
+    "id": 25,
+    "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+    "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+    "image": "https://www.ballard.net/",
+    "creationAt": "2026-09-08T03:44:59.000Z",
+    "updatedAt": "2026-09-08T03:44:59.000Z"
+  },
+  "images": [
+    "http://nelson.org/"
+  ],
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/81
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/81 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Sports & Fitness_a12bc279cbda460693177d5f007c3e6a",
+  "slug": "sports-fitness-a12bc279cbda460693177d5f007c3e6a",
+  "image": "https://www.garrison.net/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Clothing_8ab1fd45cc7b406e851daf49e1f5f584",
+  "slug": "clothing-8ab1fd45cc7b406e851daf49e1f5f584",
+  "image": "https://www.ballard.net/",
+  "creationAt": "2026-09-08T03:44:59.000Z",
+  "updatedAt": "2026-09-08T03:44:59.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

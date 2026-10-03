@@ -1,0 +1,15 @@
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Personal Care_dee3af4c0ce34c4db9a1665ee573b513",
+  "image": "http://hendricks-bates.com/"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-09-24T03:52:05.324Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

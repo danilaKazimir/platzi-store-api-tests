@@ -1,0 +1,79 @@
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_72d67f1dcf7944dca4bde6bb8d3111e5",
+  "image": "https://montoya.net/"
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 57,
+  "name": "Books_72d67f1dcf7944dca4bde6bb8d3111e5",
+  "slug": "books-72d67f1dcf7944dca4bde6bb8d3111e5",
+  "image": "https://montoya.net/",
+  "creationAt": "2026-10-01T04:56:32.000Z",
+  "updatedAt": "2026-10-01T04:56:32.000Z"
+}
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized 6thgeneration task-force-18d2962fc9e94056a6763f87af91748e",
+  "price": 633,
+  "description": "Self-enabling mission-critical Graphical User Interface",
+  "categoryId": 57,
+  "images": [
+    "http://burnett.net/"
+  ]
+} 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 337,
+  "title": "Decentralized 6thgeneration task-force-18d2962fc9e94056a6763f87af91748e",
+  "slug": "decentralized-6thgeneration-task-force-18d2962fc9e94056a6763f87af91748e",
+  "price": 633,
+  "description": "Self-enabling mission-critical Graphical User Interface",
+  "category": {
+    "id": 57,
+    "name": "Books_72d67f1dcf7944dca4bde6bb8d3111e5",
+    "slug": "books-72d67f1dcf7944dca4bde6bb8d3111e5",
+    "image": "https://montoya.net/",
+    "creationAt": "2026-10-01T04:56:32.000Z",
+    "updatedAt": "2026-10-01T04:56:32.000Z"
+  },
+  "images": [
+    "http://burnett.net/"
+  ],
+  "creationAt": "2026-10-01T04:56:33.000Z",
+  "updatedAt": "2026-10-01T04:56:33.000Z"
+}
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/57
+Body:
+<empty> 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/57 -> 200
+Body:
+{
+  "id": 57,
+  "name": "Books_72d67f1dcf7944dca4bde6bb8d3111e5",
+  "slug": "books-72d67f1dcf7944dca4bde6bb8d3111e5",
+  "image": "https://montoya.net/",
+  "creationAt": "2026-10-01T04:56:32.000Z",
+  "updatedAt": "2026-10-01T04:56:32.000Z"
+} 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/57
+Body:
+<empty> 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/57 -> 400
+Body:
+{
+  "path": "/api/v1/categories/57",
+  "timestamp": "2026-10-01T04:56:33.166Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

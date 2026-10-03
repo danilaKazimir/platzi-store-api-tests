@@ -1,0 +1,49 @@
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_08a795e9d06e42e080f6e57dbfea8b00",
+  "image": "http://robbins-stewart.com/"
+} 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Clothing_08a795e9d06e42e080f6e57dbfea8b00",
+  "slug": "clothing-08a795e9d06e42e080f6e57dbfea8b00",
+  "image": "http://robbins-stewart.com/",
+  "creationAt": "2026-09-17T04:07:09.000Z",
+  "updatedAt": "2026-09-17T04:07:09.000Z"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 400
+Body:
+{
+  "path": "/api/v1/categories/14",
+  "timestamp": "2026-09-17T04:07:09.742Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 14\n}"
+}
+2026-09-17 04:07:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-17 04:07:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 400
+Body:
+{
+  "path": "/api/v1/categories/14",
+  "timestamp": "2026-09-17T04:07:09.752Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 14\n}"
+}

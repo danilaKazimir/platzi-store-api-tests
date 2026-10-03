@@ -1,0 +1,191 @@
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_90728549b55b4c8f93823d645d358e39",
+  "image": "http://jones.com/"
+} 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 58,
+  "name": "Personal Care_90728549b55b4c8f93823d645d358e39",
+  "slug": "personal-care-90728549b55b4c8f93823d645d358e39",
+  "image": "http://jones.com/",
+  "creationAt": "2026-09-22T04:00:59.000Z",
+  "updatedAt": "2026-09-22T04:00:59.000Z"
+}
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T05:41:33.000Z",
+    "updatedAt": "2026-09-21T18:03:09.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-21T05:41:33.000Z",
+    "updatedAt": "2026-09-21T05:41:33.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-21T05:41:33.000Z",
+    "updatedAt": "2026-09-21T05:41:33.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-21T05:41:33.000Z",
+    "updatedAt": "2026-09-21T05:41:33.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-21T05:41:33.000Z",
+    "updatedAt": "2026-09-21T05:41:33.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Testing Category",
+    "slug": "testing-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T06:00:28.000Z",
+    "updatedAt": "2026-09-21T06:00:28.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Grosery",
+    "slug": "grosery",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T11:00:31.000Z",
+    "updatedAt": "2026-09-21T11:00:31.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Computer Category",
+    "slug": "computer-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T11:00:33.000Z",
+    "updatedAt": "2026-09-21T11:00:33.000Z"
+  },
+  {
+    "id": 10,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-09-21T17:00:28.000Z",
+    "updatedAt": "2026-09-21T17:00:28.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T17:01:27.000Z",
+    "updatedAt": "2026-09-21T17:01:27.000Z"
+  },
+  {
+    "id": 12,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T18:01:35.000Z",
+    "updatedAt": "2026-09-21T18:01:35.000Z"
+  },
+  {
+    "id": 13,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T18:03:09.000Z",
+    "updatedAt": "2026-09-21T18:03:09.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-21T19:03:05.000Z",
+    "updatedAt": "2026-09-21T19:03:05.000Z"
+  },
+  {
+    "id": 44,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-09-21T21:00:45.000Z",
+    "updatedAt": "2026-09-21T21:00:45.000Z"
+  },
+  {
+    "id": 45,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-09-21T21:00:45.000Z",
+    "updatedAt": "2026-09-21T21:00:45.000Z"
+  },
+  {
+    "id": 56,
+    "name": "testCategory8cc6d684139e4faeaef54112bf6ca3d8",
+    "slug": "testcategory8cc6d684139e4faeaef54112bf6ca3d8",
+    "image": "http://anderson.info/",
+    "creationAt": "2026-09-22T04:00:59.000Z",
+    "updatedAt": "2026-09-22T04:00:59.000Z"
+  },
+  {
+    "id": 57,
+    "name": "test Category257bf89f2fea4c409c6f6936044147d7",
+    "slug": "test-category257bf89f2fea4c409c6f6936044147d7",
+    "image": "https://www.sanders.com/",
+    "creationAt": "2026-09-22T04:00:59.000Z",
+    "updatedAt": "2026-09-22T04:00:59.000Z"
+  },
+  {
+    "id": 58,
+    "name": "Personal Care_90728549b55b4c8f93823d645d358e39",
+    "slug": "personal-care-90728549b55b4c8f93823d645d358e39",
+    "image": "http://jones.com/",
+    "creationAt": "2026-09-22T04:00:59.000Z",
+    "updatedAt": "2026-09-22T04:00:59.000Z"
+  }
+]
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+{
+  "id": 58,
+  "name": "Personal Care_90728549b55b4c8f93823d645d358e39",
+  "slug": "personal-care-90728549b55b4c8f93823d645d358e39",
+  "image": "http://jones.com/",
+  "creationAt": "2026-09-22T04:00:59.000Z",
+  "updatedAt": "2026-09-22T04:00:59.000Z"
+} 
+
+2026-09-22 04:00:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+true

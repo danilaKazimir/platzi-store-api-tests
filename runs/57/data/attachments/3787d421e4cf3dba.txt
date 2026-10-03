@@ -1,0 +1,21 @@
+2026-09-08 03:44:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Richard Barton PhD",
+  "email": "williamswilliam@example.com",
+  "password": "***",
+  "avatar": "http://wood.com/"
+} 
+
+2026-09-08 03:45:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 17,
+  "email": "williamswilliam@example.com",
+  "password": "***",
+  "name": "Richard Barton PhD",
+  "role": "customer",
+  "avatar": "http://wood.com/",
+  "creationAt": "2026-09-08T03:45:00.000Z",
+  "updatedAt": "2026-09-08T03:45:00.000Z"
+}

@@ -1,0 +1,80 @@
+2026-10-02 04:46:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Cody Ramirez",
+  "email": "nelsonrebecca@example.com",
+  "password": "***",
+  "avatar": "https://www.sanchez.biz/"
+} 
+
+2026-10-02 04:46:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 218,
+  "email": "nelsonrebecca@example.com",
+  "password": "***",
+  "name": "Cody Ramirez",
+  "role": "customer",
+  "avatar": "https://www.sanchez.biz/",
+  "creationAt": "2026-10-02T04:46:59.000Z",
+  "updatedAt": "2026-10-02T04:46:59.000Z"
+}
+2026-10-02 04:46:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/218
+Body:
+{
+  "name": "Lauren Knight"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/218 -> 200
+Body:
+{
+  "id": 218,
+  "email": "nelsonrebecca@example.com",
+  "password": "***",
+  "name": "Lauren Knight",
+  "role": "customer",
+  "avatar": "https://www.sanchez.biz/",
+  "creationAt": "2026-10-02T04:46:59.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/218
+Body:
+<empty> 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/218 -> 200
+Body:
+{
+  "id": 218,
+  "email": "nelsonrebecca@example.com",
+  "password": "***",
+  "name": "Lauren Knight",
+  "role": "customer",
+  "avatar": "https://www.sanchez.biz/",
+  "creationAt": "2026-10-02T04:46:59.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+}
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/218
+Body:
+<empty> 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/218 -> 200
+Body:
+{
+  "id": 218,
+  "email": "nelsonrebecca@example.com",
+  "password": "***",
+  "name": "Lauren Knight",
+  "role": "customer",
+  "avatar": "https://www.sanchez.biz/",
+  "creationAt": "2026-10-02T04:46:59.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+} 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/218
+Body:
+<empty> 
+
+2026-10-02 04:47:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/218 -> 200
+Body:
+true

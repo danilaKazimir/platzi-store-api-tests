@@ -1,0 +1,125 @@
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_54dce219418940f5a5ebbf18d942aa7d",
+  "image": "https://www.lewis.net/"
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 45,
+  "name": "Toys_54dce219418940f5a5ebbf18d942aa7d",
+  "slug": "toys-54dce219418940f5a5ebbf18d942aa7d",
+  "image": "https://www.lewis.net/",
+  "creationAt": "2026-09-21T04:03:56.000Z",
+  "updatedAt": "2026-09-21T04:03:56.000Z"
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Inverse 24/7 encryption-ca94b8c88c8b40b3a5474c868235c752",
+  "price": 543,
+  "description": "Universal full-range system engine",
+  "categoryId": 45,
+  "images": [
+    "https://robinson.org/"
+  ]
+} 
+
+2026-09-21 04:03:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 230,
+  "title": "Inverse 24/7 encryption-ca94b8c88c8b40b3a5474c868235c752",
+  "slug": "inverse-24-7-encryption-ca94b8c88c8b40b3a5474c868235c752",
+  "price": 543,
+  "description": "Universal full-range system engine",
+  "category": {
+    "id": 45,
+    "name": "Toys_54dce219418940f5a5ebbf18d942aa7d",
+    "slug": "toys-54dce219418940f5a5ebbf18d942aa7d",
+    "image": "https://www.lewis.net/",
+    "creationAt": "2026-09-21T04:03:56.000Z",
+    "updatedAt": "2026-09-21T04:03:56.000Z"
+  },
+  "images": [
+    "https://robinson.org/"
+  ],
+  "creationAt": "2026-09-21T04:03:56.000Z",
+  "updatedAt": "2026-09-21T04:03:56.000Z"
+}
+2026-09-21 04:03:56 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/230
+Body:
+{
+  "title": "Adaptive object-oriented access-a12df3573ec545d181dda2edc96c5200",
+  "price": 677,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/230 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-21 04:03:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/230
+Body:
+<empty> 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/230 -> 200
+Body:
+{
+  "id": 230,
+  "title": "Inverse 24/7 encryption-ca94b8c88c8b40b3a5474c868235c752",
+  "slug": "inverse-24-7-encryption-ca94b8c88c8b40b3a5474c868235c752",
+  "price": 543,
+  "description": "Universal full-range system engine",
+  "category": {
+    "id": 45,
+    "name": "Toys_54dce219418940f5a5ebbf18d942aa7d",
+    "slug": "toys-54dce219418940f5a5ebbf18d942aa7d",
+    "image": "https://www.lewis.net/",
+    "creationAt": "2026-09-21T04:03:56.000Z",
+    "updatedAt": "2026-09-21T04:03:56.000Z"
+  },
+  "images": [
+    "https://robinson.org/"
+  ],
+  "creationAt": "2026-09-21T04:03:56.000Z",
+  "updatedAt": "2026-09-21T04:03:56.000Z"
+} 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/230
+Body:
+<empty> 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/230 -> 200
+Body:
+true 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+{
+  "id": 45,
+  "name": "Toys_54dce219418940f5a5ebbf18d942aa7d",
+  "slug": "toys-54dce219418940f5a5ebbf18d942aa7d",
+  "image": "https://www.lewis.net/",
+  "creationAt": "2026-09-21T04:03:56.000Z",
+  "updatedAt": "2026-09-21T04:03:56.000Z"
+} 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-09-21 04:03:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+true

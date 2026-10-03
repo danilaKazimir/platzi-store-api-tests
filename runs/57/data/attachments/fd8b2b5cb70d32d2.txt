@@ -1,0 +1,80 @@
+2026-09-08 03:45:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kevin Davis",
+  "email": "hernandezamber@example.org",
+  "password": "***",
+  "avatar": "https://www.howard.com/"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 19,
+  "email": "hernandezamber@example.org",
+  "password": "***",
+  "name": "Kevin Davis",
+  "role": "customer",
+  "avatar": "https://www.howard.com/",
+  "creationAt": "2026-09-08T03:45:01.000Z",
+  "updatedAt": "2026-09-08T03:45:01.000Z"
+}
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/19
+Body:
+{
+  "name": "Michael Boyd"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/19 -> 200
+Body:
+{
+  "id": 19,
+  "email": "hernandezamber@example.org",
+  "password": "***",
+  "name": "Michael Boyd",
+  "role": "customer",
+  "avatar": "https://www.howard.com/",
+  "creationAt": "2026-09-08T03:45:01.000Z",
+  "updatedAt": "2026-09-08T03:45:01.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/19
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/19 -> 200
+Body:
+{
+  "id": 19,
+  "email": "hernandezamber@example.org",
+  "password": "***",
+  "name": "Michael Boyd",
+  "role": "customer",
+  "avatar": "https://www.howard.com/",
+  "creationAt": "2026-09-08T03:45:01.000Z",
+  "updatedAt": "2026-09-08T03:45:01.000Z"
+}
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/19
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/19 -> 200
+Body:
+{
+  "id": 19,
+  "email": "hernandezamber@example.org",
+  "password": "***",
+  "name": "Michael Boyd",
+  "role": "customer",
+  "avatar": "https://www.howard.com/",
+  "creationAt": "2026-09-08T03:45:01.000Z",
+  "updatedAt": "2026-09-08T03:45:01.000Z"
+} 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/19
+Body:
+<empty> 
+
+2026-09-08 03:45:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/19 -> 200
+Body:
+true

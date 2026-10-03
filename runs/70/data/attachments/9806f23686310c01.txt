@@ -1,0 +1,53 @@
+2026-09-21 04:03:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_51898391274d492487c1276857c88d7c",
+  "image": "https://www.erickson-watts.com/"
+} 
+
+2026-09-21 04:03:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_51898391274d492487c1276857c88d7c",
+  "slug": "pet-supplies-51898391274d492487c1276857c88d7c",
+  "image": "https://www.erickson-watts.com/",
+  "creationAt": "2026-09-21T04:03:53.000Z",
+  "updatedAt": "2026-09-21T04:03:53.000Z"
+}
+2026-09-21 04:03:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-09-21 04:03:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_51898391274d492487c1276857c88d7c",
+  "slug": "pet-supplies-51898391274d492487c1276857c88d7c",
+  "image": "https://www.erickson-watts.com/",
+  "creationAt": "2026-09-21T04:03:53.000Z",
+  "updatedAt": "2026-09-21T04:03:53.000Z"
+}
+2026-09-21 04:03:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-09-21 04:03:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_51898391274d492487c1276857c88d7c",
+  "slug": "pet-supplies-51898391274d492487c1276857c88d7c",
+  "image": "https://www.erickson-watts.com/",
+  "creationAt": "2026-09-21T04:03:53.000Z",
+  "updatedAt": "2026-09-21T04:03:53.000Z"
+} 
+
+2026-09-21 04:03:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

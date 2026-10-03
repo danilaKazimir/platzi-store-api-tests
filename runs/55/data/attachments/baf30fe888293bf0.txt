@@ -1,0 +1,408 @@
+2026-09-06 03:40:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+  "image": "http://ferguson-salazar.info/"
+} 
+
+2026-09-06 03:40:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+  "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+  "image": "http://ferguson-salazar.info/",
+  "creationAt": "2026-09-06T03:40:26.000Z",
+  "updatedAt": "2026-09-06T03:40:26.000Z"
+}
+2026-09-06 03:40:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-layered full-range adapter-39b50347e6414959a04adc0ceb1f4f64",
+  "price": 125,
+  "description": "Sharable 24/7 support",
+  "categoryId": 25,
+  "images": [
+    "http://www.casey.com/"
+  ]
+} 
+
+2026-09-06 03:40:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 87,
+  "title": "Multi-layered full-range adapter-39b50347e6414959a04adc0ceb1f4f64",
+  "slug": "multi-layered-full-range-adapter-39b50347e6414959a04adc0ceb1f4f64",
+  "price": 125,
+  "description": "Sharable 24/7 support",
+  "category": {
+    "id": 25,
+    "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+    "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+    "image": "http://ferguson-salazar.info/",
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  "images": [
+    "http://www.casey.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:26.000Z",
+  "updatedAt": "2026-09-06T03:40:26.000Z"
+} 
+
+2026-09-06 03:40:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented directional capability-8822a96f235f4d3cad3255c73ef36375",
+  "price": 5,
+  "description": "Reactive solution-oriented approach",
+  "categoryId": 25,
+  "images": [
+    "http://www.green-green.com/"
+  ]
+} 
+
+2026-09-06 03:40:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 89,
+  "title": "Vision-oriented directional capability-8822a96f235f4d3cad3255c73ef36375",
+  "slug": "vision-oriented-directional-capability-8822a96f235f4d3cad3255c73ef36375",
+  "price": 5,
+  "description": "Reactive solution-oriented approach",
+  "category": {
+    "id": 25,
+    "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+    "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+    "image": "http://ferguson-salazar.info/",
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  "images": [
+    "http://www.green-green.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:26.000Z",
+  "updatedAt": "2026-09-06T03:40:26.000Z"
+} 
+
+2026-09-06 03:40:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Assimilated fault-tolerant time-frame-feb3c7692c864fccac27df92f18a70b9",
+  "price": 405,
+  "description": "Profound bifurcated adapter",
+  "categoryId": 25,
+  "images": [
+    "https://www.lam-parks.info/"
+  ]
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 91,
+  "title": "Assimilated fault-tolerant time-frame-feb3c7692c864fccac27df92f18a70b9",
+  "slug": "assimilated-fault-tolerant-time-frame-feb3c7692c864fccac27df92f18a70b9",
+  "price": 405,
+  "description": "Profound bifurcated adapter",
+  "category": {
+    "id": 25,
+    "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+    "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+    "image": "http://ferguson-salazar.info/",
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  "images": [
+    "https://www.lam-parks.info/"
+  ],
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_5a93ccbeff3e498a96dd4e8d3dcfe723",
+  "image": "https://www.molina-scott.biz/"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Books_5a93ccbeff3e498a96dd4e8d3dcfe723",
+  "slug": "books-5a93ccbeff3e498a96dd4e8d3dcfe723",
+  "image": "https://www.molina-scott.biz/",
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Diverse responsive framework-e96962ec051f4acc936a5c642de92ac1",
+  "price": 178,
+  "description": "Synchronized tangible application",
+  "categoryId": 29,
+  "images": [
+    "https://www.mora.com/"
+  ]
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 95,
+  "title": "Diverse responsive framework-e96962ec051f4acc936a5c642de92ac1",
+  "slug": "diverse-responsive-framework-e96962ec051f4acc936a5c642de92ac1",
+  "price": 178,
+  "description": "Synchronized tangible application",
+  "category": {
+    "id": 29,
+    "name": "Books_5a93ccbeff3e498a96dd4e8d3dcfe723",
+    "slug": "books-5a93ccbeff3e498a96dd4e8d3dcfe723",
+    "image": "https://www.molina-scott.biz/",
+    "creationAt": "2026-09-06T03:40:27.000Z",
+    "updatedAt": "2026-09-06T03:40:27.000Z"
+  },
+  "images": [
+    "https://www.mora.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/87/related
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/87/related -> 200
+Body:
+[
+  {
+    "id": 89,
+    "title": "Vision-oriented directional capability-8822a96f235f4d3cad3255c73ef36375",
+    "slug": "vision-oriented-directional-capability-8822a96f235f4d3cad3255c73ef36375",
+    "price": 5,
+    "description": "Reactive solution-oriented approach",
+    "category": {
+      "id": 25,
+      "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+      "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+      "image": "http://ferguson-salazar.info/",
+      "creationAt": "2026-09-06T03:40:26.000Z",
+      "updatedAt": "2026-09-06T03:40:26.000Z"
+    },
+    "images": [
+      "http://www.green-green.com/"
+    ],
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  {
+    "id": 91,
+    "title": "Assimilated fault-tolerant time-frame-feb3c7692c864fccac27df92f18a70b9",
+    "slug": "assimilated-fault-tolerant-time-frame-feb3c7692c864fccac27df92f18a70b9",
+    "price": 405,
+    "description": "Profound bifurcated adapter",
+    "category": {
+      "id": 25,
+      "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+      "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+      "image": "http://ferguson-salazar.info/",
+      "creationAt": "2026-09-06T03:40:26.000Z",
+      "updatedAt": "2026-09-06T03:40:26.000Z"
+    },
+    "images": [
+      "https://www.lam-parks.info/"
+    ],
+    "creationAt": "2026-09-06T03:40:27.000Z",
+    "updatedAt": "2026-09-06T03:40:27.000Z"
+  }
+]
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+{
+  "id": 95,
+  "title": "Diverse responsive framework-e96962ec051f4acc936a5c642de92ac1",
+  "slug": "diverse-responsive-framework-e96962ec051f4acc936a5c642de92ac1",
+  "price": 178,
+  "description": "Synchronized tangible application",
+  "category": {
+    "id": 29,
+    "name": "Books_5a93ccbeff3e498a96dd4e8d3dcfe723",
+    "slug": "books-5a93ccbeff3e498a96dd4e8d3dcfe723",
+    "image": "https://www.molina-scott.biz/",
+    "creationAt": "2026-09-06T03:40:27.000Z",
+    "updatedAt": "2026-09-06T03:40:27.000Z"
+  },
+  "images": [
+    "https://www.mora.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+true 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/91
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/91 -> 200
+Body:
+{
+  "id": 91,
+  "title": "Assimilated fault-tolerant time-frame-feb3c7692c864fccac27df92f18a70b9",
+  "slug": "assimilated-fault-tolerant-time-frame-feb3c7692c864fccac27df92f18a70b9",
+  "price": 405,
+  "description": "Profound bifurcated adapter",
+  "category": {
+    "id": 25,
+    "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+    "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+    "image": "http://ferguson-salazar.info/",
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  "images": [
+    "https://www.lam-parks.info/"
+  ],
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/91
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/91 -> 200
+Body:
+true 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/89 -> 200
+Body:
+{
+  "id": 89,
+  "title": "Vision-oriented directional capability-8822a96f235f4d3cad3255c73ef36375",
+  "slug": "vision-oriented-directional-capability-8822a96f235f4d3cad3255c73ef36375",
+  "price": 5,
+  "description": "Reactive solution-oriented approach",
+  "category": {
+    "id": 25,
+    "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+    "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+    "image": "http://ferguson-salazar.info/",
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  "images": [
+    "http://www.green-green.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:26.000Z",
+  "updatedAt": "2026-09-06T03:40:26.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/89 -> 200
+Body:
+true 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/87
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/87 -> 200
+Body:
+{
+  "id": 87,
+  "title": "Multi-layered full-range adapter-39b50347e6414959a04adc0ceb1f4f64",
+  "slug": "multi-layered-full-range-adapter-39b50347e6414959a04adc0ceb1f4f64",
+  "price": 125,
+  "description": "Sharable 24/7 support",
+  "category": {
+    "id": 25,
+    "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+    "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+    "image": "http://ferguson-salazar.info/",
+    "creationAt": "2026-09-06T03:40:26.000Z",
+    "updatedAt": "2026-09-06T03:40:26.000Z"
+  },
+  "images": [
+    "http://www.casey.com/"
+  ],
+  "creationAt": "2026-09-06T03:40:26.000Z",
+  "updatedAt": "2026-09-06T03:40:26.000Z"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/87
+Body:
+<empty> 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/87 -> 200
+Body:
+true 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Books_5a93ccbeff3e498a96dd4e8d3dcfe723",
+  "slug": "books-5a93ccbeff3e498a96dd4e8d3dcfe723",
+  "image": "https://www.molina-scott.biz/",
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Electronics_6d3560cee4c74924b08a0d5a979699e7",
+  "slug": "electronics-6d3560cee4c74924b08a0d5a979699e7",
+  "image": "http://ferguson-salazar.info/",
+  "creationAt": "2026-09-06T03:40:26.000Z",
+  "updatedAt": "2026-09-06T03:40:26.000Z"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

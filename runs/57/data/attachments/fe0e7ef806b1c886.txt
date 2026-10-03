@@ -1,0 +1,80 @@
+2026-09-08 03:45:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Donna Perez",
+  "email": "rojaschristian@example.net",
+  "password": "***",
+  "avatar": "https://www.poole-jones.com/"
+} 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 21,
+  "email": "rojaschristian@example.net",
+  "password": "***",
+  "name": "Donna Perez",
+  "role": "customer",
+  "avatar": "https://www.poole-jones.com/",
+  "creationAt": "2026-09-08T03:45:02.000Z",
+  "updatedAt": "2026-09-08T03:45:02.000Z"
+}
+2026-09-08 03:45:02 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/21
+Body:
+{
+  "email": "erin65@example.com"
+} 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/21 -> 200
+Body:
+{
+  "id": 21,
+  "email": "erin65@example.com",
+  "password": "***",
+  "name": "Donna Perez",
+  "role": "customer",
+  "avatar": "https://www.poole-jones.com/",
+  "creationAt": "2026-09-08T03:45:02.000Z",
+  "updatedAt": "2026-09-08T03:45:02.000Z"
+} 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/21
+Body:
+<empty> 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/21 -> 200
+Body:
+{
+  "id": 21,
+  "email": "erin65@example.com",
+  "password": "***",
+  "name": "Donna Perez",
+  "role": "customer",
+  "avatar": "https://www.poole-jones.com/",
+  "creationAt": "2026-09-08T03:45:02.000Z",
+  "updatedAt": "2026-09-08T03:45:02.000Z"
+}
+2026-09-08 03:45:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/21
+Body:
+<empty> 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/21 -> 200
+Body:
+{
+  "id": 21,
+  "email": "erin65@example.com",
+  "password": "***",
+  "name": "Donna Perez",
+  "role": "customer",
+  "avatar": "https://www.poole-jones.com/",
+  "creationAt": "2026-09-08T03:45:02.000Z",
+  "updatedAt": "2026-09-08T03:45:02.000Z"
+} 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/21
+Body:
+<empty> 
+
+2026-09-08 03:45:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/21 -> 200
+Body:
+true

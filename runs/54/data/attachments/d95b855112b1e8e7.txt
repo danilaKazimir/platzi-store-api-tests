@@ -1,0 +1,71 @@
+2026-09-05 03:38:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_0695f2035ec04f04838f6587c9b3f161",
+  "image": "https://patterson-myers.biz/"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Food & Beverages_0695f2035ec04f04838f6587c9b3f161",
+  "slug": "food-beverages-0695f2035ec04f04838f6587c9b3f161",
+  "image": "https://patterson-myers.biz/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/15
+Body:
+{
+  "name": "Books_fbbc047454de49de9392e8aea5e85389",
+  "image": "https://jackson.biz/"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Books_fbbc047454de49de9392e8aea5e85389",
+  "slug": "books-fbbc047454de49de9392e8aea5e85389",
+  "image": "https://jackson.biz/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Books_fbbc047454de49de9392e8aea5e85389",
+  "slug": "books-fbbc047454de49de9392e8aea5e85389",
+  "image": "https://jackson.biz/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+}
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Books_fbbc047454de49de9392e8aea5e85389",
+  "slug": "books-fbbc047454de49de9392e8aea5e85389",
+  "image": "https://jackson.biz/",
+  "creationAt": "2026-09-05T03:38:35.000Z",
+  "updatedAt": "2026-09-05T03:38:35.000Z"
+} 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-09-05 03:38:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+true

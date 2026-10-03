@@ -1,0 +1,15 @@
+2026-09-15 04:03:33 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Books_5b82abac4ae64785a8370d756a3a343e",
+  "image": "http://www.barron.info/"
+} 
+
+2026-09-15 04:03:33 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-09-15T04:03:33.702Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

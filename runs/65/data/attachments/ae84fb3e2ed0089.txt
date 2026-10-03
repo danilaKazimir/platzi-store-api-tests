@@ -1,0 +1,135 @@
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_49319c6d7c204308a0acd3558deb5296",
+  "image": "https://www.estrada.biz/"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Personal Care_49319c6d7c204308a0acd3558deb5296",
+  "slug": "personal-care-49319c6d7c204308a0acd3558deb5296",
+  "image": "https://www.estrada.biz/",
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synchronized neutral leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "price": 265,
+  "description": "Advanced multi-tasking synergy",
+  "categoryId": 20,
+  "images": [
+    "http://berry.net/"
+  ]
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 69,
+  "title": "Synchronized neutral leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "slug": "synchronized-neutral-leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "price": 265,
+  "description": "Advanced multi-tasking synergy",
+  "category": {
+    "id": 20,
+    "name": "Personal Care_49319c6d7c204308a0acd3558deb5296",
+    "slug": "personal-care-49319c6d7c204308a0acd3558deb5296",
+    "image": "https://www.estrada.biz/",
+    "creationAt": "2026-09-16T04:00:32.000Z",
+    "updatedAt": "2026-09-16T04:00:32.000Z"
+  },
+  "images": [
+    "http://berry.net/"
+  ],
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+}
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/synchronized-neutral-leverage-b38d1e9b83bd4ffb839c0767d17c6e6f
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/synchronized-neutral-leverage-b38d1e9b83bd4ffb839c0767d17c6e6f -> 200
+Body:
+{
+  "id": 69,
+  "title": "Synchronized neutral leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "slug": "synchronized-neutral-leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "price": 265,
+  "description": "Advanced multi-tasking synergy",
+  "category": {
+    "id": 20,
+    "name": "Personal Care_49319c6d7c204308a0acd3558deb5296",
+    "slug": "personal-care-49319c6d7c204308a0acd3558deb5296",
+    "image": "https://www.estrada.biz/",
+    "creationAt": "2026-09-16T04:00:32.000Z",
+    "updatedAt": "2026-09-16T04:00:32.000Z"
+  },
+  "images": [
+    "http://berry.net/"
+  ],
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+}
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Synchronized neutral leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "slug": "synchronized-neutral-leverage-b38d1e9b83bd4ffb839c0767d17c6e6f",
+  "price": 265,
+  "description": "Advanced multi-tasking synergy",
+  "category": {
+    "id": 20,
+    "name": "Personal Care_49319c6d7c204308a0acd3558deb5296",
+    "slug": "personal-care-49319c6d7c204308a0acd3558deb5296",
+    "image": "https://www.estrada.biz/",
+    "creationAt": "2026-09-16T04:00:32.000Z",
+    "updatedAt": "2026-09-16T04:00:32.000Z"
+  },
+  "images": [
+    "http://berry.net/"
+  ],
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+true 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Personal Care_49319c6d7c204308a0acd3558deb5296",
+  "slug": "personal-care-49319c6d7c204308a0acd3558deb5296",
+  "image": "https://www.estrada.biz/",
+  "creationAt": "2026-09-16T04:00:32.000Z",
+  "updatedAt": "2026-09-16T04:00:32.000Z"
+} 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-09-16 04:00:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

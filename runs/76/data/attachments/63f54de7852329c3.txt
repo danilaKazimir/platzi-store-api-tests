@@ -1,0 +1,71 @@
+2026-09-27 04:27:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_5421866fee11411f908105d01d03ae65",
+  "image": "https://www.roberts.com/"
+} 
+
+2026-09-27 04:27:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 208,
+  "name": "Toys_5421866fee11411f908105d01d03ae65",
+  "slug": "toys-5421866fee11411f908105d01d03ae65",
+  "image": "https://www.roberts.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:00.000Z"
+}
+2026-09-27 04:27:00 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/208
+Body:
+{
+  "name": "Home & Kitchen_3c95d89a781d42e09eaa2a1bafa1829f",
+  "image": "https://roberts.com/"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+{
+  "id": 208,
+  "name": "Home & Kitchen_3c95d89a781d42e09eaa2a1bafa1829f",
+  "slug": "home-kitchen-3c95d89a781d42e09eaa2a1bafa1829f",
+  "image": "https://roberts.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+{
+  "id": 208,
+  "name": "Home & Kitchen_3c95d89a781d42e09eaa2a1bafa1829f",
+  "slug": "home-kitchen-3c95d89a781d42e09eaa2a1bafa1829f",
+  "image": "https://roberts.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+{
+  "id": 208,
+  "name": "Home & Kitchen_3c95d89a781d42e09eaa2a1bafa1829f",
+  "slug": "home-kitchen-3c95d89a781d42e09eaa2a1bafa1829f",
+  "image": "https://roberts.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+true

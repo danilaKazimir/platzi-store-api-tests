@@ -1,0 +1,125 @@
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_0ccea65f921147ba8e700902d8f01fd5",
+  "image": "http://garcia.com/"
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Food & Beverages_0ccea65f921147ba8e700902d8f01fd5",
+  "slug": "food-beverages-0ccea65f921147ba8e700902d8f01fd5",
+  "image": "http://garcia.com/",
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Diverse coherent intranet-73757e8385974a7293cb86422dd07793",
+  "price": 618,
+  "description": "Focused optimizing service-desk",
+  "categoryId": 39,
+  "images": [
+    "http://campbell.info/"
+  ]
+} 
+
+2026-09-09 03:49:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 90,
+  "title": "Diverse coherent intranet-73757e8385974a7293cb86422dd07793",
+  "slug": "diverse-coherent-intranet-73757e8385974a7293cb86422dd07793",
+  "price": 618,
+  "description": "Focused optimizing service-desk",
+  "category": {
+    "id": 39,
+    "name": "Food & Beverages_0ccea65f921147ba8e700902d8f01fd5",
+    "slug": "food-beverages-0ccea65f921147ba8e700902d8f01fd5",
+    "image": "http://garcia.com/",
+    "creationAt": "2026-09-09T03:49:40.000Z",
+    "updatedAt": "2026-09-09T03:49:40.000Z"
+  },
+  "images": [
+    "http://campbell.info/"
+  ],
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+}
+2026-09-09 03:49:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/90
+Body:
+{
+  "title": "Optional directional moderator-f0cbacf11ec8466c9f27867889e29782",
+  "price": 629,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/90 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/90
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/90 -> 200
+Body:
+{
+  "id": 90,
+  "title": "Diverse coherent intranet-73757e8385974a7293cb86422dd07793",
+  "slug": "diverse-coherent-intranet-73757e8385974a7293cb86422dd07793",
+  "price": 618,
+  "description": "Focused optimizing service-desk",
+  "category": {
+    "id": 39,
+    "name": "Food & Beverages_0ccea65f921147ba8e700902d8f01fd5",
+    "slug": "food-beverages-0ccea65f921147ba8e700902d8f01fd5",
+    "image": "http://garcia.com/",
+    "creationAt": "2026-09-09T03:49:40.000Z",
+    "updatedAt": "2026-09-09T03:49:40.000Z"
+  },
+  "images": [
+    "http://campbell.info/"
+  ],
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/90
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/90 -> 200
+Body:
+true 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Food & Beverages_0ccea65f921147ba8e700902d8f01fd5",
+  "slug": "food-beverages-0ccea65f921147ba8e700902d8f01fd5",
+  "image": "http://garcia.com/",
+  "creationAt": "2026-09-09T03:49:40.000Z",
+  "updatedAt": "2026-09-09T03:49:40.000Z"
+} 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-09 03:49:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

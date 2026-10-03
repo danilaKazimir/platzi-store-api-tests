@@ -1,0 +1,81 @@
+2026-09-11 03:45:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "John Wood",
+  "email": "lshaw@example.com",
+  "password": "***",
+  "avatar": "http://www.diaz-thompson.info/"
+} 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 14,
+  "email": "lshaw@example.com",
+  "password": "***",
+  "name": "John Wood",
+  "role": "customer",
+  "avatar": "http://www.diaz-thompson.info/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:27.000Z"
+}
+2026-09-11 03:45:27 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/14
+Body:
+{
+  "name": "Christina Edwards",
+  "email": "kristinaharris@example.org"
+} 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "kristinaharris@example.org",
+  "password": "***",
+  "name": "Christina Edwards",
+  "role": "customer",
+  "avatar": "http://www.diaz-thompson.info/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:27.000Z"
+} 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "kristinaharris@example.org",
+  "password": "***",
+  "name": "Christina Edwards",
+  "role": "customer",
+  "avatar": "http://www.diaz-thompson.info/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:27.000Z"
+}
+2026-09-11 03:45:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "kristinaharris@example.org",
+  "password": "***",
+  "name": "Christina Edwards",
+  "role": "customer",
+  "avatar": "http://www.diaz-thompson.info/",
+  "creationAt": "2026-09-11T03:45:27.000Z",
+  "updatedAt": "2026-09-11T03:45:27.000Z"
+} 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-09-11 03:45:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+true

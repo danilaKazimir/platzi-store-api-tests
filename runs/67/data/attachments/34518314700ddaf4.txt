@@ -1,0 +1,80 @@
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Mr. Kenneth Santos",
+  "email": "kylie25@example.com",
+  "password": "***",
+  "avatar": "http://www.gray-olson.com/"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 9,
+  "email": "kylie25@example.com",
+  "password": "***",
+  "name": "Mr. Kenneth Santos",
+  "role": "customer",
+  "avatar": "http://www.gray-olson.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+}
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/9
+Body:
+{
+  "name": "Chelsea Wright"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "kylie25@example.com",
+  "password": "***",
+  "name": "Chelsea Wright",
+  "role": "customer",
+  "avatar": "http://www.gray-olson.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "kylie25@example.com",
+  "password": "***",
+  "name": "Chelsea Wright",
+  "role": "customer",
+  "avatar": "http://www.gray-olson.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+}
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+{
+  "id": 9,
+  "email": "kylie25@example.com",
+  "password": "***",
+  "name": "Chelsea Wright",
+  "role": "customer",
+  "avatar": "http://www.gray-olson.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/9
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/9 -> 200
+Body:
+true

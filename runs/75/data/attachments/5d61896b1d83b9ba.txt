@@ -1,0 +1,88 @@
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kari Todd",
+  "email": "leejohnny@example.net",
+  "password": "***",
+  "avatar": "http://everett-griffin.com/"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 90,
+  "email": "leejohnny@example.net",
+  "password": "***",
+  "name": "Kari Todd",
+  "role": "customer",
+  "avatar": "http://everett-griffin.com/",
+  "creationAt": "2026-09-26T04:12:02.000Z",
+  "updatedAt": "2026-09-26T04:12:02.000Z"
+}
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "leejohnny@example.net",
+  "password": "***"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjkwLCJpYXQiOjE3OTAzOTU5MjIsImV4cCI6MTc5MDQzMTkyMn0.9OQP3yVqfclQ34vZ48SBLlRca64MVaSKeg9lzJr-L88"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 90,
+  "email": "leejohnny@example.net",
+  "password": "***",
+  "name": "Kari Todd",
+  "role": "customer",
+  "avatar": "http://everett-griffin.com/",
+  "creationAt": "2026-09-26T04:12:02.000Z",
+  "updatedAt": "2026-09-26T04:12:02.000Z"
+}
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/90
+Body:
+<empty> 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/90 -> 200
+Body:
+{
+  "id": 90,
+  "email": "leejohnny@example.net",
+  "password": "***",
+  "name": "Kari Todd",
+  "role": "customer",
+  "avatar": "http://everett-griffin.com/",
+  "creationAt": "2026-09-26T04:12:02.000Z",
+  "updatedAt": "2026-09-26T04:12:02.000Z"
+} 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/90
+Body:
+<empty> 
+
+2026-09-26 04:12:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/90 -> 200
+Body:
+true

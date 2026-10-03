@@ -1,0 +1,107 @@
+2026-09-23 03:58:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_b557200ce1d54fba95ae07e22f273b2e",
+  "image": "https://www.waters-young.com/"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 44,
+  "name": "Pet Supplies_b557200ce1d54fba95ae07e22f273b2e",
+  "slug": "pet-supplies-b557200ce1d54fba95ae07e22f273b2e",
+  "image": "https://www.waters-young.com/",
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive reciprocal secured line-e51f6b2359ce4d95a86951b55f33a029",
+  "price": 611,
+  "description": "Ameliorated system-worthy open architecture",
+  "categoryId": 44,
+  "images": [
+    "https://bryan-bautista.com/"
+  ]
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 241,
+  "title": "Progressive reciprocal secured line-e51f6b2359ce4d95a86951b55f33a029",
+  "slug": "progressive-reciprocal-secured-line-e51f6b2359ce4d95a86951b55f33a029",
+  "price": 611,
+  "description": "Ameliorated system-worthy open architecture",
+  "category": {
+    "id": 44,
+    "name": "Pet Supplies_b557200ce1d54fba95ae07e22f273b2e",
+    "slug": "pet-supplies-b557200ce1d54fba95ae07e22f273b2e",
+    "image": "https://www.waters-young.com/",
+    "creationAt": "2026-09-23T03:58:04.000Z",
+    "updatedAt": "2026-09-23T03:58:04.000Z"
+  },
+  "images": [
+    "https://bryan-bautista.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+}
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/241 -> 200
+Body:
+true 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/241 -> 400
+Body:
+{
+  "path": "/api/v1/products/241",
+  "timestamp": "2026-09-23T03:58:04.403Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 241\n    }\n}"
+}
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/241
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/241 -> 400
+Body:
+{
+  "path": "/api/v1/products/241",
+  "timestamp": "2026-09-23T03:58:04.437Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 241\n    }\n}"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/44
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/44 -> 200
+Body:
+{
+  "id": 44,
+  "name": "Pet Supplies_b557200ce1d54fba95ae07e22f273b2e",
+  "slug": "pet-supplies-b557200ce1d54fba95ae07e22f273b2e",
+  "image": "https://www.waters-young.com/",
+  "creationAt": "2026-09-23T03:58:04.000Z",
+  "updatedAt": "2026-09-23T03:58:04.000Z"
+} 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/44
+Body:
+<empty> 
+
+2026-09-23 03:58:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/44 -> 200
+Body:
+true

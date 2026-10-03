@@ -1,0 +1,408 @@
+2026-09-30 04:44:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+  "image": "http://www.gates-parks.com/"
+} 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 175,
+  "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+  "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+  "image": "http://www.gates-parks.com/",
+  "creationAt": "2026-09-30T04:44:14.000Z",
+  "updatedAt": "2026-09-30T04:44:14.000Z"
+}
+2026-09-30 04:44:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable impactful migration-7bc41d634b174243887a7c1465a46ec4",
+  "price": 123,
+  "description": "Self-enabling global firmware",
+  "categoryId": 175,
+  "images": [
+    "http://www.graham.org/"
+  ]
+} 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 288,
+  "title": "Programmable impactful migration-7bc41d634b174243887a7c1465a46ec4",
+  "slug": "programmable-impactful-migration-7bc41d634b174243887a7c1465a46ec4",
+  "price": 123,
+  "description": "Self-enabling global firmware",
+  "category": {
+    "id": 175,
+    "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "image": "http://www.gates-parks.com/",
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  "images": [
+    "http://www.graham.org/"
+  ],
+  "creationAt": "2026-09-30T04:44:14.000Z",
+  "updatedAt": "2026-09-30T04:44:14.000Z"
+} 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Self-enabling eco-centric throughput-48d145633b65413085ffd106799d835b",
+  "price": 637,
+  "description": "Front-line modular software",
+  "categoryId": 175,
+  "images": [
+    "http://robbins-sparks.com/"
+  ]
+} 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 290,
+  "title": "Self-enabling eco-centric throughput-48d145633b65413085ffd106799d835b",
+  "slug": "self-enabling-eco-centric-throughput-48d145633b65413085ffd106799d835b",
+  "price": 637,
+  "description": "Front-line modular software",
+  "category": {
+    "id": 175,
+    "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "image": "http://www.gates-parks.com/",
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  "images": [
+    "http://robbins-sparks.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:14.000Z",
+  "updatedAt": "2026-09-30T04:44:14.000Z"
+} 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Public-key background secured line-e223b25c4f98405b8f999b424c37cb0b",
+  "price": 682,
+  "description": "Realigned actuating flexibility",
+  "categoryId": 175,
+  "images": [
+    "http://allen.com/"
+  ]
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 292,
+  "title": "Public-key background secured line-e223b25c4f98405b8f999b424c37cb0b",
+  "slug": "public-key-background-secured-line-e223b25c4f98405b8f999b424c37cb0b",
+  "price": 682,
+  "description": "Realigned actuating flexibility",
+  "category": {
+    "id": 175,
+    "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "image": "http://www.gates-parks.com/",
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  "images": [
+    "http://allen.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:15.000Z",
+  "updatedAt": "2026-09-30T04:44:15.000Z"
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3b9d7fa401f14aa5bfef350498bd5374",
+  "image": "https://wagner-pratt.com/"
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 177,
+  "name": "Sports & Fitness_3b9d7fa401f14aa5bfef350498bd5374",
+  "slug": "sports-fitness-3b9d7fa401f14aa5bfef350498bd5374",
+  "image": "https://wagner-pratt.com/",
+  "creationAt": "2026-09-30T04:44:15.000Z",
+  "updatedAt": "2026-09-30T04:44:15.000Z"
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Customer-focused actuating installation-31a86b66b1ad4485b79182994ba1898b",
+  "price": 703,
+  "description": "Horizontal system-worthy project",
+  "categoryId": 177,
+  "images": [
+    "https://www.smith.org/"
+  ]
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 294,
+  "title": "Customer-focused actuating installation-31a86b66b1ad4485b79182994ba1898b",
+  "slug": "customer-focused-actuating-installation-31a86b66b1ad4485b79182994ba1898b",
+  "price": 703,
+  "description": "Horizontal system-worthy project",
+  "category": {
+    "id": 177,
+    "name": "Sports & Fitness_3b9d7fa401f14aa5bfef350498bd5374",
+    "slug": "sports-fitness-3b9d7fa401f14aa5bfef350498bd5374",
+    "image": "https://wagner-pratt.com/",
+    "creationAt": "2026-09-30T04:44:15.000Z",
+    "updatedAt": "2026-09-30T04:44:15.000Z"
+  },
+  "images": [
+    "https://www.smith.org/"
+  ],
+  "creationAt": "2026-09-30T04:44:15.000Z",
+  "updatedAt": "2026-09-30T04:44:15.000Z"
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/programmable-impactful-migration-7bc41d634b174243887a7c1465a46ec4/related
+Body:
+<empty> 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/programmable-impactful-migration-7bc41d634b174243887a7c1465a46ec4/related -> 200
+Body:
+[
+  {
+    "id": 290,
+    "title": "Self-enabling eco-centric throughput-48d145633b65413085ffd106799d835b",
+    "slug": "self-enabling-eco-centric-throughput-48d145633b65413085ffd106799d835b",
+    "price": 637,
+    "description": "Front-line modular software",
+    "category": {
+      "id": 175,
+      "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+      "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+      "image": "http://www.gates-parks.com/",
+      "creationAt": "2026-09-30T04:44:14.000Z",
+      "updatedAt": "2026-09-30T04:44:14.000Z"
+    },
+    "images": [
+      "http://robbins-sparks.com/"
+    ],
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  {
+    "id": 292,
+    "title": "Public-key background secured line-e223b25c4f98405b8f999b424c37cb0b",
+    "slug": "public-key-background-secured-line-e223b25c4f98405b8f999b424c37cb0b",
+    "price": 682,
+    "description": "Realigned actuating flexibility",
+    "category": {
+      "id": 175,
+      "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+      "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+      "image": "http://www.gates-parks.com/",
+      "creationAt": "2026-09-30T04:44:14.000Z",
+      "updatedAt": "2026-09-30T04:44:14.000Z"
+    },
+    "images": [
+      "http://allen.com/"
+    ],
+    "creationAt": "2026-09-30T04:44:15.000Z",
+    "updatedAt": "2026-09-30T04:44:15.000Z"
+  }
+]
+2026-09-30 04:44:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/294
+Body:
+<empty> 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/294 -> 200
+Body:
+{
+  "id": 294,
+  "title": "Customer-focused actuating installation-31a86b66b1ad4485b79182994ba1898b",
+  "slug": "customer-focused-actuating-installation-31a86b66b1ad4485b79182994ba1898b",
+  "price": 703,
+  "description": "Horizontal system-worthy project",
+  "category": {
+    "id": 177,
+    "name": "Sports & Fitness_3b9d7fa401f14aa5bfef350498bd5374",
+    "slug": "sports-fitness-3b9d7fa401f14aa5bfef350498bd5374",
+    "image": "https://wagner-pratt.com/",
+    "creationAt": "2026-09-30T04:44:15.000Z",
+    "updatedAt": "2026-09-30T04:44:15.000Z"
+  },
+  "images": [
+    "https://www.smith.org/"
+  ],
+  "creationAt": "2026-09-30T04:44:15.000Z",
+  "updatedAt": "2026-09-30T04:44:15.000Z"
+} 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/294
+Body:
+<empty> 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/294 -> 200
+Body:
+true 
+
+2026-09-30 04:44:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/292
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/292 -> 200
+Body:
+{
+  "id": 292,
+  "title": "Public-key background secured line-e223b25c4f98405b8f999b424c37cb0b",
+  "slug": "public-key-background-secured-line-e223b25c4f98405b8f999b424c37cb0b",
+  "price": 682,
+  "description": "Realigned actuating flexibility",
+  "category": {
+    "id": 175,
+    "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "image": "http://www.gates-parks.com/",
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  "images": [
+    "http://allen.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:15.000Z",
+  "updatedAt": "2026-09-30T04:44:15.000Z"
+} 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/292
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/292 -> 200
+Body:
+true 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/290
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/290 -> 200
+Body:
+{
+  "id": 290,
+  "title": "Self-enabling eco-centric throughput-48d145633b65413085ffd106799d835b",
+  "slug": "self-enabling-eco-centric-throughput-48d145633b65413085ffd106799d835b",
+  "price": 637,
+  "description": "Front-line modular software",
+  "category": {
+    "id": 175,
+    "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "image": "http://www.gates-parks.com/",
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  "images": [
+    "http://robbins-sparks.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:14.000Z",
+  "updatedAt": "2026-09-30T04:44:14.000Z"
+} 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/290
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/290 -> 200
+Body:
+true 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/288
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/288 -> 200
+Body:
+{
+  "id": 288,
+  "title": "Programmable impactful migration-7bc41d634b174243887a7c1465a46ec4",
+  "slug": "programmable-impactful-migration-7bc41d634b174243887a7c1465a46ec4",
+  "price": 123,
+  "description": "Self-enabling global firmware",
+  "category": {
+    "id": 175,
+    "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+    "image": "http://www.gates-parks.com/",
+    "creationAt": "2026-09-30T04:44:14.000Z",
+    "updatedAt": "2026-09-30T04:44:14.000Z"
+  },
+  "images": [
+    "http://www.graham.org/"
+  ],
+  "creationAt": "2026-09-30T04:44:14.000Z",
+  "updatedAt": "2026-09-30T04:44:14.000Z"
+} 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/288
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/288 -> 200
+Body:
+true 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/177
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/177 -> 200
+Body:
+{
+  "id": 177,
+  "name": "Sports & Fitness_3b9d7fa401f14aa5bfef350498bd5374",
+  "slug": "sports-fitness-3b9d7fa401f14aa5bfef350498bd5374",
+  "image": "https://wagner-pratt.com/",
+  "creationAt": "2026-09-30T04:44:15.000Z",
+  "updatedAt": "2026-09-30T04:44:15.000Z"
+} 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/177
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/177 -> 200
+Body:
+true 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/175
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/175 -> 200
+Body:
+{
+  "id": 175,
+  "name": "Personal Care_c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+  "slug": "personal-care-c3e0ec4ea1c94d65accdd4a8a7bc05b9",
+  "image": "http://www.gates-parks.com/",
+  "creationAt": "2026-09-30T04:44:14.000Z",
+  "updatedAt": "2026-09-30T04:44:14.000Z"
+} 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/175
+Body:
+<empty> 
+
+2026-09-30 04:44:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/175 -> 200
+Body:
+true

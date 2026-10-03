@@ -1,0 +1,55 @@
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_94e54f0a572f48229be286e2aa66573a",
+  "image": "http://www.villanueva-rodriguez.com/"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 493,
+  "name": "Sports & Fitness_94e54f0a572f48229be286e2aa66573a",
+  "slug": "sports-fitness-94e54f0a572f48229be286e2aa66573a",
+  "image": "http://www.villanueva-rodriguez.com/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+}
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/493
+Body:
+{
+  "name": null,
+  "image": "http://www.friedman.com/"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/493 -> 400
+Body:
+{
+  "path": "/api/v1/categories/493",
+  "timestamp": "2026-09-25T04:07:03.820Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/493
+Body:
+<empty> 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/493 -> 200
+Body:
+{
+  "id": 493,
+  "name": "Sports & Fitness_94e54f0a572f48229be286e2aa66573a",
+  "slug": "sports-fitness-94e54f0a572f48229be286e2aa66573a",
+  "image": "http://www.villanueva-rodriguez.com/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/493
+Body:
+<empty> 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/493 -> 200
+Body:
+true

@@ -1,0 +1,81 @@
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Tyler Brown",
+  "email": "hillmaria@example.net",
+  "password": "***",
+  "avatar": "http://bauer.info/"
+} 
+
+2026-09-06 03:40:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "hillmaria@example.net",
+  "password": "***",
+  "name": "Tyler Brown",
+  "role": "customer",
+  "avatar": "http://bauer.info/",
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:27.000Z"
+}
+2026-09-06 03:40:27 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/11
+Body:
+{
+  "name": "Susan Smith",
+  "email": "clintonstone@example.net"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "clintonstone@example.net",
+  "password": "***",
+  "name": "Susan Smith",
+  "role": "customer",
+  "avatar": "http://bauer.info/",
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "clintonstone@example.net",
+  "password": "***",
+  "name": "Susan Smith",
+  "role": "customer",
+  "avatar": "http://bauer.info/",
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+}
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "clintonstone@example.net",
+  "password": "***",
+  "name": "Susan Smith",
+  "role": "customer",
+  "avatar": "http://bauer.info/",
+  "creationAt": "2026-09-06T03:40:27.000Z",
+  "updatedAt": "2026-09-06T03:40:28.000Z"
+} 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-09-06 03:40:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true

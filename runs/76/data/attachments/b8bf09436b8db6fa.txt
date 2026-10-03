@@ -1,0 +1,55 @@
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_b8ae0739daf447a3b2c403c76f0ffefd",
+  "image": "https://www.thomas.net/"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 212,
+  "name": "Pet Supplies_b8ae0739daf447a3b2c403c76f0ffefd",
+  "slug": "pet-supplies-b8ae0739daf447a3b2c403c76f0ffefd",
+  "image": "https://www.thomas.net/",
+  "creationAt": "2026-09-27T04:27:01.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/212
+Body:
+{
+  "name": "Personal Care_4dc050deaa594957964bf6f0775ae9af",
+  "image": null
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/212 -> 400
+Body:
+{
+  "path": "/api/v1/categories/212",
+  "timestamp": "2026-09-27T04:27:01.975Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/212
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/212 -> 200
+Body:
+{
+  "id": 212,
+  "name": "Pet Supplies_b8ae0739daf447a3b2c403c76f0ffefd",
+  "slug": "pet-supplies-b8ae0739daf447a3b2c403c76f0ffefd",
+  "image": "https://www.thomas.net/",
+  "creationAt": "2026-09-27T04:27:01.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/212
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/212 -> 200
+Body:
+true
