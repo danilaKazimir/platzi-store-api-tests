@@ -1,0 +1,88 @@
+2026-09-22 04:00:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "John Knight",
+  "email": "nicholasmalone@example.com",
+  "password": "***",
+  "avatar": "https://fowler.org/"
+} 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 59,
+  "email": "nicholasmalone@example.com",
+  "password": "***",
+  "name": "John Knight",
+  "role": "customer",
+  "avatar": "https://fowler.org/",
+  "creationAt": "2026-09-22T04:01:00.000Z",
+  "updatedAt": "2026-09-22T04:01:00.000Z"
+}
+2026-09-22 04:01:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "nicholasmalone@example.com",
+  "password": "***"
+} 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjU5LCJpYXQiOjE3OTAwNDk2NjAsImV4cCI6MTc5MDA4NTY2MH0.X_8o2Vl5nlgH182_c08t1qr96wjQqakEB1Se51aVMPk"
+} 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 59,
+  "email": "nicholasmalone@example.com",
+  "password": "***",
+  "name": "John Knight",
+  "role": "customer",
+  "avatar": "https://fowler.org/",
+  "creationAt": "2026-09-22T04:01:00.000Z",
+  "updatedAt": "2026-09-22T04:01:00.000Z"
+}
+2026-09-22 04:01:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/59
+Body:
+<empty> 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/59 -> 200
+Body:
+{
+  "id": 59,
+  "email": "nicholasmalone@example.com",
+  "password": "***",
+  "name": "John Knight",
+  "role": "customer",
+  "avatar": "https://fowler.org/",
+  "creationAt": "2026-09-22T04:01:00.000Z",
+  "updatedAt": "2026-09-22T04:01:00.000Z"
+} 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/59
+Body:
+<empty> 
+
+2026-09-22 04:01:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/59 -> 200
+Body:
+true

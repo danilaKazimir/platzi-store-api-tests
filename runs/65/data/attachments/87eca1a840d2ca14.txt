@@ -1,0 +1,55 @@
+2026-09-16 04:00:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_c293233c44bb4818b33d96c7dc8300b8",
+  "image": "http://www.rodriguez.net/"
+} 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Automotive Accessories_c293233c44bb4818b33d96c7dc8300b8",
+  "slug": "automotive-accessories-c293233c44bb4818b33d96c7dc8300b8",
+  "image": "http://www.rodriguez.net/",
+  "creationAt": "2026-09-16T04:00:31.000Z",
+  "updatedAt": "2026-09-16T04:00:31.000Z"
+}
+2026-09-16 04:00:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/16
+Body:
+{
+  "name": null,
+  "image": "https://www.rodgers.com/"
+} 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-09-16T04:00:31.345Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-16 04:00:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Automotive Accessories_c293233c44bb4818b33d96c7dc8300b8",
+  "slug": "automotive-accessories-c293233c44bb4818b33d96c7dc8300b8",
+  "image": "http://www.rodriguez.net/",
+  "creationAt": "2026-09-16T04:00:31.000Z",
+  "updatedAt": "2026-09-16T04:00:31.000Z"
+} 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-16 04:00:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_d9ac09da18bb4f2e990c81c3eb3d6e38",
+  "image": "https://house-morrison.info/"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 275,
+  "name": "Electronics_d9ac09da18bb4f2e990c81c3eb3d6e38",
+  "slug": "electronics-d9ac09da18bb4f2e990c81c3eb3d6e38",
+  "image": "https://house-morrison.info/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face motivating firmware-3f9dffa7c247440b85c988a4b608c31b",
+  "price": 713,
+  "description": "Assimilated impactful encryption",
+  "categoryId": 275,
+  "images": [
+    "http://www.adams-jones.com/"
+  ]
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 242,
+  "title": "Face-to-face motivating firmware-3f9dffa7c247440b85c988a4b608c31b",
+  "slug": "face-to-face-motivating-firmware-3f9dffa7c247440b85c988a4b608c31b",
+  "price": 713,
+  "description": "Assimilated impactful encryption",
+  "category": {
+    "id": 275,
+    "name": "Electronics_d9ac09da18bb4f2e990c81c3eb3d6e38",
+    "slug": "electronics-d9ac09da18bb4f2e990c81c3eb3d6e38",
+    "image": "https://house-morrison.info/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "http://www.adams-jones.com/"
+  ],
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/242
+Body:
+{
+  "title": "Open-architected national data-warehouse-ea986894f59a4ff8afb91e01b81e0444",
+  "price": 165,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/242 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+{
+  "id": 242,
+  "title": "Face-to-face motivating firmware-3f9dffa7c247440b85c988a4b608c31b",
+  "slug": "face-to-face-motivating-firmware-3f9dffa7c247440b85c988a4b608c31b",
+  "price": 713,
+  "description": "Assimilated impactful encryption",
+  "category": {
+    "id": 275,
+    "name": "Electronics_d9ac09da18bb4f2e990c81c3eb3d6e38",
+    "slug": "electronics-d9ac09da18bb4f2e990c81c3eb3d6e38",
+    "image": "https://house-morrison.info/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "http://www.adams-jones.com/"
+  ],
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+true 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/275
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/275 -> 200
+Body:
+{
+  "id": 275,
+  "name": "Electronics_d9ac09da18bb4f2e990c81c3eb3d6e38",
+  "slug": "electronics-d9ac09da18bb4f2e990c81c3eb3d6e38",
+  "image": "https://house-morrison.info/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/275
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/275 -> 200
+Body:
+true

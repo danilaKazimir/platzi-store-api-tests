@@ -1,0 +1,71 @@
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_fcf5b12ecace42c99732d340073419f3",
+  "image": "http://www.mccoy.net/"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 69,
+  "name": "Books_fcf5b12ecace42c99732d340073419f3",
+  "slug": "books-fcf5b12ecace42c99732d340073419f3",
+  "image": "http://www.mccoy.net/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/69
+Body:
+{
+  "name": "Sports & Fitness_59b36cef53004d138054e5ee0979729b",
+  "image": "http://cole-chen.com/"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+{
+  "id": 69,
+  "name": "Sports & Fitness_59b36cef53004d138054e5ee0979729b",
+  "slug": "sports-fitness-59b36cef53004d138054e5ee0979729b",
+  "image": "http://cole-chen.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+{
+  "id": 69,
+  "name": "Sports & Fitness_59b36cef53004d138054e5ee0979729b",
+  "slug": "sports-fitness-59b36cef53004d138054e5ee0979729b",
+  "image": "http://cole-chen.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+{
+  "id": 69,
+  "name": "Sports & Fitness_59b36cef53004d138054e5ee0979729b",
+  "slug": "sports-fitness-59b36cef53004d138054e5ee0979729b",
+  "image": "http://cole-chen.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_55e4fc06672740239d14526670b80813",
+  "image": "https://www.jenkins-mills.org/"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 75,
+  "name": "Clothing_55e4fc06672740239d14526670b80813",
+  "slug": "clothing-55e4fc06672740239d14526670b80813",
+  "image": "https://www.jenkins-mills.org/",
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone executive website-e780aeb9b981489b8c4226793bb1c581",
+  "price": 794,
+  "description": "Enterprise-wide regional website",
+  "categoryId": 75,
+  "images": [
+    "http://reid.com/"
+  ]
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 282,
+  "title": "Stand-alone executive website-e780aeb9b981489b8c4226793bb1c581",
+  "slug": "stand-alone-executive-website-e780aeb9b981489b8c4226793bb1c581",
+  "price": 794,
+  "description": "Enterprise-wide regional website",
+  "category": {
+    "id": 75,
+    "name": "Clothing_55e4fc06672740239d14526670b80813",
+    "slug": "clothing-55e4fc06672740239d14526670b80813",
+    "image": "https://www.jenkins-mills.org/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "http://reid.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+}
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/282
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/282 -> 200
+Body:
+{
+  "id": 282,
+  "title": "Stand-alone executive website-e780aeb9b981489b8c4226793bb1c581",
+  "slug": "stand-alone-executive-website-e780aeb9b981489b8c4226793bb1c581",
+  "price": 794,
+  "description": "Enterprise-wide regional website",
+  "category": {
+    "id": 75,
+    "name": "Clothing_55e4fc06672740239d14526670b80813",
+    "slug": "clothing-55e4fc06672740239d14526670b80813",
+    "image": "https://www.jenkins-mills.org/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "http://reid.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+}
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/282
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/282 -> 200
+Body:
+{
+  "id": 282,
+  "title": "Stand-alone executive website-e780aeb9b981489b8c4226793bb1c581",
+  "slug": "stand-alone-executive-website-e780aeb9b981489b8c4226793bb1c581",
+  "price": 794,
+  "description": "Enterprise-wide regional website",
+  "category": {
+    "id": 75,
+    "name": "Clothing_55e4fc06672740239d14526670b80813",
+    "slug": "clothing-55e4fc06672740239d14526670b80813",
+    "image": "https://www.jenkins-mills.org/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "http://reid.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/282
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/282 -> 200
+Body:
+true 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/75
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/75 -> 200
+Body:
+{
+  "id": 75,
+  "name": "Clothing_55e4fc06672740239d14526670b80813",
+  "slug": "clothing-55e4fc06672740239d14526670b80813",
+  "image": "https://www.jenkins-mills.org/",
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/75
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/75 -> 200
+Body:
+true

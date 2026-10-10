@@ -1,0 +1,70 @@
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3 -> 200
+Body:
+[
+  {
+    "id": 1,
+    "title": "T-shirt",
+    "slug": "t-shirt",
+    "price": 60,
+    "description": "A nice cotton t-shirt",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-06T11:37:10.000Z",
+      "updatedAt": "2026-10-06T18:02:11.000Z"
+    },
+    "images": [
+      "https://api.lorem.space/image/fashion?w=640&h=480&r=4278"
+    ],
+    "creationAt": "2026-10-06T11:37:10.000Z",
+    "updatedAt": "2026-10-07T04:10:12.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Classic Red Pullover Hoodie",
+    "slug": "classic-red-pullover-hoodie",
+    "price": 12,
+    "description": "Classic Red Pullover Hoodie",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-06T11:37:10.000Z",
+      "updatedAt": "2026-10-06T18:02:11.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/2nCt3Sbl.jpg"
+    ],
+    "creationAt": "2026-10-06T11:37:10.000Z",
+    "updatedAt": "2026-10-07T03:52:30.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Classic Heather Gray Hoodie",
+    "slug": "classic-heather-gray-hoodie",
+    "price": 69,
+    "description": "Stay cozy and stylish with our Classic Heather Gray Hoodie. Crafted from soft, durable fabric, it features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Perfect for a casual day out or a relaxing evening in, this hoodie is a versatile addition to any wardrobe.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-06T11:37:10.000Z",
+      "updatedAt": "2026-10-06T18:02:11.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/cHddUCu.jpeg",
+      "https://i.imgur.com/CFOjAgK.jpeg",
+      "https://i.imgur.com/wbIMMme.jpeg"
+    ],
+    "creationAt": "2026-10-06T11:37:10.000Z",
+    "updatedAt": "2026-10-06T11:37:10.000Z"
+  }
+]

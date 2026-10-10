@@ -1,0 +1,107 @@
+2026-10-02 04:46:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_66b31c3ee5084c0ebf58c28d9ff5adc7",
+  "image": "https://jordan.com/"
+} 
+
+2026-10-02 04:46:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 513,
+  "name": "Clothing_66b31c3ee5084c0ebf58c28d9ff5adc7",
+  "slug": "clothing-66b31c3ee5084c0ebf58c28d9ff5adc7",
+  "image": "https://jordan.com/",
+  "creationAt": "2026-10-02T04:46:57.000Z",
+  "updatedAt": "2026-10-02T04:46:57.000Z"
+} 
+
+2026-10-02 04:46:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable heuristic protocol-97ea020c4e4b49a2975fd29d6c24b03e",
+  "price": 810,
+  "description": "Future-proofed tertiary functionalities",
+  "categoryId": 513,
+  "images": [
+    "https://www.james.info/"
+  ]
+} 
+
+2026-10-02 04:46:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 496,
+  "title": "Upgradable heuristic protocol-97ea020c4e4b49a2975fd29d6c24b03e",
+  "slug": "upgradable-heuristic-protocol-97ea020c4e4b49a2975fd29d6c24b03e",
+  "price": 810,
+  "description": "Future-proofed tertiary functionalities",
+  "category": {
+    "id": 513,
+    "name": "Clothing_66b31c3ee5084c0ebf58c28d9ff5adc7",
+    "slug": "clothing-66b31c3ee5084c0ebf58c28d9ff5adc7",
+    "image": "https://jordan.com/",
+    "creationAt": "2026-10-02T04:46:57.000Z",
+    "updatedAt": "2026-10-02T04:46:57.000Z"
+  },
+  "images": [
+    "https://www.james.info/"
+  ],
+  "creationAt": "2026-10-02T04:46:57.000Z",
+  "updatedAt": "2026-10-02T04:46:57.000Z"
+}
+2026-10-02 04:46:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/496
+Body:
+<empty> 
+
+2026-10-02 04:46:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/496 -> 200
+Body:
+true 
+
+2026-10-02 04:46:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/496
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/496 -> 400
+Body:
+{
+  "path": "/api/v1/products/496",
+  "timestamp": "2026-10-02T04:46:57.982Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 496\n    }\n}"
+}
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/496
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/496 -> 400
+Body:
+{
+  "path": "/api/v1/products/496",
+  "timestamp": "2026-10-02T04:46:58.043Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 496\n    }\n}"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/513
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/513 -> 200
+Body:
+{
+  "id": 513,
+  "name": "Clothing_66b31c3ee5084c0ebf58c28d9ff5adc7",
+  "slug": "clothing-66b31c3ee5084c0ebf58c28d9ff5adc7",
+  "image": "https://jordan.com/",
+  "creationAt": "2026-10-02T04:46:57.000Z",
+  "updatedAt": "2026-10-02T04:46:57.000Z"
+} 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/513
+Body:
+<empty> 
+
+2026-10-02 04:46:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/513 -> 200
+Body:
+true

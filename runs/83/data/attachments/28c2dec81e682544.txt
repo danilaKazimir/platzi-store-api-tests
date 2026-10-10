@@ -1,0 +1,135 @@
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_086f242e47eb4406b1586430c340b566",
+  "image": "https://yoder-dunn.com/"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 77,
+  "name": "Toys_086f242e47eb4406b1586430c340b566",
+  "slug": "toys-086f242e47eb4406b1586430c340b566",
+  "image": "https://yoder-dunn.com/",
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-group 3rdgeneration benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "price": 796,
+  "description": "Function-based interactive moratorium",
+  "categoryId": 77,
+  "images": [
+    "http://nixon-gonzales.com/"
+  ]
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 496,
+  "title": "Cross-group 3rdgeneration benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "slug": "cross-group-3rdgeneration-benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "price": 796,
+  "description": "Function-based interactive moratorium",
+  "category": {
+    "id": 77,
+    "name": "Toys_086f242e47eb4406b1586430c340b566",
+    "slug": "toys-086f242e47eb4406b1586430c340b566",
+    "image": "https://yoder-dunn.com/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://nixon-gonzales.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+}
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/496
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/496 -> 200
+Body:
+{
+  "id": 496,
+  "title": "Cross-group 3rdgeneration benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "slug": "cross-group-3rdgeneration-benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "price": 796,
+  "description": "Function-based interactive moratorium",
+  "category": {
+    "id": 77,
+    "name": "Toys_086f242e47eb4406b1586430c340b566",
+    "slug": "toys-086f242e47eb4406b1586430c340b566",
+    "image": "https://yoder-dunn.com/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://nixon-gonzales.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+}
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/496
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/496 -> 200
+Body:
+{
+  "id": 496,
+  "title": "Cross-group 3rdgeneration benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "slug": "cross-group-3rdgeneration-benchmark-ab0d157468d84535a7b709fc9fed00ac",
+  "price": 796,
+  "description": "Function-based interactive moratorium",
+  "category": {
+    "id": 77,
+    "name": "Toys_086f242e47eb4406b1586430c340b566",
+    "slug": "toys-086f242e47eb4406b1586430c340b566",
+    "image": "https://yoder-dunn.com/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://nixon-gonzales.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/496
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/496 -> 200
+Body:
+true 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/77
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/77 -> 200
+Body:
+{
+  "id": 77,
+  "name": "Toys_086f242e47eb4406b1586430c340b566",
+  "slug": "toys-086f242e47eb4406b1586430c340b566",
+  "image": "https://yoder-dunn.com/",
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/77
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/77 -> 200
+Body:
+true

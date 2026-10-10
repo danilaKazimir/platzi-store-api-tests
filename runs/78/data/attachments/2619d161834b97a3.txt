@@ -1,0 +1,107 @@
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3bc9a0b07a934f90a162b0c8ae509cc1",
+  "image": "http://www.adams.net/"
+} 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 103,
+  "name": "Sports & Fitness_3bc9a0b07a934f90a162b0c8ae509cc1",
+  "slug": "sports-fitness-3bc9a0b07a934f90a162b0c8ae509cc1",
+  "image": "http://www.adams.net/",
+  "creationAt": "2026-09-29T04:57:33.000Z",
+  "updatedAt": "2026-09-29T04:57:33.000Z"
+} 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-group fresh-thinking moratorium-b22b3b4f5bb14e639a43a01759ec0ec7",
+  "price": 432,
+  "description": "Extended 5thgeneration interface",
+  "categoryId": 103,
+  "images": [
+    "http://benson-mcguire.com/"
+  ]
+} 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 321,
+  "title": "Cross-group fresh-thinking moratorium-b22b3b4f5bb14e639a43a01759ec0ec7",
+  "slug": "cross-group-fresh-thinking-moratorium-b22b3b4f5bb14e639a43a01759ec0ec7",
+  "price": 432,
+  "description": "Extended 5thgeneration interface",
+  "category": {
+    "id": 103,
+    "name": "Sports & Fitness_3bc9a0b07a934f90a162b0c8ae509cc1",
+    "slug": "sports-fitness-3bc9a0b07a934f90a162b0c8ae509cc1",
+    "image": "http://www.adams.net/",
+    "creationAt": "2026-09-29T04:57:33.000Z",
+    "updatedAt": "2026-09-29T04:57:33.000Z"
+  },
+  "images": [
+    "http://benson-mcguire.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:33.000Z",
+  "updatedAt": "2026-09-29T04:57:33.000Z"
+}
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/321
+Body:
+<empty> 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/321 -> 200
+Body:
+true 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/321
+Body:
+<empty> 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/321 -> 400
+Body:
+{
+  "path": "/api/v1/products/321",
+  "timestamp": "2026-09-29T04:57:33.608Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 321\n    }\n}"
+}
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/321
+Body:
+<empty> 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/321 -> 400
+Body:
+{
+  "path": "/api/v1/products/321",
+  "timestamp": "2026-09-29T04:57:33.671Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 321\n    }\n}"
+} 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/103
+Body:
+<empty> 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/103 -> 200
+Body:
+{
+  "id": 103,
+  "name": "Sports & Fitness_3bc9a0b07a934f90a162b0c8ae509cc1",
+  "slug": "sports-fitness-3bc9a0b07a934f90a162b0c8ae509cc1",
+  "image": "http://www.adams.net/",
+  "creationAt": "2026-09-29T04:57:33.000Z",
+  "updatedAt": "2026-09-29T04:57:33.000Z"
+} 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/103
+Body:
+<empty> 
+
+2026-09-29 04:57:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/103 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-09-12 03:48:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_0b9c9e8c933949e893dd602d58a6c1d7",
+  "image": "http://www.jones.com/"
+} 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Electronics_0b9c9e8c933949e893dd602d58a6c1d7",
+  "slug": "electronics-0b9c9e8c933949e893dd602d58a6c1d7",
+  "image": "http://www.jones.com/",
+  "creationAt": "2026-09-12T03:48:34.000Z",
+  "updatedAt": "2026-09-12T03:48:34.000Z"
+}
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/electronics-0b9c9e8c933949e893dd602d58a6c1d7
+Body:
+<empty> 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/electronics-0b9c9e8c933949e893dd602d58a6c1d7 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Electronics_0b9c9e8c933949e893dd602d58a6c1d7",
+  "slug": "electronics-0b9c9e8c933949e893dd602d58a6c1d7",
+  "image": "http://www.jones.com/",
+  "creationAt": "2026-09-12T03:48:34.000Z",
+  "updatedAt": "2026-09-12T03:48:34.000Z"
+}
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Electronics_0b9c9e8c933949e893dd602d58a6c1d7",
+  "slug": "electronics-0b9c9e8c933949e893dd602d58a6c1d7",
+  "image": "http://www.jones.com/",
+  "creationAt": "2026-09-12T03:48:34.000Z",
+  "updatedAt": "2026-09-12T03:48:34.000Z"
+} 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-12 03:48:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true

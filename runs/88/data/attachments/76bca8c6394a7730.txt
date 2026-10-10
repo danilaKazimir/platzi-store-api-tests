@@ -1,0 +1,135 @@
+2026-10-09 05:17:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_2f2b5e3ca7b54466a29b4d80ee0217b5",
+  "image": "https://martin-bailey.com/"
+} 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 46,
+  "name": "Food & Beverages_2f2b5e3ca7b54466a29b4d80ee0217b5",
+  "slug": "food-beverages-2f2b5e3ca7b54466a29b4d80ee0217b5",
+  "image": "https://martin-bailey.com/",
+  "creationAt": "2026-10-09T05:17:24.000Z",
+  "updatedAt": "2026-10-09T05:17:24.000Z"
+} 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly human-resource open architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "price": 175,
+  "description": "Fully-configurable user-facing challenge",
+  "categoryId": 46,
+  "images": [
+    "https://hester.com/"
+  ]
+} 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 193,
+  "title": "User-friendly human-resource open architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "slug": "user-friendly-human-resource-open-architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "price": 175,
+  "description": "Fully-configurable user-facing challenge",
+  "category": {
+    "id": 46,
+    "name": "Food & Beverages_2f2b5e3ca7b54466a29b4d80ee0217b5",
+    "slug": "food-beverages-2f2b5e3ca7b54466a29b4d80ee0217b5",
+    "image": "https://martin-bailey.com/",
+    "creationAt": "2026-10-09T05:17:24.000Z",
+    "updatedAt": "2026-10-09T05:17:24.000Z"
+  },
+  "images": [
+    "https://hester.com/"
+  ],
+  "creationAt": "2026-10-09T05:17:24.000Z",
+  "updatedAt": "2026-10-09T05:17:24.000Z"
+}
+2026-10-09 05:17:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/193
+Body:
+<empty> 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/193 -> 200
+Body:
+{
+  "id": 193,
+  "title": "User-friendly human-resource open architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "slug": "user-friendly-human-resource-open-architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "price": 175,
+  "description": "Fully-configurable user-facing challenge",
+  "category": {
+    "id": 46,
+    "name": "Food & Beverages_2f2b5e3ca7b54466a29b4d80ee0217b5",
+    "slug": "food-beverages-2f2b5e3ca7b54466a29b4d80ee0217b5",
+    "image": "https://martin-bailey.com/",
+    "creationAt": "2026-10-09T05:17:24.000Z",
+    "updatedAt": "2026-10-09T05:17:24.000Z"
+  },
+  "images": [
+    "https://hester.com/"
+  ],
+  "creationAt": "2026-10-09T05:17:24.000Z",
+  "updatedAt": "2026-10-09T05:17:24.000Z"
+}
+2026-10-09 05:17:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/193
+Body:
+<empty> 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/193 -> 200
+Body:
+{
+  "id": 193,
+  "title": "User-friendly human-resource open architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "slug": "user-friendly-human-resource-open-architecture-3c058d9fc5084102b5dfbcafdfff9628",
+  "price": 175,
+  "description": "Fully-configurable user-facing challenge",
+  "category": {
+    "id": 46,
+    "name": "Food & Beverages_2f2b5e3ca7b54466a29b4d80ee0217b5",
+    "slug": "food-beverages-2f2b5e3ca7b54466a29b4d80ee0217b5",
+    "image": "https://martin-bailey.com/",
+    "creationAt": "2026-10-09T05:17:24.000Z",
+    "updatedAt": "2026-10-09T05:17:24.000Z"
+  },
+  "images": [
+    "https://hester.com/"
+  ],
+  "creationAt": "2026-10-09T05:17:24.000Z",
+  "updatedAt": "2026-10-09T05:17:24.000Z"
+} 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/193
+Body:
+<empty> 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/193 -> 200
+Body:
+true 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+{
+  "id": 46,
+  "name": "Food & Beverages_2f2b5e3ca7b54466a29b4d80ee0217b5",
+  "slug": "food-beverages-2f2b5e3ca7b54466a29b4d80ee0217b5",
+  "image": "https://martin-bailey.com/",
+  "creationAt": "2026-10-09T05:17:24.000Z",
+  "updatedAt": "2026-10-09T05:17:24.000Z"
+} 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-10-09 05:17:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+true

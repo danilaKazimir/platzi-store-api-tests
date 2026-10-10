@@ -1,0 +1,71 @@
+2026-10-01 04:56:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_05f6f3f26c104ac58bced9d6ed026c75",
+  "image": "http://www.holmes.net/"
+} 
+
+2026-10-01 04:56:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 51,
+  "name": "Home & Kitchen_05f6f3f26c104ac58bced9d6ed026c75",
+  "slug": "home-kitchen-05f6f3f26c104ac58bced9d6ed026c75",
+  "image": "http://www.holmes.net/",
+  "creationAt": "2026-10-01T04:56:31.000Z",
+  "updatedAt": "2026-10-01T04:56:31.000Z"
+}
+2026-10-01 04:56:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/51
+Body:
+{
+  "name": "Food & Beverages_9bbc8beb45ad4ab3abf16066f15ae049",
+  "image": "https://www.fox.com/"
+} 
+
+2026-10-01 04:56:31 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+{
+  "id": 51,
+  "name": "Food & Beverages_9bbc8beb45ad4ab3abf16066f15ae049",
+  "slug": "food-beverages-9bbc8beb45ad4ab3abf16066f15ae049",
+  "image": "https://www.fox.com/",
+  "creationAt": "2026-10-01T04:56:31.000Z",
+  "updatedAt": "2026-10-01T04:56:31.000Z"
+} 
+
+2026-10-01 04:56:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+{
+  "id": 51,
+  "name": "Food & Beverages_9bbc8beb45ad4ab3abf16066f15ae049",
+  "slug": "food-beverages-9bbc8beb45ad4ab3abf16066f15ae049",
+  "image": "https://www.fox.com/",
+  "creationAt": "2026-10-01T04:56:31.000Z",
+  "updatedAt": "2026-10-01T04:56:31.000Z"
+}
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+{
+  "id": 51,
+  "name": "Food & Beverages_9bbc8beb45ad4ab3abf16066f15ae049",
+  "slug": "food-beverages-9bbc8beb45ad4ab3abf16066f15ae049",
+  "image": "https://www.fox.com/",
+  "creationAt": "2026-10-01T04:56:31.000Z",
+  "updatedAt": "2026-10-01T04:56:31.000Z"
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+true

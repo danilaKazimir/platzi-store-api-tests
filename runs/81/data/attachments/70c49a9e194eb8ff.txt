@@ -1,0 +1,125 @@
+2026-10-02 04:47:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_1b696923c3cd426b8f42c8b8440c058c",
+  "image": "http://www.bell.info/"
+} 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 521,
+  "name": "Toys_1b696923c3cd426b8f42c8b8440c058c",
+  "slug": "toys-1b696923c3cd426b8f42c8b8440c058c",
+  "image": "http://www.bell.info/",
+  "creationAt": "2026-10-02T04:47:00.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+} 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Phased explicit circuit-5807bad9fa5244b291e85416781d3300",
+  "price": 76,
+  "description": "Enterprise-wide 24hour time-frame",
+  "categoryId": 521,
+  "images": [
+    "https://www.hall.info/"
+  ]
+} 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 507,
+  "title": "Phased explicit circuit-5807bad9fa5244b291e85416781d3300",
+  "slug": "phased-explicit-circuit-5807bad9fa5244b291e85416781d3300",
+  "price": 76,
+  "description": "Enterprise-wide 24hour time-frame",
+  "category": {
+    "id": 521,
+    "name": "Toys_1b696923c3cd426b8f42c8b8440c058c",
+    "slug": "toys-1b696923c3cd426b8f42c8b8440c058c",
+    "image": "http://www.bell.info/",
+    "creationAt": "2026-10-02T04:47:00.000Z",
+    "updatedAt": "2026-10-02T04:47:00.000Z"
+  },
+  "images": [
+    "https://www.hall.info/"
+  ],
+  "creationAt": "2026-10-02T04:47:01.000Z",
+  "updatedAt": "2026-10-02T04:47:01.000Z"
+}
+2026-10-02 04:47:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/507
+Body:
+{
+  "title": "Front-line incremental intranet-d78f44b9725e49559febac05484e0673",
+  "price": 42,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/507 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-02 04:47:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/507
+Body:
+<empty> 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/507 -> 200
+Body:
+{
+  "id": 507,
+  "title": "Phased explicit circuit-5807bad9fa5244b291e85416781d3300",
+  "slug": "phased-explicit-circuit-5807bad9fa5244b291e85416781d3300",
+  "price": 76,
+  "description": "Enterprise-wide 24hour time-frame",
+  "category": {
+    "id": 521,
+    "name": "Toys_1b696923c3cd426b8f42c8b8440c058c",
+    "slug": "toys-1b696923c3cd426b8f42c8b8440c058c",
+    "image": "http://www.bell.info/",
+    "creationAt": "2026-10-02T04:47:00.000Z",
+    "updatedAt": "2026-10-02T04:47:00.000Z"
+  },
+  "images": [
+    "https://www.hall.info/"
+  ],
+  "creationAt": "2026-10-02T04:47:01.000Z",
+  "updatedAt": "2026-10-02T04:47:01.000Z"
+} 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/507
+Body:
+<empty> 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/507 -> 200
+Body:
+true 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/521
+Body:
+<empty> 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/521 -> 200
+Body:
+{
+  "id": 521,
+  "name": "Toys_1b696923c3cd426b8f42c8b8440c058c",
+  "slug": "toys-1b696923c3cd426b8f42c8b8440c058c",
+  "image": "http://www.bell.info/",
+  "creationAt": "2026-10-02T04:47:00.000Z",
+  "updatedAt": "2026-10-02T04:47:00.000Z"
+} 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/521
+Body:
+<empty> 
+
+2026-10-02 04:47:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/521 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-10-05 04:47:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_e9c51c0e74ad43dbaf2519a42d82411e",
+  "image": "http://www.webb.com/"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 198,
+  "name": "Food & Beverages_e9c51c0e74ad43dbaf2519a42d82411e",
+  "slug": "food-beverages-e9c51c0e74ad43dbaf2519a42d82411e",
+  "image": "http://www.webb.com/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+}
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/198
+Body:
+{
+  "name": "Clothing_f53b66c3ec2047c49ac3a533abb1a28e",
+  "image": "http://huff.net/"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/198 -> 200
+Body:
+{
+  "id": 198,
+  "name": "Clothing_f53b66c3ec2047c49ac3a533abb1a28e",
+  "slug": "clothing-f53b66c3ec2047c49ac3a533abb1a28e",
+  "image": "http://huff.net/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/198
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/198 -> 200
+Body:
+{
+  "id": 198,
+  "name": "Clothing_f53b66c3ec2047c49ac3a533abb1a28e",
+  "slug": "clothing-f53b66c3ec2047c49ac3a533abb1a28e",
+  "image": "http://huff.net/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+}
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/198
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/198 -> 200
+Body:
+{
+  "id": 198,
+  "name": "Clothing_f53b66c3ec2047c49ac3a533abb1a28e",
+  "slug": "clothing-f53b66c3ec2047c49ac3a533abb1a28e",
+  "image": "http://huff.net/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/198
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/198 -> 200
+Body:
+true

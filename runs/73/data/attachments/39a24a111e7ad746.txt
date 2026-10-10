@@ -1,0 +1,71 @@
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_d3709b9baead4b31a35549395ec534d7",
+  "image": "http://rodriguez-ramos.com/"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 169,
+  "name": "Home & Kitchen_d3709b9baead4b31a35549395ec534d7",
+  "slug": "home-kitchen-d3709b9baead4b31a35549395ec534d7",
+  "image": "http://rodriguez-ramos.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+}
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/169
+Body:
+{
+  "name": "Electronics_692d869d5aad4cc69aa5d00544345401",
+  "image": "https://www.davidson.com/"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/169 -> 200
+Body:
+{
+  "id": 169,
+  "name": "Electronics_692d869d5aad4cc69aa5d00544345401",
+  "slug": "electronics-692d869d5aad4cc69aa5d00544345401",
+  "image": "https://www.davidson.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/169
+Body:
+<empty> 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/169 -> 200
+Body:
+{
+  "id": 169,
+  "name": "Electronics_692d869d5aad4cc69aa5d00544345401",
+  "slug": "electronics-692d869d5aad4cc69aa5d00544345401",
+  "image": "https://www.davidson.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+}
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/169
+Body:
+<empty> 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/169 -> 200
+Body:
+{
+  "id": 169,
+  "name": "Electronics_692d869d5aad4cc69aa5d00544345401",
+  "slug": "electronics-692d869d5aad4cc69aa5d00544345401",
+  "image": "https://www.davidson.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/169
+Body:
+<empty> 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/169 -> 200
+Body:
+true

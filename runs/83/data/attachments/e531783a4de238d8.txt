@@ -1,0 +1,125 @@
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_384b3417ac2f4c4e88fc8230a66a3beb",
+  "image": "https://www.rush.com/"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 81,
+  "name": "Electronics_384b3417ac2f4c4e88fc8230a66a3beb",
+  "slug": "electronics-384b3417ac2f4c4e88fc8230a66a3beb",
+  "image": "https://www.rush.com/",
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optional secondary moderator-ec86b14d2f6b4deb9df562cc65074728",
+  "price": 696,
+  "description": "Polarized modular toolset",
+  "categoryId": 81,
+  "images": [
+    "https://king-lang.com/"
+  ]
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 505,
+  "title": "Optional secondary moderator-ec86b14d2f6b4deb9df562cc65074728",
+  "slug": "optional-secondary-moderator-ec86b14d2f6b4deb9df562cc65074728",
+  "price": 696,
+  "description": "Polarized modular toolset",
+  "category": {
+    "id": 81,
+    "name": "Electronics_384b3417ac2f4c4e88fc8230a66a3beb",
+    "slug": "electronics-384b3417ac2f4c4e88fc8230a66a3beb",
+    "image": "https://www.rush.com/",
+    "creationAt": "2026-10-04T05:00:09.000Z",
+    "updatedAt": "2026-10-04T05:00:09.000Z"
+  },
+  "images": [
+    "https://king-lang.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+}
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/505
+Body:
+{
+  "title": "Cross-group hybrid moratorium-7ac3f4febb14413ab210d5cdd7887d37",
+  "price": 546,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/505 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/505
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/505 -> 200
+Body:
+{
+  "id": 505,
+  "title": "Optional secondary moderator-ec86b14d2f6b4deb9df562cc65074728",
+  "slug": "optional-secondary-moderator-ec86b14d2f6b4deb9df562cc65074728",
+  "price": 696,
+  "description": "Polarized modular toolset",
+  "category": {
+    "id": 81,
+    "name": "Electronics_384b3417ac2f4c4e88fc8230a66a3beb",
+    "slug": "electronics-384b3417ac2f4c4e88fc8230a66a3beb",
+    "image": "https://www.rush.com/",
+    "creationAt": "2026-10-04T05:00:09.000Z",
+    "updatedAt": "2026-10-04T05:00:09.000Z"
+  },
+  "images": [
+    "https://king-lang.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/505
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/505 -> 200
+Body:
+true 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/81
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/81 -> 200
+Body:
+{
+  "id": 81,
+  "name": "Electronics_384b3417ac2f4c4e88fc8230a66a3beb",
+  "slug": "electronics-384b3417ac2f4c4e88fc8230a66a3beb",
+  "image": "https://www.rush.com/",
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/81
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/81 -> 200
+Body:
+true

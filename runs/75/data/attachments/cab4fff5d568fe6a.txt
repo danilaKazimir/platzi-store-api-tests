@@ -1,0 +1,46 @@
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_f21f4bec63504e7287c123a18dd6642a",
+  "image": "http://clay-williams.com/"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 270,
+  "name": "Food & Beverages_f21f4bec63504e7287c123a18dd6642a",
+  "slug": "food-beverages-f21f4bec63504e7287c123a18dd6642a",
+  "image": "http://clay-williams.com/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+}
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/270/products
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/270/products -> 200
+Body:
+[]
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/270
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/270 -> 200
+Body:
+{
+  "id": 270,
+  "name": "Food & Beverages_f21f4bec63504e7287c123a18dd6642a",
+  "slug": "food-beverages-f21f4bec63504e7287c123a18dd6642a",
+  "image": "http://clay-williams.com/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/270
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/270 -> 200
+Body:
+true

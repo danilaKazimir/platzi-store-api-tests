@@ -1,0 +1,53 @@
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_e160759b386e4359961ffb48621fcead",
+  "image": "https://www.mcdonald-rodgers.org/"
+} 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Clothing_e160759b386e4359961ffb48621fcead",
+  "slug": "clothing-e160759b386e4359961ffb48621fcead",
+  "image": "https://www.mcdonald-rodgers.org/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+}
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/clothing-e160759b386e4359961ffb48621fcead
+Body:
+<empty> 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/clothing-e160759b386e4359961ffb48621fcead -> 200
+Body:
+{
+  "id": 30,
+  "name": "Clothing_e160759b386e4359961ffb48621fcead",
+  "slug": "clothing-e160759b386e4359961ffb48621fcead",
+  "image": "https://www.mcdonald-rodgers.org/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+}
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Clothing_e160759b386e4359961ffb48621fcead",
+  "slug": "clothing-e160759b386e4359961ffb48621fcead",
+  "image": "https://www.mcdonald-rodgers.org/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+} 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

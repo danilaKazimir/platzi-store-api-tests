@@ -1,0 +1,135 @@
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_6ed760b026e84c56be3d9d5143c46565",
+  "image": "https://mullins.info/"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 71,
+  "name": "Toys_6ed760b026e84c56be3d9d5143c46565",
+  "slug": "toys-6ed760b026e84c56be3d9d5143c46565",
+  "image": "https://mullins.info/",
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+} 
+
+2026-09-22 04:01:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated maximized process improvement-1216eff649d54a10b317a298a70e9166",
+  "price": 218,
+  "description": "Multi-tiered 24hour portal",
+  "categoryId": 71,
+  "images": [
+    "https://www.orr.biz/"
+  ]
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 301,
+  "title": "Ameliorated maximized process improvement-1216eff649d54a10b317a298a70e9166",
+  "slug": "ameliorated-maximized-process-improvement-1216eff649d54a10b317a298a70e9166",
+  "price": 218,
+  "description": "Multi-tiered 24hour portal",
+  "category": {
+    "id": 71,
+    "name": "Toys_6ed760b026e84c56be3d9d5143c46565",
+    "slug": "toys-6ed760b026e84c56be3d9d5143c46565",
+    "image": "https://mullins.info/",
+    "creationAt": "2026-09-22T04:01:03.000Z",
+    "updatedAt": "2026-09-22T04:01:03.000Z"
+  },
+  "images": [
+    "https://www.orr.biz/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+}
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/ameliorated-maximized-process-improvement-1216eff649d54a10b317a298a70e9166
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/ameliorated-maximized-process-improvement-1216eff649d54a10b317a298a70e9166 -> 200
+Body:
+{
+  "id": 301,
+  "title": "Ameliorated maximized process improvement-1216eff649d54a10b317a298a70e9166",
+  "slug": "ameliorated-maximized-process-improvement-1216eff649d54a10b317a298a70e9166",
+  "price": 218,
+  "description": "Multi-tiered 24hour portal",
+  "category": {
+    "id": 71,
+    "name": "Toys_6ed760b026e84c56be3d9d5143c46565",
+    "slug": "toys-6ed760b026e84c56be3d9d5143c46565",
+    "image": "https://mullins.info/",
+    "creationAt": "2026-09-22T04:01:03.000Z",
+    "updatedAt": "2026-09-22T04:01:03.000Z"
+  },
+  "images": [
+    "https://www.orr.biz/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+}
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/301
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/301 -> 200
+Body:
+{
+  "id": 301,
+  "title": "Ameliorated maximized process improvement-1216eff649d54a10b317a298a70e9166",
+  "slug": "ameliorated-maximized-process-improvement-1216eff649d54a10b317a298a70e9166",
+  "price": 218,
+  "description": "Multi-tiered 24hour portal",
+  "category": {
+    "id": 71,
+    "name": "Toys_6ed760b026e84c56be3d9d5143c46565",
+    "slug": "toys-6ed760b026e84c56be3d9d5143c46565",
+    "image": "https://mullins.info/",
+    "creationAt": "2026-09-22T04:01:03.000Z",
+    "updatedAt": "2026-09-22T04:01:03.000Z"
+  },
+  "images": [
+    "https://www.orr.biz/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/301
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/301 -> 200
+Body:
+true 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/71
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/71 -> 200
+Body:
+{
+  "id": 71,
+  "name": "Toys_6ed760b026e84c56be3d9d5143c46565",
+  "slug": "toys-6ed760b026e84c56be3d9d5143c46565",
+  "image": "https://mullins.info/",
+  "creationAt": "2026-09-22T04:01:03.000Z",
+  "updatedAt": "2026-09-22T04:01:03.000Z"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/71
+Body:
+<empty> 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/71 -> 200
+Body:
+true

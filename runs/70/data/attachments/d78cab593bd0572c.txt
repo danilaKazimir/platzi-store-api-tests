@@ -1,0 +1,55 @@
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_9c0346e4b935413dbf82af693d272ff7",
+  "image": "https://www.miller.com/"
+} 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Home & Kitchen_9c0346e4b935413dbf82af693d272ff7",
+  "slug": "home-kitchen-9c0346e4b935413dbf82af693d272ff7",
+  "image": "https://www.miller.com/",
+  "creationAt": "2026-09-21T04:03:54.000Z",
+  "updatedAt": "2026-09-21T04:03:54.000Z"
+}
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/38
+Body:
+{
+  "name": null,
+  "image": "https://www.maldonado.biz/"
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/38 -> 400
+Body:
+{
+  "path": "/api/v1/categories/38",
+  "timestamp": "2026-09-21T04:03:54.987Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-21 04:03:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Home & Kitchen_9c0346e4b935413dbf82af693d272ff7",
+  "slug": "home-kitchen-9c0346e4b935413dbf82af693d272ff7",
+  "image": "https://www.miller.com/",
+  "creationAt": "2026-09-21T04:03:54.000Z",
+  "updatedAt": "2026-09-21T04:03:54.000Z"
+} 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-09-21 04:03:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+true

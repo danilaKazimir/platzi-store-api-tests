@@ -1,0 +1,408 @@
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+  "image": "http://yates.org/"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 79,
+  "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+  "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+  "image": "http://yates.org/",
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+}
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal bottom-line Graphical User Interface-13c7e513e1e44a43a25200e0749c69c6",
+  "price": 914,
+  "description": "Optimized zero administration productivity",
+  "categoryId": 79,
+  "images": [
+    "http://www.mcclain-odonnell.com/"
+  ]
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 501,
+  "title": "Universal bottom-line Graphical User Interface-13c7e513e1e44a43a25200e0749c69c6",
+  "slug": "universal-bottom-line-graphical-user-interface-13c7e513e1e44a43a25200e0749c69c6",
+  "price": 914,
+  "description": "Optimized zero administration productivity",
+  "category": {
+    "id": 79,
+    "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+    "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+    "image": "http://yates.org/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://www.mcclain-odonnell.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "De-engineered contextually-based system engine-30e789ad5ed94d8786ee0ab7484676ea",
+  "price": 427,
+  "description": "Expanded context-sensitive info-mediaries",
+  "categoryId": 79,
+  "images": [
+    "http://www.harrington.net/"
+  ]
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 503,
+  "title": "De-engineered contextually-based system engine-30e789ad5ed94d8786ee0ab7484676ea",
+  "slug": "de-engineered-contextually-based-system-engine-30e789ad5ed94d8786ee0ab7484676ea",
+  "price": 427,
+  "description": "Expanded context-sensitive info-mediaries",
+  "category": {
+    "id": 79,
+    "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+    "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+    "image": "http://yates.org/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://www.harrington.net/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Secured grid-enabled alliance-b0f12522a09f4042ac94744dcee2dfdf",
+  "price": 257,
+  "description": "Multi-channeled systematic utilization",
+  "categoryId": 79,
+  "images": [
+    "http://www.king.com/"
+  ]
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 504,
+  "title": "Secured grid-enabled alliance-b0f12522a09f4042ac94744dcee2dfdf",
+  "slug": "secured-grid-enabled-alliance-b0f12522a09f4042ac94744dcee2dfdf",
+  "price": 257,
+  "description": "Multi-channeled systematic utilization",
+  "category": {
+    "id": 79,
+    "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+    "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+    "image": "http://yates.org/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://www.king.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_38e62b27400b4d6496ccbd37d66e472d",
+  "image": "http://www.carpenter-allen.com/"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 82,
+  "name": "Clothing_38e62b27400b4d6496ccbd37d66e472d",
+  "slug": "clothing-38e62b27400b4d6496ccbd37d66e472d",
+  "image": "http://www.carpenter-allen.com/",
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Robust discrete help-desk-86835798a8ee48eb978c1a41b3e609ed",
+  "price": 789,
+  "description": "Self-enabling zero tolerance task-force",
+  "categoryId": 82,
+  "images": [
+    "http://kim.com/"
+  ]
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 506,
+  "title": "Robust discrete help-desk-86835798a8ee48eb978c1a41b3e609ed",
+  "slug": "robust-discrete-help-desk-86835798a8ee48eb978c1a41b3e609ed",
+  "price": 789,
+  "description": "Self-enabling zero tolerance task-force",
+  "category": {
+    "id": 82,
+    "name": "Clothing_38e62b27400b4d6496ccbd37d66e472d",
+    "slug": "clothing-38e62b27400b4d6496ccbd37d66e472d",
+    "image": "http://www.carpenter-allen.com/",
+    "creationAt": "2026-10-04T05:00:09.000Z",
+    "updatedAt": "2026-10-04T05:00:09.000Z"
+  },
+  "images": [
+    "http://kim.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/501/related
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/501/related -> 200
+Body:
+[
+  {
+    "id": 503,
+    "title": "De-engineered contextually-based system engine-30e789ad5ed94d8786ee0ab7484676ea",
+    "slug": "de-engineered-contextually-based-system-engine-30e789ad5ed94d8786ee0ab7484676ea",
+    "price": 427,
+    "description": "Expanded context-sensitive info-mediaries",
+    "category": {
+      "id": 79,
+      "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+      "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+      "image": "http://yates.org/",
+      "creationAt": "2026-10-04T05:00:08.000Z",
+      "updatedAt": "2026-10-04T05:00:08.000Z"
+    },
+    "images": [
+      "http://www.harrington.net/"
+    ],
+    "creationAt": "2026-10-04T05:00:09.000Z",
+    "updatedAt": "2026-10-04T05:00:09.000Z"
+  },
+  {
+    "id": 504,
+    "title": "Secured grid-enabled alliance-b0f12522a09f4042ac94744dcee2dfdf",
+    "slug": "secured-grid-enabled-alliance-b0f12522a09f4042ac94744dcee2dfdf",
+    "price": 257,
+    "description": "Multi-channeled systematic utilization",
+    "category": {
+      "id": 79,
+      "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+      "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+      "image": "http://yates.org/",
+      "creationAt": "2026-10-04T05:00:08.000Z",
+      "updatedAt": "2026-10-04T05:00:08.000Z"
+    },
+    "images": [
+      "http://www.king.com/"
+    ],
+    "creationAt": "2026-10-04T05:00:09.000Z",
+    "updatedAt": "2026-10-04T05:00:09.000Z"
+  }
+]
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/506
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/506 -> 200
+Body:
+{
+  "id": 506,
+  "title": "Robust discrete help-desk-86835798a8ee48eb978c1a41b3e609ed",
+  "slug": "robust-discrete-help-desk-86835798a8ee48eb978c1a41b3e609ed",
+  "price": 789,
+  "description": "Self-enabling zero tolerance task-force",
+  "category": {
+    "id": 82,
+    "name": "Clothing_38e62b27400b4d6496ccbd37d66e472d",
+    "slug": "clothing-38e62b27400b4d6496ccbd37d66e472d",
+    "image": "http://www.carpenter-allen.com/",
+    "creationAt": "2026-10-04T05:00:09.000Z",
+    "updatedAt": "2026-10-04T05:00:09.000Z"
+  },
+  "images": [
+    "http://kim.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/506
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/506 -> 200
+Body:
+true 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/504
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/504 -> 200
+Body:
+{
+  "id": 504,
+  "title": "Secured grid-enabled alliance-b0f12522a09f4042ac94744dcee2dfdf",
+  "slug": "secured-grid-enabled-alliance-b0f12522a09f4042ac94744dcee2dfdf",
+  "price": 257,
+  "description": "Multi-channeled systematic utilization",
+  "category": {
+    "id": 79,
+    "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+    "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+    "image": "http://yates.org/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://www.king.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/504
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/504 -> 200
+Body:
+true 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/503
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/503 -> 200
+Body:
+{
+  "id": 503,
+  "title": "De-engineered contextually-based system engine-30e789ad5ed94d8786ee0ab7484676ea",
+  "slug": "de-engineered-contextually-based-system-engine-30e789ad5ed94d8786ee0ab7484676ea",
+  "price": 427,
+  "description": "Expanded context-sensitive info-mediaries",
+  "category": {
+    "id": 79,
+    "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+    "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+    "image": "http://yates.org/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://www.harrington.net/"
+  ],
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/503
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/503 -> 200
+Body:
+true 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/501
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/501 -> 200
+Body:
+{
+  "id": 501,
+  "title": "Universal bottom-line Graphical User Interface-13c7e513e1e44a43a25200e0749c69c6",
+  "slug": "universal-bottom-line-graphical-user-interface-13c7e513e1e44a43a25200e0749c69c6",
+  "price": 914,
+  "description": "Optimized zero administration productivity",
+  "category": {
+    "id": 79,
+    "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+    "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+    "image": "http://yates.org/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://www.mcclain-odonnell.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/501
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/501 -> 200
+Body:
+true 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/82
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/82 -> 200
+Body:
+{
+  "id": 82,
+  "name": "Clothing_38e62b27400b4d6496ccbd37d66e472d",
+  "slug": "clothing-38e62b27400b4d6496ccbd37d66e472d",
+  "image": "http://www.carpenter-allen.com/",
+  "creationAt": "2026-10-04T05:00:09.000Z",
+  "updatedAt": "2026-10-04T05:00:09.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/82
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/82 -> 200
+Body:
+true 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/79
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/79 -> 200
+Body:
+{
+  "id": 79,
+  "name": "Books_288a1a7fea5746548e12f9e5b1cf333b",
+  "slug": "books-288a1a7fea5746548e12f9e5b1cf333b",
+  "image": "http://yates.org/",
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/79
+Body:
+<empty> 
+
+2026-10-04 05:00:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/79 -> 200
+Body:
+true

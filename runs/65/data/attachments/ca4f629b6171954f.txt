@@ -1,0 +1,88 @@
+2026-09-16 04:00:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Adrian White",
+  "email": "angelaturner@example.net",
+  "password": "***",
+  "avatar": "http://johnson.org/"
+} 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 4,
+  "email": "angelaturner@example.net",
+  "password": "***",
+  "name": "Adrian White",
+  "role": "customer",
+  "avatar": "http://johnson.org/",
+  "creationAt": "2026-09-16T04:00:29.000Z",
+  "updatedAt": "2026-09-16T04:00:29.000Z"
+}
+2026-09-16 04:00:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "angelaturner@example.net",
+  "password": "***"
+} 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImlhdCI6MTc4OTUzMTIyOSwiZXhwIjoxNzg5NTY3MjI5fQ.CCO48qrnC0TrJpEhr1EIVpmUyzYx2umr5E_X3K0xCs4"
+} 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 4,
+  "email": "angelaturner@example.net",
+  "password": "***",
+  "name": "Adrian White",
+  "role": "customer",
+  "avatar": "http://johnson.org/",
+  "creationAt": "2026-09-16T04:00:29.000Z",
+  "updatedAt": "2026-09-16T04:00:29.000Z"
+}
+2026-09-16 04:00:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+{
+  "id": 4,
+  "email": "angelaturner@example.net",
+  "password": "***",
+  "name": "Adrian White",
+  "role": "customer",
+  "avatar": "http://johnson.org/",
+  "creationAt": "2026-09-16T04:00:29.000Z",
+  "updatedAt": "2026-09-16T04:00:29.000Z"
+} 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-09-16 04:00:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+true

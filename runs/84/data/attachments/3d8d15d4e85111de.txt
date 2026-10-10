@@ -1,0 +1,79 @@
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_3af6bcd5d7814e798c2153fa9e0464bd",
+  "image": "http://www.taylor.com/"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 199,
+  "name": "Sports & Fitness_3af6bcd5d7814e798c2153fa9e0464bd",
+  "slug": "sports-fitness-3af6bcd5d7814e798c2153fa9e0464bd",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+}
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable executive forecast-9688650730e447b28226e2dfe56b073e",
+  "price": 302,
+  "description": "Integrated uniform solution",
+  "categoryId": 199,
+  "images": [
+    "http://davis-frazier.info/"
+  ]
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 318,
+  "title": "Programmable executive forecast-9688650730e447b28226e2dfe56b073e",
+  "slug": "programmable-executive-forecast-9688650730e447b28226e2dfe56b073e",
+  "price": 302,
+  "description": "Integrated uniform solution",
+  "category": {
+    "id": 199,
+    "name": "Sports & Fitness_3af6bcd5d7814e798c2153fa9e0464bd",
+    "slug": "sports-fitness-3af6bcd5d7814e798c2153fa9e0464bd",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-10-05T04:47:05.000Z",
+    "updatedAt": "2026-10-05T04:47:05.000Z"
+  },
+  "images": [
+    "http://davis-frazier.info/"
+  ],
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+}
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/199
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/199 -> 200
+Body:
+{
+  "id": 199,
+  "name": "Sports & Fitness_3af6bcd5d7814e798c2153fa9e0464bd",
+  "slug": "sports-fitness-3af6bcd5d7814e798c2153fa9e0464bd",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/199
+Body:
+<empty> 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/199 -> 400
+Body:
+{
+  "path": "/api/v1/categories/199",
+  "timestamp": "2026-10-05T04:47:05.978Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

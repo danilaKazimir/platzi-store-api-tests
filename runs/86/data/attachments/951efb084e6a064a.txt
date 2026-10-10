@@ -1,0 +1,125 @@
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_67f3645e73d044f782dd528860054ea6",
+  "image": "http://www.smith.biz/"
+} 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 81,
+  "name": "Food & Beverages_67f3645e73d044f782dd528860054ea6",
+  "slug": "food-beverages-67f3645e73d044f782dd528860054ea6",
+  "image": "http://www.smith.biz/",
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+} 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory heuristic middleware-50183ca4de5a44dd9bc3d85d2b194c28",
+  "price": 316,
+  "description": "Ergonomic tertiary groupware",
+  "categoryId": 81,
+  "images": [
+    "http://lester-parks.com/"
+  ]
+} 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 290,
+  "title": "Mandatory heuristic middleware-50183ca4de5a44dd9bc3d85d2b194c28",
+  "slug": "mandatory-heuristic-middleware-50183ca4de5a44dd9bc3d85d2b194c28",
+  "price": 316,
+  "description": "Ergonomic tertiary groupware",
+  "category": {
+    "id": 81,
+    "name": "Food & Beverages_67f3645e73d044f782dd528860054ea6",
+    "slug": "food-beverages-67f3645e73d044f782dd528860054ea6",
+    "image": "http://www.smith.biz/",
+    "creationAt": "2026-10-07T05:03:46.000Z",
+    "updatedAt": "2026-10-07T05:03:46.000Z"
+  },
+  "images": [
+    "http://lester-parks.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+}
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/290
+Body:
+{
+  "title": "Optional asymmetric policy-c401cc8573824b8cb43bc98c002f8d83",
+  "price": 36,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/290 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/290
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/290 -> 200
+Body:
+{
+  "id": 290,
+  "title": "Mandatory heuristic middleware-50183ca4de5a44dd9bc3d85d2b194c28",
+  "slug": "mandatory-heuristic-middleware-50183ca4de5a44dd9bc3d85d2b194c28",
+  "price": 316,
+  "description": "Ergonomic tertiary groupware",
+  "category": {
+    "id": 81,
+    "name": "Food & Beverages_67f3645e73d044f782dd528860054ea6",
+    "slug": "food-beverages-67f3645e73d044f782dd528860054ea6",
+    "image": "http://www.smith.biz/",
+    "creationAt": "2026-10-07T05:03:46.000Z",
+    "updatedAt": "2026-10-07T05:03:46.000Z"
+  },
+  "images": [
+    "http://lester-parks.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+} 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/290
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/290 -> 200
+Body:
+true 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/81
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/81 -> 200
+Body:
+{
+  "id": 81,
+  "name": "Food & Beverages_67f3645e73d044f782dd528860054ea6",
+  "slug": "food-beverages-67f3645e73d044f782dd528860054ea6",
+  "image": "http://www.smith.biz/",
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+} 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/81
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/81 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_60eb36954b90435dac28016a1036e030",
+  "image": "https://burns.com/"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 209,
+  "name": "Automotive Accessories_60eb36954b90435dac28016a1036e030",
+  "slug": "automotive-accessories-60eb36954b90435dac28016a1036e030",
+  "image": "https://burns.com/",
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered didactic orchestration-d259941c1beb4cf1bf0d8c058aaf8049",
+  "price": 112,
+  "description": "Innovative coherent initiative",
+  "categoryId": 209,
+  "images": [
+    "http://pacheco-mccall.com/"
+  ]
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 509,
+  "title": "Multi-tiered didactic orchestration-d259941c1beb4cf1bf0d8c058aaf8049",
+  "slug": "multi-tiered-didactic-orchestration-d259941c1beb4cf1bf0d8c058aaf8049",
+  "price": 112,
+  "description": "Innovative coherent initiative",
+  "category": {
+    "id": 209,
+    "name": "Automotive Accessories_60eb36954b90435dac28016a1036e030",
+    "slug": "automotive-accessories-60eb36954b90435dac28016a1036e030",
+    "image": "https://burns.com/",
+    "creationAt": "2026-10-08T05:14:20.000Z",
+    "updatedAt": "2026-10-08T05:14:20.000Z"
+  },
+  "images": [
+    "http://pacheco-mccall.com/"
+  ],
+  "creationAt": "2026-10-08T05:14:21.000Z",
+  "updatedAt": "2026-10-08T05:14:21.000Z"
+}
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/509
+Body:
+{
+  "title": "Programmable 24hour customer loyalty-c58778cf2215472792d593aecbccaa4d",
+  "price": 647,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/509 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/509
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/509 -> 200
+Body:
+{
+  "id": 509,
+  "title": "Multi-tiered didactic orchestration-d259941c1beb4cf1bf0d8c058aaf8049",
+  "slug": "multi-tiered-didactic-orchestration-d259941c1beb4cf1bf0d8c058aaf8049",
+  "price": 112,
+  "description": "Innovative coherent initiative",
+  "category": {
+    "id": 209,
+    "name": "Automotive Accessories_60eb36954b90435dac28016a1036e030",
+    "slug": "automotive-accessories-60eb36954b90435dac28016a1036e030",
+    "image": "https://burns.com/",
+    "creationAt": "2026-10-08T05:14:20.000Z",
+    "updatedAt": "2026-10-08T05:14:20.000Z"
+  },
+  "images": [
+    "http://pacheco-mccall.com/"
+  ],
+  "creationAt": "2026-10-08T05:14:21.000Z",
+  "updatedAt": "2026-10-08T05:14:21.000Z"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/509
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/509 -> 200
+Body:
+true 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/209
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/209 -> 200
+Body:
+{
+  "id": 209,
+  "name": "Automotive Accessories_60eb36954b90435dac28016a1036e030",
+  "slug": "automotive-accessories-60eb36954b90435dac28016a1036e030",
+  "image": "https://burns.com/",
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/209
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/209 -> 200
+Body:
+true

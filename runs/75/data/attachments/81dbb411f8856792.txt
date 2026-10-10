@@ -1,0 +1,81 @@
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Robert Hamilton",
+  "email": "tommyvelazquez@example.net",
+  "password": "***",
+  "avatar": "https://www.hartman.org/"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 96,
+  "email": "tommyvelazquez@example.net",
+  "password": "***",
+  "name": "Robert Hamilton",
+  "role": "customer",
+  "avatar": "https://www.hartman.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/96
+Body:
+{
+  "name": "James Vega",
+  "email": "michaelmccoy@example.net"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/96 -> 200
+Body:
+{
+  "id": 96,
+  "email": "michaelmccoy@example.net",
+  "password": "***",
+  "name": "James Vega",
+  "role": "customer",
+  "avatar": "https://www.hartman.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/96
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/96 -> 200
+Body:
+{
+  "id": 96,
+  "email": "michaelmccoy@example.net",
+  "password": "***",
+  "name": "James Vega",
+  "role": "customer",
+  "avatar": "https://www.hartman.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/96
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/96 -> 200
+Body:
+{
+  "id": 96,
+  "email": "michaelmccoy@example.net",
+  "password": "***",
+  "name": "James Vega",
+  "role": "customer",
+  "avatar": "https://www.hartman.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/96
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/96 -> 200
+Body:
+true

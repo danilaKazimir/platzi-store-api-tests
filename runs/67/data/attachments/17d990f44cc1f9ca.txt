@@ -1,0 +1,408 @@
+2026-09-18 03:53:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+  "image": "https://williams.com/"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 22,
+  "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+  "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+  "image": "https://williams.com/",
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+}
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded multi-state success-89c9116cd7db4a50a9931165d608c3fe",
+  "price": 305,
+  "description": "Synchronized web-enabled complexity",
+  "categoryId": 22,
+  "images": [
+    "http://payne-friedman.com/"
+  ]
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 62,
+  "title": "Expanded multi-state success-89c9116cd7db4a50a9931165d608c3fe",
+  "slug": "expanded-multi-state-success-89c9116cd7db4a50a9931165d608c3fe",
+  "price": 305,
+  "description": "Synchronized web-enabled complexity",
+  "category": {
+    "id": 22,
+    "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+    "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+    "image": "https://williams.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "http://payne-friedman.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergistic multi-tasking policy-d6da5b550e0340beba85e9f1d399f058",
+  "price": 952,
+  "description": "De-engineered 4thgeneration core",
+  "categoryId": 22,
+  "images": [
+    "http://dickson-jenkins.info/"
+  ]
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 65,
+  "title": "Synergistic multi-tasking policy-d6da5b550e0340beba85e9f1d399f058",
+  "slug": "synergistic-multi-tasking-policy-d6da5b550e0340beba85e9f1d399f058",
+  "price": 952,
+  "description": "De-engineered 4thgeneration core",
+  "category": {
+    "id": 22,
+    "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+    "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+    "image": "https://williams.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "http://dickson-jenkins.info/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Managed radical website-1412e2066d8048cea378c7e8b1574b1d",
+  "price": 36,
+  "description": "Integrated analyzing implementation",
+  "categoryId": 22,
+  "images": [
+    "https://www.mclaughlin.org/"
+  ]
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 68,
+  "title": "Managed radical website-1412e2066d8048cea378c7e8b1574b1d",
+  "slug": "managed-radical-website-1412e2066d8048cea378c7e8b1574b1d",
+  "price": 36,
+  "description": "Integrated analyzing implementation",
+  "category": {
+    "id": 22,
+    "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+    "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+    "image": "https://williams.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "https://www.mclaughlin.org/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_91e2ee0dfa3f4080b44c00516fe6a45f",
+  "image": "http://ford.com/"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Books_91e2ee0dfa3f4080b44c00516fe6a45f",
+  "slug": "books-91e2ee0dfa3f4080b44c00516fe6a45f",
+  "image": "http://ford.com/",
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated secondary capability-c3145b23b559413bba41a54a95c49c11",
+  "price": 611,
+  "description": "Monitored mobile info-mediaries",
+  "categoryId": 25,
+  "images": [
+    "https://mcfarland-harper.com/"
+  ]
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 69,
+  "title": "Ameliorated secondary capability-c3145b23b559413bba41a54a95c49c11",
+  "slug": "ameliorated-secondary-capability-c3145b23b559413bba41a54a95c49c11",
+  "price": 611,
+  "description": "Monitored mobile info-mediaries",
+  "category": {
+    "id": 25,
+    "name": "Books_91e2ee0dfa3f4080b44c00516fe6a45f",
+    "slug": "books-91e2ee0dfa3f4080b44c00516fe6a45f",
+    "image": "http://ford.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "https://mcfarland-harper.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62/related
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62/related -> 200
+Body:
+[
+  {
+    "id": 65,
+    "title": "Synergistic multi-tasking policy-d6da5b550e0340beba85e9f1d399f058",
+    "slug": "synergistic-multi-tasking-policy-d6da5b550e0340beba85e9f1d399f058",
+    "price": 952,
+    "description": "De-engineered 4thgeneration core",
+    "category": {
+      "id": 22,
+      "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+      "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+      "image": "https://williams.com/",
+      "creationAt": "2026-09-18T03:53:06.000Z",
+      "updatedAt": "2026-09-18T03:53:06.000Z"
+    },
+    "images": [
+      "http://dickson-jenkins.info/"
+    ],
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  {
+    "id": 68,
+    "title": "Managed radical website-1412e2066d8048cea378c7e8b1574b1d",
+    "slug": "managed-radical-website-1412e2066d8048cea378c7e8b1574b1d",
+    "price": 36,
+    "description": "Integrated analyzing implementation",
+    "category": {
+      "id": 22,
+      "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+      "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+      "image": "https://williams.com/",
+      "creationAt": "2026-09-18T03:53:06.000Z",
+      "updatedAt": "2026-09-18T03:53:06.000Z"
+    },
+    "images": [
+      "https://www.mclaughlin.org/"
+    ],
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  }
+]
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Ameliorated secondary capability-c3145b23b559413bba41a54a95c49c11",
+  "slug": "ameliorated-secondary-capability-c3145b23b559413bba41a54a95c49c11",
+  "price": 611,
+  "description": "Monitored mobile info-mediaries",
+  "category": {
+    "id": 25,
+    "name": "Books_91e2ee0dfa3f4080b44c00516fe6a45f",
+    "slug": "books-91e2ee0dfa3f4080b44c00516fe6a45f",
+    "image": "http://ford.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "https://mcfarland-harper.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+true 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/68
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/68 -> 200
+Body:
+{
+  "id": 68,
+  "title": "Managed radical website-1412e2066d8048cea378c7e8b1574b1d",
+  "slug": "managed-radical-website-1412e2066d8048cea378c7e8b1574b1d",
+  "price": 36,
+  "description": "Integrated analyzing implementation",
+  "category": {
+    "id": 22,
+    "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+    "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+    "image": "https://williams.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "https://www.mclaughlin.org/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/68
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/68 -> 200
+Body:
+true 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+{
+  "id": 65,
+  "title": "Synergistic multi-tasking policy-d6da5b550e0340beba85e9f1d399f058",
+  "slug": "synergistic-multi-tasking-policy-d6da5b550e0340beba85e9f1d399f058",
+  "price": 952,
+  "description": "De-engineered 4thgeneration core",
+  "category": {
+    "id": 22,
+    "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+    "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+    "image": "https://williams.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "http://dickson-jenkins.info/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+true 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+{
+  "id": 62,
+  "title": "Expanded multi-state success-89c9116cd7db4a50a9931165d608c3fe",
+  "slug": "expanded-multi-state-success-89c9116cd7db4a50a9931165d608c3fe",
+  "price": 305,
+  "description": "Synchronized web-enabled complexity",
+  "category": {
+    "id": 22,
+    "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+    "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+    "image": "https://williams.com/",
+    "creationAt": "2026-09-18T03:53:06.000Z",
+    "updatedAt": "2026-09-18T03:53:06.000Z"
+  },
+  "images": [
+    "http://payne-friedman.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+true 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Books_91e2ee0dfa3f4080b44c00516fe6a45f",
+  "slug": "books-91e2ee0dfa3f4080b44c00516fe6a45f",
+  "image": "http://ford.com/",
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Toys_13a32b31cc72440aa3d50ddaf545a1cd",
+  "slug": "toys-13a32b31cc72440aa3d50ddaf545a1cd",
+  "image": "https://williams.com/",
+  "creationAt": "2026-09-18T03:53:06.000Z",
+  "updatedAt": "2026-09-18T03:53:06.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+true

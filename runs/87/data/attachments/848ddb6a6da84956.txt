@@ -1,0 +1,71 @@
+2026-10-08 05:14:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_a7946efd1a9a47a699b2c6e7a7622323",
+  "image": "http://www.wilkins-montgomery.com/"
+} 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 197,
+  "name": "Home & Kitchen_a7946efd1a9a47a699b2c6e7a7622323",
+  "slug": "home-kitchen-a7946efd1a9a47a699b2c6e7a7622323",
+  "image": "http://www.wilkins-montgomery.com/",
+  "creationAt": "2026-10-08T05:14:19.000Z",
+  "updatedAt": "2026-10-08T05:14:19.000Z"
+}
+2026-10-08 05:14:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/197
+Body:
+{
+  "name": "Clothing_ccbba6feaea041e2a608af98394e9a57",
+  "image": "http://white.com/"
+} 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/197 -> 200
+Body:
+{
+  "id": 197,
+  "name": "Clothing_ccbba6feaea041e2a608af98394e9a57",
+  "slug": "clothing-ccbba6feaea041e2a608af98394e9a57",
+  "image": "http://white.com/",
+  "creationAt": "2026-10-08T05:14:19.000Z",
+  "updatedAt": "2026-10-08T05:14:19.000Z"
+} 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/197
+Body:
+<empty> 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/197 -> 200
+Body:
+{
+  "id": 197,
+  "name": "Clothing_ccbba6feaea041e2a608af98394e9a57",
+  "slug": "clothing-ccbba6feaea041e2a608af98394e9a57",
+  "image": "http://white.com/",
+  "creationAt": "2026-10-08T05:14:19.000Z",
+  "updatedAt": "2026-10-08T05:14:19.000Z"
+}
+2026-10-08 05:14:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/197
+Body:
+<empty> 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/197 -> 200
+Body:
+{
+  "id": 197,
+  "name": "Clothing_ccbba6feaea041e2a608af98394e9a57",
+  "slug": "clothing-ccbba6feaea041e2a608af98394e9a57",
+  "image": "http://white.com/",
+  "creationAt": "2026-10-08T05:14:19.000Z",
+  "updatedAt": "2026-10-08T05:14:19.000Z"
+} 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/197
+Body:
+<empty> 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/197 -> 200
+Body:
+true

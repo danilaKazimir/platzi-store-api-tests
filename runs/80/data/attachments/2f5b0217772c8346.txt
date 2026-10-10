@@ -1,0 +1,135 @@
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_769f5749ad39482eb5c9d94296a5df48",
+  "image": "https://hawkins-parker.com/"
+} 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 60,
+  "name": "Personal Care_769f5749ad39482eb5c9d94296a5df48",
+  "slug": "personal-care-769f5749ad39482eb5c9d94296a5df48",
+  "image": "https://hawkins-parker.com/",
+  "creationAt": "2026-10-01T04:56:34.000Z",
+  "updatedAt": "2026-10-01T04:56:34.000Z"
+} 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Networked optimizing groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "price": 695,
+  "description": "Customer-focused transitional collaboration",
+  "categoryId": 60,
+  "images": [
+    "https://fleming.com/"
+  ]
+} 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 343,
+  "title": "Networked optimizing groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "slug": "networked-optimizing-groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "price": 695,
+  "description": "Customer-focused transitional collaboration",
+  "category": {
+    "id": 60,
+    "name": "Personal Care_769f5749ad39482eb5c9d94296a5df48",
+    "slug": "personal-care-769f5749ad39482eb5c9d94296a5df48",
+    "image": "https://hawkins-parker.com/",
+    "creationAt": "2026-10-01T04:56:34.000Z",
+    "updatedAt": "2026-10-01T04:56:34.000Z"
+  },
+  "images": [
+    "https://fleming.com/"
+  ],
+  "creationAt": "2026-10-01T04:56:34.000Z",
+  "updatedAt": "2026-10-01T04:56:34.000Z"
+}
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/networked-optimizing-groupware-c3723ec13b2d4319b0c91378124d3ea9
+Body:
+<empty> 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/networked-optimizing-groupware-c3723ec13b2d4319b0c91378124d3ea9 -> 200
+Body:
+{
+  "id": 343,
+  "title": "Networked optimizing groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "slug": "networked-optimizing-groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "price": 695,
+  "description": "Customer-focused transitional collaboration",
+  "category": {
+    "id": 60,
+    "name": "Personal Care_769f5749ad39482eb5c9d94296a5df48",
+    "slug": "personal-care-769f5749ad39482eb5c9d94296a5df48",
+    "image": "https://hawkins-parker.com/",
+    "creationAt": "2026-10-01T04:56:34.000Z",
+    "updatedAt": "2026-10-01T04:56:34.000Z"
+  },
+  "images": [
+    "https://fleming.com/"
+  ],
+  "creationAt": "2026-10-01T04:56:34.000Z",
+  "updatedAt": "2026-10-01T04:56:34.000Z"
+}
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/343
+Body:
+<empty> 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/343 -> 200
+Body:
+{
+  "id": 343,
+  "title": "Networked optimizing groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "slug": "networked-optimizing-groupware-c3723ec13b2d4319b0c91378124d3ea9",
+  "price": 695,
+  "description": "Customer-focused transitional collaboration",
+  "category": {
+    "id": 60,
+    "name": "Personal Care_769f5749ad39482eb5c9d94296a5df48",
+    "slug": "personal-care-769f5749ad39482eb5c9d94296a5df48",
+    "image": "https://hawkins-parker.com/",
+    "creationAt": "2026-10-01T04:56:34.000Z",
+    "updatedAt": "2026-10-01T04:56:34.000Z"
+  },
+  "images": [
+    "https://fleming.com/"
+  ],
+  "creationAt": "2026-10-01T04:56:34.000Z",
+  "updatedAt": "2026-10-01T04:56:34.000Z"
+} 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/343
+Body:
+<empty> 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/343 -> 200
+Body:
+true 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/60
+Body:
+<empty> 
+
+2026-10-01 04:56:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/60 -> 200
+Body:
+{
+  "id": 60,
+  "name": "Personal Care_769f5749ad39482eb5c9d94296a5df48",
+  "slug": "personal-care-769f5749ad39482eb5c9d94296a5df48",
+  "image": "https://hawkins-parker.com/",
+  "creationAt": "2026-10-01T04:56:34.000Z",
+  "updatedAt": "2026-10-01T04:56:34.000Z"
+} 
+
+2026-10-01 04:56:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/60
+Body:
+<empty> 
+
+2026-10-01 04:56:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/60 -> 200
+Body:
+true

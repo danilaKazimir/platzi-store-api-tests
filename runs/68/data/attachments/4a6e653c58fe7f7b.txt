@@ -1,0 +1,79 @@
+2026-09-19 03:49:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_d0d876686aff450db941bdaf2577a454",
+  "image": "http://davis-daniel.net/"
+} 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Clothing_d0d876686aff450db941bdaf2577a454",
+  "slug": "clothing-d0d876686aff450db941bdaf2577a454",
+  "image": "http://davis-daniel.net/",
+  "creationAt": "2026-09-19T03:49:56.000Z",
+  "updatedAt": "2026-09-19T03:49:56.000Z"
+}
+2026-09-19 03:49:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-platform systemic paradigm-07b25a0771ab4f9bbd2a871b786dad79",
+  "price": 477,
+  "description": "Virtual human-resource task-force",
+  "categoryId": 37,
+  "images": [
+    "https://pearson.org/"
+  ]
+} 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 253,
+  "title": "Cross-platform systemic paradigm-07b25a0771ab4f9bbd2a871b786dad79",
+  "slug": "cross-platform-systemic-paradigm-07b25a0771ab4f9bbd2a871b786dad79",
+  "price": 477,
+  "description": "Virtual human-resource task-force",
+  "category": {
+    "id": 37,
+    "name": "Clothing_d0d876686aff450db941bdaf2577a454",
+    "slug": "clothing-d0d876686aff450db941bdaf2577a454",
+    "image": "http://davis-daniel.net/",
+    "creationAt": "2026-09-19T03:49:56.000Z",
+    "updatedAt": "2026-09-19T03:49:56.000Z"
+  },
+  "images": [
+    "https://pearson.org/"
+  ],
+  "creationAt": "2026-09-19T03:49:56.000Z",
+  "updatedAt": "2026-09-19T03:49:56.000Z"
+}
+2026-09-19 03:49:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Clothing_d0d876686aff450db941bdaf2577a454",
+  "slug": "clothing-d0d876686aff450db941bdaf2577a454",
+  "image": "http://davis-daniel.net/",
+  "creationAt": "2026-09-19T03:49:56.000Z",
+  "updatedAt": "2026-09-19T03:49:56.000Z"
+} 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 400
+Body:
+{
+  "path": "/api/v1/categories/37",
+  "timestamp": "2026-09-19T03:49:56.469Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

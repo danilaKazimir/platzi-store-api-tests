@@ -1,0 +1,53 @@
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "image": "https://www.ward.net/"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Books_ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "slug": "books-ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "image": "https://www.ward.net/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+}
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Books_ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "slug": "books-ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "image": "https://www.ward.net/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+}
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Books_ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "slug": "books-ab1692a6dc3b4fb9afaa3b0f2f23264e",
+  "image": "https://www.ward.net/",
+  "creationAt": "2026-09-20T04:06:36.000Z",
+  "updatedAt": "2026-09-20T04:06:36.000Z"
+} 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-09-20 04:06:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+true

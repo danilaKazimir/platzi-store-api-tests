@@ -1,0 +1,135 @@
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_f6e9274a6d2d4d969f65afb05bd4ad36",
+  "image": "http://www.browning.com/"
+} 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 104,
+  "name": "Clothing_f6e9274a6d2d4d969f65afb05bd4ad36",
+  "slug": "clothing-f6e9274a6d2d4d969f65afb05bd4ad36",
+  "image": "http://www.browning.com/",
+  "creationAt": "2026-10-10T05:01:58.000Z",
+  "updatedAt": "2026-10-10T05:01:58.000Z"
+} 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reduced system-worthy artificial intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "price": 190,
+  "description": "Balanced client-server adapter",
+  "categoryId": 104,
+  "images": [
+    "https://smith.org/"
+  ]
+} 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 195,
+  "title": "Reduced system-worthy artificial intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "slug": "reduced-system-worthy-artificial-intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "price": 190,
+  "description": "Balanced client-server adapter",
+  "category": {
+    "id": 104,
+    "name": "Clothing_f6e9274a6d2d4d969f65afb05bd4ad36",
+    "slug": "clothing-f6e9274a6d2d4d969f65afb05bd4ad36",
+    "image": "http://www.browning.com/",
+    "creationAt": "2026-10-10T05:01:58.000Z",
+    "updatedAt": "2026-10-10T05:01:58.000Z"
+  },
+  "images": [
+    "https://smith.org/"
+  ],
+  "creationAt": "2026-10-10T05:01:58.000Z",
+  "updatedAt": "2026-10-10T05:01:58.000Z"
+}
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/195
+Body:
+<empty> 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/195 -> 200
+Body:
+{
+  "id": 195,
+  "title": "Reduced system-worthy artificial intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "slug": "reduced-system-worthy-artificial-intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "price": 190,
+  "description": "Balanced client-server adapter",
+  "category": {
+    "id": 104,
+    "name": "Clothing_f6e9274a6d2d4d969f65afb05bd4ad36",
+    "slug": "clothing-f6e9274a6d2d4d969f65afb05bd4ad36",
+    "image": "http://www.browning.com/",
+    "creationAt": "2026-10-10T05:01:58.000Z",
+    "updatedAt": "2026-10-10T05:01:58.000Z"
+  },
+  "images": [
+    "https://smith.org/"
+  ],
+  "creationAt": "2026-10-10T05:01:58.000Z",
+  "updatedAt": "2026-10-10T05:01:58.000Z"
+}
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/195
+Body:
+<empty> 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/195 -> 200
+Body:
+{
+  "id": 195,
+  "title": "Reduced system-worthy artificial intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "slug": "reduced-system-worthy-artificial-intelligence-c4ac14ec7dc340cd93c2fea84415672a",
+  "price": 190,
+  "description": "Balanced client-server adapter",
+  "category": {
+    "id": 104,
+    "name": "Clothing_f6e9274a6d2d4d969f65afb05bd4ad36",
+    "slug": "clothing-f6e9274a6d2d4d969f65afb05bd4ad36",
+    "image": "http://www.browning.com/",
+    "creationAt": "2026-10-10T05:01:58.000Z",
+    "updatedAt": "2026-10-10T05:01:58.000Z"
+  },
+  "images": [
+    "https://smith.org/"
+  ],
+  "creationAt": "2026-10-10T05:01:58.000Z",
+  "updatedAt": "2026-10-10T05:01:58.000Z"
+} 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/195
+Body:
+<empty> 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/195 -> 200
+Body:
+true 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Clothing_f6e9274a6d2d4d969f65afb05bd4ad36",
+  "slug": "clothing-f6e9274a6d2d4d969f65afb05bd4ad36",
+  "image": "http://www.browning.com/",
+  "creationAt": "2026-10-10T05:01:58.000Z",
+  "updatedAt": "2026-10-10T05:01:58.000Z"
+} 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-10 05:01:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+true

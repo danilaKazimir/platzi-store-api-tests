@@ -1,0 +1,49 @@
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_f7f0705bc30d4284947d6672ae7be365",
+  "image": "https://www.cruz-jacobs.com/"
+} 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 213,
+  "name": "Food & Beverages_f7f0705bc30d4284947d6672ae7be365",
+  "slug": "food-beverages-f7f0705bc30d4284947d6672ae7be365",
+  "image": "https://www.cruz-jacobs.com/",
+  "creationAt": "2026-09-27T04:27:01.000Z",
+  "updatedAt": "2026-09-27T04:27:01.000Z"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/213
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/213 -> 200
+Body:
+true 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/213
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/213 -> 400
+Body:
+{
+  "path": "/api/v1/categories/213",
+  "timestamp": "2026-09-27T04:27:01.678Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 213\n}"
+}
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/213
+Body:
+<empty> 
+
+2026-09-27 04:27:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/213 -> 400
+Body:
+{
+  "path": "/api/v1/categories/213",
+  "timestamp": "2026-09-27T04:27:01.688Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 213\n}"
+}

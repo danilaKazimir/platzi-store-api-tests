@@ -1,0 +1,125 @@
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_900b7fc1c05446e6ac2d8322bb9e06d0",
+  "image": "http://www.mcpherson.net/"
+} 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Electronics_900b7fc1c05446e6ac2d8322bb9e06d0",
+  "slug": "electronics-900b7fc1c05446e6ac2d8322bb9e06d0",
+  "image": "http://www.mcpherson.net/",
+  "creationAt": "2026-09-14T04:04:31.000Z",
+  "updatedAt": "2026-09-14T04:04:31.000Z"
+} 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable systematic budgetary management-78ab7026a5b94090817dac4cb7e1cb55",
+  "price": 387,
+  "description": "Horizontal intangible synergy",
+  "categoryId": 29,
+  "images": [
+    "https://www.lee-gonzalez.org/"
+  ]
+} 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 86,
+  "title": "Programmable systematic budgetary management-78ab7026a5b94090817dac4cb7e1cb55",
+  "slug": "programmable-systematic-budgetary-management-78ab7026a5b94090817dac4cb7e1cb55",
+  "price": 387,
+  "description": "Horizontal intangible synergy",
+  "category": {
+    "id": 29,
+    "name": "Electronics_900b7fc1c05446e6ac2d8322bb9e06d0",
+    "slug": "electronics-900b7fc1c05446e6ac2d8322bb9e06d0",
+    "image": "http://www.mcpherson.net/",
+    "creationAt": "2026-09-14T04:04:31.000Z",
+    "updatedAt": "2026-09-14T04:04:31.000Z"
+  },
+  "images": [
+    "https://www.lee-gonzalez.org/"
+  ],
+  "creationAt": "2026-09-14T04:04:31.000Z",
+  "updatedAt": "2026-09-14T04:04:31.000Z"
+}
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/86
+Body:
+{
+  "title": "Open-source clear-thinking throughput-e2511513f18949b1b6e27f6231cc5c41",
+  "price": 601,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/86 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-14 04:04:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+{
+  "id": 86,
+  "title": "Programmable systematic budgetary management-78ab7026a5b94090817dac4cb7e1cb55",
+  "slug": "programmable-systematic-budgetary-management-78ab7026a5b94090817dac4cb7e1cb55",
+  "price": 387,
+  "description": "Horizontal intangible synergy",
+  "category": {
+    "id": 29,
+    "name": "Electronics_900b7fc1c05446e6ac2d8322bb9e06d0",
+    "slug": "electronics-900b7fc1c05446e6ac2d8322bb9e06d0",
+    "image": "http://www.mcpherson.net/",
+    "creationAt": "2026-09-14T04:04:31.000Z",
+    "updatedAt": "2026-09-14T04:04:31.000Z"
+  },
+  "images": [
+    "https://www.lee-gonzalez.org/"
+  ],
+  "creationAt": "2026-09-14T04:04:31.000Z",
+  "updatedAt": "2026-09-14T04:04:31.000Z"
+} 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/86
+Body:
+<empty> 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/86 -> 200
+Body:
+true 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Electronics_900b7fc1c05446e6ac2d8322bb9e06d0",
+  "slug": "electronics-900b7fc1c05446e6ac2d8322bb9e06d0",
+  "image": "http://www.mcpherson.net/",
+  "creationAt": "2026-09-14T04:04:31.000Z",
+  "updatedAt": "2026-09-14T04:04:31.000Z"
+} 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-09-14 04:04:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true

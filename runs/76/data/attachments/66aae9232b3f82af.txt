@@ -1,0 +1,53 @@
+2026-09-27 04:27:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_ebc5f46a833d45c2b144270731a77832",
+  "image": "https://scott.com/"
+} 
+
+2026-09-27 04:27:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 207,
+  "name": "Toys_ebc5f46a833d45c2b144270731a77832",
+  "slug": "toys-ebc5f46a833d45c2b144270731a77832",
+  "image": "https://scott.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:00.000Z"
+}
+2026-09-27 04:27:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/toys-ebc5f46a833d45c2b144270731a77832
+Body:
+<empty> 
+
+2026-09-27 04:27:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/toys-ebc5f46a833d45c2b144270731a77832 -> 200
+Body:
+{
+  "id": 207,
+  "name": "Toys_ebc5f46a833d45c2b144270731a77832",
+  "slug": "toys-ebc5f46a833d45c2b144270731a77832",
+  "image": "https://scott.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:00.000Z"
+}
+2026-09-27 04:27:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/207
+Body:
+<empty> 
+
+2026-09-27 04:27:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/207 -> 200
+Body:
+{
+  "id": 207,
+  "name": "Toys_ebc5f46a833d45c2b144270731a77832",
+  "slug": "toys-ebc5f46a833d45c2b144270731a77832",
+  "image": "https://scott.com/",
+  "creationAt": "2026-09-27T04:27:00.000Z",
+  "updatedAt": "2026-09-27T04:27:00.000Z"
+} 
+
+2026-09-27 04:27:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/207
+Body:
+<empty> 
+
+2026-09-27 04:27:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/207 -> 200
+Body:
+true

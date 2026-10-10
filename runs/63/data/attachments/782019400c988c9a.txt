@@ -1,0 +1,135 @@
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_0b06cd829d564e45b6d1da0ac4b644a2",
+  "image": "https://knight.com/"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Clothing_0b06cd829d564e45b6d1da0ac4b644a2",
+  "slug": "clothing-0b06cd829d564e45b6d1da0ac4b644a2",
+  "image": "https://knight.com/",
+  "creationAt": "2026-09-14T04:04:28.000Z",
+  "updatedAt": "2026-09-14T04:04:28.000Z"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Virtual even-keeled standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "price": 61,
+  "description": "Open-source leadingedge installation",
+  "categoryId": 21,
+  "images": [
+    "https://www.lowe.com/"
+  ]
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 75,
+  "title": "Virtual even-keeled standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "slug": "virtual-even-keeled-standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "price": 61,
+  "description": "Open-source leadingedge installation",
+  "category": {
+    "id": 21,
+    "name": "Clothing_0b06cd829d564e45b6d1da0ac4b644a2",
+    "slug": "clothing-0b06cd829d564e45b6d1da0ac4b644a2",
+    "image": "https://knight.com/",
+    "creationAt": "2026-09-14T04:04:28.000Z",
+    "updatedAt": "2026-09-14T04:04:28.000Z"
+  },
+  "images": [
+    "https://www.lowe.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:28.000Z",
+  "updatedAt": "2026-09-14T04:04:28.000Z"
+}
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/75
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/75 -> 200
+Body:
+{
+  "id": 75,
+  "title": "Virtual even-keeled standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "slug": "virtual-even-keeled-standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "price": 61,
+  "description": "Open-source leadingedge installation",
+  "category": {
+    "id": 21,
+    "name": "Clothing_0b06cd829d564e45b6d1da0ac4b644a2",
+    "slug": "clothing-0b06cd829d564e45b6d1da0ac4b644a2",
+    "image": "https://knight.com/",
+    "creationAt": "2026-09-14T04:04:28.000Z",
+    "updatedAt": "2026-09-14T04:04:28.000Z"
+  },
+  "images": [
+    "https://www.lowe.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:28.000Z",
+  "updatedAt": "2026-09-14T04:04:28.000Z"
+}
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/75
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/75 -> 200
+Body:
+{
+  "id": 75,
+  "title": "Virtual even-keeled standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "slug": "virtual-even-keeled-standardization-6da6118bb97b4a14968986ad0f2b8272",
+  "price": 61,
+  "description": "Open-source leadingedge installation",
+  "category": {
+    "id": 21,
+    "name": "Clothing_0b06cd829d564e45b6d1da0ac4b644a2",
+    "slug": "clothing-0b06cd829d564e45b6d1da0ac4b644a2",
+    "image": "https://knight.com/",
+    "creationAt": "2026-09-14T04:04:28.000Z",
+    "updatedAt": "2026-09-14T04:04:28.000Z"
+  },
+  "images": [
+    "https://www.lowe.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:28.000Z",
+  "updatedAt": "2026-09-14T04:04:28.000Z"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/75
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/75 -> 200
+Body:
+true 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Clothing_0b06cd829d564e45b6d1da0ac4b644a2",
+  "slug": "clothing-0b06cd829d564e45b6d1da0ac4b644a2",
+  "image": "https://knight.com/",
+  "creationAt": "2026-09-14T04:04:28.000Z",
+  "updatedAt": "2026-09-14T04:04:28.000Z"
+} 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-09-14 04:04:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true

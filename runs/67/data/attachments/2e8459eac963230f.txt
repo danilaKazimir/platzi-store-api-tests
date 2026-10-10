@@ -1,0 +1,49 @@
+2026-09-18 03:53:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_e7518a0065fb4b35be84b454eca05695",
+  "image": "http://www.walker.biz/"
+} 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 8,
+  "name": "Food & Beverages_e7518a0065fb4b35be84b454eca05695",
+  "slug": "food-beverages-e7518a0065fb4b35be84b454eca05695",
+  "image": "http://www.walker.biz/",
+  "creationAt": "2026-09-18T03:53:03.000Z",
+  "updatedAt": "2026-09-18T03:53:03.000Z"
+}
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+true 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/8 -> 400
+Body:
+{
+  "path": "/api/v1/categories/8",
+  "timestamp": "2026-09-18T03:53:03.319Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 8\n}"
+}
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/8 -> 400
+Body:
+{
+  "path": "/api/v1/categories/8",
+  "timestamp": "2026-09-18T03:53:03.362Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 8\n}"
+}

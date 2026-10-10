@@ -1,0 +1,135 @@
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_efcd0453a9d34ed48be838473a17dcb6",
+  "image": "http://oneill.com/"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 76,
+  "name": "Toys_efcd0453a9d34ed48be838473a17dcb6",
+  "slug": "toys-efcd0453a9d34ed48be838473a17dcb6",
+  "image": "http://oneill.com/",
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Visionary object-oriented functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "price": 978,
+  "description": "Progressive zero administration collaboration",
+  "categoryId": 76,
+  "images": [
+    "http://www.alexander.com/"
+  ]
+} 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 283,
+  "title": "Visionary object-oriented functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "slug": "visionary-object-oriented-functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "price": 978,
+  "description": "Progressive zero administration collaboration",
+  "category": {
+    "id": 76,
+    "name": "Toys_efcd0453a9d34ed48be838473a17dcb6",
+    "slug": "toys-efcd0453a9d34ed48be838473a17dcb6",
+    "image": "http://oneill.com/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "http://www.alexander.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+}
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/visionary-object-oriented-functionalities-b008eeb7b6384c02bd4d29a9edb9da32
+Body:
+<empty> 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/visionary-object-oriented-functionalities-b008eeb7b6384c02bd4d29a9edb9da32 -> 200
+Body:
+{
+  "id": 283,
+  "title": "Visionary object-oriented functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "slug": "visionary-object-oriented-functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "price": 978,
+  "description": "Progressive zero administration collaboration",
+  "category": {
+    "id": 76,
+    "name": "Toys_efcd0453a9d34ed48be838473a17dcb6",
+    "slug": "toys-efcd0453a9d34ed48be838473a17dcb6",
+    "image": "http://oneill.com/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "http://www.alexander.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+}
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/283
+Body:
+<empty> 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/283 -> 200
+Body:
+{
+  "id": 283,
+  "title": "Visionary object-oriented functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "slug": "visionary-object-oriented-functionalities-b008eeb7b6384c02bd4d29a9edb9da32",
+  "price": 978,
+  "description": "Progressive zero administration collaboration",
+  "category": {
+    "id": 76,
+    "name": "Toys_efcd0453a9d34ed48be838473a17dcb6",
+    "slug": "toys-efcd0453a9d34ed48be838473a17dcb6",
+    "image": "http://oneill.com/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "http://www.alexander.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+} 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/283
+Body:
+<empty> 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/283 -> 200
+Body:
+true 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/76
+Body:
+<empty> 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/76 -> 200
+Body:
+{
+  "id": 76,
+  "name": "Toys_efcd0453a9d34ed48be838473a17dcb6",
+  "slug": "toys-efcd0453a9d34ed48be838473a17dcb6",
+  "image": "http://oneill.com/",
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/76
+Body:
+<empty> 
+
+2026-10-07 05:03:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/76 -> 200
+Body:
+true

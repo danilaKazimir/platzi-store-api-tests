@@ -1,0 +1,125 @@
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_4628c3cc5b594f0e9e2891d014e1b13e",
+  "image": "http://salas.com/"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Toys_4628c3cc5b594f0e9e2891d014e1b13e",
+  "slug": "toys-4628c3cc5b594f0e9e2891d014e1b13e",
+  "image": "http://salas.com/",
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Monitored scalable concept-9ce8fdc5db144121a8981187fdec4062",
+  "price": 377,
+  "description": "Optional next generation Graphic Interface",
+  "categoryId": 41,
+  "images": [
+    "http://www.green.net/"
+  ]
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 72,
+  "title": "Monitored scalable concept-9ce8fdc5db144121a8981187fdec4062",
+  "slug": "monitored-scalable-concept-9ce8fdc5db144121a8981187fdec4062",
+  "price": 377,
+  "description": "Optional next generation Graphic Interface",
+  "category": {
+    "id": 41,
+    "name": "Toys_4628c3cc5b594f0e9e2891d014e1b13e",
+    "slug": "toys-4628c3cc5b594f0e9e2891d014e1b13e",
+    "image": "http://salas.com/",
+    "creationAt": "2026-09-11T03:45:26.000Z",
+    "updatedAt": "2026-09-11T03:45:26.000Z"
+  },
+  "images": [
+    "http://www.green.net/"
+  ],
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+}
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/72
+Body:
+{
+  "title": "Public-key 24hour throughput-0f22201f8a2345bfb08ead30aa811db5",
+  "price": 614,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/72 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Monitored scalable concept-9ce8fdc5db144121a8981187fdec4062",
+  "slug": "monitored-scalable-concept-9ce8fdc5db144121a8981187fdec4062",
+  "price": 377,
+  "description": "Optional next generation Graphic Interface",
+  "category": {
+    "id": 41,
+    "name": "Toys_4628c3cc5b594f0e9e2891d014e1b13e",
+    "slug": "toys-4628c3cc5b594f0e9e2891d014e1b13e",
+    "image": "http://salas.com/",
+    "creationAt": "2026-09-11T03:45:26.000Z",
+    "updatedAt": "2026-09-11T03:45:26.000Z"
+  },
+  "images": [
+    "http://www.green.net/"
+  ],
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+} 
+
+2026-09-11 03:45:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+true 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Toys_4628c3cc5b594f0e9e2891d014e1b13e",
+  "slug": "toys-4628c3cc5b594f0e9e2891d014e1b13e",
+  "image": "http://salas.com/",
+  "creationAt": "2026-09-11T03:45:26.000Z",
+  "updatedAt": "2026-09-11T03:45:26.000Z"
+} 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-09-11 03:45:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

@@ -1,0 +1,15 @@
+2026-10-08 05:14:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Personal Care_3e343bd6a4fb479b883753ccada63373",
+  "image": "http://www.cisneros.net/"
+} 
+
+2026-10-08 05:14:19 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-08T05:14:19.602Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

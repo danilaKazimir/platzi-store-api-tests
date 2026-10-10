@@ -1,0 +1,408 @@
+2026-09-28 04:28:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+  "image": "http://www.walton-gibson.net/"
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 44,
+  "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+  "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+  "image": "http://www.walton-gibson.net/",
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+}
+2026-09-28 04:28:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Versatile web-enabled info-mediaries-0e0450cffeee41b88f5e27f7eb145750",
+  "price": 65,
+  "description": "Devolved maximized intranet",
+  "categoryId": 44,
+  "images": [
+    "https://graham-oliver.org/"
+  ]
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 162,
+  "title": "Versatile web-enabled info-mediaries-0e0450cffeee41b88f5e27f7eb145750",
+  "slug": "versatile-web-enabled-info-mediaries-0e0450cffeee41b88f5e27f7eb145750",
+  "price": 65,
+  "description": "Devolved maximized intranet",
+  "category": {
+    "id": 44,
+    "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+    "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+    "image": "http://www.walton-gibson.net/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "https://graham-oliver.org/"
+  ],
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ergonomic bottom-line extranet-7e230b41531149d7831f774dc0ee6a8d",
+  "price": 296,
+  "description": "Mandatory composite collaboration",
+  "categoryId": 44,
+  "images": [
+    "https://greer.com/"
+  ]
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 163,
+  "title": "Ergonomic bottom-line extranet-7e230b41531149d7831f774dc0ee6a8d",
+  "slug": "ergonomic-bottom-line-extranet-7e230b41531149d7831f774dc0ee6a8d",
+  "price": 296,
+  "description": "Mandatory composite collaboration",
+  "category": {
+    "id": 44,
+    "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+    "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+    "image": "http://www.walton-gibson.net/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "https://greer.com/"
+  ],
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Future-proofed reciprocal approach-08d201abffca48fbbfa131f2221770a7",
+  "price": 296,
+  "description": "Stand-alone mission-critical Local Area Network",
+  "categoryId": 44,
+  "images": [
+    "http://rodriguez.com/"
+  ]
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 165,
+  "title": "Future-proofed reciprocal approach-08d201abffca48fbbfa131f2221770a7",
+  "slug": "future-proofed-reciprocal-approach-08d201abffca48fbbfa131f2221770a7",
+  "price": 296,
+  "description": "Stand-alone mission-critical Local Area Network",
+  "category": {
+    "id": 44,
+    "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+    "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+    "image": "http://www.walton-gibson.net/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "http://rodriguez.com/"
+  ],
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_cd77295f70594df88589970fbd8b0540",
+  "image": "http://www.mercado.com/"
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 46,
+  "name": "Clothing_cd77295f70594df88589970fbd8b0540",
+  "slug": "clothing-cd77295f70594df88589970fbd8b0540",
+  "image": "http://www.mercado.com/",
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory local implementation-05025d2ce2c641b7b3c209489be08bda",
+  "price": 332,
+  "description": "Programmable contextually-based analyzer",
+  "categoryId": 46,
+  "images": [
+    "http://www.brown-ross.com/"
+  ]
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 166,
+  "title": "Mandatory local implementation-05025d2ce2c641b7b3c209489be08bda",
+  "slug": "mandatory-local-implementation-05025d2ce2c641b7b3c209489be08bda",
+  "price": 332,
+  "description": "Programmable contextually-based analyzer",
+  "category": {
+    "id": 46,
+    "name": "Clothing_cd77295f70594df88589970fbd8b0540",
+    "slug": "clothing-cd77295f70594df88589970fbd8b0540",
+    "image": "http://www.mercado.com/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "http://www.brown-ross.com/"
+  ],
+  "creationAt": "2026-09-28T04:28:20.000Z",
+  "updatedAt": "2026-09-28T04:28:20.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/162/related
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/162/related -> 200
+Body:
+[
+  {
+    "id": 163,
+    "title": "Ergonomic bottom-line extranet-7e230b41531149d7831f774dc0ee6a8d",
+    "slug": "ergonomic-bottom-line-extranet-7e230b41531149d7831f774dc0ee6a8d",
+    "price": 296,
+    "description": "Mandatory composite collaboration",
+    "category": {
+      "id": 44,
+      "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+      "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+      "image": "http://www.walton-gibson.net/",
+      "creationAt": "2026-09-28T04:28:19.000Z",
+      "updatedAt": "2026-09-28T04:28:19.000Z"
+    },
+    "images": [
+      "https://greer.com/"
+    ],
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  {
+    "id": 165,
+    "title": "Future-proofed reciprocal approach-08d201abffca48fbbfa131f2221770a7",
+    "slug": "future-proofed-reciprocal-approach-08d201abffca48fbbfa131f2221770a7",
+    "price": 296,
+    "description": "Stand-alone mission-critical Local Area Network",
+    "category": {
+      "id": 44,
+      "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+      "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+      "image": "http://www.walton-gibson.net/",
+      "creationAt": "2026-09-28T04:28:19.000Z",
+      "updatedAt": "2026-09-28T04:28:19.000Z"
+    },
+    "images": [
+      "http://rodriguez.com/"
+    ],
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  }
+]
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/166
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/166 -> 200
+Body:
+{
+  "id": 166,
+  "title": "Mandatory local implementation-05025d2ce2c641b7b3c209489be08bda",
+  "slug": "mandatory-local-implementation-05025d2ce2c641b7b3c209489be08bda",
+  "price": 332,
+  "description": "Programmable contextually-based analyzer",
+  "category": {
+    "id": 46,
+    "name": "Clothing_cd77295f70594df88589970fbd8b0540",
+    "slug": "clothing-cd77295f70594df88589970fbd8b0540",
+    "image": "http://www.mercado.com/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "http://www.brown-ross.com/"
+  ],
+  "creationAt": "2026-09-28T04:28:20.000Z",
+  "updatedAt": "2026-09-28T04:28:20.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/166
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/166 -> 200
+Body:
+true 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/165
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/165 -> 200
+Body:
+{
+  "id": 165,
+  "title": "Future-proofed reciprocal approach-08d201abffca48fbbfa131f2221770a7",
+  "slug": "future-proofed-reciprocal-approach-08d201abffca48fbbfa131f2221770a7",
+  "price": 296,
+  "description": "Stand-alone mission-critical Local Area Network",
+  "category": {
+    "id": 44,
+    "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+    "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+    "image": "http://www.walton-gibson.net/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "http://rodriguez.com/"
+  ],
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/165
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/165 -> 200
+Body:
+true 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/163
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/163 -> 200
+Body:
+{
+  "id": 163,
+  "title": "Ergonomic bottom-line extranet-7e230b41531149d7831f774dc0ee6a8d",
+  "slug": "ergonomic-bottom-line-extranet-7e230b41531149d7831f774dc0ee6a8d",
+  "price": 296,
+  "description": "Mandatory composite collaboration",
+  "category": {
+    "id": 44,
+    "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+    "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+    "image": "http://www.walton-gibson.net/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "https://greer.com/"
+  ],
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/163
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/163 -> 200
+Body:
+true 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/162
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/162 -> 200
+Body:
+{
+  "id": 162,
+  "title": "Versatile web-enabled info-mediaries-0e0450cffeee41b88f5e27f7eb145750",
+  "slug": "versatile-web-enabled-info-mediaries-0e0450cffeee41b88f5e27f7eb145750",
+  "price": 65,
+  "description": "Devolved maximized intranet",
+  "category": {
+    "id": 44,
+    "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+    "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+    "image": "http://www.walton-gibson.net/",
+    "creationAt": "2026-09-28T04:28:19.000Z",
+    "updatedAt": "2026-09-28T04:28:19.000Z"
+  },
+  "images": [
+    "https://graham-oliver.org/"
+  ],
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/162
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/162 -> 200
+Body:
+true 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+{
+  "id": 46,
+  "name": "Clothing_cd77295f70594df88589970fbd8b0540",
+  "slug": "clothing-cd77295f70594df88589970fbd8b0540",
+  "image": "http://www.mercado.com/",
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+true 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/44
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/44 -> 200
+Body:
+{
+  "id": 44,
+  "name": "Home & Kitchen_8c710ab162ea47c7a13bce7d8c69046b",
+  "slug": "home-kitchen-8c710ab162ea47c7a13bce7d8c69046b",
+  "image": "http://www.walton-gibson.net/",
+  "creationAt": "2026-09-28T04:28:19.000Z",
+  "updatedAt": "2026-09-28T04:28:19.000Z"
+} 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/44
+Body:
+<empty> 
+
+2026-09-28 04:28:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/44 -> 200
+Body:
+true

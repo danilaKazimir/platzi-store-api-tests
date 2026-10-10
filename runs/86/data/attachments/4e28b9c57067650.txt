@@ -1,0 +1,79 @@
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_451f66fdca164cad99954c315897b317",
+  "image": "http://www.martin.com/"
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 71,
+  "name": "Food & Beverages_451f66fdca164cad99954c315897b317",
+  "slug": "food-beverages-451f66fdca164cad99954c315897b317",
+  "image": "http://www.martin.com/",
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+}
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Proactive 5thgeneration structure-4f5d9708fa8d481ba9b7ddc034179195",
+  "price": 114,
+  "description": "Grass-roots didactic leverage",
+  "categoryId": 71,
+  "images": [
+    "https://robles-smith.com/"
+  ]
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 277,
+  "title": "Proactive 5thgeneration structure-4f5d9708fa8d481ba9b7ddc034179195",
+  "slug": "proactive-5thgeneration-structure-4f5d9708fa8d481ba9b7ddc034179195",
+  "price": 114,
+  "description": "Grass-roots didactic leverage",
+  "category": {
+    "id": 71,
+    "name": "Food & Beverages_451f66fdca164cad99954c315897b317",
+    "slug": "food-beverages-451f66fdca164cad99954c315897b317",
+    "image": "http://www.martin.com/",
+    "creationAt": "2026-10-07T05:03:44.000Z",
+    "updatedAt": "2026-10-07T05:03:44.000Z"
+  },
+  "images": [
+    "https://robles-smith.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+}
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/71
+Body:
+<empty> 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/71 -> 200
+Body:
+{
+  "id": 71,
+  "name": "Food & Beverages_451f66fdca164cad99954c315897b317",
+  "slug": "food-beverages-451f66fdca164cad99954c315897b317",
+  "image": "http://www.martin.com/",
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/71
+Body:
+<empty> 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/71 -> 400
+Body:
+{
+  "path": "/api/v1/categories/71",
+  "timestamp": "2026-10-07T05:03:44.775Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

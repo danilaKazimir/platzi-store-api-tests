@@ -1,0 +1,49 @@
+2026-10-07 05:03:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_206cb30922a64451ad591662445a7f1d",
+  "image": "http://www.moss.com/"
+} 
+
+2026-10-07 05:03:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 65,
+  "name": "Books_206cb30922a64451ad591662445a7f1d",
+  "slug": "books-206cb30922a64451ad591662445a7f1d",
+  "image": "http://www.moss.com/",
+  "creationAt": "2026-10-07T05:03:43.000Z",
+  "updatedAt": "2026-10-07T05:03:43.000Z"
+}
+2026-10-07 05:03:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-10-07 05:03:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/65 -> 200
+Body:
+true 
+
+2026-10-07 05:03:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-10-07 05:03:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/65 -> 400
+Body:
+{
+  "path": "/api/v1/categories/65",
+  "timestamp": "2026-10-07T05:03:43.785Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 65\n}"
+}
+2026-10-07 05:03:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-10-07 05:03:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/65 -> 400
+Body:
+{
+  "path": "/api/v1/categories/65",
+  "timestamp": "2026-10-07T05:03:43.831Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 65\n}"
+}

@@ -1,0 +1,408 @@
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+  "image": "http://www.bowen.com/"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 322,
+  "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+  "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+  "image": "http://www.bowen.com/",
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+}
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "De-engineered solution-oriented Graphic Interface-7801321a15f54dbc88e5ff1903f71e02",
+  "price": 122,
+  "description": "Mandatory empowering productivity",
+  "categoryId": 322,
+  "images": [
+    "http://www.smith.org/"
+  ]
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 427,
+  "title": "De-engineered solution-oriented Graphic Interface-7801321a15f54dbc88e5ff1903f71e02",
+  "slug": "de-engineered-solution-oriented-graphic-interface-7801321a15f54dbc88e5ff1903f71e02",
+  "price": 122,
+  "description": "Mandatory empowering productivity",
+  "category": {
+    "id": 322,
+    "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+    "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+    "image": "http://www.bowen.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "http://www.smith.org/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Focused cohesive groupware-b0f383f6a46c4790a440ea7f193ffbca",
+  "price": 224,
+  "description": "Distributed eco-centric database",
+  "categoryId": 322,
+  "images": [
+    "http://www.reyes.net/"
+  ]
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 429,
+  "title": "Focused cohesive groupware-b0f383f6a46c4790a440ea7f193ffbca",
+  "slug": "focused-cohesive-groupware-b0f383f6a46c4790a440ea7f193ffbca",
+  "price": 224,
+  "description": "Distributed eco-centric database",
+  "category": {
+    "id": 322,
+    "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+    "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+    "image": "http://www.bowen.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "http://www.reyes.net/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Assimilated attitude-oriented artificial intelligence-bb7ca60047fd4f848a005a431143f922",
+  "price": 664,
+  "description": "Reverse-engineered local pricing structure",
+  "categoryId": 322,
+  "images": [
+    "https://www.robinson-nichols.biz/"
+  ]
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 432,
+  "title": "Assimilated attitude-oriented artificial intelligence-bb7ca60047fd4f848a005a431143f922",
+  "slug": "assimilated-attitude-oriented-artificial-intelligence-bb7ca60047fd4f848a005a431143f922",
+  "price": 664,
+  "description": "Reverse-engineered local pricing structure",
+  "category": {
+    "id": 322,
+    "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+    "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+    "image": "http://www.bowen.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "https://www.robinson-nichols.biz/"
+  ],
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_c94800c5cb7f449fa7ecff63c77782a4",
+  "image": "https://www.palmer-rush.com/"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 324,
+  "name": "Clothing_c94800c5cb7f449fa7ecff63c77782a4",
+  "slug": "clothing-c94800c5cb7f449fa7ecff63c77782a4",
+  "image": "https://www.palmer-rush.com/",
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Robust heuristic protocol-b05111882c1b4ba4be0f070590fe1cfd",
+  "price": 155,
+  "description": "Centralized static workforce",
+  "categoryId": 324,
+  "images": [
+    "https://www.harrison.com/"
+  ]
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 433,
+  "title": "Robust heuristic protocol-b05111882c1b4ba4be0f070590fe1cfd",
+  "slug": "robust-heuristic-protocol-b05111882c1b4ba4be0f070590fe1cfd",
+  "price": 155,
+  "description": "Centralized static workforce",
+  "category": {
+    "id": 324,
+    "name": "Clothing_c94800c5cb7f449fa7ecff63c77782a4",
+    "slug": "clothing-c94800c5cb7f449fa7ecff63c77782a4",
+    "image": "https://www.palmer-rush.com/",
+    "creationAt": "2026-10-06T05:33:48.000Z",
+    "updatedAt": "2026-10-06T05:33:48.000Z"
+  },
+  "images": [
+    "https://www.harrison.com/"
+  ],
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/427/related
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/427/related -> 200
+Body:
+[
+  {
+    "id": 429,
+    "title": "Focused cohesive groupware-b0f383f6a46c4790a440ea7f193ffbca",
+    "slug": "focused-cohesive-groupware-b0f383f6a46c4790a440ea7f193ffbca",
+    "price": 224,
+    "description": "Distributed eco-centric database",
+    "category": {
+      "id": 322,
+      "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+      "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+      "image": "http://www.bowen.com/",
+      "creationAt": "2026-10-06T05:33:47.000Z",
+      "updatedAt": "2026-10-06T05:33:47.000Z"
+    },
+    "images": [
+      "http://www.reyes.net/"
+    ],
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  {
+    "id": 432,
+    "title": "Assimilated attitude-oriented artificial intelligence-bb7ca60047fd4f848a005a431143f922",
+    "slug": "assimilated-attitude-oriented-artificial-intelligence-bb7ca60047fd4f848a005a431143f922",
+    "price": 664,
+    "description": "Reverse-engineered local pricing structure",
+    "category": {
+      "id": 322,
+      "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+      "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+      "image": "http://www.bowen.com/",
+      "creationAt": "2026-10-06T05:33:47.000Z",
+      "updatedAt": "2026-10-06T05:33:47.000Z"
+    },
+    "images": [
+      "https://www.robinson-nichols.biz/"
+    ],
+    "creationAt": "2026-10-06T05:33:48.000Z",
+    "updatedAt": "2026-10-06T05:33:48.000Z"
+  }
+]
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/433
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/433 -> 200
+Body:
+{
+  "id": 433,
+  "title": "Robust heuristic protocol-b05111882c1b4ba4be0f070590fe1cfd",
+  "slug": "robust-heuristic-protocol-b05111882c1b4ba4be0f070590fe1cfd",
+  "price": 155,
+  "description": "Centralized static workforce",
+  "category": {
+    "id": 324,
+    "name": "Clothing_c94800c5cb7f449fa7ecff63c77782a4",
+    "slug": "clothing-c94800c5cb7f449fa7ecff63c77782a4",
+    "image": "https://www.palmer-rush.com/",
+    "creationAt": "2026-10-06T05:33:48.000Z",
+    "updatedAt": "2026-10-06T05:33:48.000Z"
+  },
+  "images": [
+    "https://www.harrison.com/"
+  ],
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/433
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/433 -> 200
+Body:
+true 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/432
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/432 -> 200
+Body:
+{
+  "id": 432,
+  "title": "Assimilated attitude-oriented artificial intelligence-bb7ca60047fd4f848a005a431143f922",
+  "slug": "assimilated-attitude-oriented-artificial-intelligence-bb7ca60047fd4f848a005a431143f922",
+  "price": 664,
+  "description": "Reverse-engineered local pricing structure",
+  "category": {
+    "id": 322,
+    "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+    "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+    "image": "http://www.bowen.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "https://www.robinson-nichols.biz/"
+  ],
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/432
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/432 -> 200
+Body:
+true 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/429
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/429 -> 200
+Body:
+{
+  "id": 429,
+  "title": "Focused cohesive groupware-b0f383f6a46c4790a440ea7f193ffbca",
+  "slug": "focused-cohesive-groupware-b0f383f6a46c4790a440ea7f193ffbca",
+  "price": 224,
+  "description": "Distributed eco-centric database",
+  "category": {
+    "id": 322,
+    "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+    "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+    "image": "http://www.bowen.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "http://www.reyes.net/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/429
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/429 -> 200
+Body:
+true 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/427
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/427 -> 200
+Body:
+{
+  "id": 427,
+  "title": "De-engineered solution-oriented Graphic Interface-7801321a15f54dbc88e5ff1903f71e02",
+  "slug": "de-engineered-solution-oriented-graphic-interface-7801321a15f54dbc88e5ff1903f71e02",
+  "price": 122,
+  "description": "Mandatory empowering productivity",
+  "category": {
+    "id": 322,
+    "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+    "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+    "image": "http://www.bowen.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "http://www.smith.org/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/427
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/427 -> 200
+Body:
+true 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/324
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/324 -> 200
+Body:
+{
+  "id": 324,
+  "name": "Clothing_c94800c5cb7f449fa7ecff63c77782a4",
+  "slug": "clothing-c94800c5cb7f449fa7ecff63c77782a4",
+  "image": "https://www.palmer-rush.com/",
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/324
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/324 -> 200
+Body:
+true 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/322
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/322 -> 200
+Body:
+{
+  "id": 322,
+  "name": "Electronics_714b25af4c8d448d86b0bf02aa8a8e65",
+  "slug": "electronics-714b25af4c8d448d86b0bf02aa8a8e65",
+  "image": "http://www.bowen.com/",
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/322
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/322 -> 200
+Body:
+true

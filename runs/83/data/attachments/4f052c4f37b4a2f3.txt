@@ -1,0 +1,55 @@
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_dabc22dd37bb4d2e81e2c9c86a39239e",
+  "image": "https://www.stein.com/"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 73,
+  "name": "Clothing_dabc22dd37bb4d2e81e2c9c86a39239e",
+  "slug": "clothing-dabc22dd37bb4d2e81e2c9c86a39239e",
+  "image": "https://www.stein.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/73
+Body:
+{
+  "name": null,
+  "image": "http://www.soto-palmer.com/"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/73 -> 400
+Body:
+{
+  "path": "/api/v1/categories/73",
+  "timestamp": "2026-10-04T05:00:07.766Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/73
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/73 -> 200
+Body:
+{
+  "id": 73,
+  "name": "Clothing_dabc22dd37bb4d2e81e2c9c86a39239e",
+  "slug": "clothing-dabc22dd37bb4d2e81e2c9c86a39239e",
+  "image": "https://www.stein.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/73
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/73 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_930bc3c4f46b40dd9c9eb195e3dd927a",
+  "image": "http://powell-beck.com/"
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 674,
+  "name": "Automotive Accessories_930bc3c4f46b40dd9c9eb195e3dd927a",
+  "slug": "automotive-accessories-930bc3c4f46b40dd9c9eb195e3dd927a",
+  "image": "http://powell-beck.com/",
+  "creationAt": "2026-10-03T04:29:19.000Z",
+  "updatedAt": "2026-10-03T04:29:19.000Z"
+}
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-930bc3c4f46b40dd9c9eb195e3dd927a
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-930bc3c4f46b40dd9c9eb195e3dd927a -> 200
+Body:
+{
+  "id": 674,
+  "name": "Automotive Accessories_930bc3c4f46b40dd9c9eb195e3dd927a",
+  "slug": "automotive-accessories-930bc3c4f46b40dd9c9eb195e3dd927a",
+  "image": "http://powell-beck.com/",
+  "creationAt": "2026-10-03T04:29:19.000Z",
+  "updatedAt": "2026-10-03T04:29:19.000Z"
+}
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/674
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/674 -> 200
+Body:
+{
+  "id": 674,
+  "name": "Automotive Accessories_930bc3c4f46b40dd9c9eb195e3dd927a",
+  "slug": "automotive-accessories-930bc3c4f46b40dd9c9eb195e3dd927a",
+  "image": "http://powell-beck.com/",
+  "creationAt": "2026-10-03T04:29:19.000Z",
+  "updatedAt": "2026-10-03T04:29:19.000Z"
+} 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/674
+Body:
+<empty> 
+
+2026-10-03 04:29:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/674 -> 200
+Body:
+true

@@ -1,0 +1,119 @@
+2026-09-13 03:56:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_55e39c2ef8ea425ba54df0f6a27bd760",
+  "image": "https://www.jones.net/"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Toys_55e39c2ef8ea425ba54df0f6a27bd760",
+  "slug": "toys-55e39c2ef8ea425ba54df0f6a27bd760",
+  "image": "https://www.jones.net/",
+  "creationAt": "2026-09-13T03:56:52.000Z",
+  "updatedAt": "2026-09-13T03:56:52.000Z"
+}
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-13T01:21:58.000Z",
+    "updatedAt": "2026-09-13T01:21:58.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-13T01:21:58.000Z",
+    "updatedAt": "2026-09-13T01:21:58.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-13T01:21:58.000Z",
+    "updatedAt": "2026-09-13T01:21:58.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-13T01:21:58.000Z",
+    "updatedAt": "2026-09-13T01:21:58.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-13T01:21:58.000Z",
+    "updatedAt": "2026-09-13T01:21:58.000Z"
+  },
+  {
+    "id": 6,
+    "name": "testCategory3c5990e74f844aa6a15407bc6418892d",
+    "slug": "testcategory3c5990e74f844aa6a15407bc6418892d",
+    "image": "http://www.jones.com/",
+    "creationAt": "2026-09-13T03:56:51.000Z",
+    "updatedAt": "2026-09-13T03:56:51.000Z"
+  },
+  {
+    "id": 8,
+    "name": "test Category1e2c3d51cb664111a4aadd7ab4e00f60",
+    "slug": "test-category1e2c3d51cb664111a4aadd7ab4e00f60",
+    "image": "https://boyd-pearson.org/",
+    "creationAt": "2026-09-13T03:56:51.000Z",
+    "updatedAt": "2026-09-13T03:56:51.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Electronics_2818f331df61460abe1605ba182a976a",
+    "slug": "electronics-2818f331df61460abe1605ba182a976a",
+    "image": "http://garcia.com/",
+    "creationAt": "2026-09-13T03:56:51.000Z",
+    "updatedAt": "2026-09-13T03:56:51.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Toys_55e39c2ef8ea425ba54df0f6a27bd760",
+    "slug": "toys-55e39c2ef8ea425ba54df0f6a27bd760",
+    "image": "https://www.jones.net/",
+    "creationAt": "2026-09-13T03:56:52.000Z",
+    "updatedAt": "2026-09-13T03:56:52.000Z"
+  }
+]
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Toys_55e39c2ef8ea425ba54df0f6a27bd760",
+  "slug": "toys-55e39c2ef8ea425ba54df0f6a27bd760",
+  "image": "https://www.jones.net/",
+  "creationAt": "2026-09-13T03:56:52.000Z",
+  "updatedAt": "2026-09-13T03:56:52.000Z"
+} 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-09-13 03:56:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+true

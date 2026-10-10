@@ -1,0 +1,408 @@
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+  "image": "https://bauer.biz/"
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+  "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+  "image": "https://bauer.biz/",
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+}
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized systematic definition-07a0085369914eb6a85461ea25569914",
+  "price": 623,
+  "description": "Proactive interactive migration",
+  "categoryId": 25,
+  "images": [
+    "https://www.espinoza.org/"
+  ]
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 78,
+  "title": "Decentralized systematic definition-07a0085369914eb6a85461ea25569914",
+  "slug": "decentralized-systematic-definition-07a0085369914eb6a85461ea25569914",
+  "price": 623,
+  "description": "Proactive interactive migration",
+  "category": {
+    "id": 25,
+    "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+    "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+    "image": "https://bauer.biz/",
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  "images": [
+    "https://www.espinoza.org/"
+  ],
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented clear-thinking collaboration-cf72cb20e009493b95f3c0ac3844175b",
+  "price": 39,
+  "description": "Fully-configurable didactic pricing structure",
+  "categoryId": 25,
+  "images": [
+    "https://www.brown.com/"
+  ]
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 79,
+  "title": "Vision-oriented clear-thinking collaboration-cf72cb20e009493b95f3c0ac3844175b",
+  "slug": "vision-oriented-clear-thinking-collaboration-cf72cb20e009493b95f3c0ac3844175b",
+  "price": 39,
+  "description": "Fully-configurable didactic pricing structure",
+  "category": {
+    "id": 25,
+    "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+    "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+    "image": "https://bauer.biz/",
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+} 
+
+2026-09-14 04:04:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Streamlined uniform orchestration-4816fb14e7f945249cb1c037dd67146e",
+  "price": 969,
+  "description": "Customizable upward-trending collaboration",
+  "categoryId": 25,
+  "images": [
+    "http://www.burns.com/"
+  ]
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 80,
+  "title": "Streamlined uniform orchestration-4816fb14e7f945249cb1c037dd67146e",
+  "slug": "streamlined-uniform-orchestration-4816fb14e7f945249cb1c037dd67146e",
+  "price": 969,
+  "description": "Customizable upward-trending collaboration",
+  "category": {
+    "id": 25,
+    "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+    "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+    "image": "https://bauer.biz/",
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  "images": [
+    "http://www.burns.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_a3b83749cbf94e20936a10ecd3e89b08",
+  "image": "http://www.jones-martin.com/"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Home & Kitchen_a3b83749cbf94e20936a10ecd3e89b08",
+  "slug": "home-kitchen-a3b83749cbf94e20936a10ecd3e89b08",
+  "image": "http://www.jones-martin.com/",
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered analyzing circuit-1006a28d141f4ce39e6906336c968923",
+  "price": 32,
+  "description": "Persevering mobile leverage",
+  "categoryId": 27,
+  "images": [
+    "http://wolf.com/"
+  ]
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 83,
+  "title": "Multi-tiered analyzing circuit-1006a28d141f4ce39e6906336c968923",
+  "slug": "multi-tiered-analyzing-circuit-1006a28d141f4ce39e6906336c968923",
+  "price": 32,
+  "description": "Persevering mobile leverage",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_a3b83749cbf94e20936a10ecd3e89b08",
+    "slug": "home-kitchen-a3b83749cbf94e20936a10ecd3e89b08",
+    "image": "http://www.jones-martin.com/",
+    "creationAt": "2026-09-14T04:04:30.000Z",
+    "updatedAt": "2026-09-14T04:04:30.000Z"
+  },
+  "images": [
+    "http://wolf.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/78/related
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/78/related -> 200
+Body:
+[
+  {
+    "id": 79,
+    "title": "Vision-oriented clear-thinking collaboration-cf72cb20e009493b95f3c0ac3844175b",
+    "slug": "vision-oriented-clear-thinking-collaboration-cf72cb20e009493b95f3c0ac3844175b",
+    "price": 39,
+    "description": "Fully-configurable didactic pricing structure",
+    "category": {
+      "id": 25,
+      "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+      "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+      "image": "https://bauer.biz/",
+      "creationAt": "2026-09-14T04:04:29.000Z",
+      "updatedAt": "2026-09-14T04:04:29.000Z"
+    },
+    "images": [
+      "https://www.brown.com/"
+    ],
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  {
+    "id": 80,
+    "title": "Streamlined uniform orchestration-4816fb14e7f945249cb1c037dd67146e",
+    "slug": "streamlined-uniform-orchestration-4816fb14e7f945249cb1c037dd67146e",
+    "price": 969,
+    "description": "Customizable upward-trending collaboration",
+    "category": {
+      "id": 25,
+      "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+      "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+      "image": "https://bauer.biz/",
+      "creationAt": "2026-09-14T04:04:29.000Z",
+      "updatedAt": "2026-09-14T04:04:29.000Z"
+    },
+    "images": [
+      "http://www.burns.com/"
+    ],
+    "creationAt": "2026-09-14T04:04:30.000Z",
+    "updatedAt": "2026-09-14T04:04:30.000Z"
+  }
+]
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+{
+  "id": 83,
+  "title": "Multi-tiered analyzing circuit-1006a28d141f4ce39e6906336c968923",
+  "slug": "multi-tiered-analyzing-circuit-1006a28d141f4ce39e6906336c968923",
+  "price": 32,
+  "description": "Persevering mobile leverage",
+  "category": {
+    "id": 27,
+    "name": "Home & Kitchen_a3b83749cbf94e20936a10ecd3e89b08",
+    "slug": "home-kitchen-a3b83749cbf94e20936a10ecd3e89b08",
+    "image": "http://www.jones-martin.com/",
+    "creationAt": "2026-09-14T04:04:30.000Z",
+    "updatedAt": "2026-09-14T04:04:30.000Z"
+  },
+  "images": [
+    "http://wolf.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/83
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/83 -> 200
+Body:
+true 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/80
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/80 -> 200
+Body:
+{
+  "id": 80,
+  "title": "Streamlined uniform orchestration-4816fb14e7f945249cb1c037dd67146e",
+  "slug": "streamlined-uniform-orchestration-4816fb14e7f945249cb1c037dd67146e",
+  "price": 969,
+  "description": "Customizable upward-trending collaboration",
+  "category": {
+    "id": 25,
+    "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+    "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+    "image": "https://bauer.biz/",
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  "images": [
+    "http://www.burns.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/80
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/80 -> 200
+Body:
+true 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/79
+Body:
+<empty> 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/79 -> 200
+Body:
+{
+  "id": 79,
+  "title": "Vision-oriented clear-thinking collaboration-cf72cb20e009493b95f3c0ac3844175b",
+  "slug": "vision-oriented-clear-thinking-collaboration-cf72cb20e009493b95f3c0ac3844175b",
+  "price": 39,
+  "description": "Fully-configurable didactic pricing structure",
+  "category": {
+    "id": 25,
+    "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+    "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+    "image": "https://bauer.biz/",
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+} 
+
+2026-09-14 04:04:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/79
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/79 -> 200
+Body:
+true 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/78
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/78 -> 200
+Body:
+{
+  "id": 78,
+  "title": "Decentralized systematic definition-07a0085369914eb6a85461ea25569914",
+  "slug": "decentralized-systematic-definition-07a0085369914eb6a85461ea25569914",
+  "price": 623,
+  "description": "Proactive interactive migration",
+  "category": {
+    "id": 25,
+    "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+    "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+    "image": "https://bauer.biz/",
+    "creationAt": "2026-09-14T04:04:29.000Z",
+    "updatedAt": "2026-09-14T04:04:29.000Z"
+  },
+  "images": [
+    "https://www.espinoza.org/"
+  ],
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+} 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/78
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/78 -> 200
+Body:
+true 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Home & Kitchen_a3b83749cbf94e20936a10ecd3e89b08",
+  "slug": "home-kitchen-a3b83749cbf94e20936a10ecd3e89b08",
+  "image": "http://www.jones-martin.com/",
+  "creationAt": "2026-09-14T04:04:30.000Z",
+  "updatedAt": "2026-09-14T04:04:30.000Z"
+} 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Electronics_d8090032202c4d24ab288963f8d274b8",
+  "slug": "electronics-d8090032202c4d24ab288963f8d274b8",
+  "image": "https://bauer.biz/",
+  "creationAt": "2026-09-14T04:04:29.000Z",
+  "updatedAt": "2026-09-14T04:04:29.000Z"
+} 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-09-14 04:04:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

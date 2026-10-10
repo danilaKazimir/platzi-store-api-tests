@@ -1,0 +1,125 @@
+2026-10-01 04:56:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_d526476f93754b108e9ec2ec7b995eb1",
+  "image": "https://www.phillips.com/"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 67,
+  "name": "Pet Supplies_d526476f93754b108e9ec2ec7b995eb1",
+  "slug": "pet-supplies-d526476f93754b108e9ec2ec7b995eb1",
+  "image": "https://www.phillips.com/",
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered reciprocal open system-8cf099f87dd4451e85284e7f0b7818e2",
+  "price": 308,
+  "description": "Virtual client-driven function",
+  "categoryId": 67,
+  "images": [
+    "https://www.jackson-ramirez.com/"
+  ]
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 353,
+  "title": "Multi-tiered reciprocal open system-8cf099f87dd4451e85284e7f0b7818e2",
+  "slug": "multi-tiered-reciprocal-open-system-8cf099f87dd4451e85284e7f0b7818e2",
+  "price": 308,
+  "description": "Virtual client-driven function",
+  "category": {
+    "id": 67,
+    "name": "Pet Supplies_d526476f93754b108e9ec2ec7b995eb1",
+    "slug": "pet-supplies-d526476f93754b108e9ec2ec7b995eb1",
+    "image": "https://www.phillips.com/",
+    "creationAt": "2026-10-01T04:56:37.000Z",
+    "updatedAt": "2026-10-01T04:56:37.000Z"
+  },
+  "images": [
+    "https://www.jackson-ramirez.com/"
+  ],
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+}
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/353
+Body:
+{
+  "title": "Diverse high-level infrastructure-b5244f52e3e4403da4c6c958cb0298de",
+  "price": 17,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/353 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/353
+Body:
+<empty> 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/353 -> 200
+Body:
+{
+  "id": 353,
+  "title": "Multi-tiered reciprocal open system-8cf099f87dd4451e85284e7f0b7818e2",
+  "slug": "multi-tiered-reciprocal-open-system-8cf099f87dd4451e85284e7f0b7818e2",
+  "price": 308,
+  "description": "Virtual client-driven function",
+  "category": {
+    "id": 67,
+    "name": "Pet Supplies_d526476f93754b108e9ec2ec7b995eb1",
+    "slug": "pet-supplies-d526476f93754b108e9ec2ec7b995eb1",
+    "image": "https://www.phillips.com/",
+    "creationAt": "2026-10-01T04:56:37.000Z",
+    "updatedAt": "2026-10-01T04:56:37.000Z"
+  },
+  "images": [
+    "https://www.jackson-ramirez.com/"
+  ],
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/353
+Body:
+<empty> 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/353 -> 200
+Body:
+true 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/67
+Body:
+<empty> 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/67 -> 200
+Body:
+{
+  "id": 67,
+  "name": "Pet Supplies_d526476f93754b108e9ec2ec7b995eb1",
+  "slug": "pet-supplies-d526476f93754b108e9ec2ec7b995eb1",
+  "image": "https://www.phillips.com/",
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/67
+Body:
+<empty> 
+
+2026-10-01 04:56:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/67 -> 200
+Body:
+true

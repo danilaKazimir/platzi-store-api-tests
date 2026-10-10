@@ -1,0 +1,88 @@
+2026-09-15 04:03:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Natalie Olsen",
+  "email": "brobinson@example.net",
+  "password": "***",
+  "avatar": "http://www.jenkins-leach.com/"
+} 
+
+2026-09-15 04:03:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 6,
+  "email": "brobinson@example.net",
+  "password": "***",
+  "name": "Natalie Olsen",
+  "role": "customer",
+  "avatar": "http://www.jenkins-leach.com/",
+  "creationAt": "2026-09-15T04:03:30.000Z",
+  "updatedAt": "2026-09-15T04:03:30.000Z"
+}
+2026-09-15 04:03:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "brobinson@example.net",
+  "password": "***"
+} 
+
+2026-09-15 04:03:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-15 04:03:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjYsImlhdCI6MTc4OTQ0NTAxMCwiZXhwIjoxNzg5NDgxMDEwfQ.7V-WgCD4prPf500UZ1RUnvSM15SWDM7k7efqQbLrJkk"
+} 
+
+2026-09-15 04:03:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-09-15 04:03:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-09-15 04:03:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 6,
+  "email": "brobinson@example.net",
+  "password": "***",
+  "name": "Natalie Olsen",
+  "role": "customer",
+  "avatar": "http://www.jenkins-leach.com/",
+  "creationAt": "2026-09-15T04:03:30.000Z",
+  "updatedAt": "2026-09-15T04:03:30.000Z"
+}
+2026-09-15 04:03:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/6
+Body:
+<empty> 
+
+2026-09-15 04:03:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/6 -> 200
+Body:
+{
+  "id": 6,
+  "email": "brobinson@example.net",
+  "password": "***",
+  "name": "Natalie Olsen",
+  "role": "customer",
+  "avatar": "http://www.jenkins-leach.com/",
+  "creationAt": "2026-09-15T04:03:30.000Z",
+  "updatedAt": "2026-09-15T04:03:30.000Z"
+} 
+
+2026-09-15 04:03:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/6
+Body:
+<empty> 
+
+2026-09-15 04:03:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/6 -> 200
+Body:
+true

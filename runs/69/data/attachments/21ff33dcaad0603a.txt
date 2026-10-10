@@ -1,0 +1,55 @@
+2026-09-20 04:06:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_d661ae73c1d94a09a13066586f6c6ab3",
+  "image": "https://kirby.com/"
+} 
+
+2026-09-20 04:06:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Toys_d661ae73c1d94a09a13066586f6c6ab3",
+  "slug": "toys-d661ae73c1d94a09a13066586f6c6ab3",
+  "image": "https://kirby.com/",
+  "creationAt": "2026-09-20T04:06:37.000Z",
+  "updatedAt": "2026-09-20T04:06:37.000Z"
+}
+2026-09-20 04:06:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/35
+Body:
+{
+  "name": "Clothing_c7b495e94746466eaf4195be7429b0ee",
+  "image": null
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/35 -> 400
+Body:
+{
+  "path": "/api/v1/categories/35",
+  "timestamp": "2026-09-20T04:06:38.089Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Toys_d661ae73c1d94a09a13066586f6c6ab3",
+  "slug": "toys-d661ae73c1d94a09a13066586f6c6ab3",
+  "image": "https://kirby.com/",
+  "creationAt": "2026-09-20T04:06:37.000Z",
+  "updatedAt": "2026-09-20T04:06:37.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

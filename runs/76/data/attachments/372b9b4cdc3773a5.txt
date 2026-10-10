@@ -1,0 +1,135 @@
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_831abc48a30543edb6947e4f7c454a66",
+  "image": "https://www.foster.com/"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 217,
+  "name": "Electronics_831abc48a30543edb6947e4f7c454a66",
+  "slug": "electronics-831abc48a30543edb6947e4f7c454a66",
+  "image": "https://www.foster.com/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered disintermediate initiative-6182ac1e7ab541678d650270566c652f",
+  "price": 997,
+  "description": "Operative intermediate functionalities",
+  "categoryId": 217,
+  "images": [
+    "https://www.fry.com/"
+  ]
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 243,
+  "title": "Reverse-engineered disintermediate initiative-6182ac1e7ab541678d650270566c652f",
+  "slug": "reverse-engineered-disintermediate-initiative-6182ac1e7ab541678d650270566c652f",
+  "price": 997,
+  "description": "Operative intermediate functionalities",
+  "category": {
+    "id": 217,
+    "name": "Electronics_831abc48a30543edb6947e4f7c454a66",
+    "slug": "electronics-831abc48a30543edb6947e4f7c454a66",
+    "image": "https://www.foster.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "https://www.fry.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/reverse-engineered-disintermediate-initiative-6182ac1e7ab541678d650270566c652f
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/reverse-engineered-disintermediate-initiative-6182ac1e7ab541678d650270566c652f -> 200
+Body:
+{
+  "id": 243,
+  "title": "Reverse-engineered disintermediate initiative-6182ac1e7ab541678d650270566c652f",
+  "slug": "reverse-engineered-disintermediate-initiative-6182ac1e7ab541678d650270566c652f",
+  "price": 997,
+  "description": "Operative intermediate functionalities",
+  "category": {
+    "id": 217,
+    "name": "Electronics_831abc48a30543edb6947e4f7c454a66",
+    "slug": "electronics-831abc48a30543edb6947e4f7c454a66",
+    "image": "https://www.foster.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "https://www.fry.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/243
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/243 -> 200
+Body:
+{
+  "id": 243,
+  "title": "Reverse-engineered disintermediate initiative-6182ac1e7ab541678d650270566c652f",
+  "slug": "reverse-engineered-disintermediate-initiative-6182ac1e7ab541678d650270566c652f",
+  "price": 997,
+  "description": "Operative intermediate functionalities",
+  "category": {
+    "id": 217,
+    "name": "Electronics_831abc48a30543edb6947e4f7c454a66",
+    "slug": "electronics-831abc48a30543edb6947e4f7c454a66",
+    "image": "https://www.foster.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "https://www.fry.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/243
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/243 -> 200
+Body:
+true 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/217
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/217 -> 200
+Body:
+{
+  "id": 217,
+  "name": "Electronics_831abc48a30543edb6947e4f7c454a66",
+  "slug": "electronics-831abc48a30543edb6947e4f7c454a66",
+  "image": "https://www.foster.com/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/217
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/217 -> 200
+Body:
+true

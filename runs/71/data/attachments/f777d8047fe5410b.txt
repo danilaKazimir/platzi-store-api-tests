@@ -1,0 +1,79 @@
+2026-09-22 04:01:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_294e80b115f648e591e4a583a9c2a408",
+  "image": "https://miller.com/"
+} 
+
+2026-09-22 04:01:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 65,
+  "name": "Sports & Fitness_294e80b115f648e591e4a583a9c2a408",
+  "slug": "sports-fitness-294e80b115f648e591e4a583a9c2a408",
+  "image": "https://miller.com/",
+  "creationAt": "2026-09-22T04:01:01.000Z",
+  "updatedAt": "2026-09-22T04:01:01.000Z"
+}
+2026-09-22 04:01:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Team-oriented explicit portal-c2b5d52b171244caaedf784ea490fe4b",
+  "price": 437,
+  "description": "Open-source disintermediate access",
+  "categoryId": 65,
+  "images": [
+    "http://gilbert-lewis.org/"
+  ]
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 294,
+  "title": "Team-oriented explicit portal-c2b5d52b171244caaedf784ea490fe4b",
+  "slug": "team-oriented-explicit-portal-c2b5d52b171244caaedf784ea490fe4b",
+  "price": 437,
+  "description": "Open-source disintermediate access",
+  "category": {
+    "id": 65,
+    "name": "Sports & Fitness_294e80b115f648e591e4a583a9c2a408",
+    "slug": "sports-fitness-294e80b115f648e591e4a583a9c2a408",
+    "image": "https://miller.com/",
+    "creationAt": "2026-09-22T04:01:01.000Z",
+    "updatedAt": "2026-09-22T04:01:01.000Z"
+  },
+  "images": [
+    "http://gilbert-lewis.org/"
+  ],
+  "creationAt": "2026-09-22T04:01:02.000Z",
+  "updatedAt": "2026-09-22T04:01:02.000Z"
+}
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/65 -> 200
+Body:
+{
+  "id": 65,
+  "name": "Sports & Fitness_294e80b115f648e591e4a583a9c2a408",
+  "slug": "sports-fitness-294e80b115f648e591e4a583a9c2a408",
+  "image": "https://miller.com/",
+  "creationAt": "2026-09-22T04:01:01.000Z",
+  "updatedAt": "2026-09-22T04:01:01.000Z"
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/65
+Body:
+<empty> 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/65 -> 400
+Body:
+{
+  "path": "/api/v1/categories/65",
+  "timestamp": "2026-09-22T04:01:02.135Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

@@ -1,0 +1,81 @@
+2026-09-18 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Meredith Byrd",
+  "email": "daniel76@example.net",
+  "password": "***",
+  "avatar": "http://rivers-davis.com/"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 8,
+  "email": "daniel76@example.net",
+  "password": "***",
+  "name": "Meredith Byrd",
+  "role": "customer",
+  "avatar": "http://rivers-davis.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+}
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/8
+Body:
+{
+  "name": "Adam Grimes",
+  "email": "mmueller@example.com"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/8 -> 200
+Body:
+{
+  "id": 8,
+  "email": "mmueller@example.com",
+  "password": "***",
+  "name": "Adam Grimes",
+  "role": "customer",
+  "avatar": "http://rivers-davis.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/8
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/8 -> 200
+Body:
+{
+  "id": 8,
+  "email": "mmueller@example.com",
+  "password": "***",
+  "name": "Adam Grimes",
+  "role": "customer",
+  "avatar": "http://rivers-davis.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+}
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/8
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/8 -> 200
+Body:
+{
+  "id": 8,
+  "email": "mmueller@example.com",
+  "password": "***",
+  "name": "Adam Grimes",
+  "role": "customer",
+  "avatar": "http://rivers-davis.com/",
+  "creationAt": "2026-09-18T03:53:07.000Z",
+  "updatedAt": "2026-09-18T03:53:07.000Z"
+} 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/8
+Body:
+<empty> 
+
+2026-09-18 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/8 -> 200
+Body:
+true

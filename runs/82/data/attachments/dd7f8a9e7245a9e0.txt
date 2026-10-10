@@ -1,0 +1,107 @@
+2026-10-03 04:29:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_27549fbb65c945a28c5a1bdf59fb716b",
+  "image": "http://moore-williams.com/"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 680,
+  "name": "Toys_27549fbb65c945a28c5a1bdf59fb716b",
+  "slug": "toys-27549fbb65c945a28c5a1bdf59fb716b",
+  "image": "http://moore-williams.com/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Polarized bifurcated firmware-52d22cb4edca456380ef103730330dc5",
+  "price": 329,
+  "description": "Programmable uniform monitoring",
+  "categoryId": 680,
+  "images": [
+    "https://scott-espinoza.com/"
+  ]
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 539,
+  "title": "Polarized bifurcated firmware-52d22cb4edca456380ef103730330dc5",
+  "slug": "polarized-bifurcated-firmware-52d22cb4edca456380ef103730330dc5",
+  "price": 329,
+  "description": "Programmable uniform monitoring",
+  "category": {
+    "id": 680,
+    "name": "Toys_27549fbb65c945a28c5a1bdf59fb716b",
+    "slug": "toys-27549fbb65c945a28c5a1bdf59fb716b",
+    "image": "http://moore-williams.com/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "https://scott-espinoza.com/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+}
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/539
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/539 -> 200
+Body:
+true 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/539
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/539 -> 400
+Body:
+{
+  "path": "/api/v1/products/539",
+  "timestamp": "2026-10-03T04:29:20.437Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 539\n    }\n}"
+}
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/539
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/539 -> 400
+Body:
+{
+  "path": "/api/v1/products/539",
+  "timestamp": "2026-10-03T04:29:20.448Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 539\n    }\n}"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/680
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/680 -> 200
+Body:
+{
+  "id": 680,
+  "name": "Toys_27549fbb65c945a28c5a1bdf59fb716b",
+  "slug": "toys-27549fbb65c945a28c5a1bdf59fb716b",
+  "image": "http://moore-williams.com/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/680
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/680 -> 200
+Body:
+true

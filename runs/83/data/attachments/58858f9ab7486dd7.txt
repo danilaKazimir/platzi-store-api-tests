@@ -1,0 +1,79 @@
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_0deaf9e7a7024678902b0b3c8e4b2358",
+  "image": "http://www.french-sharp.com/"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 71,
+  "name": "Automotive Accessories_0deaf9e7a7024678902b0b3c8e4b2358",
+  "slug": "automotive-accessories-0deaf9e7a7024678902b0b3c8e4b2358",
+  "image": "http://www.french-sharp.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded background hardware-78ed93eb7a9942b9ad5d91df41d408ea",
+  "price": 549,
+  "description": "Fundamental background system engine",
+  "categoryId": 71,
+  "images": [
+    "http://www.huerta-garrett.com/"
+  ]
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 492,
+  "title": "Expanded background hardware-78ed93eb7a9942b9ad5d91df41d408ea",
+  "slug": "expanded-background-hardware-78ed93eb7a9942b9ad5d91df41d408ea",
+  "price": 549,
+  "description": "Fundamental background system engine",
+  "category": {
+    "id": 71,
+    "name": "Automotive Accessories_0deaf9e7a7024678902b0b3c8e4b2358",
+    "slug": "automotive-accessories-0deaf9e7a7024678902b0b3c8e4b2358",
+    "image": "http://www.french-sharp.com/",
+    "creationAt": "2026-10-04T05:00:07.000Z",
+    "updatedAt": "2026-10-04T05:00:07.000Z"
+  },
+  "images": [
+    "http://www.huerta-garrett.com/"
+  ],
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/71
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/71 -> 200
+Body:
+{
+  "id": 71,
+  "name": "Automotive Accessories_0deaf9e7a7024678902b0b3c8e4b2358",
+  "slug": "automotive-accessories-0deaf9e7a7024678902b0b3c8e4b2358",
+  "image": "http://www.french-sharp.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/71
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/71 -> 400
+Body:
+{
+  "path": "/api/v1/categories/71",
+  "timestamp": "2026-10-04T05:00:07.728Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

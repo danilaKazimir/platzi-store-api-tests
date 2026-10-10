@@ -1,0 +1,53 @@
+2026-10-05 04:47:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_5d38333b6e544e30ba2d4f33089e28b5",
+  "image": "https://www.long.com/"
+} 
+
+2026-10-05 04:47:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 194,
+  "name": "Books_5d38333b6e544e30ba2d4f33089e28b5",
+  "slug": "books-5d38333b6e544e30ba2d4f33089e28b5",
+  "image": "https://www.long.com/",
+  "creationAt": "2026-10-05T04:47:04.000Z",
+  "updatedAt": "2026-10-05T04:47:04.000Z"
+}
+2026-10-05 04:47:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/books-5d38333b6e544e30ba2d4f33089e28b5
+Body:
+<empty> 
+
+2026-10-05 04:47:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/books-5d38333b6e544e30ba2d4f33089e28b5 -> 200
+Body:
+{
+  "id": 194,
+  "name": "Books_5d38333b6e544e30ba2d4f33089e28b5",
+  "slug": "books-5d38333b6e544e30ba2d4f33089e28b5",
+  "image": "https://www.long.com/",
+  "creationAt": "2026-10-05T04:47:04.000Z",
+  "updatedAt": "2026-10-05T04:47:04.000Z"
+}
+2026-10-05 04:47:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/194
+Body:
+<empty> 
+
+2026-10-05 04:47:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/194 -> 200
+Body:
+{
+  "id": 194,
+  "name": "Books_5d38333b6e544e30ba2d4f33089e28b5",
+  "slug": "books-5d38333b6e544e30ba2d4f33089e28b5",
+  "image": "https://www.long.com/",
+  "creationAt": "2026-10-05T04:47:04.000Z",
+  "updatedAt": "2026-10-05T04:47:04.000Z"
+} 
+
+2026-10-05 04:47:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/194
+Body:
+<empty> 
+
+2026-10-05 04:47:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/194 -> 200
+Body:
+true

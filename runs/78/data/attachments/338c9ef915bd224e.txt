@@ -1,0 +1,80 @@
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Austin Page",
+  "email": "shane65@example.org",
+  "password": "***",
+  "avatar": "http://www.davis-hernandez.org/"
+} 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 70,
+  "email": "shane65@example.org",
+  "password": "***",
+  "name": "Austin Page",
+  "role": "customer",
+  "avatar": "http://www.davis-hernandez.org/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:36.000Z"
+}
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/70
+Body:
+{
+  "email": "websteradam@example.net"
+} 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "websteradam@example.net",
+  "password": "***",
+  "name": "Austin Page",
+  "role": "customer",
+  "avatar": "http://www.davis-hernandez.org/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:36.000Z"
+} 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "websteradam@example.net",
+  "password": "***",
+  "name": "Austin Page",
+  "role": "customer",
+  "avatar": "http://www.davis-hernandez.org/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:36.000Z"
+}
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "websteradam@example.net",
+  "password": "***",
+  "name": "Austin Page",
+  "role": "customer",
+  "avatar": "http://www.davis-hernandez.org/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:36.000Z"
+} 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+true

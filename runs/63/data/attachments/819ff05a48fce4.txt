@@ -1,0 +1,143 @@
+2026-09-14 04:04:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_ac9a08ccfc5246e8bf807c9be7d74b5c",
+  "image": "https://stewart-mcdonald.org/"
+} 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Books_ac9a08ccfc5246e8bf807c9be7d74b5c",
+  "slug": "books-ac9a08ccfc5246e8bf807c9be7d74b5c",
+  "image": "https://stewart-mcdonald.org/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:26.000Z"
+}
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Baju Dora",
+    "slug": "baju-dora",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-14T02:09:57.000Z",
+    "updatedAt": "2026-09-14T02:19:06.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-14T02:09:57.000Z",
+    "updatedAt": "2026-09-14T02:09:57.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-14T02:09:57.000Z",
+    "updatedAt": "2026-09-14T02:09:57.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-14T02:09:57.000Z",
+    "updatedAt": "2026-09-14T02:09:57.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-14T02:09:57.000Z",
+    "updatedAt": "2026-09-14T02:09:57.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Kuda naik",
+    "slug": "kuda-naik",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-14T02:19:04.000Z",
+    "updatedAt": "2026-09-14T02:19:04.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Kuda balap",
+    "slug": "kuda-balap",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-09-14T02:19:05.000Z",
+    "updatedAt": "2026-09-14T02:19:05.000Z"
+  },
+  {
+    "id": 8,
+    "name": "sdsd",
+    "slug": "sdsd",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-14T02:24:09.000Z",
+    "updatedAt": "2026-09-14T02:24:09.000Z"
+  },
+  {
+    "id": 9,
+    "name": "testCategorya2fd5fdaf34f4de5b89d1cdce4d52291",
+    "slug": "testcategorya2fd5fdaf34f4de5b89d1cdce4d52291",
+    "image": "http://www.gibson.biz/",
+    "creationAt": "2026-09-14T04:04:25.000Z",
+    "updatedAt": "2026-09-14T04:04:25.000Z"
+  },
+  {
+    "id": 10,
+    "name": "test Categoryb8b05fbe0adc42e09a0c7cb85f963963",
+    "slug": "test-categoryb8b05fbe0adc42e09a0c7cb85f963963",
+    "image": "http://harris-mckinney.com/",
+    "creationAt": "2026-09-14T04:04:25.000Z",
+    "updatedAt": "2026-09-14T04:04:25.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Books_ac9a08ccfc5246e8bf807c9be7d74b5c",
+    "slug": "books-ac9a08ccfc5246e8bf807c9be7d74b5c",
+    "image": "https://stewart-mcdonald.org/",
+    "creationAt": "2026-09-14T04:04:26.000Z",
+    "updatedAt": "2026-09-14T04:04:26.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Clothing_1b03fd91e72444a09f147b610a42ace9",
+    "slug": "clothing-1b03fd91e72444a09f147b610a42ace9",
+    "image": "http://www.miller.com/",
+    "creationAt": "2026-09-14T04:04:26.000Z",
+    "updatedAt": "2026-09-14T04:04:26.000Z"
+  }
+]
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Books_ac9a08ccfc5246e8bf807c9be7d74b5c",
+  "slug": "books-ac9a08ccfc5246e8bf807c9be7d74b5c",
+  "image": "https://stewart-mcdonald.org/",
+  "creationAt": "2026-09-14T04:04:26.000Z",
+  "updatedAt": "2026-09-14T04:04:26.000Z"
+} 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-09-14 04:04:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+true

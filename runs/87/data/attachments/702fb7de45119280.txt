@@ -1,0 +1,80 @@
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Joshua Smith",
+  "email": "benjaminwhite@example.net",
+  "password": "***",
+  "avatar": "http://www.williams-edwards.org/"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 135,
+  "email": "benjaminwhite@example.net",
+  "password": "***",
+  "name": "Joshua Smith",
+  "role": "customer",
+  "avatar": "http://www.williams-edwards.org/",
+  "creationAt": "2026-10-08T05:14:21.000Z",
+  "updatedAt": "2026-10-08T05:14:21.000Z"
+}
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/135
+Body:
+{
+  "email": "georgejoyce@example.com"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/135 -> 200
+Body:
+{
+  "id": 135,
+  "email": "georgejoyce@example.com",
+  "password": "***",
+  "name": "Joshua Smith",
+  "role": "customer",
+  "avatar": "http://www.williams-edwards.org/",
+  "creationAt": "2026-10-08T05:14:21.000Z",
+  "updatedAt": "2026-10-08T05:14:21.000Z"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/135
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/135 -> 200
+Body:
+{
+  "id": 135,
+  "email": "georgejoyce@example.com",
+  "password": "***",
+  "name": "Joshua Smith",
+  "role": "customer",
+  "avatar": "http://www.williams-edwards.org/",
+  "creationAt": "2026-10-08T05:14:21.000Z",
+  "updatedAt": "2026-10-08T05:14:21.000Z"
+}
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/135
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/135 -> 200
+Body:
+{
+  "id": 135,
+  "email": "georgejoyce@example.com",
+  "password": "***",
+  "name": "Joshua Smith",
+  "role": "customer",
+  "avatar": "http://www.williams-edwards.org/",
+  "creationAt": "2026-10-08T05:14:21.000Z",
+  "updatedAt": "2026-10-08T05:14:21.000Z"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/135
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/135 -> 200
+Body:
+true

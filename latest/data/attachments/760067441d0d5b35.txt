@@ -1,0 +1,125 @@
+2026-10-10 05:01:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_8330379e20784e43a968f7471e86902c",
+  "image": "https://green.org/"
+} 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 108,
+  "name": "Automotive Accessories_8330379e20784e43a968f7471e86902c",
+  "slug": "automotive-accessories-8330379e20784e43a968f7471e86902c",
+  "image": "https://green.org/",
+  "creationAt": "2026-10-10T05:01:59.000Z",
+  "updatedAt": "2026-10-10T05:01:59.000Z"
+} 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Digitized content-based migration-0d7e95232aad4488aef8b0f2c2d9be91",
+  "price": 470,
+  "description": "Front-line impactful system engine",
+  "categoryId": 108,
+  "images": [
+    "http://white-powers.com/"
+  ]
+} 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 199,
+  "title": "Digitized content-based migration-0d7e95232aad4488aef8b0f2c2d9be91",
+  "slug": "digitized-content-based-migration-0d7e95232aad4488aef8b0f2c2d9be91",
+  "price": 470,
+  "description": "Front-line impactful system engine",
+  "category": {
+    "id": 108,
+    "name": "Automotive Accessories_8330379e20784e43a968f7471e86902c",
+    "slug": "automotive-accessories-8330379e20784e43a968f7471e86902c",
+    "image": "https://green.org/",
+    "creationAt": "2026-10-10T05:01:59.000Z",
+    "updatedAt": "2026-10-10T05:01:59.000Z"
+  },
+  "images": [
+    "http://white-powers.com/"
+  ],
+  "creationAt": "2026-10-10T05:01:59.000Z",
+  "updatedAt": "2026-10-10T05:01:59.000Z"
+}
+2026-10-10 05:01:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/199
+Body:
+{
+  "title": "Assimilated multi-tasking benchmark-b07ab6bd70204c8e950ced9f1d9486c2",
+  "price": 907,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/199 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-10 05:01:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+{
+  "id": 199,
+  "title": "Digitized content-based migration-0d7e95232aad4488aef8b0f2c2d9be91",
+  "slug": "digitized-content-based-migration-0d7e95232aad4488aef8b0f2c2d9be91",
+  "price": 470,
+  "description": "Front-line impactful system engine",
+  "category": {
+    "id": 108,
+    "name": "Automotive Accessories_8330379e20784e43a968f7471e86902c",
+    "slug": "automotive-accessories-8330379e20784e43a968f7471e86902c",
+    "image": "https://green.org/",
+    "creationAt": "2026-10-10T05:01:59.000Z",
+    "updatedAt": "2026-10-10T05:01:59.000Z"
+  },
+  "images": [
+    "http://white-powers.com/"
+  ],
+  "creationAt": "2026-10-10T05:01:59.000Z",
+  "updatedAt": "2026-10-10T05:01:59.000Z"
+} 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+true 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/108
+Body:
+<empty> 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/108 -> 200
+Body:
+{
+  "id": 108,
+  "name": "Automotive Accessories_8330379e20784e43a968f7471e86902c",
+  "slug": "automotive-accessories-8330379e20784e43a968f7471e86902c",
+  "image": "https://green.org/",
+  "creationAt": "2026-10-10T05:01:59.000Z",
+  "updatedAt": "2026-10-10T05:01:59.000Z"
+} 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/108
+Body:
+<empty> 
+
+2026-10-10 05:01:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/108 -> 200
+Body:
+true

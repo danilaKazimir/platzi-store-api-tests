@@ -1,0 +1,135 @@
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_4f88849354b848038dc67ecc8e58fc87",
+  "image": "https://www.jenkins.info/"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 208,
+  "name": "Food & Beverages_4f88849354b848038dc67ecc8e58fc87",
+  "slug": "food-beverages-4f88849354b848038dc67ecc8e58fc87",
+  "image": "https://www.jenkins.info/",
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Balanced multi-state contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "price": 219,
+  "description": "Ergonomic dedicated website",
+  "categoryId": 208,
+  "images": [
+    "http://turner.org/"
+  ]
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 507,
+  "title": "Balanced multi-state contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "slug": "balanced-multi-state-contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "price": 219,
+  "description": "Ergonomic dedicated website",
+  "category": {
+    "id": 208,
+    "name": "Food & Beverages_4f88849354b848038dc67ecc8e58fc87",
+    "slug": "food-beverages-4f88849354b848038dc67ecc8e58fc87",
+    "image": "https://www.jenkins.info/",
+    "creationAt": "2026-10-08T05:14:20.000Z",
+    "updatedAt": "2026-10-08T05:14:20.000Z"
+  },
+  "images": [
+    "http://turner.org/"
+  ],
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+}
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/balanced-multi-state-contingency-e5460d67aeaa44efa1a701f3f7cd3285
+Body:
+<empty> 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/balanced-multi-state-contingency-e5460d67aeaa44efa1a701f3f7cd3285 -> 200
+Body:
+{
+  "id": 507,
+  "title": "Balanced multi-state contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "slug": "balanced-multi-state-contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "price": 219,
+  "description": "Ergonomic dedicated website",
+  "category": {
+    "id": 208,
+    "name": "Food & Beverages_4f88849354b848038dc67ecc8e58fc87",
+    "slug": "food-beverages-4f88849354b848038dc67ecc8e58fc87",
+    "image": "https://www.jenkins.info/",
+    "creationAt": "2026-10-08T05:14:20.000Z",
+    "updatedAt": "2026-10-08T05:14:20.000Z"
+  },
+  "images": [
+    "http://turner.org/"
+  ],
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+}
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/507
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/507 -> 200
+Body:
+{
+  "id": 507,
+  "title": "Balanced multi-state contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "slug": "balanced-multi-state-contingency-e5460d67aeaa44efa1a701f3f7cd3285",
+  "price": 219,
+  "description": "Ergonomic dedicated website",
+  "category": {
+    "id": 208,
+    "name": "Food & Beverages_4f88849354b848038dc67ecc8e58fc87",
+    "slug": "food-beverages-4f88849354b848038dc67ecc8e58fc87",
+    "image": "https://www.jenkins.info/",
+    "creationAt": "2026-10-08T05:14:20.000Z",
+    "updatedAt": "2026-10-08T05:14:20.000Z"
+  },
+  "images": [
+    "http://turner.org/"
+  ],
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/507
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/507 -> 200
+Body:
+true 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+{
+  "id": 208,
+  "name": "Food & Beverages_4f88849354b848038dc67ecc8e58fc87",
+  "slug": "food-beverages-4f88849354b848038dc67ecc8e58fc87",
+  "image": "https://www.jenkins.info/",
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-10-08 05:14:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+true
