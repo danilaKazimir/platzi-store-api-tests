@@ -1,0 +1,55 @@
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_dce42fe92dd94aa6b603afcd47cd4054",
+  "image": "http://zamora-dunn.biz/"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Electronics_dce42fe92dd94aa6b603afcd47cd4054",
+  "slug": "electronics-dce42fe92dd94aa6b603afcd47cd4054",
+  "image": "http://zamora-dunn.biz/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/38
+Body:
+{
+  "name": null,
+  "image": "https://www.logan.info/"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/38 -> 400
+Body:
+{
+  "path": "/api/v1/categories/38",
+  "timestamp": "2026-09-20T04:06:38.259Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Electronics_dce42fe92dd94aa6b603afcd47cd4054",
+  "slug": "electronics-dce42fe92dd94aa6b603afcd47cd4054",
+  "image": "http://zamora-dunn.biz/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+true

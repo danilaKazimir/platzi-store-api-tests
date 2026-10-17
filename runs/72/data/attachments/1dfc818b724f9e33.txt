@@ -1,0 +1,408 @@
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+  "image": "https://www.grant-henderson.com/"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 51,
+  "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+  "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+  "image": "https://www.grant-henderson.com/",
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+}
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergized 24hour intranet-f259c2895f394de69bf8f8920b456629",
+  "price": 683,
+  "description": "Reactive modular hub",
+  "categoryId": 51,
+  "images": [
+    "https://www.duncan-marshall.com/"
+  ]
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 248,
+  "title": "Synergized 24hour intranet-f259c2895f394de69bf8f8920b456629",
+  "slug": "synergized-24hour-intranet-f259c2895f394de69bf8f8920b456629",
+  "price": 683,
+  "description": "Reactive modular hub",
+  "category": {
+    "id": 51,
+    "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+    "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+    "image": "https://www.grant-henderson.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "https://www.duncan-marshall.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Customer-focused scalable artificial intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+  "price": 724,
+  "description": "Multi-channeled full-range algorithm",
+  "categoryId": 51,
+  "images": [
+    "http://ballard.org/"
+  ]
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 250,
+  "title": "Customer-focused scalable artificial intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+  "slug": "customer-focused-scalable-artificial-intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+  "price": 724,
+  "description": "Multi-channeled full-range algorithm",
+  "category": {
+    "id": 51,
+    "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+    "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+    "image": "https://www.grant-henderson.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "http://ballard.org/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source well-modulated secured line-3114e601717d415e9e02c910c36e4e52",
+  "price": 377,
+  "description": "Managed motivating functionalities",
+  "categoryId": 51,
+  "images": [
+    "https://martin-miller.info/"
+  ]
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 251,
+  "title": "Open-source well-modulated secured line-3114e601717d415e9e02c910c36e4e52",
+  "slug": "open-source-well-modulated-secured-line-3114e601717d415e9e02c910c36e4e52",
+  "price": 377,
+  "description": "Managed motivating functionalities",
+  "category": {
+    "id": 51,
+    "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+    "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+    "image": "https://www.grant-henderson.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "https://martin-miller.info/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_233cfec1ef9c4537a10faadbd0653e63",
+  "image": "http://www.good-avila.org/"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 53,
+  "name": "Electronics_233cfec1ef9c4537a10faadbd0653e63",
+  "slug": "electronics-233cfec1ef9c4537a10faadbd0653e63",
+  "image": "http://www.good-avila.org/",
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-platform 24hour ability-74e3edb050344f3495fd01653e8e7d7e",
+  "price": 426,
+  "description": "Multi-channeled responsive secured line",
+  "categoryId": 53,
+  "images": [
+    "http://www.rivera-roberts.com/"
+  ]
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 252,
+  "title": "Cross-platform 24hour ability-74e3edb050344f3495fd01653e8e7d7e",
+  "slug": "cross-platform-24hour-ability-74e3edb050344f3495fd01653e8e7d7e",
+  "price": 426,
+  "description": "Multi-channeled responsive secured line",
+  "category": {
+    "id": 53,
+    "name": "Electronics_233cfec1ef9c4537a10faadbd0653e63",
+    "slug": "electronics-233cfec1ef9c4537a10faadbd0653e63",
+    "image": "http://www.good-avila.org/",
+    "creationAt": "2026-09-23T03:58:06.000Z",
+    "updatedAt": "2026-09-23T03:58:06.000Z"
+  },
+  "images": [
+    "http://www.rivera-roberts.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/248/related
+Body:
+<empty> 
+
+2026-09-23 03:58:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/248/related -> 200
+Body:
+[
+  {
+    "id": 250,
+    "title": "Customer-focused scalable artificial intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+    "slug": "customer-focused-scalable-artificial-intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+    "price": 724,
+    "description": "Multi-channeled full-range algorithm",
+    "category": {
+      "id": 51,
+      "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+      "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+      "image": "https://www.grant-henderson.com/",
+      "creationAt": "2026-09-23T03:58:05.000Z",
+      "updatedAt": "2026-09-23T03:58:05.000Z"
+    },
+    "images": [
+      "http://ballard.org/"
+    ],
+    "creationAt": "2026-09-23T03:58:06.000Z",
+    "updatedAt": "2026-09-23T03:58:06.000Z"
+  },
+  {
+    "id": 251,
+    "title": "Open-source well-modulated secured line-3114e601717d415e9e02c910c36e4e52",
+    "slug": "open-source-well-modulated-secured-line-3114e601717d415e9e02c910c36e4e52",
+    "price": 377,
+    "description": "Managed motivating functionalities",
+    "category": {
+      "id": 51,
+      "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+      "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+      "image": "https://www.grant-henderson.com/",
+      "creationAt": "2026-09-23T03:58:05.000Z",
+      "updatedAt": "2026-09-23T03:58:05.000Z"
+    },
+    "images": [
+      "https://martin-miller.info/"
+    ],
+    "creationAt": "2026-09-23T03:58:06.000Z",
+    "updatedAt": "2026-09-23T03:58:06.000Z"
+  }
+]
+2026-09-23 03:58:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/252
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/252 -> 200
+Body:
+{
+  "id": 252,
+  "title": "Cross-platform 24hour ability-74e3edb050344f3495fd01653e8e7d7e",
+  "slug": "cross-platform-24hour-ability-74e3edb050344f3495fd01653e8e7d7e",
+  "price": 426,
+  "description": "Multi-channeled responsive secured line",
+  "category": {
+    "id": 53,
+    "name": "Electronics_233cfec1ef9c4537a10faadbd0653e63",
+    "slug": "electronics-233cfec1ef9c4537a10faadbd0653e63",
+    "image": "http://www.good-avila.org/",
+    "creationAt": "2026-09-23T03:58:06.000Z",
+    "updatedAt": "2026-09-23T03:58:06.000Z"
+  },
+  "images": [
+    "http://www.rivera-roberts.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/252
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/252 -> 200
+Body:
+true 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/251
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/251 -> 200
+Body:
+{
+  "id": 251,
+  "title": "Open-source well-modulated secured line-3114e601717d415e9e02c910c36e4e52",
+  "slug": "open-source-well-modulated-secured-line-3114e601717d415e9e02c910c36e4e52",
+  "price": 377,
+  "description": "Managed motivating functionalities",
+  "category": {
+    "id": 51,
+    "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+    "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+    "image": "https://www.grant-henderson.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "https://martin-miller.info/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/251
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/251 -> 200
+Body:
+true 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/250
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/250 -> 200
+Body:
+{
+  "id": 250,
+  "title": "Customer-focused scalable artificial intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+  "slug": "customer-focused-scalable-artificial-intelligence-ceb7d5f1081b47c785e9d355b32d33bc",
+  "price": 724,
+  "description": "Multi-channeled full-range algorithm",
+  "category": {
+    "id": 51,
+    "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+    "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+    "image": "https://www.grant-henderson.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "http://ballard.org/"
+  ],
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/250
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/250 -> 200
+Body:
+true 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/248
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/248 -> 200
+Body:
+{
+  "id": 248,
+  "title": "Synergized 24hour intranet-f259c2895f394de69bf8f8920b456629",
+  "slug": "synergized-24hour-intranet-f259c2895f394de69bf8f8920b456629",
+  "price": 683,
+  "description": "Reactive modular hub",
+  "category": {
+    "id": 51,
+    "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+    "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+    "image": "https://www.grant-henderson.com/",
+    "creationAt": "2026-09-23T03:58:05.000Z",
+    "updatedAt": "2026-09-23T03:58:05.000Z"
+  },
+  "images": [
+    "https://www.duncan-marshall.com/"
+  ],
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/248
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/248 -> 200
+Body:
+true 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/53
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/53 -> 200
+Body:
+{
+  "id": 53,
+  "name": "Electronics_233cfec1ef9c4537a10faadbd0653e63",
+  "slug": "electronics-233cfec1ef9c4537a10faadbd0653e63",
+  "image": "http://www.good-avila.org/",
+  "creationAt": "2026-09-23T03:58:06.000Z",
+  "updatedAt": "2026-09-23T03:58:06.000Z"
+} 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/53
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/53 -> 200
+Body:
+true 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+{
+  "id": 51,
+  "name": "Food & Beverages_5bf0de56edef4d8eb361a23220d4230f",
+  "slug": "food-beverages-5bf0de56edef4d8eb361a23220d4230f",
+  "image": "https://www.grant-henderson.com/",
+  "creationAt": "2026-09-23T03:58:05.000Z",
+  "updatedAt": "2026-09-23T03:58:05.000Z"
+} 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-09-23 03:58:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+true

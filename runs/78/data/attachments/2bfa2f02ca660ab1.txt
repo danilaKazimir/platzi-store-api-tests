@@ -1,0 +1,135 @@
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_addf5354401142aa905acd094b614972",
+  "image": "http://www.shannon.com/"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 105,
+  "name": "Books_addf5354401142aa905acd094b614972",
+  "slug": "books-addf5354401142aa905acd094b614972",
+  "image": "http://www.shannon.com/",
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face high-level task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "price": 409,
+  "description": "Mandatory composite application",
+  "categoryId": 105,
+  "images": [
+    "https://www.conrad.net/"
+  ]
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 323,
+  "title": "Face-to-face high-level task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "slug": "face-to-face-high-level-task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "price": 409,
+  "description": "Mandatory composite application",
+  "category": {
+    "id": 105,
+    "name": "Books_addf5354401142aa905acd094b614972",
+    "slug": "books-addf5354401142aa905acd094b614972",
+    "image": "http://www.shannon.com/",
+    "creationAt": "2026-09-29T04:57:34.000Z",
+    "updatedAt": "2026-09-29T04:57:34.000Z"
+  },
+  "images": [
+    "https://www.conrad.net/"
+  ],
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+}
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/face-to-face-high-level-task-force-669eacc3f7e4451f8f352a03bd1e52d1
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/face-to-face-high-level-task-force-669eacc3f7e4451f8f352a03bd1e52d1 -> 200
+Body:
+{
+  "id": 323,
+  "title": "Face-to-face high-level task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "slug": "face-to-face-high-level-task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "price": 409,
+  "description": "Mandatory composite application",
+  "category": {
+    "id": 105,
+    "name": "Books_addf5354401142aa905acd094b614972",
+    "slug": "books-addf5354401142aa905acd094b614972",
+    "image": "http://www.shannon.com/",
+    "creationAt": "2026-09-29T04:57:34.000Z",
+    "updatedAt": "2026-09-29T04:57:34.000Z"
+  },
+  "images": [
+    "https://www.conrad.net/"
+  ],
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+}
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/323
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/323 -> 200
+Body:
+{
+  "id": 323,
+  "title": "Face-to-face high-level task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "slug": "face-to-face-high-level-task-force-669eacc3f7e4451f8f352a03bd1e52d1",
+  "price": 409,
+  "description": "Mandatory composite application",
+  "category": {
+    "id": 105,
+    "name": "Books_addf5354401142aa905acd094b614972",
+    "slug": "books-addf5354401142aa905acd094b614972",
+    "image": "http://www.shannon.com/",
+    "creationAt": "2026-09-29T04:57:34.000Z",
+    "updatedAt": "2026-09-29T04:57:34.000Z"
+  },
+  "images": [
+    "https://www.conrad.net/"
+  ],
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/323
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/323 -> 200
+Body:
+true 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/105
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/105 -> 200
+Body:
+{
+  "id": 105,
+  "name": "Books_addf5354401142aa905acd094b614972",
+  "slug": "books-addf5354401142aa905acd094b614972",
+  "image": "http://www.shannon.com/",
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/105
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/105 -> 200
+Body:
+true

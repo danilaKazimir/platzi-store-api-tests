@@ -1,0 +1,107 @@
+2026-09-27 04:27:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_f41da76c6726420ea2640dcbafef12f5",
+  "image": "http://www.sosa.com/"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 216,
+  "name": "Sports & Fitness_f41da76c6726420ea2640dcbafef12f5",
+  "slug": "sports-fitness-f41da76c6726420ea2640dcbafef12f5",
+  "image": "http://www.sosa.com/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated modular initiative-1f8374ff5d34415ba32aafb774f4518d",
+  "price": 146,
+  "description": "Proactive human-resource monitoring",
+  "categoryId": 216,
+  "images": [
+    "https://www.brooks.info/"
+  ]
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 242,
+  "title": "Ameliorated modular initiative-1f8374ff5d34415ba32aafb774f4518d",
+  "slug": "ameliorated-modular-initiative-1f8374ff5d34415ba32aafb774f4518d",
+  "price": 146,
+  "description": "Proactive human-resource monitoring",
+  "category": {
+    "id": 216,
+    "name": "Sports & Fitness_f41da76c6726420ea2640dcbafef12f5",
+    "slug": "sports-fitness-f41da76c6726420ea2640dcbafef12f5",
+    "image": "http://www.sosa.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "https://www.brooks.info/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/242 -> 200
+Body:
+true 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/242 -> 400
+Body:
+{
+  "path": "/api/v1/products/242",
+  "timestamp": "2026-09-27T04:27:02.314Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 242\n    }\n}"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/242
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/242 -> 400
+Body:
+{
+  "path": "/api/v1/products/242",
+  "timestamp": "2026-09-27T04:27:02.324Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 242\n    }\n}"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/216
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/216 -> 200
+Body:
+{
+  "id": 216,
+  "name": "Sports & Fitness_f41da76c6726420ea2640dcbafef12f5",
+  "slug": "sports-fitness-f41da76c6726420ea2640dcbafef12f5",
+  "image": "http://www.sosa.com/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/216
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/216 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_6a44a98ddcd9430f8704a78108800502",
+  "image": "http://www.morgan.com/"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 497,
+  "name": "Home & Kitchen_6a44a98ddcd9430f8704a78108800502",
+  "slug": "home-kitchen-6a44a98ddcd9430f8704a78108800502",
+  "image": "http://www.morgan.com/",
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fully-configurable client-server concept-8795164bd70e452aa12a95abf4c22f7e",
+  "price": 14,
+  "description": "Reverse-engineered coherent service-desk",
+  "categoryId": 497,
+  "images": [
+    "http://www.harmon.org/"
+  ]
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 351,
+  "title": "Fully-configurable client-server concept-8795164bd70e452aa12a95abf4c22f7e",
+  "slug": "fully-configurable-client-server-concept-8795164bd70e452aa12a95abf4c22f7e",
+  "price": 14,
+  "description": "Reverse-engineered coherent service-desk",
+  "category": {
+    "id": 497,
+    "name": "Home & Kitchen_6a44a98ddcd9430f8704a78108800502",
+    "slug": "home-kitchen-6a44a98ddcd9430f8704a78108800502",
+    "image": "http://www.morgan.com/",
+    "creationAt": "2026-09-25T04:07:04.000Z",
+    "updatedAt": "2026-09-25T04:07:04.000Z"
+  },
+  "images": [
+    "http://www.harmon.org/"
+  ],
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+}
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/351
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/351 -> 200
+Body:
+true 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/351
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/351 -> 400
+Body:
+{
+  "path": "/api/v1/products/351",
+  "timestamp": "2026-09-25T04:07:04.688Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 351\n    }\n}"
+}
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/351
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/351 -> 400
+Body:
+{
+  "path": "/api/v1/products/351",
+  "timestamp": "2026-09-25T04:07:04.699Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 351\n    }\n}"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/497
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/497 -> 200
+Body:
+{
+  "id": 497,
+  "name": "Home & Kitchen_6a44a98ddcd9430f8704a78108800502",
+  "slug": "home-kitchen-6a44a98ddcd9430f8704a78108800502",
+  "image": "http://www.morgan.com/",
+  "creationAt": "2026-09-25T04:07:04.000Z",
+  "updatedAt": "2026-09-25T04:07:04.000Z"
+} 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/497
+Body:
+<empty> 
+
+2026-09-25 04:07:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/497 -> 200
+Body:
+true

@@ -1,0 +1,408 @@
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_338938d20f8b44eb8e85883e00a10883",
+  "image": "http://www.gould.com/"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 73,
+  "name": "Books_338938d20f8b44eb8e85883e00a10883",
+  "slug": "books-338938d20f8b44eb8e85883e00a10883",
+  "image": "http://www.gould.com/",
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+}
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Exclusive discrete architecture-e55af02b853347a1b87abe03e06f2703",
+  "price": 55,
+  "description": "Multi-lateral next generation initiative",
+  "categoryId": 73,
+  "images": [
+    "https://blanchard.com/"
+  ]
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 305,
+  "title": "Exclusive discrete architecture-e55af02b853347a1b87abe03e06f2703",
+  "slug": "exclusive-discrete-architecture-e55af02b853347a1b87abe03e06f2703",
+  "price": 55,
+  "description": "Multi-lateral next generation initiative",
+  "category": {
+    "id": 73,
+    "name": "Books_338938d20f8b44eb8e85883e00a10883",
+    "slug": "books-338938d20f8b44eb8e85883e00a10883",
+    "image": "http://www.gould.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "https://blanchard.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-architected homogeneous throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+  "price": 457,
+  "description": "Switchable attitude-oriented groupware",
+  "categoryId": 73,
+  "images": [
+    "https://parker-townsend.com/"
+  ]
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 306,
+  "title": "Open-architected homogeneous throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+  "slug": "open-architected-homogeneous-throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+  "price": 457,
+  "description": "Switchable attitude-oriented groupware",
+  "category": {
+    "id": 73,
+    "name": "Books_338938d20f8b44eb8e85883e00a10883",
+    "slug": "books-338938d20f8b44eb8e85883e00a10883",
+    "image": "http://www.gould.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "https://parker-townsend.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Exclusive maximized workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+  "price": 352,
+  "description": "Persevering tangible interface",
+  "categoryId": 73,
+  "images": [
+    "http://mendez.net/"
+  ]
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 308,
+  "title": "Exclusive maximized workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+  "slug": "exclusive-maximized-workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+  "price": 352,
+  "description": "Persevering tangible interface",
+  "category": {
+    "id": 73,
+    "name": "Books_338938d20f8b44eb8e85883e00a10883",
+    "slug": "books-338938d20f8b44eb8e85883e00a10883",
+    "image": "http://www.gould.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "http://mendez.net/"
+  ],
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_10bf8e3085fc4121ba1e273f65087b7a",
+  "image": "https://www.zavala.org/"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 76,
+  "name": "Electronics_10bf8e3085fc4121ba1e273f65087b7a",
+  "slug": "electronics-10bf8e3085fc4121ba1e273f65087b7a",
+  "image": "https://www.zavala.org/",
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-channeled well-modulated algorithm-ece0bf3321c0484da01ebf5d20c23b7c",
+  "price": 11,
+  "description": "Centralized human-resource application",
+  "categoryId": 76,
+  "images": [
+    "https://carter-rogers.com/"
+  ]
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 310,
+  "title": "Multi-channeled well-modulated algorithm-ece0bf3321c0484da01ebf5d20c23b7c",
+  "slug": "multi-channeled-well-modulated-algorithm-ece0bf3321c0484da01ebf5d20c23b7c",
+  "price": 11,
+  "description": "Centralized human-resource application",
+  "category": {
+    "id": 76,
+    "name": "Electronics_10bf8e3085fc4121ba1e273f65087b7a",
+    "slug": "electronics-10bf8e3085fc4121ba1e273f65087b7a",
+    "image": "https://www.zavala.org/",
+    "creationAt": "2026-09-22T04:01:05.000Z",
+    "updatedAt": "2026-09-22T04:01:05.000Z"
+  },
+  "images": [
+    "https://carter-rogers.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/exclusive-discrete-architecture-e55af02b853347a1b87abe03e06f2703/related
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/exclusive-discrete-architecture-e55af02b853347a1b87abe03e06f2703/related -> 200
+Body:
+[
+  {
+    "id": 306,
+    "title": "Open-architected homogeneous throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+    "slug": "open-architected-homogeneous-throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+    "price": 457,
+    "description": "Switchable attitude-oriented groupware",
+    "category": {
+      "id": 73,
+      "name": "Books_338938d20f8b44eb8e85883e00a10883",
+      "slug": "books-338938d20f8b44eb8e85883e00a10883",
+      "image": "http://www.gould.com/",
+      "creationAt": "2026-09-22T04:01:04.000Z",
+      "updatedAt": "2026-09-22T04:01:04.000Z"
+    },
+    "images": [
+      "https://parker-townsend.com/"
+    ],
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  {
+    "id": 308,
+    "title": "Exclusive maximized workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+    "slug": "exclusive-maximized-workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+    "price": 352,
+    "description": "Persevering tangible interface",
+    "category": {
+      "id": 73,
+      "name": "Books_338938d20f8b44eb8e85883e00a10883",
+      "slug": "books-338938d20f8b44eb8e85883e00a10883",
+      "image": "http://www.gould.com/",
+      "creationAt": "2026-09-22T04:01:04.000Z",
+      "updatedAt": "2026-09-22T04:01:04.000Z"
+    },
+    "images": [
+      "http://mendez.net/"
+    ],
+    "creationAt": "2026-09-22T04:01:05.000Z",
+    "updatedAt": "2026-09-22T04:01:05.000Z"
+  }
+]
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/310
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/310 -> 200
+Body:
+{
+  "id": 310,
+  "title": "Multi-channeled well-modulated algorithm-ece0bf3321c0484da01ebf5d20c23b7c",
+  "slug": "multi-channeled-well-modulated-algorithm-ece0bf3321c0484da01ebf5d20c23b7c",
+  "price": 11,
+  "description": "Centralized human-resource application",
+  "category": {
+    "id": 76,
+    "name": "Electronics_10bf8e3085fc4121ba1e273f65087b7a",
+    "slug": "electronics-10bf8e3085fc4121ba1e273f65087b7a",
+    "image": "https://www.zavala.org/",
+    "creationAt": "2026-09-22T04:01:05.000Z",
+    "updatedAt": "2026-09-22T04:01:05.000Z"
+  },
+  "images": [
+    "https://carter-rogers.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/310
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/310 -> 200
+Body:
+true 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/308
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/308 -> 200
+Body:
+{
+  "id": 308,
+  "title": "Exclusive maximized workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+  "slug": "exclusive-maximized-workforce-5fefb3a1935e47de9f7e3e6e3e44f459",
+  "price": 352,
+  "description": "Persevering tangible interface",
+  "category": {
+    "id": 73,
+    "name": "Books_338938d20f8b44eb8e85883e00a10883",
+    "slug": "books-338938d20f8b44eb8e85883e00a10883",
+    "image": "http://www.gould.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "http://mendez.net/"
+  ],
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/308
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/308 -> 200
+Body:
+true 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/306
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/306 -> 200
+Body:
+{
+  "id": 306,
+  "title": "Open-architected homogeneous throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+  "slug": "open-architected-homogeneous-throughput-78c3de1bcd8e4a96b2d137df6dbb6d47",
+  "price": 457,
+  "description": "Switchable attitude-oriented groupware",
+  "category": {
+    "id": 73,
+    "name": "Books_338938d20f8b44eb8e85883e00a10883",
+    "slug": "books-338938d20f8b44eb8e85883e00a10883",
+    "image": "http://www.gould.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "https://parker-townsend.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/306
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/306 -> 200
+Body:
+true 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/305
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/305 -> 200
+Body:
+{
+  "id": 305,
+  "title": "Exclusive discrete architecture-e55af02b853347a1b87abe03e06f2703",
+  "slug": "exclusive-discrete-architecture-e55af02b853347a1b87abe03e06f2703",
+  "price": 55,
+  "description": "Multi-lateral next generation initiative",
+  "category": {
+    "id": 73,
+    "name": "Books_338938d20f8b44eb8e85883e00a10883",
+    "slug": "books-338938d20f8b44eb8e85883e00a10883",
+    "image": "http://www.gould.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "https://blanchard.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/305
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/305 -> 200
+Body:
+true 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/76
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/76 -> 200
+Body:
+{
+  "id": 76,
+  "name": "Electronics_10bf8e3085fc4121ba1e273f65087b7a",
+  "slug": "electronics-10bf8e3085fc4121ba1e273f65087b7a",
+  "image": "https://www.zavala.org/",
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/76
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/76 -> 200
+Body:
+true 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/73
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/73 -> 200
+Body:
+{
+  "id": 73,
+  "name": "Books_338938d20f8b44eb8e85883e00a10883",
+  "slug": "books-338938d20f8b44eb8e85883e00a10883",
+  "image": "http://www.gould.com/",
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/73
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/73 -> 200
+Body:
+true

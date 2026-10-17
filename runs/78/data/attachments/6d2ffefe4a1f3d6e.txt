@@ -1,0 +1,125 @@
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_5c432a3587ac4fbebebd71a94e6c1959",
+  "image": "http://hanna-peters.biz/"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 111,
+  "name": "Automotive Accessories_5c432a3587ac4fbebebd71a94e6c1959",
+  "slug": "automotive-accessories-5c432a3587ac4fbebebd71a94e6c1959",
+  "image": "http://hanna-peters.biz/",
+  "creationAt": "2026-09-29T04:57:37.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable executive analyzer-2d0be8c080f14df69cf494a8a5dbcfd2",
+  "price": 232,
+  "description": "Quality-focused systemic hardware",
+  "categoryId": 111,
+  "images": [
+    "https://sampson.com/"
+  ]
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 332,
+  "title": "Upgradable executive analyzer-2d0be8c080f14df69cf494a8a5dbcfd2",
+  "slug": "upgradable-executive-analyzer-2d0be8c080f14df69cf494a8a5dbcfd2",
+  "price": 232,
+  "description": "Quality-focused systemic hardware",
+  "category": {
+    "id": 111,
+    "name": "Automotive Accessories_5c432a3587ac4fbebebd71a94e6c1959",
+    "slug": "automotive-accessories-5c432a3587ac4fbebebd71a94e6c1959",
+    "image": "http://hanna-peters.biz/",
+    "creationAt": "2026-09-29T04:57:37.000Z",
+    "updatedAt": "2026-09-29T04:57:37.000Z"
+  },
+  "images": [
+    "https://sampson.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:37.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+}
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/332
+Body:
+{
+  "title": "Monitored heuristic knowledge user-02a2836919884c60894f63888e72a0f1",
+  "price": 58,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/332 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/332
+Body:
+<empty> 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/332 -> 200
+Body:
+{
+  "id": 332,
+  "title": "Upgradable executive analyzer-2d0be8c080f14df69cf494a8a5dbcfd2",
+  "slug": "upgradable-executive-analyzer-2d0be8c080f14df69cf494a8a5dbcfd2",
+  "price": 232,
+  "description": "Quality-focused systemic hardware",
+  "category": {
+    "id": 111,
+    "name": "Automotive Accessories_5c432a3587ac4fbebebd71a94e6c1959",
+    "slug": "automotive-accessories-5c432a3587ac4fbebebd71a94e6c1959",
+    "image": "http://hanna-peters.biz/",
+    "creationAt": "2026-09-29T04:57:37.000Z",
+    "updatedAt": "2026-09-29T04:57:37.000Z"
+  },
+  "images": [
+    "https://sampson.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:37.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/332
+Body:
+<empty> 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/332 -> 200
+Body:
+true 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/111
+Body:
+<empty> 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/111 -> 200
+Body:
+{
+  "id": 111,
+  "name": "Automotive Accessories_5c432a3587ac4fbebebd71a94e6c1959",
+  "slug": "automotive-accessories-5c432a3587ac4fbebebd71a94e6c1959",
+  "image": "http://hanna-peters.biz/",
+  "creationAt": "2026-09-29T04:57:37.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/111
+Body:
+<empty> 
+
+2026-09-29 04:57:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/111 -> 200
+Body:
+true

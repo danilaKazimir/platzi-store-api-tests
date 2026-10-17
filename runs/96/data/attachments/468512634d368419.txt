@@ -1,0 +1,107 @@
+2026-10-17 03:36:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_cf9b2a29b00c41a39b48c6dbc28cab58",
+  "image": "https://mann.com/"
+} 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 279,
+  "name": "Automotive Accessories_cf9b2a29b00c41a39b48c6dbc28cab58",
+  "slug": "automotive-accessories-cf9b2a29b00c41a39b48c6dbc28cab58",
+  "image": "https://mann.com/",
+  "creationAt": "2026-10-17T03:36:45.000Z",
+  "updatedAt": "2026-10-17T03:36:45.000Z"
+} 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-architected local artificial intelligence-3d559364cce14dee9e90011f37d0353a",
+  "price": 3,
+  "description": "De-engineered composite attitude",
+  "categoryId": 279,
+  "images": [
+    "https://townsend.com/"
+  ]
+} 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 531,
+  "title": "Open-architected local artificial intelligence-3d559364cce14dee9e90011f37d0353a",
+  "slug": "open-architected-local-artificial-intelligence-3d559364cce14dee9e90011f37d0353a",
+  "price": 3,
+  "description": "De-engineered composite attitude",
+  "category": {
+    "id": 279,
+    "name": "Automotive Accessories_cf9b2a29b00c41a39b48c6dbc28cab58",
+    "slug": "automotive-accessories-cf9b2a29b00c41a39b48c6dbc28cab58",
+    "image": "https://mann.com/",
+    "creationAt": "2026-10-17T03:36:45.000Z",
+    "updatedAt": "2026-10-17T03:36:45.000Z"
+  },
+  "images": [
+    "https://townsend.com/"
+  ],
+  "creationAt": "2026-10-17T03:36:45.000Z",
+  "updatedAt": "2026-10-17T03:36:45.000Z"
+}
+2026-10-17 03:36:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/531
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/531 -> 200
+Body:
+true 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/531
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/531 -> 400
+Body:
+{
+  "path": "/api/v1/products/531",
+  "timestamp": "2026-10-17T03:36:46.041Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 531\n    }\n}"
+}
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/531
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/531 -> 400
+Body:
+{
+  "path": "/api/v1/products/531",
+  "timestamp": "2026-10-17T03:36:46.081Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 531\n    }\n}"
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/279
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/279 -> 200
+Body:
+{
+  "id": 279,
+  "name": "Automotive Accessories_cf9b2a29b00c41a39b48c6dbc28cab58",
+  "slug": "automotive-accessories-cf9b2a29b00c41a39b48c6dbc28cab58",
+  "image": "https://mann.com/",
+  "creationAt": "2026-10-17T03:36:45.000Z",
+  "updatedAt": "2026-10-17T03:36:45.000Z"
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/279
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/279 -> 200
+Body:
+true

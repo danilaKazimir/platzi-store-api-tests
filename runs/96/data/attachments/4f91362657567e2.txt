@@ -1,0 +1,125 @@
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_fe03fd8350304e55a97f9354eb95d2e3",
+  "image": "https://www.garcia-love.net/"
+} 
+
+2026-10-17 03:36:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 286,
+  "name": "Toys_fe03fd8350304e55a97f9354eb95d2e3",
+  "slug": "toys-fe03fd8350304e55a97f9354eb95d2e3",
+  "image": "https://www.garcia-love.net/",
+  "creationAt": "2026-10-17T03:36:47.000Z",
+  "updatedAt": "2026-10-17T03:36:47.000Z"
+} 
+
+2026-10-17 03:36:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Streamlined fresh-thinking matrix-0497ba62e9f9467dbfe090b9831fa77c",
+  "price": 797,
+  "description": "Organic incremental capacity",
+  "categoryId": 286,
+  "images": [
+    "http://www.young-davidson.org/"
+  ]
+} 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 538,
+  "title": "Streamlined fresh-thinking matrix-0497ba62e9f9467dbfe090b9831fa77c",
+  "slug": "streamlined-fresh-thinking-matrix-0497ba62e9f9467dbfe090b9831fa77c",
+  "price": 797,
+  "description": "Organic incremental capacity",
+  "category": {
+    "id": 286,
+    "name": "Toys_fe03fd8350304e55a97f9354eb95d2e3",
+    "slug": "toys-fe03fd8350304e55a97f9354eb95d2e3",
+    "image": "https://www.garcia-love.net/",
+    "creationAt": "2026-10-17T03:36:47.000Z",
+    "updatedAt": "2026-10-17T03:36:47.000Z"
+  },
+  "images": [
+    "http://www.young-davidson.org/"
+  ],
+  "creationAt": "2026-10-17T03:36:48.000Z",
+  "updatedAt": "2026-10-17T03:36:48.000Z"
+}
+2026-10-17 03:36:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/538
+Body:
+{
+  "title": "Re-contextualized logistical support-f55bff37f291471cac66c022d77f09b9",
+  "price": 370,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/538 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-17 03:36:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/538
+Body:
+<empty> 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/538 -> 200
+Body:
+{
+  "id": 538,
+  "title": "Streamlined fresh-thinking matrix-0497ba62e9f9467dbfe090b9831fa77c",
+  "slug": "streamlined-fresh-thinking-matrix-0497ba62e9f9467dbfe090b9831fa77c",
+  "price": 797,
+  "description": "Organic incremental capacity",
+  "category": {
+    "id": 286,
+    "name": "Toys_fe03fd8350304e55a97f9354eb95d2e3",
+    "slug": "toys-fe03fd8350304e55a97f9354eb95d2e3",
+    "image": "https://www.garcia-love.net/",
+    "creationAt": "2026-10-17T03:36:47.000Z",
+    "updatedAt": "2026-10-17T03:36:47.000Z"
+  },
+  "images": [
+    "http://www.young-davidson.org/"
+  ],
+  "creationAt": "2026-10-17T03:36:48.000Z",
+  "updatedAt": "2026-10-17T03:36:48.000Z"
+} 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/538
+Body:
+<empty> 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/538 -> 200
+Body:
+true 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/286
+Body:
+<empty> 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/286 -> 200
+Body:
+{
+  "id": 286,
+  "name": "Toys_fe03fd8350304e55a97f9354eb95d2e3",
+  "slug": "toys-fe03fd8350304e55a97f9354eb95d2e3",
+  "image": "https://www.garcia-love.net/",
+  "creationAt": "2026-10-17T03:36:47.000Z",
+  "updatedAt": "2026-10-17T03:36:47.000Z"
+} 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/286
+Body:
+<empty> 
+
+2026-10-17 03:36:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/286 -> 200
+Body:
+true

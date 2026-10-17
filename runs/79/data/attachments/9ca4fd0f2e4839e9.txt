@@ -1,0 +1,958 @@
+2026-09-30 04:44:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/
+Body:
+<empty> 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-09-29T09:08:39.000Z",
+    "updatedAt": "2026-09-29T09:08:39.000Z"
+  },
+  {
+    "id": 2,
+    "email": "maria@mail.com",
+    "password": "12345",
+    "name": "Maria",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-09-29T09:08:39.000Z",
+    "updatedAt": "2026-09-29T09:08:39.000Z"
+  },
+  {
+    "id": 3,
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-09-29T09:08:39.000Z",
+    "updatedAt": "2026-09-29T09:08:39.000Z"
+  },
+  {
+    "id": 4,
+    "email": "muborak@gmail.com",
+    "password": "12345678",
+    "name": "muborak",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxGpLtadbxQEK05N49YWcJ41fpbLTgmRaEI7aQciBJlQ&s=10",
+    "creationAt": "2026-09-29T09:10:04.000Z",
+    "updatedAt": "2026-09-29T09:10:04.000Z"
+  },
+  {
+    "id": 5,
+    "email": "butusov.denis1995@gmail.com",
+    "password": "Qwerty123",
+    "name": "Бутусов Денис",
+    "role": "admin",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Darth_Vader_-_2007_Disney_Weekends.jpg",
+    "creationAt": "2026-09-29T09:56:57.000Z",
+    "updatedAt": "2026-09-29T10:51:21.000Z"
+  },
+  {
+    "id": 6,
+    "email": "AS@gmail.com",
+    "password": "1234",
+    "name": "Arif Shumon",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T11:01:42.000Z",
+    "updatedAt": "2026-09-29T11:01:42.000Z"
+  },
+  {
+    "id": 7,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "emilyspassasilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:11:46.000Z",
+    "updatedAt": "2026-09-29T11:11:46.000Z"
+  },
+  {
+    "id": 8,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "emilyspassasilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:11:46.000Z",
+    "updatedAt": "2026-09-29T11:11:46.000Z"
+  },
+  {
+    "id": 9,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "emilyspassasilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:12:03.000Z",
+    "updatedAt": "2026-09-29T11:12:03.000Z"
+  },
+  {
+    "id": 10,
+    "email": "mename@email.com",
+    "password": "meem",
+    "name": "Mename",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-09-29T11:12:07.000Z",
+    "updatedAt": "2026-09-29T11:12:07.000Z"
+  },
+  {
+    "id": 11,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "emilyspassasilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:13:55.000Z",
+    "updatedAt": "2026-09-29T11:13:55.000Z"
+  },
+  {
+    "id": 12,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "emilyspassasilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:14:27.000Z",
+    "updatedAt": "2026-09-29T11:14:27.000Z"
+  },
+  {
+    "id": 13,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "asilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:17:02.000Z",
+    "updatedAt": "2026-09-29T11:17:02.000Z"
+  },
+  {
+    "id": 14,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "asilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:17:07.000Z",
+    "updatedAt": "2026-09-29T11:17:07.000Z"
+  },
+  {
+    "id": 15,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "asilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:17:30.000Z",
+    "updatedAt": "2026-09-29T11:17:30.000Z"
+  },
+  {
+    "id": 16,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "asilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:20:43.000Z",
+    "updatedAt": "2026-09-29T11:20:43.000Z"
+  },
+  {
+    "id": 17,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "asilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:25:43.000Z",
+    "updatedAt": "2026-09-29T11:25:43.000Z"
+  },
+  {
+    "id": 18,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "asilbek1020",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:30:14.000Z",
+    "updatedAt": "2026-09-29T11:30:14.000Z"
+  },
+  {
+    "id": 19,
+    "email": "asilbekxoliyorov441@gmail.com",
+    "password": "emilyspass",
+    "name": "Asilbek Xoliyorov",
+    "role": "customer",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFvDkhjRuFn7Q/profile-displayphoto-scale_200_200/B4EZtE98nEGoAY-/0/1766388649896?e=2147483647&v=beta&t=VUuxG3roa7afIshDnvJNK3DXl9mPcm4Zv_Pr-emD0oc",
+    "creationAt": "2026-09-29T11:54:48.000Z",
+    "updatedAt": "2026-09-29T11:54:48.000Z"
+  },
+  {
+    "id": 20,
+    "email": "nursultonmaxmudjonov@gmail.com",
+    "password": "121212",
+    "name": "nursulton",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T12:08:37.000Z",
+    "updatedAt": "2026-09-29T12:08:37.000Z"
+  },
+  {
+    "id": 21,
+    "email": "nursultonmaxmudjonov@gmail.com",
+    "password": "121212",
+    "name": "nursulton",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T12:24:08.000Z",
+    "updatedAt": "2026-09-29T12:24:08.000Z"
+  },
+  {
+    "id": 22,
+    "email": "abdulaziz@gmail.com",
+    "password": "abdulaiz",
+    "name": "abdulaziz nematov",
+    "role": "admin",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZAQ065-zPWsMvUHOA5WEgF_kQfFAKIwAyGtnjYXsquNUqkRfty79HuQ&s=10",
+    "creationAt": "2026-09-29T12:28:47.000Z",
+    "updatedAt": "2026-09-29T12:28:47.000Z"
+  },
+  {
+    "id": 23,
+    "email": "gulnozmiraliyeva1118@gmail.com",
+    "password": "saedsdf",
+    "name": "hsdcdyudsv",
+    "role": "customer",
+    "avatar": "https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/assets/6075182186d092000b192cee/best-free-travel-images-image-2.jpg",
+    "creationAt": "2026-09-29T12:30:34.000Z",
+    "updatedAt": "2026-09-29T12:30:34.000Z"
+  },
+  {
+    "id": 24,
+    "email": "ozodbektursunboyev545@gmail.com",
+    "password": "emilyspass",
+    "name": "ozoddbek",
+    "role": "customer",
+    "avatar": "https://avatars.mds.yandex.net/i?id=a893617ac8641165399317049797be713d319f27-10556007-images-thumbs&n=13",
+    "creationAt": "2026-09-29T12:32:03.000Z",
+    "updatedAt": "2026-09-29T12:32:03.000Z"
+  },
+  {
+    "id": 25,
+    "email": "abdulaiz@gmail.com",
+    "password": "abdulaziz",
+    "name": "abdulaziz nematov",
+    "role": "admin",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZAQ065-zPWsMvUHOA5WEgF_kQfFAKIwAyGtnjYXsquNUqkRfty79HuQ&s=10",
+    "creationAt": "2026-09-29T12:32:46.000Z",
+    "updatedAt": "2026-09-29T12:32:46.000Z"
+  },
+  {
+    "id": 26,
+    "email": "ozodbektursunboyev545@gmail.com",
+    "password": "emilyspass",
+    "name": "ozoddbek",
+    "role": "customer",
+    "avatar": "https://avatars.mds.yandex.net/i?id=a893617ac8641165399317049797be713d319f27-10556007-images-thumbs&n=13",
+    "creationAt": "2026-09-29T12:32:57.000Z",
+    "updatedAt": "2026-09-29T12:32:57.000Z"
+  },
+  {
+    "id": 27,
+    "email": "abdulaziznematov21@gmail.com",
+    "password": "abdulaziznemat",
+    "name": "abdulaziz nematov",
+    "role": "admin",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZAQ065-zPWsMvUHOA5WEgF_kQfFAKIwAyGtnjYXsquNUqkRfty79HuQ&s=10",
+    "creationAt": "2026-09-29T12:33:56.000Z",
+    "updatedAt": "2026-09-29T12:33:56.000Z"
+  },
+  {
+    "id": 28,
+    "email": "axrortairjanov@gmail.com",
+    "password": "emilyspass",
+    "name": "Axror",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMGTFp0CXCvJJ_FYX7WeFL8i7XDgoTc_BKC-_Ap9Xe3S_Lyg&s",
+    "creationAt": "2026-09-29T12:34:07.000Z",
+    "updatedAt": "2026-09-29T12:34:07.000Z"
+  },
+  {
+    "id": 29,
+    "email": "ozodbektursunboyev545@gmail.com",
+    "password": "emilyspass",
+    "name": "ozoddbek",
+    "role": "customer",
+    "avatar": "https://avatars.mds.yandex.net/i?id=a893617ac8641165399317049797be713d319f27-10556007-images-thumbs&n=13",
+    "creationAt": "2026-09-29T12:34:10.000Z",
+    "updatedAt": "2026-09-29T12:34:10.000Z"
+  },
+  {
+    "id": 30,
+    "email": "abdulaziznematov21@gmail.com",
+    "password": "abdulaziznemat",
+    "name": "abdulaziz ",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/LDOO1A1.jpg",
+    "creationAt": "2026-09-29T12:34:18.000Z",
+    "updatedAt": "2026-09-29T12:34:18.000Z"
+  },
+  {
+    "id": 31,
+    "email": "axrortairjanov@gmail.com",
+    "password": "emilyspass",
+    "name": "Axror",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMGTFp0CXCvJJ_FYX7WeFL8i7XDgoTc_BKC-_Ap9Xe3S_Lyg&s",
+    "creationAt": "2026-09-29T12:34:30.000Z",
+    "updatedAt": "2026-09-29T12:34:30.000Z"
+  },
+  {
+    "id": 32,
+    "email": "nursultonmaxmudjonov@gmail.com",
+    "password": "121212",
+    "name": "nursulton",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T12:35:29.000Z",
+    "updatedAt": "2026-09-29T12:35:29.000Z"
+  },
+  {
+    "id": 33,
+    "email": "baratovnuriddin7@gmail.com",
+    "password": "123456",
+    "name": "Nuriddin",
+    "role": "customer",
+    "avatar": "https://hips.hearstapps.com/hmg-prod/images/23cc1afc-c03c-4f77-868f-f44144d4167c.jpg?w=768&width=768&q=75&format=webp",
+    "creationAt": "2026-09-29T12:36:03.000Z",
+    "updatedAt": "2026-09-29T12:36:03.000Z"
+  },
+  {
+    "id": 34,
+    "email": "yunsovdostobek@gmail.com",
+    "password": "12345",
+    "name": "dostonbek yunusov",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-YvhrrUvpJ1jU0CHB4QsL_nFJiknSXK2Q3A3tuEM4Y8P7R44eigjNZk&s=10",
+    "creationAt": "2026-09-29T12:38:22.000Z",
+    "updatedAt": "2026-09-29T12:38:22.000Z"
+  },
+  {
+    "id": 35,
+    "email": "axrortairjanov@gmail.com",
+    "password": "emilyspass",
+    "name": "Axror",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMGTFp0CXCvJJ_FYX7WeFL8i7XDgoTc_BKC-_Ap9Xe3S_Lyg&s",
+    "creationAt": "2026-09-29T12:38:54.000Z",
+    "updatedAt": "2026-09-29T12:38:54.000Z"
+  },
+  {
+    "id": 36,
+    "email": "baratovnuriddin7@gmail.com",
+    "password": "we4ters",
+    "name": "Nuriddin",
+    "role": "customer",
+    "avatar": "https://hips.hearstapps.com/hmg-prod/images/23cc1afc-c03c-4f77-868f-f44144d4167c.jpg?w=768&width=768&q=75&format=webp",
+    "creationAt": "2026-09-29T12:40:45.000Z",
+    "updatedAt": "2026-09-29T12:40:45.000Z"
+  },
+  {
+    "id": 37,
+    "email": "yunsovdostobek@gmail.com",
+    "password": "212412",
+    "name": "dostonbek yunusov",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-YvhrrUvpJ1jU0CHB4QsL_nFJiknSXK2Q3A3tuEM4Y8P7R44eigjNZk&s=10",
+    "creationAt": "2026-09-29T12:41:13.000Z",
+    "updatedAt": "2026-09-29T12:41:13.000Z"
+  },
+  {
+    "id": 38,
+    "email": "nursultonmaxmudjonov@gmail.com",
+    "password": "121212",
+    "name": "nursulton",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T12:41:38.000Z",
+    "updatedAt": "2026-09-29T12:41:38.000Z"
+  },
+  {
+    "id": 39,
+    "email": "ozodbektursunboyev545@gmail.com",
+    "password": "emilyspass",
+    "name": "ozodbek",
+    "role": "customer",
+    "avatar": "https://avatars.mds.yandex.net/i?id=a893617ac8641165399317049797be713d319f27-10556007-images-thumbs&n=13",
+    "creationAt": "2026-09-29T12:42:43.000Z",
+    "updatedAt": "2026-09-29T12:42:43.000Z"
+  },
+  {
+    "id": 40,
+    "email": "abdulaziznematov21@gmail.com",
+    "password": "abdulaziznemat",
+    "name": "abdulaziz nematov",
+    "role": "admin",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZAQ065-zPWsMvUHOA5WEgF_kQfFAKIwAyGtnjYXsquNUqkRfty79HuQ&s=10",
+    "creationAt": "2026-09-29T12:43:53.000Z",
+    "updatedAt": "2026-09-29T12:43:53.000Z"
+  },
+  {
+    "id": 41,
+    "email": "axrortairjanov@gmail.com",
+    "password": "emilyspass",
+    "name": "Axror",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMGTFp0CXCvJJ_FYX7WeFL8i7XDgoTc_BKC-_Ap9Xe3S_Lyg&s",
+    "creationAt": "2026-09-29T12:45:12.000Z",
+    "updatedAt": "2026-09-29T12:45:12.000Z"
+  },
+  {
+    "id": 42,
+    "email": "axrortairjanov@gmail.com",
+    "password": "emilyspass",
+    "name": "Axror",
+    "role": "customer",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMGTFp0CXCvJJ_FYX7WeFL8i7XDgoTc_BKC-_Ap9Xe3S_Lyg&s",
+    "creationAt": "2026-09-29T12:46:05.000Z",
+    "updatedAt": "2026-09-29T12:46:05.000Z"
+  },
+  {
+    "id": 76,
+    "email": "kmad9051@gmail.com",
+    "password": "135790qetuopA",
+    "name": "Kirolos",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.jpg",
+    "creationAt": "2026-09-29T13:10:06.000Z",
+    "updatedAt": "2026-09-29T13:10:06.000Z"
+  },
+  {
+    "id": 77,
+    "email": "aviral.trust@gmail.com",
+    "password": "123456789",
+    "name": "Aviral Singh",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150",
+    "creationAt": "2026-09-29T15:39:52.000Z",
+    "updatedAt": "2026-09-29T15:39:52.000Z"
+  },
+  {
+    "id": 78,
+    "email": "Aviral.trust@gmail.com",
+    "password": "12345678",
+    "name": "Aviral",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150",
+    "creationAt": "2026-09-29T15:44:16.000Z",
+    "updatedAt": "2026-09-29T15:44:16.000Z"
+  },
+  {
+    "id": 79,
+    "email": "Serega@yandex.ru",
+    "password": "1234",
+    "name": "Serega",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "creationAt": "2026-09-29T15:50:24.000Z",
+    "updatedAt": "2026-09-29T15:50:24.000Z"
+  },
+  {
+    "id": 80,
+    "email": "nicks@yan.ru",
+    "password": "1234",
+    "name": "serega",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "creationAt": "2026-09-29T15:51:11.000Z",
+    "updatedAt": "2026-09-29T15:51:11.000Z"
+  },
+  {
+    "id": 81,
+    "email": "yunsovdostobek@gmail.com",
+    "password": "12345",
+    "name": "dostonbek yunusov",
+    "role": "admin",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-YvhrrUvpJ1jU0CHB4QsL_nFJiknSXK2Q3A3tuEM4Y8P7R44eigjNZk&s=10",
+    "creationAt": "2026-09-29T15:52:31.000Z",
+    "updatedAt": "2026-09-29T15:52:31.000Z"
+  },
+  {
+    "id": 82,
+    "email": "harshch9931@gmail.com",
+    "password": "12345",
+    "name": "Harsh Kumar",
+    "role": "customer",
+    "avatar": "https://dummyimage.com/300.png/",
+    "creationAt": "2026-09-29T15:53:55.000Z",
+    "updatedAt": "2026-09-29T15:55:36.000Z"
+  },
+  {
+    "id": 83,
+    "email": "serega@yandex.ru",
+    "password": "1234",
+    "name": "serega",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "creationAt": "2026-09-29T16:00:51.000Z",
+    "updatedAt": "2026-09-29T16:00:51.000Z"
+  },
+  {
+    "id": 84,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T17:01:48.000Z",
+    "updatedAt": "2026-09-29T17:01:48.000Z"
+  },
+  {
+    "id": 85,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T17:01:49.000Z",
+    "updatedAt": "2026-09-29T17:01:49.000Z"
+  },
+  {
+    "id": 86,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-09-29T17:01:50.000Z",
+    "updatedAt": "2026-09-29T17:01:50.000Z"
+  },
+  {
+    "id": 88,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-09-29T18:15:36.000Z",
+    "updatedAt": "2026-09-29T18:15:36.000Z"
+  },
+  {
+    "id": 90,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-09-29T18:15:37.000Z",
+    "updatedAt": "2026-09-29T18:15:37.000Z"
+  },
+  {
+    "id": 92,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-09-29T18:15:38.000Z",
+    "updatedAt": "2026-09-29T18:15:38.000Z"
+  },
+  {
+    "id": 93,
+    "email": "tarekwalied@gmail.com",
+    "password": "123456",
+    "name": "tarekwalied",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-09-29T20:00:58.000Z",
+    "updatedAt": "2026-09-29T20:00:58.000Z"
+  },
+  {
+    "id": 94,
+    "email": "Robyn_Fadel@yahoo.com",
+    "password": "sb7NB6D1lDtLhcN",
+    "name": "Macey86",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-09-29T21:02:48.000Z",
+    "updatedAt": "2026-09-29T21:02:48.000Z"
+  },
+  {
+    "id": 95,
+    "email": "beko@gmail.com",
+    "password": "uhuhax202",
+    "name": "beko",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-09-29T21:03:26.000Z",
+    "updatedAt": "2026-09-29T21:03:26.000Z"
+  },
+  {
+    "id": 96,
+    "email": "bi.ops.96465f63e910@example.com",
+    "password": "Pass1abc",
+    "name": "BI Ops User",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "creationAt": "2026-09-29T22:07:56.000Z",
+    "updatedAt": "2026-09-29T22:07:56.000Z"
+  },
+  {
+    "id": 97,
+    "email": "bi.ops.617c033e@example.com",
+    "password": "Passw0rdAlpha",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/example.png",
+    "creationAt": "2026-09-29T22:08:08.000Z",
+    "updatedAt": "2026-09-29T22:08:08.000Z"
+  },
+  {
+    "id": 98,
+    "email": "qa1790719701@mail.com",
+    "password": "senha1234",
+    "name": "QA Atualizado",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-09-29T22:08:22.000Z",
+    "updatedAt": "2026-09-29T22:08:59.000Z"
+  },
+  {
+    "id": 99,
+    "email": "bi.ops.20cdc07e@example.com",
+    "password": "Passw0rd",
+    "name": "BI Ops Owner 20cdc07e",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:08:51.000Z",
+    "updatedAt": "2026-09-29T22:08:51.000Z"
+  },
+  {
+    "id": 100,
+    "email": "bi.ops.a1b2c3@example.com",
+    "password": "Passkey2025",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/a1b2c3d.jpeg",
+    "creationAt": "2026-09-29T22:08:52.000Z",
+    "updatedAt": "2026-09-29T22:08:52.000Z"
+  },
+  {
+    "id": 102,
+    "email": "bi.ops.da7e23@example.com",
+    "password": "SecurePass88723",
+    "name": "BI Ops da7e23",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/placeholder.png",
+    "creationAt": "2026-09-29T22:09:18.000Z",
+    "updatedAt": "2026-09-29T22:09:18.000Z"
+  },
+  {
+    "id": 103,
+    "email": "bi.ops.deadbeef@example.com",
+    "password": "DeadBee72026X",
+    "name": "BI Ops DEADBEEF",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "creationAt": "2026-09-29T22:09:36.000Z",
+    "updatedAt": "2026-09-29T22:09:36.000Z"
+  },
+  {
+    "id": 104,
+    "email": "bi.ops.8a4489a3@example.com",
+    "password": "Passw0rd8a4489a3",
+    "name": "BI Ops Owner 8a4489a3",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:11:01.000Z",
+    "updatedAt": "2026-09-29T22:11:01.000Z"
+  },
+  {
+    "id": 105,
+    "email": "bi.ops.63886730@example.com",
+    "password": "AnalyticsOps63886730",
+    "name": "BI Ops 63886730",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/1twoaDy.jpeg",
+    "creationAt": "2026-09-29T22:11:20.000Z",
+    "updatedAt": "2026-09-29T22:11:20.000Z"
+  },
+  {
+    "id": 106,
+    "email": "judah46@qa-satc.com",
+    "password": "w2cYdV5qRJ",
+    "name": "Cornelius Cummings",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-09-29T22:11:26.000Z",
+    "updatedAt": "2026-09-29T22:11:26.000Z"
+  },
+  {
+    "id": 107,
+    "email": "makenna.schumm@qa-satc.com",
+    "password": "kumvU33s0U",
+    "name": "Mr. Rene Hammes",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-09-29T22:11:44.000Z",
+    "updatedAt": "2026-09-29T22:11:44.000Z"
+  },
+  {
+    "id": 108,
+    "email": "celine.stoltenberg@qa-satc.com",
+    "password": "MyNwWCnpjP",
+    "name": "Myron Donnelly",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-09-29T22:12:25.000Z",
+    "updatedAt": "2026-09-29T22:12:25.000Z"
+  },
+  {
+    "id": 109,
+    "email": "hayden.bruen25@qa-satc.com",
+    "password": "SLi96ff8cr",
+    "name": "Dr. Earnest Bode",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-09-29T22:13:42.000Z",
+    "updatedAt": "2026-09-29T22:13:42.000Z"
+  },
+  {
+    "id": 110,
+    "email": "jimmie67@qa-satc.com",
+    "password": "SlvJzu9UrP",
+    "name": "Rosalie Harber",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-09-29T22:14:49.000Z",
+    "updatedAt": "2026-09-29T22:14:49.000Z"
+  },
+  {
+    "id": 111,
+    "email": "gregg88@qa-satc.com",
+    "password": "rXrLhDKzsE",
+    "name": "Tim Morar",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-09-29T22:17:41.000Z",
+    "updatedAt": "2026-09-29T22:17:41.000Z"
+  },
+  {
+    "id": 112,
+    "email": "bi.ops.7f3a2e@example.com",
+    "password": "Passw0rd123",
+    "name": "BI Ops 7f3a2e",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:29:49.000Z",
+    "updatedAt": "2026-09-29T22:29:49.000Z"
+  },
+  {
+    "id": 114,
+    "email": "bi.ops.abab756c@example.com",
+    "password": "Passw0rd123",
+    "name": "BI Ops Sandbox",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:29:54.000Z",
+    "updatedAt": "2026-09-29T22:29:54.000Z"
+  },
+  {
+    "id": 115,
+    "email": "bi.ops.0fcba9b0@example.com",
+    "password": "SecurePass123abc",
+    "name": "BI Ops 0fcba9b0",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-09-29T22:30:06.000Z",
+    "updatedAt": "2026-09-29T22:30:06.000Z"
+  },
+  {
+    "id": 116,
+    "email": "bi.ops.7b22a87207d5f572@example.com",
+    "password": "Ops2026sec",
+    "name": "BI Ops 7b22a87207d5f572",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:30:08.000Z",
+    "updatedAt": "2026-09-29T22:30:08.000Z"
+  },
+  {
+    "id": 117,
+    "email": "bi.ops.a1b2c3@example.com",
+    "password": "Passw0rd",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:30:12.000Z",
+    "updatedAt": "2026-09-29T22:30:12.000Z"
+  },
+  {
+    "id": 118,
+    "email": "bi.ops.184b768b@example.com",
+    "password": "Passw0rdXyz123",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:30:15.000Z",
+    "updatedAt": "2026-09-29T22:30:15.000Z"
+  },
+  {
+    "id": 119,
+    "email": "bi.ops.d9f79c@example.com",
+    "password": "ops9876abcde",
+    "name": "BI Ops",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:30:45.000Z",
+    "updatedAt": "2026-09-29T22:30:45.000Z"
+  },
+  {
+    "id": 120,
+    "email": "bi.ops.a1b2c3@example.com",
+    "password": "Passw0rd",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:30:53.000Z",
+    "updatedAt": "2026-09-29T22:30:53.000Z"
+  },
+  {
+    "id": 121,
+    "email": "testfresh998877@example.com",
+    "password": "Testaa1",
+    "name": "Fresh",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/a.png",
+    "creationAt": "2026-09-29T22:31:11.000Z",
+    "updatedAt": "2026-09-29T22:31:11.000Z"
+  },
+  {
+    "id": 123,
+    "email": "bi.ops.f3a8c1@example.com",
+    "password": "SecurePass1",
+    "name": "BI Ops f3a8c1",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:31:58.000Z",
+    "updatedAt": "2026-09-29T22:31:58.000Z"
+  },
+  {
+    "id": 125,
+    "email": "bi.ops.abc123@example.com",
+    "password": "Pass12345",
+    "name": "BI Ops abc123",
+    "role": "customer",
+    "avatar": "https://example.com/abc123.png",
+    "creationAt": "2026-09-29T22:33:59.000Z",
+    "updatedAt": "2026-09-29T22:33:59.000Z"
+  },
+  {
+    "id": 126,
+    "email": "bi.ops.a290ab4b@example.com",
+    "password": "Alpha987x",
+    "name": "BI Ops Owner a290ab4b",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:42:30.000Z",
+    "updatedAt": "2026-09-29T22:49:07.000Z"
+  },
+  {
+    "id": 127,
+    "email": "bi.ops.a3f2b1@example.com",
+    "password": "Pass2026abc",
+    "name": "BI Ops Sandbox",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/example.png",
+    "creationAt": "2026-09-29T22:42:48.000Z",
+    "updatedAt": "2026-09-29T22:42:48.000Z"
+  },
+  {
+    "id": 128,
+    "email": "bi.ops.a1b2c3@example.com",
+    "password": "Passw1rd",
+    "name": "BI Ops a1b2c3",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:42:49.000Z",
+    "updatedAt": "2026-09-29T22:42:49.000Z"
+  },
+  {
+    "id": 129,
+    "email": "bi.ops.a1b2c3@example.com",
+    "password": "Passw1rd",
+    "name": "BI Ops a1b2c3",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:43:25.000Z",
+    "updatedAt": "2026-09-29T22:43:25.000Z"
+  },
+  {
+    "id": 130,
+    "email": "bi.ops.1ea200fbf94c@example.com",
+    "password": "Passw0rd",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:43:28.000Z",
+    "updatedAt": "2026-09-29T22:43:28.000Z"
+  },
+  {
+    "id": 131,
+    "email": "bi.ops.aefc33@example.com",
+    "password": "Passw1rd",
+    "name": "BI Ops aefc33",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:43:46.000Z",
+    "updatedAt": "2026-09-29T22:43:46.000Z"
+  },
+  {
+    "id": 132,
+    "email": "bi.ops.fe9318@example.com",
+    "password": "abcABC123",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:44:14.000Z",
+    "updatedAt": "2026-09-29T22:44:14.000Z"
+  },
+  {
+    "id": 133,
+    "email": "bi.ops.edf50d995132@example.com",
+    "password": "Ok1ngUserPass2026A",
+    "name": "Ops Sandbox Owner",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/placeholder.png",
+    "creationAt": "2026-09-29T22:44:20.000Z",
+    "updatedAt": "2026-09-29T22:44:20.000Z"
+  },
+  {
+    "id": 134,
+    "email": "bi.ops.0b4c55943e13@example.com",
+    "password": "SecurePass123ABC",
+    "name": "BI Ops Owner",
+    "role": "customer",
+    "avatar": "https://dummyjson.com/image/1",
+    "creationAt": "2026-09-29T22:44:21.000Z",
+    "updatedAt": "2026-09-29T22:44:21.000Z"
+  },
+  {
+    "id": 135,
+    "email": "bi.ops.8c30e7@example.com",
+    "password": "OpsOwner88",
+    "name": "BI Ops 8c30e7",
+    "role": "customer",
+    "avatar": "https://example.com/avatar.png",
+    "creationAt": "2026-09-29T22:44:50.000Z",
+    "updatedAt": "2026-09-29T22:44:50.000Z"
+  }
+]

@@ -1,0 +1,88 @@
+2026-10-13 06:05:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Laura Nunez",
+  "email": "donna04@example.net",
+  "password": "***",
+  "avatar": "https://adams.net/"
+} 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 166,
+  "email": "donna04@example.net",
+  "password": "***",
+  "name": "Laura Nunez",
+  "role": "customer",
+  "avatar": "https://adams.net/",
+  "creationAt": "2026-10-13T06:05:13.000Z",
+  "updatedAt": "2026-10-13T06:05:13.000Z"
+}
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "donna04@example.net",
+  "password": "***"
+} 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE2NiwiaWF0IjoxNzkxODcxNTEzLCJleHAiOjE3OTE5MDc1MTN9.TlMvCprLwStlPlrfFvd7dAnTe8-evW4INbTv8St0ogk"
+} 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 166,
+  "email": "donna04@example.net",
+  "password": "***",
+  "name": "Laura Nunez",
+  "role": "customer",
+  "avatar": "https://adams.net/",
+  "creationAt": "2026-10-13T06:05:13.000Z",
+  "updatedAt": "2026-10-13T06:05:13.000Z"
+}
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/166
+Body:
+<empty> 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/166 -> 200
+Body:
+{
+  "id": 166,
+  "email": "donna04@example.net",
+  "password": "***",
+  "name": "Laura Nunez",
+  "role": "customer",
+  "avatar": "https://adams.net/",
+  "creationAt": "2026-10-13T06:05:13.000Z",
+  "updatedAt": "2026-10-13T06:05:13.000Z"
+} 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/166
+Body:
+<empty> 
+
+2026-10-13 06:05:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/166 -> 200
+Body:
+true

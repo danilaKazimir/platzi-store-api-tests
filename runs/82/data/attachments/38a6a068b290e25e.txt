@@ -1,0 +1,135 @@
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_dd8b07652cf34638aa2d770d6838d68a",
+  "image": "http://jackson.biz/"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 682,
+  "name": "Personal Care_dd8b07652cf34638aa2d770d6838d68a",
+  "slug": "personal-care-dd8b07652cf34638aa2d770d6838d68a",
+  "image": "http://jackson.biz/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cloned tertiary encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "price": 872,
+  "description": "Persevering interactive portal",
+  "categoryId": 682,
+  "images": [
+    "http://www.collins.org/"
+  ]
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 544,
+  "title": "Cloned tertiary encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "slug": "cloned-tertiary-encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "price": 872,
+  "description": "Persevering interactive portal",
+  "category": {
+    "id": 682,
+    "name": "Personal Care_dd8b07652cf34638aa2d770d6838d68a",
+    "slug": "personal-care-dd8b07652cf34638aa2d770d6838d68a",
+    "image": "http://jackson.biz/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "http://www.collins.org/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+}
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/544
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/544 -> 200
+Body:
+{
+  "id": 544,
+  "title": "Cloned tertiary encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "slug": "cloned-tertiary-encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "price": 872,
+  "description": "Persevering interactive portal",
+  "category": {
+    "id": 682,
+    "name": "Personal Care_dd8b07652cf34638aa2d770d6838d68a",
+    "slug": "personal-care-dd8b07652cf34638aa2d770d6838d68a",
+    "image": "http://jackson.biz/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "http://www.collins.org/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+}
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/544
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/544 -> 200
+Body:
+{
+  "id": 544,
+  "title": "Cloned tertiary encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "slug": "cloned-tertiary-encryption-2fc38d87a4354e0182ed58d0d19cc81e",
+  "price": 872,
+  "description": "Persevering interactive portal",
+  "category": {
+    "id": 682,
+    "name": "Personal Care_dd8b07652cf34638aa2d770d6838d68a",
+    "slug": "personal-care-dd8b07652cf34638aa2d770d6838d68a",
+    "image": "http://jackson.biz/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "http://www.collins.org/"
+  ],
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/544
+Body:
+<empty> 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/544 -> 200
+Body:
+true 
+
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/682
+Body:
+<empty> 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/682 -> 200
+Body:
+{
+  "id": 682,
+  "name": "Personal Care_dd8b07652cf34638aa2d770d6838d68a",
+  "slug": "personal-care-dd8b07652cf34638aa2d770d6838d68a",
+  "image": "http://jackson.biz/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/682
+Body:
+<empty> 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/682 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-09-24 03:52:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_184e1d07c05c44c18e0b1ba426b55fa6",
+  "image": "https://johnson.com/"
+} 
+
+2026-09-24 03:52:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 184,
+  "name": "Home & Kitchen_184e1d07c05c44c18e0b1ba426b55fa6",
+  "slug": "home-kitchen-184e1d07c05c44c18e0b1ba426b55fa6",
+  "image": "https://johnson.com/",
+  "creationAt": "2026-09-24T03:52:08.000Z",
+  "updatedAt": "2026-09-24T03:52:08.000Z"
+} 
+
+2026-09-24 03:52:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Intuitive exuding throughput-1ff924d6110a42bfa2b9777758b8e776",
+  "price": 509,
+  "description": "Horizontal empowering Graphic Interface",
+  "categoryId": 184,
+  "images": [
+    "https://www.maldonado.com/"
+  ]
+} 
+
+2026-09-24 03:52:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 420,
+  "title": "Intuitive exuding throughput-1ff924d6110a42bfa2b9777758b8e776",
+  "slug": "intuitive-exuding-throughput-1ff924d6110a42bfa2b9777758b8e776",
+  "price": 509,
+  "description": "Horizontal empowering Graphic Interface",
+  "category": {
+    "id": 184,
+    "name": "Home & Kitchen_184e1d07c05c44c18e0b1ba426b55fa6",
+    "slug": "home-kitchen-184e1d07c05c44c18e0b1ba426b55fa6",
+    "image": "https://johnson.com/",
+    "creationAt": "2026-09-24T03:52:08.000Z",
+    "updatedAt": "2026-09-24T03:52:08.000Z"
+  },
+  "images": [
+    "https://www.maldonado.com/"
+  ],
+  "creationAt": "2026-09-24T03:52:08.000Z",
+  "updatedAt": "2026-09-24T03:52:08.000Z"
+}
+2026-09-24 03:52:08 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/420
+Body:
+{
+  "title": "Visionary impactful superstructure-c136f0648e4443d0b5f60aaf714f7f50",
+  "price": 199,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/420 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-24 03:52:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/420
+Body:
+<empty> 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/420 -> 200
+Body:
+{
+  "id": 420,
+  "title": "Intuitive exuding throughput-1ff924d6110a42bfa2b9777758b8e776",
+  "slug": "intuitive-exuding-throughput-1ff924d6110a42bfa2b9777758b8e776",
+  "price": 509,
+  "description": "Horizontal empowering Graphic Interface",
+  "category": {
+    "id": 184,
+    "name": "Home & Kitchen_184e1d07c05c44c18e0b1ba426b55fa6",
+    "slug": "home-kitchen-184e1d07c05c44c18e0b1ba426b55fa6",
+    "image": "https://johnson.com/",
+    "creationAt": "2026-09-24T03:52:08.000Z",
+    "updatedAt": "2026-09-24T03:52:08.000Z"
+  },
+  "images": [
+    "https://www.maldonado.com/"
+  ],
+  "creationAt": "2026-09-24T03:52:08.000Z",
+  "updatedAt": "2026-09-24T03:52:08.000Z"
+} 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/420
+Body:
+<empty> 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/420 -> 200
+Body:
+true 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/184
+Body:
+<empty> 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/184 -> 200
+Body:
+{
+  "id": 184,
+  "name": "Home & Kitchen_184e1d07c05c44c18e0b1ba426b55fa6",
+  "slug": "home-kitchen-184e1d07c05c44c18e0b1ba426b55fa6",
+  "image": "https://johnson.com/",
+  "creationAt": "2026-09-24T03:52:08.000Z",
+  "updatedAt": "2026-09-24T03:52:08.000Z"
+} 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/184
+Body:
+<empty> 
+
+2026-09-24 03:52:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/184 -> 200
+Body:
+true

@@ -1,0 +1,107 @@
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_378ee4d2783b4cf49a1b292776dc883d",
+  "image": "https://cox.biz/"
+} 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 58,
+  "name": "Automotive Accessories_378ee4d2783b4cf49a1b292776dc883d",
+  "slug": "automotive-accessories-378ee4d2783b4cf49a1b292776dc883d",
+  "image": "https://cox.biz/",
+  "creationAt": "2026-10-01T04:56:33.000Z",
+  "updatedAt": "2026-10-01T04:56:33.000Z"
+} 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented solution-oriented core-d10375f941ef4ff1a279e36664edcf5a",
+  "price": 238,
+  "description": "Extended modular parallelism",
+  "categoryId": 58,
+  "images": [
+    "http://www.alvarez.com/"
+  ]
+} 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 340,
+  "title": "Vision-oriented solution-oriented core-d10375f941ef4ff1a279e36664edcf5a",
+  "slug": "vision-oriented-solution-oriented-core-d10375f941ef4ff1a279e36664edcf5a",
+  "price": 238,
+  "description": "Extended modular parallelism",
+  "category": {
+    "id": 58,
+    "name": "Automotive Accessories_378ee4d2783b4cf49a1b292776dc883d",
+    "slug": "automotive-accessories-378ee4d2783b4cf49a1b292776dc883d",
+    "image": "https://cox.biz/",
+    "creationAt": "2026-10-01T04:56:33.000Z",
+    "updatedAt": "2026-10-01T04:56:33.000Z"
+  },
+  "images": [
+    "http://www.alvarez.com/"
+  ],
+  "creationAt": "2026-10-01T04:56:33.000Z",
+  "updatedAt": "2026-10-01T04:56:33.000Z"
+}
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/340
+Body:
+<empty> 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/340 -> 200
+Body:
+true 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/340
+Body:
+<empty> 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/340 -> 400
+Body:
+{
+  "path": "/api/v1/products/340",
+  "timestamp": "2026-10-01T04:56:33.897Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 340\n    }\n}"
+}
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/340
+Body:
+<empty> 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/340 -> 400
+Body:
+{
+  "path": "/api/v1/products/340",
+  "timestamp": "2026-10-01T04:56:33.960Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 340\n    }\n}"
+} 
+
+2026-10-01 04:56:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+{
+  "id": 58,
+  "name": "Automotive Accessories_378ee4d2783b4cf49a1b292776dc883d",
+  "slug": "automotive-accessories-378ee4d2783b4cf49a1b292776dc883d",
+  "image": "https://cox.biz/",
+  "creationAt": "2026-10-01T04:56:33.000Z",
+  "updatedAt": "2026-10-01T04:56:33.000Z"
+} 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-01 04:56:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+true

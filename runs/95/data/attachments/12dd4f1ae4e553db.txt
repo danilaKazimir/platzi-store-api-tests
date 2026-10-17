@@ -1,0 +1,71 @@
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_f00b26b187c54c4a9373e01920ba651d",
+  "image": "https://smith.com/"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Clothing_f00b26b187c54c4a9373e01920ba651d",
+  "slug": "clothing-f00b26b187c54c4a9373e01920ba651d",
+  "image": "https://smith.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+}
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/35
+Body:
+{
+  "name": "Sports & Fitness_a2b110283a9a4685953da73e847d9628",
+  "image": "http://www.brown.com/"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Sports & Fitness_a2b110283a9a4685953da73e847d9628",
+  "slug": "sports-fitness-a2b110283a9a4685953da73e847d9628",
+  "image": "http://www.brown.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Sports & Fitness_a2b110283a9a4685953da73e847d9628",
+  "slug": "sports-fitness-a2b110283a9a4685953da73e847d9628",
+  "image": "http://www.brown.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+}
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Sports & Fitness_a2b110283a9a4685953da73e847d9628",
+  "slug": "sports-fitness-a2b110283a9a4685953da73e847d9628",
+  "image": "http://www.brown.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

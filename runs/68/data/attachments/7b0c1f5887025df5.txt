@@ -1,0 +1,135 @@
+2026-09-19 03:49:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_44597beeb5aa4c4f90e470632218c544",
+  "image": "https://www.hester.com/"
+} 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Food & Beverages_44597beeb5aa4c4f90e470632218c544",
+  "slug": "food-beverages-44597beeb5aa4c4f90e470632218c544",
+  "image": "https://www.hester.com/",
+  "creationAt": "2026-09-19T03:49:56.000Z",
+  "updatedAt": "2026-09-19T03:49:56.000Z"
+} 
+
+2026-09-19 03:49:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Implemented systematic solution-4eb376e857c448f580b6a3870dbad066",
+  "price": 871,
+  "description": "Networked encompassing customer loyalty",
+  "categoryId": 39,
+  "images": [
+    "http://www.bishop-murray.net/"
+  ]
+} 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 257,
+  "title": "Implemented systematic solution-4eb376e857c448f580b6a3870dbad066",
+  "slug": "implemented-systematic-solution-4eb376e857c448f580b6a3870dbad066",
+  "price": 871,
+  "description": "Networked encompassing customer loyalty",
+  "category": {
+    "id": 39,
+    "name": "Food & Beverages_44597beeb5aa4c4f90e470632218c544",
+    "slug": "food-beverages-44597beeb5aa4c4f90e470632218c544",
+    "image": "https://www.hester.com/",
+    "creationAt": "2026-09-19T03:49:56.000Z",
+    "updatedAt": "2026-09-19T03:49:56.000Z"
+  },
+  "images": [
+    "http://www.bishop-murray.net/"
+  ],
+  "creationAt": "2026-09-19T03:49:57.000Z",
+  "updatedAt": "2026-09-19T03:49:57.000Z"
+}
+2026-09-19 03:49:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/257
+Body:
+<empty> 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/257 -> 200
+Body:
+{
+  "id": 257,
+  "title": "Implemented systematic solution-4eb376e857c448f580b6a3870dbad066",
+  "slug": "implemented-systematic-solution-4eb376e857c448f580b6a3870dbad066",
+  "price": 871,
+  "description": "Networked encompassing customer loyalty",
+  "category": {
+    "id": 39,
+    "name": "Food & Beverages_44597beeb5aa4c4f90e470632218c544",
+    "slug": "food-beverages-44597beeb5aa4c4f90e470632218c544",
+    "image": "https://www.hester.com/",
+    "creationAt": "2026-09-19T03:49:56.000Z",
+    "updatedAt": "2026-09-19T03:49:56.000Z"
+  },
+  "images": [
+    "http://www.bishop-murray.net/"
+  ],
+  "creationAt": "2026-09-19T03:49:57.000Z",
+  "updatedAt": "2026-09-19T03:49:57.000Z"
+}
+2026-09-19 03:49:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/257
+Body:
+<empty> 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/257 -> 200
+Body:
+{
+  "id": 257,
+  "title": "Implemented systematic solution-4eb376e857c448f580b6a3870dbad066",
+  "slug": "implemented-systematic-solution-4eb376e857c448f580b6a3870dbad066",
+  "price": 871,
+  "description": "Networked encompassing customer loyalty",
+  "category": {
+    "id": 39,
+    "name": "Food & Beverages_44597beeb5aa4c4f90e470632218c544",
+    "slug": "food-beverages-44597beeb5aa4c4f90e470632218c544",
+    "image": "https://www.hester.com/",
+    "creationAt": "2026-09-19T03:49:56.000Z",
+    "updatedAt": "2026-09-19T03:49:56.000Z"
+  },
+  "images": [
+    "http://www.bishop-murray.net/"
+  ],
+  "creationAt": "2026-09-19T03:49:57.000Z",
+  "updatedAt": "2026-09-19T03:49:57.000Z"
+} 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/257
+Body:
+<empty> 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/257 -> 200
+Body:
+true 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Food & Beverages_44597beeb5aa4c4f90e470632218c544",
+  "slug": "food-beverages-44597beeb5aa4c4f90e470632218c544",
+  "image": "https://www.hester.com/",
+  "creationAt": "2026-09-19T03:49:56.000Z",
+  "updatedAt": "2026-09-19T03:49:56.000Z"
+} 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-09-19 03:49:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

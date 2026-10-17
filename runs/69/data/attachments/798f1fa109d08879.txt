@@ -1,0 +1,135 @@
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7b4b36ec17aa4340bea39b4b9a70e699",
+  "image": "https://www.jones.info/"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Books_7b4b36ec17aa4340bea39b4b9a70e699",
+  "slug": "books-7b4b36ec17aa4340bea39b4b9a70e699",
+  "image": "https://www.jones.info/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profound user-facing migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "price": 394,
+  "description": "Reduced contextually-based support",
+  "categoryId": 41,
+  "images": [
+    "http://www.greene-cooper.com/"
+  ]
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 196,
+  "title": "Profound user-facing migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "slug": "profound-user-facing-migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "price": 394,
+  "description": "Reduced contextually-based support",
+  "category": {
+    "id": 41,
+    "name": "Books_7b4b36ec17aa4340bea39b4b9a70e699",
+    "slug": "books-7b4b36ec17aa4340bea39b4b9a70e699",
+    "image": "https://www.jones.info/",
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  "images": [
+    "http://www.greene-cooper.com/"
+  ],
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/196
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/196 -> 200
+Body:
+{
+  "id": 196,
+  "title": "Profound user-facing migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "slug": "profound-user-facing-migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "price": 394,
+  "description": "Reduced contextually-based support",
+  "category": {
+    "id": 41,
+    "name": "Books_7b4b36ec17aa4340bea39b4b9a70e699",
+    "slug": "books-7b4b36ec17aa4340bea39b4b9a70e699",
+    "image": "https://www.jones.info/",
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  "images": [
+    "http://www.greene-cooper.com/"
+  ],
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/196
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/196 -> 200
+Body:
+{
+  "id": 196,
+  "title": "Profound user-facing migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "slug": "profound-user-facing-migration-cc85ad91f7554b0d99dd465dcef3c7ca",
+  "price": 394,
+  "description": "Reduced contextually-based support",
+  "category": {
+    "id": 41,
+    "name": "Books_7b4b36ec17aa4340bea39b4b9a70e699",
+    "slug": "books-7b4b36ec17aa4340bea39b4b9a70e699",
+    "image": "https://www.jones.info/",
+    "creationAt": "2026-09-20T04:06:38.000Z",
+    "updatedAt": "2026-09-20T04:06:38.000Z"
+  },
+  "images": [
+    "http://www.greene-cooper.com/"
+  ],
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/196
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/196 -> 200
+Body:
+true 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Books_7b4b36ec17aa4340bea39b4b9a70e699",
+  "slug": "books-7b4b36ec17aa4340bea39b4b9a70e699",
+  "image": "https://www.jones.info/",
+  "creationAt": "2026-09-20T04:06:38.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

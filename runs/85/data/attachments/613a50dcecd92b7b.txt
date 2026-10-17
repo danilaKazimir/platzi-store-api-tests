@@ -1,0 +1,80 @@
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Christopher Tucker",
+  "email": "jeffrey44@example.net",
+  "password": "***",
+  "avatar": "https://griffith.biz/"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 603,
+  "email": "jeffrey44@example.net",
+  "password": "***",
+  "name": "Christopher Tucker",
+  "role": "customer",
+  "avatar": "https://griffith.biz/",
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+}
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/603
+Body:
+{
+  "name": "Joseph Lane"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/603 -> 200
+Body:
+{
+  "id": 603,
+  "email": "jeffrey44@example.net",
+  "password": "***",
+  "name": "Joseph Lane",
+  "role": "customer",
+  "avatar": "https://griffith.biz/",
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/603
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/603 -> 200
+Body:
+{
+  "id": 603,
+  "email": "jeffrey44@example.net",
+  "password": "***",
+  "name": "Joseph Lane",
+  "role": "customer",
+  "avatar": "https://griffith.biz/",
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+}
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/603
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/603 -> 200
+Body:
+{
+  "id": 603,
+  "email": "jeffrey44@example.net",
+  "password": "***",
+  "name": "Joseph Lane",
+  "role": "customer",
+  "avatar": "https://griffith.biz/",
+  "creationAt": "2026-10-06T05:33:48.000Z",
+  "updatedAt": "2026-10-06T05:33:48.000Z"
+} 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/603
+Body:
+<empty> 
+
+2026-10-06 05:33:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/603 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-10-14 04:08:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_8d67dc974221458cb80777018c5b59d4",
+  "image": "https://wright.biz/"
+} 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Books_8d67dc974221458cb80777018c5b59d4",
+  "slug": "books-8d67dc974221458cb80777018c5b59d4",
+  "image": "https://wright.biz/",
+  "creationAt": "2026-10-14T04:08:12.000Z",
+  "updatedAt": "2026-10-14T04:08:12.000Z"
+}
+2026-10-14 04:08:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/books-8d67dc974221458cb80777018c5b59d4
+Body:
+<empty> 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/books-8d67dc974221458cb80777018c5b59d4 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Books_8d67dc974221458cb80777018c5b59d4",
+  "slug": "books-8d67dc974221458cb80777018c5b59d4",
+  "image": "https://wright.biz/",
+  "creationAt": "2026-10-14T04:08:12.000Z",
+  "updatedAt": "2026-10-14T04:08:12.000Z"
+}
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Books_8d67dc974221458cb80777018c5b59d4",
+  "slug": "books-8d67dc974221458cb80777018c5b59d4",
+  "image": "https://wright.biz/",
+  "creationAt": "2026-10-14T04:08:12.000Z",
+  "updatedAt": "2026-10-14T04:08:12.000Z"
+} 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

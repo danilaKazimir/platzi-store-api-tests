@@ -1,0 +1,55 @@
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_69826cd94f7843328374d93d4385b2aa",
+  "image": "http://simon.com/"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 173,
+  "name": "Sports & Fitness_69826cd94f7843328374d93d4385b2aa",
+  "slug": "sports-fitness-69826cd94f7843328374d93d4385b2aa",
+  "image": "http://simon.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+}
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/173
+Body:
+{
+  "name": null,
+  "image": "https://www.welch-cunningham.net/"
+} 
+
+2026-09-24 03:52:04 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/173 -> 400
+Body:
+{
+  "path": "/api/v1/categories/173",
+  "timestamp": "2026-09-24T03:52:04.970Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/173
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/173 -> 200
+Body:
+{
+  "id": 173,
+  "name": "Sports & Fitness_69826cd94f7843328374d93d4385b2aa",
+  "slug": "sports-fitness-69826cd94f7843328374d93d4385b2aa",
+  "image": "http://simon.com/",
+  "creationAt": "2026-09-24T03:52:04.000Z",
+  "updatedAt": "2026-09-24T03:52:04.000Z"
+} 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/173
+Body:
+<empty> 
+
+2026-09-24 03:52:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/173 -> 200
+Body:
+true

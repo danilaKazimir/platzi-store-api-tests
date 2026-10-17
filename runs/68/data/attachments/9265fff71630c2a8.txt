@@ -1,0 +1,125 @@
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_7cfd1d446e2041b39732fc51d88db755",
+  "image": "http://beard.com/"
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 47,
+  "name": "Pet Supplies_7cfd1d446e2041b39732fc51d88db755",
+  "slug": "pet-supplies-7cfd1d446e2041b39732fc51d88db755",
+  "image": "http://beard.com/",
+  "creationAt": "2026-09-19T03:50:00.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded attitude-oriented definition-f53c9f6e60214ed29134e381803654de",
+  "price": 773,
+  "description": "Organic actuating approach",
+  "categoryId": 47,
+  "images": [
+    "http://www.patel.com/"
+  ]
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 268,
+  "title": "Expanded attitude-oriented definition-f53c9f6e60214ed29134e381803654de",
+  "slug": "expanded-attitude-oriented-definition-f53c9f6e60214ed29134e381803654de",
+  "price": 773,
+  "description": "Organic actuating approach",
+  "category": {
+    "id": 47,
+    "name": "Pet Supplies_7cfd1d446e2041b39732fc51d88db755",
+    "slug": "pet-supplies-7cfd1d446e2041b39732fc51d88db755",
+    "image": "http://beard.com/",
+    "creationAt": "2026-09-19T03:50:00.000Z",
+    "updatedAt": "2026-09-19T03:50:00.000Z"
+  },
+  "images": [
+    "http://www.patel.com/"
+  ],
+  "creationAt": "2026-09-19T03:50:00.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+}
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/268
+Body:
+{
+  "title": "Focused bottom-line software-6398751040454af7994d6c73e31ecdeb",
+  "price": 211,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/268 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/268
+Body:
+<empty> 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/268 -> 200
+Body:
+{
+  "id": 268,
+  "title": "Expanded attitude-oriented definition-f53c9f6e60214ed29134e381803654de",
+  "slug": "expanded-attitude-oriented-definition-f53c9f6e60214ed29134e381803654de",
+  "price": 773,
+  "description": "Organic actuating approach",
+  "category": {
+    "id": 47,
+    "name": "Pet Supplies_7cfd1d446e2041b39732fc51d88db755",
+    "slug": "pet-supplies-7cfd1d446e2041b39732fc51d88db755",
+    "image": "http://beard.com/",
+    "creationAt": "2026-09-19T03:50:00.000Z",
+    "updatedAt": "2026-09-19T03:50:00.000Z"
+  },
+  "images": [
+    "http://www.patel.com/"
+  ],
+  "creationAt": "2026-09-19T03:50:00.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+} 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/268
+Body:
+<empty> 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/268 -> 200
+Body:
+true 
+
+2026-09-19 03:50:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-09-19 03:50:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+{
+  "id": 47,
+  "name": "Pet Supplies_7cfd1d446e2041b39732fc51d88db755",
+  "slug": "pet-supplies-7cfd1d446e2041b39732fc51d88db755",
+  "image": "http://beard.com/",
+  "creationAt": "2026-09-19T03:50:00.000Z",
+  "updatedAt": "2026-09-19T03:50:00.000Z"
+} 
+
+2026-09-19 03:50:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-09-19 03:50:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+true

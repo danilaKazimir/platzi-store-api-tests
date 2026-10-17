@@ -1,0 +1,135 @@
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+  "image": "http://www.cherry.com/"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 208,
+  "name": "Clothing_0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+  "slug": "clothing-0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+  "image": "http://www.cherry.com/",
+  "creationAt": "2026-10-05T04:47:07.000Z",
+  "updatedAt": "2026-10-05T04:47:07.000Z"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Persistent dedicated core-4897fc9901704738b75264ee180abba5",
+  "price": 869,
+  "description": "Managed full-range moratorium",
+  "categoryId": 208,
+  "images": [
+    "https://www.hill.com/"
+  ]
+} 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 325,
+  "title": "Persistent dedicated core-4897fc9901704738b75264ee180abba5",
+  "slug": "persistent-dedicated-core-4897fc9901704738b75264ee180abba5",
+  "price": 869,
+  "description": "Managed full-range moratorium",
+  "category": {
+    "id": 208,
+    "name": "Clothing_0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+    "slug": "clothing-0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+    "image": "http://www.cherry.com/",
+    "creationAt": "2026-10-05T04:47:07.000Z",
+    "updatedAt": "2026-10-05T04:47:07.000Z"
+  },
+  "images": [
+    "https://www.hill.com/"
+  ],
+  "creationAt": "2026-10-05T04:47:08.000Z",
+  "updatedAt": "2026-10-05T04:47:08.000Z"
+}
+2026-10-05 04:47:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/persistent-dedicated-core-4897fc9901704738b75264ee180abba5
+Body:
+<empty> 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/persistent-dedicated-core-4897fc9901704738b75264ee180abba5 -> 200
+Body:
+{
+  "id": 325,
+  "title": "Persistent dedicated core-4897fc9901704738b75264ee180abba5",
+  "slug": "persistent-dedicated-core-4897fc9901704738b75264ee180abba5",
+  "price": 869,
+  "description": "Managed full-range moratorium",
+  "category": {
+    "id": 208,
+    "name": "Clothing_0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+    "slug": "clothing-0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+    "image": "http://www.cherry.com/",
+    "creationAt": "2026-10-05T04:47:07.000Z",
+    "updatedAt": "2026-10-05T04:47:07.000Z"
+  },
+  "images": [
+    "https://www.hill.com/"
+  ],
+  "creationAt": "2026-10-05T04:47:08.000Z",
+  "updatedAt": "2026-10-05T04:47:08.000Z"
+}
+2026-10-05 04:47:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/325
+Body:
+<empty> 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/325 -> 200
+Body:
+{
+  "id": 325,
+  "title": "Persistent dedicated core-4897fc9901704738b75264ee180abba5",
+  "slug": "persistent-dedicated-core-4897fc9901704738b75264ee180abba5",
+  "price": 869,
+  "description": "Managed full-range moratorium",
+  "category": {
+    "id": 208,
+    "name": "Clothing_0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+    "slug": "clothing-0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+    "image": "http://www.cherry.com/",
+    "creationAt": "2026-10-05T04:47:07.000Z",
+    "updatedAt": "2026-10-05T04:47:07.000Z"
+  },
+  "images": [
+    "https://www.hill.com/"
+  ],
+  "creationAt": "2026-10-05T04:47:08.000Z",
+  "updatedAt": "2026-10-05T04:47:08.000Z"
+} 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/325
+Body:
+<empty> 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/325 -> 200
+Body:
+true 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+{
+  "id": 208,
+  "name": "Clothing_0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+  "slug": "clothing-0adcab2f9b6f4cdc89dc45e6f07e1ef7",
+  "image": "http://www.cherry.com/",
+  "creationAt": "2026-10-05T04:47:07.000Z",
+  "updatedAt": "2026-10-05T04:47:07.000Z"
+} 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/208
+Body:
+<empty> 
+
+2026-10-05 04:47:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/208 -> 200
+Body:
+true

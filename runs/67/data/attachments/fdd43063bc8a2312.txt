@@ -1,0 +1,79 @@
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_fcc7f36a0a79436aab38af1199f59879",
+  "image": "http://www.shelton.com/"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Electronics_fcc7f36a0a79436aab38af1199f59879",
+  "slug": "electronics-fcc7f36a0a79436aab38af1199f59879",
+  "image": "http://www.shelton.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+}
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone directional conglomeration-939441d28c534c86942bf6dcd4dcdd72",
+  "price": 400,
+  "description": "Inverse explicit approach",
+  "categoryId": 16,
+  "images": [
+    "http://www.parker-hawkins.com/"
+  ]
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 56,
+  "title": "Stand-alone directional conglomeration-939441d28c534c86942bf6dcd4dcdd72",
+  "slug": "stand-alone-directional-conglomeration-939441d28c534c86942bf6dcd4dcdd72",
+  "price": 400,
+  "description": "Inverse explicit approach",
+  "category": {
+    "id": 16,
+    "name": "Electronics_fcc7f36a0a79436aab38af1199f59879",
+    "slug": "electronics-fcc7f36a0a79436aab38af1199f59879",
+    "image": "http://www.shelton.com/",
+    "creationAt": "2026-09-18T03:53:04.000Z",
+    "updatedAt": "2026-09-18T03:53:04.000Z"
+  },
+  "images": [
+    "http://www.parker-hawkins.com/"
+  ],
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+}
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Electronics_fcc7f36a0a79436aab38af1199f59879",
+  "slug": "electronics-fcc7f36a0a79436aab38af1199f59879",
+  "image": "http://www.shelton.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-09-18T03:53:04.842Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

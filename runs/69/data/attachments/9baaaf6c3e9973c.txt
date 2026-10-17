@@ -1,0 +1,81 @@
+2026-09-20 04:06:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Mr. Michael Hayes",
+  "email": "zcervantes@example.org",
+  "password": "***",
+  "avatar": "http://gibbs.net/"
+} 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 34,
+  "email": "zcervantes@example.org",
+  "password": "***",
+  "name": "Mr. Michael Hayes",
+  "role": "customer",
+  "avatar": "http://gibbs.net/",
+  "creationAt": "2026-09-20T04:06:40.000Z",
+  "updatedAt": "2026-09-20T04:06:40.000Z"
+}
+2026-09-20 04:06:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/34
+Body:
+{
+  "name": "Dean Fernandez",
+  "email": "laurarogers@example.org"
+} 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+{
+  "id": 34,
+  "email": "laurarogers@example.org",
+  "password": "***",
+  "name": "Dean Fernandez",
+  "role": "customer",
+  "avatar": "http://gibbs.net/",
+  "creationAt": "2026-09-20T04:06:40.000Z",
+  "updatedAt": "2026-09-20T04:06:40.000Z"
+} 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+{
+  "id": 34,
+  "email": "laurarogers@example.org",
+  "password": "***",
+  "name": "Dean Fernandez",
+  "role": "customer",
+  "avatar": "http://gibbs.net/",
+  "creationAt": "2026-09-20T04:06:40.000Z",
+  "updatedAt": "2026-09-20T04:06:40.000Z"
+}
+2026-09-20 04:06:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+{
+  "id": 34,
+  "email": "laurarogers@example.org",
+  "password": "***",
+  "name": "Dean Fernandez",
+  "role": "customer",
+  "avatar": "http://gibbs.net/",
+  "creationAt": "2026-09-20T04:06:40.000Z",
+  "updatedAt": "2026-09-20T04:06:40.000Z"
+} 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-09-20 04:06:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+true

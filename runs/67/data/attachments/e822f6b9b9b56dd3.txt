@@ -1,0 +1,119 @@
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_1350a99646ef4fffb8d5270d633a53fd",
+  "image": "https://taylor.com/"
+} 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_1350a99646ef4fffb8d5270d633a53fd",
+  "slug": "automotive-accessories-1350a99646ef4fffb8d5270d633a53fd",
+  "image": "https://taylor.com/",
+  "creationAt": "2026-09-18T03:53:03.000Z",
+  "updatedAt": "2026-09-18T03:53:03.000Z"
+}
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-09-18T03:48:19.000Z",
+    "updatedAt": "2026-09-18T03:48:19.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-09-18T03:48:19.000Z",
+    "updatedAt": "2026-09-18T03:48:19.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-09-18T03:48:19.000Z",
+    "updatedAt": "2026-09-18T03:48:19.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-09-18T03:48:19.000Z",
+    "updatedAt": "2026-09-18T03:48:19.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-09-18T03:48:19.000Z",
+    "updatedAt": "2026-09-18T03:48:19.000Z"
+  },
+  {
+    "id": 6,
+    "name": "testCategory80c3f85f9d6c45aba714b230046fa5b5",
+    "slug": "testcategory80c3f85f9d6c45aba714b230046fa5b5",
+    "image": "http://www.johnson.com/",
+    "creationAt": "2026-09-18T03:52:59.000Z",
+    "updatedAt": "2026-09-18T03:52:59.000Z"
+  },
+  {
+    "id": 7,
+    "name": "test Category4eadafd79de443259441017389757dd1",
+    "slug": "test-category4eadafd79de443259441017389757dd1",
+    "image": "http://carlson.biz/",
+    "creationAt": "2026-09-18T03:53:00.000Z",
+    "updatedAt": "2026-09-18T03:53:00.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Automotive Accessories_1350a99646ef4fffb8d5270d633a53fd",
+    "slug": "automotive-accessories-1350a99646ef4fffb8d5270d633a53fd",
+    "image": "https://taylor.com/",
+    "creationAt": "2026-09-18T03:53:03.000Z",
+    "updatedAt": "2026-09-18T03:53:03.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Personal Care_6ba61864aae246508786875d8a449c79",
+    "slug": "personal-care-6ba61864aae246508786875d8a449c79",
+    "image": "https://freeman-vasquez.biz/",
+    "creationAt": "2026-09-18T03:53:03.000Z",
+    "updatedAt": "2026-09-18T03:53:03.000Z"
+  }
+]
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+{
+  "id": 10,
+  "name": "Automotive Accessories_1350a99646ef4fffb8d5270d633a53fd",
+  "slug": "automotive-accessories-1350a99646ef4fffb8d5270d633a53fd",
+  "image": "https://taylor.com/",
+  "creationAt": "2026-09-18T03:53:03.000Z",
+  "updatedAt": "2026-09-18T03:53:03.000Z"
+} 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-09-18 03:53:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true

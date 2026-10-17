@@ -1,0 +1,21 @@
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Maurice Navarro",
+  "email": "mooreshawn@example.org",
+  "password": "***",
+  "avatar": "http://anderson.com/"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 64,
+  "email": "mooreshawn@example.org",
+  "password": "***",
+  "name": "Maurice Navarro",
+  "role": "customer",
+  "avatar": "http://anderson.com/",
+  "creationAt": "2026-09-22T04:01:06.000Z",
+  "updatedAt": "2026-09-22T04:01:06.000Z"
+}

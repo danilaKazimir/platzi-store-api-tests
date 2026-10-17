@@ -1,0 +1,53 @@
+2026-10-05 04:47:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_63b21e6b96a44cd19c8f1de3e48bece7",
+  "image": "https://www.harvey-garcia.net/"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 200,
+  "name": "Sports & Fitness_63b21e6b96a44cd19c8f1de3e48bece7",
+  "slug": "sports-fitness-63b21e6b96a44cd19c8f1de3e48bece7",
+  "image": "https://www.harvey-garcia.net/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+}
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/200
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/200 -> 200
+Body:
+{
+  "id": 200,
+  "name": "Sports & Fitness_63b21e6b96a44cd19c8f1de3e48bece7",
+  "slug": "sports-fitness-63b21e6b96a44cd19c8f1de3e48bece7",
+  "image": "https://www.harvey-garcia.net/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+}
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/200
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/200 -> 200
+Body:
+{
+  "id": 200,
+  "name": "Sports & Fitness_63b21e6b96a44cd19c8f1de3e48bece7",
+  "slug": "sports-fitness-63b21e6b96a44cd19c8f1de3e48bece7",
+  "image": "https://www.harvey-garcia.net/",
+  "creationAt": "2026-10-05T04:47:05.000Z",
+  "updatedAt": "2026-10-05T04:47:05.000Z"
+} 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/200
+Body:
+<empty> 
+
+2026-10-05 04:47:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/200 -> 200
+Body:
+true

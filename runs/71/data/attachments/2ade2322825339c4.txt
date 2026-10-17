@@ -1,0 +1,125 @@
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_e442dd9fd39643a18faa66d917d851cf",
+  "image": "https://www.brewer-jackson.com/"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 75,
+  "name": "Electronics_e442dd9fd39643a18faa66d917d851cf",
+  "slug": "electronics-e442dd9fd39643a18faa66d917d851cf",
+  "image": "https://www.brewer-jackson.com/",
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-channeled even-keeled function-d764f56b30ef4d24b53a46c304d5e122",
+  "price": 133,
+  "description": "Profound eco-centric functionalities",
+  "categoryId": 75,
+  "images": [
+    "https://www.myers.com/"
+  ]
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 307,
+  "title": "Multi-channeled even-keeled function-d764f56b30ef4d24b53a46c304d5e122",
+  "slug": "multi-channeled-even-keeled-function-d764f56b30ef4d24b53a46c304d5e122",
+  "price": 133,
+  "description": "Profound eco-centric functionalities",
+  "category": {
+    "id": 75,
+    "name": "Electronics_e442dd9fd39643a18faa66d917d851cf",
+    "slug": "electronics-e442dd9fd39643a18faa66d917d851cf",
+    "image": "https://www.brewer-jackson.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "https://www.myers.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+}
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/307
+Body:
+{
+  "title": "Multi-lateral local matrix-f1099c2dbce248d384b3a99393a51845",
+  "price": 543,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/307 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/307
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/307 -> 200
+Body:
+{
+  "id": 307,
+  "title": "Multi-channeled even-keeled function-d764f56b30ef4d24b53a46c304d5e122",
+  "slug": "multi-channeled-even-keeled-function-d764f56b30ef4d24b53a46c304d5e122",
+  "price": 133,
+  "description": "Profound eco-centric functionalities",
+  "category": {
+    "id": 75,
+    "name": "Electronics_e442dd9fd39643a18faa66d917d851cf",
+    "slug": "electronics-e442dd9fd39643a18faa66d917d851cf",
+    "image": "https://www.brewer-jackson.com/",
+    "creationAt": "2026-09-22T04:01:04.000Z",
+    "updatedAt": "2026-09-22T04:01:04.000Z"
+  },
+  "images": [
+    "https://www.myers.com/"
+  ],
+  "creationAt": "2026-09-22T04:01:05.000Z",
+  "updatedAt": "2026-09-22T04:01:05.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/307
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/307 -> 200
+Body:
+true 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/75
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/75 -> 200
+Body:
+{
+  "id": 75,
+  "name": "Electronics_e442dd9fd39643a18faa66d917d851cf",
+  "slug": "electronics-e442dd9fd39643a18faa66d917d851cf",
+  "image": "https://www.brewer-jackson.com/",
+  "creationAt": "2026-09-22T04:01:04.000Z",
+  "updatedAt": "2026-09-22T04:01:04.000Z"
+} 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/75
+Body:
+<empty> 
+
+2026-09-22 04:01:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/75 -> 200
+Body:
+true

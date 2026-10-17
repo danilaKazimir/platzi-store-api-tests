@@ -1,0 +1,88 @@
+2026-10-01 04:56:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Nathaniel Zuniga",
+  "email": "umurray@example.net",
+  "password": "***",
+  "avatar": "http://brown.info/"
+} 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 146,
+  "email": "umurray@example.net",
+  "password": "***",
+  "name": "Nathaniel Zuniga",
+  "role": "customer",
+  "avatar": "http://brown.info/",
+  "creationAt": "2026-10-01T04:56:30.000Z",
+  "updatedAt": "2026-10-01T04:56:30.000Z"
+}
+2026-10-01 04:56:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "umurray@example.net",
+  "password": "***"
+} 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE0NiwiaWF0IjoxNzkwODMwNTkwLCJleHAiOjE3OTA4NjY1OTB9.w7jJPUUdUcTzrwwI5S0aYlqeZlnFXCaKrDaVeVPvJgY"
+} 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 146,
+  "email": "umurray@example.net",
+  "password": "***",
+  "name": "Nathaniel Zuniga",
+  "role": "customer",
+  "avatar": "http://brown.info/",
+  "creationAt": "2026-10-01T04:56:30.000Z",
+  "updatedAt": "2026-10-01T04:56:30.000Z"
+}
+2026-10-01 04:56:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/146
+Body:
+<empty> 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/146 -> 200
+Body:
+{
+  "id": 146,
+  "email": "umurray@example.net",
+  "password": "***",
+  "name": "Nathaniel Zuniga",
+  "role": "customer",
+  "avatar": "http://brown.info/",
+  "creationAt": "2026-10-01T04:56:30.000Z",
+  "updatedAt": "2026-10-01T04:56:30.000Z"
+} 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/146
+Body:
+<empty> 
+
+2026-10-01 04:56:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/146 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-10-16 03:46:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_01f8fec59ecf4a5fb503390f75075d55",
+  "image": "http://gould-sloan.net/"
+} 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 47,
+  "name": "Sports & Fitness_01f8fec59ecf4a5fb503390f75075d55",
+  "slug": "sports-fitness-01f8fec59ecf4a5fb503390f75075d55",
+  "image": "http://gould-sloan.net/",
+  "creationAt": "2026-10-16T03:46:38.000Z",
+  "updatedAt": "2026-10-16T03:46:38.000Z"
+} 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Team-oriented 6thgeneration paradigm-84c9095ae86c4606b51af3ac44eff0b7",
+  "price": 980,
+  "description": "Up-sized dynamic adapter",
+  "categoryId": 47,
+  "images": [
+    "http://torres-dillon.com/"
+  ]
+} 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 193,
+  "title": "Team-oriented 6thgeneration paradigm-84c9095ae86c4606b51af3ac44eff0b7",
+  "slug": "team-oriented-6thgeneration-paradigm-84c9095ae86c4606b51af3ac44eff0b7",
+  "price": 980,
+  "description": "Up-sized dynamic adapter",
+  "category": {
+    "id": 47,
+    "name": "Sports & Fitness_01f8fec59ecf4a5fb503390f75075d55",
+    "slug": "sports-fitness-01f8fec59ecf4a5fb503390f75075d55",
+    "image": "http://gould-sloan.net/",
+    "creationAt": "2026-10-16T03:46:38.000Z",
+    "updatedAt": "2026-10-16T03:46:38.000Z"
+  },
+  "images": [
+    "http://torres-dillon.com/"
+  ],
+  "creationAt": "2026-10-16T03:46:38.000Z",
+  "updatedAt": "2026-10-16T03:46:38.000Z"
+}
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/193
+Body:
+{
+  "title": "Quality-focused disintermediate artificial intelligence-b672055a56f9415f908cb31f7cdfd200",
+  "price": 258,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/193 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/193
+Body:
+<empty> 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/193 -> 200
+Body:
+{
+  "id": 193,
+  "title": "Team-oriented 6thgeneration paradigm-84c9095ae86c4606b51af3ac44eff0b7",
+  "slug": "team-oriented-6thgeneration-paradigm-84c9095ae86c4606b51af3ac44eff0b7",
+  "price": 980,
+  "description": "Up-sized dynamic adapter",
+  "category": {
+    "id": 47,
+    "name": "Sports & Fitness_01f8fec59ecf4a5fb503390f75075d55",
+    "slug": "sports-fitness-01f8fec59ecf4a5fb503390f75075d55",
+    "image": "http://gould-sloan.net/",
+    "creationAt": "2026-10-16T03:46:38.000Z",
+    "updatedAt": "2026-10-16T03:46:38.000Z"
+  },
+  "images": [
+    "http://torres-dillon.com/"
+  ],
+  "creationAt": "2026-10-16T03:46:38.000Z",
+  "updatedAt": "2026-10-16T03:46:38.000Z"
+} 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/193
+Body:
+<empty> 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/193 -> 200
+Body:
+true 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+{
+  "id": 47,
+  "name": "Sports & Fitness_01f8fec59ecf4a5fb503390f75075d55",
+  "slug": "sports-fitness-01f8fec59ecf4a5fb503390f75075d55",
+  "image": "http://gould-sloan.net/",
+  "creationAt": "2026-10-16T03:46:38.000Z",
+  "updatedAt": "2026-10-16T03:46:38.000Z"
+} 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-10-16 03:46:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+true

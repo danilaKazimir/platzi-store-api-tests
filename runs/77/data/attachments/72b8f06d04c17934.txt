@@ -1,0 +1,71 @@
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_3af29b352ce648818b8d0661a6d7e049",
+  "image": "http://www.martinez-perez.com/"
+} 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Toys_3af29b352ce648818b8d0661a6d7e049",
+  "slug": "toys-3af29b352ce648818b8d0661a6d7e049",
+  "image": "http://www.martinez-perez.com/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+}
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/33
+Body:
+{
+  "name": "Pet Supplies_d8d5d9d6b00848319334103c22cff48c",
+  "image": "http://wilson.com/"
+} 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Pet Supplies_d8d5d9d6b00848319334103c22cff48c",
+  "slug": "pet-supplies-d8d5d9d6b00848319334103c22cff48c",
+  "image": "http://wilson.com/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+} 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Pet Supplies_d8d5d9d6b00848319334103c22cff48c",
+  "slug": "pet-supplies-d8d5d9d6b00848319334103c22cff48c",
+  "image": "http://wilson.com/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+}
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Pet Supplies_d8d5d9d6b00848319334103c22cff48c",
+  "slug": "pet-supplies-d8d5d9d6b00848319334103c22cff48c",
+  "image": "http://wilson.com/",
+  "creationAt": "2026-09-28T04:28:17.000Z",
+  "updatedAt": "2026-09-28T04:28:17.000Z"
+} 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-09-28 04:28:17 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

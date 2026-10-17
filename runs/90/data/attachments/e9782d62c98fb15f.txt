@@ -1,0 +1,80 @@
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Ashley Pennington",
+  "email": "jaketurner@example.net",
+  "password": "***",
+  "avatar": "https://www.rogers-daniels.net/"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 106,
+  "email": "jaketurner@example.net",
+  "password": "***",
+  "name": "Ashley Pennington",
+  "role": "customer",
+  "avatar": "https://www.rogers-daniels.net/",
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+}
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/106
+Body:
+{
+  "name": "Laura Garrison"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/106 -> 200
+Body:
+{
+  "id": 106,
+  "email": "jaketurner@example.net",
+  "password": "***",
+  "name": "Laura Garrison",
+  "role": "customer",
+  "avatar": "https://www.rogers-daniels.net/",
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/106
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/106 -> 200
+Body:
+{
+  "id": 106,
+  "email": "jaketurner@example.net",
+  "password": "***",
+  "name": "Laura Garrison",
+  "role": "customer",
+  "avatar": "https://www.rogers-daniels.net/",
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+}
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/106
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/106 -> 200
+Body:
+{
+  "id": 106,
+  "email": "jaketurner@example.net",
+  "password": "***",
+  "name": "Laura Garrison",
+  "role": "customer",
+  "avatar": "https://www.rogers-daniels.net/",
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/106
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/106 -> 200
+Body:
+true

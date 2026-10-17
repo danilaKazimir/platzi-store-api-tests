@@ -1,0 +1,107 @@
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_35c09167cc6b435a94bd2477c281e100",
+  "image": "https://www.reyes.org/"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 205,
+  "name": "Books_35c09167cc6b435a94bd2477c281e100",
+  "slug": "books-35c09167cc6b435a94bd2477c281e100",
+  "image": "https://www.reyes.org/",
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Business-focused dedicated knowledge user-755a7369660b4d9e96e41c0d20560d2d",
+  "price": 322,
+  "description": "Distributed bi-directional secured line",
+  "categoryId": 205,
+  "images": [
+    "http://newman-williams.com/"
+  ]
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 503,
+  "title": "Business-focused dedicated knowledge user-755a7369660b4d9e96e41c0d20560d2d",
+  "slug": "business-focused-dedicated-knowledge-user-755a7369660b4d9e96e41c0d20560d2d",
+  "price": 322,
+  "description": "Distributed bi-directional secured line",
+  "category": {
+    "id": 205,
+    "name": "Books_35c09167cc6b435a94bd2477c281e100",
+    "slug": "books-35c09167cc6b435a94bd2477c281e100",
+    "image": "https://www.reyes.org/",
+    "creationAt": "2026-10-08T05:14:20.000Z",
+    "updatedAt": "2026-10-08T05:14:20.000Z"
+  },
+  "images": [
+    "http://newman-williams.com/"
+  ],
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+}
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/503
+Body:
+<empty> 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/503 -> 200
+Body:
+true 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/503
+Body:
+<empty> 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/503 -> 400
+Body:
+{
+  "path": "/api/v1/products/503",
+  "timestamp": "2026-10-08T05:14:20.648Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 503\n    }\n}"
+}
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/503
+Body:
+<empty> 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/503 -> 400
+Body:
+{
+  "path": "/api/v1/products/503",
+  "timestamp": "2026-10-08T05:14:20.655Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 503\n    }\n}"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/205
+Body:
+<empty> 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/205 -> 200
+Body:
+{
+  "id": 205,
+  "name": "Books_35c09167cc6b435a94bd2477c281e100",
+  "slug": "books-35c09167cc6b435a94bd2477c281e100",
+  "image": "https://www.reyes.org/",
+  "creationAt": "2026-10-08T05:14:20.000Z",
+  "updatedAt": "2026-10-08T05:14:20.000Z"
+} 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/205
+Body:
+<empty> 
+
+2026-10-08 05:14:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/205 -> 200
+Body:
+true

@@ -1,0 +1,55 @@
+2026-10-05 04:47:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_2c0d4f24dc4041f3b33d976af7aa570b",
+  "image": "https://smith-hutchinson.com/"
+} 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 202,
+  "name": "Clothing_2c0d4f24dc4041f3b33d976af7aa570b",
+  "slug": "clothing-2c0d4f24dc4041f3b33d976af7aa570b",
+  "image": "https://smith-hutchinson.com/",
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+}
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/202
+Body:
+{
+  "name": null,
+  "image": "https://stevens.biz/"
+} 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/202 -> 400
+Body:
+{
+  "path": "/api/v1/categories/202",
+  "timestamp": "2026-10-05T04:47:06.326Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/202
+Body:
+<empty> 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/202 -> 200
+Body:
+{
+  "id": 202,
+  "name": "Clothing_2c0d4f24dc4041f3b33d976af7aa570b",
+  "slug": "clothing-2c0d4f24dc4041f3b33d976af7aa570b",
+  "image": "https://smith-hutchinson.com/",
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+} 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/202
+Body:
+<empty> 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/202 -> 200
+Body:
+true

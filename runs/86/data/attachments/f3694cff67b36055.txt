@@ -1,0 +1,61 @@
+2026-10-07 05:03:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Shannon Weber",
+  "email": "bmontgomery@example.net",
+  "password": "***",
+  "avatar": "http://fuller.info/"
+} 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 59,
+  "email": "bmontgomery@example.net",
+  "password": "***",
+  "name": "Shannon Weber",
+  "role": "customer",
+  "avatar": "http://fuller.info/",
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+}
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/59
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/59 -> 200
+Body:
+{
+  "id": 59,
+  "email": "bmontgomery@example.net",
+  "password": "***",
+  "name": "Shannon Weber",
+  "role": "customer",
+  "avatar": "http://fuller.info/",
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+}
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/59
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/59 -> 200
+Body:
+{
+  "id": 59,
+  "email": "bmontgomery@example.net",
+  "password": "***",
+  "name": "Shannon Weber",
+  "role": "customer",
+  "avatar": "http://fuller.info/",
+  "creationAt": "2026-10-07T05:03:46.000Z",
+  "updatedAt": "2026-10-07T05:03:46.000Z"
+} 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/59
+Body:
+<empty> 
+
+2026-10-07 05:03:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/59 -> 200
+Body:
+true

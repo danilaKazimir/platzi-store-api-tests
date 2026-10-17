@@ -1,0 +1,80 @@
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "William Shepard",
+  "email": "haynesrebecca@example.org",
+  "password": "***",
+  "avatar": "https://www.hurley-davis.com/"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 60,
+  "email": "haynesrebecca@example.org",
+  "password": "***",
+  "name": "William Shepard",
+  "role": "customer",
+  "avatar": "https://www.hurley-davis.com/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+}
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/60
+Body:
+{
+  "email": "uaguilar@example.org"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/60 -> 200
+Body:
+{
+  "id": 60,
+  "email": "uaguilar@example.org",
+  "password": "***",
+  "name": "William Shepard",
+  "role": "customer",
+  "avatar": "https://www.hurley-davis.com/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/60
+Body:
+<empty> 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/60 -> 200
+Body:
+{
+  "id": 60,
+  "email": "uaguilar@example.org",
+  "password": "***",
+  "name": "William Shepard",
+  "role": "customer",
+  "avatar": "https://www.hurley-davis.com/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+}
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/60
+Body:
+<empty> 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/60 -> 200
+Body:
+{
+  "id": 60,
+  "email": "uaguilar@example.org",
+  "password": "***",
+  "name": "William Shepard",
+  "role": "customer",
+  "avatar": "https://www.hurley-davis.com/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/60
+Body:
+<empty> 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/60 -> 200
+Body:
+true

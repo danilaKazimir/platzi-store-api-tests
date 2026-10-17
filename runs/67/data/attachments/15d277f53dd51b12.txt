@@ -1,0 +1,53 @@
+2026-09-18 03:53:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_a1ab74c79944453a951178ffb80e7b78",
+  "image": "https://www.wood-vasquez.com/"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Food & Beverages_a1ab74c79944453a951178ffb80e7b78",
+  "slug": "food-beverages-a1ab74c79944453a951178ffb80e7b78",
+  "image": "https://www.wood-vasquez.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+}
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Food & Beverages_a1ab74c79944453a951178ffb80e7b78",
+  "slug": "food-beverages-a1ab74c79944453a951178ffb80e7b78",
+  "image": "https://www.wood-vasquez.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+}
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Food & Beverages_a1ab74c79944453a951178ffb80e7b78",
+  "slug": "food-beverages-a1ab74c79944453a951178ffb80e7b78",
+  "image": "https://www.wood-vasquez.com/",
+  "creationAt": "2026-09-18T03:53:04.000Z",
+  "updatedAt": "2026-09-18T03:53:04.000Z"
+} 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-09-18 03:53:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_323c5056e64d450d9e3be112f276712b",
+  "image": "http://butler.com/"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 171,
+  "name": "Sports & Fitness_323c5056e64d450d9e3be112f276712b",
+  "slug": "sports-fitness-323c5056e64d450d9e3be112f276712b",
+  "image": "http://butler.com/",
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optimized value-added collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "price": 208,
+  "description": "Intuitive local time-frame",
+  "categoryId": 171,
+  "images": [
+    "http://www.robinson.com/"
+  ]
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 285,
+  "title": "Optimized value-added collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "slug": "optimized-value-added-collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "price": 208,
+  "description": "Intuitive local time-frame",
+  "category": {
+    "id": 171,
+    "name": "Sports & Fitness_323c5056e64d450d9e3be112f276712b",
+    "slug": "sports-fitness-323c5056e64d450d9e3be112f276712b",
+    "image": "http://butler.com/",
+    "creationAt": "2026-09-30T04:44:13.000Z",
+    "updatedAt": "2026-09-30T04:44:13.000Z"
+  },
+  "images": [
+    "http://www.robinson.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+}
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/optimized-value-added-collaboration-a815c56e03ed4e7f9584df1e02406bc1
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/optimized-value-added-collaboration-a815c56e03ed4e7f9584df1e02406bc1 -> 200
+Body:
+{
+  "id": 285,
+  "title": "Optimized value-added collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "slug": "optimized-value-added-collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "price": 208,
+  "description": "Intuitive local time-frame",
+  "category": {
+    "id": 171,
+    "name": "Sports & Fitness_323c5056e64d450d9e3be112f276712b",
+    "slug": "sports-fitness-323c5056e64d450d9e3be112f276712b",
+    "image": "http://butler.com/",
+    "creationAt": "2026-09-30T04:44:13.000Z",
+    "updatedAt": "2026-09-30T04:44:13.000Z"
+  },
+  "images": [
+    "http://www.robinson.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+}
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/285
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/285 -> 200
+Body:
+{
+  "id": 285,
+  "title": "Optimized value-added collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "slug": "optimized-value-added-collaboration-a815c56e03ed4e7f9584df1e02406bc1",
+  "price": 208,
+  "description": "Intuitive local time-frame",
+  "category": {
+    "id": 171,
+    "name": "Sports & Fitness_323c5056e64d450d9e3be112f276712b",
+    "slug": "sports-fitness-323c5056e64d450d9e3be112f276712b",
+    "image": "http://butler.com/",
+    "creationAt": "2026-09-30T04:44:13.000Z",
+    "updatedAt": "2026-09-30T04:44:13.000Z"
+  },
+  "images": [
+    "http://www.robinson.com/"
+  ],
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/285
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/285 -> 200
+Body:
+true 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/171
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/171 -> 200
+Body:
+{
+  "id": 171,
+  "name": "Sports & Fitness_323c5056e64d450d9e3be112f276712b",
+  "slug": "sports-fitness-323c5056e64d450d9e3be112f276712b",
+  "image": "http://butler.com/",
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/171
+Body:
+<empty> 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/171 -> 200
+Body:
+true

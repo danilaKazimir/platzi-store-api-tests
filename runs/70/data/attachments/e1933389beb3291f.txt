@@ -1,0 +1,79 @@
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_ea280a843ffe4f47aa1b59d0c7fa093d",
+  "image": "https://www.brown.com/"
+} 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Toys_ea280a843ffe4f47aa1b59d0c7fa093d",
+  "slug": "toys-ea280a843ffe4f47aa1b59d0c7fa093d",
+  "image": "https://www.brown.com/",
+  "creationAt": "2026-09-21T04:03:54.000Z",
+  "updatedAt": "2026-09-21T04:03:54.000Z"
+}
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable asymmetric core-6d7573acfa3d43358239da3b0f0fa593",
+  "price": 145,
+  "description": "Intuitive heuristic database",
+  "categoryId": 37,
+  "images": [
+    "https://hale.com/"
+  ]
+} 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 223,
+  "title": "Programmable asymmetric core-6d7573acfa3d43358239da3b0f0fa593",
+  "slug": "programmable-asymmetric-core-6d7573acfa3d43358239da3b0f0fa593",
+  "price": 145,
+  "description": "Intuitive heuristic database",
+  "category": {
+    "id": 37,
+    "name": "Toys_ea280a843ffe4f47aa1b59d0c7fa093d",
+    "slug": "toys-ea280a843ffe4f47aa1b59d0c7fa093d",
+    "image": "https://www.brown.com/",
+    "creationAt": "2026-09-21T04:03:54.000Z",
+    "updatedAt": "2026-09-21T04:03:54.000Z"
+  },
+  "images": [
+    "https://hale.com/"
+  ],
+  "creationAt": "2026-09-21T04:03:54.000Z",
+  "updatedAt": "2026-09-21T04:03:54.000Z"
+}
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Toys_ea280a843ffe4f47aa1b59d0c7fa093d",
+  "slug": "toys-ea280a843ffe4f47aa1b59d0c7fa093d",
+  "image": "https://www.brown.com/",
+  "creationAt": "2026-09-21T04:03:54.000Z",
+  "updatedAt": "2026-09-21T04:03:54.000Z"
+} 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-09-21 04:03:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 400
+Body:
+{
+  "path": "/api/v1/categories/37",
+  "timestamp": "2026-09-21T04:03:54.809Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

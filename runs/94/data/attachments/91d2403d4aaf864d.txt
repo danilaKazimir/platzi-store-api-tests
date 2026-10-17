@@ -1,0 +1,49 @@
+2026-10-15 03:50:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_8bd2eb1bf6e947ffbf7118f2f988f227",
+  "image": "https://www.hodge-mcconnell.net/"
+} 
+
+2026-10-15 03:50:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Electronics_8bd2eb1bf6e947ffbf7118f2f988f227",
+  "slug": "electronics-8bd2eb1bf6e947ffbf7118f2f988f227",
+  "image": "https://www.hodge-mcconnell.net/",
+  "creationAt": "2026-10-15T03:50:59.000Z",
+  "updatedAt": "2026-10-15T03:50:59.000Z"
+}
+2026-10-15 03:50:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-10-15 03:50:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true 
+
+2026-10-15 03:50:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 400
+Body:
+{
+  "path": "/api/v1/categories/29",
+  "timestamp": "2026-10-15T03:51:00.010Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 29\n}"
+}
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 400
+Body:
+{
+  "path": "/api/v1/categories/29",
+  "timestamp": "2026-10-15T03:51:00.043Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 29\n}"
+}

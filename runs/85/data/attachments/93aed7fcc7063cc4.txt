@@ -1,0 +1,80 @@
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Stephanie Singleton",
+  "email": "turnerkristopher@example.net",
+  "password": "***",
+  "avatar": "http://www.craig.biz/"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 604,
+  "email": "turnerkristopher@example.net",
+  "password": "***",
+  "name": "Stephanie Singleton",
+  "role": "customer",
+  "avatar": "http://www.craig.biz/",
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+}
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/604
+Body:
+{
+  "email": "iadams@example.org"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/604 -> 200
+Body:
+{
+  "id": 604,
+  "email": "iadams@example.org",
+  "password": "***",
+  "name": "Stephanie Singleton",
+  "role": "customer",
+  "avatar": "http://www.craig.biz/",
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/604
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/604 -> 200
+Body:
+{
+  "id": 604,
+  "email": "iadams@example.org",
+  "password": "***",
+  "name": "Stephanie Singleton",
+  "role": "customer",
+  "avatar": "http://www.craig.biz/",
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+}
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/604
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/604 -> 200
+Body:
+{
+  "id": 604,
+  "email": "iadams@example.org",
+  "password": "***",
+  "name": "Stephanie Singleton",
+  "role": "customer",
+  "avatar": "http://www.craig.biz/",
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/604
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/604 -> 200
+Body:
+true

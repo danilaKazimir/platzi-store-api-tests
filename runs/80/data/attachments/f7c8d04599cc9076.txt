@@ -1,0 +1,80 @@
+2026-10-01 04:56:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "April Forbes",
+  "email": "tammy81@example.net",
+  "password": "***",
+  "avatar": "http://roach.com/"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 154,
+  "email": "tammy81@example.net",
+  "password": "***",
+  "name": "April Forbes",
+  "role": "customer",
+  "avatar": "http://roach.com/",
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+}
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/154
+Body:
+{
+  "email": "briansantiago@example.com"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/154 -> 200
+Body:
+{
+  "id": 154,
+  "email": "briansantiago@example.com",
+  "password": "***",
+  "name": "April Forbes",
+  "role": "customer",
+  "avatar": "http://roach.com/",
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/154
+Body:
+<empty> 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/154 -> 200
+Body:
+{
+  "id": 154,
+  "email": "briansantiago@example.com",
+  "password": "***",
+  "name": "April Forbes",
+  "role": "customer",
+  "avatar": "http://roach.com/",
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+}
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/154
+Body:
+<empty> 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/154 -> 200
+Body:
+{
+  "id": 154,
+  "email": "briansantiago@example.com",
+  "password": "***",
+  "name": "April Forbes",
+  "role": "customer",
+  "avatar": "http://roach.com/",
+  "creationAt": "2026-10-01T04:56:37.000Z",
+  "updatedAt": "2026-10-01T04:56:37.000Z"
+} 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/154
+Body:
+<empty> 
+
+2026-10-01 04:56:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/154 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-09-20 04:06:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_a0866ccf171d4599b6998d06bba4674b",
+  "image": "http://martinez.com/"
+} 
+
+2026-09-20 04:06:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Sports & Fitness_a0866ccf171d4599b6998d06bba4674b",
+  "slug": "sports-fitness-a0866ccf171d4599b6998d06bba4674b",
+  "image": "http://martinez.com/",
+  "creationAt": "2026-09-20T04:06:37.000Z",
+  "updatedAt": "2026-09-20T04:06:37.000Z"
+}
+2026-09-20 04:06:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/34
+Body:
+{
+  "name": "Clothing_74714ecda71e484cad715117b9c99082",
+  "image": "https://clark.com/"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Clothing_74714ecda71e484cad715117b9c99082",
+  "slug": "clothing-74714ecda71e484cad715117b9c99082",
+  "image": "https://clark.com/",
+  "creationAt": "2026-09-20T04:06:37.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Clothing_74714ecda71e484cad715117b9c99082",
+  "slug": "clothing-74714ecda71e484cad715117b9c99082",
+  "image": "https://clark.com/",
+  "creationAt": "2026-09-20T04:06:37.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+}
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Clothing_74714ecda71e484cad715117b9c99082",
+  "slug": "clothing-74714ecda71e484cad715117b9c99082",
+  "image": "https://clark.com/",
+  "creationAt": "2026-09-20T04:06:37.000Z",
+  "updatedAt": "2026-09-20T04:06:38.000Z"
+} 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-09-20 04:06:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-10-07 05:03:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_21134d90c4c94de4af81989330be542f",
+  "image": "http://www.macdonald.com/"
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 68,
+  "name": "Toys_21134d90c4c94de4af81989330be542f",
+  "slug": "toys-21134d90c4c94de4af81989330be542f",
+  "image": "http://www.macdonald.com/",
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+}
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/68
+Body:
+{
+  "name": "Toys_a7ec7a0749fc47f1b4218815a500f128",
+  "image": "https://james-parker.biz/"
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/68 -> 200
+Body:
+{
+  "id": 68,
+  "name": "Toys_a7ec7a0749fc47f1b4218815a500f128",
+  "slug": "toys-a7ec7a0749fc47f1b4218815a500f128",
+  "image": "https://james-parker.biz/",
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/68
+Body:
+<empty> 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/68 -> 200
+Body:
+{
+  "id": 68,
+  "name": "Toys_a7ec7a0749fc47f1b4218815a500f128",
+  "slug": "toys-a7ec7a0749fc47f1b4218815a500f128",
+  "image": "https://james-parker.biz/",
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+}
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/68
+Body:
+<empty> 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/68 -> 200
+Body:
+{
+  "id": 68,
+  "name": "Toys_a7ec7a0749fc47f1b4218815a500f128",
+  "slug": "toys-a7ec7a0749fc47f1b4218815a500f128",
+  "image": "https://james-parker.biz/",
+  "creationAt": "2026-10-07T05:03:44.000Z",
+  "updatedAt": "2026-10-07T05:03:44.000Z"
+} 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/68
+Body:
+<empty> 
+
+2026-10-07 05:03:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/68 -> 200
+Body:
+true

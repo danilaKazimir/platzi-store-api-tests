@@ -1,0 +1,55 @@
+2026-09-22 04:01:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_f3078a2dee4349f590f307907f501377",
+  "image": "https://www.davis.com/"
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 66,
+  "name": "Food & Beverages_f3078a2dee4349f590f307907f501377",
+  "slug": "food-beverages-f3078a2dee4349f590f307907f501377",
+  "image": "https://www.davis.com/",
+  "creationAt": "2026-09-22T04:01:01.000Z",
+  "updatedAt": "2026-09-22T04:01:01.000Z"
+}
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/66
+Body:
+{
+  "name": null,
+  "image": "http://www.smith.net/"
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/66 -> 400
+Body:
+{
+  "path": "/api/v1/categories/66",
+  "timestamp": "2026-09-22T04:01:02.033Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Food & Beverages_f3078a2dee4349f590f307907f501377",
+  "slug": "food-beverages-f3078a2dee4349f590f307907f501377",
+  "image": "https://www.davis.com/",
+  "creationAt": "2026-09-22T04:01:01.000Z",
+  "updatedAt": "2026-09-22T04:01:01.000Z"
+} 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-09-22 04:01:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+true

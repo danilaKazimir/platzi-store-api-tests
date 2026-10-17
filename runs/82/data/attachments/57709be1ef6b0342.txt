@@ -1,0 +1,88 @@
+2026-10-03 04:29:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "James Santiago MD",
+  "email": "shane69@example.net",
+  "password": "***",
+  "avatar": "https://www.ray.com/"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 325,
+  "email": "shane69@example.net",
+  "password": "***",
+  "name": "James Santiago MD",
+  "role": "customer",
+  "avatar": "https://www.ray.com/",
+  "creationAt": "2026-10-03T04:29:18.000Z",
+  "updatedAt": "2026-10-03T04:29:18.000Z"
+}
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "shane69@example.net",
+  "password": "***"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMyNSwiaWF0IjoxNzkxMDAxNzU4LCJleHAiOjE3OTEwMzc3NTh9.jUN2Z1XuI79lSh6yIvx_5Zi3_khdq7Vzg3AdzqJDB-U"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 325,
+  "email": "shane69@example.net",
+  "password": "***",
+  "name": "James Santiago MD",
+  "role": "customer",
+  "avatar": "https://www.ray.com/",
+  "creationAt": "2026-10-03T04:29:18.000Z",
+  "updatedAt": "2026-10-03T04:29:18.000Z"
+}
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/325
+Body:
+<empty> 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/325 -> 200
+Body:
+{
+  "id": 325,
+  "email": "shane69@example.net",
+  "password": "***",
+  "name": "James Santiago MD",
+  "role": "customer",
+  "avatar": "https://www.ray.com/",
+  "creationAt": "2026-10-03T04:29:18.000Z",
+  "updatedAt": "2026-10-03T04:29:18.000Z"
+} 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/325
+Body:
+<empty> 
+
+2026-10-03 04:29:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/325 -> 200
+Body:
+true

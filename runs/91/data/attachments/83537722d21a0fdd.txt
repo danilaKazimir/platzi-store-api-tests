@@ -1,0 +1,55 @@
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_a44be1ac33fd48e6a5ecec4b645d6d2f",
+  "image": "https://anderson.com/"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Pet Supplies_a44be1ac33fd48e6a5ecec4b645d6d2f",
+  "slug": "pet-supplies-a44be1ac33fd48e6a5ecec4b645d6d2f",
+  "image": "https://anderson.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+}
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/40
+Body:
+{
+  "name": "Pet Supplies_f7f34045dd1244ff83a6c66e5d78972e",
+  "image": null
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/40 -> 400
+Body:
+{
+  "path": "/api/v1/categories/40",
+  "timestamp": "2026-10-12T05:05:38.772Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Pet Supplies_a44be1ac33fd48e6a5ecec4b645d6d2f",
+  "slug": "pet-supplies-a44be1ac33fd48e6a5ecec4b645d6d2f",
+  "image": "https://anderson.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

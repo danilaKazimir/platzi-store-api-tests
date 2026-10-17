@@ -1,0 +1,135 @@
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_97eeeaa965b6479f8a90071fcc4cfb4f",
+  "image": "http://www.white.com/"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 218,
+  "name": "Sports & Fitness_97eeeaa965b6479f8a90071fcc4cfb4f",
+  "slug": "sports-fitness-97eeeaa965b6479f8a90071fcc4cfb4f",
+  "image": "http://www.white.com/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized holistic hub-9024f04a9a5147c8b028ae1595f52521",
+  "price": 312,
+  "description": "Phased foreground framework",
+  "categoryId": 218,
+  "images": [
+    "http://www.wright.com/"
+  ]
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 244,
+  "title": "Decentralized holistic hub-9024f04a9a5147c8b028ae1595f52521",
+  "slug": "decentralized-holistic-hub-9024f04a9a5147c8b028ae1595f52521",
+  "price": 312,
+  "description": "Phased foreground framework",
+  "category": {
+    "id": 218,
+    "name": "Sports & Fitness_97eeeaa965b6479f8a90071fcc4cfb4f",
+    "slug": "sports-fitness-97eeeaa965b6479f8a90071fcc4cfb4f",
+    "image": "http://www.white.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "http://www.wright.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+{
+  "id": 244,
+  "title": "Decentralized holistic hub-9024f04a9a5147c8b028ae1595f52521",
+  "slug": "decentralized-holistic-hub-9024f04a9a5147c8b028ae1595f52521",
+  "price": 312,
+  "description": "Phased foreground framework",
+  "category": {
+    "id": 218,
+    "name": "Sports & Fitness_97eeeaa965b6479f8a90071fcc4cfb4f",
+    "slug": "sports-fitness-97eeeaa965b6479f8a90071fcc4cfb4f",
+    "image": "http://www.white.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "http://www.wright.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+}
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+{
+  "id": 244,
+  "title": "Decentralized holistic hub-9024f04a9a5147c8b028ae1595f52521",
+  "slug": "decentralized-holistic-hub-9024f04a9a5147c8b028ae1595f52521",
+  "price": 312,
+  "description": "Phased foreground framework",
+  "category": {
+    "id": 218,
+    "name": "Sports & Fitness_97eeeaa965b6479f8a90071fcc4cfb4f",
+    "slug": "sports-fitness-97eeeaa965b6479f8a90071fcc4cfb4f",
+    "image": "http://www.white.com/",
+    "creationAt": "2026-09-27T04:27:02.000Z",
+    "updatedAt": "2026-09-27T04:27:02.000Z"
+  },
+  "images": [
+    "http://www.wright.com/"
+  ],
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+true 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/218
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/218 -> 200
+Body:
+{
+  "id": 218,
+  "name": "Sports & Fitness_97eeeaa965b6479f8a90071fcc4cfb4f",
+  "slug": "sports-fitness-97eeeaa965b6479f8a90071fcc4cfb4f",
+  "image": "http://www.white.com/",
+  "creationAt": "2026-09-27T04:27:02.000Z",
+  "updatedAt": "2026-09-27T04:27:02.000Z"
+} 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/218
+Body:
+<empty> 
+
+2026-09-27 04:27:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/218 -> 200
+Body:
+true

@@ -1,0 +1,80 @@
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Dennis Carrillo",
+  "email": "jcook@example.org",
+  "password": "***",
+  "avatar": "http://www.wright.com/"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 65,
+  "email": "jcook@example.org",
+  "password": "***",
+  "name": "Dennis Carrillo",
+  "role": "customer",
+  "avatar": "http://www.wright.com/",
+  "creationAt": "2026-09-22T04:01:06.000Z",
+  "updatedAt": "2026-09-22T04:01:06.000Z"
+}
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/65
+Body:
+{
+  "email": "jessica98@example.com"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+{
+  "id": 65,
+  "email": "jessica98@example.com",
+  "password": "***",
+  "name": "Dennis Carrillo",
+  "role": "customer",
+  "avatar": "http://www.wright.com/",
+  "creationAt": "2026-09-22T04:01:06.000Z",
+  "updatedAt": "2026-09-22T04:01:06.000Z"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/65
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+{
+  "id": 65,
+  "email": "jessica98@example.com",
+  "password": "***",
+  "name": "Dennis Carrillo",
+  "role": "customer",
+  "avatar": "http://www.wright.com/",
+  "creationAt": "2026-09-22T04:01:06.000Z",
+  "updatedAt": "2026-09-22T04:01:06.000Z"
+}
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/65
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+{
+  "id": 65,
+  "email": "jessica98@example.com",
+  "password": "***",
+  "name": "Dennis Carrillo",
+  "role": "customer",
+  "avatar": "http://www.wright.com/",
+  "creationAt": "2026-09-22T04:01:06.000Z",
+  "updatedAt": "2026-09-22T04:01:06.000Z"
+} 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/65
+Body:
+<empty> 
+
+2026-09-22 04:01:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/65 -> 200
+Body:
+true
