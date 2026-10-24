@@ -1,0 +1,71 @@
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_2983f4619a2f42729c037cda53df7b51",
+  "image": "http://www.chavez-flores.com/"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 487,
+  "name": "Home & Kitchen_2983f4619a2f42729c037cda53df7b51",
+  "slug": "home-kitchen-2983f4619a2f42729c037cda53df7b51",
+  "image": "http://www.chavez-flores.com/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+}
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/487
+Body:
+{
+  "name": "Sports & Fitness_51700897c7c942ca890d44e4c9731b57",
+  "image": "http://www.schaefer.biz/"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/487 -> 200
+Body:
+{
+  "id": 487,
+  "name": "Sports & Fitness_51700897c7c942ca890d44e4c9731b57",
+  "slug": "sports-fitness-51700897c7c942ca890d44e4c9731b57",
+  "image": "http://www.schaefer.biz/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/487
+Body:
+<empty> 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/487 -> 200
+Body:
+{
+  "id": 487,
+  "name": "Sports & Fitness_51700897c7c942ca890d44e4c9731b57",
+  "slug": "sports-fitness-51700897c7c942ca890d44e4c9731b57",
+  "image": "http://www.schaefer.biz/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+}
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/487
+Body:
+<empty> 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/487 -> 200
+Body:
+{
+  "id": 487,
+  "name": "Sports & Fitness_51700897c7c942ca890d44e4c9731b57",
+  "slug": "sports-fitness-51700897c7c942ca890d44e4c9731b57",
+  "image": "http://www.schaefer.biz/",
+  "creationAt": "2026-09-25T04:07:03.000Z",
+  "updatedAt": "2026-09-25T04:07:03.000Z"
+} 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/487
+Body:
+<empty> 
+
+2026-09-25 04:07:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/487 -> 200
+Body:
+true

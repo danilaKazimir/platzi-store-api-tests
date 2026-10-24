@@ -1,0 +1,107 @@
+2026-10-18 03:43:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_9b2c375d5da04ee0abeddafa2df6ada4",
+  "image": "http://www.taylor-jordan.org/"
+} 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Food & Beverages_9b2c375d5da04ee0abeddafa2df6ada4",
+  "slug": "food-beverages-9b2c375d5da04ee0abeddafa2df6ada4",
+  "image": "http://www.taylor-jordan.org/",
+  "creationAt": "2026-10-18T03:43:04.000Z",
+  "updatedAt": "2026-10-18T03:43:04.000Z"
+} 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-architected grid-enabled extranet-d409052991e74c59a1c41b0aa2b690a1",
+  "price": 627,
+  "description": "Mandatory non-volatile orchestration",
+  "categoryId": 34,
+  "images": [
+    "https://www.johnson.com/"
+  ]
+} 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 610,
+  "title": "Open-architected grid-enabled extranet-d409052991e74c59a1c41b0aa2b690a1",
+  "slug": "open-architected-grid-enabled-extranet-d409052991e74c59a1c41b0aa2b690a1",
+  "price": 627,
+  "description": "Mandatory non-volatile orchestration",
+  "category": {
+    "id": 34,
+    "name": "Food & Beverages_9b2c375d5da04ee0abeddafa2df6ada4",
+    "slug": "food-beverages-9b2c375d5da04ee0abeddafa2df6ada4",
+    "image": "http://www.taylor-jordan.org/",
+    "creationAt": "2026-10-18T03:43:04.000Z",
+    "updatedAt": "2026-10-18T03:43:04.000Z"
+  },
+  "images": [
+    "https://www.johnson.com/"
+  ],
+  "creationAt": "2026-10-18T03:43:04.000Z",
+  "updatedAt": "2026-10-18T03:43:04.000Z"
+}
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/610
+Body:
+<empty> 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/610 -> 200
+Body:
+true 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/610
+Body:
+<empty> 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/610 -> 400
+Body:
+{
+  "path": "/api/v1/products/610",
+  "timestamp": "2026-10-18T03:43:04.193Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 610\n    }\n}"
+}
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/610
+Body:
+<empty> 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/610 -> 400
+Body:
+{
+  "path": "/api/v1/products/610",
+  "timestamp": "2026-10-18T03:43:04.200Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 610\n    }\n}"
+} 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Food & Beverages_9b2c375d5da04ee0abeddafa2df6ada4",
+  "slug": "food-beverages-9b2c375d5da04ee0abeddafa2df6ada4",
+  "image": "http://www.taylor-jordan.org/",
+  "creationAt": "2026-10-18T03:43:04.000Z",
+  "updatedAt": "2026-10-18T03:43:04.000Z"
+} 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-18 03:43:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

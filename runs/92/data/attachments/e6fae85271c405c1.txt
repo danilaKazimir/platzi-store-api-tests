@@ -1,0 +1,295 @@
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_579d55a5fdec4e4992be4b623283a2f8",
+  "image": "http://www.vaughan.info/"
+} 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 53,
+  "name": "Books_579d55a5fdec4e4992be4b623283a2f8",
+  "slug": "books-579d55a5fdec4e4992be4b623283a2f8",
+  "image": "http://www.vaughan.info/",
+  "creationAt": "2026-10-13T06:05:14.000Z",
+  "updatedAt": "2026-10-13T06:05:14.000Z"
+}
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-12T13:58:35.000Z",
+    "updatedAt": "2026-10-12T18:00:15.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-12T13:58:35.000Z",
+    "updatedAt": "2026-10-12T13:58:35.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-12T13:58:35.000Z",
+    "updatedAt": "2026-10-12T13:58:35.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-12T13:58:35.000Z",
+    "updatedAt": "2026-10-12T13:58:35.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-12T13:58:35.000Z",
+    "updatedAt": "2026-10-12T13:58:35.000Z"
+  },
+  {
+    "id": 6,
+    "name": "New Category 3",
+    "slug": "new-category-3",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-12T15:00:34.000Z",
+    "updatedAt": "2026-10-12T15:00:34.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Mobiles",
+    "slug": "mobiles",
+    "image": "https://api.escuelajs.co/api/v1/files/e294.jpeghttps://images.openai.com/static-rsc-4/QY4HipE2Rjj_ft86xbzDI-3Gy_q2qAcG--Xw-V33PGlk5tZyR2keAMV1F-agCBb3CZUTFPLf2-TCNK5_fnFwBI7VVFKCdSlwGdMfezo4OLlkpzXBBVkR0V34Y9TJdeIHS07f-9lnRWP0nnZyinqIM76fPorCCMWQcDOW-kE2j76bnECptkWpzZT4Wctz7Tzf?purpose=fullsize",
+    "creationAt": "2026-10-12T15:24:15.000Z",
+    "updatedAt": "2026-10-12T15:25:02.000Z"
+  },
+  {
+    "id": 8,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-10-12T17:02:42.000Z",
+    "updatedAt": "2026-10-12T17:02:42.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-12T17:02:46.000Z",
+    "updatedAt": "2026-10-12T17:02:46.000Z"
+  },
+  {
+    "id": 10,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-12T18:00:14.000Z",
+    "updatedAt": "2026-10-12T18:00:14.000Z"
+  },
+  {
+    "id": 11,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-12T18:01:24.000Z",
+    "updatedAt": "2026-10-12T18:01:24.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-12T19:00:12.000Z",
+    "updatedAt": "2026-10-12T19:00:12.000Z"
+  },
+  {
+    "id": 15,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-12T21:01:24.000Z",
+    "updatedAt": "2026-10-12T21:01:24.000Z"
+  },
+  {
+    "id": 16,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-12T21:03:30.000Z",
+    "updatedAt": "2026-10-12T21:03:30.000Z"
+  },
+  {
+    "id": 27,
+    "name": "text",
+    "slug": "text",
+    "image": "https://i.imgur.com/O1LUkwy.jpeg",
+    "creationAt": "2026-10-13T04:39:23.000Z",
+    "updatedAt": "2026-10-13T04:39:23.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Cat ej5q1siu",
+    "slug": "cat-ej5q1siu",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:15:10.000Z",
+    "updatedAt": "2026-10-13T05:15:10.000Z"
+  },
+  {
+    "id": 31,
+    "name": "Cat 6xqnpsn2",
+    "slug": "cat-6xqnpsn2",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:45:55.000Z",
+    "updatedAt": "2026-10-13T05:45:55.000Z"
+  },
+  {
+    "id": 32,
+    "name": "Cat sh85wyr7",
+    "slug": "cat-sh85wyr7",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:46:04.000Z",
+    "updatedAt": "2026-10-13T05:46:04.000Z"
+  },
+  {
+    "id": 36,
+    "name": "Cat ipzoljno",
+    "slug": "cat-ipzoljno",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:49:56.000Z",
+    "updatedAt": "2026-10-13T05:49:56.000Z"
+  },
+  {
+    "id": 39,
+    "name": "Cat h7o5nt4k",
+    "slug": "cat-h7o5nt4k",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:52:42.000Z",
+    "updatedAt": "2026-10-13T05:52:42.000Z"
+  },
+  {
+    "id": 40,
+    "name": "Cat zrcsc8lg",
+    "slug": "cat-zrcsc8lg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:52:50.000Z",
+    "updatedAt": "2026-10-13T05:52:50.000Z"
+  },
+  {
+    "id": 41,
+    "name": "Cat i26kjery",
+    "slug": "cat-i26kjery",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:53:39.000Z",
+    "updatedAt": "2026-10-13T05:53:39.000Z"
+  },
+  {
+    "id": 42,
+    "name": "Cat zugpjjc5",
+    "slug": "cat-zugpjjc5",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:53:47.000Z",
+    "updatedAt": "2026-10-13T05:53:47.000Z"
+  },
+  {
+    "id": 43,
+    "name": "Cat xxl291uo",
+    "slug": "cat-xxl291uo",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:56:41.000Z",
+    "updatedAt": "2026-10-13T05:56:41.000Z"
+  },
+  {
+    "id": 44,
+    "name": "Cat u7ha5j6t",
+    "slug": "cat-u7ha5j6t",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T05:56:50.000Z",
+    "updatedAt": "2026-10-13T05:56:50.000Z"
+  },
+  {
+    "id": 47,
+    "name": "Testing Category",
+    "slug": "testing-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-13T06:00:59.000Z",
+    "updatedAt": "2026-10-13T06:00:59.000Z"
+  },
+  {
+    "id": 50,
+    "name": "testCategory8995f601f2a04d1c90aabcc6c0bae6d5",
+    "slug": "testcategory8995f601f2a04d1c90aabcc6c0bae6d5",
+    "image": "https://bradley.info/",
+    "creationAt": "2026-10-13T06:05:13.000Z",
+    "updatedAt": "2026-10-13T06:05:13.000Z"
+  },
+  {
+    "id": 51,
+    "name": "test Category96f267515c404fd69811984f04690df2",
+    "slug": "test-category96f267515c404fd69811984f04690df2",
+    "image": "https://www.knight-bowers.com/",
+    "creationAt": "2026-10-13T06:05:13.000Z",
+    "updatedAt": "2026-10-13T06:05:13.000Z"
+  },
+  {
+    "id": 52,
+    "name": "Electronics_491ec8e1a2664645b6fb4d7e5bc36110",
+    "slug": "electronics-491ec8e1a2664645b6fb4d7e5bc36110",
+    "image": "https://moreno.com/",
+    "creationAt": "2026-10-13T06:05:14.000Z",
+    "updatedAt": "2026-10-13T06:05:14.000Z"
+  },
+  {
+    "id": 53,
+    "name": "Books_579d55a5fdec4e4992be4b623283a2f8",
+    "slug": "books-579d55a5fdec4e4992be4b623283a2f8",
+    "image": "http://www.vaughan.info/",
+    "creationAt": "2026-10-13T06:05:14.000Z",
+    "updatedAt": "2026-10-13T06:05:14.000Z"
+  },
+  {
+    "id": 54,
+    "name": "Pet Supplies_afc3baaf3589405d8ca1ac2e506c9691",
+    "slug": "pet-supplies-afc3baaf3589405d8ca1ac2e506c9691",
+    "image": "https://williams-allen.com/",
+    "creationAt": "2026-10-13T06:05:14.000Z",
+    "updatedAt": "2026-10-13T06:05:14.000Z"
+  }
+]
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/53
+Body:
+<empty> 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/53 -> 200
+Body:
+{
+  "id": 53,
+  "name": "Books_579d55a5fdec4e4992be4b623283a2f8",
+  "slug": "books-579d55a5fdec4e4992be4b623283a2f8",
+  "image": "http://www.vaughan.info/",
+  "creationAt": "2026-10-13T06:05:14.000Z",
+  "updatedAt": "2026-10-13T06:05:14.000Z"
+} 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/53
+Body:
+<empty> 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/53 -> 200
+Body:
+true

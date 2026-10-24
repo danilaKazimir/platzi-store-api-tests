@@ -1,0 +1,53 @@
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_4b539f46c604454b885d18f14624453e",
+  "image": "http://www.blevins.biz/"
+} 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 58,
+  "name": "Home & Kitchen_4b539f46c604454b885d18f14624453e",
+  "slug": "home-kitchen-4b539f46c604454b885d18f14624453e",
+  "image": "http://www.blevins.biz/",
+  "creationAt": "2026-10-23T03:57:45.000Z",
+  "updatedAt": "2026-10-23T03:57:45.000Z"
+}
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-4b539f46c604454b885d18f14624453e
+Body:
+<empty> 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-4b539f46c604454b885d18f14624453e -> 200
+Body:
+{
+  "id": 58,
+  "name": "Home & Kitchen_4b539f46c604454b885d18f14624453e",
+  "slug": "home-kitchen-4b539f46c604454b885d18f14624453e",
+  "image": "http://www.blevins.biz/",
+  "creationAt": "2026-10-23T03:57:45.000Z",
+  "updatedAt": "2026-10-23T03:57:45.000Z"
+}
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+{
+  "id": 58,
+  "name": "Home & Kitchen_4b539f46c604454b885d18f14624453e",
+  "slug": "home-kitchen-4b539f46c604454b885d18f14624453e",
+  "image": "http://www.blevins.biz/",
+  "creationAt": "2026-10-23T03:57:45.000Z",
+  "updatedAt": "2026-10-23T03:57:45.000Z"
+} 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+true

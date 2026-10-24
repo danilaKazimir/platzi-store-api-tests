@@ -1,0 +1,49 @@
+2026-09-30 04:44:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_4ffcaf98e7fb4ece9e47d8786f669a2e",
+  "image": "https://brown.com/"
+} 
+
+2026-09-30 04:44:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 163,
+  "name": "Sports & Fitness_4ffcaf98e7fb4ece9e47d8786f669a2e",
+  "slug": "sports-fitness-4ffcaf98e7fb4ece9e47d8786f669a2e",
+  "image": "https://brown.com/",
+  "creationAt": "2026-09-30T04:44:10.000Z",
+  "updatedAt": "2026-09-30T04:44:10.000Z"
+}
+2026-09-30 04:44:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/163
+Body:
+<empty> 
+
+2026-09-30 04:44:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/163 -> 200
+Body:
+true 
+
+2026-09-30 04:44:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/163
+Body:
+<empty> 
+
+2026-09-30 04:44:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/163 -> 400
+Body:
+{
+  "path": "/api/v1/categories/163",
+  "timestamp": "2026-09-30T04:44:10.503Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 163\n}"
+}
+2026-09-30 04:44:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/163
+Body:
+<empty> 
+
+2026-09-30 04:44:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/163 -> 400
+Body:
+{
+  "path": "/api/v1/categories/163",
+  "timestamp": "2026-09-30T04:44:10.582Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 163\n}"
+}

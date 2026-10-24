@@ -1,0 +1,125 @@
+2026-10-03 04:29:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_eb3be6daadf14bdc9196401b0c2db2f9",
+  "image": "https://www.york-davis.com/"
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 684,
+  "name": "Clothing_eb3be6daadf14bdc9196401b0c2db2f9",
+  "slug": "clothing-eb3be6daadf14bdc9196401b0c2db2f9",
+  "image": "https://www.york-davis.com/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Down-sized static model-5ea10bfd0eeb498a81eac0e0c474fb21",
+  "price": 229,
+  "description": "Inverse responsive functionalities",
+  "categoryId": 684,
+  "images": [
+    "https://adams-johnson.biz/"
+  ]
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 547,
+  "title": "Down-sized static model-5ea10bfd0eeb498a81eac0e0c474fb21",
+  "slug": "down-sized-static-model-5ea10bfd0eeb498a81eac0e0c474fb21",
+  "price": 229,
+  "description": "Inverse responsive functionalities",
+  "category": {
+    "id": 684,
+    "name": "Clothing_eb3be6daadf14bdc9196401b0c2db2f9",
+    "slug": "clothing-eb3be6daadf14bdc9196401b0c2db2f9",
+    "image": "https://www.york-davis.com/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "https://adams-johnson.biz/"
+  ],
+  "creationAt": "2026-10-03T04:29:21.000Z",
+  "updatedAt": "2026-10-03T04:29:21.000Z"
+}
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/547
+Body:
+{
+  "title": "Secured multi-state matrices-70e1b5563d0e44b0b28405772bd2e9aa",
+  "price": 17,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/547 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/547
+Body:
+<empty> 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/547 -> 200
+Body:
+{
+  "id": 547,
+  "title": "Down-sized static model-5ea10bfd0eeb498a81eac0e0c474fb21",
+  "slug": "down-sized-static-model-5ea10bfd0eeb498a81eac0e0c474fb21",
+  "price": 229,
+  "description": "Inverse responsive functionalities",
+  "category": {
+    "id": 684,
+    "name": "Clothing_eb3be6daadf14bdc9196401b0c2db2f9",
+    "slug": "clothing-eb3be6daadf14bdc9196401b0c2db2f9",
+    "image": "https://www.york-davis.com/",
+    "creationAt": "2026-10-03T04:29:20.000Z",
+    "updatedAt": "2026-10-03T04:29:20.000Z"
+  },
+  "images": [
+    "https://adams-johnson.biz/"
+  ],
+  "creationAt": "2026-10-03T04:29:21.000Z",
+  "updatedAt": "2026-10-03T04:29:21.000Z"
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/547
+Body:
+<empty> 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/547 -> 200
+Body:
+true 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/684
+Body:
+<empty> 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/684 -> 200
+Body:
+{
+  "id": 684,
+  "name": "Clothing_eb3be6daadf14bdc9196401b0c2db2f9",
+  "slug": "clothing-eb3be6daadf14bdc9196401b0c2db2f9",
+  "image": "https://www.york-davis.com/",
+  "creationAt": "2026-10-03T04:29:20.000Z",
+  "updatedAt": "2026-10-03T04:29:20.000Z"
+} 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/684
+Body:
+<empty> 
+
+2026-10-03 04:29:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/684 -> 200
+Body:
+true

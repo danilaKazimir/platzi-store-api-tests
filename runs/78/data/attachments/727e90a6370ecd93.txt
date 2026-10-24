@@ -1,0 +1,53 @@
+2026-09-29 04:57:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_7933d6258c7a406cafdfbe6b73fb7fa3",
+  "image": "https://hinton.com/"
+} 
+
+2026-09-29 04:57:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 93,
+  "name": "Pet Supplies_7933d6258c7a406cafdfbe6b73fb7fa3",
+  "slug": "pet-supplies-7933d6258c7a406cafdfbe6b73fb7fa3",
+  "image": "https://hinton.com/",
+  "creationAt": "2026-09-29T04:57:30.000Z",
+  "updatedAt": "2026-09-29T04:57:30.000Z"
+}
+2026-09-29 04:57:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/pet-supplies-7933d6258c7a406cafdfbe6b73fb7fa3
+Body:
+<empty> 
+
+2026-09-29 04:57:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/pet-supplies-7933d6258c7a406cafdfbe6b73fb7fa3 -> 200
+Body:
+{
+  "id": 93,
+  "name": "Pet Supplies_7933d6258c7a406cafdfbe6b73fb7fa3",
+  "slug": "pet-supplies-7933d6258c7a406cafdfbe6b73fb7fa3",
+  "image": "https://hinton.com/",
+  "creationAt": "2026-09-29T04:57:30.000Z",
+  "updatedAt": "2026-09-29T04:57:30.000Z"
+}
+2026-09-29 04:57:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/93 -> 200
+Body:
+{
+  "id": 93,
+  "name": "Pet Supplies_7933d6258c7a406cafdfbe6b73fb7fa3",
+  "slug": "pet-supplies-7933d6258c7a406cafdfbe6b73fb7fa3",
+  "image": "https://hinton.com/",
+  "creationAt": "2026-09-29T04:57:30.000Z",
+  "updatedAt": "2026-09-29T04:57:30.000Z"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/93 -> 200
+Body:
+true

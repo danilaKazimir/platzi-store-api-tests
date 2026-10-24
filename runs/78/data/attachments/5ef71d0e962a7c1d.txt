@@ -1,0 +1,135 @@
+2026-09-29 04:57:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_c0742629c4ce4a53bfd5b055c394dd3f",
+  "image": "http://www.vargas.org/"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 104,
+  "name": "Clothing_c0742629c4ce4a53bfd5b055c394dd3f",
+  "slug": "clothing-c0742629c4ce4a53bfd5b055c394dd3f",
+  "image": "http://www.vargas.org/",
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Streamlined homogeneous knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "price": 272,
+  "description": "Enhanced leadingedge challenge",
+  "categoryId": 104,
+  "images": [
+    "https://farrell-curtis.com/"
+  ]
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 322,
+  "title": "Streamlined homogeneous knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "slug": "streamlined-homogeneous-knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "price": 272,
+  "description": "Enhanced leadingedge challenge",
+  "category": {
+    "id": 104,
+    "name": "Clothing_c0742629c4ce4a53bfd5b055c394dd3f",
+    "slug": "clothing-c0742629c4ce4a53bfd5b055c394dd3f",
+    "image": "http://www.vargas.org/",
+    "creationAt": "2026-09-29T04:57:34.000Z",
+    "updatedAt": "2026-09-29T04:57:34.000Z"
+  },
+  "images": [
+    "https://farrell-curtis.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+}
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/322
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/322 -> 200
+Body:
+{
+  "id": 322,
+  "title": "Streamlined homogeneous knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "slug": "streamlined-homogeneous-knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "price": 272,
+  "description": "Enhanced leadingedge challenge",
+  "category": {
+    "id": 104,
+    "name": "Clothing_c0742629c4ce4a53bfd5b055c394dd3f",
+    "slug": "clothing-c0742629c4ce4a53bfd5b055c394dd3f",
+    "image": "http://www.vargas.org/",
+    "creationAt": "2026-09-29T04:57:34.000Z",
+    "updatedAt": "2026-09-29T04:57:34.000Z"
+  },
+  "images": [
+    "https://farrell-curtis.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+}
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/322
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/322 -> 200
+Body:
+{
+  "id": 322,
+  "title": "Streamlined homogeneous knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "slug": "streamlined-homogeneous-knowledgebase-de59137842ae433eafa0c6c9e90c9920",
+  "price": 272,
+  "description": "Enhanced leadingedge challenge",
+  "category": {
+    "id": 104,
+    "name": "Clothing_c0742629c4ce4a53bfd5b055c394dd3f",
+    "slug": "clothing-c0742629c4ce4a53bfd5b055c394dd3f",
+    "image": "http://www.vargas.org/",
+    "creationAt": "2026-09-29T04:57:34.000Z",
+    "updatedAt": "2026-09-29T04:57:34.000Z"
+  },
+  "images": [
+    "https://farrell-curtis.com/"
+  ],
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/322
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/322 -> 200
+Body:
+true 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Clothing_c0742629c4ce4a53bfd5b055c394dd3f",
+  "slug": "clothing-c0742629c4ce4a53bfd5b055c394dd3f",
+  "image": "http://www.vargas.org/",
+  "creationAt": "2026-09-29T04:57:34.000Z",
+  "updatedAt": "2026-09-29T04:57:34.000Z"
+} 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-09-29 04:57:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+true

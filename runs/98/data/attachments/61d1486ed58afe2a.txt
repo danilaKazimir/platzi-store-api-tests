@@ -1,0 +1,125 @@
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_5b06b1446844477b905b98f36b135124",
+  "image": "https://www.flores.biz/"
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 49,
+  "name": "Automotive Accessories_5b06b1446844477b905b98f36b135124",
+  "slug": "automotive-accessories-5b06b1446844477b905b98f36b135124",
+  "image": "https://www.flores.biz/",
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Automated modular projection-d7e4e68487cc4b2aa0ee407b6968d628",
+  "price": 144,
+  "description": "Organized context-sensitive attitude",
+  "categoryId": 49,
+  "images": [
+    "https://castillo.com/"
+  ]
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 447,
+  "title": "Automated modular projection-d7e4e68487cc4b2aa0ee407b6968d628",
+  "slug": "automated-modular-projection-d7e4e68487cc4b2aa0ee407b6968d628",
+  "price": 144,
+  "description": "Organized context-sensitive attitude",
+  "category": {
+    "id": 49,
+    "name": "Automotive Accessories_5b06b1446844477b905b98f36b135124",
+    "slug": "automotive-accessories-5b06b1446844477b905b98f36b135124",
+    "image": "https://www.flores.biz/",
+    "creationAt": "2026-10-19T03:53:10.000Z",
+    "updatedAt": "2026-10-19T03:53:10.000Z"
+  },
+  "images": [
+    "https://castillo.com/"
+  ],
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+}
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/447
+Body:
+{
+  "title": "Stand-alone coherent concept-9bdf054e883a4e1f89214df5e00bb32d",
+  "price": 763,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/447 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-19 03:53:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/447
+Body:
+<empty> 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/447 -> 200
+Body:
+{
+  "id": 447,
+  "title": "Automated modular projection-d7e4e68487cc4b2aa0ee407b6968d628",
+  "slug": "automated-modular-projection-d7e4e68487cc4b2aa0ee407b6968d628",
+  "price": 144,
+  "description": "Organized context-sensitive attitude",
+  "category": {
+    "id": 49,
+    "name": "Automotive Accessories_5b06b1446844477b905b98f36b135124",
+    "slug": "automotive-accessories-5b06b1446844477b905b98f36b135124",
+    "image": "https://www.flores.biz/",
+    "creationAt": "2026-10-19T03:53:10.000Z",
+    "updatedAt": "2026-10-19T03:53:10.000Z"
+  },
+  "images": [
+    "https://castillo.com/"
+  ],
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+} 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/447
+Body:
+<empty> 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/447 -> 200
+Body:
+true 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/49
+Body:
+<empty> 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/49 -> 200
+Body:
+{
+  "id": 49,
+  "name": "Automotive Accessories_5b06b1446844477b905b98f36b135124",
+  "slug": "automotive-accessories-5b06b1446844477b905b98f36b135124",
+  "image": "https://www.flores.biz/",
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+} 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/49
+Body:
+<empty> 
+
+2026-10-19 03:53:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/49 -> 200
+Body:
+true

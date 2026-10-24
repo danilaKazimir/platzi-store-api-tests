@@ -1,0 +1,53 @@
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_508e13af9dae4883995dceafa7df998b",
+  "image": "http://www.abbott-ross.org/"
+} 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 99,
+  "name": "Electronics_508e13af9dae4883995dceafa7df998b",
+  "slug": "electronics-508e13af9dae4883995dceafa7df998b",
+  "image": "http://www.abbott-ross.org/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+}
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/99
+Body:
+<empty> 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/99 -> 200
+Body:
+{
+  "id": 99,
+  "name": "Electronics_508e13af9dae4883995dceafa7df998b",
+  "slug": "electronics-508e13af9dae4883995dceafa7df998b",
+  "image": "http://www.abbott-ross.org/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+}
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/99
+Body:
+<empty> 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/99 -> 200
+Body:
+{
+  "id": 99,
+  "name": "Electronics_508e13af9dae4883995dceafa7df998b",
+  "slug": "electronics-508e13af9dae4883995dceafa7df998b",
+  "image": "http://www.abbott-ross.org/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+} 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/99
+Body:
+<empty> 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/99 -> 200
+Body:
+true

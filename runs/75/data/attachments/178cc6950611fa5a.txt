@@ -1,0 +1,80 @@
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Franklin Vasquez",
+  "email": "lucerokathryn@example.org",
+  "password": "***",
+  "avatar": "http://shields-goodwin.org/"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 98,
+  "email": "lucerokathryn@example.org",
+  "password": "***",
+  "name": "Franklin Vasquez",
+  "role": "customer",
+  "avatar": "http://shields-goodwin.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/98
+Body:
+{
+  "email": "crossbrian@example.com"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/98 -> 200
+Body:
+{
+  "id": 98,
+  "email": "crossbrian@example.com",
+  "password": "***",
+  "name": "Franklin Vasquez",
+  "role": "customer",
+  "avatar": "http://shields-goodwin.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/98
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/98 -> 200
+Body:
+{
+  "id": 98,
+  "email": "crossbrian@example.com",
+  "password": "***",
+  "name": "Franklin Vasquez",
+  "role": "customer",
+  "avatar": "http://shields-goodwin.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+}
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/98
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/98 -> 200
+Body:
+{
+  "id": 98,
+  "email": "crossbrian@example.com",
+  "password": "***",
+  "name": "Franklin Vasquez",
+  "role": "customer",
+  "avatar": "http://shields-goodwin.org/",
+  "creationAt": "2026-09-26T04:12:05.000Z",
+  "updatedAt": "2026-09-26T04:12:05.000Z"
+} 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/98
+Body:
+<empty> 
+
+2026-09-26 04:12:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/98 -> 200
+Body:
+true

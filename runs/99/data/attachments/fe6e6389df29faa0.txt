@@ -1,0 +1,88 @@
+2026-10-20 04:04:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Mary Robinson",
+  "email": "mariaparker@example.org",
+  "password": "***",
+  "avatar": "http://www.brown-richards.com/"
+} 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 86,
+  "email": "mariaparker@example.org",
+  "password": "***",
+  "name": "Mary Robinson",
+  "role": "customer",
+  "avatar": "http://www.brown-richards.com/",
+  "creationAt": "2026-10-20T04:04:49.000Z",
+  "updatedAt": "2026-10-20T04:04:49.000Z"
+}
+2026-10-20 04:04:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "mariaparker@example.org",
+  "password": "***"
+} 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjg2LCJpYXQiOjE3OTI0NjkwODksImV4cCI6MTc5MjUwNTA4OX0.DQl5v_zwACnhasuRxyQug9rOOmnePTx2csN64X58fK0"
+} 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 86,
+  "email": "mariaparker@example.org",
+  "password": "***",
+  "name": "Mary Robinson",
+  "role": "customer",
+  "avatar": "http://www.brown-richards.com/",
+  "creationAt": "2026-10-20T04:04:49.000Z",
+  "updatedAt": "2026-10-20T04:04:49.000Z"
+}
+2026-10-20 04:04:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/86
+Body:
+<empty> 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/86 -> 200
+Body:
+{
+  "id": 86,
+  "email": "mariaparker@example.org",
+  "password": "***",
+  "name": "Mary Robinson",
+  "role": "customer",
+  "avatar": "http://www.brown-richards.com/",
+  "creationAt": "2026-10-20T04:04:49.000Z",
+  "updatedAt": "2026-10-20T04:04:49.000Z"
+} 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/86
+Body:
+<empty> 
+
+2026-10-20 04:04:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/86 -> 200
+Body:
+true

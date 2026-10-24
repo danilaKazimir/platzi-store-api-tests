@@ -1,0 +1,135 @@
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_18594b9a023449899700a0712000c5df",
+  "image": "https://www.jones-robertson.net/"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 107,
+  "name": "Electronics_18594b9a023449899700a0712000c5df",
+  "slug": "electronics-18594b9a023449899700a0712000c5df",
+  "image": "https://www.jones-robertson.net/",
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Integrated secondary pricing structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "price": 501,
+  "description": "Grass-roots incremental synergy",
+  "categoryId": 107,
+  "images": [
+    "https://www.acosta.net/"
+  ]
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 253,
+  "title": "Integrated secondary pricing structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "slug": "integrated-secondary-pricing-structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "price": 501,
+  "description": "Grass-roots incremental synergy",
+  "category": {
+    "id": 107,
+    "name": "Electronics_18594b9a023449899700a0712000c5df",
+    "slug": "electronics-18594b9a023449899700a0712000c5df",
+    "image": "https://www.jones-robertson.net/",
+    "creationAt": "2026-10-20T04:04:52.000Z",
+    "updatedAt": "2026-10-20T04:04:52.000Z"
+  },
+  "images": [
+    "https://www.acosta.net/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/253
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/253 -> 200
+Body:
+{
+  "id": 253,
+  "title": "Integrated secondary pricing structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "slug": "integrated-secondary-pricing-structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "price": 501,
+  "description": "Grass-roots incremental synergy",
+  "category": {
+    "id": 107,
+    "name": "Electronics_18594b9a023449899700a0712000c5df",
+    "slug": "electronics-18594b9a023449899700a0712000c5df",
+    "image": "https://www.jones-robertson.net/",
+    "creationAt": "2026-10-20T04:04:52.000Z",
+    "updatedAt": "2026-10-20T04:04:52.000Z"
+  },
+  "images": [
+    "https://www.acosta.net/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/253
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/253 -> 200
+Body:
+{
+  "id": 253,
+  "title": "Integrated secondary pricing structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "slug": "integrated-secondary-pricing-structure-a6c86bbb5fa841e5803aad3265fe2194",
+  "price": 501,
+  "description": "Grass-roots incremental synergy",
+  "category": {
+    "id": 107,
+    "name": "Electronics_18594b9a023449899700a0712000c5df",
+    "slug": "electronics-18594b9a023449899700a0712000c5df",
+    "image": "https://www.jones-robertson.net/",
+    "creationAt": "2026-10-20T04:04:52.000Z",
+    "updatedAt": "2026-10-20T04:04:52.000Z"
+  },
+  "images": [
+    "https://www.acosta.net/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/253
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/253 -> 200
+Body:
+true 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/107
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/107 -> 200
+Body:
+{
+  "id": 107,
+  "name": "Electronics_18594b9a023449899700a0712000c5df",
+  "slug": "electronics-18594b9a023449899700a0712000c5df",
+  "image": "https://www.jones-robertson.net/",
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/107
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/107 -> 200
+Body:
+true

@@ -1,0 +1,407 @@
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+  "image": "http://griffin.com/"
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 104,
+  "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+  "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+  "image": "http://griffin.com/",
+  "creationAt": "2026-10-24T03:52:02.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+}
+2026-10-24 03:52:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based solution-oriented strategy-8b8dad9d4dc64206b5702bccabd507a7",
+  "price": 233,
+  "description": "Monitored systemic attitude",
+  "categoryId": 104,
+  "images": [
+    "http://hernandez.com/"
+  ]
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 197,
+  "title": "Object-based solution-oriented strategy-8b8dad9d4dc64206b5702bccabd507a7",
+  "slug": "object-based-solution-oriented-strategy-8b8dad9d4dc64206b5702bccabd507a7",
+  "price": 233,
+  "description": "Monitored systemic attitude",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "http://hernandez.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:02.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone clear-thinking groupware-494d78ec7243489c8bb842b1995c1e31",
+  "price": 337,
+  "description": "Robust 5thgeneration implementation",
+  "categoryId": 104,
+  "images": [
+    "http://johnson.com/"
+  ]
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 199,
+  "title": "Stand-alone clear-thinking groupware-494d78ec7243489c8bb842b1995c1e31",
+  "slug": "stand-alone-clear-thinking-groupware-494d78ec7243489c8bb842b1995c1e31",
+  "price": 337,
+  "description": "Robust 5thgeneration implementation",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "http://johnson.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Extended next generation adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+  "price": 58,
+  "description": "Total context-sensitive paradigm",
+  "categoryId": 104,
+  "images": [
+    "http://jones.com/"
+  ]
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 200,
+  "title": "Extended next generation adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+  "slug": "extended-next-generation-adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+  "price": 58,
+  "description": "Total context-sensitive paradigm",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "http://jones.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face local orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+  "price": 704,
+  "description": "Cross-group disintermediate productivity",
+  "categoryId": 104,
+  "images": [
+    "https://richardson.net/"
+  ]
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 202,
+  "title": "Face-to-face local orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+  "slug": "face-to-face-local-orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+  "price": 704,
+  "description": "Cross-group disintermediate productivity",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "https://richardson.net/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104/products
+Body:
+<empty> 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104/products -> 200
+Body:
+[
+  {
+    "id": 197,
+    "title": "Object-based solution-oriented strategy-8b8dad9d4dc64206b5702bccabd507a7",
+    "slug": "object-based-solution-oriented-strategy-8b8dad9d4dc64206b5702bccabd507a7",
+    "price": 233,
+    "description": "Monitored systemic attitude",
+    "category": {
+      "id": 104,
+      "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+      "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+      "image": "http://griffin.com/",
+      "creationAt": "2026-10-24T03:52:02.000Z",
+      "updatedAt": "2026-10-24T03:52:02.000Z"
+    },
+    "images": [
+      "http://hernandez.com/"
+    ],
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  {
+    "id": 199,
+    "title": "Stand-alone clear-thinking groupware-494d78ec7243489c8bb842b1995c1e31",
+    "slug": "stand-alone-clear-thinking-groupware-494d78ec7243489c8bb842b1995c1e31",
+    "price": 337,
+    "description": "Robust 5thgeneration implementation",
+    "category": {
+      "id": 104,
+      "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+      "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+      "image": "http://griffin.com/",
+      "creationAt": "2026-10-24T03:52:02.000Z",
+      "updatedAt": "2026-10-24T03:52:02.000Z"
+    },
+    "images": [
+      "http://johnson.com/"
+    ],
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  },
+  {
+    "id": 200,
+    "title": "Extended next generation adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+    "slug": "extended-next-generation-adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+    "price": 58,
+    "description": "Total context-sensitive paradigm",
+    "category": {
+      "id": 104,
+      "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+      "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+      "image": "http://griffin.com/",
+      "creationAt": "2026-10-24T03:52:02.000Z",
+      "updatedAt": "2026-10-24T03:52:02.000Z"
+    },
+    "images": [
+      "http://jones.com/"
+    ],
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  },
+  {
+    "id": 202,
+    "title": "Face-to-face local orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+    "slug": "face-to-face-local-orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+    "price": 704,
+    "description": "Cross-group disintermediate productivity",
+    "category": {
+      "id": 104,
+      "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+      "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+      "image": "http://griffin.com/",
+      "creationAt": "2026-10-24T03:52:02.000Z",
+      "updatedAt": "2026-10-24T03:52:02.000Z"
+    },
+    "images": [
+      "https://richardson.net/"
+    ],
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  }
+]
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/202
+Body:
+<empty> 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/202 -> 200
+Body:
+{
+  "id": 202,
+  "title": "Face-to-face local orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+  "slug": "face-to-face-local-orchestration-f6a281f17b934a8ca3dc26bb790ca13b",
+  "price": 704,
+  "description": "Cross-group disintermediate productivity",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "https://richardson.net/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/202
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/202 -> 200
+Body:
+true 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/200
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/200 -> 200
+Body:
+{
+  "id": 200,
+  "title": "Extended next generation adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+  "slug": "extended-next-generation-adapter-7ea698aa4e1a43a2a98cdd073c13d9a4",
+  "price": 58,
+  "description": "Total context-sensitive paradigm",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "http://jones.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/200
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/200 -> 200
+Body:
+true 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+{
+  "id": 199,
+  "title": "Stand-alone clear-thinking groupware-494d78ec7243489c8bb842b1995c1e31",
+  "slug": "stand-alone-clear-thinking-groupware-494d78ec7243489c8bb842b1995c1e31",
+  "price": 337,
+  "description": "Robust 5thgeneration implementation",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "http://johnson.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/199
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/199 -> 200
+Body:
+true 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/197 -> 200
+Body:
+{
+  "id": 197,
+  "title": "Object-based solution-oriented strategy-8b8dad9d4dc64206b5702bccabd507a7",
+  "slug": "object-based-solution-oriented-strategy-8b8dad9d4dc64206b5702bccabd507a7",
+  "price": 233,
+  "description": "Monitored systemic attitude",
+  "category": {
+    "id": 104,
+    "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+    "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+    "image": "http://griffin.com/",
+    "creationAt": "2026-10-24T03:52:02.000Z",
+    "updatedAt": "2026-10-24T03:52:02.000Z"
+  },
+  "images": [
+    "http://hernandez.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:02.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/197
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/197 -> 200
+Body:
+true 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Pet Supplies_40c4f8af2759434d96fc56b344661cdd",
+  "slug": "pet-supplies-40c4f8af2759434d96fc56b344661cdd",
+  "image": "http://griffin.com/",
+  "creationAt": "2026-10-24T03:52:02.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+true

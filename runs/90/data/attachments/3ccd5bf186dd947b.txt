@@ -1,0 +1,135 @@
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_f57e3f95c46442908c2ff0278a347602",
+  "image": "http://www.parker-terry.com/"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Books_f57e3f95c46442908c2ff0278a347602",
+  "slug": "books-f57e3f95c46442908c2ff0278a347602",
+  "image": "http://www.parker-terry.com/",
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone local forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "price": 677,
+  "description": "Polarized responsive knowledge user",
+  "categoryId": 39,
+  "images": [
+    "https://www.johnson.biz/"
+  ]
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 127,
+  "title": "Stand-alone local forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "slug": "stand-alone-local-forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "price": 677,
+  "description": "Polarized responsive knowledge user",
+  "category": {
+    "id": 39,
+    "name": "Books_f57e3f95c46442908c2ff0278a347602",
+    "slug": "books-f57e3f95c46442908c2ff0278a347602",
+    "image": "http://www.parker-terry.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "https://www.johnson.biz/"
+  ],
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+}
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/stand-alone-local-forecast-c27f91ed6e334032bf1f6ed27a5ca8ab
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/stand-alone-local-forecast-c27f91ed6e334032bf1f6ed27a5ca8ab -> 200
+Body:
+{
+  "id": 127,
+  "title": "Stand-alone local forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "slug": "stand-alone-local-forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "price": 677,
+  "description": "Polarized responsive knowledge user",
+  "category": {
+    "id": 39,
+    "name": "Books_f57e3f95c46442908c2ff0278a347602",
+    "slug": "books-f57e3f95c46442908c2ff0278a347602",
+    "image": "http://www.parker-terry.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "https://www.johnson.biz/"
+  ],
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+}
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/127
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/127 -> 200
+Body:
+{
+  "id": 127,
+  "title": "Stand-alone local forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "slug": "stand-alone-local-forecast-c27f91ed6e334032bf1f6ed27a5ca8ab",
+  "price": 677,
+  "description": "Polarized responsive knowledge user",
+  "category": {
+    "id": 39,
+    "name": "Books_f57e3f95c46442908c2ff0278a347602",
+    "slug": "books-f57e3f95c46442908c2ff0278a347602",
+    "image": "http://www.parker-terry.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "https://www.johnson.biz/"
+  ],
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/127
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/127 -> 200
+Body:
+true 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Books_f57e3f95c46442908c2ff0278a347602",
+  "slug": "books-f57e3f95c46442908c2ff0278a347602",
+  "image": "http://www.parker-terry.com/",
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

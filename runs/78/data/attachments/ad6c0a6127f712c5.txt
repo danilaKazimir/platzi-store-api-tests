@@ -1,0 +1,53 @@
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_3a679cbbd6034892904ef0b8994425ee",
+  "image": "http://ewing.info/"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 97,
+  "name": "Books_3a679cbbd6034892904ef0b8994425ee",
+  "slug": "books-3a679cbbd6034892904ef0b8994425ee",
+  "image": "http://ewing.info/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+}
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+{
+  "id": 97,
+  "name": "Books_3a679cbbd6034892904ef0b8994425ee",
+  "slug": "books-3a679cbbd6034892904ef0b8994425ee",
+  "image": "http://ewing.info/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+}
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+{
+  "id": 97,
+  "name": "Books_3a679cbbd6034892904ef0b8994425ee",
+  "slug": "books-3a679cbbd6034892904ef0b8994425ee",
+  "image": "http://ewing.info/",
+  "creationAt": "2026-09-29T04:57:31.000Z",
+  "updatedAt": "2026-09-29T04:57:31.000Z"
+} 
+
+2026-09-29 04:57:31 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-09-29 04:57:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+true

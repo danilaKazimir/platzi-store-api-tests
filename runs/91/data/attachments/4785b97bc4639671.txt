@@ -1,0 +1,71 @@
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_8d05291585b84118802073e322e404b3",
+  "image": "http://www.cunningham.com/"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Sports & Fitness_8d05291585b84118802073e322e404b3",
+  "slug": "sports-fitness-8d05291585b84118802073e322e404b3",
+  "image": "http://www.cunningham.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+}
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/41
+Body:
+{
+  "name": "Books_5f6ca39c0a69480ab1371c82847fc112",
+  "image": "http://www.mccarthy.com/"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Books_5f6ca39c0a69480ab1371c82847fc112",
+  "slug": "books-5f6ca39c0a69480ab1371c82847fc112",
+  "image": "http://www.mccarthy.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Books_5f6ca39c0a69480ab1371c82847fc112",
+  "slug": "books-5f6ca39c0a69480ab1371c82847fc112",
+  "image": "http://www.mccarthy.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+}
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Books_5f6ca39c0a69480ab1371c82847fc112",
+  "slug": "books-5f6ca39c0a69480ab1371c82847fc112",
+  "image": "http://www.mccarthy.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_144a7f11d6324549b80ed74897b5da81",
+  "image": "https://www.lewis.com/"
+} 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 102,
+  "name": "Pet Supplies_144a7f11d6324549b80ed74897b5da81",
+  "slug": "pet-supplies-144a7f11d6324549b80ed74897b5da81",
+  "image": "https://www.lewis.com/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+}
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/102
+Body:
+{
+  "name": "Sports & Fitness_7ed8a438a756406fb18bb78aa1859d60",
+  "image": "https://www.butler.info/"
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Sports & Fitness_7ed8a438a756406fb18bb78aa1859d60",
+  "slug": "sports-fitness-7ed8a438a756406fb18bb78aa1859d60",
+  "image": "https://www.butler.info/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Sports & Fitness_7ed8a438a756406fb18bb78aa1859d60",
+  "slug": "sports-fitness-7ed8a438a756406fb18bb78aa1859d60",
+  "image": "https://www.butler.info/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+}
+2026-10-24 03:52:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Sports & Fitness_7ed8a438a756406fb18bb78aa1859d60",
+  "slug": "sports-fitness-7ed8a438a756406fb18bb78aa1859d60",
+  "image": "https://www.butler.info/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+true

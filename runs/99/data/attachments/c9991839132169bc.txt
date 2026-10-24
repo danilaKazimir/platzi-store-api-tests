@@ -1,0 +1,135 @@
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_9f85751cbbde458292a14d46fd4882a0",
+  "image": "http://www.anthony.info/"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 106,
+  "name": "Sports & Fitness_9f85751cbbde458292a14d46fd4882a0",
+  "slug": "sports-fitness-9f85751cbbde458292a14d46fd4882a0",
+  "image": "http://www.anthony.info/",
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative uniform algorithm-11e598f57776424ab3eaf721955b15a1",
+  "price": 598,
+  "description": "Pre-emptive 6thgeneration structure",
+  "categoryId": 106,
+  "images": [
+    "http://www.smith.com/"
+  ]
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 252,
+  "title": "Innovative uniform algorithm-11e598f57776424ab3eaf721955b15a1",
+  "slug": "innovative-uniform-algorithm-11e598f57776424ab3eaf721955b15a1",
+  "price": 598,
+  "description": "Pre-emptive 6thgeneration structure",
+  "category": {
+    "id": 106,
+    "name": "Sports & Fitness_9f85751cbbde458292a14d46fd4882a0",
+    "slug": "sports-fitness-9f85751cbbde458292a14d46fd4882a0",
+    "image": "http://www.anthony.info/",
+    "creationAt": "2026-10-20T04:04:52.000Z",
+    "updatedAt": "2026-10-20T04:04:52.000Z"
+  },
+  "images": [
+    "http://www.smith.com/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/innovative-uniform-algorithm-11e598f57776424ab3eaf721955b15a1
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/innovative-uniform-algorithm-11e598f57776424ab3eaf721955b15a1 -> 200
+Body:
+{
+  "id": 252,
+  "title": "Innovative uniform algorithm-11e598f57776424ab3eaf721955b15a1",
+  "slug": "innovative-uniform-algorithm-11e598f57776424ab3eaf721955b15a1",
+  "price": 598,
+  "description": "Pre-emptive 6thgeneration structure",
+  "category": {
+    "id": 106,
+    "name": "Sports & Fitness_9f85751cbbde458292a14d46fd4882a0",
+    "slug": "sports-fitness-9f85751cbbde458292a14d46fd4882a0",
+    "image": "http://www.anthony.info/",
+    "creationAt": "2026-10-20T04:04:52.000Z",
+    "updatedAt": "2026-10-20T04:04:52.000Z"
+  },
+  "images": [
+    "http://www.smith.com/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/252
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/252 -> 200
+Body:
+{
+  "id": 252,
+  "title": "Innovative uniform algorithm-11e598f57776424ab3eaf721955b15a1",
+  "slug": "innovative-uniform-algorithm-11e598f57776424ab3eaf721955b15a1",
+  "price": 598,
+  "description": "Pre-emptive 6thgeneration structure",
+  "category": {
+    "id": 106,
+    "name": "Sports & Fitness_9f85751cbbde458292a14d46fd4882a0",
+    "slug": "sports-fitness-9f85751cbbde458292a14d46fd4882a0",
+    "image": "http://www.anthony.info/",
+    "creationAt": "2026-10-20T04:04:52.000Z",
+    "updatedAt": "2026-10-20T04:04:52.000Z"
+  },
+  "images": [
+    "http://www.smith.com/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/252
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/252 -> 200
+Body:
+true 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/106
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/106 -> 200
+Body:
+{
+  "id": 106,
+  "name": "Sports & Fitness_9f85751cbbde458292a14d46fd4882a0",
+  "slug": "sports-fitness-9f85751cbbde458292a14d46fd4882a0",
+  "image": "http://www.anthony.info/",
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/106
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/106 -> 200
+Body:
+true

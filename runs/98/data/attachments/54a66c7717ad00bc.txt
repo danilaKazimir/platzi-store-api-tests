@@ -1,0 +1,107 @@
+2026-10-19 03:53:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_986271e009254f72bd828acd229c3d92",
+  "image": "https://ochoa.com/"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Automotive Accessories_986271e009254f72bd828acd229c3d92",
+  "slug": "automotive-accessories-986271e009254f72bd828acd229c3d92",
+  "image": "https://ochoa.com/",
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented reciprocal firmware-cd4edbcf9cdb4160a17bd5251d2739ee",
+  "price": 913,
+  "description": "Fundamental encompassing definition",
+  "categoryId": 39,
+  "images": [
+    "https://www.mullins.biz/"
+  ]
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 433,
+  "title": "Vision-oriented reciprocal firmware-cd4edbcf9cdb4160a17bd5251d2739ee",
+  "slug": "vision-oriented-reciprocal-firmware-cd4edbcf9cdb4160a17bd5251d2739ee",
+  "price": 913,
+  "description": "Fundamental encompassing definition",
+  "category": {
+    "id": 39,
+    "name": "Automotive Accessories_986271e009254f72bd828acd229c3d92",
+    "slug": "automotive-accessories-986271e009254f72bd828acd229c3d92",
+    "image": "https://ochoa.com/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "https://www.mullins.biz/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+}
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/433
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/433 -> 200
+Body:
+true 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/433
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/433 -> 400
+Body:
+{
+  "path": "/api/v1/products/433",
+  "timestamp": "2026-10-19T03:53:08.326Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 433\n    }\n}"
+}
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/433
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/433 -> 400
+Body:
+{
+  "path": "/api/v1/products/433",
+  "timestamp": "2026-10-19T03:53:08.348Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 433\n    }\n}"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Automotive Accessories_986271e009254f72bd828acd229c3d92",
+  "slug": "automotive-accessories-986271e009254f72bd828acd229c3d92",
+  "image": "https://ochoa.com/",
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

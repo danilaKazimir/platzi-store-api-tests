@@ -1,0 +1,125 @@
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_8a3fc155047b4adfb009a0fcbb98eaae",
+  "image": "https://brooks.info/"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 326,
+  "name": "Home & Kitchen_8a3fc155047b4adfb009a0fcbb98eaae",
+  "slug": "home-kitchen-8a3fc155047b4adfb009a0fcbb98eaae",
+  "image": "https://brooks.info/",
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Pre-emptive coherent infrastructure-95db6741f0424066b21c4a8785efb9f3",
+  "price": 724,
+  "description": "Customer-focused context-sensitive Internet solution",
+  "categoryId": 326,
+  "images": [
+    "http://campos.com/"
+  ]
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 435,
+  "title": "Pre-emptive coherent infrastructure-95db6741f0424066b21c4a8785efb9f3",
+  "slug": "pre-emptive-coherent-infrastructure-95db6741f0424066b21c4a8785efb9f3",
+  "price": 724,
+  "description": "Customer-focused context-sensitive Internet solution",
+  "category": {
+    "id": 326,
+    "name": "Home & Kitchen_8a3fc155047b4adfb009a0fcbb98eaae",
+    "slug": "home-kitchen-8a3fc155047b4adfb009a0fcbb98eaae",
+    "image": "https://brooks.info/",
+    "creationAt": "2026-10-06T05:33:49.000Z",
+    "updatedAt": "2026-10-06T05:33:49.000Z"
+  },
+  "images": [
+    "http://campos.com/"
+  ],
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+}
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/435
+Body:
+{
+  "title": "Advanced global project-c593d73a3be94489b57bb97ab706f334",
+  "price": 250,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/435 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/435
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/435 -> 200
+Body:
+{
+  "id": 435,
+  "title": "Pre-emptive coherent infrastructure-95db6741f0424066b21c4a8785efb9f3",
+  "slug": "pre-emptive-coherent-infrastructure-95db6741f0424066b21c4a8785efb9f3",
+  "price": 724,
+  "description": "Customer-focused context-sensitive Internet solution",
+  "category": {
+    "id": 326,
+    "name": "Home & Kitchen_8a3fc155047b4adfb009a0fcbb98eaae",
+    "slug": "home-kitchen-8a3fc155047b4adfb009a0fcbb98eaae",
+    "image": "https://brooks.info/",
+    "creationAt": "2026-10-06T05:33:49.000Z",
+    "updatedAt": "2026-10-06T05:33:49.000Z"
+  },
+  "images": [
+    "http://campos.com/"
+  ],
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/435
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/435 -> 200
+Body:
+true 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/326
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/326 -> 200
+Body:
+{
+  "id": 326,
+  "name": "Home & Kitchen_8a3fc155047b4adfb009a0fcbb98eaae",
+  "slug": "home-kitchen-8a3fc155047b4adfb009a0fcbb98eaae",
+  "image": "https://brooks.info/",
+  "creationAt": "2026-10-06T05:33:49.000Z",
+  "updatedAt": "2026-10-06T05:33:49.000Z"
+} 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/326
+Body:
+<empty> 
+
+2026-10-06 05:33:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/326 -> 200
+Body:
+true

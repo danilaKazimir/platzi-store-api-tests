@@ -1,0 +1,135 @@
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_8c23e90b10984b5e9a0ce483427f7dac",
+  "image": "http://www.davis.org/"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 271,
+  "name": "Home & Kitchen_8c23e90b10984b5e9a0ce483427f7dac",
+  "slug": "home-kitchen-8c23e90b10984b5e9a0ce483427f7dac",
+  "image": "http://www.davis.org/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-group responsive artificial intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "price": 717,
+  "description": "Team-oriented motivating hub",
+  "categoryId": 271,
+  "images": [
+    "https://www.knox-franco.com/"
+  ]
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 236,
+  "title": "Cross-group responsive artificial intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "slug": "cross-group-responsive-artificial-intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "price": 717,
+  "description": "Team-oriented motivating hub",
+  "category": {
+    "id": 271,
+    "name": "Home & Kitchen_8c23e90b10984b5e9a0ce483427f7dac",
+    "slug": "home-kitchen-8c23e90b10984b5e9a0ce483427f7dac",
+    "image": "http://www.davis.org/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "https://www.knox-franco.com/"
+  ],
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+}
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/cross-group-responsive-artificial-intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/cross-group-responsive-artificial-intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6 -> 200
+Body:
+{
+  "id": 236,
+  "title": "Cross-group responsive artificial intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "slug": "cross-group-responsive-artificial-intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "price": 717,
+  "description": "Team-oriented motivating hub",
+  "category": {
+    "id": 271,
+    "name": "Home & Kitchen_8c23e90b10984b5e9a0ce483427f7dac",
+    "slug": "home-kitchen-8c23e90b10984b5e9a0ce483427f7dac",
+    "image": "http://www.davis.org/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "https://www.knox-franco.com/"
+  ],
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+}
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/236
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/236 -> 200
+Body:
+{
+  "id": 236,
+  "title": "Cross-group responsive artificial intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "slug": "cross-group-responsive-artificial-intelligence-3ea00c1c1ffb4a33b0c0275e02115ec6",
+  "price": 717,
+  "description": "Team-oriented motivating hub",
+  "category": {
+    "id": 271,
+    "name": "Home & Kitchen_8c23e90b10984b5e9a0ce483427f7dac",
+    "slug": "home-kitchen-8c23e90b10984b5e9a0ce483427f7dac",
+    "image": "http://www.davis.org/",
+    "creationAt": "2026-09-26T04:12:04.000Z",
+    "updatedAt": "2026-09-26T04:12:04.000Z"
+  },
+  "images": [
+    "https://www.knox-franco.com/"
+  ],
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/236
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/236 -> 200
+Body:
+true 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/271
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/271 -> 200
+Body:
+{
+  "id": 271,
+  "name": "Home & Kitchen_8c23e90b10984b5e9a0ce483427f7dac",
+  "slug": "home-kitchen-8c23e90b10984b5e9a0ce483427f7dac",
+  "image": "http://www.davis.org/",
+  "creationAt": "2026-09-26T04:12:04.000Z",
+  "updatedAt": "2026-09-26T04:12:04.000Z"
+} 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/271
+Body:
+<empty> 
+
+2026-09-26 04:12:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/271 -> 200
+Body:
+true

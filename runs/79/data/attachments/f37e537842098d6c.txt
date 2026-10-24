@@ -1,0 +1,79 @@
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_851b4394efc748fc9a22060fb7cde462",
+  "image": "http://franco.org/"
+} 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 167,
+  "name": "Pet Supplies_851b4394efc748fc9a22060fb7cde462",
+  "slug": "pet-supplies-851b4394efc748fc9a22060fb7cde462",
+  "image": "http://franco.org/",
+  "creationAt": "2026-09-30T04:44:11.000Z",
+  "updatedAt": "2026-09-30T04:44:11.000Z"
+}
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered didactic hub-bda40bc6686a4d38894be8b14bca752b",
+  "price": 175,
+  "description": "Profound 5thgeneration matrices",
+  "categoryId": 167,
+  "images": [
+    "https://stephens.org/"
+  ]
+} 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 280,
+  "title": "Multi-tiered didactic hub-bda40bc6686a4d38894be8b14bca752b",
+  "slug": "multi-tiered-didactic-hub-bda40bc6686a4d38894be8b14bca752b",
+  "price": 175,
+  "description": "Profound 5thgeneration matrices",
+  "category": {
+    "id": 167,
+    "name": "Pet Supplies_851b4394efc748fc9a22060fb7cde462",
+    "slug": "pet-supplies-851b4394efc748fc9a22060fb7cde462",
+    "image": "http://franco.org/",
+    "creationAt": "2026-09-30T04:44:11.000Z",
+    "updatedAt": "2026-09-30T04:44:11.000Z"
+  },
+  "images": [
+    "https://stephens.org/"
+  ],
+  "creationAt": "2026-09-30T04:44:11.000Z",
+  "updatedAt": "2026-09-30T04:44:11.000Z"
+}
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/167
+Body:
+<empty> 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/167 -> 200
+Body:
+{
+  "id": 167,
+  "name": "Pet Supplies_851b4394efc748fc9a22060fb7cde462",
+  "slug": "pet-supplies-851b4394efc748fc9a22060fb7cde462",
+  "image": "http://franco.org/",
+  "creationAt": "2026-09-30T04:44:11.000Z",
+  "updatedAt": "2026-09-30T04:44:11.000Z"
+} 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/167
+Body:
+<empty> 
+
+2026-09-30 04:44:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/167 -> 400
+Body:
+{
+  "path": "/api/v1/categories/167",
+  "timestamp": "2026-09-30T04:44:11.912Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

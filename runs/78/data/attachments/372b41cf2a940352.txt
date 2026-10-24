@@ -1,0 +1,80 @@
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Karen Mueller",
+  "email": "orrgregory@example.com",
+  "password": "***",
+  "avatar": "https://mann-barton.com/"
+} 
+
+2026-09-29 04:57:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 71,
+  "email": "orrgregory@example.com",
+  "password": "***",
+  "name": "Karen Mueller",
+  "role": "customer",
+  "avatar": "https://mann-barton.com/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:36.000Z"
+}
+2026-09-29 04:57:36 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/71
+Body:
+{
+  "name": "Valerie Fisher"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/71 -> 200
+Body:
+{
+  "id": 71,
+  "email": "orrgregory@example.com",
+  "password": "***",
+  "name": "Valerie Fisher",
+  "role": "customer",
+  "avatar": "https://mann-barton.com/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/71
+Body:
+<empty> 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/71 -> 200
+Body:
+{
+  "id": 71,
+  "email": "orrgregory@example.com",
+  "password": "***",
+  "name": "Valerie Fisher",
+  "role": "customer",
+  "avatar": "https://mann-barton.com/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+}
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/71
+Body:
+<empty> 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/71 -> 200
+Body:
+{
+  "id": 71,
+  "email": "orrgregory@example.com",
+  "password": "***",
+  "name": "Valerie Fisher",
+  "role": "customer",
+  "avatar": "https://mann-barton.com/",
+  "creationAt": "2026-09-29T04:57:36.000Z",
+  "updatedAt": "2026-09-29T04:57:37.000Z"
+} 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/71
+Body:
+<empty> 
+
+2026-09-29 04:57:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/71 -> 200
+Body:
+true

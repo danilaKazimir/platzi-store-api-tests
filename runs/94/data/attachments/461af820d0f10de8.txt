@@ -1,0 +1,79 @@
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_52442db76888447e9ceed047b8523b97",
+  "image": "http://www.smith.info/"
+} 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Toys_52442db76888447e9ceed047b8523b97",
+  "slug": "toys-52442db76888447e9ceed047b8523b97",
+  "image": "http://www.smith.info/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+}
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Focused intermediate data-warehouse-de250c9e8ad343158df1dc60f7438ed4",
+  "price": 947,
+  "description": "Exclusive mission-critical alliance",
+  "categoryId": 33,
+  "images": [
+    "https://jimenez.biz/"
+  ]
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 147,
+  "title": "Focused intermediate data-warehouse-de250c9e8ad343158df1dc60f7438ed4",
+  "slug": "focused-intermediate-data-warehouse-de250c9e8ad343158df1dc60f7438ed4",
+  "price": 947,
+  "description": "Exclusive mission-critical alliance",
+  "category": {
+    "id": 33,
+    "name": "Toys_52442db76888447e9ceed047b8523b97",
+    "slug": "toys-52442db76888447e9ceed047b8523b97",
+    "image": "http://www.smith.info/",
+    "creationAt": "2026-10-15T03:51:00.000Z",
+    "updatedAt": "2026-10-15T03:51:00.000Z"
+  },
+  "images": [
+    "https://jimenez.biz/"
+  ],
+  "creationAt": "2026-10-15T03:51:01.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+}
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Toys_52442db76888447e9ceed047b8523b97",
+  "slug": "toys-52442db76888447e9ceed047b8523b97",
+  "image": "http://www.smith.info/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 400
+Body:
+{
+  "path": "/api/v1/categories/33",
+  "timestamp": "2026-10-15T03:51:01.231Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

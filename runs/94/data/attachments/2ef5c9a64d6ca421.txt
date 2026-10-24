@@ -1,0 +1,55 @@
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_a130ca4ccbde437f91dd71b4ace08365",
+  "image": "http://garcia.com/"
+} 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Pet Supplies_a130ca4ccbde437f91dd71b4ace08365",
+  "slug": "pet-supplies-a130ca4ccbde437f91dd71b4ace08365",
+  "image": "http://garcia.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+}
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/35
+Body:
+{
+  "name": "Personal Care_47ce9e93277e4361ae654b4e67c040ce",
+  "image": null
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/35 -> 400
+Body:
+{
+  "path": "/api/v1/categories/35",
+  "timestamp": "2026-10-15T03:51:01.432Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Pet Supplies_a130ca4ccbde437f91dd71b4ace08365",
+  "slug": "pet-supplies-a130ca4ccbde437f91dd71b4ace08365",
+  "image": "http://garcia.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

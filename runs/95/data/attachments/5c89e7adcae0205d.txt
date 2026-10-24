@@ -1,0 +1,107 @@
+2026-10-16 03:46:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_73410eff70344ae6a264b32353ac8012",
+  "image": "http://www.williams.com/"
+} 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Clothing_73410eff70344ae6a264b32353ac8012",
+  "slug": "clothing-73410eff70344ae6a264b32353ac8012",
+  "image": "http://www.williams.com/",
+  "creationAt": "2026-10-16T03:46:36.000Z",
+  "updatedAt": "2026-10-16T03:46:36.000Z"
+} 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Organic methodical strategy-df777c7f551546daafb82f74a110623f",
+  "price": 851,
+  "description": "Customer-focused impactful project",
+  "categoryId": 41,
+  "images": [
+    "http://www.hill.org/"
+  ]
+} 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 187,
+  "title": "Organic methodical strategy-df777c7f551546daafb82f74a110623f",
+  "slug": "organic-methodical-strategy-df777c7f551546daafb82f74a110623f",
+  "price": 851,
+  "description": "Customer-focused impactful project",
+  "category": {
+    "id": 41,
+    "name": "Clothing_73410eff70344ae6a264b32353ac8012",
+    "slug": "clothing-73410eff70344ae6a264b32353ac8012",
+    "image": "http://www.williams.com/",
+    "creationAt": "2026-10-16T03:46:36.000Z",
+    "updatedAt": "2026-10-16T03:46:36.000Z"
+  },
+  "images": [
+    "http://www.hill.org/"
+  ],
+  "creationAt": "2026-10-16T03:46:37.000Z",
+  "updatedAt": "2026-10-16T03:46:37.000Z"
+}
+2026-10-16 03:46:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/187
+Body:
+<empty> 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/187 -> 200
+Body:
+true 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/187
+Body:
+<empty> 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/187 -> 400
+Body:
+{
+  "path": "/api/v1/products/187",
+  "timestamp": "2026-10-16T03:46:37.139Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 187\n    }\n}"
+}
+2026-10-16 03:46:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/187
+Body:
+<empty> 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/187 -> 400
+Body:
+{
+  "path": "/api/v1/products/187",
+  "timestamp": "2026-10-16T03:46:37.168Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 187\n    }\n}"
+} 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Clothing_73410eff70344ae6a264b32353ac8012",
+  "slug": "clothing-73410eff70344ae6a264b32353ac8012",
+  "image": "http://www.williams.com/",
+  "creationAt": "2026-10-16T03:46:36.000Z",
+  "updatedAt": "2026-10-16T03:46:36.000Z"
+} 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-16 03:46:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

@@ -1,0 +1,80 @@
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Danielle Campbell",
+  "email": "leblancsteven@example.org",
+  "password": "***",
+  "avatar": "http://dawson.info/"
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 42,
+  "email": "leblancsteven@example.org",
+  "password": "***",
+  "name": "Danielle Campbell",
+  "role": "customer",
+  "avatar": "http://dawson.info/",
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+}
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/42
+Body:
+{
+  "email": "huynhkimberly@example.com"
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/42 -> 200
+Body:
+{
+  "id": 42,
+  "email": "huynhkimberly@example.com",
+  "password": "***",
+  "name": "Danielle Campbell",
+  "role": "customer",
+  "avatar": "http://dawson.info/",
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/42
+Body:
+<empty> 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/42 -> 200
+Body:
+{
+  "id": 42,
+  "email": "huynhkimberly@example.com",
+  "password": "***",
+  "name": "Danielle Campbell",
+  "role": "customer",
+  "avatar": "http://dawson.info/",
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+}
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/42
+Body:
+<empty> 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/42 -> 200
+Body:
+{
+  "id": 42,
+  "email": "huynhkimberly@example.com",
+  "password": "***",
+  "name": "Danielle Campbell",
+  "role": "customer",
+  "avatar": "http://dawson.info/",
+  "creationAt": "2026-10-19T03:53:10.000Z",
+  "updatedAt": "2026-10-19T03:53:10.000Z"
+} 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/42
+Body:
+<empty> 
+
+2026-10-19 03:53:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/42 -> 200
+Body:
+true

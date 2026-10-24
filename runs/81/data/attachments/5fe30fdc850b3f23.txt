@@ -1,0 +1,88 @@
+2026-10-02 04:46:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Sarah Middleton",
+  "email": "ewilliams@example.org",
+  "password": "***",
+  "avatar": "http://www.alvarez.com/"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 214,
+  "email": "ewilliams@example.org",
+  "password": "***",
+  "name": "Sarah Middleton",
+  "role": "customer",
+  "avatar": "http://www.alvarez.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+}
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "ewilliams@example.org",
+  "password": "***"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIxNCwiaWF0IjoxNzkwOTE2NDE0LCJleHAiOjE3OTA5NTI0MTR9.jkRiWDjCZaiXrY5hl5kdtpuzhCL7ZOZpmrvPi4fC4E4"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 214,
+  "email": "ewilliams@example.org",
+  "password": "***",
+  "name": "Sarah Middleton",
+  "role": "customer",
+  "avatar": "http://www.alvarez.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+}
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/214
+Body:
+<empty> 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/214 -> 200
+Body:
+{
+  "id": 214,
+  "email": "ewilliams@example.org",
+  "password": "***",
+  "name": "Sarah Middleton",
+  "role": "customer",
+  "avatar": "http://www.alvarez.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/214
+Body:
+<empty> 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/214 -> 200
+Body:
+true

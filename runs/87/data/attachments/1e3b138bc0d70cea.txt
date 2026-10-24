@@ -1,0 +1,88 @@
+2026-10-08 05:14:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Erica Blanchard",
+  "email": "knappbeverly@example.com",
+  "password": "***",
+  "avatar": "http://www.sawyer.info/"
+} 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 130,
+  "email": "knappbeverly@example.com",
+  "password": "***",
+  "name": "Erica Blanchard",
+  "role": "customer",
+  "avatar": "http://www.sawyer.info/",
+  "creationAt": "2026-10-08T05:14:18.000Z",
+  "updatedAt": "2026-10-08T05:14:18.000Z"
+}
+2026-10-08 05:14:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "knappbeverly@example.com",
+  "password": "***"
+} 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEzMCwiaWF0IjoxNzkxNDM2NDU4LCJleHAiOjE3OTE0NzI0NTh9.PJjLhfDordFUnnBqu1Qri0qJ2sRBX3KpIm0o4AtiNTE"
+} 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 130,
+  "email": "knappbeverly@example.com",
+  "password": "***",
+  "name": "Erica Blanchard",
+  "role": "customer",
+  "avatar": "http://www.sawyer.info/",
+  "creationAt": "2026-10-08T05:14:18.000Z",
+  "updatedAt": "2026-10-08T05:14:18.000Z"
+}
+2026-10-08 05:14:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/130
+Body:
+<empty> 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/130 -> 200
+Body:
+{
+  "id": 130,
+  "email": "knappbeverly@example.com",
+  "password": "***",
+  "name": "Erica Blanchard",
+  "role": "customer",
+  "avatar": "http://www.sawyer.info/",
+  "creationAt": "2026-10-08T05:14:18.000Z",
+  "updatedAt": "2026-10-08T05:14:18.000Z"
+} 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/130
+Body:
+<empty> 
+
+2026-10-08 05:14:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/130 -> 200
+Body:
+true

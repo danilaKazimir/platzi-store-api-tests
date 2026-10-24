@@ -1,0 +1,53 @@
+2026-10-06 05:33:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_b0dd830f77b04670ae81c29e99a5b6b8",
+  "image": "http://www.smith.com/"
+} 
+
+2026-10-06 05:33:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 308,
+  "name": "Food & Beverages_b0dd830f77b04670ae81c29e99a5b6b8",
+  "slug": "food-beverages-b0dd830f77b04670ae81c29e99a5b6b8",
+  "image": "http://www.smith.com/",
+  "creationAt": "2026-10-06T05:33:44.000Z",
+  "updatedAt": "2026-10-06T05:33:44.000Z"
+}
+2026-10-06 05:33:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/food-beverages-b0dd830f77b04670ae81c29e99a5b6b8
+Body:
+<empty> 
+
+2026-10-06 05:33:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/food-beverages-b0dd830f77b04670ae81c29e99a5b6b8 -> 200
+Body:
+{
+  "id": 308,
+  "name": "Food & Beverages_b0dd830f77b04670ae81c29e99a5b6b8",
+  "slug": "food-beverages-b0dd830f77b04670ae81c29e99a5b6b8",
+  "image": "http://www.smith.com/",
+  "creationAt": "2026-10-06T05:33:44.000Z",
+  "updatedAt": "2026-10-06T05:33:44.000Z"
+}
+2026-10-06 05:33:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/308
+Body:
+<empty> 
+
+2026-10-06 05:33:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/308 -> 200
+Body:
+{
+  "id": 308,
+  "name": "Food & Beverages_b0dd830f77b04670ae81c29e99a5b6b8",
+  "slug": "food-beverages-b0dd830f77b04670ae81c29e99a5b6b8",
+  "image": "http://www.smith.com/",
+  "creationAt": "2026-10-06T05:33:44.000Z",
+  "updatedAt": "2026-10-06T05:33:44.000Z"
+} 
+
+2026-10-06 05:33:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/308
+Body:
+<empty> 
+
+2026-10-06 05:33:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/308 -> 200
+Body:
+true

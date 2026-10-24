@@ -1,0 +1,15 @@
+2026-10-09 05:17:22 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Food & Beverages_8240d3d728c04d398c300bd87a7ec2a5",
+  "image": "https://green.com/"
+} 
+
+2026-10-09 05:17:22 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-09T05:17:22.694Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

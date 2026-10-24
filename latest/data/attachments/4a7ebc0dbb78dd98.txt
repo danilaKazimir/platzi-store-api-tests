@@ -1,0 +1,53 @@
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_d483444e330a41c684c24c4dff27a64e",
+  "image": "https://fletcher-jones.com/"
+} 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 101,
+  "name": "Personal Care_d483444e330a41c684c24c4dff27a64e",
+  "slug": "personal-care-d483444e330a41c684c24c4dff27a64e",
+  "image": "https://fletcher-jones.com/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+}
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/personal-care-d483444e330a41c684c24c4dff27a64e
+Body:
+<empty> 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/personal-care-d483444e330a41c684c24c4dff27a64e -> 200
+Body:
+{
+  "id": 101,
+  "name": "Personal Care_d483444e330a41c684c24c4dff27a64e",
+  "slug": "personal-care-d483444e330a41c684c24c4dff27a64e",
+  "image": "https://fletcher-jones.com/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+}
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/101
+Body:
+<empty> 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/101 -> 200
+Body:
+{
+  "id": 101,
+  "name": "Personal Care_d483444e330a41c684c24c4dff27a64e",
+  "slug": "personal-care-d483444e330a41c684c24c4dff27a64e",
+  "image": "https://fletcher-jones.com/",
+  "creationAt": "2026-10-24T03:52:01.000Z",
+  "updatedAt": "2026-10-24T03:52:01.000Z"
+} 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/101
+Body:
+<empty> 
+
+2026-10-24 03:52:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/101 -> 200
+Body:
+true

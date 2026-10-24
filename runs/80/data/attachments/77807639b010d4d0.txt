@@ -1,0 +1,55 @@
+2026-10-01 04:56:31 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_3841b397253445d789b1ffc6e3360dc9",
+  "image": "http://johnson.net/"
+} 
+
+2026-10-01 04:56:31 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 52,
+  "name": "Automotive Accessories_3841b397253445d789b1ffc6e3360dc9",
+  "slug": "automotive-accessories-3841b397253445d789b1ffc6e3360dc9",
+  "image": "http://johnson.net/",
+  "creationAt": "2026-10-01T04:56:31.000Z",
+  "updatedAt": "2026-10-01T04:56:31.000Z"
+}
+2026-10-01 04:56:31 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/52
+Body:
+{
+  "name": "Sports & Fitness_7902f6cc677b4ed7853d4c6d37d1b64b",
+  "image": null
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/52 -> 400
+Body:
+{
+  "path": "/api/v1/categories/52",
+  "timestamp": "2026-10-01T04:56:32.807Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/52
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/52 -> 200
+Body:
+{
+  "id": 52,
+  "name": "Automotive Accessories_3841b397253445d789b1ffc6e3360dc9",
+  "slug": "automotive-accessories-3841b397253445d789b1ffc6e3360dc9",
+  "image": "http://johnson.net/",
+  "creationAt": "2026-10-01T04:56:31.000Z",
+  "updatedAt": "2026-10-01T04:56:31.000Z"
+} 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/52
+Body:
+<empty> 
+
+2026-10-01 04:56:32 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/52 -> 200
+Body:
+true

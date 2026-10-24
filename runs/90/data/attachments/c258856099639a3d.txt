@@ -1,0 +1,135 @@
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_95652e1c680247a6925b5739431d8e1b",
+  "image": "https://carroll.com/"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Automotive Accessories_95652e1c680247a6925b5739431d8e1b",
+  "slug": "automotive-accessories-95652e1c680247a6925b5739431d8e1b",
+  "image": "https://carroll.com/",
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Phased national Local Area Network-4db54b07b60c4a94bab71f809c80e844",
+  "price": 29,
+  "description": "Stand-alone empowering project",
+  "categoryId": 40,
+  "images": [
+    "http://www.lowe.com/"
+  ]
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 128,
+  "title": "Phased national Local Area Network-4db54b07b60c4a94bab71f809c80e844",
+  "slug": "phased-national-local-area-network-4db54b07b60c4a94bab71f809c80e844",
+  "price": 29,
+  "description": "Stand-alone empowering project",
+  "category": {
+    "id": 40,
+    "name": "Automotive Accessories_95652e1c680247a6925b5739431d8e1b",
+    "slug": "automotive-accessories-95652e1c680247a6925b5739431d8e1b",
+    "image": "https://carroll.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "http://www.lowe.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+}
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/128
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/128 -> 200
+Body:
+{
+  "id": 128,
+  "title": "Phased national Local Area Network-4db54b07b60c4a94bab71f809c80e844",
+  "slug": "phased-national-local-area-network-4db54b07b60c4a94bab71f809c80e844",
+  "price": 29,
+  "description": "Stand-alone empowering project",
+  "category": {
+    "id": 40,
+    "name": "Automotive Accessories_95652e1c680247a6925b5739431d8e1b",
+    "slug": "automotive-accessories-95652e1c680247a6925b5739431d8e1b",
+    "image": "https://carroll.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "http://www.lowe.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+}
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/128
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/128 -> 200
+Body:
+{
+  "id": 128,
+  "title": "Phased national Local Area Network-4db54b07b60c4a94bab71f809c80e844",
+  "slug": "phased-national-local-area-network-4db54b07b60c4a94bab71f809c80e844",
+  "price": 29,
+  "description": "Stand-alone empowering project",
+  "category": {
+    "id": 40,
+    "name": "Automotive Accessories_95652e1c680247a6925b5739431d8e1b",
+    "slug": "automotive-accessories-95652e1c680247a6925b5739431d8e1b",
+    "image": "https://carroll.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "http://www.lowe.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/128
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/128 -> 200
+Body:
+true 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Automotive Accessories_95652e1c680247a6925b5739431d8e1b",
+  "slug": "automotive-accessories-95652e1c680247a6925b5739431d8e1b",
+  "image": "https://carroll.com/",
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

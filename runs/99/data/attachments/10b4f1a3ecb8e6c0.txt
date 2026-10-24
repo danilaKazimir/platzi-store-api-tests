@@ -1,0 +1,53 @@
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_c405768c7dcc4dcca66194657e5df694",
+  "image": "http://www.gardner.com/"
+} 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 100,
+  "name": "Automotive Accessories_c405768c7dcc4dcca66194657e5df694",
+  "slug": "automotive-accessories-c405768c7dcc4dcca66194657e5df694",
+  "image": "http://www.gardner.com/",
+  "creationAt": "2026-10-20T04:04:50.000Z",
+  "updatedAt": "2026-10-20T04:04:50.000Z"
+}
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/100
+Body:
+<empty> 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/100 -> 200
+Body:
+{
+  "id": 100,
+  "name": "Automotive Accessories_c405768c7dcc4dcca66194657e5df694",
+  "slug": "automotive-accessories-c405768c7dcc4dcca66194657e5df694",
+  "image": "http://www.gardner.com/",
+  "creationAt": "2026-10-20T04:04:50.000Z",
+  "updatedAt": "2026-10-20T04:04:50.000Z"
+}
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/100
+Body:
+<empty> 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/100 -> 200
+Body:
+{
+  "id": 100,
+  "name": "Automotive Accessories_c405768c7dcc4dcca66194657e5df694",
+  "slug": "automotive-accessories-c405768c7dcc4dcca66194657e5df694",
+  "image": "http://www.gardner.com/",
+  "creationAt": "2026-10-20T04:04:50.000Z",
+  "updatedAt": "2026-10-20T04:04:50.000Z"
+} 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/100
+Body:
+<empty> 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/100 -> 200
+Body:
+true

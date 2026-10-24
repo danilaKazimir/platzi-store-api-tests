@@ -1,0 +1,79 @@
+2026-10-09 05:17:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_d5ee50be68974b74b8f80bf1f07aa962",
+  "image": "https://www.spencer.com/"
+} 
+
+2026-10-09 05:17:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Automotive Accessories_d5ee50be68974b74b8f80bf1f07aa962",
+  "slug": "automotive-accessories-d5ee50be68974b74b8f80bf1f07aa962",
+  "image": "https://www.spencer.com/",
+  "creationAt": "2026-10-09T05:17:22.000Z",
+  "updatedAt": "2026-10-09T05:17:22.000Z"
+}
+2026-10-09 05:17:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable coherent Graphic Interface-f6337881015343c5b42a5b3f803e4ad4",
+  "price": 462,
+  "description": "Advanced foreground info-mediaries",
+  "categoryId": 41,
+  "images": [
+    "http://www.king.com/"
+  ]
+} 
+
+2026-10-09 05:17:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 190,
+  "title": "Programmable coherent Graphic Interface-f6337881015343c5b42a5b3f803e4ad4",
+  "slug": "programmable-coherent-graphic-interface-f6337881015343c5b42a5b3f803e4ad4",
+  "price": 462,
+  "description": "Advanced foreground info-mediaries",
+  "category": {
+    "id": 41,
+    "name": "Automotive Accessories_d5ee50be68974b74b8f80bf1f07aa962",
+    "slug": "automotive-accessories-d5ee50be68974b74b8f80bf1f07aa962",
+    "image": "https://www.spencer.com/",
+    "creationAt": "2026-10-09T05:17:22.000Z",
+    "updatedAt": "2026-10-09T05:17:22.000Z"
+  },
+  "images": [
+    "http://www.king.com/"
+  ],
+  "creationAt": "2026-10-09T05:17:22.000Z",
+  "updatedAt": "2026-10-09T05:17:22.000Z"
+}
+2026-10-09 05:17:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-09 05:17:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Automotive Accessories_d5ee50be68974b74b8f80bf1f07aa962",
+  "slug": "automotive-accessories-d5ee50be68974b74b8f80bf1f07aa962",
+  "image": "https://www.spencer.com/",
+  "creationAt": "2026-10-09T05:17:22.000Z",
+  "updatedAt": "2026-10-09T05:17:22.000Z"
+} 
+
+2026-10-09 05:17:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-09 05:17:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 400
+Body:
+{
+  "path": "/api/v1/categories/41",
+  "timestamp": "2026-10-09T05:17:22.832Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

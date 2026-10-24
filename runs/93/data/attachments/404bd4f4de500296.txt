@@ -1,0 +1,135 @@
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_a871693dc86a49aebecd6fb3523f7e7c",
+  "image": "https://bentley-johns.com/"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 42,
+  "name": "Sports & Fitness_a871693dc86a49aebecd6fb3523f7e7c",
+  "slug": "sports-fitness-a871693dc86a49aebecd6fb3523f7e7c",
+  "image": "https://bentley-johns.com/",
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Monitored secondary budgetary management-31da411a68094df99fc7154f9711ae36",
+  "price": 612,
+  "description": "Decentralized value-added support",
+  "categoryId": 42,
+  "images": [
+    "http://www.larson.com/"
+  ]
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 127,
+  "title": "Monitored secondary budgetary management-31da411a68094df99fc7154f9711ae36",
+  "slug": "monitored-secondary-budgetary-management-31da411a68094df99fc7154f9711ae36",
+  "price": 612,
+  "description": "Decentralized value-added support",
+  "category": {
+    "id": 42,
+    "name": "Sports & Fitness_a871693dc86a49aebecd6fb3523f7e7c",
+    "slug": "sports-fitness-a871693dc86a49aebecd6fb3523f7e7c",
+    "image": "https://bentley-johns.com/",
+    "creationAt": "2026-10-14T04:08:15.000Z",
+    "updatedAt": "2026-10-14T04:08:15.000Z"
+  },
+  "images": [
+    "http://www.larson.com/"
+  ],
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+}
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/monitored-secondary-budgetary-management-31da411a68094df99fc7154f9711ae36
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/monitored-secondary-budgetary-management-31da411a68094df99fc7154f9711ae36 -> 200
+Body:
+{
+  "id": 127,
+  "title": "Monitored secondary budgetary management-31da411a68094df99fc7154f9711ae36",
+  "slug": "monitored-secondary-budgetary-management-31da411a68094df99fc7154f9711ae36",
+  "price": 612,
+  "description": "Decentralized value-added support",
+  "category": {
+    "id": 42,
+    "name": "Sports & Fitness_a871693dc86a49aebecd6fb3523f7e7c",
+    "slug": "sports-fitness-a871693dc86a49aebecd6fb3523f7e7c",
+    "image": "https://bentley-johns.com/",
+    "creationAt": "2026-10-14T04:08:15.000Z",
+    "updatedAt": "2026-10-14T04:08:15.000Z"
+  },
+  "images": [
+    "http://www.larson.com/"
+  ],
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+}
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/127
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/127 -> 200
+Body:
+{
+  "id": 127,
+  "title": "Monitored secondary budgetary management-31da411a68094df99fc7154f9711ae36",
+  "slug": "monitored-secondary-budgetary-management-31da411a68094df99fc7154f9711ae36",
+  "price": 612,
+  "description": "Decentralized value-added support",
+  "category": {
+    "id": 42,
+    "name": "Sports & Fitness_a871693dc86a49aebecd6fb3523f7e7c",
+    "slug": "sports-fitness-a871693dc86a49aebecd6fb3523f7e7c",
+    "image": "https://bentley-johns.com/",
+    "creationAt": "2026-10-14T04:08:15.000Z",
+    "updatedAt": "2026-10-14T04:08:15.000Z"
+  },
+  "images": [
+    "http://www.larson.com/"
+  ],
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/127
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/127 -> 200
+Body:
+true 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+{
+  "id": 42,
+  "name": "Sports & Fitness_a871693dc86a49aebecd6fb3523f7e7c",
+  "slug": "sports-fitness-a871693dc86a49aebecd6fb3523f7e7c",
+  "image": "https://bentley-johns.com/",
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+true

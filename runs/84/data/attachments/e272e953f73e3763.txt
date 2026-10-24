@@ -1,0 +1,135 @@
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_a9a410188cfb4b509eab1e37eb39fbd4",
+  "image": "https://simmons.biz/"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 204,
+  "name": "Electronics_a9a410188cfb4b509eab1e37eb39fbd4",
+  "slug": "electronics-a9a410188cfb4b509eab1e37eb39fbd4",
+  "image": "https://simmons.biz/",
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Pre-emptive 6thgeneration architecture-c9c475b0b59c45948def684086826b37",
+  "price": 660,
+  "description": "Centralized object-oriented knowledge user",
+  "categoryId": 204,
+  "images": [
+    "http://www.king.com/"
+  ]
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 323,
+  "title": "Pre-emptive 6thgeneration architecture-c9c475b0b59c45948def684086826b37",
+  "slug": "pre-emptive-6thgeneration-architecture-c9c475b0b59c45948def684086826b37",
+  "price": 660,
+  "description": "Centralized object-oriented knowledge user",
+  "category": {
+    "id": 204,
+    "name": "Electronics_a9a410188cfb4b509eab1e37eb39fbd4",
+    "slug": "electronics-a9a410188cfb4b509eab1e37eb39fbd4",
+    "image": "https://simmons.biz/",
+    "creationAt": "2026-10-05T04:47:06.000Z",
+    "updatedAt": "2026-10-05T04:47:06.000Z"
+  },
+  "images": [
+    "http://www.king.com/"
+  ],
+  "creationAt": "2026-10-05T04:47:07.000Z",
+  "updatedAt": "2026-10-05T04:47:07.000Z"
+}
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/323
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/323 -> 200
+Body:
+{
+  "id": 323,
+  "title": "Pre-emptive 6thgeneration architecture-c9c475b0b59c45948def684086826b37",
+  "slug": "pre-emptive-6thgeneration-architecture-c9c475b0b59c45948def684086826b37",
+  "price": 660,
+  "description": "Centralized object-oriented knowledge user",
+  "category": {
+    "id": 204,
+    "name": "Electronics_a9a410188cfb4b509eab1e37eb39fbd4",
+    "slug": "electronics-a9a410188cfb4b509eab1e37eb39fbd4",
+    "image": "https://simmons.biz/",
+    "creationAt": "2026-10-05T04:47:06.000Z",
+    "updatedAt": "2026-10-05T04:47:06.000Z"
+  },
+  "images": [
+    "http://www.king.com/"
+  ],
+  "creationAt": "2026-10-05T04:47:07.000Z",
+  "updatedAt": "2026-10-05T04:47:07.000Z"
+}
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/323
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/323 -> 200
+Body:
+{
+  "id": 323,
+  "title": "Pre-emptive 6thgeneration architecture-c9c475b0b59c45948def684086826b37",
+  "slug": "pre-emptive-6thgeneration-architecture-c9c475b0b59c45948def684086826b37",
+  "price": 660,
+  "description": "Centralized object-oriented knowledge user",
+  "category": {
+    "id": 204,
+    "name": "Electronics_a9a410188cfb4b509eab1e37eb39fbd4",
+    "slug": "electronics-a9a410188cfb4b509eab1e37eb39fbd4",
+    "image": "https://simmons.biz/",
+    "creationAt": "2026-10-05T04:47:06.000Z",
+    "updatedAt": "2026-10-05T04:47:06.000Z"
+  },
+  "images": [
+    "http://www.king.com/"
+  ],
+  "creationAt": "2026-10-05T04:47:07.000Z",
+  "updatedAt": "2026-10-05T04:47:07.000Z"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/323
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/323 -> 200
+Body:
+true 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/204
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/204 -> 200
+Body:
+{
+  "id": 204,
+  "name": "Electronics_a9a410188cfb4b509eab1e37eb39fbd4",
+  "slug": "electronics-a9a410188cfb4b509eab1e37eb39fbd4",
+  "image": "https://simmons.biz/",
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/204
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/204 -> 200
+Body:
+true

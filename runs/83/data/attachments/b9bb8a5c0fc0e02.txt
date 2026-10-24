@@ -1,0 +1,175 @@
+2026-10-04 05:00:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_1c3f98d83e9441a0a28d55a965ac2992",
+  "image": "http://kaiser.org/"
+} 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 62,
+  "name": "Automotive Accessories_1c3f98d83e9441a0a28d55a965ac2992",
+  "slug": "automotive-accessories-1c3f98d83e9441a0a28d55a965ac2992",
+  "image": "http://kaiser.org/",
+  "creationAt": "2026-10-04T05:00:06.000Z",
+  "updatedAt": "2026-10-04T05:00:06.000Z"
+}
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T10:32:24.000Z",
+    "updatedAt": "2026-10-03T18:00:21.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-03T10:32:24.000Z",
+    "updatedAt": "2026-10-03T10:32:24.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-03T10:32:24.000Z",
+    "updatedAt": "2026-10-03T10:32:24.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-03T10:32:24.000Z",
+    "updatedAt": "2026-10-03T10:32:24.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-03T10:32:24.000Z",
+    "updatedAt": "2026-10-03T10:32:24.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Grosery",
+    "slug": "grosery",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T11:00:39.000Z",
+    "updatedAt": "2026-10-03T11:00:39.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Computer Category",
+    "slug": "computer-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T11:00:42.000Z",
+    "updatedAt": "2026-10-03T11:00:42.000Z"
+  },
+  {
+    "id": 20,
+    "name": "New Category 3",
+    "slug": "new-category-3",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T15:00:19.000Z",
+    "updatedAt": "2026-10-03T15:00:19.000Z"
+  },
+  {
+    "id": 55,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-10-03T17:00:59.000Z",
+    "updatedAt": "2026-10-03T17:00:59.000Z"
+  },
+  {
+    "id": 56,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T17:01:37.000Z",
+    "updatedAt": "2026-10-03T17:01:37.000Z"
+  },
+  {
+    "id": 57,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T18:00:20.000Z",
+    "updatedAt": "2026-10-03T18:00:20.000Z"
+  },
+  {
+    "id": 58,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T18:01:00.000Z",
+    "updatedAt": "2026-10-03T18:01:00.000Z"
+  },
+  {
+    "id": 59,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-03T19:00:45.000Z",
+    "updatedAt": "2026-10-03T19:00:45.000Z"
+  },
+  {
+    "id": 60,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-03T21:00:55.000Z",
+    "updatedAt": "2026-10-03T21:00:55.000Z"
+  },
+  {
+    "id": 61,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-03T21:00:56.000Z",
+    "updatedAt": "2026-10-03T21:00:56.000Z"
+  },
+  {
+    "id": 62,
+    "name": "Automotive Accessories_1c3f98d83e9441a0a28d55a965ac2992",
+    "slug": "automotive-accessories-1c3f98d83e9441a0a28d55a965ac2992",
+    "image": "http://kaiser.org/",
+    "creationAt": "2026-10-04T05:00:06.000Z",
+    "updatedAt": "2026-10-04T05:00:06.000Z"
+  }
+]
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/62
+Body:
+<empty> 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/62 -> 200
+Body:
+{
+  "id": 62,
+  "name": "Automotive Accessories_1c3f98d83e9441a0a28d55a965ac2992",
+  "slug": "automotive-accessories-1c3f98d83e9441a0a28d55a965ac2992",
+  "image": "http://kaiser.org/",
+  "creationAt": "2026-10-04T05:00:06.000Z",
+  "updatedAt": "2026-10-04T05:00:06.000Z"
+} 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/62
+Body:
+<empty> 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/62 -> 200
+Body:
+true

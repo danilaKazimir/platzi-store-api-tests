@@ -1,0 +1,135 @@
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_6ab05b97394d445c9843e70d491d589f",
+  "image": "https://www.green.info/"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 172,
+  "name": "Clothing_6ab05b97394d445c9843e70d491d589f",
+  "slug": "clothing-6ab05b97394d445c9843e70d491d589f",
+  "image": "https://www.green.info/",
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented web-enabled data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "price": 188,
+  "description": "Centralized 24hour model",
+  "categoryId": 172,
+  "images": [
+    "https://thomas.biz/"
+  ]
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 286,
+  "title": "Vision-oriented web-enabled data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "slug": "vision-oriented-web-enabled-data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "price": 188,
+  "description": "Centralized 24hour model",
+  "category": {
+    "id": 172,
+    "name": "Clothing_6ab05b97394d445c9843e70d491d589f",
+    "slug": "clothing-6ab05b97394d445c9843e70d491d589f",
+    "image": "https://www.green.info/",
+    "creationAt": "2026-09-30T04:44:13.000Z",
+    "updatedAt": "2026-09-30T04:44:13.000Z"
+  },
+  "images": [
+    "https://thomas.biz/"
+  ],
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+}
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/286
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/286 -> 200
+Body:
+{
+  "id": 286,
+  "title": "Vision-oriented web-enabled data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "slug": "vision-oriented-web-enabled-data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "price": 188,
+  "description": "Centralized 24hour model",
+  "category": {
+    "id": 172,
+    "name": "Clothing_6ab05b97394d445c9843e70d491d589f",
+    "slug": "clothing-6ab05b97394d445c9843e70d491d589f",
+    "image": "https://www.green.info/",
+    "creationAt": "2026-09-30T04:44:13.000Z",
+    "updatedAt": "2026-09-30T04:44:13.000Z"
+  },
+  "images": [
+    "https://thomas.biz/"
+  ],
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+}
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/286
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/286 -> 200
+Body:
+{
+  "id": 286,
+  "title": "Vision-oriented web-enabled data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "slug": "vision-oriented-web-enabled-data-warehouse-36a8035e4a1e4370b3b170b41881d0e6",
+  "price": 188,
+  "description": "Centralized 24hour model",
+  "category": {
+    "id": 172,
+    "name": "Clothing_6ab05b97394d445c9843e70d491d589f",
+    "slug": "clothing-6ab05b97394d445c9843e70d491d589f",
+    "image": "https://www.green.info/",
+    "creationAt": "2026-09-30T04:44:13.000Z",
+    "updatedAt": "2026-09-30T04:44:13.000Z"
+  },
+  "images": [
+    "https://thomas.biz/"
+  ],
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/286
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/286 -> 200
+Body:
+true 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/172
+Body:
+<empty> 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/172 -> 200
+Body:
+{
+  "id": 172,
+  "name": "Clothing_6ab05b97394d445c9843e70d491d589f",
+  "slug": "clothing-6ab05b97394d445c9843e70d491d589f",
+  "image": "https://www.green.info/",
+  "creationAt": "2026-09-30T04:44:13.000Z",
+  "updatedAt": "2026-09-30T04:44:13.000Z"
+} 
+
+2026-09-30 04:44:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/172
+Body:
+<empty> 
+
+2026-09-30 04:44:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/172 -> 200
+Body:
+true
