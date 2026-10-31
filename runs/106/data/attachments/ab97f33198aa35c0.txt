@@ -1,0 +1,79 @@
+2026-10-27 04:16:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_353c069f2bd94fd88cbd79122856723d",
+  "image": "http://mcconnell-turner.com/"
+} 
+
+2026-10-27 04:16:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Clothing_353c069f2bd94fd88cbd79122856723d",
+  "slug": "clothing-353c069f2bd94fd88cbd79122856723d",
+  "image": "http://mcconnell-turner.com/",
+  "creationAt": "2026-10-27T04:16:50.000Z",
+  "updatedAt": "2026-10-27T04:16:50.000Z"
+}
+2026-10-27 04:16:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Horizontal full-range model-ff0def938bc846dcb92deb2dabc759f7",
+  "price": 122,
+  "description": "Public-key impactful artificial intelligence",
+  "categoryId": 34,
+  "images": [
+    "http://gilbert.com/"
+  ]
+} 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 103,
+  "title": "Horizontal full-range model-ff0def938bc846dcb92deb2dabc759f7",
+  "slug": "horizontal-full-range-model-ff0def938bc846dcb92deb2dabc759f7",
+  "price": 122,
+  "description": "Public-key impactful artificial intelligence",
+  "category": {
+    "id": 34,
+    "name": "Clothing_353c069f2bd94fd88cbd79122856723d",
+    "slug": "clothing-353c069f2bd94fd88cbd79122856723d",
+    "image": "http://mcconnell-turner.com/",
+    "creationAt": "2026-10-27T04:16:50.000Z",
+    "updatedAt": "2026-10-27T04:16:50.000Z"
+  },
+  "images": [
+    "http://gilbert.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:51.000Z",
+  "updatedAt": "2026-10-27T04:16:51.000Z"
+}
+2026-10-27 04:16:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Clothing_353c069f2bd94fd88cbd79122856723d",
+  "slug": "clothing-353c069f2bd94fd88cbd79122856723d",
+  "image": "http://mcconnell-turner.com/",
+  "creationAt": "2026-10-27T04:16:50.000Z",
+  "updatedAt": "2026-10-27T04:16:50.000Z"
+} 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 400
+Body:
+{
+  "path": "/api/v1/categories/34",
+  "timestamp": "2026-10-27T04:16:51.543Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

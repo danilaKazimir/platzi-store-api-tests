@@ -1,0 +1,408 @@
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+  "image": "http://hawkins.com/"
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 43,
+  "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+  "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+  "image": "http://hawkins.com/",
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+}
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Quality-focused foreground frame-2c5dabda59184ae98f1c21807292ff15",
+  "price": 899,
+  "description": "Horizontal leadingedge standardization",
+  "categoryId": 43,
+  "images": [
+    "https://www.davis.com/"
+  ]
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 130,
+  "title": "Quality-focused foreground frame-2c5dabda59184ae98f1c21807292ff15",
+  "slug": "quality-focused-foreground-frame-2c5dabda59184ae98f1c21807292ff15",
+  "price": 899,
+  "description": "Horizontal leadingedge standardization",
+  "category": {
+    "id": 43,
+    "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+    "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+    "image": "http://hawkins.com/",
+    "creationAt": "2026-10-11T04:50:42.000Z",
+    "updatedAt": "2026-10-11T04:50:42.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+} 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable holistic project-165c08e51973417088865ab65f418d17",
+  "price": 164,
+  "description": "Adaptive coherent forecast",
+  "categoryId": 43,
+  "images": [
+    "https://allen-meyer.info/"
+  ]
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 132,
+  "title": "Upgradable holistic project-165c08e51973417088865ab65f418d17",
+  "slug": "upgradable-holistic-project-165c08e51973417088865ab65f418d17",
+  "price": 164,
+  "description": "Adaptive coherent forecast",
+  "category": {
+    "id": 43,
+    "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+    "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+    "image": "http://hawkins.com/",
+    "creationAt": "2026-10-11T04:50:42.000Z",
+    "updatedAt": "2026-10-11T04:50:42.000Z"
+  },
+  "images": [
+    "https://allen-meyer.info/"
+  ],
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ergonomic optimal monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+  "price": 819,
+  "description": "Balanced logistical migration",
+  "categoryId": 43,
+  "images": [
+    "http://www.murray.com/"
+  ]
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 134,
+  "title": "Ergonomic optimal monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+  "slug": "ergonomic-optimal-monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+  "price": 819,
+  "description": "Balanced logistical migration",
+  "category": {
+    "id": 43,
+    "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+    "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+    "image": "http://hawkins.com/",
+    "creationAt": "2026-10-11T04:50:42.000Z",
+    "updatedAt": "2026-10-11T04:50:42.000Z"
+  },
+  "images": [
+    "http://www.murray.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_d885afbc898340259a694581bd3fe35f",
+  "image": "https://www.rios.com/"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 45,
+  "name": "Sports & Fitness_d885afbc898340259a694581bd3fe35f",
+  "slug": "sports-fitness-d885afbc898340259a694581bd3fe35f",
+  "image": "https://www.rios.com/",
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly systemic core-f50db605fd5440f2a2d426a0e438d739",
+  "price": 542,
+  "description": "Programmable executive extranet",
+  "categoryId": 45,
+  "images": [
+    "https://www.alvarez.info/"
+  ]
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 136,
+  "title": "User-friendly systemic core-f50db605fd5440f2a2d426a0e438d739",
+  "slug": "user-friendly-systemic-core-f50db605fd5440f2a2d426a0e438d739",
+  "price": 542,
+  "description": "Programmable executive extranet",
+  "category": {
+    "id": 45,
+    "name": "Sports & Fitness_d885afbc898340259a694581bd3fe35f",
+    "slug": "sports-fitness-d885afbc898340259a694581bd3fe35f",
+    "image": "https://www.rios.com/",
+    "creationAt": "2026-10-11T04:50:43.000Z",
+    "updatedAt": "2026-10-11T04:50:43.000Z"
+  },
+  "images": [
+    "https://www.alvarez.info/"
+  ],
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/quality-focused-foreground-frame-2c5dabda59184ae98f1c21807292ff15/related
+Body:
+<empty> 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/quality-focused-foreground-frame-2c5dabda59184ae98f1c21807292ff15/related -> 200
+Body:
+[
+  {
+    "id": 132,
+    "title": "Upgradable holistic project-165c08e51973417088865ab65f418d17",
+    "slug": "upgradable-holistic-project-165c08e51973417088865ab65f418d17",
+    "price": 164,
+    "description": "Adaptive coherent forecast",
+    "category": {
+      "id": 43,
+      "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+      "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+      "image": "http://hawkins.com/",
+      "creationAt": "2026-10-11T04:50:42.000Z",
+      "updatedAt": "2026-10-11T04:50:42.000Z"
+    },
+    "images": [
+      "https://allen-meyer.info/"
+    ],
+    "creationAt": "2026-10-11T04:50:43.000Z",
+    "updatedAt": "2026-10-11T04:50:43.000Z"
+  },
+  {
+    "id": 134,
+    "title": "Ergonomic optimal monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+    "slug": "ergonomic-optimal-monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+    "price": 819,
+    "description": "Balanced logistical migration",
+    "category": {
+      "id": 43,
+      "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+      "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+      "image": "http://hawkins.com/",
+      "creationAt": "2026-10-11T04:50:42.000Z",
+      "updatedAt": "2026-10-11T04:50:42.000Z"
+    },
+    "images": [
+      "http://www.murray.com/"
+    ],
+    "creationAt": "2026-10-11T04:50:43.000Z",
+    "updatedAt": "2026-10-11T04:50:43.000Z"
+  }
+]
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/136
+Body:
+<empty> 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/136 -> 200
+Body:
+{
+  "id": 136,
+  "title": "User-friendly systemic core-f50db605fd5440f2a2d426a0e438d739",
+  "slug": "user-friendly-systemic-core-f50db605fd5440f2a2d426a0e438d739",
+  "price": 542,
+  "description": "Programmable executive extranet",
+  "category": {
+    "id": 45,
+    "name": "Sports & Fitness_d885afbc898340259a694581bd3fe35f",
+    "slug": "sports-fitness-d885afbc898340259a694581bd3fe35f",
+    "image": "https://www.rios.com/",
+    "creationAt": "2026-10-11T04:50:43.000Z",
+    "updatedAt": "2026-10-11T04:50:43.000Z"
+  },
+  "images": [
+    "https://www.alvarez.info/"
+  ],
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/136
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/136 -> 200
+Body:
+true 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/134
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/134 -> 200
+Body:
+{
+  "id": 134,
+  "title": "Ergonomic optimal monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+  "slug": "ergonomic-optimal-monitoring-dca90b4e28b243f28c7f72dd95af4bea",
+  "price": 819,
+  "description": "Balanced logistical migration",
+  "category": {
+    "id": 43,
+    "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+    "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+    "image": "http://hawkins.com/",
+    "creationAt": "2026-10-11T04:50:42.000Z",
+    "updatedAt": "2026-10-11T04:50:42.000Z"
+  },
+  "images": [
+    "http://www.murray.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/134
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/134 -> 200
+Body:
+true 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/132
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/132 -> 200
+Body:
+{
+  "id": 132,
+  "title": "Upgradable holistic project-165c08e51973417088865ab65f418d17",
+  "slug": "upgradable-holistic-project-165c08e51973417088865ab65f418d17",
+  "price": 164,
+  "description": "Adaptive coherent forecast",
+  "category": {
+    "id": 43,
+    "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+    "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+    "image": "http://hawkins.com/",
+    "creationAt": "2026-10-11T04:50:42.000Z",
+    "updatedAt": "2026-10-11T04:50:42.000Z"
+  },
+  "images": [
+    "https://allen-meyer.info/"
+  ],
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/132
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/132 -> 200
+Body:
+true 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/130
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/130 -> 200
+Body:
+{
+  "id": 130,
+  "title": "Quality-focused foreground frame-2c5dabda59184ae98f1c21807292ff15",
+  "slug": "quality-focused-foreground-frame-2c5dabda59184ae98f1c21807292ff15",
+  "price": 899,
+  "description": "Horizontal leadingedge standardization",
+  "category": {
+    "id": 43,
+    "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+    "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+    "image": "http://hawkins.com/",
+    "creationAt": "2026-10-11T04:50:42.000Z",
+    "updatedAt": "2026-10-11T04:50:42.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/130
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/130 -> 200
+Body:
+true 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+{
+  "id": 45,
+  "name": "Sports & Fitness_d885afbc898340259a694581bd3fe35f",
+  "slug": "sports-fitness-d885afbc898340259a694581bd3fe35f",
+  "image": "https://www.rios.com/",
+  "creationAt": "2026-10-11T04:50:43.000Z",
+  "updatedAt": "2026-10-11T04:50:43.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+true 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+{
+  "id": 43,
+  "name": "Home & Kitchen_b0fadfcac1274c639e5551a7eaa6e542",
+  "slug": "home-kitchen-b0fadfcac1274c639e5551a7eaa6e542",
+  "image": "http://hawkins.com/",
+  "creationAt": "2026-10-11T04:50:42.000Z",
+  "updatedAt": "2026-10-11T04:50:42.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+true

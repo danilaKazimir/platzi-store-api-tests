@@ -1,0 +1,61 @@
+2026-10-19 03:53:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "David Floyd",
+  "email": "clarkrobin@example.org",
+  "password": "***",
+  "avatar": "https://thomas.org/"
+} 
+
+2026-10-19 03:53:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 39,
+  "email": "clarkrobin@example.org",
+  "password": "***",
+  "name": "David Floyd",
+  "role": "customer",
+  "avatar": "https://thomas.org/",
+  "creationAt": "2026-10-19T03:53:09.000Z",
+  "updatedAt": "2026-10-19T03:53:09.000Z"
+}
+2026-10-19 03:53:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/39
+Body:
+<empty> 
+
+2026-10-19 03:53:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/39 -> 200
+Body:
+{
+  "id": 39,
+  "email": "clarkrobin@example.org",
+  "password": "***",
+  "name": "David Floyd",
+  "role": "customer",
+  "avatar": "https://thomas.org/",
+  "creationAt": "2026-10-19T03:53:09.000Z",
+  "updatedAt": "2026-10-19T03:53:09.000Z"
+}
+2026-10-19 03:53:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/39
+Body:
+<empty> 
+
+2026-10-19 03:53:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/39 -> 200
+Body:
+{
+  "id": 39,
+  "email": "clarkrobin@example.org",
+  "password": "***",
+  "name": "David Floyd",
+  "role": "customer",
+  "avatar": "https://thomas.org/",
+  "creationAt": "2026-10-19T03:53:09.000Z",
+  "updatedAt": "2026-10-19T03:53:09.000Z"
+} 
+
+2026-10-19 03:53:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/39
+Body:
+<empty> 
+
+2026-10-19 03:53:09 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/39 -> 200
+Body:
+true

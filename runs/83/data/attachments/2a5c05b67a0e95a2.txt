@@ -1,0 +1,53 @@
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "image": "http://www.wade.com/"
+} 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 63,
+  "name": "Sports & Fitness_f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "slug": "sports-fitness-f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "image": "http://www.wade.com/",
+  "creationAt": "2026-10-04T05:00:06.000Z",
+  "updatedAt": "2026-10-04T05:00:06.000Z"
+}
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Sports & Fitness_f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "slug": "sports-fitness-f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "image": "http://www.wade.com/",
+  "creationAt": "2026-10-04T05:00:06.000Z",
+  "updatedAt": "2026-10-04T05:00:06.000Z"
+}
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Sports & Fitness_f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "slug": "sports-fitness-f8a95e13cf3d45bbbe0465b4e4d59f81",
+  "image": "http://www.wade.com/",
+  "creationAt": "2026-10-04T05:00:06.000Z",
+  "updatedAt": "2026-10-04T05:00:06.000Z"
+} 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-04 05:00:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+true

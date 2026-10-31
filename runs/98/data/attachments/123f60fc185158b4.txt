@@ -1,0 +1,103 @@
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_e5aa786cafe94db799c159333325415d",
+  "image": "https://austin.com/"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Electronics_e5aa786cafe94db799c159333325415d",
+  "slug": "electronics-e5aa786cafe94db799c159333325415d",
+  "image": "https://austin.com/",
+  "creationAt": "2026-10-19T03:53:06.000Z",
+  "updatedAt": "2026-10-19T03:53:06.000Z"
+}
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 24,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-10-19T02:53:57.000Z",
+    "updatedAt": "2026-10-19T02:53:57.000Z"
+  },
+  {
+    "id": 25,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-19T02:53:57.000Z",
+    "updatedAt": "2026-10-19T02:53:57.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-19T02:53:58.000Z",
+    "updatedAt": "2026-10-19T02:53:58.000Z"
+  },
+  {
+    "id": 27,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-19T02:53:59.000Z",
+    "updatedAt": "2026-10-19T02:53:59.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-19T02:53:59.000Z",
+    "updatedAt": "2026-10-19T02:53:59.000Z"
+  },
+  {
+    "id": 29,
+    "name": "testCategory3a359a5b20a54d81bfec5bde9db56b72",
+    "slug": "testcategory3a359a5b20a54d81bfec5bde9db56b72",
+    "image": "http://www.silva.com/",
+    "creationAt": "2026-10-19T03:53:06.000Z",
+    "updatedAt": "2026-10-19T03:53:06.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Electronics_e5aa786cafe94db799c159333325415d",
+    "slug": "electronics-e5aa786cafe94db799c159333325415d",
+    "image": "https://austin.com/",
+    "creationAt": "2026-10-19T03:53:06.000Z",
+    "updatedAt": "2026-10-19T03:53:06.000Z"
+  }
+]
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Electronics_e5aa786cafe94db799c159333325415d",
+  "slug": "electronics-e5aa786cafe94db799c159333325415d",
+  "image": "https://austin.com/",
+  "creationAt": "2026-10-19T03:53:06.000Z",
+  "updatedAt": "2026-10-19T03:53:06.000Z"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

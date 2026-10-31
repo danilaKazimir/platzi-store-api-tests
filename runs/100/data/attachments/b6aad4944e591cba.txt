@@ -1,0 +1,135 @@
+2026-10-21 03:53:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_4f86445314c847619ef47a35d5e8400b",
+  "image": "http://jackson-potts.info/"
+} 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_4f86445314c847619ef47a35d5e8400b",
+  "slug": "home-kitchen-4f86445314c847619ef47a35d5e8400b",
+  "image": "http://jackson-potts.info/",
+  "creationAt": "2026-10-21T03:53:48.000Z",
+  "updatedAt": "2026-10-21T03:53:48.000Z"
+} 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-platform zero tolerance structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "price": 875,
+  "description": "Balanced encompassing conglomeration",
+  "categoryId": 30,
+  "images": [
+    "http://www.morgan-sanchez.org/"
+  ]
+} 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 93,
+  "title": "Cross-platform zero tolerance structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "slug": "cross-platform-zero-tolerance-structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "price": 875,
+  "description": "Balanced encompassing conglomeration",
+  "category": {
+    "id": 30,
+    "name": "Home & Kitchen_4f86445314c847619ef47a35d5e8400b",
+    "slug": "home-kitchen-4f86445314c847619ef47a35d5e8400b",
+    "image": "http://jackson-potts.info/",
+    "creationAt": "2026-10-21T03:53:48.000Z",
+    "updatedAt": "2026-10-21T03:53:48.000Z"
+  },
+  "images": [
+    "http://www.morgan-sanchez.org/"
+  ],
+  "creationAt": "2026-10-21T03:53:48.000Z",
+  "updatedAt": "2026-10-21T03:53:48.000Z"
+}
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+{
+  "id": 93,
+  "title": "Cross-platform zero tolerance structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "slug": "cross-platform-zero-tolerance-structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "price": 875,
+  "description": "Balanced encompassing conglomeration",
+  "category": {
+    "id": 30,
+    "name": "Home & Kitchen_4f86445314c847619ef47a35d5e8400b",
+    "slug": "home-kitchen-4f86445314c847619ef47a35d5e8400b",
+    "image": "http://jackson-potts.info/",
+    "creationAt": "2026-10-21T03:53:48.000Z",
+    "updatedAt": "2026-10-21T03:53:48.000Z"
+  },
+  "images": [
+    "http://www.morgan-sanchez.org/"
+  ],
+  "creationAt": "2026-10-21T03:53:48.000Z",
+  "updatedAt": "2026-10-21T03:53:48.000Z"
+}
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+{
+  "id": 93,
+  "title": "Cross-platform zero tolerance structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "slug": "cross-platform-zero-tolerance-structure-459ec6ec97c74c51959c3f1e362ff76d",
+  "price": 875,
+  "description": "Balanced encompassing conglomeration",
+  "category": {
+    "id": 30,
+    "name": "Home & Kitchen_4f86445314c847619ef47a35d5e8400b",
+    "slug": "home-kitchen-4f86445314c847619ef47a35d5e8400b",
+    "image": "http://jackson-potts.info/",
+    "creationAt": "2026-10-21T03:53:48.000Z",
+    "updatedAt": "2026-10-21T03:53:48.000Z"
+  },
+  "images": [
+    "http://www.morgan-sanchez.org/"
+  ],
+  "creationAt": "2026-10-21T03:53:48.000Z",
+  "updatedAt": "2026-10-21T03:53:48.000Z"
+} 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/93
+Body:
+<empty> 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/93 -> 200
+Body:
+true 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Home & Kitchen_4f86445314c847619ef47a35d5e8400b",
+  "slug": "home-kitchen-4f86445314c847619ef47a35d5e8400b",
+  "image": "http://jackson-potts.info/",
+  "creationAt": "2026-10-21T03:53:48.000Z",
+  "updatedAt": "2026-10-21T03:53:48.000Z"
+} 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-21 03:53:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

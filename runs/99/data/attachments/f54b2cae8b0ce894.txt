@@ -1,0 +1,15 @@
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Home & Kitchen_83272302e1704205a24a59107e7ac487",
+  "image": "http://www.carter.com/"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-20T04:04:51.783Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

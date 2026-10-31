@@ -1,0 +1,107 @@
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_3bc714793baf4310b5d5eadf44a03c37",
+  "image": "http://www.wallace-turner.net/"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 107,
+  "name": "Toys_3bc714793baf4310b5d5eadf44a03c37",
+  "slug": "toys-3bc714793baf4310b5d5eadf44a03c37",
+  "image": "http://www.wallace-turner.net/",
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Distributed motivating pricing structure-b84c2e2fa667427bac8540c4b38e58ba",
+  "price": 699,
+  "description": "Diverse background protocol",
+  "categoryId": 107,
+  "images": [
+    "http://cochran.com/"
+  ]
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 201,
+  "title": "Distributed motivating pricing structure-b84c2e2fa667427bac8540c4b38e58ba",
+  "slug": "distributed-motivating-pricing-structure-b84c2e2fa667427bac8540c4b38e58ba",
+  "price": 699,
+  "description": "Diverse background protocol",
+  "category": {
+    "id": 107,
+    "name": "Toys_3bc714793baf4310b5d5eadf44a03c37",
+    "slug": "toys-3bc714793baf4310b5d5eadf44a03c37",
+    "image": "http://www.wallace-turner.net/",
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  },
+  "images": [
+    "http://cochran.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+}
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/201
+Body:
+<empty> 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/201 -> 200
+Body:
+true 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/201
+Body:
+<empty> 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/201 -> 400
+Body:
+{
+  "path": "/api/v1/products/201",
+  "timestamp": "2026-10-24T03:52:03.910Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 201\n    }\n}"
+}
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/201
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/201 -> 400
+Body:
+{
+  "path": "/api/v1/products/201",
+  "timestamp": "2026-10-24T03:52:03.993Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 201\n    }\n}"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/107
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/107 -> 200
+Body:
+{
+  "id": 107,
+  "name": "Toys_3bc714793baf4310b5d5eadf44a03c37",
+  "slug": "toys-3bc714793baf4310b5d5eadf44a03c37",
+  "image": "http://www.wallace-turner.net/",
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/107
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/107 -> 200
+Body:
+true

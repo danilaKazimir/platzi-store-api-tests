@@ -1,0 +1,80 @@
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Diane Stark",
+  "email": "triciabrown@example.com",
+  "password": "***",
+  "avatar": "http://www.rosales.com/"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 75,
+  "email": "triciabrown@example.com",
+  "password": "***",
+  "name": "Diane Stark",
+  "role": "customer",
+  "avatar": "http://www.rosales.com/",
+  "creationAt": "2026-10-15T03:51:04.000Z",
+  "updatedAt": "2026-10-15T03:51:04.000Z"
+}
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/75
+Body:
+{
+  "email": "danielharris@example.com"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/75 -> 200
+Body:
+{
+  "id": 75,
+  "email": "danielharris@example.com",
+  "password": "***",
+  "name": "Diane Stark",
+  "role": "customer",
+  "avatar": "http://www.rosales.com/",
+  "creationAt": "2026-10-15T03:51:04.000Z",
+  "updatedAt": "2026-10-15T03:51:04.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/75
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/75 -> 200
+Body:
+{
+  "id": 75,
+  "email": "danielharris@example.com",
+  "password": "***",
+  "name": "Diane Stark",
+  "role": "customer",
+  "avatar": "http://www.rosales.com/",
+  "creationAt": "2026-10-15T03:51:04.000Z",
+  "updatedAt": "2026-10-15T03:51:04.000Z"
+}
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/75
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/75 -> 200
+Body:
+{
+  "id": 75,
+  "email": "danielharris@example.com",
+  "password": "***",
+  "name": "Diane Stark",
+  "role": "customer",
+  "avatar": "http://www.rosales.com/",
+  "creationAt": "2026-10-15T03:51:04.000Z",
+  "updatedAt": "2026-10-15T03:51:04.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/75
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/75 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-10-26 03:55:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_5e422d7157454b5da9a60dfb09ce0967",
+  "image": "http://stevens.com/"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 102,
+  "name": "Food & Beverages_5e422d7157454b5da9a60dfb09ce0967",
+  "slug": "food-beverages-5e422d7157454b5da9a60dfb09ce0967",
+  "image": "http://stevens.com/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+}
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/102
+Body:
+{
+  "name": "Clothing_722a5a3d3f774f1080772bb333242ecc",
+  "image": "https://olson.com/"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Clothing_722a5a3d3f774f1080772bb333242ecc",
+  "slug": "clothing-722a5a3d3f774f1080772bb333242ecc",
+  "image": "https://olson.com/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Clothing_722a5a3d3f774f1080772bb333242ecc",
+  "slug": "clothing-722a5a3d3f774f1080772bb333242ecc",
+  "image": "https://olson.com/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+}
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Clothing_722a5a3d3f774f1080772bb333242ecc",
+  "slug": "clothing-722a5a3d3f774f1080772bb333242ecc",
+  "image": "https://olson.com/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+true

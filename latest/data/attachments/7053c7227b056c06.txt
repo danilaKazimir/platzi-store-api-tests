@@ -1,0 +1,135 @@
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_a86a49cf0e29468fb2993c44631e6c89",
+  "image": "http://davis.com/"
+} 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Clothing_a86a49cf0e29468fb2993c44631e6c89",
+  "slug": "clothing-a86a49cf0e29468fb2993c44631e6c89",
+  "image": "http://davis.com/",
+  "creationAt": "2026-10-31T04:44:29.000Z",
+  "updatedAt": "2026-10-31T04:44:29.000Z"
+} 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-layered well-modulated installation-43d3621abc214dbbb46d67aa827b43cf",
+  "price": 198,
+  "description": "Distributed national neural-net",
+  "categoryId": 32,
+  "images": [
+    "https://www.reynolds-lara.com/"
+  ]
+} 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 536,
+  "title": "Multi-layered well-modulated installation-43d3621abc214dbbb46d67aa827b43cf",
+  "slug": "multi-layered-well-modulated-installation-43d3621abc214dbbb46d67aa827b43cf",
+  "price": 198,
+  "description": "Distributed national neural-net",
+  "category": {
+    "id": 32,
+    "name": "Clothing_a86a49cf0e29468fb2993c44631e6c89",
+    "slug": "clothing-a86a49cf0e29468fb2993c44631e6c89",
+    "image": "http://davis.com/",
+    "creationAt": "2026-10-31T04:44:29.000Z",
+    "updatedAt": "2026-10-31T04:44:29.000Z"
+  },
+  "images": [
+    "https://www.reynolds-lara.com/"
+  ],
+  "creationAt": "2026-10-31T04:44:29.000Z",
+  "updatedAt": "2026-10-31T04:44:29.000Z"
+}
+2026-10-31 04:44:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/multi-layered-well-modulated-installation-43d3621abc214dbbb46d67aa827b43cf
+Body:
+<empty> 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/multi-layered-well-modulated-installation-43d3621abc214dbbb46d67aa827b43cf -> 200
+Body:
+{
+  "id": 536,
+  "title": "Multi-layered well-modulated installation-43d3621abc214dbbb46d67aa827b43cf",
+  "slug": "multi-layered-well-modulated-installation-43d3621abc214dbbb46d67aa827b43cf",
+  "price": 198,
+  "description": "Distributed national neural-net",
+  "category": {
+    "id": 32,
+    "name": "Clothing_a86a49cf0e29468fb2993c44631e6c89",
+    "slug": "clothing-a86a49cf0e29468fb2993c44631e6c89",
+    "image": "http://davis.com/",
+    "creationAt": "2026-10-31T04:44:29.000Z",
+    "updatedAt": "2026-10-31T04:44:29.000Z"
+  },
+  "images": [
+    "https://www.reynolds-lara.com/"
+  ],
+  "creationAt": "2026-10-31T04:44:29.000Z",
+  "updatedAt": "2026-10-31T04:44:29.000Z"
+}
+2026-10-31 04:44:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/536
+Body:
+<empty> 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/536 -> 200
+Body:
+{
+  "id": 536,
+  "title": "Multi-layered well-modulated installation-43d3621abc214dbbb46d67aa827b43cf",
+  "slug": "multi-layered-well-modulated-installation-43d3621abc214dbbb46d67aa827b43cf",
+  "price": 198,
+  "description": "Distributed national neural-net",
+  "category": {
+    "id": 32,
+    "name": "Clothing_a86a49cf0e29468fb2993c44631e6c89",
+    "slug": "clothing-a86a49cf0e29468fb2993c44631e6c89",
+    "image": "http://davis.com/",
+    "creationAt": "2026-10-31T04:44:29.000Z",
+    "updatedAt": "2026-10-31T04:44:29.000Z"
+  },
+  "images": [
+    "https://www.reynolds-lara.com/"
+  ],
+  "creationAt": "2026-10-31T04:44:29.000Z",
+  "updatedAt": "2026-10-31T04:44:29.000Z"
+} 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/536
+Body:
+<empty> 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/536 -> 200
+Body:
+true 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Clothing_a86a49cf0e29468fb2993c44631e6c89",
+  "slug": "clothing-a86a49cf0e29468fb2993c44631e6c89",
+  "image": "http://davis.com/",
+  "creationAt": "2026-10-31T04:44:29.000Z",
+  "updatedAt": "2026-10-31T04:44:29.000Z"
+} 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-31 04:44:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+true

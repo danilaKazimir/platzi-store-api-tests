@@ -1,0 +1,127 @@
+2026-10-21 03:53:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_e5d84c889fd14d84814f21fcdca4c5d1",
+  "image": "http://www.harper.biz/"
+} 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Automotive Accessories_e5d84c889fd14d84814f21fcdca4c5d1",
+  "slug": "automotive-accessories-e5d84c889fd14d84814f21fcdca4c5d1",
+  "image": "http://www.harper.biz/",
+  "creationAt": "2026-10-21T03:53:45.000Z",
+  "updatedAt": "2026-10-21T03:53:45.000Z"
+}
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-10-20T19:54:01.000Z",
+    "updatedAt": "2026-10-20T19:54:01.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-20T19:54:01.000Z",
+    "updatedAt": "2026-10-20T19:54:01.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-20T19:54:01.000Z",
+    "updatedAt": "2026-10-20T19:54:01.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-20T19:54:01.000Z",
+    "updatedAt": "2026-10-20T19:54:01.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-20T19:54:01.000Z",
+    "updatedAt": "2026-10-20T19:54:01.000Z"
+  },
+  {
+    "id": 6,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-20T21:00:29.000Z",
+    "updatedAt": "2026-10-20T21:00:29.000Z"
+  },
+  {
+    "id": 7,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-20T21:00:29.000Z",
+    "updatedAt": "2026-10-20T21:00:29.000Z"
+  },
+  {
+    "id": 18,
+    "name": "testCategoryd04d5264db254bf3a585fdc12280a77d",
+    "slug": "testcategoryd04d5264db254bf3a585fdc12280a77d",
+    "image": "https://soto.com/",
+    "creationAt": "2026-10-21T03:53:44.000Z",
+    "updatedAt": "2026-10-21T03:53:44.000Z"
+  },
+  {
+    "id": 19,
+    "name": "test Category80277452f3454e72a4e54803647c7473",
+    "slug": "test-category80277452f3454e72a4e54803647c7473",
+    "image": "https://www.wallace.com/",
+    "creationAt": "2026-10-21T03:53:44.000Z",
+    "updatedAt": "2026-10-21T03:53:44.000Z"
+  },
+  {
+    "id": 20,
+    "name": "Automotive Accessories_e5d84c889fd14d84814f21fcdca4c5d1",
+    "slug": "automotive-accessories-e5d84c889fd14d84814f21fcdca4c5d1",
+    "image": "http://www.harper.biz/",
+    "creationAt": "2026-10-21T03:53:45.000Z",
+    "updatedAt": "2026-10-21T03:53:45.000Z"
+  }
+]
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Automotive Accessories_e5d84c889fd14d84814f21fcdca4c5d1",
+  "slug": "automotive-accessories-e5d84c889fd14d84814f21fcdca4c5d1",
+  "image": "http://www.harper.biz/",
+  "creationAt": "2026-10-21T03:53:45.000Z",
+  "updatedAt": "2026-10-21T03:53:45.000Z"
+} 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

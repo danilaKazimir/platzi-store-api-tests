@@ -1,0 +1,125 @@
+2026-10-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_255905671c9345a4b47c1fad1d877b36",
+  "image": "https://saunders.com/"
+} 
+
+2026-10-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 113,
+  "name": "Pet Supplies_255905671c9345a4b47c1fad1d877b36",
+  "slug": "pet-supplies-255905671c9345a4b47c1fad1d877b36",
+  "image": "https://saunders.com/",
+  "creationAt": "2026-10-24T03:52:05.000Z",
+  "updatedAt": "2026-10-24T03:52:05.000Z"
+} 
+
+2026-10-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-architected human-resource initiative-32d4f7c02fc6491c9453426710680e11",
+  "price": 832,
+  "description": "Multi-channeled human-resource instruction set",
+  "categoryId": 113,
+  "images": [
+    "https://www.collins.com/"
+  ]
+} 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 208,
+  "title": "Open-architected human-resource initiative-32d4f7c02fc6491c9453426710680e11",
+  "slug": "open-architected-human-resource-initiative-32d4f7c02fc6491c9453426710680e11",
+  "price": 832,
+  "description": "Multi-channeled human-resource instruction set",
+  "category": {
+    "id": 113,
+    "name": "Pet Supplies_255905671c9345a4b47c1fad1d877b36",
+    "slug": "pet-supplies-255905671c9345a4b47c1fad1d877b36",
+    "image": "https://saunders.com/",
+    "creationAt": "2026-10-24T03:52:05.000Z",
+    "updatedAt": "2026-10-24T03:52:05.000Z"
+  },
+  "images": [
+    "https://www.collins.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:06.000Z",
+  "updatedAt": "2026-10-24T03:52:06.000Z"
+}
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/208
+Body:
+{
+  "title": "Object-based 3rdgeneration open architecture-ce54efb5cdd64555948871213fcc7c80",
+  "price": 17,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/208 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/208
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/208 -> 200
+Body:
+{
+  "id": 208,
+  "title": "Open-architected human-resource initiative-32d4f7c02fc6491c9453426710680e11",
+  "slug": "open-architected-human-resource-initiative-32d4f7c02fc6491c9453426710680e11",
+  "price": 832,
+  "description": "Multi-channeled human-resource instruction set",
+  "category": {
+    "id": 113,
+    "name": "Pet Supplies_255905671c9345a4b47c1fad1d877b36",
+    "slug": "pet-supplies-255905671c9345a4b47c1fad1d877b36",
+    "image": "https://saunders.com/",
+    "creationAt": "2026-10-24T03:52:05.000Z",
+    "updatedAt": "2026-10-24T03:52:05.000Z"
+  },
+  "images": [
+    "https://www.collins.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:06.000Z",
+  "updatedAt": "2026-10-24T03:52:06.000Z"
+} 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/208
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/208 -> 200
+Body:
+true 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/113
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/113 -> 200
+Body:
+{
+  "id": 113,
+  "name": "Pet Supplies_255905671c9345a4b47c1fad1d877b36",
+  "slug": "pet-supplies-255905671c9345a4b47c1fad1d877b36",
+  "image": "https://saunders.com/",
+  "creationAt": "2026-10-24T03:52:05.000Z",
+  "updatedAt": "2026-10-24T03:52:05.000Z"
+} 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/113
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/113 -> 200
+Body:
+true

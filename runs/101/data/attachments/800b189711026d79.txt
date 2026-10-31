@@ -1,0 +1,135 @@
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_011312baad7e45c4a79934b5728f731c",
+  "image": "https://byrd.com/"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Food & Beverages_011312baad7e45c4a79934b5728f731c",
+  "slug": "food-beverages-011312baad7e45c4a79934b5728f731c",
+  "image": "https://byrd.com/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Intuitive well-modulated productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "price": 400,
+  "description": "Advanced multimedia productivity",
+  "categoryId": 34,
+  "images": [
+    "https://robles.com/"
+  ]
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 172,
+  "title": "Intuitive well-modulated productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "slug": "intuitive-well-modulated-productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "price": 400,
+  "description": "Advanced multimedia productivity",
+  "category": {
+    "id": 34,
+    "name": "Food & Beverages_011312baad7e45c4a79934b5728f731c",
+    "slug": "food-beverages-011312baad7e45c4a79934b5728f731c",
+    "image": "https://byrd.com/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "https://robles.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/intuitive-well-modulated-productivity-5db4444808a64f0ca1fca4f33d23c612
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/intuitive-well-modulated-productivity-5db4444808a64f0ca1fca4f33d23c612 -> 200
+Body:
+{
+  "id": 172,
+  "title": "Intuitive well-modulated productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "slug": "intuitive-well-modulated-productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "price": 400,
+  "description": "Advanced multimedia productivity",
+  "category": {
+    "id": 34,
+    "name": "Food & Beverages_011312baad7e45c4a79934b5728f731c",
+    "slug": "food-beverages-011312baad7e45c4a79934b5728f731c",
+    "image": "https://byrd.com/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "https://robles.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/172
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/172 -> 200
+Body:
+{
+  "id": 172,
+  "title": "Intuitive well-modulated productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "slug": "intuitive-well-modulated-productivity-5db4444808a64f0ca1fca4f33d23c612",
+  "price": 400,
+  "description": "Advanced multimedia productivity",
+  "category": {
+    "id": 34,
+    "name": "Food & Beverages_011312baad7e45c4a79934b5728f731c",
+    "slug": "food-beverages-011312baad7e45c4a79934b5728f731c",
+    "image": "https://byrd.com/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "https://robles.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/172
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/172 -> 200
+Body:
+true 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Food & Beverages_011312baad7e45c4a79934b5728f731c",
+  "slug": "food-beverages-011312baad7e45c4a79934b5728f731c",
+  "image": "https://byrd.com/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

@@ -1,0 +1,58 @@
+2026-10-02 04:46:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Alexandra Mejia",
+  "email": "nicholasfuller@example.com",
+  "password": "***",
+  "avatar": "https://www.suarez-meyer.com/"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 213,
+  "email": "nicholasfuller@example.com",
+  "password": "***",
+  "name": "Alexandra Mejia",
+  "role": "customer",
+  "avatar": "https://www.suarez-meyer.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+}
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "nicholasfuller@example.com",
+  "password": "***"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+}
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/213
+Body:
+<empty> 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/213 -> 200
+Body:
+{
+  "id": 213,
+  "email": "nicholasfuller@example.com",
+  "password": "***",
+  "name": "Alexandra Mejia",
+  "role": "customer",
+  "avatar": "https://www.suarez-meyer.com/",
+  "creationAt": "2026-10-02T04:46:54.000Z",
+  "updatedAt": "2026-10-02T04:46:54.000Z"
+} 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/213
+Body:
+<empty> 
+
+2026-10-02 04:46:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/213 -> 200
+Body:
+true

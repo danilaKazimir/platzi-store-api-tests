@@ -1,0 +1,55 @@
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_6487d474c5364247bb6ca74343c82781",
+  "image": "https://www.alvarado.org/"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 104,
+  "name": "Food & Beverages_6487d474c5364247bb6ca74343c82781",
+  "slug": "food-beverages-6487d474c5364247bb6ca74343c82781",
+  "image": "https://www.alvarado.org/",
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+}
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/104
+Body:
+{
+  "name": null,
+  "image": "https://ramirez.com/"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/104 -> 400
+Body:
+{
+  "path": "/api/v1/categories/104",
+  "timestamp": "2026-10-20T04:04:51.475Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Food & Beverages_6487d474c5364247bb6ca74343c82781",
+  "slug": "food-beverages-6487d474c5364247bb6ca74343c82781",
+  "image": "https://www.alvarado.org/",
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+true

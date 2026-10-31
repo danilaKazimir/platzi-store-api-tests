@@ -1,0 +1,15 @@
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Books_5f1e8747bec44a2686c4a1ff8868f39f",
+  "image": "https://brown-patton.org/"
+} 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-30T04:57:44.847Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

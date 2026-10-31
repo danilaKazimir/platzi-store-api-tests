@@ -1,0 +1,81 @@
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Candace Guzman",
+  "email": "william68@example.net",
+  "password": "***",
+  "avatar": "https://kidd.com/"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 70,
+  "email": "william68@example.net",
+  "password": "***",
+  "name": "Candace Guzman",
+  "role": "customer",
+  "avatar": "https://kidd.com/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/70
+Body:
+{
+  "name": "Veronica Green",
+  "email": "sdavidson@example.org"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "sdavidson@example.org",
+  "password": "***",
+  "name": "Veronica Green",
+  "role": "customer",
+  "avatar": "https://kidd.com/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:52.000Z"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "sdavidson@example.org",
+  "password": "***",
+  "name": "Veronica Green",
+  "role": "customer",
+  "avatar": "https://kidd.com/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:52.000Z"
+}
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "sdavidson@example.org",
+  "password": "***",
+  "name": "Veronica Green",
+  "role": "customer",
+  "avatar": "https://kidd.com/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:52.000Z"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+true

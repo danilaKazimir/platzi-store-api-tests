@@ -1,0 +1,53 @@
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7757819c9d6144b39361b9db883db4f6",
+  "image": "http://www.jones.com/"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Books_7757819c9d6144b39361b9db883db4f6",
+  "slug": "books-7757819c9d6144b39361b9db883db4f6",
+  "image": "http://www.jones.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+}
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Books_7757819c9d6144b39361b9db883db4f6",
+  "slug": "books-7757819c9d6144b39361b9db883db4f6",
+  "image": "http://www.jones.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+}
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Books_7757819c9d6144b39361b9db883db4f6",
+  "slug": "books-7757819c9d6144b39361b9db883db4f6",
+  "image": "http://www.jones.com/",
+  "creationAt": "2026-10-16T03:46:35.000Z",
+  "updatedAt": "2026-10-16T03:46:35.000Z"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

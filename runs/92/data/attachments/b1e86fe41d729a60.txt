@@ -1,0 +1,15 @@
+2026-10-13 06:05:15 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Automotive Accessories_b286c5b6a1ce4f8084b2f4ba66622f3a",
+  "image": "http://conley-george.com/"
+} 
+
+2026-10-13 06:05:15 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-13T06:05:15.867Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

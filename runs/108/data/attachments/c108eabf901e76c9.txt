@@ -1,0 +1,49 @@
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_a8d1fd4e3a42485097bcaf4e1017f85c",
+  "image": "http://www.pitts-daniels.info/"
+} 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Sports & Fitness_a8d1fd4e3a42485097bcaf4e1017f85c",
+  "slug": "sports-fitness-a8d1fd4e3a42485097bcaf4e1017f85c",
+  "image": "http://www.pitts-daniels.info/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:53.000Z"
+}
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 400
+Body:
+{
+  "path": "/api/v1/categories/25",
+  "timestamp": "2026-10-29T04:57:53.671Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 25\n}"
+}
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 400
+Body:
+{
+  "path": "/api/v1/categories/25",
+  "timestamp": "2026-10-29T04:57:53.696Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 25\n}"
+}

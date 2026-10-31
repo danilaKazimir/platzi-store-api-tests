@@ -1,0 +1,107 @@
+2026-10-07 05:03:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_aff4ace1b559468981ab241b86e15dc0",
+  "image": "http://cooke.info/"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 74,
+  "name": "Food & Beverages_aff4ace1b559468981ab241b86e15dc0",
+  "slug": "food-beverages-aff4ace1b559468981ab241b86e15dc0",
+  "image": "http://cooke.info/",
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-channeled motivating Graphical User Interface-6e65342de48f4b77988cd46227bf666d",
+  "price": 255,
+  "description": "Configurable asymmetric attitude",
+  "categoryId": 74,
+  "images": [
+    "https://www.phelps-hernandez.com/"
+  ]
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 281,
+  "title": "Multi-channeled motivating Graphical User Interface-6e65342de48f4b77988cd46227bf666d",
+  "slug": "multi-channeled-motivating-graphical-user-interface-6e65342de48f4b77988cd46227bf666d",
+  "price": 255,
+  "description": "Configurable asymmetric attitude",
+  "category": {
+    "id": 74,
+    "name": "Food & Beverages_aff4ace1b559468981ab241b86e15dc0",
+    "slug": "food-beverages-aff4ace1b559468981ab241b86e15dc0",
+    "image": "http://cooke.info/",
+    "creationAt": "2026-10-07T05:03:45.000Z",
+    "updatedAt": "2026-10-07T05:03:45.000Z"
+  },
+  "images": [
+    "https://www.phelps-hernandez.com/"
+  ],
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+}
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/281
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/281 -> 200
+Body:
+true 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/281
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/281 -> 400
+Body:
+{
+  "path": "/api/v1/products/281",
+  "timestamp": "2026-10-07T05:03:45.523Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 281\n    }\n}"
+}
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/281
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/281 -> 400
+Body:
+{
+  "path": "/api/v1/products/281",
+  "timestamp": "2026-10-07T05:03:45.555Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 281\n    }\n}"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+{
+  "id": 74,
+  "name": "Food & Beverages_aff4ace1b559468981ab241b86e15dc0",
+  "slug": "food-beverages-aff4ace1b559468981ab241b86e15dc0",
+  "image": "http://cooke.info/",
+  "creationAt": "2026-10-07T05:03:45.000Z",
+  "updatedAt": "2026-10-07T05:03:45.000Z"
+} 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-10-07 05:03:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+true

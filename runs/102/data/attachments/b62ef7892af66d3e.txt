@@ -1,0 +1,135 @@
+2026-10-23 03:57:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_e664e28a53514d8185467335832a8c45",
+  "image": "http://ballard-daniels.com/"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 70,
+  "name": "Books_e664e28a53514d8185467335832a8c45",
+  "slug": "books-e664e28a53514d8185467335832a8c45",
+  "image": "http://ballard-daniels.com/",
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Intuitive coherent capacity-934742ccade1431cba9a2da791254f72",
+  "price": 14,
+  "description": "Stand-alone dynamic functionalities",
+  "categoryId": 70,
+  "images": [
+    "https://www.chapman-collins.com/"
+  ]
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 136,
+  "title": "Intuitive coherent capacity-934742ccade1431cba9a2da791254f72",
+  "slug": "intuitive-coherent-capacity-934742ccade1431cba9a2da791254f72",
+  "price": 14,
+  "description": "Stand-alone dynamic functionalities",
+  "category": {
+    "id": 70,
+    "name": "Books_e664e28a53514d8185467335832a8c45",
+    "slug": "books-e664e28a53514d8185467335832a8c45",
+    "image": "http://ballard-daniels.com/",
+    "creationAt": "2026-10-23T03:57:48.000Z",
+    "updatedAt": "2026-10-23T03:57:48.000Z"
+  },
+  "images": [
+    "https://www.chapman-collins.com/"
+  ],
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+}
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/intuitive-coherent-capacity-934742ccade1431cba9a2da791254f72
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/intuitive-coherent-capacity-934742ccade1431cba9a2da791254f72 -> 200
+Body:
+{
+  "id": 136,
+  "title": "Intuitive coherent capacity-934742ccade1431cba9a2da791254f72",
+  "slug": "intuitive-coherent-capacity-934742ccade1431cba9a2da791254f72",
+  "price": 14,
+  "description": "Stand-alone dynamic functionalities",
+  "category": {
+    "id": 70,
+    "name": "Books_e664e28a53514d8185467335832a8c45",
+    "slug": "books-e664e28a53514d8185467335832a8c45",
+    "image": "http://ballard-daniels.com/",
+    "creationAt": "2026-10-23T03:57:48.000Z",
+    "updatedAt": "2026-10-23T03:57:48.000Z"
+  },
+  "images": [
+    "https://www.chapman-collins.com/"
+  ],
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+}
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/136
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/136 -> 200
+Body:
+{
+  "id": 136,
+  "title": "Intuitive coherent capacity-934742ccade1431cba9a2da791254f72",
+  "slug": "intuitive-coherent-capacity-934742ccade1431cba9a2da791254f72",
+  "price": 14,
+  "description": "Stand-alone dynamic functionalities",
+  "category": {
+    "id": 70,
+    "name": "Books_e664e28a53514d8185467335832a8c45",
+    "slug": "books-e664e28a53514d8185467335832a8c45",
+    "image": "http://ballard-daniels.com/",
+    "creationAt": "2026-10-23T03:57:48.000Z",
+    "updatedAt": "2026-10-23T03:57:48.000Z"
+  },
+  "images": [
+    "https://www.chapman-collins.com/"
+  ],
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/136
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/136 -> 200
+Body:
+true 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/70 -> 200
+Body:
+{
+  "id": 70,
+  "name": "Books_e664e28a53514d8185467335832a8c45",
+  "slug": "books-e664e28a53514d8185467335832a8c45",
+  "image": "http://ballard-daniels.com/",
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/70 -> 200
+Body:
+true

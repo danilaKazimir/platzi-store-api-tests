@@ -1,0 +1,125 @@
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_470846e0168e44cb9070223f96e01c39",
+  "image": "http://www.alvarez.com/"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 112,
+  "name": "Home & Kitchen_470846e0168e44cb9070223f96e01c39",
+  "slug": "home-kitchen-470846e0168e44cb9070223f96e01c39",
+  "image": "http://www.alvarez.com/",
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "De-engineered modular success-7ce71b3b63834d2cb894e1a265595362",
+  "price": 443,
+  "description": "Configurable systemic concept",
+  "categoryId": 112,
+  "images": [
+    "https://www.wilson.com/"
+  ]
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 381,
+  "title": "De-engineered modular success-7ce71b3b63834d2cb894e1a265595362",
+  "slug": "de-engineered-modular-success-7ce71b3b63834d2cb894e1a265595362",
+  "price": 443,
+  "description": "Configurable systemic concept",
+  "category": {
+    "id": 112,
+    "name": "Home & Kitchen_470846e0168e44cb9070223f96e01c39",
+    "slug": "home-kitchen-470846e0168e44cb9070223f96e01c39",
+    "image": "http://www.alvarez.com/",
+    "creationAt": "2026-10-26T03:55:04.000Z",
+    "updatedAt": "2026-10-26T03:55:04.000Z"
+  },
+  "images": [
+    "https://www.wilson.com/"
+  ],
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+}
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/381
+Body:
+{
+  "title": "Networked systematic secured line-6940b9e26663411eadb566295fb20945",
+  "price": 331,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/381 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-26 03:55:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/381
+Body:
+<empty> 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/381 -> 200
+Body:
+{
+  "id": 381,
+  "title": "De-engineered modular success-7ce71b3b63834d2cb894e1a265595362",
+  "slug": "de-engineered-modular-success-7ce71b3b63834d2cb894e1a265595362",
+  "price": 443,
+  "description": "Configurable systemic concept",
+  "category": {
+    "id": 112,
+    "name": "Home & Kitchen_470846e0168e44cb9070223f96e01c39",
+    "slug": "home-kitchen-470846e0168e44cb9070223f96e01c39",
+    "image": "http://www.alvarez.com/",
+    "creationAt": "2026-10-26T03:55:04.000Z",
+    "updatedAt": "2026-10-26T03:55:04.000Z"
+  },
+  "images": [
+    "https://www.wilson.com/"
+  ],
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+} 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/381
+Body:
+<empty> 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/381 -> 200
+Body:
+true 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/112
+Body:
+<empty> 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/112 -> 200
+Body:
+{
+  "id": 112,
+  "name": "Home & Kitchen_470846e0168e44cb9070223f96e01c39",
+  "slug": "home-kitchen-470846e0168e44cb9070223f96e01c39",
+  "image": "http://www.alvarez.com/",
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+} 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/112
+Body:
+<empty> 
+
+2026-10-26 03:55:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/112 -> 200
+Body:
+true

@@ -1,0 +1,53 @@
+2026-10-02 04:46:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_861c49c4ac384e70940cc3d8dab85b47",
+  "image": "http://www.zavala.net/"
+} 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 506,
+  "name": "Sports & Fitness_861c49c4ac384e70940cc3d8dab85b47",
+  "slug": "sports-fitness-861c49c4ac384e70940cc3d8dab85b47",
+  "image": "http://www.zavala.net/",
+  "creationAt": "2026-10-02T04:46:55.000Z",
+  "updatedAt": "2026-10-02T04:46:55.000Z"
+}
+2026-10-02 04:46:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/506
+Body:
+<empty> 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/506 -> 200
+Body:
+{
+  "id": 506,
+  "name": "Sports & Fitness_861c49c4ac384e70940cc3d8dab85b47",
+  "slug": "sports-fitness-861c49c4ac384e70940cc3d8dab85b47",
+  "image": "http://www.zavala.net/",
+  "creationAt": "2026-10-02T04:46:55.000Z",
+  "updatedAt": "2026-10-02T04:46:55.000Z"
+}
+2026-10-02 04:46:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/506
+Body:
+<empty> 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/506 -> 200
+Body:
+{
+  "id": 506,
+  "name": "Sports & Fitness_861c49c4ac384e70940cc3d8dab85b47",
+  "slug": "sports-fitness-861c49c4ac384e70940cc3d8dab85b47",
+  "image": "http://www.zavala.net/",
+  "creationAt": "2026-10-02T04:46:55.000Z",
+  "updatedAt": "2026-10-02T04:46:55.000Z"
+} 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/506
+Body:
+<empty> 
+
+2026-10-02 04:46:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/506 -> 200
+Body:
+true

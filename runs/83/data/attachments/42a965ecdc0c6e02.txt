@@ -1,0 +1,49 @@
+2026-10-04 05:00:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_033dffe12d714c62a24a2c0bddd1924d",
+  "image": "http://www.mata.com/"
+} 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 70,
+  "name": "Automotive Accessories_033dffe12d714c62a24a2c0bddd1924d",
+  "slug": "automotive-accessories-033dffe12d714c62a24a2c0bddd1924d",
+  "image": "http://www.mata.com/",
+  "creationAt": "2026-10-04T05:00:07.000Z",
+  "updatedAt": "2026-10-04T05:00:07.000Z"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/70 -> 200
+Body:
+true 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/70 -> 400
+Body:
+{
+  "path": "/api/v1/categories/70",
+  "timestamp": "2026-10-04T05:00:07.395Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 70\n}"
+}
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/70
+Body:
+<empty> 
+
+2026-10-04 05:00:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/70 -> 400
+Body:
+{
+  "path": "/api/v1/categories/70",
+  "timestamp": "2026-10-04T05:00:07.401Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 70\n}"
+}

@@ -1,0 +1,71 @@
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_64ffc810fa8b4323917aa38979a961e5",
+  "image": "http://www.lee.com/"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 63,
+  "name": "Toys_64ffc810fa8b4323917aa38979a961e5",
+  "slug": "toys-64ffc810fa8b4323917aa38979a961e5",
+  "image": "http://www.lee.com/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+}
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/63
+Body:
+{
+  "name": "Electronics_24a3e0e3af5747a0a7fe91dca89d6c32",
+  "image": "https://www.collins.com/"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Electronics_24a3e0e3af5747a0a7fe91dca89d6c32",
+  "slug": "electronics-24a3e0e3af5747a0a7fe91dca89d6c32",
+  "image": "https://www.collins.com/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Electronics_24a3e0e3af5747a0a7fe91dca89d6c32",
+  "slug": "electronics-24a3e0e3af5747a0a7fe91dca89d6c32",
+  "image": "https://www.collins.com/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+}
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Electronics_24a3e0e3af5747a0a7fe91dca89d6c32",
+  "slug": "electronics-24a3e0e3af5747a0a7fe91dca89d6c32",
+  "image": "https://www.collins.com/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+true

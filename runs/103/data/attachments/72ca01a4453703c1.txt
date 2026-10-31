@@ -1,0 +1,13 @@
+2026-10-24 03:51:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "invalid091b487f4c254eef874b522b9436bd9a@test.com",
+  "password": "***"
+} 
+
+2026-10-24 03:51:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 401
+Body:
+{
+  "message": "Unauthorized",
+  "statusCode": 401
+}

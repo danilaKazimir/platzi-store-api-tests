@@ -1,0 +1,53 @@
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_359d4b49aed7420e93263fb854c3b83a",
+  "image": "https://www.lopez-french.net/"
+} 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 23,
+  "name": "Toys_359d4b49aed7420e93263fb854c3b83a",
+  "slug": "toys-359d4b49aed7420e93263fb854c3b83a",
+  "image": "https://www.lopez-french.net/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+}
+2026-10-21 03:53:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Toys_359d4b49aed7420e93263fb854c3b83a",
+  "slug": "toys-359d4b49aed7420e93263fb854c3b83a",
+  "image": "https://www.lopez-french.net/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+}
+2026-10-21 03:53:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Toys_359d4b49aed7420e93263fb854c3b83a",
+  "slug": "toys-359d4b49aed7420e93263fb854c3b83a",
+  "image": "https://www.lopez-french.net/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+} 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+true

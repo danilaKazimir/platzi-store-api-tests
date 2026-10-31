@@ -1,0 +1,55 @@
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_cfd59ea482b645c3af4e3386e4f4294b",
+  "image": "http://www.davenport.com/"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Toys_cfd59ea482b645c3af4e3386e4f4294b",
+  "slug": "toys-cfd59ea482b645c3af4e3386e4f4294b",
+  "image": "http://www.davenport.com/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+}
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/31
+Body:
+{
+  "name": null,
+  "image": "http://bailey-white.com/"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/31 -> 400
+Body:
+{
+  "path": "/api/v1/categories/31",
+  "timestamp": "2026-10-22T03:53:50.332Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Toys_cfd59ea482b645c3af4e3386e4f4294b",
+  "slug": "toys-cfd59ea482b645c3af4e3386e4f4294b",
+  "image": "http://www.davenport.com/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

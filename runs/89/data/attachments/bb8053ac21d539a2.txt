@@ -1,0 +1,15 @@
+2026-10-10 05:01:57 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Sports & Fitness_a55544e8fc614d2b87ba6d00c1912bdb",
+  "image": "http://costa.com/"
+} 
+
+2026-10-10 05:01:57 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-10T05:01:57.494Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

@@ -1,0 +1,408 @@
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+  "image": "http://www.weiss-sanchez.net/"
+} 
+
+2026-10-21 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+  "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+  "image": "http://www.weiss-sanchez.net/",
+  "creationAt": "2026-10-21T03:53:50.000Z",
+  "updatedAt": "2026-10-21T03:53:50.000Z"
+}
+2026-10-21 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profit-focused intangible ability-37b93876d4504bda8e05dd5c057f0a88",
+  "price": 549,
+  "description": "Progressive fault-tolerant product",
+  "categoryId": 35,
+  "images": [
+    "https://paul.com/"
+  ]
+} 
+
+2026-10-21 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 99,
+  "title": "Profit-focused intangible ability-37b93876d4504bda8e05dd5c057f0a88",
+  "slug": "profit-focused-intangible-ability-37b93876d4504bda8e05dd5c057f0a88",
+  "price": 549,
+  "description": "Progressive fault-tolerant product",
+  "category": {
+    "id": 35,
+    "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+    "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+    "image": "http://www.weiss-sanchez.net/",
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  "images": [
+    "https://paul.com/"
+  ],
+  "creationAt": "2026-10-21T03:53:50.000Z",
+  "updatedAt": "2026-10-21T03:53:50.000Z"
+} 
+
+2026-10-21 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Right-sized bifurcated definition-ba4ce55f5f764f4a91322a6b873bf62b",
+  "price": 138,
+  "description": "Switchable mission-critical alliance",
+  "categoryId": 35,
+  "images": [
+    "http://evans-benjamin.com/"
+  ]
+} 
+
+2026-10-21 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 101,
+  "title": "Right-sized bifurcated definition-ba4ce55f5f764f4a91322a6b873bf62b",
+  "slug": "right-sized-bifurcated-definition-ba4ce55f5f764f4a91322a6b873bf62b",
+  "price": 138,
+  "description": "Switchable mission-critical alliance",
+  "category": {
+    "id": 35,
+    "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+    "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+    "image": "http://www.weiss-sanchez.net/",
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  "images": [
+    "http://evans-benjamin.com/"
+  ],
+  "creationAt": "2026-10-21T03:53:50.000Z",
+  "updatedAt": "2026-10-21T03:53:50.000Z"
+} 
+
+2026-10-21 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Extended heuristic emulation-67ba980712724115bbb7312d1b645eda",
+  "price": 312,
+  "description": "Triple-buffered explicit ability",
+  "categoryId": 35,
+  "images": [
+    "http://sutton.com/"
+  ]
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 102,
+  "title": "Extended heuristic emulation-67ba980712724115bbb7312d1b645eda",
+  "slug": "extended-heuristic-emulation-67ba980712724115bbb7312d1b645eda",
+  "price": 312,
+  "description": "Triple-buffered explicit ability",
+  "category": {
+    "id": 35,
+    "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+    "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+    "image": "http://www.weiss-sanchez.net/",
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  "images": [
+    "http://sutton.com/"
+  ],
+  "creationAt": "2026-10-21T03:53:51.000Z",
+  "updatedAt": "2026-10-21T03:53:51.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_11db7c6644c8407e858c824a149d3845",
+  "image": "https://rasmussen.org/"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Clothing_11db7c6644c8407e858c824a149d3845",
+  "slug": "clothing-11db7c6644c8407e858c824a149d3845",
+  "image": "https://rasmussen.org/",
+  "creationAt": "2026-10-21T03:53:51.000Z",
+  "updatedAt": "2026-10-21T03:53:51.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Extended radical matrix-449c77e164c44b4d9087583977fb568a",
+  "price": 690,
+  "description": "Distributed tertiary data-warehouse",
+  "categoryId": 37,
+  "images": [
+    "https://www.gonzalez-hernandez.net/"
+  ]
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 104,
+  "title": "Extended radical matrix-449c77e164c44b4d9087583977fb568a",
+  "slug": "extended-radical-matrix-449c77e164c44b4d9087583977fb568a",
+  "price": 690,
+  "description": "Distributed tertiary data-warehouse",
+  "category": {
+    "id": 37,
+    "name": "Clothing_11db7c6644c8407e858c824a149d3845",
+    "slug": "clothing-11db7c6644c8407e858c824a149d3845",
+    "image": "https://rasmussen.org/",
+    "creationAt": "2026-10-21T03:53:51.000Z",
+    "updatedAt": "2026-10-21T03:53:51.000Z"
+  },
+  "images": [
+    "https://www.gonzalez-hernandez.net/"
+  ],
+  "creationAt": "2026-10-21T03:53:51.000Z",
+  "updatedAt": "2026-10-21T03:53:51.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/99/related
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/99/related -> 200
+Body:
+[
+  {
+    "id": 101,
+    "title": "Right-sized bifurcated definition-ba4ce55f5f764f4a91322a6b873bf62b",
+    "slug": "right-sized-bifurcated-definition-ba4ce55f5f764f4a91322a6b873bf62b",
+    "price": 138,
+    "description": "Switchable mission-critical alliance",
+    "category": {
+      "id": 35,
+      "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+      "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+      "image": "http://www.weiss-sanchez.net/",
+      "creationAt": "2026-10-21T03:53:50.000Z",
+      "updatedAt": "2026-10-21T03:53:50.000Z"
+    },
+    "images": [
+      "http://evans-benjamin.com/"
+    ],
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  {
+    "id": 102,
+    "title": "Extended heuristic emulation-67ba980712724115bbb7312d1b645eda",
+    "slug": "extended-heuristic-emulation-67ba980712724115bbb7312d1b645eda",
+    "price": 312,
+    "description": "Triple-buffered explicit ability",
+    "category": {
+      "id": 35,
+      "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+      "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+      "image": "http://www.weiss-sanchez.net/",
+      "creationAt": "2026-10-21T03:53:50.000Z",
+      "updatedAt": "2026-10-21T03:53:50.000Z"
+    },
+    "images": [
+      "http://sutton.com/"
+    ],
+    "creationAt": "2026-10-21T03:53:51.000Z",
+    "updatedAt": "2026-10-21T03:53:51.000Z"
+  }
+]
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/104
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/104 -> 200
+Body:
+{
+  "id": 104,
+  "title": "Extended radical matrix-449c77e164c44b4d9087583977fb568a",
+  "slug": "extended-radical-matrix-449c77e164c44b4d9087583977fb568a",
+  "price": 690,
+  "description": "Distributed tertiary data-warehouse",
+  "category": {
+    "id": 37,
+    "name": "Clothing_11db7c6644c8407e858c824a149d3845",
+    "slug": "clothing-11db7c6644c8407e858c824a149d3845",
+    "image": "https://rasmussen.org/",
+    "creationAt": "2026-10-21T03:53:51.000Z",
+    "updatedAt": "2026-10-21T03:53:51.000Z"
+  },
+  "images": [
+    "https://www.gonzalez-hernandez.net/"
+  ],
+  "creationAt": "2026-10-21T03:53:51.000Z",
+  "updatedAt": "2026-10-21T03:53:51.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/104
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/104 -> 200
+Body:
+true 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/102
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/102 -> 200
+Body:
+{
+  "id": 102,
+  "title": "Extended heuristic emulation-67ba980712724115bbb7312d1b645eda",
+  "slug": "extended-heuristic-emulation-67ba980712724115bbb7312d1b645eda",
+  "price": 312,
+  "description": "Triple-buffered explicit ability",
+  "category": {
+    "id": 35,
+    "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+    "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+    "image": "http://www.weiss-sanchez.net/",
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  "images": [
+    "http://sutton.com/"
+  ],
+  "creationAt": "2026-10-21T03:53:51.000Z",
+  "updatedAt": "2026-10-21T03:53:51.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/102
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/102 -> 200
+Body:
+true 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/101
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/101 -> 200
+Body:
+{
+  "id": 101,
+  "title": "Right-sized bifurcated definition-ba4ce55f5f764f4a91322a6b873bf62b",
+  "slug": "right-sized-bifurcated-definition-ba4ce55f5f764f4a91322a6b873bf62b",
+  "price": 138,
+  "description": "Switchable mission-critical alliance",
+  "category": {
+    "id": 35,
+    "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+    "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+    "image": "http://www.weiss-sanchez.net/",
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  "images": [
+    "http://evans-benjamin.com/"
+  ],
+  "creationAt": "2026-10-21T03:53:50.000Z",
+  "updatedAt": "2026-10-21T03:53:50.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/101
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/101 -> 200
+Body:
+true 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/99
+Body:
+<empty> 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/99 -> 200
+Body:
+{
+  "id": 99,
+  "title": "Profit-focused intangible ability-37b93876d4504bda8e05dd5c057f0a88",
+  "slug": "profit-focused-intangible-ability-37b93876d4504bda8e05dd5c057f0a88",
+  "price": 549,
+  "description": "Progressive fault-tolerant product",
+  "category": {
+    "id": 35,
+    "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+    "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+    "image": "http://www.weiss-sanchez.net/",
+    "creationAt": "2026-10-21T03:53:50.000Z",
+    "updatedAt": "2026-10-21T03:53:50.000Z"
+  },
+  "images": [
+    "https://paul.com/"
+  ],
+  "creationAt": "2026-10-21T03:53:50.000Z",
+  "updatedAt": "2026-10-21T03:53:50.000Z"
+} 
+
+2026-10-21 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/99
+Body:
+<empty> 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/99 -> 200
+Body:
+true 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Clothing_11db7c6644c8407e858c824a149d3845",
+  "slug": "clothing-11db7c6644c8407e858c824a149d3845",
+  "image": "https://rasmussen.org/",
+  "creationAt": "2026-10-21T03:53:51.000Z",
+  "updatedAt": "2026-10-21T03:53:51.000Z"
+} 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+true 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Toys_45f4cdc3afde4410b3f0e45c8c29e48d",
+  "slug": "toys-45f4cdc3afde4410b3f0e45c8c29e48d",
+  "image": "http://www.weiss-sanchez.net/",
+  "creationAt": "2026-10-21T03:53:50.000Z",
+  "updatedAt": "2026-10-21T03:53:50.000Z"
+} 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-21 03:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

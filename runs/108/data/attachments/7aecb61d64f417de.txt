@@ -1,0 +1,125 @@
+2026-10-29 04:57:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_cf0f43b559e6468eb73d93f7a5155881",
+  "image": "http://www.johnson.com/"
+} 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Toys_cf0f43b559e6468eb73d93f7a5155881",
+  "slug": "toys-cf0f43b559e6468eb73d93f7a5155881",
+  "image": "http://www.johnson.com/",
+  "creationAt": "2026-10-29T04:57:58.000Z",
+  "updatedAt": "2026-10-29T04:57:58.000Z"
+} 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Focused bifurcated productivity-5f2376ab39d84d53bcfff5e4bcfbe3a1",
+  "price": 97,
+  "description": "Phased context-sensitive conglomeration",
+  "categoryId": 41,
+  "images": [
+    "http://morse.com/"
+  ]
+} 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 121,
+  "title": "Focused bifurcated productivity-5f2376ab39d84d53bcfff5e4bcfbe3a1",
+  "slug": "focused-bifurcated-productivity-5f2376ab39d84d53bcfff5e4bcfbe3a1",
+  "price": 97,
+  "description": "Phased context-sensitive conglomeration",
+  "category": {
+    "id": 41,
+    "name": "Toys_cf0f43b559e6468eb73d93f7a5155881",
+    "slug": "toys-cf0f43b559e6468eb73d93f7a5155881",
+    "image": "http://www.johnson.com/",
+    "creationAt": "2026-10-29T04:57:58.000Z",
+    "updatedAt": "2026-10-29T04:57:58.000Z"
+  },
+  "images": [
+    "http://morse.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:58.000Z",
+  "updatedAt": "2026-10-29T04:57:58.000Z"
+}
+2026-10-29 04:57:58 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/121
+Body:
+{
+  "title": "Fully-configurable 3rdgeneration core-506683a71e744533ab93207e8a6cc51f",
+  "price": 519,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/121 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-29 04:57:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/121
+Body:
+<empty> 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/121 -> 200
+Body:
+{
+  "id": 121,
+  "title": "Focused bifurcated productivity-5f2376ab39d84d53bcfff5e4bcfbe3a1",
+  "slug": "focused-bifurcated-productivity-5f2376ab39d84d53bcfff5e4bcfbe3a1",
+  "price": 97,
+  "description": "Phased context-sensitive conglomeration",
+  "category": {
+    "id": 41,
+    "name": "Toys_cf0f43b559e6468eb73d93f7a5155881",
+    "slug": "toys-cf0f43b559e6468eb73d93f7a5155881",
+    "image": "http://www.johnson.com/",
+    "creationAt": "2026-10-29T04:57:58.000Z",
+    "updatedAt": "2026-10-29T04:57:58.000Z"
+  },
+  "images": [
+    "http://morse.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:58.000Z",
+  "updatedAt": "2026-10-29T04:57:58.000Z"
+} 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/121
+Body:
+<empty> 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/121 -> 200
+Body:
+true 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Toys_cf0f43b559e6468eb73d93f7a5155881",
+  "slug": "toys-cf0f43b559e6468eb73d93f7a5155881",
+  "image": "http://www.johnson.com/",
+  "creationAt": "2026-10-29T04:57:58.000Z",
+  "updatedAt": "2026-10-29T04:57:58.000Z"
+} 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-29 04:57:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

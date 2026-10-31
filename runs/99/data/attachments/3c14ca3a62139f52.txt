@@ -1,0 +1,107 @@
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_21094e9085474c0a900b91756a01bf13",
+  "image": "https://wade.com/"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 105,
+  "name": "Sports & Fitness_21094e9085474c0a900b91756a01bf13",
+  "slug": "sports-fitness-21094e9085474c0a900b91756a01bf13",
+  "image": "https://wade.com/",
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Total explicit methodology-97014f8349a04152a76ba978dfe71093",
+  "price": 92,
+  "description": "Pre-emptive bifurcated open architecture",
+  "categoryId": 105,
+  "images": [
+    "https://morris-greer.biz/"
+  ]
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 254,
+  "title": "Total explicit methodology-97014f8349a04152a76ba978dfe71093",
+  "slug": "total-explicit-methodology-97014f8349a04152a76ba978dfe71093",
+  "price": 92,
+  "description": "Pre-emptive bifurcated open architecture",
+  "category": {
+    "id": 105,
+    "name": "Sports & Fitness_21094e9085474c0a900b91756a01bf13",
+    "slug": "sports-fitness-21094e9085474c0a900b91756a01bf13",
+    "image": "https://wade.com/",
+    "creationAt": "2026-10-20T04:04:51.000Z",
+    "updatedAt": "2026-10-20T04:04:51.000Z"
+  },
+  "images": [
+    "https://morris-greer.biz/"
+  ],
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/254
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/254 -> 200
+Body:
+true 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/254
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/254 -> 400
+Body:
+{
+  "path": "/api/v1/products/254",
+  "timestamp": "2026-10-20T04:04:52.823Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 254\n    }\n}"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/254
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/254 -> 400
+Body:
+{
+  "path": "/api/v1/products/254",
+  "timestamp": "2026-10-20T04:04:52.861Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 254\n    }\n}"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/105
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/105 -> 200
+Body:
+{
+  "id": 105,
+  "name": "Sports & Fitness_21094e9085474c0a900b91756a01bf13",
+  "slug": "sports-fitness-21094e9085474c0a900b91756a01bf13",
+  "image": "https://wade.com/",
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/105
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/105 -> 200
+Body:
+true

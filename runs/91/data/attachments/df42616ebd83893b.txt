@@ -1,0 +1,407 @@
+2026-10-12 05:05:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+  "image": "http://miller.com/"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 39,
+  "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+  "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+  "image": "http://miller.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+}
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Right-sized solution-oriented function-c311810bdb904fd8844ca9db12860e27",
+  "price": 552,
+  "description": "Automated stable Internet solution",
+  "categoryId": 39,
+  "images": [
+    "http://estes.com/"
+  ]
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 130,
+  "title": "Right-sized solution-oriented function-c311810bdb904fd8844ca9db12860e27",
+  "slug": "right-sized-solution-oriented-function-c311810bdb904fd8844ca9db12860e27",
+  "price": 552,
+  "description": "Automated stable Internet solution",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "http://estes.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ergonomic value-added algorithm-007cca124170448b894a191804896aca",
+  "price": 548,
+  "description": "Operative human-resource knowledge user",
+  "categoryId": 39,
+  "images": [
+    "https://richardson.org/"
+  ]
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 131,
+  "title": "Ergonomic value-added algorithm-007cca124170448b894a191804896aca",
+  "slug": "ergonomic-value-added-algorithm-007cca124170448b894a191804896aca",
+  "price": 548,
+  "description": "Operative human-resource knowledge user",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "https://richardson.org/"
+  ],
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enhanced optimal matrices-651e3674ce504f23bae91c0ab658b4e4",
+  "price": 940,
+  "description": "De-engineered context-sensitive leverage",
+  "categoryId": 39,
+  "images": [
+    "http://www.snyder-haynes.com/"
+  ]
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 132,
+  "title": "Enhanced optimal matrices-651e3674ce504f23bae91c0ab658b4e4",
+  "slug": "enhanced-optimal-matrices-651e3674ce504f23bae91c0ab658b4e4",
+  "price": 940,
+  "description": "De-engineered context-sensitive leverage",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "http://www.snyder-haynes.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-platform modular installation-93b0a097ab574de2accdb31c203fcd6d",
+  "price": 331,
+  "description": "Pre-emptive scalable complexity",
+  "categoryId": 39,
+  "images": [
+    "http://schultz.com/"
+  ]
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 134,
+  "title": "Cross-platform modular installation-93b0a097ab574de2accdb31c203fcd6d",
+  "slug": "cross-platform-modular-installation-93b0a097ab574de2accdb31c203fcd6d",
+  "price": 331,
+  "description": "Pre-emptive scalable complexity",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "http://schultz.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39/products
+Body:
+<empty> 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39/products -> 200
+Body:
+[
+  {
+    "id": 130,
+    "title": "Right-sized solution-oriented function-c311810bdb904fd8844ca9db12860e27",
+    "slug": "right-sized-solution-oriented-function-c311810bdb904fd8844ca9db12860e27",
+    "price": 552,
+    "description": "Automated stable Internet solution",
+    "category": {
+      "id": 39,
+      "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+      "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+      "image": "http://miller.com/",
+      "creationAt": "2026-10-12T05:05:38.000Z",
+      "updatedAt": "2026-10-12T05:05:38.000Z"
+    },
+    "images": [
+      "http://estes.com/"
+    ],
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  {
+    "id": 131,
+    "title": "Ergonomic value-added algorithm-007cca124170448b894a191804896aca",
+    "slug": "ergonomic-value-added-algorithm-007cca124170448b894a191804896aca",
+    "price": 548,
+    "description": "Operative human-resource knowledge user",
+    "category": {
+      "id": 39,
+      "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+      "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+      "image": "http://miller.com/",
+      "creationAt": "2026-10-12T05:05:38.000Z",
+      "updatedAt": "2026-10-12T05:05:38.000Z"
+    },
+    "images": [
+      "https://richardson.org/"
+    ],
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  {
+    "id": 132,
+    "title": "Enhanced optimal matrices-651e3674ce504f23bae91c0ab658b4e4",
+    "slug": "enhanced-optimal-matrices-651e3674ce504f23bae91c0ab658b4e4",
+    "price": 940,
+    "description": "De-engineered context-sensitive leverage",
+    "category": {
+      "id": 39,
+      "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+      "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+      "image": "http://miller.com/",
+      "creationAt": "2026-10-12T05:05:38.000Z",
+      "updatedAt": "2026-10-12T05:05:38.000Z"
+    },
+    "images": [
+      "http://www.snyder-haynes.com/"
+    ],
+    "creationAt": "2026-10-12T05:05:39.000Z",
+    "updatedAt": "2026-10-12T05:05:39.000Z"
+  },
+  {
+    "id": 134,
+    "title": "Cross-platform modular installation-93b0a097ab574de2accdb31c203fcd6d",
+    "slug": "cross-platform-modular-installation-93b0a097ab574de2accdb31c203fcd6d",
+    "price": 331,
+    "description": "Pre-emptive scalable complexity",
+    "category": {
+      "id": 39,
+      "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+      "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+      "image": "http://miller.com/",
+      "creationAt": "2026-10-12T05:05:38.000Z",
+      "updatedAt": "2026-10-12T05:05:38.000Z"
+    },
+    "images": [
+      "http://schultz.com/"
+    ],
+    "creationAt": "2026-10-12T05:05:39.000Z",
+    "updatedAt": "2026-10-12T05:05:39.000Z"
+  }
+]
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/134
+Body:
+<empty> 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/134 -> 200
+Body:
+{
+  "id": 134,
+  "title": "Cross-platform modular installation-93b0a097ab574de2accdb31c203fcd6d",
+  "slug": "cross-platform-modular-installation-93b0a097ab574de2accdb31c203fcd6d",
+  "price": 331,
+  "description": "Pre-emptive scalable complexity",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "http://schultz.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/134
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/134 -> 200
+Body:
+true 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/132
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/132 -> 200
+Body:
+{
+  "id": 132,
+  "title": "Enhanced optimal matrices-651e3674ce504f23bae91c0ab658b4e4",
+  "slug": "enhanced-optimal-matrices-651e3674ce504f23bae91c0ab658b4e4",
+  "price": 940,
+  "description": "De-engineered context-sensitive leverage",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "http://www.snyder-haynes.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/132
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/132 -> 200
+Body:
+true 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/131
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/131 -> 200
+Body:
+{
+  "id": 131,
+  "title": "Ergonomic value-added algorithm-007cca124170448b894a191804896aca",
+  "slug": "ergonomic-value-added-algorithm-007cca124170448b894a191804896aca",
+  "price": 548,
+  "description": "Operative human-resource knowledge user",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "https://richardson.org/"
+  ],
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/131
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/131 -> 200
+Body:
+true 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/130
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/130 -> 200
+Body:
+{
+  "id": 130,
+  "title": "Right-sized solution-oriented function-c311810bdb904fd8844ca9db12860e27",
+  "slug": "right-sized-solution-oriented-function-c311810bdb904fd8844ca9db12860e27",
+  "price": 552,
+  "description": "Automated stable Internet solution",
+  "category": {
+    "id": 39,
+    "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+    "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+    "image": "http://miller.com/",
+    "creationAt": "2026-10-12T05:05:38.000Z",
+    "updatedAt": "2026-10-12T05:05:38.000Z"
+  },
+  "images": [
+    "http://estes.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/130
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/130 -> 200
+Body:
+true 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+{
+  "id": 39,
+  "name": "Pet Supplies_5be3b6fb384c47a98e5c7cc48fad0eda",
+  "slug": "pet-supplies-5be3b6fb384c47a98e5c7cc48fad0eda",
+  "image": "http://miller.com/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/39
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/39 -> 200
+Body:
+true

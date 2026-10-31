@@ -1,0 +1,107 @@
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_fc70c81fd4aa4a218e2c833871a4f987",
+  "image": "https://palmer-adams.net/"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Home & Kitchen_fc70c81fd4aa4a218e2c833871a4f987",
+  "slug": "home-kitchen-fc70c81fd4aa4a218e2c833871a4f987",
+  "image": "https://palmer-adams.net/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Diverse bandwidth-monitored customer loyalty-d21fceb8068341cfadcbf4178954b282",
+  "price": 472,
+  "description": "Stand-alone explicit infrastructure",
+  "categoryId": 35,
+  "images": [
+    "http://baldwin.info/"
+  ]
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 173,
+  "title": "Diverse bandwidth-monitored customer loyalty-d21fceb8068341cfadcbf4178954b282",
+  "slug": "diverse-bandwidth-monitored-customer-loyalty-d21fceb8068341cfadcbf4178954b282",
+  "price": 472,
+  "description": "Stand-alone explicit infrastructure",
+  "category": {
+    "id": 35,
+    "name": "Home & Kitchen_fc70c81fd4aa4a218e2c833871a4f987",
+    "slug": "home-kitchen-fc70c81fd4aa4a218e2c833871a4f987",
+    "image": "https://palmer-adams.net/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "http://baldwin.info/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/173
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/173 -> 200
+Body:
+true 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/173
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/173 -> 400
+Body:
+{
+  "path": "/api/v1/products/173",
+  "timestamp": "2026-10-22T03:53:51.234Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 173\n    }\n}"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/173
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/173 -> 400
+Body:
+{
+  "path": "/api/v1/products/173",
+  "timestamp": "2026-10-22T03:53:51.240Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 173\n    }\n}"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Home & Kitchen_fc70c81fd4aa4a218e2c833871a4f987",
+  "slug": "home-kitchen-fc70c81fd4aa4a218e2c833871a4f987",
+  "image": "https://palmer-adams.net/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

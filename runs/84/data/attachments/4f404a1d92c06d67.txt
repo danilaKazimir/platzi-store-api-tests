@@ -1,0 +1,107 @@
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_a956479d56f54d95a0f596d48cfd2232",
+  "image": "http://www.wilson.com/"
+} 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 203,
+  "name": "Pet Supplies_a956479d56f54d95a0f596d48cfd2232",
+  "slug": "pet-supplies-a956479d56f54d95a0f596d48cfd2232",
+  "image": "http://www.wilson.com/",
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+} 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optimized neutral collaboration-574654ad094044e4bf710cea75250bab",
+  "price": 139,
+  "description": "Intuitive solution-oriented encoding",
+  "categoryId": 203,
+  "images": [
+    "http://wallace.biz/"
+  ]
+} 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 322,
+  "title": "Optimized neutral collaboration-574654ad094044e4bf710cea75250bab",
+  "slug": "optimized-neutral-collaboration-574654ad094044e4bf710cea75250bab",
+  "price": 139,
+  "description": "Intuitive solution-oriented encoding",
+  "category": {
+    "id": 203,
+    "name": "Pet Supplies_a956479d56f54d95a0f596d48cfd2232",
+    "slug": "pet-supplies-a956479d56f54d95a0f596d48cfd2232",
+    "image": "http://www.wilson.com/",
+    "creationAt": "2026-10-05T04:47:06.000Z",
+    "updatedAt": "2026-10-05T04:47:06.000Z"
+  },
+  "images": [
+    "http://wallace.biz/"
+  ],
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+}
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/322
+Body:
+<empty> 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/322 -> 200
+Body:
+true 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/322
+Body:
+<empty> 
+
+2026-10-05 04:47:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/322 -> 400
+Body:
+{
+  "path": "/api/v1/products/322",
+  "timestamp": "2026-10-05T04:47:06.936Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 322\n    }\n}"
+}
+2026-10-05 04:47:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/322
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/322 -> 400
+Body:
+{
+  "path": "/api/v1/products/322",
+  "timestamp": "2026-10-05T04:47:06.995Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 322\n    }\n}"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/203
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/203 -> 200
+Body:
+{
+  "id": 203,
+  "name": "Pet Supplies_a956479d56f54d95a0f596d48cfd2232",
+  "slug": "pet-supplies-a956479d56f54d95a0f596d48cfd2232",
+  "image": "http://www.wilson.com/",
+  "creationAt": "2026-10-05T04:47:06.000Z",
+  "updatedAt": "2026-10-05T04:47:06.000Z"
+} 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/203
+Body:
+<empty> 
+
+2026-10-05 04:47:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/203 -> 200
+Body:
+true

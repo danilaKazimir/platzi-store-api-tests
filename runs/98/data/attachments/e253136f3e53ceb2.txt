@@ -1,0 +1,135 @@
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_079184811fa249329396926857987b5f",
+  "image": "https://lewis-gallegos.com/"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 42,
+  "name": "Pet Supplies_079184811fa249329396926857987b5f",
+  "slug": "pet-supplies-079184811fa249329396926857987b5f",
+  "image": "https://lewis-gallegos.com/",
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Pre-emptive asymmetric emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "price": 723,
+  "description": "Universal actuating archive",
+  "categoryId": 42,
+  "images": [
+    "https://www.becker.com/"
+  ]
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 436,
+  "title": "Pre-emptive asymmetric emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "slug": "pre-emptive-asymmetric-emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "price": 723,
+  "description": "Universal actuating archive",
+  "category": {
+    "id": 42,
+    "name": "Pet Supplies_079184811fa249329396926857987b5f",
+    "slug": "pet-supplies-079184811fa249329396926857987b5f",
+    "image": "https://lewis-gallegos.com/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "https://www.becker.com/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+}
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/436
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/436 -> 200
+Body:
+{
+  "id": 436,
+  "title": "Pre-emptive asymmetric emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "slug": "pre-emptive-asymmetric-emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "price": 723,
+  "description": "Universal actuating archive",
+  "category": {
+    "id": 42,
+    "name": "Pet Supplies_079184811fa249329396926857987b5f",
+    "slug": "pet-supplies-079184811fa249329396926857987b5f",
+    "image": "https://lewis-gallegos.com/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "https://www.becker.com/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+}
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/436
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/436 -> 200
+Body:
+{
+  "id": 436,
+  "title": "Pre-emptive asymmetric emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "slug": "pre-emptive-asymmetric-emulation-3b82d390a7e44be4b7bc36b7b20d7ae9",
+  "price": 723,
+  "description": "Universal actuating archive",
+  "category": {
+    "id": 42,
+    "name": "Pet Supplies_079184811fa249329396926857987b5f",
+    "slug": "pet-supplies-079184811fa249329396926857987b5f",
+    "image": "https://lewis-gallegos.com/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "https://www.becker.com/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/436
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/436 -> 200
+Body:
+true 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+{
+  "id": 42,
+  "name": "Pet Supplies_079184811fa249329396926857987b5f",
+  "slug": "pet-supplies-079184811fa249329396926857987b5f",
+  "image": "https://lewis-gallegos.com/",
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+true

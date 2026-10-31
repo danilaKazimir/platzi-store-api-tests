@@ -1,0 +1,143 @@
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_bf030c6b4f3142f58391916c1be19c48",
+  "image": "https://jones-washington.com/"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 96,
+  "name": "Food & Beverages_bf030c6b4f3142f58391916c1be19c48",
+  "slug": "food-beverages-bf030c6b4f3142f58391916c1be19c48",
+  "image": "https://jones-washington.com/",
+  "creationAt": "2026-10-26T03:55:01.000Z",
+  "updatedAt": "2026-10-26T03:55:01.000Z"
+}
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-25T17:21:00.000Z",
+    "updatedAt": "2026-10-25T18:00:35.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-25T17:21:00.000Z",
+    "updatedAt": "2026-10-25T17:21:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-25T17:21:00.000Z",
+    "updatedAt": "2026-10-25T17:21:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-25T17:21:00.000Z",
+    "updatedAt": "2026-10-25T17:21:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-25T17:21:00.000Z",
+    "updatedAt": "2026-10-25T17:21:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-25T18:00:20.000Z",
+    "updatedAt": "2026-10-25T18:00:20.000Z"
+  },
+  {
+    "id": 7,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-25T18:00:35.000Z",
+    "updatedAt": "2026-10-25T18:00:35.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-25T19:00:38.000Z",
+    "updatedAt": "2026-10-25T19:00:38.000Z"
+  },
+  {
+    "id": 36,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-25T21:00:40.000Z",
+    "updatedAt": "2026-10-25T21:00:40.000Z"
+  },
+  {
+    "id": 47,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-25T22:01:00.000Z",
+    "updatedAt": "2026-10-25T22:01:00.000Z"
+  },
+  {
+    "id": 95,
+    "name": "testCategoryc6dacd8f541448c6a90def3f796d1163",
+    "slug": "testcategoryc6dacd8f541448c6a90def3f796d1163",
+    "image": "http://rios.net/",
+    "creationAt": "2026-10-26T03:55:01.000Z",
+    "updatedAt": "2026-10-26T03:55:01.000Z"
+  },
+  {
+    "id": 96,
+    "name": "Food & Beverages_bf030c6b4f3142f58391916c1be19c48",
+    "slug": "food-beverages-bf030c6b4f3142f58391916c1be19c48",
+    "image": "https://jones-washington.com/",
+    "creationAt": "2026-10-26T03:55:01.000Z",
+    "updatedAt": "2026-10-26T03:55:01.000Z"
+  }
+]
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/96
+Body:
+<empty> 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/96 -> 200
+Body:
+{
+  "id": 96,
+  "name": "Food & Beverages_bf030c6b4f3142f58391916c1be19c48",
+  "slug": "food-beverages-bf030c6b4f3142f58391916c1be19c48",
+  "image": "https://jones-washington.com/",
+  "creationAt": "2026-10-26T03:55:01.000Z",
+  "updatedAt": "2026-10-26T03:55:01.000Z"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/96
+Body:
+<empty> 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/96 -> 200
+Body:
+true

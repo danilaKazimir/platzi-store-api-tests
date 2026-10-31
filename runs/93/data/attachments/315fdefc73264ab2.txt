@@ -1,0 +1,135 @@
+2026-10-14 04:08:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_375d2ad283d946dfb02fd84e12d8f3e7",
+  "image": "http://williams-boone.net/"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Sports & Fitness_375d2ad283d946dfb02fd84e12d8f3e7",
+  "slug": "sports-fitness-375d2ad283d946dfb02fd84e12d8f3e7",
+  "image": "http://williams-boone.net/",
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered fresh-thinking artificial intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "price": 254,
+  "description": "Seamless high-level concept",
+  "categoryId": 41,
+  "images": [
+    "https://chambers.org/"
+  ]
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 126,
+  "title": "Reverse-engineered fresh-thinking artificial intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "slug": "reverse-engineered-fresh-thinking-artificial-intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "price": 254,
+  "description": "Seamless high-level concept",
+  "category": {
+    "id": 41,
+    "name": "Sports & Fitness_375d2ad283d946dfb02fd84e12d8f3e7",
+    "slug": "sports-fitness-375d2ad283d946dfb02fd84e12d8f3e7",
+    "image": "http://williams-boone.net/",
+    "creationAt": "2026-10-14T04:08:15.000Z",
+    "updatedAt": "2026-10-14T04:08:15.000Z"
+  },
+  "images": [
+    "https://chambers.org/"
+  ],
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+}
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/126
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/126 -> 200
+Body:
+{
+  "id": 126,
+  "title": "Reverse-engineered fresh-thinking artificial intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "slug": "reverse-engineered-fresh-thinking-artificial-intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "price": 254,
+  "description": "Seamless high-level concept",
+  "category": {
+    "id": 41,
+    "name": "Sports & Fitness_375d2ad283d946dfb02fd84e12d8f3e7",
+    "slug": "sports-fitness-375d2ad283d946dfb02fd84e12d8f3e7",
+    "image": "http://williams-boone.net/",
+    "creationAt": "2026-10-14T04:08:15.000Z",
+    "updatedAt": "2026-10-14T04:08:15.000Z"
+  },
+  "images": [
+    "https://chambers.org/"
+  ],
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+}
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/126
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/126 -> 200
+Body:
+{
+  "id": 126,
+  "title": "Reverse-engineered fresh-thinking artificial intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "slug": "reverse-engineered-fresh-thinking-artificial-intelligence-3d281a83e80b4b0daaa899b872a0f399",
+  "price": 254,
+  "description": "Seamless high-level concept",
+  "category": {
+    "id": 41,
+    "name": "Sports & Fitness_375d2ad283d946dfb02fd84e12d8f3e7",
+    "slug": "sports-fitness-375d2ad283d946dfb02fd84e12d8f3e7",
+    "image": "http://williams-boone.net/",
+    "creationAt": "2026-10-14T04:08:15.000Z",
+    "updatedAt": "2026-10-14T04:08:15.000Z"
+  },
+  "images": [
+    "https://chambers.org/"
+  ],
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/126
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/126 -> 200
+Body:
+true 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Sports & Fitness_375d2ad283d946dfb02fd84e12d8f3e7",
+  "slug": "sports-fitness-375d2ad283d946dfb02fd84e12d8f3e7",
+  "image": "http://williams-boone.net/",
+  "creationAt": "2026-10-14T04:08:15.000Z",
+  "updatedAt": "2026-10-14T04:08:15.000Z"
+} 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-14 04:08:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

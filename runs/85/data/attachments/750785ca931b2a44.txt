@@ -1,0 +1,135 @@
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_46e76d9540d44f368a75f5d55e13d18a",
+  "image": "https://glass.com/"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 321,
+  "name": "Pet Supplies_46e76d9540d44f368a75f5d55e13d18a",
+  "slug": "pet-supplies-46e76d9540d44f368a75f5d55e13d18a",
+  "image": "https://glass.com/",
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Centralized full-range benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "price": 544,
+  "description": "Implemented neutral groupware",
+  "categoryId": 321,
+  "images": [
+    "https://www.barrett.info/"
+  ]
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 425,
+  "title": "Centralized full-range benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "slug": "centralized-full-range-benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "price": 544,
+  "description": "Implemented neutral groupware",
+  "category": {
+    "id": 321,
+    "name": "Pet Supplies_46e76d9540d44f368a75f5d55e13d18a",
+    "slug": "pet-supplies-46e76d9540d44f368a75f5d55e13d18a",
+    "image": "https://glass.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "https://www.barrett.info/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+}
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/centralized-full-range-benchmark-8a161d92c151461b9d8ce3a3df2c9751
+Body:
+<empty> 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/centralized-full-range-benchmark-8a161d92c151461b9d8ce3a3df2c9751 -> 200
+Body:
+{
+  "id": 425,
+  "title": "Centralized full-range benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "slug": "centralized-full-range-benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "price": 544,
+  "description": "Implemented neutral groupware",
+  "category": {
+    "id": 321,
+    "name": "Pet Supplies_46e76d9540d44f368a75f5d55e13d18a",
+    "slug": "pet-supplies-46e76d9540d44f368a75f5d55e13d18a",
+    "image": "https://glass.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "https://www.barrett.info/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+}
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/425
+Body:
+<empty> 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/425 -> 200
+Body:
+{
+  "id": 425,
+  "title": "Centralized full-range benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "slug": "centralized-full-range-benchmark-8a161d92c151461b9d8ce3a3df2c9751",
+  "price": 544,
+  "description": "Implemented neutral groupware",
+  "category": {
+    "id": 321,
+    "name": "Pet Supplies_46e76d9540d44f368a75f5d55e13d18a",
+    "slug": "pet-supplies-46e76d9540d44f368a75f5d55e13d18a",
+    "image": "https://glass.com/",
+    "creationAt": "2026-10-06T05:33:47.000Z",
+    "updatedAt": "2026-10-06T05:33:47.000Z"
+  },
+  "images": [
+    "https://www.barrett.info/"
+  ],
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/425
+Body:
+<empty> 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/425 -> 200
+Body:
+true 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/321
+Body:
+<empty> 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/321 -> 200
+Body:
+{
+  "id": 321,
+  "name": "Pet Supplies_46e76d9540d44f368a75f5d55e13d18a",
+  "slug": "pet-supplies-46e76d9540d44f368a75f5d55e13d18a",
+  "image": "https://glass.com/",
+  "creationAt": "2026-10-06T05:33:47.000Z",
+  "updatedAt": "2026-10-06T05:33:47.000Z"
+} 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/321
+Body:
+<empty> 
+
+2026-10-06 05:33:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/321 -> 200
+Body:
+true

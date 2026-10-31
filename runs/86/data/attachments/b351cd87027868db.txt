@@ -1,0 +1,80 @@
+2026-10-07 05:03:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Brian Escobar",
+  "email": "emorris@example.org",
+  "password": "***",
+  "avatar": "http://www.torres.com/"
+} 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 61,
+  "email": "emorris@example.org",
+  "password": "***",
+  "name": "Brian Escobar",
+  "role": "customer",
+  "avatar": "http://www.torres.com/",
+  "creationAt": "2026-10-07T05:03:48.000Z",
+  "updatedAt": "2026-10-07T05:03:48.000Z"
+}
+2026-10-07 05:03:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/61
+Body:
+{
+  "email": "williamstracy@example.com"
+} 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/61 -> 200
+Body:
+{
+  "id": 61,
+  "email": "williamstracy@example.com",
+  "password": "***",
+  "name": "Brian Escobar",
+  "role": "customer",
+  "avatar": "http://www.torres.com/",
+  "creationAt": "2026-10-07T05:03:48.000Z",
+  "updatedAt": "2026-10-07T05:03:48.000Z"
+} 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/61
+Body:
+<empty> 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/61 -> 200
+Body:
+{
+  "id": 61,
+  "email": "williamstracy@example.com",
+  "password": "***",
+  "name": "Brian Escobar",
+  "role": "customer",
+  "avatar": "http://www.torres.com/",
+  "creationAt": "2026-10-07T05:03:48.000Z",
+  "updatedAt": "2026-10-07T05:03:48.000Z"
+}
+2026-10-07 05:03:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/61
+Body:
+<empty> 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/61 -> 200
+Body:
+{
+  "id": 61,
+  "email": "williamstracy@example.com",
+  "password": "***",
+  "name": "Brian Escobar",
+  "role": "customer",
+  "avatar": "http://www.torres.com/",
+  "creationAt": "2026-10-07T05:03:48.000Z",
+  "updatedAt": "2026-10-07T05:03:48.000Z"
+} 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/61
+Body:
+<empty> 
+
+2026-10-07 05:03:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/61 -> 200
+Body:
+true

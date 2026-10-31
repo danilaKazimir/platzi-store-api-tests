@@ -1,0 +1,49 @@
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_6cee7b14991d4356857d0a8086d937a7",
+  "image": "http://www.graham.com/"
+} 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Automotive Accessories_6cee7b14991d4356857d0a8086d937a7",
+  "slug": "automotive-accessories-6cee7b14991d4356857d0a8086d937a7",
+  "image": "http://www.graham.com/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+}
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 400
+Body:
+{
+  "path": "/api/v1/categories/25",
+  "timestamp": "2026-10-30T04:57:43.259Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 25\n}"
+}
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 400
+Body:
+{
+  "path": "/api/v1/categories/25",
+  "timestamp": "2026-10-30T04:57:43.294Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 25\n}"
+}

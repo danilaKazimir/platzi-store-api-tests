@@ -1,0 +1,135 @@
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_c4b5898759c949b790ee772ec3d90c5c",
+  "image": "https://www.torres.biz/"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 105,
+  "name": "Clothing_c4b5898759c949b790ee772ec3d90c5c",
+  "slug": "clothing-c4b5898759c949b790ee772ec3d90c5c",
+  "image": "https://www.torres.biz/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone needs-based initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "price": 976,
+  "description": "Fully-configurable maximized array",
+  "categoryId": 105,
+  "images": [
+    "https://www.thomas.net/"
+  ]
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 378,
+  "title": "Stand-alone needs-based initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "slug": "stand-alone-needs-based-initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "price": 976,
+  "description": "Fully-configurable maximized array",
+  "category": {
+    "id": 105,
+    "name": "Clothing_c4b5898759c949b790ee772ec3d90c5c",
+    "slug": "clothing-c4b5898759c949b790ee772ec3d90c5c",
+    "image": "https://www.torres.biz/",
+    "creationAt": "2026-10-26T03:55:03.000Z",
+    "updatedAt": "2026-10-26T03:55:03.000Z"
+  },
+  "images": [
+    "https://www.thomas.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+}
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/378
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/378 -> 200
+Body:
+{
+  "id": 378,
+  "title": "Stand-alone needs-based initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "slug": "stand-alone-needs-based-initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "price": 976,
+  "description": "Fully-configurable maximized array",
+  "category": {
+    "id": 105,
+    "name": "Clothing_c4b5898759c949b790ee772ec3d90c5c",
+    "slug": "clothing-c4b5898759c949b790ee772ec3d90c5c",
+    "image": "https://www.torres.biz/",
+    "creationAt": "2026-10-26T03:55:03.000Z",
+    "updatedAt": "2026-10-26T03:55:03.000Z"
+  },
+  "images": [
+    "https://www.thomas.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+}
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/378
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/378 -> 200
+Body:
+{
+  "id": 378,
+  "title": "Stand-alone needs-based initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "slug": "stand-alone-needs-based-initiative-6bba59ac8dbc4ad384f0e1c40f4f54ba",
+  "price": 976,
+  "description": "Fully-configurable maximized array",
+  "category": {
+    "id": 105,
+    "name": "Clothing_c4b5898759c949b790ee772ec3d90c5c",
+    "slug": "clothing-c4b5898759c949b790ee772ec3d90c5c",
+    "image": "https://www.torres.biz/",
+    "creationAt": "2026-10-26T03:55:03.000Z",
+    "updatedAt": "2026-10-26T03:55:03.000Z"
+  },
+  "images": [
+    "https://www.thomas.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/378
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/378 -> 200
+Body:
+true 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/105
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/105 -> 200
+Body:
+{
+  "id": 105,
+  "name": "Clothing_c4b5898759c949b790ee772ec3d90c5c",
+  "slug": "clothing-c4b5898759c949b790ee772ec3d90c5c",
+  "image": "https://www.torres.biz/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/105
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/105 -> 200
+Body:
+true

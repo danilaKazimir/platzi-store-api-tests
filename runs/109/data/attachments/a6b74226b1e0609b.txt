@@ -1,0 +1,88 @@
+2026-10-30 04:57:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jennifer Jimenez",
+  "email": "wayne80@example.com",
+  "password": "***",
+  "avatar": "https://www.adams-norman.info/"
+} 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 3426,
+  "email": "wayne80@example.com",
+  "password": "***",
+  "name": "Jennifer Jimenez",
+  "role": "customer",
+  "avatar": "https://www.adams-norman.info/",
+  "creationAt": "2026-10-30T04:57:42.000Z",
+  "updatedAt": "2026-10-30T04:57:42.000Z"
+}
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "wayne80@example.com",
+  "password": "***"
+} 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjM0MjYsImlhdCI6MTc5MzMzNjI2MiwiZXhwIjoxNzkzMzcyMjYyfQ.74ZQ8Is5mwQlUWbpgAjE7LgrcisGM_WPtKlcs7HAEyw"
+} 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 3426,
+  "email": "wayne80@example.com",
+  "password": "***",
+  "name": "Jennifer Jimenez",
+  "role": "customer",
+  "avatar": "https://www.adams-norman.info/",
+  "creationAt": "2026-10-30T04:57:42.000Z",
+  "updatedAt": "2026-10-30T04:57:42.000Z"
+}
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3426
+Body:
+<empty> 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3426 -> 200
+Body:
+{
+  "id": 3426,
+  "email": "wayne80@example.com",
+  "password": "***",
+  "name": "Jennifer Jimenez",
+  "role": "customer",
+  "avatar": "https://www.adams-norman.info/",
+  "creationAt": "2026-10-30T04:57:42.000Z",
+  "updatedAt": "2026-10-30T04:57:42.000Z"
+} 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/3426
+Body:
+<empty> 
+
+2026-10-30 04:57:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/3426 -> 200
+Body:
+true

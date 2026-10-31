@@ -1,0 +1,107 @@
+2026-10-04 05:00:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_ddc75f8737a940bda5b2e0f21cdffadf",
+  "image": "https://www.stone-carter.com/"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 74,
+  "name": "Electronics_ddc75f8737a940bda5b2e0f21cdffadf",
+  "slug": "electronics-ddc75f8737a940bda5b2e0f21cdffadf",
+  "image": "https://www.stone-carter.com/",
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-lateral hybrid success-da8dacb136094d92bd57444c70f0e267",
+  "price": 849,
+  "description": "Integrated 24/7 neural-net",
+  "categoryId": 74,
+  "images": [
+    "http://abbott.org/"
+  ]
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 495,
+  "title": "Multi-lateral hybrid success-da8dacb136094d92bd57444c70f0e267",
+  "slug": "multi-lateral-hybrid-success-da8dacb136094d92bd57444c70f0e267",
+  "price": 849,
+  "description": "Integrated 24/7 neural-net",
+  "category": {
+    "id": 74,
+    "name": "Electronics_ddc75f8737a940bda5b2e0f21cdffadf",
+    "slug": "electronics-ddc75f8737a940bda5b2e0f21cdffadf",
+    "image": "https://www.stone-carter.com/",
+    "creationAt": "2026-10-04T05:00:08.000Z",
+    "updatedAt": "2026-10-04T05:00:08.000Z"
+  },
+  "images": [
+    "http://abbott.org/"
+  ],
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+}
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/495
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/495 -> 200
+Body:
+true 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/495
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/495 -> 400
+Body:
+{
+  "path": "/api/v1/products/495",
+  "timestamp": "2026-10-04T05:00:08.180Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 495\n    }\n}"
+}
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/495
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/495 -> 400
+Body:
+{
+  "path": "/api/v1/products/495",
+  "timestamp": "2026-10-04T05:00:08.187Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 495\n    }\n}"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+{
+  "id": 74,
+  "name": "Electronics_ddc75f8737a940bda5b2e0f21cdffadf",
+  "slug": "electronics-ddc75f8737a940bda5b2e0f21cdffadf",
+  "image": "https://www.stone-carter.com/",
+  "creationAt": "2026-10-04T05:00:08.000Z",
+  "updatedAt": "2026-10-04T05:00:08.000Z"
+} 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/74
+Body:
+<empty> 
+
+2026-10-04 05:00:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/74 -> 200
+Body:
+true

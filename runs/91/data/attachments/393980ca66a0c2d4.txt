@@ -1,0 +1,53 @@
+2026-10-12 05:05:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_94af6d0da9c34152bca7438572f107f4",
+  "image": "http://www.evans.info/"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Sports & Fitness_94af6d0da9c34152bca7438572f107f4",
+  "slug": "sports-fitness-94af6d0da9c34152bca7438572f107f4",
+  "image": "http://www.evans.info/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+}
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Sports & Fitness_94af6d0da9c34152bca7438572f107f4",
+  "slug": "sports-fitness-94af6d0da9c34152bca7438572f107f4",
+  "image": "http://www.evans.info/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+}
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Sports & Fitness_94af6d0da9c34152bca7438572f107f4",
+  "slug": "sports-fitness-94af6d0da9c34152bca7438572f107f4",
+  "image": "http://www.evans.info/",
+  "creationAt": "2026-10-12T05:05:38.000Z",
+  "updatedAt": "2026-10-12T05:05:38.000Z"
+} 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-12 05:05:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+true
