@@ -1,0 +1,53 @@
+2026-10-11 04:50:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_89120216cabc4ca8ae7c458178e2bbad",
+  "image": "https://ortega.biz/"
+} 
+
+2026-10-11 04:50:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Books_89120216cabc4ca8ae7c458178e2bbad",
+  "slug": "books-89120216cabc4ca8ae7c458178e2bbad",
+  "image": "https://ortega.biz/",
+  "creationAt": "2026-10-11T04:50:39.000Z",
+  "updatedAt": "2026-10-11T04:50:39.000Z"
+}
+2026-10-11 04:50:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-11 04:50:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Books_89120216cabc4ca8ae7c458178e2bbad",
+  "slug": "books-89120216cabc4ca8ae7c458178e2bbad",
+  "image": "https://ortega.biz/",
+  "creationAt": "2026-10-11T04:50:39.000Z",
+  "updatedAt": "2026-10-11T04:50:39.000Z"
+}
+2026-10-11 04:50:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-11 04:50:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Books_89120216cabc4ca8ae7c458178e2bbad",
+  "slug": "books-89120216cabc4ca8ae7c458178e2bbad",
+  "image": "https://ortega.biz/",
+  "creationAt": "2026-10-11T04:50:39.000Z",
+  "updatedAt": "2026-10-11T04:50:39.000Z"
+} 
+
+2026-10-11 04:50:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-11 04:50:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+true

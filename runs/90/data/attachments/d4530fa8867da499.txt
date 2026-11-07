@@ -1,0 +1,107 @@
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+  "image": "https://www.watson.com/"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Automotive Accessories_1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+  "slug": "automotive-accessories-1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+  "image": "https://www.watson.com/",
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated discrete help-desk-697f0e7b91ef4721a630eebbabd8756b",
+  "price": 775,
+  "description": "Devolved upward-trending encoding",
+  "categoryId": 38,
+  "images": [
+    "http://www.warren.net/"
+  ]
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 126,
+  "title": "Ameliorated discrete help-desk-697f0e7b91ef4721a630eebbabd8756b",
+  "slug": "ameliorated-discrete-help-desk-697f0e7b91ef4721a630eebbabd8756b",
+  "price": 775,
+  "description": "Devolved upward-trending encoding",
+  "category": {
+    "id": 38,
+    "name": "Automotive Accessories_1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+    "slug": "automotive-accessories-1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+    "image": "https://www.watson.com/",
+    "creationAt": "2026-10-11T04:50:41.000Z",
+    "updatedAt": "2026-10-11T04:50:41.000Z"
+  },
+  "images": [
+    "http://www.warren.net/"
+  ],
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+}
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/126
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/126 -> 200
+Body:
+true 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/126
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/126 -> 400
+Body:
+{
+  "path": "/api/v1/products/126",
+  "timestamp": "2026-10-11T04:50:41.833Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 126\n    }\n}"
+}
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/126
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/126 -> 400
+Body:
+{
+  "path": "/api/v1/products/126",
+  "timestamp": "2026-10-11T04:50:41.892Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 126\n    }\n}"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Automotive Accessories_1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+  "slug": "automotive-accessories-1b42bc97d4ac43dd8f3f4f3fd934c3b3",
+  "image": "https://www.watson.com/",
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-10-11 04:50:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+true

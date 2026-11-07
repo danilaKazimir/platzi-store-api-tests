@@ -1,0 +1,80 @@
+2026-10-12 05:05:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Carol Chavez",
+  "email": "laurenoneill@example.com",
+  "password": "***",
+  "avatar": "https://www.robinson-dominguez.com/"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 147,
+  "email": "laurenoneill@example.com",
+  "password": "***",
+  "name": "Carol Chavez",
+  "role": "customer",
+  "avatar": "https://www.robinson-dominguez.com/",
+  "creationAt": "2026-10-12T05:05:43.000Z",
+  "updatedAt": "2026-10-12T05:05:43.000Z"
+}
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/147
+Body:
+{
+  "email": "colson@example.com"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/147 -> 200
+Body:
+{
+  "id": 147,
+  "email": "colson@example.com",
+  "password": "***",
+  "name": "Carol Chavez",
+  "role": "customer",
+  "avatar": "https://www.robinson-dominguez.com/",
+  "creationAt": "2026-10-12T05:05:43.000Z",
+  "updatedAt": "2026-10-12T05:05:43.000Z"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/147
+Body:
+<empty> 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/147 -> 200
+Body:
+{
+  "id": 147,
+  "email": "colson@example.com",
+  "password": "***",
+  "name": "Carol Chavez",
+  "role": "customer",
+  "avatar": "https://www.robinson-dominguez.com/",
+  "creationAt": "2026-10-12T05:05:43.000Z",
+  "updatedAt": "2026-10-12T05:05:43.000Z"
+}
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/147
+Body:
+<empty> 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/147 -> 200
+Body:
+{
+  "id": 147,
+  "email": "colson@example.com",
+  "password": "***",
+  "name": "Carol Chavez",
+  "role": "customer",
+  "avatar": "https://www.robinson-dominguez.com/",
+  "creationAt": "2026-10-12T05:05:43.000Z",
+  "updatedAt": "2026-10-12T05:05:43.000Z"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/147
+Body:
+<empty> 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/147 -> 200
+Body:
+true

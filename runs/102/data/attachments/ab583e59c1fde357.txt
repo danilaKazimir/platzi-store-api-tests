@@ -1,0 +1,79 @@
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_c4e6aa757cc846d792dc410d1144bd7e",
+  "image": "https://www.smith-koch.com/"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 64,
+  "name": "Toys_c4e6aa757cc846d792dc410d1144bd7e",
+  "slug": "toys-c4e6aa757cc846d792dc410d1144bd7e",
+  "image": "https://www.smith-koch.com/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+}
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based asymmetric monitoring-f2aabf7fbe254c109c141344fb823979",
+  "price": 184,
+  "description": "Customizable 24/7 installation",
+  "categoryId": 64,
+  "images": [
+    "http://brown.info/"
+  ]
+} 
+
+2026-10-23 03:57:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 128,
+  "title": "Object-based asymmetric monitoring-f2aabf7fbe254c109c141344fb823979",
+  "slug": "object-based-asymmetric-monitoring-f2aabf7fbe254c109c141344fb823979",
+  "price": 184,
+  "description": "Customizable 24/7 installation",
+  "category": {
+    "id": 64,
+    "name": "Toys_c4e6aa757cc846d792dc410d1144bd7e",
+    "slug": "toys-c4e6aa757cc846d792dc410d1144bd7e",
+    "image": "https://www.smith-koch.com/",
+    "creationAt": "2026-10-23T03:57:46.000Z",
+    "updatedAt": "2026-10-23T03:57:46.000Z"
+  },
+  "images": [
+    "http://brown.info/"
+  ],
+  "creationAt": "2026-10-23T03:57:47.000Z",
+  "updatedAt": "2026-10-23T03:57:47.000Z"
+}
+2026-10-23 03:57:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/64
+Body:
+<empty> 
+
+2026-10-23 03:57:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/64 -> 200
+Body:
+{
+  "id": 64,
+  "name": "Toys_c4e6aa757cc846d792dc410d1144bd7e",
+  "slug": "toys-c4e6aa757cc846d792dc410d1144bd7e",
+  "image": "https://www.smith-koch.com/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+} 
+
+2026-10-23 03:57:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/64
+Body:
+<empty> 
+
+2026-10-23 03:57:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/64 -> 400
+Body:
+{
+  "path": "/api/v1/categories/64",
+  "timestamp": "2026-10-23T03:57:47.367Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

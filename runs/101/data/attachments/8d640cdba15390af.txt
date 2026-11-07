@@ -1,0 +1,125 @@
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_e06acd3756144264b43159590e26dce4",
+  "image": "https://barton-davis.info/"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Home & Kitchen_e06acd3756144264b43159590e26dce4",
+  "slug": "home-kitchen-e06acd3756144264b43159590e26dce4",
+  "image": "https://barton-davis.info/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source 4thgeneration budgetary management-b68a085f9b6d4799a0636de91cb11dd7",
+  "price": 597,
+  "description": "Optimized contextually-based productivity",
+  "categoryId": 40,
+  "images": [
+    "https://www.martinez.org/"
+  ]
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 181,
+  "title": "Open-source 4thgeneration budgetary management-b68a085f9b6d4799a0636de91cb11dd7",
+  "slug": "open-source-4thgeneration-budgetary-management-b68a085f9b6d4799a0636de91cb11dd7",
+  "price": 597,
+  "description": "Optimized contextually-based productivity",
+  "category": {
+    "id": 40,
+    "name": "Home & Kitchen_e06acd3756144264b43159590e26dce4",
+    "slug": "home-kitchen-e06acd3756144264b43159590e26dce4",
+    "image": "https://barton-davis.info/",
+    "creationAt": "2026-10-22T03:53:51.000Z",
+    "updatedAt": "2026-10-22T03:53:51.000Z"
+  },
+  "images": [
+    "https://www.martinez.org/"
+  ],
+  "creationAt": "2026-10-22T03:53:52.000Z",
+  "updatedAt": "2026-10-22T03:53:52.000Z"
+}
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/181
+Body:
+{
+  "title": "Business-focused background matrices-0715f6dc666f4fd0993b50ea1b2b6c4c",
+  "price": 630,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/181 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/181
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/181 -> 200
+Body:
+{
+  "id": 181,
+  "title": "Open-source 4thgeneration budgetary management-b68a085f9b6d4799a0636de91cb11dd7",
+  "slug": "open-source-4thgeneration-budgetary-management-b68a085f9b6d4799a0636de91cb11dd7",
+  "price": 597,
+  "description": "Optimized contextually-based productivity",
+  "category": {
+    "id": 40,
+    "name": "Home & Kitchen_e06acd3756144264b43159590e26dce4",
+    "slug": "home-kitchen-e06acd3756144264b43159590e26dce4",
+    "image": "https://barton-davis.info/",
+    "creationAt": "2026-10-22T03:53:51.000Z",
+    "updatedAt": "2026-10-22T03:53:51.000Z"
+  },
+  "images": [
+    "https://www.martinez.org/"
+  ],
+  "creationAt": "2026-10-22T03:53:52.000Z",
+  "updatedAt": "2026-10-22T03:53:52.000Z"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/181
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/181 -> 200
+Body:
+true 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Home & Kitchen_e06acd3756144264b43159590e26dce4",
+  "slug": "home-kitchen-e06acd3756144264b43159590e26dce4",
+  "image": "https://barton-davis.info/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-22 03:53:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

@@ -1,0 +1,49 @@
+2026-10-10 05:01:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_3360cd6859074d11b6307915dfd2a95c",
+  "image": "http://hayes-johnson.com/"
+} 
+
+2026-10-10 05:01:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 93,
+  "name": "Food & Beverages_3360cd6859074d11b6307915dfd2a95c",
+  "slug": "food-beverages-3360cd6859074d11b6307915dfd2a95c",
+  "image": "http://hayes-johnson.com/",
+  "creationAt": "2026-10-10T05:01:56.000Z",
+  "updatedAt": "2026-10-10T05:01:56.000Z"
+}
+2026-10-10 05:01:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-10-10 05:01:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/93 -> 200
+Body:
+true 
+
+2026-10-10 05:01:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-10-10 05:01:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/93 -> 400
+Body:
+{
+  "path": "/api/v1/categories/93",
+  "timestamp": "2026-10-10T05:01:56.237Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 93\n}"
+}
+2026-10-10 05:01:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/93
+Body:
+<empty> 
+
+2026-10-10 05:01:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/93 -> 400
+Body:
+{
+  "path": "/api/v1/categories/93",
+  "timestamp": "2026-10-10T05:01:56.270Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 93\n}"
+}

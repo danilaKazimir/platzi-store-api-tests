@@ -1,0 +1,71 @@
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_a52c3c40b09641ff8d4c2de04ccb0da7",
+  "image": "http://freeman-mata.com/"
+} 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Electronics_a52c3c40b09641ff8d4c2de04ccb0da7",
+  "slug": "electronics-a52c3c40b09641ff8d4c2de04ccb0da7",
+  "image": "http://freeman-mata.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+}
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/34
+Body:
+{
+  "name": "Pet Supplies_c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "image": "http://west-lane.com/"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "slug": "pet-supplies-c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "image": "http://west-lane.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "slug": "pet-supplies-c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "image": "http://west-lane.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+}
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "slug": "pet-supplies-c3d3c4b1bf16454bb8f0fb764bf0dbca",
+  "image": "http://west-lane.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

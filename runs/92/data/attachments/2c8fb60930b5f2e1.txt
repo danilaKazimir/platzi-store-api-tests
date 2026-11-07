@@ -1,0 +1,79 @@
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_f8c64625dac1492593139a240c72791a",
+  "image": "http://duarte-mosley.net/"
+} 
+
+2026-10-13 06:05:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 58,
+  "name": "Sports & Fitness_f8c64625dac1492593139a240c72791a",
+  "slug": "sports-fitness-f8c64625dac1492593139a240c72791a",
+  "image": "http://duarte-mosley.net/",
+  "creationAt": "2026-10-13T06:05:15.000Z",
+  "updatedAt": "2026-10-13T06:05:15.000Z"
+}
+2026-10-13 06:05:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Adaptive static flexibility-1b90371d624b4d59aba8577b77f657c1",
+  "price": 81,
+  "description": "Progressive 24hour implementation",
+  "categoryId": 58,
+  "images": [
+    "https://www.davis-barber.com/"
+  ]
+} 
+
+2026-10-13 06:05:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 178,
+  "title": "Adaptive static flexibility-1b90371d624b4d59aba8577b77f657c1",
+  "slug": "adaptive-static-flexibility-1b90371d624b4d59aba8577b77f657c1",
+  "price": 81,
+  "description": "Progressive 24hour implementation",
+  "category": {
+    "id": 58,
+    "name": "Sports & Fitness_f8c64625dac1492593139a240c72791a",
+    "slug": "sports-fitness-f8c64625dac1492593139a240c72791a",
+    "image": "http://duarte-mosley.net/",
+    "creationAt": "2026-10-13T06:05:15.000Z",
+    "updatedAt": "2026-10-13T06:05:15.000Z"
+  },
+  "images": [
+    "https://www.davis-barber.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:15.000Z",
+  "updatedAt": "2026-10-13T06:05:15.000Z"
+}
+2026-10-13 06:05:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-13 06:05:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+{
+  "id": 58,
+  "name": "Sports & Fitness_f8c64625dac1492593139a240c72791a",
+  "slug": "sports-fitness-f8c64625dac1492593139a240c72791a",
+  "image": "http://duarte-mosley.net/",
+  "creationAt": "2026-10-13T06:05:15.000Z",
+  "updatedAt": "2026-10-13T06:05:15.000Z"
+} 
+
+2026-10-13 06:05:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-13 06:05:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/58 -> 400
+Body:
+{
+  "path": "/api/v1/categories/58",
+  "timestamp": "2026-10-13T06:05:15.658Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

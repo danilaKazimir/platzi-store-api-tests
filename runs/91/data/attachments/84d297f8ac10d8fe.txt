@@ -1,0 +1,107 @@
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_97f2537a1d0b44e3ba070480f89e8c31",
+  "image": "https://guerra.com/"
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 44,
+  "name": "Pet Supplies_97f2537a1d0b44e3ba070480f89e8c31",
+  "slug": "pet-supplies-97f2537a1d0b44e3ba070480f89e8c31",
+  "image": "https://guerra.com/",
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Extended impactful info-mediaries-fc3db5e1ec3c4c15bb881f8387358483",
+  "price": 431,
+  "description": "Open-architected explicit framework",
+  "categoryId": 44,
+  "images": [
+    "http://www.patterson.com/"
+  ]
+} 
+
+2026-10-12 05:05:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 135,
+  "title": "Extended impactful info-mediaries-fc3db5e1ec3c4c15bb881f8387358483",
+  "slug": "extended-impactful-info-mediaries-fc3db5e1ec3c4c15bb881f8387358483",
+  "price": 431,
+  "description": "Open-architected explicit framework",
+  "category": {
+    "id": 44,
+    "name": "Pet Supplies_97f2537a1d0b44e3ba070480f89e8c31",
+    "slug": "pet-supplies-97f2537a1d0b44e3ba070480f89e8c31",
+    "image": "https://guerra.com/",
+    "creationAt": "2026-10-12T05:05:39.000Z",
+    "updatedAt": "2026-10-12T05:05:39.000Z"
+  },
+  "images": [
+    "http://www.patterson.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+}
+2026-10-12 05:05:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/135
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/135 -> 200
+Body:
+true 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/135
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/135 -> 400
+Body:
+{
+  "path": "/api/v1/products/135",
+  "timestamp": "2026-10-12T05:05:40.072Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 135\n    }\n}"
+}
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/135
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/135 -> 400
+Body:
+{
+  "path": "/api/v1/products/135",
+  "timestamp": "2026-10-12T05:05:40.130Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 135\n    }\n}"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/44
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/44 -> 200
+Body:
+{
+  "id": 44,
+  "name": "Pet Supplies_97f2537a1d0b44e3ba070480f89e8c31",
+  "slug": "pet-supplies-97f2537a1d0b44e3ba070480f89e8c31",
+  "image": "https://guerra.com/",
+  "creationAt": "2026-10-12T05:05:39.000Z",
+  "updatedAt": "2026-10-12T05:05:39.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/44
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/44 -> 200
+Body:
+true

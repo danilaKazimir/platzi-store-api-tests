@@ -1,0 +1,71 @@
+2026-11-07 05:15:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_2ec8e875ebdf481ba260f1b7b6f79ae0",
+  "image": "http://beck-cordova.info/"
+} 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Home & Kitchen_2ec8e875ebdf481ba260f1b7b6f79ae0",
+  "slug": "home-kitchen-2ec8e875ebdf481ba260f1b7b6f79ae0",
+  "image": "http://beck-cordova.info/",
+  "creationAt": "2026-11-07T05:15:08.000Z",
+  "updatedAt": "2026-11-07T05:15:08.000Z"
+}
+2026-11-07 05:15:08 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/16
+Body:
+{
+  "name": "Food & Beverages_65af10a6e2e448aea4f4f6a07849aff3",
+  "image": "http://bird.com/"
+} 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Food & Beverages_65af10a6e2e448aea4f4f6a07849aff3",
+  "slug": "food-beverages-65af10a6e2e448aea4f4f6a07849aff3",
+  "image": "http://bird.com/",
+  "creationAt": "2026-11-07T05:15:08.000Z",
+  "updatedAt": "2026-11-07T05:15:08.000Z"
+} 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Food & Beverages_65af10a6e2e448aea4f4f6a07849aff3",
+  "slug": "food-beverages-65af10a6e2e448aea4f4f6a07849aff3",
+  "image": "http://bird.com/",
+  "creationAt": "2026-11-07T05:15:08.000Z",
+  "updatedAt": "2026-11-07T05:15:08.000Z"
+}
+2026-11-07 05:15:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Food & Beverages_65af10a6e2e448aea4f4f6a07849aff3",
+  "slug": "food-beverages-65af10a6e2e448aea4f4f6a07849aff3",
+  "image": "http://bird.com/",
+  "creationAt": "2026-11-07T05:15:08.000Z",
+  "updatedAt": "2026-11-07T05:15:08.000Z"
+} 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-07 05:15:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+true

@@ -1,0 +1,79 @@
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_b30cd3f957084f1dba3cce127b584533",
+  "image": "https://walton-diaz.org/"
+} 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Pet Supplies_b30cd3f957084f1dba3cce127b584533",
+  "slug": "pet-supplies-b30cd3f957084f1dba3cce127b584533",
+  "image": "https://walton-diaz.org/",
+  "creationAt": "2026-10-16T03:46:36.000Z",
+  "updatedAt": "2026-10-16T03:46:36.000Z"
+}
+2026-10-16 03:46:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Self-enabling static workforce-8e33003303364554a0123deca51928e1",
+  "price": 927,
+  "description": "Enterprise-wide 5thgeneration knowledgebase",
+  "categoryId": 38,
+  "images": [
+    "http://pruitt-harrell.com/"
+  ]
+} 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 184,
+  "title": "Self-enabling static workforce-8e33003303364554a0123deca51928e1",
+  "slug": "self-enabling-static-workforce-8e33003303364554a0123deca51928e1",
+  "price": 927,
+  "description": "Enterprise-wide 5thgeneration knowledgebase",
+  "category": {
+    "id": 38,
+    "name": "Pet Supplies_b30cd3f957084f1dba3cce127b584533",
+    "slug": "pet-supplies-b30cd3f957084f1dba3cce127b584533",
+    "image": "https://walton-diaz.org/",
+    "creationAt": "2026-10-16T03:46:36.000Z",
+    "updatedAt": "2026-10-16T03:46:36.000Z"
+  },
+  "images": [
+    "http://pruitt-harrell.com/"
+  ],
+  "creationAt": "2026-10-16T03:46:36.000Z",
+  "updatedAt": "2026-10-16T03:46:36.000Z"
+}
+2026-10-16 03:46:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Pet Supplies_b30cd3f957084f1dba3cce127b584533",
+  "slug": "pet-supplies-b30cd3f957084f1dba3cce127b584533",
+  "image": "https://walton-diaz.org/",
+  "creationAt": "2026-10-16T03:46:36.000Z",
+  "updatedAt": "2026-10-16T03:46:36.000Z"
+} 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 400
+Body:
+{
+  "path": "/api/v1/categories/38",
+  "timestamp": "2026-10-16T03:46:36.485Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

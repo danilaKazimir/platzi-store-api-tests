@@ -1,0 +1,408 @@
+2026-10-28 04:46:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+  "image": "https://www.howard.org/"
+} 
+
+2026-10-28 04:46:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 55,
+  "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+  "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+  "image": "https://www.howard.org/",
+  "creationAt": "2026-10-28T04:46:03.000Z",
+  "updatedAt": "2026-10-28T04:46:03.000Z"
+}
+2026-10-28 04:46:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Seamless zero-defect archive-24d975f5cb784b0f829b49c97c961cb2",
+  "price": 549,
+  "description": "Distributed uniform superstructure",
+  "categoryId": 55,
+  "images": [
+    "https://hernandez.com/"
+  ]
+} 
+
+2026-10-28 04:46:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 477,
+  "title": "Seamless zero-defect archive-24d975f5cb784b0f829b49c97c961cb2",
+  "slug": "seamless-zero-defect-archive-24d975f5cb784b0f829b49c97c961cb2",
+  "price": 549,
+  "description": "Distributed uniform superstructure",
+  "category": {
+    "id": 55,
+    "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+    "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+    "image": "https://www.howard.org/",
+    "creationAt": "2026-10-28T04:46:03.000Z",
+    "updatedAt": "2026-10-28T04:46:03.000Z"
+  },
+  "images": [
+    "https://hernandez.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:03.000Z",
+  "updatedAt": "2026-10-28T04:46:03.000Z"
+} 
+
+2026-10-28 04:46:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face bifurcated success-8144d62ad73b4566a2066503112b924b",
+  "price": 567,
+  "description": "Synergized full-range algorithm",
+  "categoryId": 55,
+  "images": [
+    "https://www.ramos.org/"
+  ]
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 480,
+  "title": "Face-to-face bifurcated success-8144d62ad73b4566a2066503112b924b",
+  "slug": "face-to-face-bifurcated-success-8144d62ad73b4566a2066503112b924b",
+  "price": 567,
+  "description": "Synergized full-range algorithm",
+  "category": {
+    "id": 55,
+    "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+    "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+    "image": "https://www.howard.org/",
+    "creationAt": "2026-10-28T04:46:03.000Z",
+    "updatedAt": "2026-10-28T04:46:03.000Z"
+  },
+  "images": [
+    "https://www.ramos.org/"
+  ],
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ergonomic client-driven approach-79f03f36d16d4ada970f7a9f598d530e",
+  "price": 842,
+  "description": "Expanded contextually-based open system",
+  "categoryId": 55,
+  "images": [
+    "http://hale-payne.com/"
+  ]
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 482,
+  "title": "Ergonomic client-driven approach-79f03f36d16d4ada970f7a9f598d530e",
+  "slug": "ergonomic-client-driven-approach-79f03f36d16d4ada970f7a9f598d530e",
+  "price": 842,
+  "description": "Expanded contextually-based open system",
+  "category": {
+    "id": 55,
+    "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+    "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+    "image": "https://www.howard.org/",
+    "creationAt": "2026-10-28T04:46:03.000Z",
+    "updatedAt": "2026-10-28T04:46:03.000Z"
+  },
+  "images": [
+    "http://hale-payne.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_d45a03583cf04dfaa8aad5fd8d17e5cc",
+  "image": "https://ward-christensen.net/"
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 58,
+  "name": "Food & Beverages_d45a03583cf04dfaa8aad5fd8d17e5cc",
+  "slug": "food-beverages-d45a03583cf04dfaa8aad5fd8d17e5cc",
+  "image": "https://ward-christensen.net/",
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "De-engineered demand-driven concept-f23827c4a9af4ec69d6d5f153e02f849",
+  "price": 420,
+  "description": "Cross-group 5thgeneration approach",
+  "categoryId": 58,
+  "images": [
+    "http://www.shepard.com/"
+  ]
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 484,
+  "title": "De-engineered demand-driven concept-f23827c4a9af4ec69d6d5f153e02f849",
+  "slug": "de-engineered-demand-driven-concept-f23827c4a9af4ec69d6d5f153e02f849",
+  "price": 420,
+  "description": "Cross-group 5thgeneration approach",
+  "category": {
+    "id": 58,
+    "name": "Food & Beverages_d45a03583cf04dfaa8aad5fd8d17e5cc",
+    "slug": "food-beverages-d45a03583cf04dfaa8aad5fd8d17e5cc",
+    "image": "https://ward-christensen.net/",
+    "creationAt": "2026-10-28T04:46:04.000Z",
+    "updatedAt": "2026-10-28T04:46:04.000Z"
+  },
+  "images": [
+    "http://www.shepard.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/477/related
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/477/related -> 200
+Body:
+[
+  {
+    "id": 480,
+    "title": "Face-to-face bifurcated success-8144d62ad73b4566a2066503112b924b",
+    "slug": "face-to-face-bifurcated-success-8144d62ad73b4566a2066503112b924b",
+    "price": 567,
+    "description": "Synergized full-range algorithm",
+    "category": {
+      "id": 55,
+      "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+      "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+      "image": "https://www.howard.org/",
+      "creationAt": "2026-10-28T04:46:03.000Z",
+      "updatedAt": "2026-10-28T04:46:03.000Z"
+    },
+    "images": [
+      "https://www.ramos.org/"
+    ],
+    "creationAt": "2026-10-28T04:46:04.000Z",
+    "updatedAt": "2026-10-28T04:46:04.000Z"
+  },
+  {
+    "id": 482,
+    "title": "Ergonomic client-driven approach-79f03f36d16d4ada970f7a9f598d530e",
+    "slug": "ergonomic-client-driven-approach-79f03f36d16d4ada970f7a9f598d530e",
+    "price": 842,
+    "description": "Expanded contextually-based open system",
+    "category": {
+      "id": 55,
+      "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+      "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+      "image": "https://www.howard.org/",
+      "creationAt": "2026-10-28T04:46:03.000Z",
+      "updatedAt": "2026-10-28T04:46:03.000Z"
+    },
+    "images": [
+      "http://hale-payne.com/"
+    ],
+    "creationAt": "2026-10-28T04:46:04.000Z",
+    "updatedAt": "2026-10-28T04:46:04.000Z"
+  }
+]
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/484
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/484 -> 200
+Body:
+{
+  "id": 484,
+  "title": "De-engineered demand-driven concept-f23827c4a9af4ec69d6d5f153e02f849",
+  "slug": "de-engineered-demand-driven-concept-f23827c4a9af4ec69d6d5f153e02f849",
+  "price": 420,
+  "description": "Cross-group 5thgeneration approach",
+  "category": {
+    "id": 58,
+    "name": "Food & Beverages_d45a03583cf04dfaa8aad5fd8d17e5cc",
+    "slug": "food-beverages-d45a03583cf04dfaa8aad5fd8d17e5cc",
+    "image": "https://ward-christensen.net/",
+    "creationAt": "2026-10-28T04:46:04.000Z",
+    "updatedAt": "2026-10-28T04:46:04.000Z"
+  },
+  "images": [
+    "http://www.shepard.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/484
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/484 -> 200
+Body:
+true 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/482
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/482 -> 200
+Body:
+{
+  "id": 482,
+  "title": "Ergonomic client-driven approach-79f03f36d16d4ada970f7a9f598d530e",
+  "slug": "ergonomic-client-driven-approach-79f03f36d16d4ada970f7a9f598d530e",
+  "price": 842,
+  "description": "Expanded contextually-based open system",
+  "category": {
+    "id": 55,
+    "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+    "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+    "image": "https://www.howard.org/",
+    "creationAt": "2026-10-28T04:46:03.000Z",
+    "updatedAt": "2026-10-28T04:46:03.000Z"
+  },
+  "images": [
+    "http://hale-payne.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/482
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/482 -> 200
+Body:
+true 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/480
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/480 -> 200
+Body:
+{
+  "id": 480,
+  "title": "Face-to-face bifurcated success-8144d62ad73b4566a2066503112b924b",
+  "slug": "face-to-face-bifurcated-success-8144d62ad73b4566a2066503112b924b",
+  "price": 567,
+  "description": "Synergized full-range algorithm",
+  "category": {
+    "id": 55,
+    "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+    "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+    "image": "https://www.howard.org/",
+    "creationAt": "2026-10-28T04:46:03.000Z",
+    "updatedAt": "2026-10-28T04:46:03.000Z"
+  },
+  "images": [
+    "https://www.ramos.org/"
+  ],
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/480
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/480 -> 200
+Body:
+true 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/477
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/477 -> 200
+Body:
+{
+  "id": 477,
+  "title": "Seamless zero-defect archive-24d975f5cb784b0f829b49c97c961cb2",
+  "slug": "seamless-zero-defect-archive-24d975f5cb784b0f829b49c97c961cb2",
+  "price": 549,
+  "description": "Distributed uniform superstructure",
+  "category": {
+    "id": 55,
+    "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+    "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+    "image": "https://www.howard.org/",
+    "creationAt": "2026-10-28T04:46:03.000Z",
+    "updatedAt": "2026-10-28T04:46:03.000Z"
+  },
+  "images": [
+    "https://hernandez.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:03.000Z",
+  "updatedAt": "2026-10-28T04:46:03.000Z"
+} 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/477
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/477 -> 200
+Body:
+true 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+{
+  "id": 58,
+  "name": "Food & Beverages_d45a03583cf04dfaa8aad5fd8d17e5cc",
+  "slug": "food-beverages-d45a03583cf04dfaa8aad5fd8d17e5cc",
+  "image": "https://ward-christensen.net/",
+  "creationAt": "2026-10-28T04:46:04.000Z",
+  "updatedAt": "2026-10-28T04:46:04.000Z"
+} 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/58
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/58 -> 200
+Body:
+true 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+{
+  "id": 55,
+  "name": "Books_f93ee41d6d5647cdbb750edffe7ece84",
+  "slug": "books-f93ee41d6d5647cdbb750edffe7ece84",
+  "image": "https://www.howard.org/",
+  "creationAt": "2026-10-28T04:46:03.000Z",
+  "updatedAt": "2026-10-28T04:46:03.000Z"
+} 
+
+2026-10-28 04:46:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/55
+Body:
+<empty> 
+
+2026-10-28 04:46:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/55 -> 200
+Body:
+true

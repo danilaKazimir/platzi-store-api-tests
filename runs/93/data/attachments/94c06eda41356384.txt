@@ -1,0 +1,88 @@
+2026-10-14 04:08:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kimberly Robertson",
+  "email": "ashleywebb@example.org",
+  "password": "***",
+  "avatar": "https://www.santiago-haas.com/"
+} 
+
+2026-10-14 04:08:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 46,
+  "email": "ashleywebb@example.org",
+  "password": "***",
+  "name": "Kimberly Robertson",
+  "role": "customer",
+  "avatar": "https://www.santiago-haas.com/",
+  "creationAt": "2026-10-14T04:08:11.000Z",
+  "updatedAt": "2026-10-14T04:08:11.000Z"
+}
+2026-10-14 04:08:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "ashleywebb@example.org",
+  "password": "***"
+} 
+
+2026-10-14 04:08:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-14 04:08:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQ2LCJpYXQiOjE3OTE5NTA4OTEsImV4cCI6MTc5MTk4Njg5MX0.6AHZhTj822BX0WmH9B2W5K8RcFCWxzqCQ7joD4-3Elg"
+} 
+
+2026-10-14 04:08:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-14 04:08:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-14 04:08:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 46,
+  "email": "ashleywebb@example.org",
+  "password": "***",
+  "name": "Kimberly Robertson",
+  "role": "customer",
+  "avatar": "https://www.santiago-haas.com/",
+  "creationAt": "2026-10-14T04:08:11.000Z",
+  "updatedAt": "2026-10-14T04:08:11.000Z"
+}
+2026-10-14 04:08:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/46
+Body:
+<empty> 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/46 -> 200
+Body:
+{
+  "id": 46,
+  "email": "ashleywebb@example.org",
+  "password": "***",
+  "name": "Kimberly Robertson",
+  "role": "customer",
+  "avatar": "https://www.santiago-haas.com/",
+  "creationAt": "2026-10-14T04:08:11.000Z",
+  "updatedAt": "2026-10-14T04:08:11.000Z"
+} 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/46
+Body:
+<empty> 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/46 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-10-15 03:51:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_237f32b35cf8481cbe17176ce66ccac9",
+  "image": "https://manning.com/"
+} 
+
+2026-10-15 03:51:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Food & Beverages_237f32b35cf8481cbe17176ce66ccac9",
+  "slug": "food-beverages-237f32b35cf8481cbe17176ce66ccac9",
+  "image": "https://manning.com/",
+  "creationAt": "2026-10-15T03:51:02.000Z",
+  "updatedAt": "2026-10-15T03:51:02.000Z"
+} 
+
+2026-10-15 03:51:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Integrated explicit paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "price": 448,
+  "description": "Pre-emptive intermediate database",
+  "categoryId": 41,
+  "images": [
+    "https://kemp-vargas.org/"
+  ]
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 153,
+  "title": "Integrated explicit paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "slug": "integrated-explicit-paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "price": 448,
+  "description": "Pre-emptive intermediate database",
+  "category": {
+    "id": 41,
+    "name": "Food & Beverages_237f32b35cf8481cbe17176ce66ccac9",
+    "slug": "food-beverages-237f32b35cf8481cbe17176ce66ccac9",
+    "image": "https://manning.com/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://kemp-vargas.org/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+}
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/integrated-explicit-paradigm-219e654ae09245a98f36289cd0fb8f8b
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/integrated-explicit-paradigm-219e654ae09245a98f36289cd0fb8f8b -> 200
+Body:
+{
+  "id": 153,
+  "title": "Integrated explicit paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "slug": "integrated-explicit-paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "price": 448,
+  "description": "Pre-emptive intermediate database",
+  "category": {
+    "id": 41,
+    "name": "Food & Beverages_237f32b35cf8481cbe17176ce66ccac9",
+    "slug": "food-beverages-237f32b35cf8481cbe17176ce66ccac9",
+    "image": "https://manning.com/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://kemp-vargas.org/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+}
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/153
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/153 -> 200
+Body:
+{
+  "id": 153,
+  "title": "Integrated explicit paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "slug": "integrated-explicit-paradigm-219e654ae09245a98f36289cd0fb8f8b",
+  "price": 448,
+  "description": "Pre-emptive intermediate database",
+  "category": {
+    "id": 41,
+    "name": "Food & Beverages_237f32b35cf8481cbe17176ce66ccac9",
+    "slug": "food-beverages-237f32b35cf8481cbe17176ce66ccac9",
+    "image": "https://manning.com/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://kemp-vargas.org/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/153
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/153 -> 200
+Body:
+true 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Food & Beverages_237f32b35cf8481cbe17176ce66ccac9",
+  "slug": "food-beverages-237f32b35cf8481cbe17176ce66ccac9",
+  "image": "https://manning.com/",
+  "creationAt": "2026-10-15T03:51:02.000Z",
+  "updatedAt": "2026-10-15T03:51:02.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_b607f9b381014cfb995d8cac157f3230",
+  "image": "https://www.bartlett.org/"
+} 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Food & Beverages_b607f9b381014cfb995d8cac157f3230",
+  "slug": "food-beverages-b607f9b381014cfb995d8cac157f3230",
+  "image": "https://www.bartlett.org/",
+  "creationAt": "2026-11-07T05:15:10.000Z",
+  "updatedAt": "2026-11-07T05:15:10.000Z"
+} 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Triple-buffered even-keeled approach-4a0bcf3d9434442196d150258a2743f0",
+  "price": 252,
+  "description": "Decentralized real-time circuit",
+  "categoryId": 24,
+  "images": [
+    "http://murray.info/"
+  ]
+} 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 240,
+  "title": "Triple-buffered even-keeled approach-4a0bcf3d9434442196d150258a2743f0",
+  "slug": "triple-buffered-even-keeled-approach-4a0bcf3d9434442196d150258a2743f0",
+  "price": 252,
+  "description": "Decentralized real-time circuit",
+  "category": {
+    "id": 24,
+    "name": "Food & Beverages_b607f9b381014cfb995d8cac157f3230",
+    "slug": "food-beverages-b607f9b381014cfb995d8cac157f3230",
+    "image": "https://www.bartlett.org/",
+    "creationAt": "2026-11-07T05:15:10.000Z",
+    "updatedAt": "2026-11-07T05:15:10.000Z"
+  },
+  "images": [
+    "http://murray.info/"
+  ],
+  "creationAt": "2026-11-07T05:15:10.000Z",
+  "updatedAt": "2026-11-07T05:15:10.000Z"
+}
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/triple-buffered-even-keeled-approach-4a0bcf3d9434442196d150258a2743f0
+Body:
+<empty> 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/triple-buffered-even-keeled-approach-4a0bcf3d9434442196d150258a2743f0 -> 200
+Body:
+{
+  "id": 240,
+  "title": "Triple-buffered even-keeled approach-4a0bcf3d9434442196d150258a2743f0",
+  "slug": "triple-buffered-even-keeled-approach-4a0bcf3d9434442196d150258a2743f0",
+  "price": 252,
+  "description": "Decentralized real-time circuit",
+  "category": {
+    "id": 24,
+    "name": "Food & Beverages_b607f9b381014cfb995d8cac157f3230",
+    "slug": "food-beverages-b607f9b381014cfb995d8cac157f3230",
+    "image": "https://www.bartlett.org/",
+    "creationAt": "2026-11-07T05:15:10.000Z",
+    "updatedAt": "2026-11-07T05:15:10.000Z"
+  },
+  "images": [
+    "http://murray.info/"
+  ],
+  "creationAt": "2026-11-07T05:15:10.000Z",
+  "updatedAt": "2026-11-07T05:15:10.000Z"
+}
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/240
+Body:
+<empty> 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/240 -> 200
+Body:
+{
+  "id": 240,
+  "title": "Triple-buffered even-keeled approach-4a0bcf3d9434442196d150258a2743f0",
+  "slug": "triple-buffered-even-keeled-approach-4a0bcf3d9434442196d150258a2743f0",
+  "price": 252,
+  "description": "Decentralized real-time circuit",
+  "category": {
+    "id": 24,
+    "name": "Food & Beverages_b607f9b381014cfb995d8cac157f3230",
+    "slug": "food-beverages-b607f9b381014cfb995d8cac157f3230",
+    "image": "https://www.bartlett.org/",
+    "creationAt": "2026-11-07T05:15:10.000Z",
+    "updatedAt": "2026-11-07T05:15:10.000Z"
+  },
+  "images": [
+    "http://murray.info/"
+  ],
+  "creationAt": "2026-11-07T05:15:10.000Z",
+  "updatedAt": "2026-11-07T05:15:10.000Z"
+} 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/240
+Body:
+<empty> 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/240 -> 200
+Body:
+true 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Food & Beverages_b607f9b381014cfb995d8cac157f3230",
+  "slug": "food-beverages-b607f9b381014cfb995d8cac157f3230",
+  "image": "https://www.bartlett.org/",
+  "creationAt": "2026-11-07T05:15:10.000Z",
+  "updatedAt": "2026-11-07T05:15:10.000Z"
+} 
+
+2026-11-07 05:15:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-11-07 05:15:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

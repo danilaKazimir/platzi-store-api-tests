@@ -1,0 +1,135 @@
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_058df7ac7c354f0a875a0a5722c0cbc1",
+  "image": "https://chapman-leonard.biz/"
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 283,
+  "name": "Toys_058df7ac7c354f0a875a0a5722c0cbc1",
+  "slug": "toys-058df7ac7c354f0a875a0a5722c0cbc1",
+  "image": "https://chapman-leonard.biz/",
+  "creationAt": "2026-10-17T03:36:46.000Z",
+  "updatedAt": "2026-10-17T03:36:46.000Z"
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Monitored reciprocal circuit-d630dc882c144b448c68bd95d80713e3",
+  "price": 334,
+  "description": "Reduced tangible productivity",
+  "categoryId": 283,
+  "images": [
+    "https://martin.com/"
+  ]
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 533,
+  "title": "Monitored reciprocal circuit-d630dc882c144b448c68bd95d80713e3",
+  "slug": "monitored-reciprocal-circuit-d630dc882c144b448c68bd95d80713e3",
+  "price": 334,
+  "description": "Reduced tangible productivity",
+  "category": {
+    "id": 283,
+    "name": "Toys_058df7ac7c354f0a875a0a5722c0cbc1",
+    "slug": "toys-058df7ac7c354f0a875a0a5722c0cbc1",
+    "image": "https://chapman-leonard.biz/",
+    "creationAt": "2026-10-17T03:36:46.000Z",
+    "updatedAt": "2026-10-17T03:36:46.000Z"
+  },
+  "images": [
+    "https://martin.com/"
+  ],
+  "creationAt": "2026-10-17T03:36:46.000Z",
+  "updatedAt": "2026-10-17T03:36:46.000Z"
+}
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/533
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/533 -> 200
+Body:
+{
+  "id": 533,
+  "title": "Monitored reciprocal circuit-d630dc882c144b448c68bd95d80713e3",
+  "slug": "monitored-reciprocal-circuit-d630dc882c144b448c68bd95d80713e3",
+  "price": 334,
+  "description": "Reduced tangible productivity",
+  "category": {
+    "id": 283,
+    "name": "Toys_058df7ac7c354f0a875a0a5722c0cbc1",
+    "slug": "toys-058df7ac7c354f0a875a0a5722c0cbc1",
+    "image": "https://chapman-leonard.biz/",
+    "creationAt": "2026-10-17T03:36:46.000Z",
+    "updatedAt": "2026-10-17T03:36:46.000Z"
+  },
+  "images": [
+    "https://martin.com/"
+  ],
+  "creationAt": "2026-10-17T03:36:46.000Z",
+  "updatedAt": "2026-10-17T03:36:46.000Z"
+}
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/533
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/533 -> 200
+Body:
+{
+  "id": 533,
+  "title": "Monitored reciprocal circuit-d630dc882c144b448c68bd95d80713e3",
+  "slug": "monitored-reciprocal-circuit-d630dc882c144b448c68bd95d80713e3",
+  "price": 334,
+  "description": "Reduced tangible productivity",
+  "category": {
+    "id": 283,
+    "name": "Toys_058df7ac7c354f0a875a0a5722c0cbc1",
+    "slug": "toys-058df7ac7c354f0a875a0a5722c0cbc1",
+    "image": "https://chapman-leonard.biz/",
+    "creationAt": "2026-10-17T03:36:46.000Z",
+    "updatedAt": "2026-10-17T03:36:46.000Z"
+  },
+  "images": [
+    "https://martin.com/"
+  ],
+  "creationAt": "2026-10-17T03:36:46.000Z",
+  "updatedAt": "2026-10-17T03:36:46.000Z"
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/533
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/533 -> 200
+Body:
+true 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/283
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/283 -> 200
+Body:
+{
+  "id": 283,
+  "name": "Toys_058df7ac7c354f0a875a0a5722c0cbc1",
+  "slug": "toys-058df7ac7c354f0a875a0a5722c0cbc1",
+  "image": "https://chapman-leonard.biz/",
+  "creationAt": "2026-10-17T03:36:46.000Z",
+  "updatedAt": "2026-10-17T03:36:46.000Z"
+} 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/283
+Body:
+<empty> 
+
+2026-10-17 03:36:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/283 -> 200
+Body:
+true

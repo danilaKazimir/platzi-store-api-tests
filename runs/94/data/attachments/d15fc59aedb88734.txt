@@ -1,0 +1,15 @@
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Home & Kitchen_12d4c0a5411949759c8ea1de15891a20",
+  "image": "http://mitchell-bishop.com/"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-15T03:51:01.802Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

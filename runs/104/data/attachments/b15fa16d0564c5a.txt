@@ -1,0 +1,79 @@
+2026-10-25 03:51:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7f8e68d5f7e14347a28d41a693c03099",
+  "image": "http://clarke.com/"
+} 
+
+2026-10-25 03:51:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Books_7f8e68d5f7e14347a28d41a693c03099",
+  "slug": "books-7f8e68d5f7e14347a28d41a693c03099",
+  "image": "http://clarke.com/",
+  "creationAt": "2026-10-25T03:51:12.000Z",
+  "updatedAt": "2026-10-25T03:51:12.000Z"
+}
+2026-10-25 03:51:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Visionary next generation policy-a4bbcda5191b45c9b261b27d0ece6ff7",
+  "price": 869,
+  "description": "Organized eco-centric data-warehouse",
+  "categoryId": 30,
+  "images": [
+    "https://gamble.com/"
+  ]
+} 
+
+2026-10-25 03:51:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 139,
+  "title": "Visionary next generation policy-a4bbcda5191b45c9b261b27d0ece6ff7",
+  "slug": "visionary-next-generation-policy-a4bbcda5191b45c9b261b27d0ece6ff7",
+  "price": 869,
+  "description": "Organized eco-centric data-warehouse",
+  "category": {
+    "id": 30,
+    "name": "Books_7f8e68d5f7e14347a28d41a693c03099",
+    "slug": "books-7f8e68d5f7e14347a28d41a693c03099",
+    "image": "http://clarke.com/",
+    "creationAt": "2026-10-25T03:51:12.000Z",
+    "updatedAt": "2026-10-25T03:51:12.000Z"
+  },
+  "images": [
+    "https://gamble.com/"
+  ],
+  "creationAt": "2026-10-25T03:51:12.000Z",
+  "updatedAt": "2026-10-25T03:51:12.000Z"
+}
+2026-10-25 03:51:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-25 03:51:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Books_7f8e68d5f7e14347a28d41a693c03099",
+  "slug": "books-7f8e68d5f7e14347a28d41a693c03099",
+  "image": "http://clarke.com/",
+  "creationAt": "2026-10-25T03:51:12.000Z",
+  "updatedAt": "2026-10-25T03:51:12.000Z"
+} 
+
+2026-10-25 03:51:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-25 03:51:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 400
+Body:
+{
+  "path": "/api/v1/categories/30",
+  "timestamp": "2026-10-25T03:51:12.798Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

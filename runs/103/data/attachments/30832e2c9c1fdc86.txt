@@ -1,0 +1,135 @@
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_23c1c6fdf2064743a57a008c6bc9a01e",
+  "image": "https://www.solis.com/"
+} 
+
+2026-10-24 03:52:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 110,
+  "name": "Home & Kitchen_23c1c6fdf2064743a57a008c6bc9a01e",
+  "slug": "home-kitchen-23c1c6fdf2064743a57a008c6bc9a01e",
+  "image": "https://www.solis.com/",
+  "creationAt": "2026-10-24T03:52:05.000Z",
+  "updatedAt": "2026-10-24T03:52:05.000Z"
+} 
+
+2026-10-24 03:52:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based executive benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "price": 207,
+  "description": "Seamless value-added paradigm",
+  "categoryId": 110,
+  "images": [
+    "http://turner.com/"
+  ]
+} 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 210,
+  "title": "Object-based executive benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "slug": "object-based-executive-benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "price": 207,
+  "description": "Seamless value-added paradigm",
+  "category": {
+    "id": 110,
+    "name": "Home & Kitchen_23c1c6fdf2064743a57a008c6bc9a01e",
+    "slug": "home-kitchen-23c1c6fdf2064743a57a008c6bc9a01e",
+    "image": "https://www.solis.com/",
+    "creationAt": "2026-10-24T03:52:05.000Z",
+    "updatedAt": "2026-10-24T03:52:05.000Z"
+  },
+  "images": [
+    "http://turner.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:06.000Z",
+  "updatedAt": "2026-10-24T03:52:06.000Z"
+}
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/object-based-executive-benchmark-aef7a0e6c0304eecbf7edf569ca54460
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/object-based-executive-benchmark-aef7a0e6c0304eecbf7edf569ca54460 -> 200
+Body:
+{
+  "id": 210,
+  "title": "Object-based executive benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "slug": "object-based-executive-benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "price": 207,
+  "description": "Seamless value-added paradigm",
+  "category": {
+    "id": 110,
+    "name": "Home & Kitchen_23c1c6fdf2064743a57a008c6bc9a01e",
+    "slug": "home-kitchen-23c1c6fdf2064743a57a008c6bc9a01e",
+    "image": "https://www.solis.com/",
+    "creationAt": "2026-10-24T03:52:05.000Z",
+    "updatedAt": "2026-10-24T03:52:05.000Z"
+  },
+  "images": [
+    "http://turner.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:06.000Z",
+  "updatedAt": "2026-10-24T03:52:06.000Z"
+}
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/210
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/210 -> 200
+Body:
+{
+  "id": 210,
+  "title": "Object-based executive benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "slug": "object-based-executive-benchmark-aef7a0e6c0304eecbf7edf569ca54460",
+  "price": 207,
+  "description": "Seamless value-added paradigm",
+  "category": {
+    "id": 110,
+    "name": "Home & Kitchen_23c1c6fdf2064743a57a008c6bc9a01e",
+    "slug": "home-kitchen-23c1c6fdf2064743a57a008c6bc9a01e",
+    "image": "https://www.solis.com/",
+    "creationAt": "2026-10-24T03:52:05.000Z",
+    "updatedAt": "2026-10-24T03:52:05.000Z"
+  },
+  "images": [
+    "http://turner.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:06.000Z",
+  "updatedAt": "2026-10-24T03:52:06.000Z"
+} 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/210
+Body:
+<empty> 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/210 -> 200
+Body:
+true 
+
+2026-10-24 03:52:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/110
+Body:
+<empty> 
+
+2026-10-24 03:52:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/110 -> 200
+Body:
+{
+  "id": 110,
+  "name": "Home & Kitchen_23c1c6fdf2064743a57a008c6bc9a01e",
+  "slug": "home-kitchen-23c1c6fdf2064743a57a008c6bc9a01e",
+  "image": "https://www.solis.com/",
+  "creationAt": "2026-10-24T03:52:05.000Z",
+  "updatedAt": "2026-10-24T03:52:05.000Z"
+} 
+
+2026-10-24 03:52:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/110
+Body:
+<empty> 
+
+2026-10-24 03:52:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/110 -> 200
+Body:
+true

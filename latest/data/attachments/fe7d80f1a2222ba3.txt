@@ -1,0 +1,53 @@
+2026-11-07 05:15:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_e4ea361a82c747b0997ab0ba12ac5d0a",
+  "image": "http://www.stevenson.org/"
+} 
+
+2026-11-07 05:15:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Clothing_e4ea361a82c747b0997ab0ba12ac5d0a",
+  "slug": "clothing-e4ea361a82c747b0997ab0ba12ac5d0a",
+  "image": "http://www.stevenson.org/",
+  "creationAt": "2026-11-07T05:15:07.000Z",
+  "updatedAt": "2026-11-07T05:15:07.000Z"
+}
+2026-11-07 05:15:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/clothing-e4ea361a82c747b0997ab0ba12ac5d0a
+Body:
+<empty> 
+
+2026-11-07 05:15:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/clothing-e4ea361a82c747b0997ab0ba12ac5d0a -> 200
+Body:
+{
+  "id": 14,
+  "name": "Clothing_e4ea361a82c747b0997ab0ba12ac5d0a",
+  "slug": "clothing-e4ea361a82c747b0997ab0ba12ac5d0a",
+  "image": "http://www.stevenson.org/",
+  "creationAt": "2026-11-07T05:15:07.000Z",
+  "updatedAt": "2026-11-07T05:15:07.000Z"
+}
+2026-11-07 05:15:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-07 05:15:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Clothing_e4ea361a82c747b0997ab0ba12ac5d0a",
+  "slug": "clothing-e4ea361a82c747b0997ab0ba12ac5d0a",
+  "image": "http://www.stevenson.org/",
+  "creationAt": "2026-11-07T05:15:07.000Z",
+  "updatedAt": "2026-11-07T05:15:07.000Z"
+} 
+
+2026-11-07 05:15:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-07 05:15:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

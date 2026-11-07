@@ -1,0 +1,88 @@
+2026-11-02 05:06:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Gregory Keller",
+  "email": "avilachristopher@example.com",
+  "password": "***",
+  "avatar": "https://www.ramirez.net/"
+} 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 793,
+  "email": "avilachristopher@example.com",
+  "password": "***",
+  "name": "Gregory Keller",
+  "role": "customer",
+  "avatar": "https://www.ramirez.net/",
+  "creationAt": "2026-11-02T05:06:05.000Z",
+  "updatedAt": "2026-11-02T05:06:05.000Z"
+}
+2026-11-02 05:06:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "avilachristopher@example.com",
+  "password": "***"
+} 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjc5MywiaWF0IjoxNzkzNTk1OTY1LCJleHAiOjE3OTM2MzE5NjV9.RhIYtGLD3PQ15Uv5hZntdh6qOHZrsh-tVE05EWD7EzM"
+} 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 793,
+  "email": "avilachristopher@example.com",
+  "password": "***",
+  "name": "Gregory Keller",
+  "role": "customer",
+  "avatar": "https://www.ramirez.net/",
+  "creationAt": "2026-11-02T05:06:05.000Z",
+  "updatedAt": "2026-11-02T05:06:05.000Z"
+}
+2026-11-02 05:06:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/793
+Body:
+<empty> 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/793 -> 200
+Body:
+{
+  "id": 793,
+  "email": "avilachristopher@example.com",
+  "password": "***",
+  "name": "Gregory Keller",
+  "role": "customer",
+  "avatar": "https://www.ramirez.net/",
+  "creationAt": "2026-11-02T05:06:05.000Z",
+  "updatedAt": "2026-11-02T05:06:05.000Z"
+} 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/793
+Body:
+<empty> 
+
+2026-11-02 05:06:05 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/793 -> 200
+Body:
+true

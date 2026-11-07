@@ -1,0 +1,135 @@
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_72aa8953271d47ce9e3264495af41a0d",
+  "image": "https://www.mason.com/"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Books_72aa8953271d47ce9e3264495af41a0d",
+  "slug": "books-72aa8953271d47ce9e3264495af41a0d",
+  "image": "https://www.mason.com/",
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergized 5thgeneration model-66939ff2b6924bf3b88af7614d821cc8",
+  "price": 906,
+  "description": "Implemented value-added knowledge user",
+  "categoryId": 35,
+  "images": [
+    "https://www.boyd.biz/"
+  ]
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 9237,
+  "title": "Synergized 5thgeneration model-66939ff2b6924bf3b88af7614d821cc8",
+  "slug": "synergized-5thgeneration-model-66939ff2b6924bf3b88af7614d821cc8",
+  "price": 906,
+  "description": "Implemented value-added knowledge user",
+  "category": {
+    "id": 35,
+    "name": "Books_72aa8953271d47ce9e3264495af41a0d",
+    "slug": "books-72aa8953271d47ce9e3264495af41a0d",
+    "image": "https://www.mason.com/",
+    "creationAt": "2026-10-30T04:57:45.000Z",
+    "updatedAt": "2026-10-30T04:57:45.000Z"
+  },
+  "images": [
+    "https://www.boyd.biz/"
+  ],
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+}
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/synergized-5thgeneration-model-66939ff2b6924bf3b88af7614d821cc8
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/synergized-5thgeneration-model-66939ff2b6924bf3b88af7614d821cc8 -> 200
+Body:
+{
+  "id": 9237,
+  "title": "Synergized 5thgeneration model-66939ff2b6924bf3b88af7614d821cc8",
+  "slug": "synergized-5thgeneration-model-66939ff2b6924bf3b88af7614d821cc8",
+  "price": 906,
+  "description": "Implemented value-added knowledge user",
+  "category": {
+    "id": 35,
+    "name": "Books_72aa8953271d47ce9e3264495af41a0d",
+    "slug": "books-72aa8953271d47ce9e3264495af41a0d",
+    "image": "https://www.mason.com/",
+    "creationAt": "2026-10-30T04:57:45.000Z",
+    "updatedAt": "2026-10-30T04:57:45.000Z"
+  },
+  "images": [
+    "https://www.boyd.biz/"
+  ],
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+}
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/9237
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/9237 -> 200
+Body:
+{
+  "id": 9237,
+  "title": "Synergized 5thgeneration model-66939ff2b6924bf3b88af7614d821cc8",
+  "slug": "synergized-5thgeneration-model-66939ff2b6924bf3b88af7614d821cc8",
+  "price": 906,
+  "description": "Implemented value-added knowledge user",
+  "category": {
+    "id": 35,
+    "name": "Books_72aa8953271d47ce9e3264495af41a0d",
+    "slug": "books-72aa8953271d47ce9e3264495af41a0d",
+    "image": "https://www.mason.com/",
+    "creationAt": "2026-10-30T04:57:45.000Z",
+    "updatedAt": "2026-10-30T04:57:45.000Z"
+  },
+  "images": [
+    "https://www.boyd.biz/"
+  ],
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/9237
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/9237 -> 200
+Body:
+true 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Books_72aa8953271d47ce9e3264495af41a0d",
+  "slug": "books-72aa8953271d47ce9e3264495af41a0d",
+  "image": "https://www.mason.com/",
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

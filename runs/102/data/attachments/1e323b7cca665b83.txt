@@ -1,0 +1,53 @@
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_1905581828f84fa89ddff2a6da3f17bf",
+  "image": "http://www.atkins-may.biz/"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 62,
+  "name": "Sports & Fitness_1905581828f84fa89ddff2a6da3f17bf",
+  "slug": "sports-fitness-1905581828f84fa89ddff2a6da3f17bf",
+  "image": "http://www.atkins-may.biz/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+}
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/62
+Body:
+<empty> 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/62 -> 200
+Body:
+{
+  "id": 62,
+  "name": "Sports & Fitness_1905581828f84fa89ddff2a6da3f17bf",
+  "slug": "sports-fitness-1905581828f84fa89ddff2a6da3f17bf",
+  "image": "http://www.atkins-may.biz/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+}
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/62
+Body:
+<empty> 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/62 -> 200
+Body:
+{
+  "id": 62,
+  "name": "Sports & Fitness_1905581828f84fa89ddff2a6da3f17bf",
+  "slug": "sports-fitness-1905581828f84fa89ddff2a6da3f17bf",
+  "image": "http://www.atkins-may.biz/",
+  "creationAt": "2026-10-23T03:57:46.000Z",
+  "updatedAt": "2026-10-23T03:57:46.000Z"
+} 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/62
+Body:
+<empty> 
+
+2026-10-23 03:57:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/62 -> 200
+Body:
+true

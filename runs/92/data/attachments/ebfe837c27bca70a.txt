@@ -1,0 +1,135 @@
+2026-10-13 06:05:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_259d0667fd4d4f2e8ec4b74f72d10e31",
+  "image": "https://www.rogers-moses.com/"
+} 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 63,
+  "name": "Clothing_259d0667fd4d4f2e8ec4b74f72d10e31",
+  "slug": "clothing-259d0667fd4d4f2e8ec4b74f72d10e31",
+  "image": "https://www.rogers-moses.com/",
+  "creationAt": "2026-10-13T06:05:16.000Z",
+  "updatedAt": "2026-10-13T06:05:16.000Z"
+} 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Implemented multi-state customer loyalty-cec05823d09a4415ada47d9423fba121",
+  "price": 521,
+  "description": "Future-proofed tertiary complexity",
+  "categoryId": 63,
+  "images": [
+    "https://www.long-hamilton.info/"
+  ]
+} 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 182,
+  "title": "Implemented multi-state customer loyalty-cec05823d09a4415ada47d9423fba121",
+  "slug": "implemented-multi-state-customer-loyalty-cec05823d09a4415ada47d9423fba121",
+  "price": 521,
+  "description": "Future-proofed tertiary complexity",
+  "category": {
+    "id": 63,
+    "name": "Clothing_259d0667fd4d4f2e8ec4b74f72d10e31",
+    "slug": "clothing-259d0667fd4d4f2e8ec4b74f72d10e31",
+    "image": "https://www.rogers-moses.com/",
+    "creationAt": "2026-10-13T06:05:16.000Z",
+    "updatedAt": "2026-10-13T06:05:16.000Z"
+  },
+  "images": [
+    "https://www.long-hamilton.info/"
+  ],
+  "creationAt": "2026-10-13T06:05:16.000Z",
+  "updatedAt": "2026-10-13T06:05:16.000Z"
+}
+2026-10-13 06:05:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/182
+Body:
+<empty> 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/182 -> 200
+Body:
+{
+  "id": 182,
+  "title": "Implemented multi-state customer loyalty-cec05823d09a4415ada47d9423fba121",
+  "slug": "implemented-multi-state-customer-loyalty-cec05823d09a4415ada47d9423fba121",
+  "price": 521,
+  "description": "Future-proofed tertiary complexity",
+  "category": {
+    "id": 63,
+    "name": "Clothing_259d0667fd4d4f2e8ec4b74f72d10e31",
+    "slug": "clothing-259d0667fd4d4f2e8ec4b74f72d10e31",
+    "image": "https://www.rogers-moses.com/",
+    "creationAt": "2026-10-13T06:05:16.000Z",
+    "updatedAt": "2026-10-13T06:05:16.000Z"
+  },
+  "images": [
+    "https://www.long-hamilton.info/"
+  ],
+  "creationAt": "2026-10-13T06:05:16.000Z",
+  "updatedAt": "2026-10-13T06:05:16.000Z"
+}
+2026-10-13 06:05:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/182
+Body:
+<empty> 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/182 -> 200
+Body:
+{
+  "id": 182,
+  "title": "Implemented multi-state customer loyalty-cec05823d09a4415ada47d9423fba121",
+  "slug": "implemented-multi-state-customer-loyalty-cec05823d09a4415ada47d9423fba121",
+  "price": 521,
+  "description": "Future-proofed tertiary complexity",
+  "category": {
+    "id": 63,
+    "name": "Clothing_259d0667fd4d4f2e8ec4b74f72d10e31",
+    "slug": "clothing-259d0667fd4d4f2e8ec4b74f72d10e31",
+    "image": "https://www.rogers-moses.com/",
+    "creationAt": "2026-10-13T06:05:16.000Z",
+    "updatedAt": "2026-10-13T06:05:16.000Z"
+  },
+  "images": [
+    "https://www.long-hamilton.info/"
+  ],
+  "creationAt": "2026-10-13T06:05:16.000Z",
+  "updatedAt": "2026-10-13T06:05:16.000Z"
+} 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/182
+Body:
+<empty> 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/182 -> 200
+Body:
+true 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+{
+  "id": 63,
+  "name": "Clothing_259d0667fd4d4f2e8ec4b74f72d10e31",
+  "slug": "clothing-259d0667fd4d4f2e8ec4b74f72d10e31",
+  "image": "https://www.rogers-moses.com/",
+  "creationAt": "2026-10-13T06:05:16.000Z",
+  "updatedAt": "2026-10-13T06:05:16.000Z"
+} 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/63
+Body:
+<empty> 
+
+2026-10-13 06:05:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/63 -> 200
+Body:
+true

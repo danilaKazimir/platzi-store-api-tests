@@ -1,0 +1,135 @@
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_747c0441e30d47058442d7e64cd7ef1a",
+  "image": "http://vazquez.com/"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 47,
+  "name": "Automotive Accessories_747c0441e30d47058442d7e64cd7ef1a",
+  "slug": "automotive-accessories-747c0441e30d47058442d7e64cd7ef1a",
+  "image": "http://vazquez.com/",
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced reciprocal instruction set-4770289d088b48a1bd49537218f966b8",
+  "price": 287,
+  "description": "Organic multi-tasking hardware",
+  "categoryId": 47,
+  "images": [
+    "http://www.brown.info/"
+  ]
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 138,
+  "title": "Advanced reciprocal instruction set-4770289d088b48a1bd49537218f966b8",
+  "slug": "advanced-reciprocal-instruction-set-4770289d088b48a1bd49537218f966b8",
+  "price": 287,
+  "description": "Organic multi-tasking hardware",
+  "category": {
+    "id": 47,
+    "name": "Automotive Accessories_747c0441e30d47058442d7e64cd7ef1a",
+    "slug": "automotive-accessories-747c0441e30d47058442d7e64cd7ef1a",
+    "image": "http://vazquez.com/",
+    "creationAt": "2026-10-12T05:05:40.000Z",
+    "updatedAt": "2026-10-12T05:05:40.000Z"
+  },
+  "images": [
+    "http://www.brown.info/"
+  ],
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+}
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/138
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/138 -> 200
+Body:
+{
+  "id": 138,
+  "title": "Advanced reciprocal instruction set-4770289d088b48a1bd49537218f966b8",
+  "slug": "advanced-reciprocal-instruction-set-4770289d088b48a1bd49537218f966b8",
+  "price": 287,
+  "description": "Organic multi-tasking hardware",
+  "category": {
+    "id": 47,
+    "name": "Automotive Accessories_747c0441e30d47058442d7e64cd7ef1a",
+    "slug": "automotive-accessories-747c0441e30d47058442d7e64cd7ef1a",
+    "image": "http://vazquez.com/",
+    "creationAt": "2026-10-12T05:05:40.000Z",
+    "updatedAt": "2026-10-12T05:05:40.000Z"
+  },
+  "images": [
+    "http://www.brown.info/"
+  ],
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+}
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/138
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/138 -> 200
+Body:
+{
+  "id": 138,
+  "title": "Advanced reciprocal instruction set-4770289d088b48a1bd49537218f966b8",
+  "slug": "advanced-reciprocal-instruction-set-4770289d088b48a1bd49537218f966b8",
+  "price": 287,
+  "description": "Organic multi-tasking hardware",
+  "category": {
+    "id": 47,
+    "name": "Automotive Accessories_747c0441e30d47058442d7e64cd7ef1a",
+    "slug": "automotive-accessories-747c0441e30d47058442d7e64cd7ef1a",
+    "image": "http://vazquez.com/",
+    "creationAt": "2026-10-12T05:05:40.000Z",
+    "updatedAt": "2026-10-12T05:05:40.000Z"
+  },
+  "images": [
+    "http://www.brown.info/"
+  ],
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/138
+Body:
+<empty> 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/138 -> 200
+Body:
+true 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+{
+  "id": 47,
+  "name": "Automotive Accessories_747c0441e30d47058442d7e64cd7ef1a",
+  "slug": "automotive-accessories-747c0441e30d47058442d7e64cd7ef1a",
+  "image": "http://vazquez.com/",
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+} 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/47
+Body:
+<empty> 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/47 -> 200
+Body:
+true

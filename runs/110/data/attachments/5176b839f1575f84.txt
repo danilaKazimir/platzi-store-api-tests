@@ -1,0 +1,135 @@
+2026-10-31 04:44:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_a36330c4562f411589567eb38cfdcc8c",
+  "image": "https://www.ortiz.info/"
+} 
+
+2026-10-31 04:44:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Toys_a36330c4562f411589567eb38cfdcc8c",
+  "slug": "toys-a36330c4562f411589567eb38cfdcc8c",
+  "image": "https://www.ortiz.info/",
+  "creationAt": "2026-10-31T04:44:27.000Z",
+  "updatedAt": "2026-10-31T04:44:27.000Z"
+}
+2026-10-31 04:44:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-31 04:44:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-10-30T20:15:22.000Z",
+    "updatedAt": "2026-10-30T20:15:22.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-30T20:15:22.000Z",
+    "updatedAt": "2026-10-30T20:15:22.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-30T20:15:22.000Z",
+    "updatedAt": "2026-10-30T20:15:22.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-30T20:15:22.000Z",
+    "updatedAt": "2026-10-30T20:15:22.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-30T20:15:22.000Z",
+    "updatedAt": "2026-10-30T20:15:22.000Z"
+  },
+  {
+    "id": 6,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-30T22:01:18.000Z",
+    "updatedAt": "2026-10-30T22:01:18.000Z"
+  },
+  {
+    "id": 7,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-30T22:01:19.000Z",
+    "updatedAt": "2026-10-30T22:01:19.000Z"
+  },
+  {
+    "id": 18,
+    "name": "testCategoryc0784a7881424a919247264bddae152a",
+    "slug": "testcategoryc0784a7881424a919247264bddae152a",
+    "image": "https://white.com/",
+    "creationAt": "2026-10-31T04:44:26.000Z",
+    "updatedAt": "2026-10-31T04:44:26.000Z"
+  },
+  {
+    "id": 19,
+    "name": "test Categoryd3181eaa3013464cac6daa29d2374293",
+    "slug": "test-categoryd3181eaa3013464cac6daa29d2374293",
+    "image": "http://thomas-nelson.biz/",
+    "creationAt": "2026-10-31T04:44:26.000Z",
+    "updatedAt": "2026-10-31T04:44:26.000Z"
+  },
+  {
+    "id": 20,
+    "name": "Electronics_1d179f61caa549f2a96c5f08435f83f1",
+    "slug": "electronics-1d179f61caa549f2a96c5f08435f83f1",
+    "image": "https://stewart.com/",
+    "creationAt": "2026-10-31T04:44:27.000Z",
+    "updatedAt": "2026-10-31T04:44:27.000Z"
+  },
+  {
+    "id": 21,
+    "name": "Toys_a36330c4562f411589567eb38cfdcc8c",
+    "slug": "toys-a36330c4562f411589567eb38cfdcc8c",
+    "image": "https://www.ortiz.info/",
+    "creationAt": "2026-10-31T04:44:27.000Z",
+    "updatedAt": "2026-10-31T04:44:27.000Z"
+  }
+]
+2026-10-31 04:44:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-10-31 04:44:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Toys_a36330c4562f411589567eb38cfdcc8c",
+  "slug": "toys-a36330c4562f411589567eb38cfdcc8c",
+  "image": "https://www.ortiz.info/",
+  "creationAt": "2026-10-31T04:44:27.000Z",
+  "updatedAt": "2026-10-31T04:44:27.000Z"
+} 
+
+2026-10-31 04:44:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-10-31 04:44:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true

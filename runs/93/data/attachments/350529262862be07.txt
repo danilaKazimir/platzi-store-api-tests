@@ -1,0 +1,125 @@
+2026-10-14 04:08:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_0ac3682957844342b29aa8d327c83d7c",
+  "image": "https://nolan-buck.biz/"
+} 
+
+2026-10-14 04:08:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 48,
+  "name": "Sports & Fitness_0ac3682957844342b29aa8d327c83d7c",
+  "slug": "sports-fitness-0ac3682957844342b29aa8d327c83d7c",
+  "image": "https://nolan-buck.biz/",
+  "creationAt": "2026-10-14T04:08:17.000Z",
+  "updatedAt": "2026-10-14T04:08:17.000Z"
+} 
+
+2026-10-14 04:08:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive global frame-4c548a60206f47eb80b7976927b4fcc4",
+  "price": 701,
+  "description": "De-engineered interactive process improvement",
+  "categoryId": 48,
+  "images": [
+    "http://harper-greer.com/"
+  ]
+} 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 136,
+  "title": "Progressive global frame-4c548a60206f47eb80b7976927b4fcc4",
+  "slug": "progressive-global-frame-4c548a60206f47eb80b7976927b4fcc4",
+  "price": 701,
+  "description": "De-engineered interactive process improvement",
+  "category": {
+    "id": 48,
+    "name": "Sports & Fitness_0ac3682957844342b29aa8d327c83d7c",
+    "slug": "sports-fitness-0ac3682957844342b29aa8d327c83d7c",
+    "image": "https://nolan-buck.biz/",
+    "creationAt": "2026-10-14T04:08:17.000Z",
+    "updatedAt": "2026-10-14T04:08:17.000Z"
+  },
+  "images": [
+    "http://harper-greer.com/"
+  ],
+  "creationAt": "2026-10-14T04:08:18.000Z",
+  "updatedAt": "2026-10-14T04:08:18.000Z"
+}
+2026-10-14 04:08:18 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/136
+Body:
+{
+  "title": "Quality-focused clear-thinking emulation-98c28206a2704b55978b300631e5fc61",
+  "price": 364,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/136 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-14 04:08:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/136
+Body:
+<empty> 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/136 -> 200
+Body:
+{
+  "id": 136,
+  "title": "Progressive global frame-4c548a60206f47eb80b7976927b4fcc4",
+  "slug": "progressive-global-frame-4c548a60206f47eb80b7976927b4fcc4",
+  "price": 701,
+  "description": "De-engineered interactive process improvement",
+  "category": {
+    "id": 48,
+    "name": "Sports & Fitness_0ac3682957844342b29aa8d327c83d7c",
+    "slug": "sports-fitness-0ac3682957844342b29aa8d327c83d7c",
+    "image": "https://nolan-buck.biz/",
+    "creationAt": "2026-10-14T04:08:17.000Z",
+    "updatedAt": "2026-10-14T04:08:17.000Z"
+  },
+  "images": [
+    "http://harper-greer.com/"
+  ],
+  "creationAt": "2026-10-14T04:08:18.000Z",
+  "updatedAt": "2026-10-14T04:08:18.000Z"
+} 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/136
+Body:
+<empty> 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/136 -> 200
+Body:
+true 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/48
+Body:
+<empty> 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/48 -> 200
+Body:
+{
+  "id": 48,
+  "name": "Sports & Fitness_0ac3682957844342b29aa8d327c83d7c",
+  "slug": "sports-fitness-0ac3682957844342b29aa8d327c83d7c",
+  "image": "https://nolan-buck.biz/",
+  "creationAt": "2026-10-14T04:08:17.000Z",
+  "updatedAt": "2026-10-14T04:08:17.000Z"
+} 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/48
+Body:
+<empty> 
+
+2026-10-14 04:08:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/48 -> 200
+Body:
+true

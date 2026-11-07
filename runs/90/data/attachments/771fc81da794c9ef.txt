@@ -1,0 +1,80 @@
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Carl Weeks",
+  "email": "hamiltonkimberly@example.com",
+  "password": "***",
+  "avatar": "http://www.mcclain-gordon.com/"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 107,
+  "email": "hamiltonkimberly@example.com",
+  "password": "***",
+  "name": "Carl Weeks",
+  "role": "customer",
+  "avatar": "http://www.mcclain-gordon.com/",
+  "creationAt": "2026-10-11T04:50:44.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+}
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/107
+Body:
+{
+  "email": "mary93@example.org"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/107 -> 200
+Body:
+{
+  "id": 107,
+  "email": "mary93@example.org",
+  "password": "***",
+  "name": "Carl Weeks",
+  "role": "customer",
+  "avatar": "http://www.mcclain-gordon.com/",
+  "creationAt": "2026-10-11T04:50:44.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/107
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/107 -> 200
+Body:
+{
+  "id": 107,
+  "email": "mary93@example.org",
+  "password": "***",
+  "name": "Carl Weeks",
+  "role": "customer",
+  "avatar": "http://www.mcclain-gordon.com/",
+  "creationAt": "2026-10-11T04:50:44.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+}
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/107
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/107 -> 200
+Body:
+{
+  "id": 107,
+  "email": "mary93@example.org",
+  "password": "***",
+  "name": "Carl Weeks",
+  "role": "customer",
+  "avatar": "http://www.mcclain-gordon.com/",
+  "creationAt": "2026-10-11T04:50:44.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/107
+Body:
+<empty> 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/107 -> 200
+Body:
+true

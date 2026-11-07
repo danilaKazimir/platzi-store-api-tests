@@ -1,0 +1,55 @@
+2026-10-27 04:16:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_b43b7d752e1d4e95b5fb9ee7bbc1d04f",
+  "image": "http://www.miller-arnold.com/"
+} 
+
+2026-10-27 04:16:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Food & Beverages_b43b7d752e1d4e95b5fb9ee7bbc1d04f",
+  "slug": "food-beverages-b43b7d752e1d4e95b5fb9ee7bbc1d04f",
+  "image": "http://www.miller-arnold.com/",
+  "creationAt": "2026-10-27T04:16:50.000Z",
+  "updatedAt": "2026-10-27T04:16:50.000Z"
+}
+2026-10-27 04:16:50 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/33
+Body:
+{
+  "name": "Sports & Fitness_f894aa8d672742ce85dff1a9450ac39e",
+  "image": null
+} 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/33 -> 400
+Body:
+{
+  "path": "/api/v1/categories/33",
+  "timestamp": "2026-10-27T04:16:51.105Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-27 04:16:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Food & Beverages_b43b7d752e1d4e95b5fb9ee7bbc1d04f",
+  "slug": "food-beverages-b43b7d752e1d4e95b5fb9ee7bbc1d04f",
+  "image": "http://www.miller-arnold.com/",
+  "creationAt": "2026-10-27T04:16:50.000Z",
+  "updatedAt": "2026-10-27T04:16:50.000Z"
+} 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-27 04:16:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

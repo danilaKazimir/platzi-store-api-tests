@@ -1,0 +1,81 @@
+2026-10-12 05:05:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jorge Valentine",
+  "email": "tina08@example.net",
+  "password": "***",
+  "avatar": "http://www.king.info/"
+} 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 146,
+  "email": "tina08@example.net",
+  "password": "***",
+  "name": "Jorge Valentine",
+  "role": "customer",
+  "avatar": "http://www.king.info/",
+  "creationAt": "2026-10-12T05:05:42.000Z",
+  "updatedAt": "2026-10-12T05:05:42.000Z"
+}
+2026-10-12 05:05:42 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/146
+Body:
+{
+  "name": "Donald Walker",
+  "email": "jonescandice@example.org"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/146 -> 200
+Body:
+{
+  "id": 146,
+  "email": "jonescandice@example.org",
+  "password": "***",
+  "name": "Donald Walker",
+  "role": "customer",
+  "avatar": "http://www.king.info/",
+  "creationAt": "2026-10-12T05:05:42.000Z",
+  "updatedAt": "2026-10-12T05:05:42.000Z"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/146
+Body:
+<empty> 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/146 -> 200
+Body:
+{
+  "id": 146,
+  "email": "jonescandice@example.org",
+  "password": "***",
+  "name": "Donald Walker",
+  "role": "customer",
+  "avatar": "http://www.king.info/",
+  "creationAt": "2026-10-12T05:05:42.000Z",
+  "updatedAt": "2026-10-12T05:05:42.000Z"
+}
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/146
+Body:
+<empty> 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/146 -> 200
+Body:
+{
+  "id": 146,
+  "email": "jonescandice@example.org",
+  "password": "***",
+  "name": "Donald Walker",
+  "role": "customer",
+  "avatar": "http://www.king.info/",
+  "creationAt": "2026-10-12T05:05:42.000Z",
+  "updatedAt": "2026-10-12T05:05:42.000Z"
+} 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/146
+Body:
+<empty> 
+
+2026-10-12 05:05:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/146 -> 200
+Body:
+true

@@ -1,0 +1,408 @@
+2026-10-15 03:51:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+  "image": "http://www.horn-zimmerman.biz/"
+} 
+
+2026-10-15 03:51:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 42,
+  "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+  "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+  "image": "http://www.horn-zimmerman.biz/",
+  "creationAt": "2026-10-15T03:51:02.000Z",
+  "updatedAt": "2026-10-15T03:51:02.000Z"
+}
+2026-10-15 03:51:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Down-sized even-keeled website-1877fdd5591143f8a2e19a083abdbf0c",
+  "price": 503,
+  "description": "Focused 4thgeneration Graphical User Interface",
+  "categoryId": 42,
+  "images": [
+    "http://wolf.com/"
+  ]
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 154,
+  "title": "Down-sized even-keeled website-1877fdd5591143f8a2e19a083abdbf0c",
+  "slug": "down-sized-even-keeled-website-1877fdd5591143f8a2e19a083abdbf0c",
+  "price": 503,
+  "description": "Focused 4thgeneration Graphical User Interface",
+  "category": {
+    "id": 42,
+    "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "image": "http://www.horn-zimmerman.biz/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "http://wolf.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cross-group coherent moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+  "price": 822,
+  "description": "Fundamental client-server portal",
+  "categoryId": 42,
+  "images": [
+    "https://www.williams-curtis.com/"
+  ]
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 155,
+  "title": "Cross-group coherent moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+  "slug": "cross-group-coherent-moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+  "price": 822,
+  "description": "Fundamental client-server portal",
+  "category": {
+    "id": 42,
+    "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "image": "http://www.horn-zimmerman.biz/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://www.williams-curtis.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Persevering dedicated algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+  "price": 159,
+  "description": "Open-source modular strategy",
+  "categoryId": 42,
+  "images": [
+    "https://moyer.com/"
+  ]
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 157,
+  "title": "Persevering dedicated algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+  "slug": "persevering-dedicated-algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+  "price": 159,
+  "description": "Open-source modular strategy",
+  "category": {
+    "id": 42,
+    "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "image": "http://www.horn-zimmerman.biz/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://moyer.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_b7a40f798de642e784d7297d06c15c7a",
+  "image": "http://www.ross.com/"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 45,
+  "name": "Food & Beverages_b7a40f798de642e784d7297d06c15c7a",
+  "slug": "food-beverages-b7a40f798de642e784d7297d06c15c7a",
+  "image": "http://www.ross.com/",
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-contextualized national access-de60494836a14b49a909f9e320452852",
+  "price": 871,
+  "description": "User-friendly local array",
+  "categoryId": 45,
+  "images": [
+    "http://www.horton.org/"
+  ]
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 161,
+  "title": "Re-contextualized national access-de60494836a14b49a909f9e320452852",
+  "slug": "re-contextualized-national-access-de60494836a14b49a909f9e320452852",
+  "price": 871,
+  "description": "User-friendly local array",
+  "category": {
+    "id": 45,
+    "name": "Food & Beverages_b7a40f798de642e784d7297d06c15c7a",
+    "slug": "food-beverages-b7a40f798de642e784d7297d06c15c7a",
+    "image": "http://www.ross.com/",
+    "creationAt": "2026-10-15T03:51:03.000Z",
+    "updatedAt": "2026-10-15T03:51:03.000Z"
+  },
+  "images": [
+    "http://www.horton.org/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/154/related
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/154/related -> 200
+Body:
+[
+  {
+    "id": 155,
+    "title": "Cross-group coherent moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+    "slug": "cross-group-coherent-moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+    "price": 822,
+    "description": "Fundamental client-server portal",
+    "category": {
+      "id": 42,
+      "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+      "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+      "image": "http://www.horn-zimmerman.biz/",
+      "creationAt": "2026-10-15T03:51:02.000Z",
+      "updatedAt": "2026-10-15T03:51:02.000Z"
+    },
+    "images": [
+      "https://www.williams-curtis.com/"
+    ],
+    "creationAt": "2026-10-15T03:51:03.000Z",
+    "updatedAt": "2026-10-15T03:51:03.000Z"
+  },
+  {
+    "id": 157,
+    "title": "Persevering dedicated algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+    "slug": "persevering-dedicated-algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+    "price": 159,
+    "description": "Open-source modular strategy",
+    "category": {
+      "id": 42,
+      "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+      "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+      "image": "http://www.horn-zimmerman.biz/",
+      "creationAt": "2026-10-15T03:51:02.000Z",
+      "updatedAt": "2026-10-15T03:51:02.000Z"
+    },
+    "images": [
+      "https://moyer.com/"
+    ],
+    "creationAt": "2026-10-15T03:51:03.000Z",
+    "updatedAt": "2026-10-15T03:51:03.000Z"
+  }
+]
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/161
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/161 -> 200
+Body:
+{
+  "id": 161,
+  "title": "Re-contextualized national access-de60494836a14b49a909f9e320452852",
+  "slug": "re-contextualized-national-access-de60494836a14b49a909f9e320452852",
+  "price": 871,
+  "description": "User-friendly local array",
+  "category": {
+    "id": 45,
+    "name": "Food & Beverages_b7a40f798de642e784d7297d06c15c7a",
+    "slug": "food-beverages-b7a40f798de642e784d7297d06c15c7a",
+    "image": "http://www.ross.com/",
+    "creationAt": "2026-10-15T03:51:03.000Z",
+    "updatedAt": "2026-10-15T03:51:03.000Z"
+  },
+  "images": [
+    "http://www.horton.org/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/161
+Body:
+<empty> 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/161 -> 200
+Body:
+true 
+
+2026-10-15 03:51:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/157
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/157 -> 200
+Body:
+{
+  "id": 157,
+  "title": "Persevering dedicated algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+  "slug": "persevering-dedicated-algorithm-cd9d2c6df3b742a7b080ec6e63c68adc",
+  "price": 159,
+  "description": "Open-source modular strategy",
+  "category": {
+    "id": 42,
+    "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "image": "http://www.horn-zimmerman.biz/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://moyer.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/157
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/157 -> 200
+Body:
+true 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/155
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/155 -> 200
+Body:
+{
+  "id": 155,
+  "title": "Cross-group coherent moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+  "slug": "cross-group-coherent-moratorium-bcc251ebc364449a9aaf7f54a94de7db",
+  "price": 822,
+  "description": "Fundamental client-server portal",
+  "category": {
+    "id": 42,
+    "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "image": "http://www.horn-zimmerman.biz/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "https://www.williams-curtis.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/155
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/155 -> 200
+Body:
+true 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/154
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/154 -> 200
+Body:
+{
+  "id": 154,
+  "title": "Down-sized even-keeled website-1877fdd5591143f8a2e19a083abdbf0c",
+  "slug": "down-sized-even-keeled-website-1877fdd5591143f8a2e19a083abdbf0c",
+  "price": 503,
+  "description": "Focused 4thgeneration Graphical User Interface",
+  "category": {
+    "id": 42,
+    "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+    "image": "http://www.horn-zimmerman.biz/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  "images": [
+    "http://wolf.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/154
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/154 -> 200
+Body:
+true 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+{
+  "id": 45,
+  "name": "Food & Beverages_b7a40f798de642e784d7297d06c15c7a",
+  "slug": "food-beverages-b7a40f798de642e784d7297d06c15c7a",
+  "image": "http://www.ross.com/",
+  "creationAt": "2026-10-15T03:51:03.000Z",
+  "updatedAt": "2026-10-15T03:51:03.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+true 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+{
+  "id": 42,
+  "name": "Food & Beverages_ee86a6754a6b4d7193b6ac1bbbd417b0",
+  "slug": "food-beverages-ee86a6754a6b4d7193b6ac1bbbd417b0",
+  "image": "http://www.horn-zimmerman.biz/",
+  "creationAt": "2026-10-15T03:51:02.000Z",
+  "updatedAt": "2026-10-15T03:51:02.000Z"
+} 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+true

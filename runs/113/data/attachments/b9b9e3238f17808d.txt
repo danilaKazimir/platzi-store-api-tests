@@ -1,0 +1,407 @@
+2026-11-03 05:52:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+  "image": "http://www.taylor.com/"
+} 
+
+2026-11-03 05:52:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+  "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-11-03T05:52:38.000Z",
+  "updatedAt": "2026-11-03T05:52:38.000Z"
+}
+2026-11-03 05:52:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Quality-focused well-modulated installation-1cd62b60f99a42518860096329e7c760",
+  "price": 392,
+  "description": "Grass-roots encompassing architecture",
+  "categoryId": 14,
+  "images": [
+    "http://www.swanson.com/"
+  ]
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 94,
+  "title": "Quality-focused well-modulated installation-1cd62b60f99a42518860096329e7c760",
+  "slug": "quality-focused-well-modulated-installation-1cd62b60f99a42518860096329e7c760",
+  "price": 392,
+  "description": "Grass-roots encompassing architecture",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "http://www.swanson.com/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Front-line fault-tolerant complexity-3147e9cbfb1f49d6944795345f3a55d0",
+  "price": 617,
+  "description": "Versatile demand-driven task-force",
+  "categoryId": 14,
+  "images": [
+    "https://www.farrell.com/"
+  ]
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 95,
+  "title": "Front-line fault-tolerant complexity-3147e9cbfb1f49d6944795345f3a55d0",
+  "slug": "front-line-fault-tolerant-complexity-3147e9cbfb1f49d6944795345f3a55d0",
+  "price": 617,
+  "description": "Versatile demand-driven task-force",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "https://www.farrell.com/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Synergistic mission-critical analyzer-4b9002863a294e778b627dfa031b1239",
+  "price": 266,
+  "description": "Persistent zero-defect paradigm",
+  "categoryId": 14,
+  "images": [
+    "http://www.hendrix.com/"
+  ]
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 97,
+  "title": "Synergistic mission-critical analyzer-4b9002863a294e778b627dfa031b1239",
+  "slug": "synergistic-mission-critical-analyzer-4b9002863a294e778b627dfa031b1239",
+  "price": 266,
+  "description": "Persistent zero-defect paradigm",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "http://www.hendrix.com/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative maximized hub-9c4715d5d2704eb6aebc2448fd63e88c",
+  "price": 112,
+  "description": "Triple-buffered interactive definition",
+  "categoryId": 14,
+  "images": [
+    "http://johnson.info/"
+  ]
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 98,
+  "title": "Innovative maximized hub-9c4715d5d2704eb6aebc2448fd63e88c",
+  "slug": "innovative-maximized-hub-9c4715d5d2704eb6aebc2448fd63e88c",
+  "price": 112,
+  "description": "Triple-buffered interactive definition",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "http://johnson.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14/products
+Body:
+<empty> 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14/products -> 200
+Body:
+[
+  {
+    "id": 94,
+    "title": "Quality-focused well-modulated installation-1cd62b60f99a42518860096329e7c760",
+    "slug": "quality-focused-well-modulated-installation-1cd62b60f99a42518860096329e7c760",
+    "price": 392,
+    "description": "Grass-roots encompassing architecture",
+    "category": {
+      "id": 14,
+      "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+      "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+      "image": "http://www.taylor.com/",
+      "creationAt": "2026-11-03T05:52:38.000Z",
+      "updatedAt": "2026-11-03T05:52:38.000Z"
+    },
+    "images": [
+      "http://www.swanson.com/"
+    ],
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  },
+  {
+    "id": 95,
+    "title": "Front-line fault-tolerant complexity-3147e9cbfb1f49d6944795345f3a55d0",
+    "slug": "front-line-fault-tolerant-complexity-3147e9cbfb1f49d6944795345f3a55d0",
+    "price": 617,
+    "description": "Versatile demand-driven task-force",
+    "category": {
+      "id": 14,
+      "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+      "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+      "image": "http://www.taylor.com/",
+      "creationAt": "2026-11-03T05:52:38.000Z",
+      "updatedAt": "2026-11-03T05:52:38.000Z"
+    },
+    "images": [
+      "https://www.farrell.com/"
+    ],
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  },
+  {
+    "id": 97,
+    "title": "Synergistic mission-critical analyzer-4b9002863a294e778b627dfa031b1239",
+    "slug": "synergistic-mission-critical-analyzer-4b9002863a294e778b627dfa031b1239",
+    "price": 266,
+    "description": "Persistent zero-defect paradigm",
+    "category": {
+      "id": 14,
+      "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+      "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+      "image": "http://www.taylor.com/",
+      "creationAt": "2026-11-03T05:52:38.000Z",
+      "updatedAt": "2026-11-03T05:52:38.000Z"
+    },
+    "images": [
+      "http://www.hendrix.com/"
+    ],
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  },
+  {
+    "id": 98,
+    "title": "Innovative maximized hub-9c4715d5d2704eb6aebc2448fd63e88c",
+    "slug": "innovative-maximized-hub-9c4715d5d2704eb6aebc2448fd63e88c",
+    "price": 112,
+    "description": "Triple-buffered interactive definition",
+    "category": {
+      "id": 14,
+      "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+      "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+      "image": "http://www.taylor.com/",
+      "creationAt": "2026-11-03T05:52:38.000Z",
+      "updatedAt": "2026-11-03T05:52:38.000Z"
+    },
+    "images": [
+      "http://johnson.info/"
+    ],
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  }
+]
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/98
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/98 -> 200
+Body:
+{
+  "id": 98,
+  "title": "Innovative maximized hub-9c4715d5d2704eb6aebc2448fd63e88c",
+  "slug": "innovative-maximized-hub-9c4715d5d2704eb6aebc2448fd63e88c",
+  "price": 112,
+  "description": "Triple-buffered interactive definition",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "http://johnson.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/98
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/98 -> 200
+Body:
+true 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/97
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/97 -> 200
+Body:
+{
+  "id": 97,
+  "title": "Synergistic mission-critical analyzer-4b9002863a294e778b627dfa031b1239",
+  "slug": "synergistic-mission-critical-analyzer-4b9002863a294e778b627dfa031b1239",
+  "price": 266,
+  "description": "Persistent zero-defect paradigm",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "http://www.hendrix.com/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/97
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/97 -> 200
+Body:
+true 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+{
+  "id": 95,
+  "title": "Front-line fault-tolerant complexity-3147e9cbfb1f49d6944795345f3a55d0",
+  "slug": "front-line-fault-tolerant-complexity-3147e9cbfb1f49d6944795345f3a55d0",
+  "price": 617,
+  "description": "Versatile demand-driven task-force",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "https://www.farrell.com/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+true 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/94
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/94 -> 200
+Body:
+{
+  "id": 94,
+  "title": "Quality-focused well-modulated installation-1cd62b60f99a42518860096329e7c760",
+  "slug": "quality-focused-well-modulated-installation-1cd62b60f99a42518860096329e7c760",
+  "price": 392,
+  "description": "Grass-roots encompassing architecture",
+  "category": {
+    "id": 14,
+    "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+    "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  "images": [
+    "http://www.swanson.com/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/94
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/94 -> 200
+Body:
+true 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Personal Care_e6af5b09e97a4300bbfdaec323c4714d",
+  "slug": "personal-care-e6af5b09e97a4300bbfdaec323c4714d",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-11-03T05:52:38.000Z",
+  "updatedAt": "2026-11-03T05:52:38.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

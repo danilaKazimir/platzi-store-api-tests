@@ -1,0 +1,71 @@
+2026-10-31 04:44:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_675eb85abf2f4e49922234efc05b3241",
+  "image": "http://www.kelly.com/"
+} 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Food & Beverages_675eb85abf2f4e49922234efc05b3241",
+  "slug": "food-beverages-675eb85abf2f4e49922234efc05b3241",
+  "image": "http://www.kelly.com/",
+  "creationAt": "2026-10-31T04:44:28.000Z",
+  "updatedAt": "2026-10-31T04:44:28.000Z"
+}
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/27
+Body:
+{
+  "name": "Books_2f17eca495974c13af5c85cd3f59cb51",
+  "image": "https://young.info/"
+} 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Books_2f17eca495974c13af5c85cd3f59cb51",
+  "slug": "books-2f17eca495974c13af5c85cd3f59cb51",
+  "image": "https://young.info/",
+  "creationAt": "2026-10-31T04:44:28.000Z",
+  "updatedAt": "2026-10-31T04:44:28.000Z"
+} 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Books_2f17eca495974c13af5c85cd3f59cb51",
+  "slug": "books-2f17eca495974c13af5c85cd3f59cb51",
+  "image": "https://young.info/",
+  "creationAt": "2026-10-31T04:44:28.000Z",
+  "updatedAt": "2026-10-31T04:44:28.000Z"
+}
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Books_2f17eca495974c13af5c85cd3f59cb51",
+  "slug": "books-2f17eca495974c13af5c85cd3f59cb51",
+  "image": "https://young.info/",
+  "creationAt": "2026-10-31T04:44:28.000Z",
+  "updatedAt": "2026-10-31T04:44:28.000Z"
+} 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

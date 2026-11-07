@@ -1,0 +1,79 @@
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_bebf6f1012c34b63a329ddebf7286b07",
+  "image": "http://www.velazquez.biz/"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 104,
+  "name": "Books_bebf6f1012c34b63a329ddebf7286b07",
+  "slug": "books-bebf6f1012c34b63a329ddebf7286b07",
+  "image": "http://www.velazquez.biz/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+}
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optional intangible info-mediaries-8d05b1a668714baa98b913e18a33f300",
+  "price": 675,
+  "description": "Managed didactic software",
+  "categoryId": 104,
+  "images": [
+    "http://adams.net/"
+  ]
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 377,
+  "title": "Optional intangible info-mediaries-8d05b1a668714baa98b913e18a33f300",
+  "slug": "optional-intangible-info-mediaries-8d05b1a668714baa98b913e18a33f300",
+  "price": 675,
+  "description": "Managed didactic software",
+  "category": {
+    "id": 104,
+    "name": "Books_bebf6f1012c34b63a329ddebf7286b07",
+    "slug": "books-bebf6f1012c34b63a329ddebf7286b07",
+    "image": "http://www.velazquez.biz/",
+    "creationAt": "2026-10-26T03:55:03.000Z",
+    "updatedAt": "2026-10-26T03:55:03.000Z"
+  },
+  "images": [
+    "http://adams.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+}
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/104 -> 200
+Body:
+{
+  "id": 104,
+  "name": "Books_bebf6f1012c34b63a329ddebf7286b07",
+  "slug": "books-bebf6f1012c34b63a329ddebf7286b07",
+  "image": "http://www.velazquez.biz/",
+  "creationAt": "2026-10-26T03:55:03.000Z",
+  "updatedAt": "2026-10-26T03:55:03.000Z"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/104
+Body:
+<empty> 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/104 -> 400
+Body:
+{
+  "path": "/api/v1/categories/104",
+  "timestamp": "2026-10-26T03:55:03.937Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

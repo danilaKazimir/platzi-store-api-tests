@@ -1,0 +1,88 @@
+2026-10-19 03:53:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jesus Lee",
+  "email": "troy21@example.org",
+  "password": "***",
+  "avatar": "http://davis.org/"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 34,
+  "email": "troy21@example.org",
+  "password": "***",
+  "name": "Jesus Lee",
+  "role": "customer",
+  "avatar": "http://davis.org/",
+  "creationAt": "2026-10-19T03:53:06.000Z",
+  "updatedAt": "2026-10-19T03:53:06.000Z"
+}
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "troy21@example.org",
+  "password": "***"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjM0LCJpYXQiOjE3OTIzODE5ODYsImV4cCI6MTc5MjQxNzk4Nn0.voqB0KXG3ApxLv0K9DK3alDBGbbVeOOEdxqb9sP_Xr4"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 34,
+  "email": "troy21@example.org",
+  "password": "***",
+  "name": "Jesus Lee",
+  "role": "customer",
+  "avatar": "http://davis.org/",
+  "creationAt": "2026-10-19T03:53:06.000Z",
+  "updatedAt": "2026-10-19T03:53:06.000Z"
+}
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+{
+  "id": 34,
+  "email": "troy21@example.org",
+  "password": "***",
+  "name": "Jesus Lee",
+  "role": "customer",
+  "avatar": "http://davis.org/",
+  "creationAt": "2026-10-19T03:53:06.000Z",
+  "updatedAt": "2026-10-19T03:53:06.000Z"
+} 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/34
+Body:
+<empty> 
+
+2026-10-19 03:53:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/34 -> 200
+Body:
+true

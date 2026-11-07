@@ -1,0 +1,79 @@
+2026-10-11 04:50:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_521fa84d787644eb8f4e2204cde41bfe",
+  "image": "http://www.parker.com/"
+} 
+
+2026-10-11 04:50:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Home & Kitchen_521fa84d787644eb8f4e2204cde41bfe",
+  "slug": "home-kitchen-521fa84d787644eb8f4e2204cde41bfe",
+  "image": "http://www.parker.com/",
+  "creationAt": "2026-10-11T04:50:40.000Z",
+  "updatedAt": "2026-10-11T04:50:40.000Z"
+}
+2026-10-11 04:50:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cloned exuding moderator-88ea142cc69d434c974796a6cea4d9bb",
+  "price": 824,
+  "description": "Diverse bi-directional adapter",
+  "categoryId": 37,
+  "images": [
+    "https://garcia.com/"
+  ]
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 123,
+  "title": "Cloned exuding moderator-88ea142cc69d434c974796a6cea4d9bb",
+  "slug": "cloned-exuding-moderator-88ea142cc69d434c974796a6cea4d9bb",
+  "price": 824,
+  "description": "Diverse bi-directional adapter",
+  "category": {
+    "id": 37,
+    "name": "Home & Kitchen_521fa84d787644eb8f4e2204cde41bfe",
+    "slug": "home-kitchen-521fa84d787644eb8f4e2204cde41bfe",
+    "image": "http://www.parker.com/",
+    "creationAt": "2026-10-11T04:50:40.000Z",
+    "updatedAt": "2026-10-11T04:50:40.000Z"
+  },
+  "images": [
+    "https://garcia.com/"
+  ],
+  "creationAt": "2026-10-11T04:50:41.000Z",
+  "updatedAt": "2026-10-11T04:50:41.000Z"
+}
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Home & Kitchen_521fa84d787644eb8f4e2204cde41bfe",
+  "slug": "home-kitchen-521fa84d787644eb8f4e2204cde41bfe",
+  "image": "http://www.parker.com/",
+  "creationAt": "2026-10-11T04:50:40.000Z",
+  "updatedAt": "2026-10-11T04:50:40.000Z"
+} 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-11 04:50:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 400
+Body:
+{
+  "path": "/api/v1/categories/37",
+  "timestamp": "2026-10-11T04:50:41.136Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

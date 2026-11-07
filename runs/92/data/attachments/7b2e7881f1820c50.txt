@@ -1,0 +1,408 @@
+2026-10-13 06:05:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+  "image": "http://www.jones-bray.com/"
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 66,
+  "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+  "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+  "image": "http://www.jones-bray.com/",
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+}
+2026-10-13 06:05:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced motivating leverage-de30a607f0fe4911a5acce5fd9b92ac5",
+  "price": 629,
+  "description": "Upgradable stable utilization",
+  "categoryId": 66,
+  "images": [
+    "http://carpenter.com/"
+  ]
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 185,
+  "title": "Advanced motivating leverage-de30a607f0fe4911a5acce5fd9b92ac5",
+  "slug": "advanced-motivating-leverage-de30a607f0fe4911a5acce5fd9b92ac5",
+  "price": 629,
+  "description": "Upgradable stable utilization",
+  "category": {
+    "id": 66,
+    "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+    "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+    "image": "http://www.jones-bray.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "http://carpenter.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Organized fault-tolerant analyzer-3e81df6833884d659a1207e9f0ffa68b",
+  "price": 894,
+  "description": "Mandatory tangible infrastructure",
+  "categoryId": 66,
+  "images": [
+    "https://www.farley-sanchez.com/"
+  ]
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 186,
+  "title": "Organized fault-tolerant analyzer-3e81df6833884d659a1207e9f0ffa68b",
+  "slug": "organized-fault-tolerant-analyzer-3e81df6833884d659a1207e9f0ffa68b",
+  "price": 894,
+  "description": "Mandatory tangible infrastructure",
+  "category": {
+    "id": 66,
+    "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+    "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+    "image": "http://www.jones-bray.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "https://www.farley-sanchez.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized upward-trending website-855820caa71b4a44b63ba1aa4efb27b6",
+  "price": 789,
+  "description": "Quality-focused non-volatile synergy",
+  "categoryId": 66,
+  "images": [
+    "https://www.norton.com/"
+  ]
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 187,
+  "title": "Decentralized upward-trending website-855820caa71b4a44b63ba1aa4efb27b6",
+  "slug": "decentralized-upward-trending-website-855820caa71b4a44b63ba1aa4efb27b6",
+  "price": 789,
+  "description": "Quality-focused non-volatile synergy",
+  "category": {
+    "id": 66,
+    "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+    "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+    "image": "http://www.jones-bray.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "https://www.norton.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_5eaa0c6748d548fab9bc10434fc85a95",
+  "image": "https://welch.com/"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 69,
+  "name": "Clothing_5eaa0c6748d548fab9bc10434fc85a95",
+  "slug": "clothing-5eaa0c6748d548fab9bc10434fc85a95",
+  "image": "https://welch.com/",
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-channeled local moratorium-7b809945db7a4f22844872d6c80c9b3d",
+  "price": 136,
+  "description": "Diverse secondary ability",
+  "categoryId": 69,
+  "images": [
+    "http://www.hamilton-bauer.com/"
+  ]
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 190,
+  "title": "Multi-channeled local moratorium-7b809945db7a4f22844872d6c80c9b3d",
+  "slug": "multi-channeled-local-moratorium-7b809945db7a4f22844872d6c80c9b3d",
+  "price": 136,
+  "description": "Diverse secondary ability",
+  "category": {
+    "id": 69,
+    "name": "Clothing_5eaa0c6748d548fab9bc10434fc85a95",
+    "slug": "clothing-5eaa0c6748d548fab9bc10434fc85a95",
+    "image": "https://welch.com/",
+    "creationAt": "2026-10-13T06:05:18.000Z",
+    "updatedAt": "2026-10-13T06:05:18.000Z"
+  },
+  "images": [
+    "http://www.hamilton-bauer.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/advanced-motivating-leverage-de30a607f0fe4911a5acce5fd9b92ac5/related
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/advanced-motivating-leverage-de30a607f0fe4911a5acce5fd9b92ac5/related -> 200
+Body:
+[
+  {
+    "id": 186,
+    "title": "Organized fault-tolerant analyzer-3e81df6833884d659a1207e9f0ffa68b",
+    "slug": "organized-fault-tolerant-analyzer-3e81df6833884d659a1207e9f0ffa68b",
+    "price": 894,
+    "description": "Mandatory tangible infrastructure",
+    "category": {
+      "id": 66,
+      "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+      "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+      "image": "http://www.jones-bray.com/",
+      "creationAt": "2026-10-13T06:05:17.000Z",
+      "updatedAt": "2026-10-13T06:05:17.000Z"
+    },
+    "images": [
+      "https://www.farley-sanchez.com/"
+    ],
+    "creationAt": "2026-10-13T06:05:18.000Z",
+    "updatedAt": "2026-10-13T06:05:18.000Z"
+  },
+  {
+    "id": 187,
+    "title": "Decentralized upward-trending website-855820caa71b4a44b63ba1aa4efb27b6",
+    "slug": "decentralized-upward-trending-website-855820caa71b4a44b63ba1aa4efb27b6",
+    "price": 789,
+    "description": "Quality-focused non-volatile synergy",
+    "category": {
+      "id": 66,
+      "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+      "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+      "image": "http://www.jones-bray.com/",
+      "creationAt": "2026-10-13T06:05:17.000Z",
+      "updatedAt": "2026-10-13T06:05:17.000Z"
+    },
+    "images": [
+      "https://www.norton.com/"
+    ],
+    "creationAt": "2026-10-13T06:05:18.000Z",
+    "updatedAt": "2026-10-13T06:05:18.000Z"
+  }
+]
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/190
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/190 -> 200
+Body:
+{
+  "id": 190,
+  "title": "Multi-channeled local moratorium-7b809945db7a4f22844872d6c80c9b3d",
+  "slug": "multi-channeled-local-moratorium-7b809945db7a4f22844872d6c80c9b3d",
+  "price": 136,
+  "description": "Diverse secondary ability",
+  "category": {
+    "id": 69,
+    "name": "Clothing_5eaa0c6748d548fab9bc10434fc85a95",
+    "slug": "clothing-5eaa0c6748d548fab9bc10434fc85a95",
+    "image": "https://welch.com/",
+    "creationAt": "2026-10-13T06:05:18.000Z",
+    "updatedAt": "2026-10-13T06:05:18.000Z"
+  },
+  "images": [
+    "http://www.hamilton-bauer.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/190
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/190 -> 200
+Body:
+true 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/187
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/187 -> 200
+Body:
+{
+  "id": 187,
+  "title": "Decentralized upward-trending website-855820caa71b4a44b63ba1aa4efb27b6",
+  "slug": "decentralized-upward-trending-website-855820caa71b4a44b63ba1aa4efb27b6",
+  "price": 789,
+  "description": "Quality-focused non-volatile synergy",
+  "category": {
+    "id": 66,
+    "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+    "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+    "image": "http://www.jones-bray.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "https://www.norton.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/187
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/187 -> 200
+Body:
+true 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/186
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/186 -> 200
+Body:
+{
+  "id": 186,
+  "title": "Organized fault-tolerant analyzer-3e81df6833884d659a1207e9f0ffa68b",
+  "slug": "organized-fault-tolerant-analyzer-3e81df6833884d659a1207e9f0ffa68b",
+  "price": 894,
+  "description": "Mandatory tangible infrastructure",
+  "category": {
+    "id": 66,
+    "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+    "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+    "image": "http://www.jones-bray.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "https://www.farley-sanchez.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/186
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/186 -> 200
+Body:
+true 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/185
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/185 -> 200
+Body:
+{
+  "id": 185,
+  "title": "Advanced motivating leverage-de30a607f0fe4911a5acce5fd9b92ac5",
+  "slug": "advanced-motivating-leverage-de30a607f0fe4911a5acce5fd9b92ac5",
+  "price": 629,
+  "description": "Upgradable stable utilization",
+  "category": {
+    "id": 66,
+    "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+    "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+    "image": "http://www.jones-bray.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "http://carpenter.com/"
+  ],
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+} 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/185
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/185 -> 200
+Body:
+true 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+{
+  "id": 69,
+  "name": "Clothing_5eaa0c6748d548fab9bc10434fc85a95",
+  "slug": "clothing-5eaa0c6748d548fab9bc10434fc85a95",
+  "image": "https://welch.com/",
+  "creationAt": "2026-10-13T06:05:18.000Z",
+  "updatedAt": "2026-10-13T06:05:18.000Z"
+} 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/69
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/69 -> 200
+Body:
+true 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+{
+  "id": 66,
+  "name": "Sports & Fitness_766d0a60acb14dfdb25c0b045177fd2c",
+  "slug": "sports-fitness-766d0a60acb14dfdb25c0b045177fd2c",
+  "image": "http://www.jones-bray.com/",
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+} 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/66
+Body:
+<empty> 
+
+2026-10-13 06:05:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/66 -> 200
+Body:
+true

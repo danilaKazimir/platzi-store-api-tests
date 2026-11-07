@@ -1,0 +1,125 @@
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_0e7f914b72b047c3a25cb7502e77ca17",
+  "image": "https://rich.com/"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 72,
+  "name": "Toys_0e7f914b72b047c3a25cb7502e77ca17",
+  "slug": "toys-0e7f914b72b047c3a25cb7502e77ca17",
+  "image": "https://rich.com/",
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Public-key homogeneous analyzer-d268aa0b2d9e4b7a8584200628083769",
+  "price": 399,
+  "description": "Quality-focused bi-directional solution",
+  "categoryId": 72,
+  "images": [
+    "http://www.sims.com/"
+  ]
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 139,
+  "title": "Public-key homogeneous analyzer-d268aa0b2d9e4b7a8584200628083769",
+  "slug": "public-key-homogeneous-analyzer-d268aa0b2d9e4b7a8584200628083769",
+  "price": 399,
+  "description": "Quality-focused bi-directional solution",
+  "category": {
+    "id": 72,
+    "name": "Toys_0e7f914b72b047c3a25cb7502e77ca17",
+    "slug": "toys-0e7f914b72b047c3a25cb7502e77ca17",
+    "image": "https://rich.com/",
+    "creationAt": "2026-10-23T03:57:48.000Z",
+    "updatedAt": "2026-10-23T03:57:48.000Z"
+  },
+  "images": [
+    "http://www.sims.com/"
+  ],
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+}
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/139
+Body:
+{
+  "title": "Open-source tangible migration-bf4bb51f974544868ae91a09972589dd",
+  "price": 161,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/139 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/139
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/139 -> 200
+Body:
+{
+  "id": 139,
+  "title": "Public-key homogeneous analyzer-d268aa0b2d9e4b7a8584200628083769",
+  "slug": "public-key-homogeneous-analyzer-d268aa0b2d9e4b7a8584200628083769",
+  "price": 399,
+  "description": "Quality-focused bi-directional solution",
+  "category": {
+    "id": 72,
+    "name": "Toys_0e7f914b72b047c3a25cb7502e77ca17",
+    "slug": "toys-0e7f914b72b047c3a25cb7502e77ca17",
+    "image": "https://rich.com/",
+    "creationAt": "2026-10-23T03:57:48.000Z",
+    "updatedAt": "2026-10-23T03:57:48.000Z"
+  },
+  "images": [
+    "http://www.sims.com/"
+  ],
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/139
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/139 -> 200
+Body:
+true 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/72
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/72 -> 200
+Body:
+{
+  "id": 72,
+  "name": "Toys_0e7f914b72b047c3a25cb7502e77ca17",
+  "slug": "toys-0e7f914b72b047c3a25cb7502e77ca17",
+  "image": "https://rich.com/",
+  "creationAt": "2026-10-23T03:57:48.000Z",
+  "updatedAt": "2026-10-23T03:57:48.000Z"
+} 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/72
+Body:
+<empty> 
+
+2026-10-23 03:57:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/72 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_785537edd1a04f9fb4b74cae072ce1d0",
+  "image": "https://scott.com/"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 46,
+  "name": "Automotive Accessories_785537edd1a04f9fb4b74cae072ce1d0",
+  "slug": "automotive-accessories-785537edd1a04f9fb4b74cae072ce1d0",
+  "image": "https://scott.com/",
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Vision-oriented systematic customer loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "price": 646,
+  "description": "De-engineered hybrid Internet solution",
+  "categoryId": 46,
+  "images": [
+    "https://www.brown.com/"
+  ]
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 137,
+  "title": "Vision-oriented systematic customer loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "slug": "vision-oriented-systematic-customer-loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "price": 646,
+  "description": "De-engineered hybrid Internet solution",
+  "category": {
+    "id": 46,
+    "name": "Automotive Accessories_785537edd1a04f9fb4b74cae072ce1d0",
+    "slug": "automotive-accessories-785537edd1a04f9fb4b74cae072ce1d0",
+    "image": "https://scott.com/",
+    "creationAt": "2026-10-12T05:05:40.000Z",
+    "updatedAt": "2026-10-12T05:05:40.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+}
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/vision-oriented-systematic-customer-loyalty-7a2bac30bd654c24858d896dabd951c2
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/vision-oriented-systematic-customer-loyalty-7a2bac30bd654c24858d896dabd951c2 -> 200
+Body:
+{
+  "id": 137,
+  "title": "Vision-oriented systematic customer loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "slug": "vision-oriented-systematic-customer-loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "price": 646,
+  "description": "De-engineered hybrid Internet solution",
+  "category": {
+    "id": 46,
+    "name": "Automotive Accessories_785537edd1a04f9fb4b74cae072ce1d0",
+    "slug": "automotive-accessories-785537edd1a04f9fb4b74cae072ce1d0",
+    "image": "https://scott.com/",
+    "creationAt": "2026-10-12T05:05:40.000Z",
+    "updatedAt": "2026-10-12T05:05:40.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+}
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/137
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/137 -> 200
+Body:
+{
+  "id": 137,
+  "title": "Vision-oriented systematic customer loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "slug": "vision-oriented-systematic-customer-loyalty-7a2bac30bd654c24858d896dabd951c2",
+  "price": 646,
+  "description": "De-engineered hybrid Internet solution",
+  "category": {
+    "id": 46,
+    "name": "Automotive Accessories_785537edd1a04f9fb4b74cae072ce1d0",
+    "slug": "automotive-accessories-785537edd1a04f9fb4b74cae072ce1d0",
+    "image": "https://scott.com/",
+    "creationAt": "2026-10-12T05:05:40.000Z",
+    "updatedAt": "2026-10-12T05:05:40.000Z"
+  },
+  "images": [
+    "https://www.brown.com/"
+  ],
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/137
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/137 -> 200
+Body:
+true 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+{
+  "id": 46,
+  "name": "Automotive Accessories_785537edd1a04f9fb4b74cae072ce1d0",
+  "slug": "automotive-accessories-785537edd1a04f9fb4b74cae072ce1d0",
+  "image": "https://scott.com/",
+  "creationAt": "2026-10-12T05:05:40.000Z",
+  "updatedAt": "2026-10-12T05:05:40.000Z"
+} 
+
+2026-10-12 05:05:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+true

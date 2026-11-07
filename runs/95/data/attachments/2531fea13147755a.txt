@@ -1,0 +1,191 @@
+2026-10-16 03:46:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_39eb60781b794498a7e7446b30835230",
+  "image": "http://johnson.com/"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Automotive Accessories_39eb60781b794498a7e7446b30835230",
+  "slug": "automotive-accessories-39eb60781b794498a7e7446b30835230",
+  "image": "http://johnson.com/",
+  "creationAt": "2026-10-16T03:46:34.000Z",
+  "updatedAt": "2026-10-16T03:46:34.000Z"
+}
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-15T15:15:18.000Z",
+    "updatedAt": "2026-10-15T18:01:41.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-15T15:15:18.000Z",
+    "updatedAt": "2026-10-15T15:15:18.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-15T15:15:18.000Z",
+    "updatedAt": "2026-10-15T15:15:18.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-15T15:15:18.000Z",
+    "updatedAt": "2026-10-15T15:15:18.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-15T15:15:18.000Z",
+    "updatedAt": "2026-10-15T15:15:18.000Z"
+  },
+  {
+    "id": 8,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-10-15T17:01:06.000Z",
+    "updatedAt": "2026-10-15T17:01:06.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-15T17:03:01.000Z",
+    "updatedAt": "2026-10-15T17:03:01.000Z"
+  },
+  {
+    "id": 10,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-15T18:01:41.000Z",
+    "updatedAt": "2026-10-15T18:01:41.000Z"
+  },
+  {
+    "id": 11,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-15T18:02:27.000Z",
+    "updatedAt": "2026-10-15T18:02:27.000Z"
+  },
+  {
+    "id": 12,
+    "name": "غو",
+    "slug": "",
+    "image": "https://api.escuelajs.co/api/v1/files/e101f.jpg",
+    "creationAt": "2026-10-15T18:16:20.000Z",
+    "updatedAt": "2026-10-15T18:16:20.000Z"
+  },
+  {
+    "id": 13,
+    "name": "io",
+    "slug": "io",
+    "image": "https://api.escuelajs.co/api/v1/files/d8af.jpg",
+    "creationAt": "2026-10-15T18:19:34.000Z",
+    "updatedAt": "2026-10-15T18:19:34.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-15T19:00:53.000Z",
+    "updatedAt": "2026-10-15T19:00:53.000Z"
+  },
+  {
+    "id": 15,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-15T21:02:43.000Z",
+    "updatedAt": "2026-10-15T21:02:43.000Z"
+  },
+  {
+    "id": 16,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-15T21:02:43.000Z",
+    "updatedAt": "2026-10-15T21:02:43.000Z"
+  },
+  {
+    "id": 27,
+    "name": "Dawit Mellese",
+    "slug": "dawit-mellese",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-16T03:37:51.000Z",
+    "updatedAt": "2026-10-16T03:37:51.000Z"
+  },
+  {
+    "id": 28,
+    "name": "make-up",
+    "slug": "make-up",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-16T03:40:51.000Z",
+    "updatedAt": "2026-10-16T03:41:46.000Z"
+  },
+  {
+    "id": 29,
+    "name": "testCategory39079fba078a464cb15ec8dc16c9cbf5",
+    "slug": "testcategory39079fba078a464cb15ec8dc16c9cbf5",
+    "image": "http://morales.org/",
+    "creationAt": "2026-10-16T03:46:34.000Z",
+    "updatedAt": "2026-10-16T03:46:34.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Automotive Accessories_39eb60781b794498a7e7446b30835230",
+    "slug": "automotive-accessories-39eb60781b794498a7e7446b30835230",
+    "image": "http://johnson.com/",
+    "creationAt": "2026-10-16T03:46:34.000Z",
+    "updatedAt": "2026-10-16T03:46:34.000Z"
+  }
+]
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Automotive Accessories_39eb60781b794498a7e7446b30835230",
+  "slug": "automotive-accessories-39eb60781b794498a7e7446b30835230",
+  "image": "http://johnson.com/",
+  "creationAt": "2026-10-16T03:46:34.000Z",
+  "updatedAt": "2026-10-16T03:46:34.000Z"
+} 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-16 03:46:35 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

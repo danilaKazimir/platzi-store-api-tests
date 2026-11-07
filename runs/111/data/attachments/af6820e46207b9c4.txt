@@ -1,0 +1,107 @@
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_18b866d45a99468e9792ce9285f7855c",
+  "image": "http://clayton.biz/"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Food & Beverages_18b866d45a99468e9792ce9285f7855c",
+  "slug": "food-beverages-18b866d45a99468e9792ce9285f7855c",
+  "image": "http://clayton.biz/",
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal upward-trending matrix-c58ac65b5a0a4b2b8089c43e7e0b9a0d",
+  "price": 468,
+  "description": "Customizable full-range definition",
+  "categoryId": 29,
+  "images": [
+    "http://murray.biz/"
+  ]
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 89,
+  "title": "Universal upward-trending matrix-c58ac65b5a0a4b2b8089c43e7e0b9a0d",
+  "slug": "universal-upward-trending-matrix-c58ac65b5a0a4b2b8089c43e7e0b9a0d",
+  "price": 468,
+  "description": "Customizable full-range definition",
+  "category": {
+    "id": 29,
+    "name": "Food & Beverages_18b866d45a99468e9792ce9285f7855c",
+    "slug": "food-beverages-18b866d45a99468e9792ce9285f7855c",
+    "image": "http://clayton.biz/",
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  },
+  "images": [
+    "http://murray.biz/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+}
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/89 -> 200
+Body:
+true 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/89 -> 400
+Body:
+{
+  "path": "/api/v1/products/89",
+  "timestamp": "2026-11-01T05:05:45.475Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 89\n    }\n}"
+}
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/89
+Body:
+<empty> 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/89 -> 400
+Body:
+{
+  "path": "/api/v1/products/89",
+  "timestamp": "2026-11-01T05:05:45.539Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 89\n    }\n}"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Food & Beverages_18b866d45a99468e9792ce9285f7855c",
+  "slug": "food-beverages-18b866d45a99468e9792ce9285f7855c",
+  "image": "http://clayton.biz/",
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true

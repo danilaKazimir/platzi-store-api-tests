@@ -1,0 +1,408 @@
+2026-10-26 03:55:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+  "image": "https://www.nelson.org/"
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 114,
+  "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+  "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+  "image": "https://www.nelson.org/",
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+}
+2026-10-26 03:55:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Streamlined fresh-thinking capacity-7d0f19866843494892f18690a35575b3",
+  "price": 55,
+  "description": "Progressive intermediate challenge",
+  "categoryId": 114,
+  "images": [
+    "http://mcfarland.com/"
+  ]
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 387,
+  "title": "Streamlined fresh-thinking capacity-7d0f19866843494892f18690a35575b3",
+  "slug": "streamlined-fresh-thinking-capacity-7d0f19866843494892f18690a35575b3",
+  "price": 55,
+  "description": "Progressive intermediate challenge",
+  "category": {
+    "id": 114,
+    "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+    "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+    "image": "https://www.nelson.org/",
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  "images": [
+    "http://mcfarland.com/"
+  ],
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enterprise-wide radical throughput-a5f8347b016e41078424744e63abd7f9",
+  "price": 918,
+  "description": "Customer-focused heuristic productivity",
+  "categoryId": 114,
+  "images": [
+    "http://lloyd.net/"
+  ]
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 388,
+  "title": "Enterprise-wide radical throughput-a5f8347b016e41078424744e63abd7f9",
+  "slug": "enterprise-wide-radical-throughput-a5f8347b016e41078424744e63abd7f9",
+  "price": 918,
+  "description": "Customer-focused heuristic productivity",
+  "category": {
+    "id": 114,
+    "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+    "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+    "image": "https://www.nelson.org/",
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  "images": [
+    "http://lloyd.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Implemented intermediate policy-8dda22b16d94400780c38fa361540c7f",
+  "price": 544,
+  "description": "User-centric multimedia array",
+  "categoryId": 114,
+  "images": [
+    "http://reyes.org/"
+  ]
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 389,
+  "title": "Implemented intermediate policy-8dda22b16d94400780c38fa361540c7f",
+  "slug": "implemented-intermediate-policy-8dda22b16d94400780c38fa361540c7f",
+  "price": 544,
+  "description": "User-centric multimedia array",
+  "category": {
+    "id": 114,
+    "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+    "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+    "image": "https://www.nelson.org/",
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  "images": [
+    "http://reyes.org/"
+  ],
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_26db59b6e916493b8a07d8e38987762f",
+  "image": "http://johnson-beck.com/"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 115,
+  "name": "Books_26db59b6e916493b8a07d8e38987762f",
+  "slug": "books-26db59b6e916493b8a07d8e38987762f",
+  "image": "http://johnson-beck.com/",
+  "creationAt": "2026-10-26T03:55:07.000Z",
+  "updatedAt": "2026-10-26T03:55:07.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optimized coherent portal-e0407f863cbc4eb48892a3f5e6e7801c",
+  "price": 235,
+  "description": "User-friendly content-based open architecture",
+  "categoryId": 115,
+  "images": [
+    "https://www.bullock.net/"
+  ]
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 390,
+  "title": "Optimized coherent portal-e0407f863cbc4eb48892a3f5e6e7801c",
+  "slug": "optimized-coherent-portal-e0407f863cbc4eb48892a3f5e6e7801c",
+  "price": 235,
+  "description": "User-friendly content-based open architecture",
+  "category": {
+    "id": 115,
+    "name": "Books_26db59b6e916493b8a07d8e38987762f",
+    "slug": "books-26db59b6e916493b8a07d8e38987762f",
+    "image": "http://johnson-beck.com/",
+    "creationAt": "2026-10-26T03:55:07.000Z",
+    "updatedAt": "2026-10-26T03:55:07.000Z"
+  },
+  "images": [
+    "https://www.bullock.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:07.000Z",
+  "updatedAt": "2026-10-26T03:55:07.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/streamlined-fresh-thinking-capacity-7d0f19866843494892f18690a35575b3/related
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/streamlined-fresh-thinking-capacity-7d0f19866843494892f18690a35575b3/related -> 200
+Body:
+[
+  {
+    "id": 388,
+    "title": "Enterprise-wide radical throughput-a5f8347b016e41078424744e63abd7f9",
+    "slug": "enterprise-wide-radical-throughput-a5f8347b016e41078424744e63abd7f9",
+    "price": 918,
+    "description": "Customer-focused heuristic productivity",
+    "category": {
+      "id": 114,
+      "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+      "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+      "image": "https://www.nelson.org/",
+      "creationAt": "2026-10-26T03:55:06.000Z",
+      "updatedAt": "2026-10-26T03:55:06.000Z"
+    },
+    "images": [
+      "http://lloyd.net/"
+    ],
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  {
+    "id": 389,
+    "title": "Implemented intermediate policy-8dda22b16d94400780c38fa361540c7f",
+    "slug": "implemented-intermediate-policy-8dda22b16d94400780c38fa361540c7f",
+    "price": 544,
+    "description": "User-centric multimedia array",
+    "category": {
+      "id": 114,
+      "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+      "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+      "image": "https://www.nelson.org/",
+      "creationAt": "2026-10-26T03:55:06.000Z",
+      "updatedAt": "2026-10-26T03:55:06.000Z"
+    },
+    "images": [
+      "http://reyes.org/"
+    ],
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  }
+]
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/390
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/390 -> 200
+Body:
+{
+  "id": 390,
+  "title": "Optimized coherent portal-e0407f863cbc4eb48892a3f5e6e7801c",
+  "slug": "optimized-coherent-portal-e0407f863cbc4eb48892a3f5e6e7801c",
+  "price": 235,
+  "description": "User-friendly content-based open architecture",
+  "category": {
+    "id": 115,
+    "name": "Books_26db59b6e916493b8a07d8e38987762f",
+    "slug": "books-26db59b6e916493b8a07d8e38987762f",
+    "image": "http://johnson-beck.com/",
+    "creationAt": "2026-10-26T03:55:07.000Z",
+    "updatedAt": "2026-10-26T03:55:07.000Z"
+  },
+  "images": [
+    "https://www.bullock.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:07.000Z",
+  "updatedAt": "2026-10-26T03:55:07.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/390
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/390 -> 200
+Body:
+true 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/389
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/389 -> 200
+Body:
+{
+  "id": 389,
+  "title": "Implemented intermediate policy-8dda22b16d94400780c38fa361540c7f",
+  "slug": "implemented-intermediate-policy-8dda22b16d94400780c38fa361540c7f",
+  "price": 544,
+  "description": "User-centric multimedia array",
+  "category": {
+    "id": 114,
+    "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+    "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+    "image": "https://www.nelson.org/",
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  "images": [
+    "http://reyes.org/"
+  ],
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/389
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/389 -> 200
+Body:
+true 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/388
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/388 -> 200
+Body:
+{
+  "id": 388,
+  "title": "Enterprise-wide radical throughput-a5f8347b016e41078424744e63abd7f9",
+  "slug": "enterprise-wide-radical-throughput-a5f8347b016e41078424744e63abd7f9",
+  "price": 918,
+  "description": "Customer-focused heuristic productivity",
+  "category": {
+    "id": 114,
+    "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+    "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+    "image": "https://www.nelson.org/",
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  "images": [
+    "http://lloyd.net/"
+  ],
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/388
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/388 -> 200
+Body:
+true 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/387
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/387 -> 200
+Body:
+{
+  "id": 387,
+  "title": "Streamlined fresh-thinking capacity-7d0f19866843494892f18690a35575b3",
+  "slug": "streamlined-fresh-thinking-capacity-7d0f19866843494892f18690a35575b3",
+  "price": 55,
+  "description": "Progressive intermediate challenge",
+  "category": {
+    "id": 114,
+    "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+    "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+    "image": "https://www.nelson.org/",
+    "creationAt": "2026-10-26T03:55:06.000Z",
+    "updatedAt": "2026-10-26T03:55:06.000Z"
+  },
+  "images": [
+    "http://mcfarland.com/"
+  ],
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/387
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/387 -> 200
+Body:
+true 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/115
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/115 -> 200
+Body:
+{
+  "id": 115,
+  "name": "Books_26db59b6e916493b8a07d8e38987762f",
+  "slug": "books-26db59b6e916493b8a07d8e38987762f",
+  "image": "http://johnson-beck.com/",
+  "creationAt": "2026-10-26T03:55:07.000Z",
+  "updatedAt": "2026-10-26T03:55:07.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/115
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/115 -> 200
+Body:
+true 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/114
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/114 -> 200
+Body:
+{
+  "id": 114,
+  "name": "Personal Care_f1ef676f12ab40e9a46dd501eecbf704",
+  "slug": "personal-care-f1ef676f12ab40e9a46dd501eecbf704",
+  "image": "https://www.nelson.org/",
+  "creationAt": "2026-10-26T03:55:06.000Z",
+  "updatedAt": "2026-10-26T03:55:06.000Z"
+} 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/114
+Body:
+<empty> 
+
+2026-10-26 03:55:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/114 -> 200
+Body:
+true

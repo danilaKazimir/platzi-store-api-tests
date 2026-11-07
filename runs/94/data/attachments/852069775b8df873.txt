@@ -1,0 +1,648 @@
+2026-10-15 03:51:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/
+Body:
+<empty> 
+
+2026-10-15 03:51:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T14:39:51.000Z",
+    "updatedAt": "2026-10-14T14:39:51.000Z"
+  },
+  {
+    "id": 2,
+    "email": "maria@mail.com",
+    "password": "12345",
+    "name": "Maria",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T14:39:51.000Z",
+    "updatedAt": "2026-10-14T14:39:51.000Z"
+  },
+  {
+    "id": 3,
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-10-14T14:39:51.000Z",
+    "updatedAt": "2026-10-14T14:39:51.000Z"
+  },
+  {
+    "id": 4,
+    "email": "butusov.denis1995@gmail.com",
+    "password": "qwerty123",
+    "name": "Бутусов Денис",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-10-14T14:44:10.000Z",
+    "updatedAt": "2026-10-14T14:44:10.000Z"
+  },
+  {
+    "id": 6,
+    "email": "selvarajnirmalraj@gmail.com",
+    "password": "Nirmal",
+    "name": "nirmal",
+    "role": "customer",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+    "creationAt": "2026-10-14T15:48:39.000Z",
+    "updatedAt": "2026-10-14T15:48:39.000Z"
+  },
+  {
+    "id": 7,
+    "email": "osama@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T15:58:49.000Z",
+    "updatedAt": "2026-10-14T15:58:49.000Z"
+  },
+  {
+    "id": 8,
+    "email": "ophelia68@qa-satc.com",
+    "password": "DAwJ8AjMJP",
+    "name": "Jaime Smitham",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-10-14T16:13:20.000Z",
+    "updatedAt": "2026-10-14T16:13:20.000Z"
+  },
+  {
+    "id": 9,
+    "email": "doaamagdy150@gmail.com",
+    "password": "Doaa153",
+    "name": "Duaa",
+    "role": "customer",
+    "avatar": "https://i.pinimg.com/736x/02/b6/ee/02b6eeea79d23f603489c9f65b3b5822.jpg",
+    "creationAt": "2026-10-14T16:14:02.000Z",
+    "updatedAt": "2026-10-14T16:14:02.000Z"
+  },
+  {
+    "id": 10,
+    "email": "sara@ali.com",
+    "password": "sara1234",
+    "name": "sara",
+    "role": "customer",
+    "avatar": "https://api.escuelajs.co/avatar/none",
+    "creationAt": "2026-10-14T16:39:38.000Z",
+    "updatedAt": "2026-10-14T16:39:38.000Z"
+  },
+  {
+    "id": 11,
+    "email": "amal@gmail.com",
+    "password": "nofal23",
+    "name": "amal",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T16:52:07.000Z",
+    "updatedAt": "2026-10-14T16:52:07.000Z"
+  },
+  {
+    "id": 12,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T17:01:51.000Z",
+    "updatedAt": "2026-10-14T17:01:51.000Z"
+  },
+  {
+    "id": 13,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T17:01:52.000Z",
+    "updatedAt": "2026-10-14T17:01:52.000Z"
+  },
+  {
+    "id": 14,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T17:01:54.000Z",
+    "updatedAt": "2026-10-14T17:01:54.000Z"
+  },
+  {
+    "id": 15,
+    "email": "Salah@gmail.com",
+    "password": "123456789",
+    "name": "Salah",
+    "role": "customer",
+    "avatar": "https://avatarfiles.alphacoders.com/368/thumb-150-368375.png",
+    "creationAt": "2026-10-14T17:02:58.000Z",
+    "updatedAt": "2026-10-14T17:02:58.000Z"
+  },
+  {
+    "id": 16,
+    "email": "nadaemad@gmail.com",
+    "password": "00000000",
+    "name": "nada",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T17:03:00.000Z",
+    "updatedAt": "2026-10-14T17:03:00.000Z"
+  },
+  {
+    "id": 17,
+    "email": "ellnoby13@gmail.com",
+    "password": "12345678",
+    "name": "ahmed",
+    "role": "customer",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "creationAt": "2026-10-14T17:03:09.000Z",
+    "updatedAt": "2026-10-14T17:03:09.000Z"
+  },
+  {
+    "id": 18,
+    "email": "kemo@gmail.com",
+    "password": "12345678",
+    "name": "kareem ",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-14T17:43:03.000Z",
+    "updatedAt": "2026-10-14T17:43:03.000Z"
+  },
+  {
+    "id": 19,
+    "email": "osama@gmail.com",
+    "password": "123456",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T17:45:19.000Z",
+    "updatedAt": "2026-10-14T17:45:19.000Z"
+  },
+  {
+    "id": 20,
+    "email": "osama@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T17:46:56.000Z",
+    "updatedAt": "2026-10-14T17:46:56.000Z"
+  },
+  {
+    "id": 21,
+    "email": "osama@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T17:47:12.000Z",
+    "updatedAt": "2026-10-14T17:47:12.000Z"
+  },
+  {
+    "id": 22,
+    "email": "tyui@gmail.com",
+    "password": "12345678",
+    "name": "mai",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T18:09:26.000Z",
+    "updatedAt": "2026-10-14T18:09:26.000Z"
+  },
+  {
+    "id": 23,
+    "email": "tyui@gmail.com",
+    "password": "12345678",
+    "name": "mai",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T18:09:34.000Z",
+    "updatedAt": "2026-10-14T18:09:34.000Z"
+  },
+  {
+    "id": 24,
+    "email": "tyui@gmail.com",
+    "password": "12345678",
+    "name": "mai",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T18:09:38.000Z",
+    "updatedAt": "2026-10-14T18:09:38.000Z"
+  },
+  {
+    "id": 25,
+    "email": "tyui@gmail.com",
+    "password": "12345678",
+    "name": "mai",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T18:10:33.000Z",
+    "updatedAt": "2026-10-14T18:10:33.000Z"
+  },
+  {
+    "id": 26,
+    "email": "tyui@gmail.com",
+    "password": "123456",
+    "name": "mai",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T18:10:41.000Z",
+    "updatedAt": "2026-10-14T18:10:41.000Z"
+  },
+  {
+    "id": 27,
+    "email": "sana.zetawi@gmail.com",
+    "password": "Sana332121",
+    "name": "sana zetawi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/640/480",
+    "creationAt": "2026-10-14T18:12:16.000Z",
+    "updatedAt": "2026-10-14T18:12:16.000Z"
+  },
+  {
+    "id": 28,
+    "email": "maggg@gmail.com",
+    "password": "123456",
+    "name": "mai",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T18:12:58.000Z",
+    "updatedAt": "2026-10-14T18:12:58.000Z"
+  },
+  {
+    "id": 30,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-10-14T18:15:39.000Z",
+    "updatedAt": "2026-10-14T18:15:39.000Z"
+  },
+  {
+    "id": 32,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-10-14T18:15:40.000Z",
+    "updatedAt": "2026-10-14T18:15:40.000Z"
+  },
+  {
+    "id": 34,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-10-14T18:15:41.000Z",
+    "updatedAt": "2026-10-14T18:15:41.000Z"
+  },
+  {
+    "id": 35,
+    "email": "jjjj@gmail.com",
+    "password": "jjjj22",
+    "name": "jjjj",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T18:40:59.000Z",
+    "updatedAt": "2026-10-14T18:40:59.000Z"
+  },
+  {
+    "id": 36,
+    "email": "lumora.hale.test.20261014@example.com",
+    "password": "123456",
+    "name": "hale",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/300",
+    "creationAt": "2026-10-14T18:47:40.000Z",
+    "updatedAt": "2026-10-14T18:47:40.000Z"
+  },
+  {
+    "id": 37,
+    "email": "ramy@gmail.com",
+    "password": "ramy22",
+    "name": "ramy",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T19:05:38.000Z",
+    "updatedAt": "2026-10-14T19:05:38.000Z"
+  },
+  {
+    "id": 38,
+    "email": "osa@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T19:10:58.000Z",
+    "updatedAt": "2026-10-14T19:10:58.000Z"
+  },
+  {
+    "id": 39,
+    "email": "osa@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T19:11:24.000Z",
+    "updatedAt": "2026-10-14T19:11:24.000Z"
+  },
+  {
+    "id": 40,
+    "email": "memo@n.com",
+    "password": "123456",
+    "name": "Jenny Rosen",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-14T19:11:27.000Z",
+    "updatedAt": "2026-10-14T19:11:27.000Z"
+  },
+  {
+    "id": 41,
+    "email": "osa@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T19:11:55.000Z",
+    "updatedAt": "2026-10-14T19:11:55.000Z"
+  },
+  {
+    "id": 42,
+    "email": "jmalfatmh674@gmail.com",
+    "password": "123123",
+    "name": "fatma",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T19:12:37.000Z",
+    "updatedAt": "2026-10-14T19:12:37.000Z"
+  },
+  {
+    "id": 43,
+    "email": "osama@gmail.com",
+    "password": "222222",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T19:12:39.000Z",
+    "updatedAt": "2026-10-14T19:12:39.000Z"
+  },
+  {
+    "id": 44,
+    "email": "maidiab@gmail.com",
+    "password": "123456",
+    "name": "mai diab",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-14T19:20:22.000Z",
+    "updatedAt": "2026-10-14T19:20:22.000Z"
+  },
+  {
+    "id": 45,
+    "email": "jmalfatmh674@gmail.com",
+    "password": "1123123",
+    "name": "f",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T19:22:35.000Z",
+    "updatedAt": "2026-10-14T19:22:35.000Z"
+  },
+  {
+    "id": 46,
+    "email": "bob@gmail.com",
+    "password": "123456",
+    "name": "bob",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T19:38:30.000Z",
+    "updatedAt": "2026-10-14T19:38:30.000Z"
+  },
+  {
+    "id": 47,
+    "email": "abmokka3@gmail.com",
+    "password": "4351143511",
+    "name": "Abdallah",
+    "role": "customer",
+    "avatar": "https://lipsum.app/640x480/000/fff",
+    "creationAt": "2026-10-14T19:41:34.000Z",
+    "updatedAt": "2026-10-14T19:41:34.000Z"
+  },
+  {
+    "id": 48,
+    "email": "ali@gmail.com",
+    "password": "123456",
+    "name": "osamah_da",
+    "role": "customer",
+    "avatar": "https://drive.google.com/file/d/1Ghv56rGabQy_JtHR1RYkZKnzignS4JXe/view?usp=drivesdk",
+    "creationAt": "2026-10-14T19:45:15.000Z",
+    "updatedAt": "2026-10-14T19:45:15.000Z"
+  },
+  {
+    "id": 49,
+    "email": "osama@gmail.com",
+    "password": "1234567",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T19:46:53.000Z",
+    "updatedAt": "2026-10-14T19:46:53.000Z"
+  },
+  {
+    "id": 50,
+    "email": "oss@gmail.com",
+    "password": "123456",
+    "name": "osama",
+    "role": "customer",
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "creationAt": "2026-10-14T19:48:15.000Z",
+    "updatedAt": "2026-10-14T19:48:15.000Z"
+  },
+  {
+    "id": 51,
+    "email": "habibaihab73@gmail.com",
+    "password": "Habiba73",
+    "name": "Habiba",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/300",
+    "creationAt": "2026-10-14T19:50:15.000Z",
+    "updatedAt": "2026-10-14T19:50:15.000Z"
+  },
+  {
+    "id": 52,
+    "email": "mmm@gmail.com",
+    "password": "mmm12345",
+    "name": "mmm",
+    "role": "customer",
+    "avatar": "https://media.istockphoto.com/id/492460178/photo/fiery-letter-m.jpg?s=612x612&w=0&k=20&c=2V8QA7AHOBo0WYjB-ZVuZ8BqWqVN_3RttCk0wat-oVk=",
+    "creationAt": "2026-10-14T20:22:16.000Z",
+    "updatedAt": "2026-10-14T20:22:16.000Z"
+  },
+  {
+    "id": 53,
+    "email": "r@gmail.com",
+    "password": "123456",
+    "name": "r@gmail.com",
+    "role": "customer",
+    "avatar": "https://drive.google.com/file/d/1Ghv56rGabQy_JtHR1RYkZKnzignS4JXe/view?usp=drivesdk",
+    "creationAt": "2026-10-14T20:32:10.000Z",
+    "updatedAt": "2026-10-14T20:32:10.000Z"
+  },
+  {
+    "id": 54,
+    "email": "beko@gmail.com",
+    "password": "uhuhax202",
+    "name": "beko",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-10-14T21:01:54.000Z",
+    "updatedAt": "2026-10-14T21:01:54.000Z"
+  },
+  {
+    "id": 55,
+    "email": "Ambrose_MacGyver@yahoo.com",
+    "password": "NfyzgEZcdjlclXH",
+    "name": "Barrett_Bode56",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-10-14T21:02:04.000Z",
+    "updatedAt": "2026-10-14T21:02:04.000Z"
+  },
+  {
+    "id": 56,
+    "email": "m@gmail.com",
+    "password": "m12345",
+    "name": "m",
+    "role": "customer",
+    "avatar": "https://media.istockphoto.com/id/492460178/photo/fiery-letter-m.jpg?s=612x612&w=0&k=20&c=2V8QA7AHOBo0WYjB-ZVuZ8BqWqVN_3RttCk0wat-oVk=",
+    "creationAt": "2026-10-14T21:20:18.000Z",
+    "updatedAt": "2026-10-14T21:20:18.000Z"
+  },
+  {
+    "id": 57,
+    "email": "momen22@gmail.com",
+    "password": "momen22",
+    "name": "momen",
+    "role": "customer",
+    "avatar": "https://api.loren.space/image/face?w=&h=480",
+    "creationAt": "2026-10-14T21:52:18.000Z",
+    "updatedAt": "2026-10-14T21:52:18.000Z"
+  },
+  {
+    "id": 58,
+    "email": "bill@gmail.com",
+    "password": "123456",
+    "name": "bill",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T22:06:40.000Z",
+    "updatedAt": "2026-10-14T22:06:40.000Z"
+  },
+  {
+    "id": 59,
+    "email": "momenn22@gmail.com",
+    "password": "momenn22",
+    "name": "momenn",
+    "role": "customer",
+    "avatar": "https://api.loren.space/image/face?w=&h=480",
+    "creationAt": "2026-10-14T23:16:43.000Z",
+    "updatedAt": "2026-10-14T23:16:43.000Z"
+  },
+  {
+    "id": 60,
+    "email": "joe@gmail.com",
+    "password": "123456",
+    "name": "joe",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-14T23:39:34.000Z",
+    "updatedAt": "2026-10-14T23:39:34.000Z"
+  },
+  {
+    "id": 61,
+    "email": "nadaemad@gmail.com",
+    "password": "123456789",
+    "name": "nada",
+    "role": "customer",
+    "avatar": "https://picsum.photos/150",
+    "creationAt": "2026-10-15T00:39:33.000Z",
+    "updatedAt": "2026-10-15T00:39:33.000Z"
+  },
+  {
+    "id": 62,
+    "email": "nadaemad1@gmail.com",
+    "password": "12345678",
+    "name": "nada",
+    "role": "customer",
+    "avatar": "https://picsum.photos/150",
+    "creationAt": "2026-10-15T00:41:30.000Z",
+    "updatedAt": "2026-10-15T00:41:30.000Z"
+  },
+  {
+    "id": 63,
+    "email": "nada@gmail.com",
+    "password": "123456",
+    "name": "nada",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-15T01:21:49.000Z",
+    "updatedAt": "2026-10-15T01:21:49.000Z"
+  },
+  {
+    "id": 64,
+    "email": "Ahmed@gmail.com",
+    "password": "123456789",
+    "name": "Ahmed",
+    "role": "customer",
+    "avatar": "https://avatarfiles.alphacoders.com/368/thumb-150-368375.png",
+    "creationAt": "2026-10-15T02:01:36.000Z",
+    "updatedAt": "2026-10-15T02:01:36.000Z"
+  },
+  {
+    "id": 65,
+    "email": "joo@gmail.com",
+    "password": "123456789",
+    "name": "youssef",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-15T02:05:26.000Z",
+    "updatedAt": "2026-10-15T02:05:26.000Z"
+  },
+  {
+    "id": 66,
+    "email": "zahraahassan@gmail.com",
+    "password": "123456789",
+    "name": "zahraa",
+    "role": "customer",
+    "avatar": "https://picsum.photos/seed/375562298/200",
+    "creationAt": "2026-10-15T02:06:31.000Z",
+    "updatedAt": "2026-10-15T02:06:31.000Z"
+  },
+  {
+    "id": 70,
+    "email": "johnsonchristopher@example.net",
+    "password": "mSly5fTt",
+    "name": "Brandon Chang",
+    "role": "customer",
+    "avatar": "https://www.spencer.com/",
+    "creationAt": "2026-10-15T03:51:02.000Z",
+    "updatedAt": "2026-10-15T03:51:02.000Z"
+  },
+  {
+    "id": 75,
+    "email": "danielharris@example.com",
+    "password": "1s4Q0Mat",
+    "name": "Diane Stark",
+    "role": "customer",
+    "avatar": "http://www.rosales.com/",
+    "creationAt": "2026-10-15T03:51:04.000Z",
+    "updatedAt": "2026-10-15T03:51:04.000Z"
+  }
+]

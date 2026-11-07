@@ -1,0 +1,49 @@
+2026-10-14 04:08:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_c4e974bc32dd4c3eaf59927246a7b060",
+  "image": "http://davis.org/"
+} 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Automotive Accessories_c4e974bc32dd4c3eaf59927246a7b060",
+  "slug": "automotive-accessories-c4e974bc32dd4c3eaf59927246a7b060",
+  "image": "http://davis.org/",
+  "creationAt": "2026-10-14T04:08:12.000Z",
+  "updatedAt": "2026-10-14T04:08:12.000Z"
+}
+2026-10-14 04:08:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 400
+Body:
+{
+  "path": "/api/v1/categories/31",
+  "timestamp": "2026-10-14T04:08:12.421Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 31\n}"
+}
+2026-10-14 04:08:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-14 04:08:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 400
+Body:
+{
+  "path": "/api/v1/categories/31",
+  "timestamp": "2026-10-14T04:08:12.481Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 31\n}"
+}

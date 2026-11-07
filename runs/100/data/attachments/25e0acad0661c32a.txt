@@ -1,0 +1,71 @@
+2026-10-21 03:53:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_7100254c8e194d78a7d75d5cc9297c17",
+  "image": "https://www.lowe.com/"
+} 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Clothing_7100254c8e194d78a7d75d5cc9297c17",
+  "slug": "clothing-7100254c8e194d78a7d75d5cc9297c17",
+  "image": "https://www.lowe.com/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+}
+2026-10-21 03:53:46 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/25
+Body:
+{
+  "name": "Sports & Fitness_f1e531cfe36949e8b05caeeff5aadbc6",
+  "image": "http://www.garcia.net/"
+} 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Sports & Fitness_f1e531cfe36949e8b05caeeff5aadbc6",
+  "slug": "sports-fitness-f1e531cfe36949e8b05caeeff5aadbc6",
+  "image": "http://www.garcia.net/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+} 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-21 03:53:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Sports & Fitness_f1e531cfe36949e8b05caeeff5aadbc6",
+  "slug": "sports-fitness-f1e531cfe36949e8b05caeeff5aadbc6",
+  "image": "http://www.garcia.net/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+}
+2026-10-21 03:53:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-21 03:53:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Sports & Fitness_f1e531cfe36949e8b05caeeff5aadbc6",
+  "slug": "sports-fitness-f1e531cfe36949e8b05caeeff5aadbc6",
+  "image": "http://www.garcia.net/",
+  "creationAt": "2026-10-21T03:53:46.000Z",
+  "updatedAt": "2026-10-21T03:53:46.000Z"
+} 
+
+2026-10-21 03:53:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-10-21 03:53:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

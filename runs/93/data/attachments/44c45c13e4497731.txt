@@ -1,0 +1,55 @@
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_bdd9aaae29d640568c76e7ccb3e7377d",
+  "image": "https://www.padilla.com/"
+} 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Home & Kitchen_bdd9aaae29d640568c76e7ccb3e7377d",
+  "slug": "home-kitchen-bdd9aaae29d640568c76e7ccb3e7377d",
+  "image": "https://www.padilla.com/",
+  "creationAt": "2026-10-14T04:08:13.000Z",
+  "updatedAt": "2026-10-14T04:08:13.000Z"
+}
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/38
+Body:
+{
+  "name": null,
+  "image": "http://lucas-moore.com/"
+} 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/38 -> 400
+Body:
+{
+  "path": "/api/v1/categories/38",
+  "timestamp": "2026-10-14T04:08:13.627Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Home & Kitchen_bdd9aaae29d640568c76e7ccb3e7377d",
+  "slug": "home-kitchen-bdd9aaae29d640568c76e7ccb3e7377d",
+  "image": "https://www.padilla.com/",
+  "creationAt": "2026-10-14T04:08:13.000Z",
+  "updatedAt": "2026-10-14T04:08:13.000Z"
+} 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-10-14 04:08:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+true

@@ -1,0 +1,79 @@
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_933e2e99c42d4ad89e1199aabba1480b",
+  "image": "https://young.net/"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 102,
+  "name": "Clothing_933e2e99c42d4ad89e1199aabba1480b",
+  "slug": "clothing-933e2e99c42d4ad89e1199aabba1480b",
+  "image": "https://young.net/",
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+}
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable 5thgeneration synergy-a04392c7040a4567b5b9e375972e7439",
+  "price": 816,
+  "description": "Enterprise-wide global initiative",
+  "categoryId": 102,
+  "images": [
+    "https://www.wade-ingram.net/"
+  ]
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 248,
+  "title": "Programmable 5thgeneration synergy-a04392c7040a4567b5b9e375972e7439",
+  "slug": "programmable-5thgeneration-synergy-a04392c7040a4567b5b9e375972e7439",
+  "price": 816,
+  "description": "Enterprise-wide global initiative",
+  "category": {
+    "id": 102,
+    "name": "Clothing_933e2e99c42d4ad89e1199aabba1480b",
+    "slug": "clothing-933e2e99c42d4ad89e1199aabba1480b",
+    "image": "https://young.net/",
+    "creationAt": "2026-10-20T04:04:51.000Z",
+    "updatedAt": "2026-10-20T04:04:51.000Z"
+  },
+  "images": [
+    "https://www.wade-ingram.net/"
+  ],
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+}
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/102 -> 200
+Body:
+{
+  "id": 102,
+  "name": "Clothing_933e2e99c42d4ad89e1199aabba1480b",
+  "slug": "clothing-933e2e99c42d4ad89e1199aabba1480b",
+  "image": "https://young.net/",
+  "creationAt": "2026-10-20T04:04:51.000Z",
+  "updatedAt": "2026-10-20T04:04:51.000Z"
+} 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/102
+Body:
+<empty> 
+
+2026-10-20 04:04:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/102 -> 400
+Body:
+{
+  "path": "/api/v1/categories/102",
+  "timestamp": "2026-10-20T04:04:51.280Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

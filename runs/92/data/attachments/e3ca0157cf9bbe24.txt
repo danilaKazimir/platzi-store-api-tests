@@ -1,0 +1,53 @@
+2026-10-13 06:05:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_491ec8e1a2664645b6fb4d7e5bc36110",
+  "image": "https://moreno.com/"
+} 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 52,
+  "name": "Electronics_491ec8e1a2664645b6fb4d7e5bc36110",
+  "slug": "electronics-491ec8e1a2664645b6fb4d7e5bc36110",
+  "image": "https://moreno.com/",
+  "creationAt": "2026-10-13T06:05:14.000Z",
+  "updatedAt": "2026-10-13T06:05:14.000Z"
+}
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/electronics-491ec8e1a2664645b6fb4d7e5bc36110
+Body:
+<empty> 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/electronics-491ec8e1a2664645b6fb4d7e5bc36110 -> 200
+Body:
+{
+  "id": 52,
+  "name": "Electronics_491ec8e1a2664645b6fb4d7e5bc36110",
+  "slug": "electronics-491ec8e1a2664645b6fb4d7e5bc36110",
+  "image": "https://moreno.com/",
+  "creationAt": "2026-10-13T06:05:14.000Z",
+  "updatedAt": "2026-10-13T06:05:14.000Z"
+}
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/52
+Body:
+<empty> 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/52 -> 200
+Body:
+{
+  "id": 52,
+  "name": "Electronics_491ec8e1a2664645b6fb4d7e5bc36110",
+  "slug": "electronics-491ec8e1a2664645b6fb4d7e5bc36110",
+  "image": "https://moreno.com/",
+  "creationAt": "2026-10-13T06:05:14.000Z",
+  "updatedAt": "2026-10-13T06:05:14.000Z"
+} 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/52
+Body:
+<empty> 
+
+2026-10-13 06:05:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/52 -> 200
+Body:
+true

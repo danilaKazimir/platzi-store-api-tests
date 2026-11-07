@@ -1,0 +1,49 @@
+2026-11-06 05:44:46 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_035c8a0c7e3b4f88af6909d736dbee1e",
+  "image": "https://edwards-diaz.com/"
+} 
+
+2026-11-06 05:44:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Food & Beverages_035c8a0c7e3b4f88af6909d736dbee1e",
+  "slug": "food-beverages-035c8a0c7e3b4f88af6909d736dbee1e",
+  "image": "https://edwards-diaz.com/",
+  "creationAt": "2026-11-06T05:44:46.000Z",
+  "updatedAt": "2026-11-06T05:44:46.000Z"
+}
+2026-11-06 05:44:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-06 05:44:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true 
+
+2026-11-06 05:44:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-06 05:44:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 400
+Body:
+{
+  "path": "/api/v1/categories/17",
+  "timestamp": "2026-11-06T05:44:46.959Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 17\n}"
+}
+2026-11-06 05:44:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 400
+Body:
+{
+  "path": "/api/v1/categories/17",
+  "timestamp": "2026-11-06T05:44:47.037Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 17\n}"
+}

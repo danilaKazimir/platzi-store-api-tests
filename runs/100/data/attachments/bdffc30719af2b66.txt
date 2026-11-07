@@ -1,0 +1,135 @@
+2026-10-21 03:53:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_58a0afd9d7f449d1bc1da23d82cbff53",
+  "image": "http://mitchell.com/"
+} 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Pet Supplies_58a0afd9d7f449d1bc1da23d82cbff53",
+  "slug": "pet-supplies-58a0afd9d7f449d1bc1da23d82cbff53",
+  "image": "http://mitchell.com/",
+  "creationAt": "2026-10-21T03:53:49.000Z",
+  "updatedAt": "2026-10-21T03:53:49.000Z"
+} 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Quality-focused homogeneous info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "price": 397,
+  "description": "Ameliorated disintermediate algorithm",
+  "categoryId": 31,
+  "images": [
+    "https://www.miller.biz/"
+  ]
+} 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 95,
+  "title": "Quality-focused homogeneous info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "slug": "quality-focused-homogeneous-info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "price": 397,
+  "description": "Ameliorated disintermediate algorithm",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_58a0afd9d7f449d1bc1da23d82cbff53",
+    "slug": "pet-supplies-58a0afd9d7f449d1bc1da23d82cbff53",
+    "image": "http://mitchell.com/",
+    "creationAt": "2026-10-21T03:53:49.000Z",
+    "updatedAt": "2026-10-21T03:53:49.000Z"
+  },
+  "images": [
+    "https://www.miller.biz/"
+  ],
+  "creationAt": "2026-10-21T03:53:49.000Z",
+  "updatedAt": "2026-10-21T03:53:49.000Z"
+}
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/quality-focused-homogeneous-info-mediaries-5709660c87f44a53b6f6c496fdf00b82
+Body:
+<empty> 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/quality-focused-homogeneous-info-mediaries-5709660c87f44a53b6f6c496fdf00b82 -> 200
+Body:
+{
+  "id": 95,
+  "title": "Quality-focused homogeneous info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "slug": "quality-focused-homogeneous-info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "price": 397,
+  "description": "Ameliorated disintermediate algorithm",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_58a0afd9d7f449d1bc1da23d82cbff53",
+    "slug": "pet-supplies-58a0afd9d7f449d1bc1da23d82cbff53",
+    "image": "http://mitchell.com/",
+    "creationAt": "2026-10-21T03:53:49.000Z",
+    "updatedAt": "2026-10-21T03:53:49.000Z"
+  },
+  "images": [
+    "https://www.miller.biz/"
+  ],
+  "creationAt": "2026-10-21T03:53:49.000Z",
+  "updatedAt": "2026-10-21T03:53:49.000Z"
+}
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+{
+  "id": 95,
+  "title": "Quality-focused homogeneous info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "slug": "quality-focused-homogeneous-info-mediaries-5709660c87f44a53b6f6c496fdf00b82",
+  "price": 397,
+  "description": "Ameliorated disintermediate algorithm",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_58a0afd9d7f449d1bc1da23d82cbff53",
+    "slug": "pet-supplies-58a0afd9d7f449d1bc1da23d82cbff53",
+    "image": "http://mitchell.com/",
+    "creationAt": "2026-10-21T03:53:49.000Z",
+    "updatedAt": "2026-10-21T03:53:49.000Z"
+  },
+  "images": [
+    "https://www.miller.biz/"
+  ],
+  "creationAt": "2026-10-21T03:53:49.000Z",
+  "updatedAt": "2026-10-21T03:53:49.000Z"
+} 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/95
+Body:
+<empty> 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/95 -> 200
+Body:
+true 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Pet Supplies_58a0afd9d7f449d1bc1da23d82cbff53",
+  "slug": "pet-supplies-58a0afd9d7f449d1bc1da23d82cbff53",
+  "image": "http://mitchell.com/",
+  "creationAt": "2026-10-21T03:53:49.000Z",
+  "updatedAt": "2026-10-21T03:53:49.000Z"
+} 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-21 03:53:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

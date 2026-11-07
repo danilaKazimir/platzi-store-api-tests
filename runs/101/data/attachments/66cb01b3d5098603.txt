@@ -1,0 +1,55 @@
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_3e81d317f04b4daf92c8c36ffc554a8f",
+  "image": "http://www.avery-le.com/"
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Toys_3e81d317f04b4daf92c8c36ffc554a8f",
+  "slug": "toys-3e81d317f04b4daf92c8c36ffc554a8f",
+  "image": "http://www.avery-le.com/",
+  "creationAt": "2026-10-22T03:53:49.000Z",
+  "updatedAt": "2026-10-22T03:53:49.000Z"
+}
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/30
+Body:
+{
+  "name": "Electronics_455ca264bb1f4fd5a93c756bf2c1fe6d",
+  "image": null
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/30 -> 400
+Body:
+{
+  "path": "/api/v1/categories/30",
+  "timestamp": "2026-10-22T03:53:49.923Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Toys_3e81d317f04b4daf92c8c36ffc554a8f",
+  "slug": "toys-3e81d317f04b4daf92c8c36ffc554a8f",
+  "image": "http://www.avery-le.com/",
+  "creationAt": "2026-10-22T03:53:49.000Z",
+  "updatedAt": "2026-10-22T03:53:49.000Z"
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

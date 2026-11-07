@@ -1,0 +1,107 @@
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_301287137bfd4630a06baa48aef03733",
+  "image": "http://hudson-daniel.com/"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Books_301287137bfd4630a06baa48aef03733",
+  "slug": "books-301287137bfd4630a06baa48aef03733",
+  "image": "http://hudson-daniel.com/",
+  "creationAt": "2026-10-15T03:51:01.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Digitized zero administration framework-07ca588ee3b943458418f0115db30a76",
+  "price": 895,
+  "description": "Total fresh-thinking workforce",
+  "categoryId": 37,
+  "images": [
+    "http://allen.com/"
+  ]
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 150,
+  "title": "Digitized zero administration framework-07ca588ee3b943458418f0115db30a76",
+  "slug": "digitized-zero-administration-framework-07ca588ee3b943458418f0115db30a76",
+  "price": 895,
+  "description": "Total fresh-thinking workforce",
+  "category": {
+    "id": 37,
+    "name": "Books_301287137bfd4630a06baa48aef03733",
+    "slug": "books-301287137bfd4630a06baa48aef03733",
+    "image": "http://hudson-daniel.com/",
+    "creationAt": "2026-10-15T03:51:01.000Z",
+    "updatedAt": "2026-10-15T03:51:01.000Z"
+  },
+  "images": [
+    "http://allen.com/"
+  ],
+  "creationAt": "2026-10-15T03:51:01.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+}
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/150
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/150 -> 200
+Body:
+true 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/150
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/150 -> 400
+Body:
+{
+  "path": "/api/v1/products/150",
+  "timestamp": "2026-10-15T03:51:01.937Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 150\n    }\n}"
+}
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/150
+Body:
+<empty> 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/150 -> 400
+Body:
+{
+  "path": "/api/v1/products/150",
+  "timestamp": "2026-10-15T03:51:01.972Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 150\n    }\n}"
+} 
+
+2026-10-15 03:51:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-15 03:51:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Books_301287137bfd4630a06baa48aef03733",
+  "slug": "books-301287137bfd4630a06baa48aef03733",
+  "image": "http://hudson-daniel.com/",
+  "creationAt": "2026-10-15T03:51:01.000Z",
+  "updatedAt": "2026-10-15T03:51:01.000Z"
+} 
+
+2026-10-15 03:51:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-15 03:51:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+true

@@ -1,0 +1,1763 @@
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_791fd7b1c02042d2bbec57d0a3d10d9f",
+  "image": "https://www.wood-richard.info/"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 23,
+  "name": "Books_791fd7b1c02042d2bbec57d0a3d10d9f",
+  "slug": "books-791fd7b1c02042d2bbec57d0a3d10d9f",
+  "image": "https://www.wood-richard.info/",
+  "creationAt": "2026-11-03T05:52:40.000Z",
+  "updatedAt": "2026-11-03T05:52:40.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Configurable upward-trending Internet solution-28a955aed9ca4e469293efce14d7b7bd",
+  "price": 774,
+  "description": "Sharable encompassing workforce",
+  "categoryId": 23,
+  "images": [
+    "http://www.smith.info/"
+  ]
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 101,
+  "title": "Configurable upward-trending Internet solution-28a955aed9ca4e469293efce14d7b7bd",
+  "slug": "configurable-upward-trending-internet-solution-28a955aed9ca4e469293efce14d7b7bd",
+  "price": 774,
+  "description": "Sharable encompassing workforce",
+  "category": {
+    "id": 23,
+    "name": "Books_791fd7b1c02042d2bbec57d0a3d10d9f",
+    "slug": "books-791fd7b1c02042d2bbec57d0a3d10d9f",
+    "image": "https://www.wood-richard.info/",
+    "creationAt": "2026-11-03T05:52:40.000Z",
+    "updatedAt": "2026-11-03T05:52:40.000Z"
+  },
+  "images": [
+    "http://www.smith.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:40.000Z",
+  "updatedAt": "2026-11-03T05:52:40.000Z"
+}
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 1,
+    "title": "Majestic Mountain Graphic T-Shirt",
+    "slug": "majestic-mountain-graphic-t-shirt",
+    "price": 44,
+    "description": "Elevate your wardrobe with this stylish black t-shirt featuring a striking monochrome mountain range graphic. Perfect for those who love the outdoors or want to add a touch of nature-inspired design to their look, this tee is crafted from soft, breathable fabric ensuring all-day comfort. Ideal for casual outings or as a unique gift, this t-shirt is a versatile addition to any collection.",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/QkIa5tT.jpeg",
+      "https://i.imgur.com/jb5Yu0h.jpeg",
+      "https://i.imgur.com/UlxxXyG.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Classic Red Pullover Hoodie",
+    "slug": "classic-red-pullover-hoodie",
+    "price": 10,
+    "description": "Elevate your casual wardrobe with our Classic Red Pullover Hoodie. Crafted with a soft cotton blend for ultimate comfort, this vibrant red hoodie features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs for a snug fit. The timeless design ensures easy pairing with jeans or joggers for a relaxed yet stylish look, making it a versatile addition to your everyday attire.",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/1twoaDy.jpeg",
+      "https://i.imgur.com/FDwQgLy.jpeg",
+      "https://i.imgur.com/kg1ZhhH.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 13,
+    "title": "Classic Olive Chino Shorts",
+    "slug": "classic-olive-chino-shorts",
+    "price": 84,
+    "description": "Elevate your casual wardrobe with these classic olive chino shorts. Designed for comfort and versatility, they feature a smooth waistband, practical pockets, and a tailored fit that makes them perfect for both relaxed weekends and smart-casual occasions. The durable fabric ensures they hold up throughout your daily activities while maintaining a stylish look.",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/UsFIvYs.jpeg",
+      "https://i.imgur.com/YIq57b6.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 14,
+    "title": "Classic High-Waisted Athletic Shorts",
+    "slug": "classic-high-waisted-athletic-shorts",
+    "price": 43,
+    "description": "Stay comfortable and stylish with our Classic High-Waisted Athletic Shorts. Designed for optimal movement and versatility, these shorts are a must-have for your workout wardrobe. Featuring a figure-flattering high waist, breathable fabric, and a secure fit that ensures they stay in place during any activity, these shorts are perfect for the gym, running, or even just casual wear.",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/eGOUveI.jpeg",
+      "https://i.imgur.com/UcsGO7E.jpeg",
+      "https://i.imgur.com/NLn4e7S.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 18,
+    "title": "Sleek White & Orange Wireless Gaming Controller",
+    "slug": "sleek-white-orange-wireless-gaming-controller",
+    "price": 69,
+    "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/ZANVnHE.jpeg",
+      "https://i.imgur.com/Ro5z6Tn.jpeg",
+      "https://i.imgur.com/woA93Li.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 20,
+    "title": "Sleek Comfort-Fit Over-Ear Headphones",
+    "slug": "sleek-comfort-fit-over-ear-headphones",
+    "price": 28,
+    "description": "Experience superior sound quality with our Sleek Comfort-Fit Over-Ear Headphones, designed for prolonged use with cushioned ear cups and an adjustable, padded headband. Ideal for immersive listening, whether you're at home, in the office, or on the move. Their durable construction and timeless design provide both aesthetically pleasing looks and long-lasting performance.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/SolkFEB.jpeg",
+      "https://i.imgur.com/KIGW49u.jpeg",
+      "https://i.imgur.com/mWwek7p.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 23,
+    "title": "Sleek Modern Laptop with Ambient Lighting",
+    "slug": "sleek-modern-laptop-with-ambient-lighting",
+    "price": 43,
+    "description": "Experience next-level computing with our ultra-slim laptop, featuring a stunning display illuminated by ambient lighting. This high-performance machine is perfect for both work and play, delivering powerful processing in a sleek, portable design. The vibrant colors add a touch of personality to your tech collection, making it as stylish as it is functional.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/OKn1KFI.jpeg",
+      "https://i.imgur.com/G4f21Ai.jpeg",
+      "https://i.imgur.com/Z9oKRVJ.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 24,
+    "title": "Sleek Modern Laptop for Professionals",
+    "slug": "sleek-modern-laptop-for-professionals",
+    "price": 97,
+    "description": "Experience cutting-edge technology and elegant design with our latest laptop model. Perfect for professionals on-the-go, this high-performance laptop boasts a powerful processor, ample storage, and a long-lasting battery life, all encased in a lightweight, slim frame for ultimate portability. Shop now to elevate your work and play.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/ItHcq7o.jpeg",
+      "https://i.imgur.com/55GM3XZ.jpeg",
+      "https://i.imgur.com/tcNJxoW.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 25,
+    "title": "Stylish Red & Silver Over-Ear Headphones",
+    "slug": "stylish-red-silver-over-ear-headphones",
+    "price": 39,
+    "description": "Immerse yourself in superior sound quality with these sleek red and silver over-ear headphones. Designed for comfort and style, the headphones feature cushioned ear cups, an adjustable padded headband, and a detachable red cable for easy storage and portability. Perfect for music lovers and audiophiles who value both appearance and audio fidelity.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/YaSqa06.jpeg",
+      "https://i.imgur.com/isQAliJ.jpeg",
+      "https://i.imgur.com/5B8UQfh.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 26,
+    "title": "Sleek Mirror Finish Phone Case",
+    "slug": "sleek-mirror-finish-phone-case",
+    "price": 27,
+    "description": "Enhance your smartphone's look with this ultra-sleek mirror finish phone case. Designed to offer style with protection, the case features a reflective surface that adds a touch of elegance while keeping your device safe from scratches and impacts. Perfect for those who love a minimalist and modern aesthetic.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/yb9UQKL.jpeg",
+      "https://i.imgur.com/m2owtQG.jpeg",
+      "https://i.imgur.com/bNiORct.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 28,
+    "title": "Sleek Modern Leather Sofa",
+    "slug": "sleek-modern-leather-sofa",
+    "price": 53,
+    "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Qphac99.jpeg",
+      "https://i.imgur.com/dJjpEgG.jpeg",
+      "https://i.imgur.com/MxJyADq.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 29,
+    "title": "Mid-Century Modern Wooden Dining Table",
+    "slug": "mid-century-modern-wooden-dining-table",
+    "price": 24,
+    "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/DMQHGA0.jpeg",
+      "https://i.imgur.com/qrs9QBg.jpeg",
+      "https://i.imgur.com/XVp8T1I.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 30,
+    "title": "Elegant Golden-Base Stone Top Dining Table",
+    "slug": "elegant-golden-base-stone-top-dining-table",
+    "price": 66,
+    "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/NWIJKUj.jpeg",
+      "https://i.imgur.com/Jn1YSLk.jpeg",
+      "https://i.imgur.com/VNZRvx5.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 31,
+    "title": "Modern Elegance Teal Armchair",
+    "slug": "modern-elegance-teal-armchair",
+    "price": 25,
+    "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/6wkyyIN.jpeg",
+      "https://i.imgur.com/Ald3Rec.jpeg",
+      "https://i.imgur.com/dIqo03c.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 32,
+    "title": "Elegant Solid Wood Dining Table",
+    "slug": "elegant-solid-wood-dining-table",
+    "price": 67,
+    "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/4lTaHfF.jpeg",
+      "https://i.imgur.com/JktHE1C.jpeg",
+      "https://i.imgur.com/cQeXQMi.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 33,
+    "title": "Modern Minimalist Workstation Setup",
+    "slug": "modern-minimalist-workstation-setup",
+    "price": 49,
+    "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/3oXNBst.jpeg",
+      "https://i.imgur.com/ErYYZnT.jpeg",
+      "https://i.imgur.com/boBPwYW.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 34,
+    "title": "Modern Ergonomic Office Chair",
+    "slug": "modern-ergonomic-office-chair",
+    "price": 71,
+    "description": "Elevate your office space with this sleek and comfortable Modern Ergonomic Office Chair. Designed to provide optimal support throughout the workday, it features an adjustable height mechanism, smooth-rolling casters for easy mobility, and a cushioned seat for extended comfort. The clean lines and minimalist white design make it a versatile addition to any contemporary workspace.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/3dU0m72.jpeg",
+      "https://i.imgur.com/zPU3EVa.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 35,
+    "title": "Futuristic Holographic Soccer Cleats",
+    "slug": "futuristic-holographic-soccer-cleats",
+    "price": 39,
+    "description": "Step onto the field and stand out from the crowd with these eye-catching holographic soccer cleats. Designed for the modern player, these cleats feature a sleek silhouette, lightweight construction for maximum agility, and durable studs for optimal traction. The shimmering holographic finish reflects a rainbow of colors as you move, ensuring that you'll be noticed for both your skills and style. Perfect for the fashion-forward athlete who wants to make a statement.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/qNOjJje.jpeg",
+      "https://i.imgur.com/NjfCFnu.jpeg",
+      "https://i.imgur.com/eYtvXS1.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 36,
+    "title": "Rainbow Glitter High Heels",
+    "slug": "rainbow-glitter-high-heels",
+    "price": 39,
+    "description": "Step into the spotlight with these eye-catching rainbow glitter high heels. Designed to dazzle, each shoe boasts a kaleidoscope of shimmering colors that catch and reflect light with every step. Perfect for special occasions or a night out, these stunners are sure to turn heads and elevate any ensemble.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/62gGzeF.jpeg",
+      "https://i.imgur.com/5MoPuFM.jpeg",
+      "https://i.imgur.com/sUVj7pK.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 37,
+    "title": "Chic Summer Denim Espadrille Sandals",
+    "slug": "chic-summer-denim-espadrille-sandals",
+    "price": 33,
+    "description": "Step into summer with style in our denim espadrille sandals. Featuring a braided jute sole for a classic touch and adjustable denim straps for a snug fit, these sandals offer both comfort and a fashionable edge. The easy slip-on design ensures convenience for beach days or casual outings.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/9qrmE1b.jpeg",
+      "https://i.imgur.com/wqKxBVH.jpeg",
+      "https://i.imgur.com/sWSV6DK.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 38,
+    "title": "Vibrant Runners: Bold Orange & Blue Sneakers",
+    "slug": "vibrant-runners-bold-orange-blue-sneakers",
+    "price": 27,
+    "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/hKcMNJs.jpeg",
+      "https://i.imgur.com/NYToymX.jpeg",
+      "https://i.imgur.com/HiiapCt.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 39,
+    "title": "Vibrant Pink Classic Sneakers",
+    "slug": "vibrant-pink-classic-sneakers",
+    "price": 84,
+    "description": "Step into style with our Vibrant Pink Classic Sneakers! These eye-catching shoes feature a bold pink hue with iconic white detailing, offering a sleek, timeless design. Constructed with durable materials and a comfortable fit, they are perfect for those seeking a pop of color in their everyday footwear. Grab a pair today and add some vibrancy to your step!",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/mcW42Gi.jpeg",
+      "https://i.imgur.com/mhn7qsF.jpeg",
+      "https://i.imgur.com/F8vhnFJ.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 40,
+    "title": "Futuristic Silver and Gold High-Top Sneaker",
+    "slug": "futuristic-silver-and-gold-high-top-sneaker",
+    "price": 68,
+    "description": "Step into the future with this eye-catching high-top sneaker, designed for those who dare to stand out. The sneaker features a sleek silver body with striking gold accents, offering a modern twist on classic footwear. Its high-top design provides support and style, making it the perfect addition to any avant-garde fashion collection. Grab a pair today and elevate your shoe game!",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/npLfCGq.jpeg",
+      "https://i.imgur.com/vYim3gj.jpeg",
+      "https://i.imgur.com/HxuHwBO.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 41,
+    "title": "Futuristic Chic High-Heel Boots",
+    "slug": "futuristic-chic-high-heel-boots",
+    "price": 36,
+    "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/HqYqLnW.jpeg",
+      "https://i.imgur.com/RlDGnZw.jpeg",
+      "https://i.imgur.com/qa0O6fg.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 42,
+    "title": "Elegant Patent Leather Peep-Toe Pumps with Gold-Tone Heel",
+    "slug": "elegant-patent-leather-peep-toe-pumps",
+    "price": 53,
+    "description": "Step into sophistication with these chic peep-toe pumps, showcasing a lustrous patent leather finish and an eye-catching gold-tone block heel. The ornate buckle detail adds a touch of glamour, perfect for elevating your evening attire or complementing a polished daytime look.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/AzAY4Ed.jpeg",
+      "https://i.imgur.com/umfnS9P.jpeg",
+      "https://i.imgur.com/uFyuvLg.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 43,
+    "title": "Elegant Purple Leather Loafers",
+    "slug": "elegant-purple-leather-loafers",
+    "price": 17,
+    "description": "Step into sophistication with our Elegant Purple Leather Loafers, perfect for making a bold statement. Crafted from high-quality leather with a vibrant purple finish, these shoes feature a classic loafer silhouette that's been updated with a contemporary twist. The comfortable slip-on design and durable soles ensure both style and functionality for the modern man.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Au8J9sX.jpeg",
+      "https://i.imgur.com/gdr8BW2.jpeg",
+      "https://i.imgur.com/KDCZxnJ.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 44,
+    "title": "Classic Blue Suede Casual Shoes",
+    "slug": "classic-blue-suede-casual-shoes",
+    "price": 39,
+    "description": "Step into comfort with our Classic Blue Suede Casual Shoes, perfect for everyday wear. These shoes feature a stylish blue suede upper, durable rubber soles for superior traction, and classic lace-up fronts for a snug fit. The sleek design pairs well with both jeans and chinos, making them a versatile addition to any wardrobe.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/sC0ztOB.jpeg",
+      "https://i.imgur.com/Jf9DL9R.jpeg",
+      "https://i.imgur.com/R1IN95T.jpeg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 45,
+    "title": "Sleek Futuristic Electric Bicycle",
+    "slug": "sleek-futuristic-electric-bicycle",
+    "price": 22,
+    "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/BG8J0Fj.jpg",
+      "https://i.imgur.com/ujHBpCX.jpg",
+      "https://i.imgur.com/WHeVL9H.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 46,
+    "title": "Sleek All-Terrain Go-Kart",
+    "slug": "sleek-all-terrain-go-kart",
+    "price": 37,
+    "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Ex5x3IU.jpg",
+      "https://i.imgur.com/z7wAQwe.jpg",
+      "https://i.imgur.com/kc0Dj9S.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 47,
+    "title": "Radiant Citrus Eau de Parfum",
+    "slug": "radiant-citrus-eau-de-parfum",
+    "price": 73,
+    "description": "Indulge in the essence of summer with this vibrant citrus-scented Eau de Parfum. Encased in a sleek glass bottle with a bold orange cap, this fragrance embodies freshness and elegance. Perfect for daily wear, it's an olfactory delight that leaves a lasting, zesty impression.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/xPDwUb3.jpg",
+      "https://i.imgur.com/3rfp691.jpg",
+      "https://i.imgur.com/kG05a29.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 48,
+    "title": "Sleek Olive Green Hardshell Carry-On Luggage",
+    "slug": "sleek-olive-green-hardshell-carry-on-luggage",
+    "price": 48,
+    "description": "Travel in style with our durable hardshell carry-on, perfect for weekend getaways and business trips. This sleek olive green suitcase features smooth gliding wheels for easy airport navigation, a sturdy telescopic handle, and a secure zippered compartment to keep your belongings safe. Its compact size meets most airline overhead bin requirements, ensuring a hassle-free flying experience.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/jVfoZnP.jpg",
+      "https://i.imgur.com/Tnl15XK.jpg",
+      "https://i.imgur.com/7OqTPO6.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 49,
+    "title": "Chic Transparent Fashion Handbag",
+    "slug": "chic-transparent-fashion-handbag",
+    "price": 61,
+    "description": "Elevate your style with our Chic Transparent Fashion Handbag, perfect for showcasing your essentials with a clear, modern edge. This trendy accessory features durable acrylic construction, luxe gold-tone hardware, and an elegant chain strap. Its compact size ensures you can carry your day-to-day items with ease and sophistication.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Lqaqz59.jpg",
+      "https://i.imgur.com/uSqWK0m.jpg",
+      "https://i.imgur.com/atWACf1.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 50,
+    "title": "Trendy Pink-Tinted Sunglasses",
+    "slug": "trendy-pink-tinted-sunglasses",
+    "price": 38,
+    "description": "Step up your style game with these fashionable black-framed, pink-tinted sunglasses. Perfect for making a statement while protecting your eyes from the glare. Their bold color and contemporary design make these shades a must-have accessory for any trendsetter looking to add a pop of color to their ensemble.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/0qQBkxX.jpg",
+      "https://i.imgur.com/I5g1DoE.jpg",
+      "https://i.imgur.com/myfFQBW.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 51,
+    "title": "Elegant Glass Tumbler Set",
+    "slug": "elegant-glass-tumbler-set",
+    "price": 50,
+    "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/TF0pXdL.jpg",
+      "https://i.imgur.com/BLDByXP.jpg",
+      "https://i.imgur.com/b7trwCv.jpg"
+    ],
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 52,
+    "title": "title-0eb2a573-ace1-4c73-bbd6-58fc0e0db3df",
+    "slug": "title-0eb2a573-ace1-4c73-bbd6-58fc0e0db3df",
+    "price": 262,
+    "description": "desc-c298bad6-0bce-4aca-b0c7-778ae80b3710",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=44466"
+    ],
+    "creationAt": "2026-11-02T21:12:07.000Z",
+    "updatedAt": "2026-11-02T21:12:07.000Z"
+  },
+  {
+    "id": 53,
+    "title": "Produto de Teste Jest",
+    "slug": "produto-de-teste-jest",
+    "price": 99,
+    "description": "Produto criado pelo teste de integração",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-11-02T21:12:51.000Z",
+    "updatedAt": "2026-11-02T21:12:51.000Z"
+  },
+  {
+    "id": 54,
+    "title": "title-643aa4c7-3162-4d3b-8ca9-1a9bd830690c",
+    "slug": "title-643aa4c7-3162-4d3b-8ca9-1a9bd830690c",
+    "price": 416,
+    "description": "desc-0dd0372f-07d3-4808-9a20-e75655849ac0",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=72136",
+      "https://placehold.co/600x400?img=73497"
+    ],
+    "creationAt": "2026-11-02T21:27:05.000Z",
+    "updatedAt": "2026-11-02T21:27:05.000Z"
+  },
+  {
+    "id": 55,
+    "title": "title-4093f773-311a-423b-8424-23a80b395808",
+    "slug": "title-4093f773-311a-423b-8424-23a80b395808",
+    "price": 718,
+    "description": "desc-093ec08c-6215-4258-b54b-ed898506ca3d",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=7285"
+    ],
+    "creationAt": "2026-11-02T21:42:05.000Z",
+    "updatedAt": "2026-11-02T21:42:05.000Z"
+  },
+  {
+    "id": 56,
+    "title": "title-8240504e-a416-499a-afca-32516f6cb592",
+    "slug": "title-8240504e-a416-499a-afca-32516f6cb592",
+    "price": 933,
+    "description": "desc-67b990d7-67f4-4531-8aa5-87b6f34ee459",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=91025",
+      "https://placehold.co/600x400?img=78088",
+      "https://placehold.co/600x400?img=59965"
+    ],
+    "creationAt": "2026-11-02T21:57:12.000Z",
+    "updatedAt": "2026-11-02T21:57:12.000Z"
+  },
+  {
+    "id": 57,
+    "title": "string",
+    "slug": "string",
+    "price": 100,
+    "description": "string",
+    "category": {
+      "id": 6,
+      "name": "string",
+      "slug": "string",
+      "image": "https://pravatar.cc/",
+      "creationAt": "2026-11-02T22:00:26.000Z",
+      "updatedAt": "2026-11-02T22:00:26.000Z"
+    },
+    "images": [
+      "https://pravatar.cc/"
+    ],
+    "creationAt": "2026-11-02T22:00:27.000Z",
+    "updatedAt": "2026-11-02T22:00:27.000Z"
+  },
+  {
+    "id": 58,
+    "title": "Johnny23",
+    "slug": "johnny23",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 6,
+      "name": "string",
+      "slug": "string",
+      "image": "https://pravatar.cc/",
+      "creationAt": "2026-11-02T22:00:26.000Z",
+      "updatedAt": "2026-11-02T22:00:26.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-11-02T22:00:58.000Z",
+    "updatedAt": "2026-11-02T22:00:58.000Z"
+  },
+  {
+    "id": 59,
+    "title": "title-a5897833-56d1-4f0d-a81e-0abdb21224df",
+    "slug": "title-a5897833-56d1-4f0d-a81e-0abdb21224df",
+    "price": 932,
+    "description": "desc-f2f9c141-f571-4355-aaf2-fb222c04becb",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=16308",
+      "https://placehold.co/600x400?img=61532",
+      "https://placehold.co/600x400?img=16818"
+    ],
+    "creationAt": "2026-11-02T22:12:04.000Z",
+    "updatedAt": "2026-11-02T22:12:04.000Z"
+  },
+  {
+    "id": 60,
+    "title": "title-e97d68bd-6515-4f1a-9339-acbf328c9a44",
+    "slug": "title-e97d68bd-6515-4f1a-9339-acbf328c9a44",
+    "price": 829,
+    "description": "desc-4192b1c2-2e0a-4b87-9733-cb172d4387ff",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=8743",
+      "https://placehold.co/600x400?img=50310",
+      "https://placehold.co/600x400?img=822"
+    ],
+    "creationAt": "2026-11-02T22:27:04.000Z",
+    "updatedAt": "2026-11-02T22:27:04.000Z"
+  },
+  {
+    "id": 61,
+    "title": "title-1a160cdc-7277-4fac-a713-e318931b68c3",
+    "slug": "title-1a160cdc-7277-4fac-a713-e318931b68c3",
+    "price": 177,
+    "description": "desc-d0a407c5-077b-4e51-9189-87147e0e626a",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=27379"
+    ],
+    "creationAt": "2026-11-02T22:42:14.000Z",
+    "updatedAt": "2026-11-02T22:42:14.000Z"
+  },
+  {
+    "id": 62,
+    "title": "title-d337b81e-7184-4f21-b8ce-0978295dc0d8",
+    "slug": "title-d337b81e-7184-4f21-b8ce-0978295dc0d8",
+    "price": 905,
+    "description": "desc-cfab1e41-439f-45a5-b4a1-3d2dde06de6a",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=60106"
+    ],
+    "creationAt": "2026-11-02T22:57:06.000Z",
+    "updatedAt": "2026-11-02T22:57:06.000Z"
+  },
+  {
+    "id": 63,
+    "title": "Test Product XYZ",
+    "slug": "test-product-xyz",
+    "price": 50,
+    "description": "A test description for the product XYZ.",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/o19mhmie/600/400",
+      "https://picsum.photos/seed/hme7shlp/600/400"
+    ],
+    "creationAt": "2026-11-02T23:09:05.000Z",
+    "updatedAt": "2026-11-02T23:09:05.000Z"
+  },
+  {
+    "id": 64,
+    "title": "title-f4b4b378-f356-4909-adee-73fa1de6ee7b",
+    "slug": "title-f4b4b378-f356-4909-adee-73fa1de6ee7b",
+    "price": 869,
+    "description": "desc-34e94f71-fb92-4011-aee4-d869c0107d46",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=48341",
+      "https://placehold.co/600x400?img=9769"
+    ],
+    "creationAt": "2026-11-02T23:12:05.000Z",
+    "updatedAt": "2026-11-02T23:12:05.000Z"
+  },
+  {
+    "id": 65,
+    "title": "Second Test Prod",
+    "slug": "second-test-prod",
+    "price": 25,
+    "description": "desc here",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://picsum.photos/seed/r76o9ohc/600/400"
+    ],
+    "creationAt": "2026-11-02T23:15:41.000Z",
+    "updatedAt": "2026-11-02T23:15:41.000Z"
+  },
+  {
+    "id": 66,
+    "title": "title-38f6c99d-ba36-450f-88d5-8def9a5af917",
+    "slug": "title-38f6c99d-ba36-450f-88d5-8def9a5af917",
+    "price": 423,
+    "description": "desc-334b1bd3-1843-4d6c-a3f7-f00389501bec",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=28638",
+      "https://placehold.co/600x400?img=75648",
+      "https://placehold.co/600x400?img=18297"
+    ],
+    "creationAt": "2026-11-02T23:27:13.000Z",
+    "updatedAt": "2026-11-02T23:27:13.000Z"
+  },
+  {
+    "id": 67,
+    "title": "title-02006a63-4599-46c5-a2e4-c7ff0938e991",
+    "slug": "title-02006a63-4599-46c5-a2e4-c7ff0938e991",
+    "price": 52,
+    "description": "desc-55ffe8d6-5dc6-4a47-ba0c-36fa90e31c86",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=97848",
+      "https://placehold.co/600x400?img=28703"
+    ],
+    "creationAt": "2026-11-02T23:42:14.000Z",
+    "updatedAt": "2026-11-02T23:42:14.000Z"
+  },
+  {
+    "id": 68,
+    "title": "title-e092673f-164c-497b-bc63-f30387fee904",
+    "slug": "title-e092673f-164c-497b-bc63-f30387fee904",
+    "price": 539,
+    "description": "desc-d23fc2d1-c0ce-4179-9aa3-0088b42190bb",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=72334",
+      "https://placehold.co/600x400?img=24166"
+    ],
+    "creationAt": "2026-11-02T23:57:14.000Z",
+    "updatedAt": "2026-11-02T23:57:14.000Z"
+  },
+  {
+    "id": 69,
+    "title": "title-4d7af18e-827b-4799-806f-9cca7d94b244",
+    "slug": "title-4d7af18e-827b-4799-806f-9cca7d94b244",
+    "price": 777,
+    "description": "desc-c967d8f9-5046-402a-bf5a-29ac14ba0c97",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=17054",
+      "https://placehold.co/600x400?img=94657"
+    ],
+    "creationAt": "2026-11-03T00:12:15.000Z",
+    "updatedAt": "2026-11-03T00:12:15.000Z"
+  },
+  {
+    "id": 70,
+    "title": "title-be2a5898-8a46-4853-b210-2060204d35eb",
+    "slug": "title-be2a5898-8a46-4853-b210-2060204d35eb",
+    "price": 424,
+    "description": "desc-bb0bbddf-645b-4caf-b6a2-91538a9ca6ab",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=57562",
+      "https://placehold.co/600x400?img=19301",
+      "https://placehold.co/600x400?img=41453"
+    ],
+    "creationAt": "2026-11-03T00:27:15.000Z",
+    "updatedAt": "2026-11-03T00:27:15.000Z"
+  },
+  {
+    "id": 71,
+    "title": "title-6d01a6bd-a37e-4be9-a03d-bd8e959cb99a",
+    "slug": "title-6d01a6bd-a37e-4be9-a03d-bd8e959cb99a",
+    "price": 383,
+    "description": "desc-e6091fc7-560a-4a96-98e8-1710addb9b06",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=29625"
+    ],
+    "creationAt": "2026-11-03T00:42:15.000Z",
+    "updatedAt": "2026-11-03T00:42:15.000Z"
+  },
+  {
+    "id": 72,
+    "title": "title-ef793b9d-ccbf-41a0-8cd7-f713b39dce6a",
+    "slug": "title-ef793b9d-ccbf-41a0-8cd7-f713b39dce6a",
+    "price": 553,
+    "description": "desc-fb649a01-7f8c-475d-bae1-fb5e0485d0f4",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=22374",
+      "https://placehold.co/600x400?img=90745",
+      "https://placehold.co/600x400?img=46058"
+    ],
+    "creationAt": "2026-11-03T00:57:02.000Z",
+    "updatedAt": "2026-11-03T00:57:02.000Z"
+  },
+  {
+    "id": 73,
+    "title": "title-1d5450d6-872d-45d5-9ab6-307cb01820aa",
+    "slug": "title-1d5450d6-872d-45d5-9ab6-307cb01820aa",
+    "price": 574,
+    "description": "desc-a4e79e42-4846-4a89-928e-2ac35dbbe66e",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=43400",
+      "https://placehold.co/600x400?img=23167"
+    ],
+    "creationAt": "2026-11-03T01:12:04.000Z",
+    "updatedAt": "2026-11-03T01:12:04.000Z"
+  },
+  {
+    "id": 74,
+    "title": "title-4c5f0173-02c7-45f8-8ce7-971aed7c1567",
+    "slug": "title-4c5f0173-02c7-45f8-8ce7-971aed7c1567",
+    "price": 308,
+    "description": "desc-7eec0266-fdbe-49db-a14d-aa1534e5830a",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=2240"
+    ],
+    "creationAt": "2026-11-03T01:27:04.000Z",
+    "updatedAt": "2026-11-03T01:27:04.000Z"
+  },
+  {
+    "id": 75,
+    "title": "title-00b8d6ac-9ea5-4273-89a1-98b2293c894c",
+    "slug": "title-00b8d6ac-9ea5-4273-89a1-98b2293c894c",
+    "price": 451,
+    "description": "desc-c76b1ab0-71d5-43ed-b86c-7e69dc4c9ce7",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=31440"
+    ],
+    "creationAt": "2026-11-03T01:42:14.000Z",
+    "updatedAt": "2026-11-03T01:42:14.000Z"
+  },
+  {
+    "id": 76,
+    "title": "title-7283cc7e-74c9-43da-a1f6-9cbaf9480255",
+    "slug": "title-7283cc7e-74c9-43da-a1f6-9cbaf9480255",
+    "price": 159,
+    "description": "desc-54b0d68e-6dac-4335-b9be-08cfd200888e",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=87514",
+      "https://placehold.co/600x400?img=68949",
+      "https://placehold.co/600x400?img=95961"
+    ],
+    "creationAt": "2026-11-03T01:57:06.000Z",
+    "updatedAt": "2026-11-03T01:57:06.000Z"
+  },
+  {
+    "id": 77,
+    "title": "title-af195182-f273-4e38-bbf3-0d4dede70f98",
+    "slug": "title-af195182-f273-4e38-bbf3-0d4dede70f98",
+    "price": 213,
+    "description": "desc-2394016a-0dcd-412c-80d6-b3784ce087a0",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=81602",
+      "https://placehold.co/600x400?img=8537"
+    ],
+    "creationAt": "2026-11-03T02:12:11.000Z",
+    "updatedAt": "2026-11-03T02:12:11.000Z"
+  },
+  {
+    "id": 78,
+    "title": "title-b730934c-d9e3-4d97-a9a9-d8a91a5787ac",
+    "slug": "title-b730934c-d9e3-4d97-a9a9-d8a91a5787ac",
+    "price": 461,
+    "description": "desc-cd62ddfb-dd7f-491d-a68b-ca11df8e5ee8",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=83168",
+      "https://placehold.co/600x400?img=20676"
+    ],
+    "creationAt": "2026-11-03T02:27:14.000Z",
+    "updatedAt": "2026-11-03T02:27:14.000Z"
+  },
+  {
+    "id": 79,
+    "title": "title-5d4a07a4-ebd0-4702-b148-be1f4b797ebf",
+    "slug": "title-5d4a07a4-ebd0-4702-b148-be1f4b797ebf",
+    "price": 434,
+    "description": "desc-6612fdc6-3edc-401c-9e06-a4ac4f6521da",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=43484",
+      "https://placehold.co/600x400?img=52117",
+      "https://placehold.co/600x400?img=13436"
+    ],
+    "creationAt": "2026-11-03T02:42:04.000Z",
+    "updatedAt": "2026-11-03T02:42:04.000Z"
+  },
+  {
+    "id": 80,
+    "title": "title-94e2426f-5996-4ca3-8eb9-43a095fa5c82",
+    "slug": "title-94e2426f-5996-4ca3-8eb9-43a095fa5c82",
+    "price": 616,
+    "description": "desc-13a3d9f6-7844-4f65-aab2-b23c3458f28a",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=30060",
+      "https://placehold.co/600x400?img=59416"
+    ],
+    "creationAt": "2026-11-03T02:57:15.000Z",
+    "updatedAt": "2026-11-03T02:57:15.000Z"
+  },
+  {
+    "id": 81,
+    "title": "erwr",
+    "slug": "erwr",
+    "price": 4525,
+    "description": "wrw",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/QkIa5tT.jpeg"
+    ],
+    "creationAt": "2026-11-03T03:08:28.000Z",
+    "updatedAt": "2026-11-03T03:08:28.000Z"
+  },
+  {
+    "id": 82,
+    "title": "title-56427e51-0fa4-4706-95a7-771856ee6347",
+    "slug": "title-56427e51-0fa4-4706-95a7-771856ee6347",
+    "price": 722,
+    "description": "desc-15e532e0-275f-45d8-b5ea-d2f08566908b",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=1662"
+    ],
+    "creationAt": "2026-11-03T03:12:15.000Z",
+    "updatedAt": "2026-11-03T03:12:15.000Z"
+  },
+  {
+    "id": 83,
+    "title": "title-6ade3b90-8dcd-4528-9aa0-8649d33724fc",
+    "slug": "title-6ade3b90-8dcd-4528-9aa0-8649d33724fc",
+    "price": 435,
+    "description": "desc-65ce1b70-4fcc-40ea-8b79-1d6e30ceb621",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=42535"
+    ],
+    "creationAt": "2026-11-03T03:27:02.000Z",
+    "updatedAt": "2026-11-03T03:27:02.000Z"
+  },
+  {
+    "id": 84,
+    "title": "title-d1e59dd3-fb50-40c3-8e4f-1e117408b3b4",
+    "slug": "title-d1e59dd3-fb50-40c3-8e4f-1e117408b3b4",
+    "price": 380,
+    "description": "desc-4abf9bf5-8c71-4546-990e-4d2098270f8c",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=45843",
+      "https://placehold.co/600x400?img=16540",
+      "https://placehold.co/600x400?img=3049"
+    ],
+    "creationAt": "2026-11-03T03:42:13.000Z",
+    "updatedAt": "2026-11-03T03:42:13.000Z"
+  },
+  {
+    "id": 85,
+    "title": "title-14a65323-37e8-42c8-9a18-3a336ace4022",
+    "slug": "title-14a65323-37e8-42c8-9a18-3a336ace4022",
+    "price": 674,
+    "description": "desc-9c2dae67-2f0c-4946-b16e-681153e0348c",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=30082",
+      "https://placehold.co/600x400?img=56535",
+      "https://placehold.co/600x400?img=910"
+    ],
+    "creationAt": "2026-11-03T03:57:03.000Z",
+    "updatedAt": "2026-11-03T03:57:03.000Z"
+  },
+  {
+    "id": 86,
+    "title": "title-c5f3fc44-4300-4738-8969-83f74254db90",
+    "slug": "title-c5f3fc44-4300-4738-8969-83f74254db90",
+    "price": 118,
+    "description": "desc-6bb8a24d-1b86-40d8-ac05-bc2f7067e971",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=20650",
+      "https://placehold.co/600x400?img=31157"
+    ],
+    "creationAt": "2026-11-03T04:12:12.000Z",
+    "updatedAt": "2026-11-03T04:12:12.000Z"
+  },
+  {
+    "id": 87,
+    "title": "title-8be68940-0524-41a6-95eb-a1a6bc46c092",
+    "slug": "title-8be68940-0524-41a6-95eb-a1a6bc46c092",
+    "price": 622,
+    "description": "desc-6f813991-0b0d-4914-8772-3c707f23c397",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=35763",
+      "https://placehold.co/600x400?img=79838",
+      "https://placehold.co/600x400?img=37669"
+    ],
+    "creationAt": "2026-11-03T04:27:14.000Z",
+    "updatedAt": "2026-11-03T04:27:14.000Z"
+  },
+  {
+    "id": 88,
+    "title": "title-f14d38e4-e367-4a3e-99a9-8c4db1a5722e",
+    "slug": "title-f14d38e4-e367-4a3e-99a9-8c4db1a5722e",
+    "price": 180,
+    "description": "desc-218e2a3d-0e1f-474e-a89f-e31a18640d75",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=55438",
+      "https://placehold.co/600x400?img=23150",
+      "https://placehold.co/600x400?img=62953"
+    ],
+    "creationAt": "2026-11-03T04:42:14.000Z",
+    "updatedAt": "2026-11-03T04:42:14.000Z"
+  },
+  {
+    "id": 89,
+    "title": "title-9324d07e-4b10-471e-a931-5a794e52de95",
+    "slug": "title-9324d07e-4b10-471e-a931-5a794e52de95",
+    "price": 840,
+    "description": "desc-92fc6821-639f-4e24-b428-2a795b97ca39",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=61834",
+      "https://placehold.co/600x400?img=70246",
+      "https://placehold.co/600x400?img=39154"
+    ],
+    "creationAt": "2026-11-03T04:57:16.000Z",
+    "updatedAt": "2026-11-03T04:57:16.000Z"
+  },
+  {
+    "id": 90,
+    "title": "title-1a5e5611-44c0-4c3d-865b-fdf7c7e611ac",
+    "slug": "title-1a5e5611-44c0-4c3d-865b-fdf7c7e611ac",
+    "price": 960,
+    "description": "desc-828970fe-8553-4a01-b5ba-37909f9a07e0",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=82396",
+      "https://placehold.co/600x400?img=15903"
+    ],
+    "creationAt": "2026-11-03T05:12:15.000Z",
+    "updatedAt": "2026-11-03T05:12:15.000Z"
+  },
+  {
+    "id": 91,
+    "title": "title-c0edf4c9-d4be-4acb-9e14-fe30b7dc8e08",
+    "slug": "title-c0edf4c9-d4be-4acb-9e14-fe30b7dc8e08",
+    "price": 97,
+    "description": "desc-1852332f-ea0c-4f53-aa60-2893d590d845",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=89527"
+    ],
+    "creationAt": "2026-11-03T05:27:15.000Z",
+    "updatedAt": "2026-11-03T05:27:15.000Z"
+  },
+  {
+    "id": 92,
+    "title": "title-345b42a1-449e-4cc0-93a6-7f29c68d6937",
+    "slug": "title-345b42a1-449e-4cc0-93a6-7f29c68d6937",
+    "price": 782,
+    "description": "desc-e14721af-f9ca-4878-a671-bfe1af62be5d",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-11-02T21:10:38.000Z",
+      "updatedAt": "2026-11-02T21:10:38.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=16613",
+      "https://placehold.co/600x400?img=47191",
+      "https://placehold.co/600x400?img=52478"
+    ],
+    "creationAt": "2026-11-03T05:42:03.000Z",
+    "updatedAt": "2026-11-03T05:42:03.000Z"
+  },
+  {
+    "id": 93,
+    "title": "Persistent 3rdgeneration time-frame-a969536ca4344559982133bd3e5a5554",
+    "slug": "persistent-3rdgeneration-time-frame-a969536ca4344559982133bd3e5a5554",
+    "price": 440,
+    "description": "Networked didactic access",
+    "category": {
+      "id": 16,
+      "name": "Toys_c555c7a1e43f46898aed6347d3025146",
+      "slug": "toys-c555c7a1e43f46898aed6347d3025146",
+      "image": "http://www.lopez-gardner.com/",
+      "creationAt": "2026-11-03T05:52:38.000Z",
+      "updatedAt": "2026-11-03T05:52:38.000Z"
+    },
+    "images": [
+      "http://www.robles-brown.com/"
+    ],
+    "creationAt": "2026-11-03T05:52:38.000Z",
+    "updatedAt": "2026-11-03T05:52:38.000Z"
+  },
+  {
+    "id": 101,
+    "title": "Configurable upward-trending Internet solution-28a955aed9ca4e469293efce14d7b7bd",
+    "slug": "configurable-upward-trending-internet-solution-28a955aed9ca4e469293efce14d7b7bd",
+    "price": 774,
+    "description": "Sharable encompassing workforce",
+    "category": {
+      "id": 23,
+      "name": "Books_791fd7b1c02042d2bbec57d0a3d10d9f",
+      "slug": "books-791fd7b1c02042d2bbec57d0a3d10d9f",
+      "image": "https://www.wood-richard.info/",
+      "creationAt": "2026-11-03T05:52:40.000Z",
+      "updatedAt": "2026-11-03T05:52:40.000Z"
+    },
+    "images": [
+      "http://www.smith.info/"
+    ],
+    "creationAt": "2026-11-03T05:52:40.000Z",
+    "updatedAt": "2026-11-03T05:52:40.000Z"
+  }
+]
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/101
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/101 -> 200
+Body:
+{
+  "id": 101,
+  "title": "Configurable upward-trending Internet solution-28a955aed9ca4e469293efce14d7b7bd",
+  "slug": "configurable-upward-trending-internet-solution-28a955aed9ca4e469293efce14d7b7bd",
+  "price": 774,
+  "description": "Sharable encompassing workforce",
+  "category": {
+    "id": 23,
+    "name": "Books_791fd7b1c02042d2bbec57d0a3d10d9f",
+    "slug": "books-791fd7b1c02042d2bbec57d0a3d10d9f",
+    "image": "https://www.wood-richard.info/",
+    "creationAt": "2026-11-03T05:52:40.000Z",
+    "updatedAt": "2026-11-03T05:52:40.000Z"
+  },
+  "images": [
+    "http://www.smith.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:40.000Z",
+  "updatedAt": "2026-11-03T05:52:40.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/101
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/101 -> 200
+Body:
+true 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Books_791fd7b1c02042d2bbec57d0a3d10d9f",
+  "slug": "books-791fd7b1c02042d2bbec57d0a3d10d9f",
+  "image": "https://www.wood-richard.info/",
+  "creationAt": "2026-11-03T05:52:40.000Z",
+  "updatedAt": "2026-11-03T05:52:40.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+true

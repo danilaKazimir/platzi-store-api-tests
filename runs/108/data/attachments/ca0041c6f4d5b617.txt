@@ -1,0 +1,68 @@
+2026-10-29 04:57:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3
+Body:
+<empty> 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=3 -> 200
+Body:
+[
+  {
+    "id": 1,
+    "title": "Cien años de soledad",
+    "slug": "cien-anos-de-soledad",
+    "price": 44,
+    "description": "{\"isbn\":\"978-84-397-2163-2\",\"author\":\"Gabriel García Márquez\",\"stock\":15,\"minStock\":4,\"synopsis\":\"Obra cumbre del realismo mágico sobre la saga de la familia Buendía en el pueblo mítico de Macondo.\"}",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-10-28T18:34:08.000Z",
+      "updatedAt": "2026-10-28T18:34:08.000Z"
+    },
+    "images": [
+      "https://encantalibros.com/wp-content/uploads/2021/05/9788497592208.jpg"
+    ],
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T22:53:17.000Z"
+  },
+  {
+    "id": 2,
+    "title": "El principito",
+    "slug": "el-principito",
+    "price": 10,
+    "description": "{\"isbn\":\"978-84-206-7151-1\",\"author\":\"Antoine de Saint-Exupéry\",\"stock\":2,\"minStock\":5,\"synopsis\":\"Relato poético que reflexiona sobre la amistad, el amor y el sentido de la vida.\"}",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-10-28T18:34:08.000Z",
+      "updatedAt": "2026-10-28T18:34:08.000Z"
+    },
+    "images": [
+      "https://image.cdn1.buscalibre.com/5b57fc1690f0b5295a8b4567.__RS660x660__.jpg"
+    ],
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T22:53:55.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Don Quijote de la Mancha",
+    "slug": "don-quijote-de-la-mancha",
+    "price": 69,
+    "description": "{\"isbn\":\"978-84-376-0494-7\",\"author\":\"Miguel de Cervantes\",\"stock\":7,\"minStock\":3,\"synopsis\":\"Clásico de la literatura española que narra las andanzas del ingenioso hidalgo Don Quijote.\"}",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "slug": "clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2026-10-28T18:34:08.000Z",
+      "updatedAt": "2026-10-28T18:34:08.000Z"
+    },
+    "images": [
+      "https://algareditorial.com/29329-fitxa_producte/don-quijote.jpg"
+    ],
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T22:51:34.000Z"
+  }
+]

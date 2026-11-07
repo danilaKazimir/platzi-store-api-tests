@@ -1,0 +1,135 @@
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_b44438bd9ad9456197590a06e939d3e1",
+  "image": "http://becker.com/"
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Toys_b44438bd9ad9456197590a06e939d3e1",
+  "slug": "toys-b44438bd9ad9456197590a06e939d3e1",
+  "image": "http://becker.com/",
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-layered content-based throughput-94d81afacef74a34a623987cbd770dc5",
+  "price": 223,
+  "description": "User-centric dynamic projection",
+  "categoryId": 28,
+  "images": [
+    "https://freeman.biz/"
+  ]
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 146,
+  "title": "Multi-layered content-based throughput-94d81afacef74a34a623987cbd770dc5",
+  "slug": "multi-layered-content-based-throughput-94d81afacef74a34a623987cbd770dc5",
+  "price": 223,
+  "description": "User-centric dynamic projection",
+  "category": {
+    "id": 28,
+    "name": "Toys_b44438bd9ad9456197590a06e939d3e1",
+    "slug": "toys-b44438bd9ad9456197590a06e939d3e1",
+    "image": "http://becker.com/",
+    "creationAt": "2026-11-06T05:44:49.000Z",
+    "updatedAt": "2026-11-06T05:44:49.000Z"
+  },
+  "images": [
+    "https://freeman.biz/"
+  ],
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+}
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/multi-layered-content-based-throughput-94d81afacef74a34a623987cbd770dc5
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/multi-layered-content-based-throughput-94d81afacef74a34a623987cbd770dc5 -> 200
+Body:
+{
+  "id": 146,
+  "title": "Multi-layered content-based throughput-94d81afacef74a34a623987cbd770dc5",
+  "slug": "multi-layered-content-based-throughput-94d81afacef74a34a623987cbd770dc5",
+  "price": 223,
+  "description": "User-centric dynamic projection",
+  "category": {
+    "id": 28,
+    "name": "Toys_b44438bd9ad9456197590a06e939d3e1",
+    "slug": "toys-b44438bd9ad9456197590a06e939d3e1",
+    "image": "http://becker.com/",
+    "creationAt": "2026-11-06T05:44:49.000Z",
+    "updatedAt": "2026-11-06T05:44:49.000Z"
+  },
+  "images": [
+    "https://freeman.biz/"
+  ],
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+}
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/146
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/146 -> 200
+Body:
+{
+  "id": 146,
+  "title": "Multi-layered content-based throughput-94d81afacef74a34a623987cbd770dc5",
+  "slug": "multi-layered-content-based-throughput-94d81afacef74a34a623987cbd770dc5",
+  "price": 223,
+  "description": "User-centric dynamic projection",
+  "category": {
+    "id": 28,
+    "name": "Toys_b44438bd9ad9456197590a06e939d3e1",
+    "slug": "toys-b44438bd9ad9456197590a06e939d3e1",
+    "image": "http://becker.com/",
+    "creationAt": "2026-11-06T05:44:49.000Z",
+    "updatedAt": "2026-11-06T05:44:49.000Z"
+  },
+  "images": [
+    "https://freeman.biz/"
+  ],
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/146
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/146 -> 200
+Body:
+true 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Toys_b44438bd9ad9456197590a06e939d3e1",
+  "slug": "toys-b44438bd9ad9456197590a06e939d3e1",
+  "image": "http://becker.com/",
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true

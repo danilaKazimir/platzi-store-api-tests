@@ -1,0 +1,125 @@
+2026-10-12 05:05:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_29c4ec7f4e7948a4a1fcbb2ecf292273",
+  "image": "http://www.malone.biz/"
+} 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 49,
+  "name": "Clothing_29c4ec7f4e7948a4a1fcbb2ecf292273",
+  "slug": "clothing-29c4ec7f4e7948a4a1fcbb2ecf292273",
+  "image": "http://www.malone.biz/",
+  "creationAt": "2026-10-12T05:05:41.000Z",
+  "updatedAt": "2026-10-12T05:05:41.000Z"
+} 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded background interface-d046a59e6c7b48d3b8f3610c31f5f0df",
+  "price": 654,
+  "description": "Multi-tiered mission-critical matrices",
+  "categoryId": 49,
+  "images": [
+    "https://roberts-rice.biz/"
+  ]
+} 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 139,
+  "title": "Expanded background interface-d046a59e6c7b48d3b8f3610c31f5f0df",
+  "slug": "expanded-background-interface-d046a59e6c7b48d3b8f3610c31f5f0df",
+  "price": 654,
+  "description": "Multi-tiered mission-critical matrices",
+  "category": {
+    "id": 49,
+    "name": "Clothing_29c4ec7f4e7948a4a1fcbb2ecf292273",
+    "slug": "clothing-29c4ec7f4e7948a4a1fcbb2ecf292273",
+    "image": "http://www.malone.biz/",
+    "creationAt": "2026-10-12T05:05:41.000Z",
+    "updatedAt": "2026-10-12T05:05:41.000Z"
+  },
+  "images": [
+    "https://roberts-rice.biz/"
+  ],
+  "creationAt": "2026-10-12T05:05:41.000Z",
+  "updatedAt": "2026-10-12T05:05:41.000Z"
+}
+2026-10-12 05:05:41 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/139
+Body:
+{
+  "title": "Re-contextualized clear-thinking info-mediaries-8b74bd1d10ac41419629a1ec3c0b9c25",
+  "price": 709,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-12 05:05:41 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/139 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-12 05:05:41 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/139
+Body:
+<empty> 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/139 -> 200
+Body:
+{
+  "id": 139,
+  "title": "Expanded background interface-d046a59e6c7b48d3b8f3610c31f5f0df",
+  "slug": "expanded-background-interface-d046a59e6c7b48d3b8f3610c31f5f0df",
+  "price": 654,
+  "description": "Multi-tiered mission-critical matrices",
+  "category": {
+    "id": 49,
+    "name": "Clothing_29c4ec7f4e7948a4a1fcbb2ecf292273",
+    "slug": "clothing-29c4ec7f4e7948a4a1fcbb2ecf292273",
+    "image": "http://www.malone.biz/",
+    "creationAt": "2026-10-12T05:05:41.000Z",
+    "updatedAt": "2026-10-12T05:05:41.000Z"
+  },
+  "images": [
+    "https://roberts-rice.biz/"
+  ],
+  "creationAt": "2026-10-12T05:05:41.000Z",
+  "updatedAt": "2026-10-12T05:05:41.000Z"
+} 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/139
+Body:
+<empty> 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/139 -> 200
+Body:
+true 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/49
+Body:
+<empty> 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/49 -> 200
+Body:
+{
+  "id": 49,
+  "name": "Clothing_29c4ec7f4e7948a4a1fcbb2ecf292273",
+  "slug": "clothing-29c4ec7f4e7948a4a1fcbb2ecf292273",
+  "image": "http://www.malone.biz/",
+  "creationAt": "2026-10-12T05:05:41.000Z",
+  "updatedAt": "2026-10-12T05:05:41.000Z"
+} 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/49
+Body:
+<empty> 
+
+2026-10-12 05:05:42 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/49 -> 200
+Body:
+true

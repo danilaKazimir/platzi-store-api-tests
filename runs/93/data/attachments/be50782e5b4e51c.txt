@@ -1,0 +1,15 @@
+2026-10-14 04:08:13 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Personal Care_ab5d70b8243c4cc5b3facb434e063047",
+  "image": "http://www.freeman-turner.net/"
+} 
+
+2026-10-14 04:08:14 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-14T04:08:14.282Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

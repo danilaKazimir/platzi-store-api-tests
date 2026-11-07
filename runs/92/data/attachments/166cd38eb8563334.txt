@@ -1,0 +1,125 @@
+2026-10-13 06:05:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_e486e40832144573b3a25b29007f67dd",
+  "image": "http://orr-johnson.com/"
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 67,
+  "name": "Home & Kitchen_e486e40832144573b3a25b29007f67dd",
+  "slug": "home-kitchen-e486e40832144573b3a25b29007f67dd",
+  "image": "http://orr-johnson.com/",
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Up-sized multi-state solution-f264b9120b9d470fafa4896e5235310b",
+  "price": 439,
+  "description": "Innovative bi-directional framework",
+  "categoryId": 67,
+  "images": [
+    "http://calderon.biz/"
+  ]
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 184,
+  "title": "Up-sized multi-state solution-f264b9120b9d470fafa4896e5235310b",
+  "slug": "up-sized-multi-state-solution-f264b9120b9d470fafa4896e5235310b",
+  "price": 439,
+  "description": "Innovative bi-directional framework",
+  "category": {
+    "id": 67,
+    "name": "Home & Kitchen_e486e40832144573b3a25b29007f67dd",
+    "slug": "home-kitchen-e486e40832144573b3a25b29007f67dd",
+    "image": "http://orr-johnson.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "http://calderon.biz/"
+  ],
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+}
+2026-10-13 06:05:17 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/184
+Body:
+{
+  "title": "Phased disintermediate moratorium-81b5a052ccbb431d856d9ec7e4c7e3f5",
+  "price": 847,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-13 06:05:17 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/184 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/184
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/184 -> 200
+Body:
+{
+  "id": 184,
+  "title": "Up-sized multi-state solution-f264b9120b9d470fafa4896e5235310b",
+  "slug": "up-sized-multi-state-solution-f264b9120b9d470fafa4896e5235310b",
+  "price": 439,
+  "description": "Innovative bi-directional framework",
+  "category": {
+    "id": 67,
+    "name": "Home & Kitchen_e486e40832144573b3a25b29007f67dd",
+    "slug": "home-kitchen-e486e40832144573b3a25b29007f67dd",
+    "image": "http://orr-johnson.com/",
+    "creationAt": "2026-10-13T06:05:17.000Z",
+    "updatedAt": "2026-10-13T06:05:17.000Z"
+  },
+  "images": [
+    "http://calderon.biz/"
+  ],
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/184
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/184 -> 200
+Body:
+true 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/67
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/67 -> 200
+Body:
+{
+  "id": 67,
+  "name": "Home & Kitchen_e486e40832144573b3a25b29007f67dd",
+  "slug": "home-kitchen-e486e40832144573b3a25b29007f67dd",
+  "image": "http://orr-johnson.com/",
+  "creationAt": "2026-10-13T06:05:17.000Z",
+  "updatedAt": "2026-10-13T06:05:17.000Z"
+} 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/67
+Body:
+<empty> 
+
+2026-10-13 06:05:18 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/67 -> 200
+Body:
+true

@@ -1,0 +1,21 @@
+2026-10-12 05:05:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Grant Schultz",
+  "email": "trios@example.net",
+  "password": "***",
+  "avatar": "https://taylor.com/"
+} 
+
+2026-10-12 05:05:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 149,
+  "email": "trios@example.net",
+  "password": "***",
+  "name": "Grant Schultz",
+  "role": "customer",
+  "avatar": "https://taylor.com/",
+  "creationAt": "2026-10-12T05:05:44.000Z",
+  "updatedAt": "2026-10-12T05:05:44.000Z"
+}

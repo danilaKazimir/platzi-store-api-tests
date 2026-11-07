@@ -1,0 +1,107 @@
+2026-10-28 04:46:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_abe22340f6d846cc9b12899830b0dfad",
+  "image": "https://tucker.com/"
+} 
+
+2026-10-28 04:46:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 50,
+  "name": "Personal Care_abe22340f6d846cc9b12899830b0dfad",
+  "slug": "personal-care-abe22340f6d846cc9b12899830b0dfad",
+  "image": "https://tucker.com/",
+  "creationAt": "2026-10-28T04:46:01.000Z",
+  "updatedAt": "2026-10-28T04:46:01.000Z"
+} 
+
+2026-10-28 04:46:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Proactive reciprocal framework-87fff60bc43743b8abe49fa86c9207e2",
+  "price": 339,
+  "description": "Persevering coherent collaboration",
+  "categoryId": 50,
+  "images": [
+    "http://www.hernandez.com/"
+  ]
+} 
+
+2026-10-28 04:46:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 473,
+  "title": "Proactive reciprocal framework-87fff60bc43743b8abe49fa86c9207e2",
+  "slug": "proactive-reciprocal-framework-87fff60bc43743b8abe49fa86c9207e2",
+  "price": 339,
+  "description": "Persevering coherent collaboration",
+  "category": {
+    "id": 50,
+    "name": "Personal Care_abe22340f6d846cc9b12899830b0dfad",
+    "slug": "personal-care-abe22340f6d846cc9b12899830b0dfad",
+    "image": "https://tucker.com/",
+    "creationAt": "2026-10-28T04:46:01.000Z",
+    "updatedAt": "2026-10-28T04:46:01.000Z"
+  },
+  "images": [
+    "http://www.hernandez.com/"
+  ],
+  "creationAt": "2026-10-28T04:46:01.000Z",
+  "updatedAt": "2026-10-28T04:46:01.000Z"
+}
+2026-10-28 04:46:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/473
+Body:
+<empty> 
+
+2026-10-28 04:46:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/473 -> 200
+Body:
+true 
+
+2026-10-28 04:46:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/473
+Body:
+<empty> 
+
+2026-10-28 04:46:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/473 -> 400
+Body:
+{
+  "path": "/api/v1/products/473",
+  "timestamp": "2026-10-28T04:46:01.962Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 473\n    }\n}"
+}
+2026-10-28 04:46:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/473
+Body:
+<empty> 
+
+2026-10-28 04:46:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/473 -> 400
+Body:
+{
+  "path": "/api/v1/products/473",
+  "timestamp": "2026-10-28T04:46:02.047Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 473\n    }\n}"
+} 
+
+2026-10-28 04:46:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/50
+Body:
+<empty> 
+
+2026-10-28 04:46:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/50 -> 200
+Body:
+{
+  "id": 50,
+  "name": "Personal Care_abe22340f6d846cc9b12899830b0dfad",
+  "slug": "personal-care-abe22340f6d846cc9b12899830b0dfad",
+  "image": "https://tucker.com/",
+  "creationAt": "2026-10-28T04:46:01.000Z",
+  "updatedAt": "2026-10-28T04:46:01.000Z"
+} 
+
+2026-10-28 04:46:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/50
+Body:
+<empty> 
+
+2026-10-28 04:46:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/50 -> 200
+Body:
+true

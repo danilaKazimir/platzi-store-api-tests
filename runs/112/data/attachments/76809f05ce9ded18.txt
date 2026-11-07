@@ -1,0 +1,135 @@
+2026-11-02 05:06:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_5168d1200ca348ee801ab46aabf910f6",
+  "image": "https://www.sullivan.com/"
+} 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 53,
+  "name": "Toys_5168d1200ca348ee801ab46aabf910f6",
+  "slug": "toys-5168d1200ca348ee801ab46aabf910f6",
+  "image": "https://www.sullivan.com/",
+  "creationAt": "2026-11-02T05:06:10.000Z",
+  "updatedAt": "2026-11-02T05:06:10.000Z"
+} 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative regional groupware-18ee4d665843414f99edb69d92f31699",
+  "price": 527,
+  "description": "Expanded high-level conglomeration",
+  "categoryId": 53,
+  "images": [
+    "https://www.campbell.com/"
+  ]
+} 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 25495,
+  "title": "Innovative regional groupware-18ee4d665843414f99edb69d92f31699",
+  "slug": "innovative-regional-groupware-18ee4d665843414f99edb69d92f31699",
+  "price": 527,
+  "description": "Expanded high-level conglomeration",
+  "category": {
+    "id": 53,
+    "name": "Toys_5168d1200ca348ee801ab46aabf910f6",
+    "slug": "toys-5168d1200ca348ee801ab46aabf910f6",
+    "image": "https://www.sullivan.com/",
+    "creationAt": "2026-11-02T05:06:10.000Z",
+    "updatedAt": "2026-11-02T05:06:10.000Z"
+  },
+  "images": [
+    "https://www.campbell.com/"
+  ],
+  "creationAt": "2026-11-02T05:06:10.000Z",
+  "updatedAt": "2026-11-02T05:06:10.000Z"
+}
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/25495
+Body:
+<empty> 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/25495 -> 200
+Body:
+{
+  "id": 25495,
+  "title": "Innovative regional groupware-18ee4d665843414f99edb69d92f31699",
+  "slug": "innovative-regional-groupware-18ee4d665843414f99edb69d92f31699",
+  "price": 527,
+  "description": "Expanded high-level conglomeration",
+  "category": {
+    "id": 53,
+    "name": "Toys_5168d1200ca348ee801ab46aabf910f6",
+    "slug": "toys-5168d1200ca348ee801ab46aabf910f6",
+    "image": "https://www.sullivan.com/",
+    "creationAt": "2026-11-02T05:06:10.000Z",
+    "updatedAt": "2026-11-02T05:06:10.000Z"
+  },
+  "images": [
+    "https://www.campbell.com/"
+  ],
+  "creationAt": "2026-11-02T05:06:10.000Z",
+  "updatedAt": "2026-11-02T05:06:10.000Z"
+}
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/25495
+Body:
+<empty> 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/25495 -> 200
+Body:
+{
+  "id": 25495,
+  "title": "Innovative regional groupware-18ee4d665843414f99edb69d92f31699",
+  "slug": "innovative-regional-groupware-18ee4d665843414f99edb69d92f31699",
+  "price": 527,
+  "description": "Expanded high-level conglomeration",
+  "category": {
+    "id": 53,
+    "name": "Toys_5168d1200ca348ee801ab46aabf910f6",
+    "slug": "toys-5168d1200ca348ee801ab46aabf910f6",
+    "image": "https://www.sullivan.com/",
+    "creationAt": "2026-11-02T05:06:10.000Z",
+    "updatedAt": "2026-11-02T05:06:10.000Z"
+  },
+  "images": [
+    "https://www.campbell.com/"
+  ],
+  "creationAt": "2026-11-02T05:06:10.000Z",
+  "updatedAt": "2026-11-02T05:06:10.000Z"
+} 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/25495
+Body:
+<empty> 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/25495 -> 200
+Body:
+true 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/53
+Body:
+<empty> 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/53 -> 200
+Body:
+{
+  "id": 53,
+  "name": "Toys_5168d1200ca348ee801ab46aabf910f6",
+  "slug": "toys-5168d1200ca348ee801ab46aabf910f6",
+  "image": "https://www.sullivan.com/",
+  "creationAt": "2026-11-02T05:06:10.000Z",
+  "updatedAt": "2026-11-02T05:06:10.000Z"
+} 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/53
+Body:
+<empty> 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/53 -> 200
+Body:
+true

@@ -1,0 +1,125 @@
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_77d512ac87454e00ba06bfd5aa396c30",
+  "image": "https://www.harvey.com/"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 46,
+  "name": "Books_77d512ac87454e00ba06bfd5aa396c30",
+  "slug": "books-77d512ac87454e00ba06bfd5aa396c30",
+  "image": "https://www.harvey.com/",
+  "creationAt": "2026-10-11T04:50:44.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+} 
+
+2026-10-11 04:50:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal heuristic archive-41beab597cec486885b2b9723d1d6e69",
+  "price": 437,
+  "description": "Stand-alone exuding product",
+  "categoryId": 46,
+  "images": [
+    "http://www.rios.info/"
+  ]
+} 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 137,
+  "title": "Universal heuristic archive-41beab597cec486885b2b9723d1d6e69",
+  "slug": "universal-heuristic-archive-41beab597cec486885b2b9723d1d6e69",
+  "price": 437,
+  "description": "Stand-alone exuding product",
+  "category": {
+    "id": 46,
+    "name": "Books_77d512ac87454e00ba06bfd5aa396c30",
+    "slug": "books-77d512ac87454e00ba06bfd5aa396c30",
+    "image": "https://www.harvey.com/",
+    "creationAt": "2026-10-11T04:50:44.000Z",
+    "updatedAt": "2026-10-11T04:50:44.000Z"
+  },
+  "images": [
+    "http://www.rios.info/"
+  ],
+  "creationAt": "2026-10-11T04:50:45.000Z",
+  "updatedAt": "2026-10-11T04:50:45.000Z"
+}
+2026-10-11 04:50:45 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/137
+Body:
+{
+  "title": "Sharable radical access-053834e69b604e0cb539d893e139b5c8",
+  "price": 785,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/137 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-11 04:50:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/137
+Body:
+<empty> 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/137 -> 200
+Body:
+{
+  "id": 137,
+  "title": "Universal heuristic archive-41beab597cec486885b2b9723d1d6e69",
+  "slug": "universal-heuristic-archive-41beab597cec486885b2b9723d1d6e69",
+  "price": 437,
+  "description": "Stand-alone exuding product",
+  "category": {
+    "id": 46,
+    "name": "Books_77d512ac87454e00ba06bfd5aa396c30",
+    "slug": "books-77d512ac87454e00ba06bfd5aa396c30",
+    "image": "https://www.harvey.com/",
+    "creationAt": "2026-10-11T04:50:44.000Z",
+    "updatedAt": "2026-10-11T04:50:44.000Z"
+  },
+  "images": [
+    "http://www.rios.info/"
+  ],
+  "creationAt": "2026-10-11T04:50:45.000Z",
+  "updatedAt": "2026-10-11T04:50:45.000Z"
+} 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/137
+Body:
+<empty> 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/137 -> 200
+Body:
+true 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+{
+  "id": 46,
+  "name": "Books_77d512ac87454e00ba06bfd5aa396c30",
+  "slug": "books-77d512ac87454e00ba06bfd5aa396c30",
+  "image": "https://www.harvey.com/",
+  "creationAt": "2026-10-11T04:50:44.000Z",
+  "updatedAt": "2026-10-11T04:50:44.000Z"
+} 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-10-11 04:50:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+true

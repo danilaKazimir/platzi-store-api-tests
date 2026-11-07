@@ -1,0 +1,53 @@
+2026-10-15 03:50:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_59d4676aacd242d9bb37907e289f5364",
+  "image": "https://www.lopez.com/"
+} 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Toys_59d4676aacd242d9bb37907e289f5364",
+  "slug": "toys-59d4676aacd242d9bb37907e289f5364",
+  "image": "https://www.lopez.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+}
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/toys-59d4676aacd242d9bb37907e289f5364
+Body:
+<empty> 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/toys-59d4676aacd242d9bb37907e289f5364 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Toys_59d4676aacd242d9bb37907e289f5364",
+  "slug": "toys-59d4676aacd242d9bb37907e289f5364",
+  "image": "https://www.lopez.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+}
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Toys_59d4676aacd242d9bb37907e289f5364",
+  "slug": "toys-59d4676aacd242d9bb37907e289f5364",
+  "image": "https://www.lopez.com/",
+  "creationAt": "2026-10-15T03:51:00.000Z",
+  "updatedAt": "2026-10-15T03:51:00.000Z"
+} 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-10-15 03:51:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true
