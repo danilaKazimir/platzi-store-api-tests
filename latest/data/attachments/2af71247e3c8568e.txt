@@ -1,0 +1,107 @@
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_27b25b25f06441e08b476160d2bf6e6c",
+  "image": "https://glover.com/"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 19,
+  "name": "Home & Kitchen_27b25b25f06441e08b476160d2bf6e6c",
+  "slug": "home-kitchen-27b25b25f06441e08b476160d2bf6e6c",
+  "image": "https://glover.com/",
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered human-resource paradigm-25229cbfeec74989adb1135677dda445",
+  "price": 316,
+  "description": "Exclusive bi-directional time-frame",
+  "categoryId": 19,
+  "images": [
+    "https://www.bowers-rodriguez.biz/"
+  ]
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 56,
+  "title": "Reverse-engineered human-resource paradigm-25229cbfeec74989adb1135677dda445",
+  "slug": "reverse-engineered-human-resource-paradigm-25229cbfeec74989adb1135677dda445",
+  "price": 316,
+  "description": "Exclusive bi-directional time-frame",
+  "category": {
+    "id": 19,
+    "name": "Home & Kitchen_27b25b25f06441e08b476160d2bf6e6c",
+    "slug": "home-kitchen-27b25b25f06441e08b476160d2bf6e6c",
+    "image": "https://glover.com/",
+    "creationAt": "2026-11-14T05:36:01.000Z",
+    "updatedAt": "2026-11-14T05:36:01.000Z"
+  },
+  "images": [
+    "https://www.bowers-rodriguez.biz/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+}
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/56
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/56 -> 200
+Body:
+true 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/56
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/56 -> 400
+Body:
+{
+  "path": "/api/v1/products/56",
+  "timestamp": "2026-11-14T05:36:01.506Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 56\n    }\n}"
+}
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/56
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/56 -> 400
+Body:
+{
+  "path": "/api/v1/products/56",
+  "timestamp": "2026-11-14T05:36:01.546Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 56\n    }\n}"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+{
+  "id": 19,
+  "name": "Home & Kitchen_27b25b25f06441e08b476160d2bf6e6c",
+  "slug": "home-kitchen-27b25b25f06441e08b476160d2bf6e6c",
+  "image": "https://glover.com/",
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/19
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/19 -> 200
+Body:
+true

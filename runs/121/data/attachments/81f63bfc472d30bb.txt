@@ -1,0 +1,107 @@
+2026-11-11 05:21:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_073268d76d654512a8b641a799e8b8dc",
+  "image": "http://www.miles.com/"
+} 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 46,
+  "name": "Electronics_073268d76d654512a8b641a799e8b8dc",
+  "slug": "electronics-073268d76d654512a8b641a799e8b8dc",
+  "image": "http://www.miles.com/",
+  "creationAt": "2026-11-11T05:21:54.000Z",
+  "updatedAt": "2026-11-11T05:21:54.000Z"
+} 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Intuitive content-based data-warehouse-d202404fed5e4d4e8beb9f509916af86",
+  "price": 909,
+  "description": "Re-contextualized even-keeled adapter",
+  "categoryId": 46,
+  "images": [
+    "http://brooks-baker.com/"
+  ]
+} 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 75,
+  "title": "Intuitive content-based data-warehouse-d202404fed5e4d4e8beb9f509916af86",
+  "slug": "intuitive-content-based-data-warehouse-d202404fed5e4d4e8beb9f509916af86",
+  "price": 909,
+  "description": "Re-contextualized even-keeled adapter",
+  "category": {
+    "id": 46,
+    "name": "Electronics_073268d76d654512a8b641a799e8b8dc",
+    "slug": "electronics-073268d76d654512a8b641a799e8b8dc",
+    "image": "http://www.miles.com/",
+    "creationAt": "2026-11-11T05:21:54.000Z",
+    "updatedAt": "2026-11-11T05:21:54.000Z"
+  },
+  "images": [
+    "http://brooks-baker.com/"
+  ],
+  "creationAt": "2026-11-11T05:21:54.000Z",
+  "updatedAt": "2026-11-11T05:21:54.000Z"
+}
+2026-11-11 05:21:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/75
+Body:
+<empty> 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/75 -> 200
+Body:
+true 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/75
+Body:
+<empty> 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/75 -> 400
+Body:
+{
+  "path": "/api/v1/products/75",
+  "timestamp": "2026-11-11T05:21:54.426Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 75\n    }\n}"
+}
+2026-11-11 05:21:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/75
+Body:
+<empty> 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/75 -> 400
+Body:
+{
+  "path": "/api/v1/products/75",
+  "timestamp": "2026-11-11T05:21:54.458Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 75\n    }\n}"
+} 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+{
+  "id": 46,
+  "name": "Electronics_073268d76d654512a8b641a799e8b8dc",
+  "slug": "electronics-073268d76d654512a8b641a799e8b8dc",
+  "image": "http://www.miles.com/",
+  "creationAt": "2026-11-11T05:21:54.000Z",
+  "updatedAt": "2026-11-11T05:21:54.000Z"
+} 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/46
+Body:
+<empty> 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/46 -> 200
+Body:
+true

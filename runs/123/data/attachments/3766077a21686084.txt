@@ -1,0 +1,49 @@
+2026-11-13 05:45:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_6fe777633c9e4d7fb287f0a47878a5cf",
+  "image": "https://thomas.net/"
+} 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Clothing_6fe777633c9e4d7fb287f0a47878a5cf",
+  "slug": "clothing-6fe777633c9e4d7fb287f0a47878a5cf",
+  "image": "https://thomas.net/",
+  "creationAt": "2026-11-13T05:45:45.000Z",
+  "updatedAt": "2026-11-13T05:45:45.000Z"
+}
+2026-11-13 05:45:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+true 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-11-13T05:45:45.737Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 16\n}"
+}
+2026-11-13 05:45:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-11-13T05:45:45.743Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 16\n}"
+}

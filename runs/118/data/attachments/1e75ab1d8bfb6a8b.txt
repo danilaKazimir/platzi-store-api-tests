@@ -1,0 +1,71 @@
+2026-11-08 05:11:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_e03121bae9174f58a3fe167251930a68",
+  "image": "https://parrish.com/"
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Sports & Fitness_e03121bae9174f58a3fe167251930a68",
+  "slug": "sports-fitness-e03121bae9174f58a3fe167251930a68",
+  "image": "https://parrish.com/",
+  "creationAt": "2026-11-08T05:11:24.000Z",
+  "updatedAt": "2026-11-08T05:11:24.000Z"
+}
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/17
+Body:
+{
+  "name": "Food & Beverages_92cc4f8573a94aadb0b380d757a3a1bd",
+  "image": "http://www.gates-randall.org/"
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Food & Beverages_92cc4f8573a94aadb0b380d757a3a1bd",
+  "slug": "food-beverages-92cc4f8573a94aadb0b380d757a3a1bd",
+  "image": "http://www.gates-randall.org/",
+  "creationAt": "2026-11-08T05:11:24.000Z",
+  "updatedAt": "2026-11-08T05:11:24.000Z"
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Food & Beverages_92cc4f8573a94aadb0b380d757a3a1bd",
+  "slug": "food-beverages-92cc4f8573a94aadb0b380d757a3a1bd",
+  "image": "http://www.gates-randall.org/",
+  "creationAt": "2026-11-08T05:11:24.000Z",
+  "updatedAt": "2026-11-08T05:11:24.000Z"
+}
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Food & Beverages_92cc4f8573a94aadb0b380d757a3a1bd",
+  "slug": "food-beverages-92cc4f8573a94aadb0b380d757a3a1bd",
+  "image": "http://www.gates-randall.org/",
+  "creationAt": "2026-11-08T05:11:24.000Z",
+  "updatedAt": "2026-11-08T05:11:24.000Z"
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true

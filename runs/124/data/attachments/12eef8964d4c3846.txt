@@ -1,0 +1,53 @@
+2026-11-14 05:35:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_b2e9e0910fd64421bcbfe98f126d017c",
+  "image": "https://banks.com/"
+} 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 8,
+  "name": "Electronics_b2e9e0910fd64421bcbfe98f126d017c",
+  "slug": "electronics-b2e9e0910fd64421bcbfe98f126d017c",
+  "image": "https://banks.com/",
+  "creationAt": "2026-11-14T05:35:59.000Z",
+  "updatedAt": "2026-11-14T05:35:59.000Z"
+}
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+{
+  "id": 8,
+  "name": "Electronics_b2e9e0910fd64421bcbfe98f126d017c",
+  "slug": "electronics-b2e9e0910fd64421bcbfe98f126d017c",
+  "image": "https://banks.com/",
+  "creationAt": "2026-11-14T05:35:59.000Z",
+  "updatedAt": "2026-11-14T05:35:59.000Z"
+}
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+{
+  "id": 8,
+  "name": "Electronics_b2e9e0910fd64421bcbfe98f126d017c",
+  "slug": "electronics-b2e9e0910fd64421bcbfe98f126d017c",
+  "image": "https://banks.com/",
+  "creationAt": "2026-11-14T05:35:59.000Z",
+  "updatedAt": "2026-11-14T05:35:59.000Z"
+} 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+true

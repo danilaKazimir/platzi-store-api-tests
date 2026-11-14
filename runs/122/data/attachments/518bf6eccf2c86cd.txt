@@ -1,0 +1,408 @@
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+  "image": "http://www.baker.com/"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+  "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+  "image": "http://www.baker.com/",
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+}
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Visionary composite product-2b19d0ea9e7342a4aacc84e81fa1245c",
+  "price": 275,
+  "description": "Multi-layered needs-based ability",
+  "categoryId": 31,
+  "images": [
+    "http://santiago.biz/"
+  ]
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 61,
+  "title": "Visionary composite product-2b19d0ea9e7342a4aacc84e81fa1245c",
+  "slug": "visionary-composite-product-2b19d0ea9e7342a4aacc84e81fa1245c",
+  "price": 275,
+  "description": "Multi-layered needs-based ability",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+    "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+    "image": "http://www.baker.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "http://santiago.biz/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated methodical strategy-1bdb02b3f49a444397f15e29920ff74e",
+  "price": 759,
+  "description": "Up-sized exuding moderator",
+  "categoryId": 31,
+  "images": [
+    "https://www.park.com/"
+  ]
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 64,
+  "title": "Ameliorated methodical strategy-1bdb02b3f49a444397f15e29920ff74e",
+  "slug": "ameliorated-methodical-strategy-1bdb02b3f49a444397f15e29920ff74e",
+  "price": 759,
+  "description": "Up-sized exuding moderator",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+    "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+    "image": "http://www.baker.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "https://www.park.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered eco-centric monitoring-c43b24196f5b4246953d4d786bd25c64",
+  "price": 622,
+  "description": "Managed mobile approach",
+  "categoryId": 31,
+  "images": [
+    "https://www.hicks.org/"
+  ]
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 66,
+  "title": "Multi-tiered eco-centric monitoring-c43b24196f5b4246953d4d786bd25c64",
+  "slug": "multi-tiered-eco-centric-monitoring-c43b24196f5b4246953d4d786bd25c64",
+  "price": 622,
+  "description": "Managed mobile approach",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+    "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+    "image": "http://www.baker.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "https://www.hicks.org/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_ee41f1d3a7ef475fad46940a2bc68084",
+  "image": "http://gaines.com/"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Books_ee41f1d3a7ef475fad46940a2bc68084",
+  "slug": "books-ee41f1d3a7ef475fad46940a2bc68084",
+  "image": "http://gaines.com/",
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Configurable optimizing secured line-cda42d672e324522923ba2294b95a3bc",
+  "price": 238,
+  "description": "Customizable exuding secured line",
+  "categoryId": 34,
+  "images": [
+    "https://www.white.net/"
+  ]
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 67,
+  "title": "Configurable optimizing secured line-cda42d672e324522923ba2294b95a3bc",
+  "slug": "configurable-optimizing-secured-line-cda42d672e324522923ba2294b95a3bc",
+  "price": 238,
+  "description": "Customizable exuding secured line",
+  "category": {
+    "id": 34,
+    "name": "Books_ee41f1d3a7ef475fad46940a2bc68084",
+    "slug": "books-ee41f1d3a7ef475fad46940a2bc68084",
+    "image": "http://gaines.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "https://www.white.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/61/related
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/61/related -> 200
+Body:
+[
+  {
+    "id": 64,
+    "title": "Ameliorated methodical strategy-1bdb02b3f49a444397f15e29920ff74e",
+    "slug": "ameliorated-methodical-strategy-1bdb02b3f49a444397f15e29920ff74e",
+    "price": 759,
+    "description": "Up-sized exuding moderator",
+    "category": {
+      "id": 31,
+      "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+      "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+      "image": "http://www.baker.com/",
+      "creationAt": "2026-11-12T06:25:21.000Z",
+      "updatedAt": "2026-11-12T06:25:21.000Z"
+    },
+    "images": [
+      "https://www.park.com/"
+    ],
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  {
+    "id": 66,
+    "title": "Multi-tiered eco-centric monitoring-c43b24196f5b4246953d4d786bd25c64",
+    "slug": "multi-tiered-eco-centric-monitoring-c43b24196f5b4246953d4d786bd25c64",
+    "price": 622,
+    "description": "Managed mobile approach",
+    "category": {
+      "id": 31,
+      "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+      "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+      "image": "http://www.baker.com/",
+      "creationAt": "2026-11-12T06:25:21.000Z",
+      "updatedAt": "2026-11-12T06:25:21.000Z"
+    },
+    "images": [
+      "https://www.hicks.org/"
+    ],
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  }
+]
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+{
+  "id": 67,
+  "title": "Configurable optimizing secured line-cda42d672e324522923ba2294b95a3bc",
+  "slug": "configurable-optimizing-secured-line-cda42d672e324522923ba2294b95a3bc",
+  "price": 238,
+  "description": "Customizable exuding secured line",
+  "category": {
+    "id": 34,
+    "name": "Books_ee41f1d3a7ef475fad46940a2bc68084",
+    "slug": "books-ee41f1d3a7ef475fad46940a2bc68084",
+    "image": "http://gaines.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "https://www.white.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+true 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/66
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/66 -> 200
+Body:
+{
+  "id": 66,
+  "title": "Multi-tiered eco-centric monitoring-c43b24196f5b4246953d4d786bd25c64",
+  "slug": "multi-tiered-eco-centric-monitoring-c43b24196f5b4246953d4d786bd25c64",
+  "price": 622,
+  "description": "Managed mobile approach",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+    "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+    "image": "http://www.baker.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "https://www.hicks.org/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/66
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/66 -> 200
+Body:
+true 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+{
+  "id": 64,
+  "title": "Ameliorated methodical strategy-1bdb02b3f49a444397f15e29920ff74e",
+  "slug": "ameliorated-methodical-strategy-1bdb02b3f49a444397f15e29920ff74e",
+  "price": 759,
+  "description": "Up-sized exuding moderator",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+    "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+    "image": "http://www.baker.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "https://www.park.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+true 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/61
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/61 -> 200
+Body:
+{
+  "id": 61,
+  "title": "Visionary composite product-2b19d0ea9e7342a4aacc84e81fa1245c",
+  "slug": "visionary-composite-product-2b19d0ea9e7342a4aacc84e81fa1245c",
+  "price": 275,
+  "description": "Multi-layered needs-based ability",
+  "category": {
+    "id": 31,
+    "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+    "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+    "image": "http://www.baker.com/",
+    "creationAt": "2026-11-12T06:25:21.000Z",
+    "updatedAt": "2026-11-12T06:25:21.000Z"
+  },
+  "images": [
+    "http://santiago.biz/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/61
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/61 -> 200
+Body:
+true 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Books_ee41f1d3a7ef475fad46940a2bc68084",
+  "slug": "books-ee41f1d3a7ef475fad46940a2bc68084",
+  "image": "http://gaines.com/",
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Pet Supplies_579aebec06604a66970dbb5760dfb068",
+  "slug": "pet-supplies-579aebec06604a66970dbb5760dfb068",
+  "image": "http://www.baker.com/",
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

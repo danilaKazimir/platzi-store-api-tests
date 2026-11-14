@@ -1,0 +1,49 @@
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_0c9cdffe47224f56bfca2b27b3cfca74",
+  "image": "http://garrison.info/"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Books_0c9cdffe47224f56bfca2b27b3cfca74",
+  "slug": "books-0c9cdffe47224f56bfca2b27b3cfca74",
+  "image": "http://garrison.info/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 400
+Body:
+{
+  "path": "/api/v1/categories/21",
+  "timestamp": "2026-11-12T06:25:19.548Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 21\n}"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 400
+Body:
+{
+  "path": "/api/v1/categories/21",
+  "timestamp": "2026-11-12T06:25:19.565Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 21\n}"
+}

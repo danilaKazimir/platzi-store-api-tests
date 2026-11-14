@@ -1,0 +1,46 @@
+2026-11-02 05:06:10 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_4a183234e6e04609b93c334d74e6d420",
+  "image": "http://taylor.biz/"
+} 
+
+2026-11-02 05:06:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 56,
+  "name": "Clothing_4a183234e6e04609b93c334d74e6d420",
+  "slug": "clothing-4a183234e6e04609b93c334d74e6d420",
+  "image": "http://taylor.biz/",
+  "creationAt": "2026-11-02T05:06:11.000Z",
+  "updatedAt": "2026-11-02T05:06:11.000Z"
+}
+2026-11-02 05:06:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/56/products
+Body:
+<empty> 
+
+2026-11-02 05:06:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/56/products -> 200
+Body:
+[]
+2026-11-02 05:06:11 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/56
+Body:
+<empty> 
+
+2026-11-02 05:06:11 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/56 -> 200
+Body:
+{
+  "id": 56,
+  "name": "Clothing_4a183234e6e04609b93c334d74e6d420",
+  "slug": "clothing-4a183234e6e04609b93c334d74e6d420",
+  "image": "http://taylor.biz/",
+  "creationAt": "2026-11-02T05:06:11.000Z",
+  "updatedAt": "2026-11-02T05:06:11.000Z"
+} 
+
+2026-11-02 05:06:11 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/56
+Body:
+<empty> 
+
+2026-11-02 05:06:11 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/56 -> 200
+Body:
+true

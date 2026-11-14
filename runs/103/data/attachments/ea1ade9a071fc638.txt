@@ -1,0 +1,88 @@
+2026-10-24 03:51:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Tamara Callahan",
+  "email": "popedavid@example.org",
+  "password": "***",
+  "avatar": "http://www.giles.com/"
+} 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 122,
+  "email": "popedavid@example.org",
+  "password": "***",
+  "name": "Tamara Callahan",
+  "role": "customer",
+  "avatar": "http://www.giles.com/",
+  "creationAt": "2026-10-24T03:52:00.000Z",
+  "updatedAt": "2026-10-24T03:52:00.000Z"
+}
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "popedavid@example.org",
+  "password": "***"
+} 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEyMiwiaWF0IjoxNzkyODEzOTIwLCJleHAiOjE3OTI4NDk5MjB9.Z5ACNHAmlc-UsvC96yxH1IE6noIs7tJkAO0EQtHwcPI"
+} 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 122,
+  "email": "popedavid@example.org",
+  "password": "***",
+  "name": "Tamara Callahan",
+  "role": "customer",
+  "avatar": "http://www.giles.com/",
+  "creationAt": "2026-10-24T03:52:00.000Z",
+  "updatedAt": "2026-10-24T03:52:00.000Z"
+}
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/122
+Body:
+<empty> 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/122 -> 200
+Body:
+{
+  "id": 122,
+  "email": "popedavid@example.org",
+  "password": "***",
+  "name": "Tamara Callahan",
+  "role": "customer",
+  "avatar": "http://www.giles.com/",
+  "creationAt": "2026-10-24T03:52:00.000Z",
+  "updatedAt": "2026-10-24T03:52:00.000Z"
+} 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/122
+Body:
+<empty> 
+
+2026-10-24 03:52:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/122 -> 200
+Body:
+true

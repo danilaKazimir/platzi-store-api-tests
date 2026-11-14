@@ -1,0 +1,79 @@
+2026-10-17 03:36:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_82944f7878e04359812a48cdc7707dd8",
+  "image": "http://archer-beard.biz/"
+} 
+
+2026-10-17 03:36:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 277,
+  "name": "Clothing_82944f7878e04359812a48cdc7707dd8",
+  "slug": "clothing-82944f7878e04359812a48cdc7707dd8",
+  "image": "http://archer-beard.biz/",
+  "creationAt": "2026-10-17T03:36:44.000Z",
+  "updatedAt": "2026-10-17T03:36:44.000Z"
+}
+2026-10-17 03:36:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Streamlined value-added analyzer-41f7fdc4b0784c7c8ae833fc26124497",
+  "price": 597,
+  "description": "Stand-alone demand-driven solution",
+  "categoryId": 277,
+  "images": [
+    "http://smith.com/"
+  ]
+} 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 526,
+  "title": "Streamlined value-added analyzer-41f7fdc4b0784c7c8ae833fc26124497",
+  "slug": "streamlined-value-added-analyzer-41f7fdc4b0784c7c8ae833fc26124497",
+  "price": 597,
+  "description": "Stand-alone demand-driven solution",
+  "category": {
+    "id": 277,
+    "name": "Clothing_82944f7878e04359812a48cdc7707dd8",
+    "slug": "clothing-82944f7878e04359812a48cdc7707dd8",
+    "image": "http://archer-beard.biz/",
+    "creationAt": "2026-10-17T03:36:44.000Z",
+    "updatedAt": "2026-10-17T03:36:44.000Z"
+  },
+  "images": [
+    "http://smith.com/"
+  ],
+  "creationAt": "2026-10-17T03:36:45.000Z",
+  "updatedAt": "2026-10-17T03:36:45.000Z"
+}
+2026-10-17 03:36:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/277
+Body:
+<empty> 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/277 -> 200
+Body:
+{
+  "id": 277,
+  "name": "Clothing_82944f7878e04359812a48cdc7707dd8",
+  "slug": "clothing-82944f7878e04359812a48cdc7707dd8",
+  "image": "http://archer-beard.biz/",
+  "creationAt": "2026-10-17T03:36:44.000Z",
+  "updatedAt": "2026-10-17T03:36:44.000Z"
+} 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/277
+Body:
+<empty> 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/277 -> 400
+Body:
+{
+  "path": "/api/v1/categories/277",
+  "timestamp": "2026-10-17T03:36:45.249Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

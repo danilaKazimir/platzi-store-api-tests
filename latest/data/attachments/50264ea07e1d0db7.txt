@@ -1,0 +1,135 @@
+2026-11-14 05:36:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_aa2cb732d7474fcfa9bcf730d7e6e514",
+  "image": "http://www.hays.com/"
+} 
+
+2026-11-14 05:36:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Home & Kitchen_aa2cb732d7474fcfa9bcf730d7e6e514",
+  "slug": "home-kitchen-aa2cb732d7474fcfa9bcf730d7e6e514",
+  "image": "http://www.hays.com/",
+  "creationAt": "2026-11-14T05:36:00.000Z",
+  "updatedAt": "2026-11-14T05:36:00.000Z"
+} 
+
+2026-11-14 05:36:00 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Business-focused cohesive adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "price": 62,
+  "description": "Balanced heuristic hardware",
+  "categoryId": 17,
+  "images": [
+    "http://www.harrison-garcia.org/"
+  ]
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 54,
+  "title": "Business-focused cohesive adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "slug": "business-focused-cohesive-adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "price": 62,
+  "description": "Balanced heuristic hardware",
+  "category": {
+    "id": 17,
+    "name": "Home & Kitchen_aa2cb732d7474fcfa9bcf730d7e6e514",
+    "slug": "home-kitchen-aa2cb732d7474fcfa9bcf730d7e6e514",
+    "image": "http://www.hays.com/",
+    "creationAt": "2026-11-14T05:36:00.000Z",
+    "updatedAt": "2026-11-14T05:36:00.000Z"
+  },
+  "images": [
+    "http://www.harrison-garcia.org/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+}
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/54
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/54 -> 200
+Body:
+{
+  "id": 54,
+  "title": "Business-focused cohesive adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "slug": "business-focused-cohesive-adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "price": 62,
+  "description": "Balanced heuristic hardware",
+  "category": {
+    "id": 17,
+    "name": "Home & Kitchen_aa2cb732d7474fcfa9bcf730d7e6e514",
+    "slug": "home-kitchen-aa2cb732d7474fcfa9bcf730d7e6e514",
+    "image": "http://www.hays.com/",
+    "creationAt": "2026-11-14T05:36:00.000Z",
+    "updatedAt": "2026-11-14T05:36:00.000Z"
+  },
+  "images": [
+    "http://www.harrison-garcia.org/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+}
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/54
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/54 -> 200
+Body:
+{
+  "id": 54,
+  "title": "Business-focused cohesive adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "slug": "business-focused-cohesive-adapter-cdd3c866abc04c7e8ad02e8a1a7e8c6b",
+  "price": 62,
+  "description": "Balanced heuristic hardware",
+  "category": {
+    "id": 17,
+    "name": "Home & Kitchen_aa2cb732d7474fcfa9bcf730d7e6e514",
+    "slug": "home-kitchen-aa2cb732d7474fcfa9bcf730d7e6e514",
+    "image": "http://www.hays.com/",
+    "creationAt": "2026-11-14T05:36:00.000Z",
+    "updatedAt": "2026-11-14T05:36:00.000Z"
+  },
+  "images": [
+    "http://www.harrison-garcia.org/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/54
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/54 -> 200
+Body:
+true 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Home & Kitchen_aa2cb732d7474fcfa9bcf730d7e6e514",
+  "slug": "home-kitchen-aa2cb732d7474fcfa9bcf730d7e6e514",
+  "image": "http://www.hays.com/",
+  "creationAt": "2026-11-14T05:36:00.000Z",
+  "updatedAt": "2026-11-14T05:36:00.000Z"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true

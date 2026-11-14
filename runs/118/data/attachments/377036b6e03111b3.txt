@@ -1,0 +1,135 @@
+2026-11-08 05:11:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_d8b1127671654b2aae0aaf6b6c2e9d72",
+  "image": "http://www.johnson.net/"
+} 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 22,
+  "name": "Toys_d8b1127671654b2aae0aaf6b6c2e9d72",
+  "slug": "toys-d8b1127671654b2aae0aaf6b6c2e9d72",
+  "image": "http://www.johnson.net/",
+  "creationAt": "2026-11-08T05:11:26.000Z",
+  "updatedAt": "2026-11-08T05:11:26.000Z"
+} 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Focused homogeneous Local Area Network-36771b2c4ffc450093f4e60f951c5315",
+  "price": 20,
+  "description": "Self-enabling eco-centric utilization",
+  "categoryId": 22,
+  "images": [
+    "https://mckinney-wilson.info/"
+  ]
+} 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 69,
+  "title": "Focused homogeneous Local Area Network-36771b2c4ffc450093f4e60f951c5315",
+  "slug": "focused-homogeneous-local-area-network-36771b2c4ffc450093f4e60f951c5315",
+  "price": 20,
+  "description": "Self-enabling eco-centric utilization",
+  "category": {
+    "id": 22,
+    "name": "Toys_d8b1127671654b2aae0aaf6b6c2e9d72",
+    "slug": "toys-d8b1127671654b2aae0aaf6b6c2e9d72",
+    "image": "http://www.johnson.net/",
+    "creationAt": "2026-11-08T05:11:26.000Z",
+    "updatedAt": "2026-11-08T05:11:26.000Z"
+  },
+  "images": [
+    "https://mckinney-wilson.info/"
+  ],
+  "creationAt": "2026-11-08T05:11:26.000Z",
+  "updatedAt": "2026-11-08T05:11:26.000Z"
+}
+2026-11-08 05:11:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/focused-homogeneous-local-area-network-36771b2c4ffc450093f4e60f951c5315
+Body:
+<empty> 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/focused-homogeneous-local-area-network-36771b2c4ffc450093f4e60f951c5315 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Focused homogeneous Local Area Network-36771b2c4ffc450093f4e60f951c5315",
+  "slug": "focused-homogeneous-local-area-network-36771b2c4ffc450093f4e60f951c5315",
+  "price": 20,
+  "description": "Self-enabling eco-centric utilization",
+  "category": {
+    "id": 22,
+    "name": "Toys_d8b1127671654b2aae0aaf6b6c2e9d72",
+    "slug": "toys-d8b1127671654b2aae0aaf6b6c2e9d72",
+    "image": "http://www.johnson.net/",
+    "creationAt": "2026-11-08T05:11:26.000Z",
+    "updatedAt": "2026-11-08T05:11:26.000Z"
+  },
+  "images": [
+    "https://mckinney-wilson.info/"
+  ],
+  "creationAt": "2026-11-08T05:11:26.000Z",
+  "updatedAt": "2026-11-08T05:11:26.000Z"
+}
+2026-11-08 05:11:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Focused homogeneous Local Area Network-36771b2c4ffc450093f4e60f951c5315",
+  "slug": "focused-homogeneous-local-area-network-36771b2c4ffc450093f4e60f951c5315",
+  "price": 20,
+  "description": "Self-enabling eco-centric utilization",
+  "category": {
+    "id": 22,
+    "name": "Toys_d8b1127671654b2aae0aaf6b6c2e9d72",
+    "slug": "toys-d8b1127671654b2aae0aaf6b6c2e9d72",
+    "image": "http://www.johnson.net/",
+    "creationAt": "2026-11-08T05:11:26.000Z",
+    "updatedAt": "2026-11-08T05:11:26.000Z"
+  },
+  "images": [
+    "https://mckinney-wilson.info/"
+  ],
+  "creationAt": "2026-11-08T05:11:26.000Z",
+  "updatedAt": "2026-11-08T05:11:26.000Z"
+} 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+true 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Toys_d8b1127671654b2aae0aaf6b6c2e9d72",
+  "slug": "toys-d8b1127671654b2aae0aaf6b6c2e9d72",
+  "image": "http://www.johnson.net/",
+  "creationAt": "2026-11-08T05:11:26.000Z",
+  "updatedAt": "2026-11-08T05:11:26.000Z"
+} 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-11-08 05:11:26 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+true

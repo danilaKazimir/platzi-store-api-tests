@@ -1,0 +1,55 @@
+2026-11-09 05:23:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_22776ad9acaf46caaa81e7cea49db3e1",
+  "image": "http://www.willis-austin.com/"
+} 
+
+2026-11-09 05:23:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Home & Kitchen_22776ad9acaf46caaa81e7cea49db3e1",
+  "slug": "home-kitchen-22776ad9acaf46caaa81e7cea49db3e1",
+  "image": "http://www.willis-austin.com/",
+  "creationAt": "2026-11-09T05:23:13.000Z",
+  "updatedAt": "2026-11-09T05:23:13.000Z"
+}
+2026-11-09 05:23:13 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/14
+Body:
+{
+  "name": "Pet Supplies_2e3cd0a4aaab44779011cde4e80b0ac6",
+  "image": null
+} 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/14 -> 400
+Body:
+{
+  "path": "/api/v1/categories/14",
+  "timestamp": "2026-11-09T05:23:14.081Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-11-09 05:23:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Home & Kitchen_22776ad9acaf46caaa81e7cea49db3e1",
+  "slug": "home-kitchen-22776ad9acaf46caaa81e7cea49db3e1",
+  "image": "http://www.willis-austin.com/",
+  "creationAt": "2026-11-09T05:23:13.000Z",
+  "updatedAt": "2026-11-09T05:23:13.000Z"
+} 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+true

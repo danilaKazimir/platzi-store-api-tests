@@ -1,0 +1,79 @@
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_8c06d55cc05f42c5b8f18a5012b6f595",
+  "image": "http://www.smith-davis.org/"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Food & Beverages_8c06d55cc05f42c5b8f18a5012b6f595",
+  "slug": "food-beverages-8c06d55cc05f42c5b8f18a5012b6f595",
+  "image": "http://www.smith-davis.org/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+}
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Integrated modular system engine-05e30a95635243b391b7aeb9e57a2e0f",
+  "price": 766,
+  "description": "Stand-alone human-resource algorithm",
+  "categoryId": 32,
+  "images": [
+    "https://www.cordova.com/"
+  ]
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 169,
+  "title": "Integrated modular system engine-05e30a95635243b391b7aeb9e57a2e0f",
+  "slug": "integrated-modular-system-engine-05e30a95635243b391b7aeb9e57a2e0f",
+  "price": 766,
+  "description": "Stand-alone human-resource algorithm",
+  "category": {
+    "id": 32,
+    "name": "Food & Beverages_8c06d55cc05f42c5b8f18a5012b6f595",
+    "slug": "food-beverages-8c06d55cc05f42c5b8f18a5012b6f595",
+    "image": "http://www.smith-davis.org/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "https://www.cordova.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+}
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Food & Beverages_8c06d55cc05f42c5b8f18a5012b6f595",
+  "slug": "food-beverages-8c06d55cc05f42c5b8f18a5012b6f595",
+  "image": "http://www.smith-davis.org/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 400
+Body:
+{
+  "path": "/api/v1/categories/32",
+  "timestamp": "2026-10-22T03:53:50.681Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

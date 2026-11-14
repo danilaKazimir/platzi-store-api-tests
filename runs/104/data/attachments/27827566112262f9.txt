@@ -1,0 +1,107 @@
+2026-10-25 03:51:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_424745002b6a4326a1964795e987a8ed",
+  "image": "https://grant.biz/"
+} 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Toys_424745002b6a4326a1964795e987a8ed",
+  "slug": "toys-424745002b6a4326a1964795e987a8ed",
+  "image": "https://grant.biz/",
+  "creationAt": "2026-10-25T03:51:13.000Z",
+  "updatedAt": "2026-10-25T03:51:13.000Z"
+} 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Intuitive composite capacity-fe39885113b8486f87db1cf55b55669c",
+  "price": 863,
+  "description": "Cross-group fault-tolerant throughput",
+  "categoryId": 32,
+  "images": [
+    "http://santiago-franklin.com/"
+  ]
+} 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 142,
+  "title": "Intuitive composite capacity-fe39885113b8486f87db1cf55b55669c",
+  "slug": "intuitive-composite-capacity-fe39885113b8486f87db1cf55b55669c",
+  "price": 863,
+  "description": "Cross-group fault-tolerant throughput",
+  "category": {
+    "id": 32,
+    "name": "Toys_424745002b6a4326a1964795e987a8ed",
+    "slug": "toys-424745002b6a4326a1964795e987a8ed",
+    "image": "https://grant.biz/",
+    "creationAt": "2026-10-25T03:51:13.000Z",
+    "updatedAt": "2026-10-25T03:51:13.000Z"
+  },
+  "images": [
+    "http://santiago-franklin.com/"
+  ],
+  "creationAt": "2026-10-25T03:51:13.000Z",
+  "updatedAt": "2026-10-25T03:51:13.000Z"
+}
+2026-10-25 03:51:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/142
+Body:
+<empty> 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/142 -> 200
+Body:
+true 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/142
+Body:
+<empty> 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/142 -> 400
+Body:
+{
+  "path": "/api/v1/products/142",
+  "timestamp": "2026-10-25T03:51:13.383Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 142\n    }\n}"
+}
+2026-10-25 03:51:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/142
+Body:
+<empty> 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/142 -> 400
+Body:
+{
+  "path": "/api/v1/products/142",
+  "timestamp": "2026-10-25T03:51:13.421Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 142\n    }\n}"
+} 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Toys_424745002b6a4326a1964795e987a8ed",
+  "slug": "toys-424745002b6a4326a1964795e987a8ed",
+  "image": "https://grant.biz/",
+  "creationAt": "2026-10-25T03:51:13.000Z",
+  "updatedAt": "2026-10-25T03:51:13.000Z"
+} 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-10-25 03:51:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+true

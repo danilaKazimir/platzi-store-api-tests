@@ -1,0 +1,107 @@
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_8ce96b97d7914cee8fdabe08c9aee1ef",
+  "image": "https://chambers-owens.biz/"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 30,
+  "name": "Food & Beverages_8ce96b97d7914cee8fdabe08c9aee1ef",
+  "slug": "food-beverages-8ce96b97d7914cee8fdabe08c9aee1ef",
+  "image": "https://chambers-owens.biz/",
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Adaptive modular project-c9ad29b82a834a13be8959ed83893b2e",
+  "price": 590,
+  "description": "Enterprise-wide neutral protocol",
+  "categoryId": 30,
+  "images": [
+    "https://owen.com/"
+  ]
+} 
+
+2026-11-12 06:25:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 63,
+  "title": "Adaptive modular project-c9ad29b82a834a13be8959ed83893b2e",
+  "slug": "adaptive-modular-project-c9ad29b82a834a13be8959ed83893b2e",
+  "price": 590,
+  "description": "Enterprise-wide neutral protocol",
+  "category": {
+    "id": 30,
+    "name": "Food & Beverages_8ce96b97d7914cee8fdabe08c9aee1ef",
+    "slug": "food-beverages-8ce96b97d7914cee8fdabe08c9aee1ef",
+    "image": "https://chambers-owens.biz/",
+    "creationAt": "2026-11-12T06:25:20.000Z",
+    "updatedAt": "2026-11-12T06:25:20.000Z"
+  },
+  "images": [
+    "https://owen.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:21.000Z",
+  "updatedAt": "2026-11-12T06:25:21.000Z"
+}
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/63
+Body:
+<empty> 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/63 -> 200
+Body:
+true 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/63
+Body:
+<empty> 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/63 -> 400
+Body:
+{
+  "path": "/api/v1/products/63",
+  "timestamp": "2026-11-12T06:25:22.019Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 63\n    }\n}"
+}
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/63
+Body:
+<empty> 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/63 -> 400
+Body:
+{
+  "path": "/api/v1/products/63",
+  "timestamp": "2026-11-12T06:25:22.120Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 63\n    }\n}"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+{
+  "id": 30,
+  "name": "Food & Beverages_8ce96b97d7914cee8fdabe08c9aee1ef",
+  "slug": "food-beverages-8ce96b97d7914cee8fdabe08c9aee1ef",
+  "image": "https://chambers-owens.biz/",
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/30
+Body:
+<empty> 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/30 -> 200
+Body:
+true

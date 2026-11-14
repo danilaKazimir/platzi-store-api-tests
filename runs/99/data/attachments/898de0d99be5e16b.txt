@@ -1,0 +1,53 @@
+2026-10-20 04:04:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_1c297fbfa9b341739575e0a117806079",
+  "image": "https://phillips-schneider.com/"
+} 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 97,
+  "name": "Personal Care_1c297fbfa9b341739575e0a117806079",
+  "slug": "personal-care-1c297fbfa9b341739575e0a117806079",
+  "image": "https://phillips-schneider.com/",
+  "creationAt": "2026-10-20T04:04:50.000Z",
+  "updatedAt": "2026-10-20T04:04:50.000Z"
+}
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/personal-care-1c297fbfa9b341739575e0a117806079
+Body:
+<empty> 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/personal-care-1c297fbfa9b341739575e0a117806079 -> 200
+Body:
+{
+  "id": 97,
+  "name": "Personal Care_1c297fbfa9b341739575e0a117806079",
+  "slug": "personal-care-1c297fbfa9b341739575e0a117806079",
+  "image": "https://phillips-schneider.com/",
+  "creationAt": "2026-10-20T04:04:50.000Z",
+  "updatedAt": "2026-10-20T04:04:50.000Z"
+}
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+{
+  "id": 97,
+  "name": "Personal Care_1c297fbfa9b341739575e0a117806079",
+  "slug": "personal-care-1c297fbfa9b341739575e0a117806079",
+  "image": "https://phillips-schneider.com/",
+  "creationAt": "2026-10-20T04:04:50.000Z",
+  "updatedAt": "2026-10-20T04:04:50.000Z"
+} 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-10-20 04:04:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+true

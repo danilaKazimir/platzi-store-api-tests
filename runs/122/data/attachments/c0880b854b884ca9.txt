@@ -1,0 +1,55 @@
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_41f17af55b974467937c98ebc97f7cda",
+  "image": "https://day-huerta.com/"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Food & Beverages_41f17af55b974467937c98ebc97f7cda",
+  "slug": "food-beverages-41f17af55b974467937c98ebc97f7cda",
+  "image": "https://day-huerta.com/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/24
+Body:
+{
+  "name": "Home & Kitchen_7ae784dfbd1647d1aea10cab2bef00ae",
+  "image": null
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/24 -> 400
+Body:
+{
+  "path": "/api/v1/categories/24",
+  "timestamp": "2026-11-12T06:25:19.849Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Food & Beverages_41f17af55b974467937c98ebc97f7cda",
+  "slug": "food-beverages-41f17af55b974467937c98ebc97f7cda",
+  "image": "https://day-huerta.com/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

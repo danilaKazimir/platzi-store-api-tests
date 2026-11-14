@@ -1,0 +1,79 @@
+2026-10-19 03:53:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_f0e6715362604879a5b0355f9271c62c",
+  "image": "http://adams.com/"
+} 
+
+2026-10-19 03:53:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 36,
+  "name": "Books_f0e6715362604879a5b0355f9271c62c",
+  "slug": "books-f0e6715362604879a5b0355f9271c62c",
+  "image": "http://adams.com/",
+  "creationAt": "2026-10-19T03:53:07.000Z",
+  "updatedAt": "2026-10-19T03:53:07.000Z"
+}
+2026-10-19 03:53:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based foreground superstructure-f42065e7a9cd48fca64a2740dc97c19a",
+  "price": 503,
+  "description": "Virtual systemic productivity",
+  "categoryId": 36,
+  "images": [
+    "http://armstrong.info/"
+  ]
+} 
+
+2026-10-19 03:53:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 430,
+  "title": "Object-based foreground superstructure-f42065e7a9cd48fca64a2740dc97c19a",
+  "slug": "object-based-foreground-superstructure-f42065e7a9cd48fca64a2740dc97c19a",
+  "price": 503,
+  "description": "Virtual systemic productivity",
+  "category": {
+    "id": 36,
+    "name": "Books_f0e6715362604879a5b0355f9271c62c",
+    "slug": "books-f0e6715362604879a5b0355f9271c62c",
+    "image": "http://adams.com/",
+    "creationAt": "2026-10-19T03:53:07.000Z",
+    "updatedAt": "2026-10-19T03:53:07.000Z"
+  },
+  "images": [
+    "http://armstrong.info/"
+  ],
+  "creationAt": "2026-10-19T03:53:07.000Z",
+  "updatedAt": "2026-10-19T03:53:07.000Z"
+}
+2026-10-19 03:53:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-10-19 03:53:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+{
+  "id": 36,
+  "name": "Books_f0e6715362604879a5b0355f9271c62c",
+  "slug": "books-f0e6715362604879a5b0355f9271c62c",
+  "image": "http://adams.com/",
+  "creationAt": "2026-10-19T03:53:07.000Z",
+  "updatedAt": "2026-10-19T03:53:07.000Z"
+} 
+
+2026-10-19 03:53:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-10-19 03:53:07 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/36 -> 400
+Body:
+{
+  "path": "/api/v1/categories/36",
+  "timestamp": "2026-10-19T03:53:07.818Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

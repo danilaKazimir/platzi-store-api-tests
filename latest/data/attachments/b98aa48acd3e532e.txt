@@ -1,0 +1,88 @@
+2026-11-14 05:35:57 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Mr. Anthony Lowery",
+  "email": "phillipfernandez@example.org",
+  "password": "***",
+  "avatar": "https://www.nichols.org/"
+} 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 4,
+  "email": "phillipfernandez@example.org",
+  "password": "***",
+  "name": "Mr. Anthony Lowery",
+  "role": "customer",
+  "avatar": "https://www.nichols.org/",
+  "creationAt": "2026-11-14T05:35:58.000Z",
+  "updatedAt": "2026-11-14T05:35:58.000Z"
+}
+2026-11-14 05:35:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "phillipfernandez@example.org",
+  "password": "***"
+} 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImlhdCI6MTc5NDYzNDU1OCwiZXhwIjoxNzk0NjcwNTU4fQ.GcehKXlrIKsZi_5PfYMeI1XZYi2vH5dU1z_V0m-aCwo"
+} 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 4,
+  "email": "phillipfernandez@example.org",
+  "password": "***",
+  "name": "Mr. Anthony Lowery",
+  "role": "customer",
+  "avatar": "https://www.nichols.org/",
+  "creationAt": "2026-11-14T05:35:58.000Z",
+  "updatedAt": "2026-11-14T05:35:58.000Z"
+}
+2026-11-14 05:35:58 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+{
+  "id": 4,
+  "email": "phillipfernandez@example.org",
+  "password": "***",
+  "name": "Mr. Anthony Lowery",
+  "role": "customer",
+  "avatar": "https://www.nichols.org/",
+  "creationAt": "2026-11-14T05:35:58.000Z",
+  "updatedAt": "2026-11-14T05:35:58.000Z"
+} 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-11-14 05:35:58 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+true

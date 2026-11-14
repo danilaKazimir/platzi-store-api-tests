@@ -1,0 +1,49 @@
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_16d3e1fce34d4300a179fb76e3a3eee9",
+  "image": "https://www.cunningham-beltran.com/"
+} 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Clothing_16d3e1fce34d4300a179fb76e3a3eee9",
+  "slug": "clothing-16d3e1fce34d4300a179fb76e3a3eee9",
+  "image": "https://www.cunningham-beltran.com/",
+  "creationAt": "2026-10-21T03:53:45.000Z",
+  "updatedAt": "2026-10-21T03:53:45.000Z"
+}
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 400
+Body:
+{
+  "path": "/api/v1/categories/21",
+  "timestamp": "2026-10-21T03:53:45.892Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 21\n}"
+}
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-10-21 03:53:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 400
+Body:
+{
+  "path": "/api/v1/categories/21",
+  "timestamp": "2026-10-21T03:53:45.985Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 21\n}"
+}

@@ -1,0 +1,15 @@
+2026-10-16 03:46:36 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Automotive Accessories_7a6888c637804f789f9ad123033ef9c3",
+  "image": "https://hatfield.biz/"
+} 
+
+2026-10-16 03:46:36 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-16T03:46:36.461Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

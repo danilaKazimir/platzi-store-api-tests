@@ -1,0 +1,81 @@
+2026-11-05 05:48:16 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Travis Guerra Jr.",
+  "email": "jorgeclark@example.net",
+  "password": "***",
+  "avatar": "https://www.mueller.com/"
+} 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 20,
+  "email": "jorgeclark@example.net",
+  "password": "***",
+  "name": "Travis Guerra Jr.",
+  "role": "customer",
+  "avatar": "https://www.mueller.com/",
+  "creationAt": "2026-11-05T05:48:17.000Z",
+  "updatedAt": "2026-11-05T05:48:17.000Z"
+}
+2026-11-05 05:48:17 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/20
+Body:
+{
+  "name": "Lori Esparza",
+  "email": "carlos99@example.net"
+} 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/20 -> 200
+Body:
+{
+  "id": 20,
+  "email": "carlos99@example.net",
+  "password": "***",
+  "name": "Lori Esparza",
+  "role": "customer",
+  "avatar": "https://www.mueller.com/",
+  "creationAt": "2026-11-05T05:48:17.000Z",
+  "updatedAt": "2026-11-05T05:48:17.000Z"
+} 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/20
+Body:
+<empty> 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/20 -> 200
+Body:
+{
+  "id": 20,
+  "email": "carlos99@example.net",
+  "password": "***",
+  "name": "Lori Esparza",
+  "role": "customer",
+  "avatar": "https://www.mueller.com/",
+  "creationAt": "2026-11-05T05:48:17.000Z",
+  "updatedAt": "2026-11-05T05:48:17.000Z"
+}
+2026-11-05 05:48:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/20
+Body:
+<empty> 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/20 -> 200
+Body:
+{
+  "id": 20,
+  "email": "carlos99@example.net",
+  "password": "***",
+  "name": "Lori Esparza",
+  "role": "customer",
+  "avatar": "https://www.mueller.com/",
+  "creationAt": "2026-11-05T05:48:17.000Z",
+  "updatedAt": "2026-11-05T05:48:17.000Z"
+} 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/20
+Body:
+<empty> 
+
+2026-11-05 05:48:17 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/20 -> 200
+Body:
+true

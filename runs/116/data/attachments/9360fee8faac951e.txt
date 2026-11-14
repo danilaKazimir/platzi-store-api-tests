@@ -1,0 +1,81 @@
+2026-11-06 05:44:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Sarah English",
+  "email": "hallen@example.net",
+  "password": "***",
+  "avatar": "https://williams-aguilar.net/"
+} 
+
+2026-11-06 05:44:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 24,
+  "email": "hallen@example.net",
+  "password": "***",
+  "name": "Sarah English",
+  "role": "customer",
+  "avatar": "https://williams-aguilar.net/",
+  "creationAt": "2026-11-06T05:44:52.000Z",
+  "updatedAt": "2026-11-06T05:44:52.000Z"
+}
+2026-11-06 05:44:52 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/24
+Body:
+{
+  "name": "Karen Riley",
+  "email": "sspears@example.net"
+} 
+
+2026-11-06 05:44:52 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+{
+  "id": 24,
+  "email": "sspears@example.net",
+  "password": "***",
+  "name": "Karen Riley",
+  "role": "customer",
+  "avatar": "https://williams-aguilar.net/",
+  "creationAt": "2026-11-06T05:44:52.000Z",
+  "updatedAt": "2026-11-06T05:44:52.000Z"
+} 
+
+2026-11-06 05:44:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/24
+Body:
+<empty> 
+
+2026-11-06 05:44:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+{
+  "id": 24,
+  "email": "sspears@example.net",
+  "password": "***",
+  "name": "Karen Riley",
+  "role": "customer",
+  "avatar": "https://williams-aguilar.net/",
+  "creationAt": "2026-11-06T05:44:52.000Z",
+  "updatedAt": "2026-11-06T05:44:52.000Z"
+}
+2026-11-06 05:44:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/24
+Body:
+<empty> 
+
+2026-11-06 05:44:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+{
+  "id": 24,
+  "email": "sspears@example.net",
+  "password": "***",
+  "name": "Karen Riley",
+  "role": "customer",
+  "avatar": "https://williams-aguilar.net/",
+  "creationAt": "2026-11-06T05:44:52.000Z",
+  "updatedAt": "2026-11-06T05:44:52.000Z"
+} 
+
+2026-11-06 05:44:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/24
+Body:
+<empty> 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+true

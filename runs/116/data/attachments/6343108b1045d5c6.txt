@@ -1,0 +1,125 @@
+2026-11-06 05:44:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_d90551925afe4a468d7871506375d056",
+  "image": "https://aguilar.com/"
+} 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Pet Supplies_d90551925afe4a468d7871506375d056",
+  "slug": "pet-supplies-d90551925afe4a468d7871506375d056",
+  "image": "https://aguilar.com/",
+  "creationAt": "2026-11-06T05:44:53.000Z",
+  "updatedAt": "2026-11-06T05:44:53.000Z"
+} 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Public-key human-resource knowledge user-7d0394665ffa42529a3f0c31e342e206",
+  "price": 787,
+  "description": "Proactive real-time ability",
+  "categoryId": 35,
+  "images": [
+    "http://www.shepard.org/"
+  ]
+} 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 156,
+  "title": "Public-key human-resource knowledge user-7d0394665ffa42529a3f0c31e342e206",
+  "slug": "public-key-human-resource-knowledge-user-7d0394665ffa42529a3f0c31e342e206",
+  "price": 787,
+  "description": "Proactive real-time ability",
+  "category": {
+    "id": 35,
+    "name": "Pet Supplies_d90551925afe4a468d7871506375d056",
+    "slug": "pet-supplies-d90551925afe4a468d7871506375d056",
+    "image": "https://aguilar.com/",
+    "creationAt": "2026-11-06T05:44:53.000Z",
+    "updatedAt": "2026-11-06T05:44:53.000Z"
+  },
+  "images": [
+    "http://www.shepard.org/"
+  ],
+  "creationAt": "2026-11-06T05:44:53.000Z",
+  "updatedAt": "2026-11-06T05:44:53.000Z"
+}
+2026-11-06 05:44:53 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/156
+Body:
+{
+  "title": "Function-based asynchronous conglomeration-244fb70f2dad43138f77eff82c8613ea",
+  "price": 121,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/156 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-06 05:44:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/156
+Body:
+<empty> 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/156 -> 200
+Body:
+{
+  "id": 156,
+  "title": "Public-key human-resource knowledge user-7d0394665ffa42529a3f0c31e342e206",
+  "slug": "public-key-human-resource-knowledge-user-7d0394665ffa42529a3f0c31e342e206",
+  "price": 787,
+  "description": "Proactive real-time ability",
+  "category": {
+    "id": 35,
+    "name": "Pet Supplies_d90551925afe4a468d7871506375d056",
+    "slug": "pet-supplies-d90551925afe4a468d7871506375d056",
+    "image": "https://aguilar.com/",
+    "creationAt": "2026-11-06T05:44:53.000Z",
+    "updatedAt": "2026-11-06T05:44:53.000Z"
+  },
+  "images": [
+    "http://www.shepard.org/"
+  ],
+  "creationAt": "2026-11-06T05:44:53.000Z",
+  "updatedAt": "2026-11-06T05:44:53.000Z"
+} 
+
+2026-11-06 05:44:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/156
+Body:
+<empty> 
+
+2026-11-06 05:44:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/156 -> 200
+Body:
+true 
+
+2026-11-06 05:44:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-11-06 05:44:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Pet Supplies_d90551925afe4a468d7871506375d056",
+  "slug": "pet-supplies-d90551925afe4a468d7871506375d056",
+  "image": "https://aguilar.com/",
+  "creationAt": "2026-11-06T05:44:53.000Z",
+  "updatedAt": "2026-11-06T05:44:53.000Z"
+} 
+
+2026-11-06 05:44:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-11-06 05:44:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

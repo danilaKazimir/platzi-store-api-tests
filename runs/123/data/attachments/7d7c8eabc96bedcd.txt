@@ -1,0 +1,125 @@
+2026-11-13 05:45:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_ea0e7b4d1b4d4a5d8d065ea74ec08542",
+  "image": "http://www.johnson-edwards.com/"
+} 
+
+2026-11-13 05:45:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Toys_ea0e7b4d1b4d4a5d8d065ea74ec08542",
+  "slug": "toys-ea0e7b4d1b4d4a5d8d065ea74ec08542",
+  "image": "http://www.johnson-edwards.com/",
+  "creationAt": "2026-11-13T05:45:47.000Z",
+  "updatedAt": "2026-11-13T05:45:47.000Z"
+} 
+
+2026-11-13 05:45:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Pre-emptive systematic implementation-d5724ae9b91a4748b398dfb477772acb",
+  "price": 749,
+  "description": "Secured systemic portal",
+  "categoryId": 25,
+  "images": [
+    "http://dunn-santos.biz/"
+  ]
+} 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 70,
+  "title": "Pre-emptive systematic implementation-d5724ae9b91a4748b398dfb477772acb",
+  "slug": "pre-emptive-systematic-implementation-d5724ae9b91a4748b398dfb477772acb",
+  "price": 749,
+  "description": "Secured systemic portal",
+  "category": {
+    "id": 25,
+    "name": "Toys_ea0e7b4d1b4d4a5d8d065ea74ec08542",
+    "slug": "toys-ea0e7b4d1b4d4a5d8d065ea74ec08542",
+    "image": "http://www.johnson-edwards.com/",
+    "creationAt": "2026-11-13T05:45:47.000Z",
+    "updatedAt": "2026-11-13T05:45:47.000Z"
+  },
+  "images": [
+    "http://dunn-santos.biz/"
+  ],
+  "creationAt": "2026-11-13T05:45:48.000Z",
+  "updatedAt": "2026-11-13T05:45:48.000Z"
+}
+2026-11-13 05:45:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/70
+Body:
+{
+  "title": "Organic encompassing forecast-e660f757aabc4485af54556d0d7c6859",
+  "price": 76,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/70 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-13 05:45:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+{
+  "id": 70,
+  "title": "Pre-emptive systematic implementation-d5724ae9b91a4748b398dfb477772acb",
+  "slug": "pre-emptive-systematic-implementation-d5724ae9b91a4748b398dfb477772acb",
+  "price": 749,
+  "description": "Secured systemic portal",
+  "category": {
+    "id": 25,
+    "name": "Toys_ea0e7b4d1b4d4a5d8d065ea74ec08542",
+    "slug": "toys-ea0e7b4d1b4d4a5d8d065ea74ec08542",
+    "image": "http://www.johnson-edwards.com/",
+    "creationAt": "2026-11-13T05:45:47.000Z",
+    "updatedAt": "2026-11-13T05:45:47.000Z"
+  },
+  "images": [
+    "http://dunn-santos.biz/"
+  ],
+  "creationAt": "2026-11-13T05:45:48.000Z",
+  "updatedAt": "2026-11-13T05:45:48.000Z"
+} 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+true 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Toys_ea0e7b4d1b4d4a5d8d065ea74ec08542",
+  "slug": "toys-ea0e7b4d1b4d4a5d8d065ea74ec08542",
+  "image": "http://www.johnson-edwards.com/",
+  "creationAt": "2026-11-13T05:45:47.000Z",
+  "updatedAt": "2026-11-13T05:45:47.000Z"
+} 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-13 05:45:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

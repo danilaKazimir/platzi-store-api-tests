@@ -1,0 +1,588 @@
+2026-10-17 03:36:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/
+Body:
+<empty> 
+
+2026-10-17 03:36:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T15:36:16.000Z",
+    "updatedAt": "2026-10-16T15:36:16.000Z"
+  },
+  {
+    "id": 2,
+    "email": "maria@mail.com",
+    "password": "12345",
+    "name": "Maria",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2026-10-16T15:36:16.000Z",
+    "updatedAt": "2026-10-16T15:36:16.000Z"
+  },
+  {
+    "id": 3,
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-10-16T15:36:16.000Z",
+    "updatedAt": "2026-10-16T15:36:16.000Z"
+  },
+  {
+    "id": 17,
+    "email": "n44@gmail.com",
+    "password": "12345678n",
+    "name": "nn",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T15:47:51.000Z",
+    "updatedAt": "2026-10-16T15:47:51.000Z"
+  },
+  {
+    "id": 18,
+    "email": "kenton_krajcik@qa-satc.com",
+    "password": "hPQHmQ83Y4",
+    "name": "Stacy Smitham",
+    "role": "customer",
+    "avatar": "https://placehold.co/600x400",
+    "creationAt": "2026-10-16T15:48:51.000Z",
+    "updatedAt": "2026-10-16T15:48:51.000Z"
+  },
+  {
+    "id": 19,
+    "email": "selam1234@gmail.com",
+    "password": "123456",
+    "name": "Selam Dilnesa",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDy6l7T.png",
+    "creationAt": "2026-10-16T15:51:13.000Z",
+    "updatedAt": "2026-10-16T15:51:13.000Z"
+  },
+  {
+    "id": 20,
+    "email": "amor83874@gmail.com",
+    "password": "123456789aa",
+    "name": "boda",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T15:59:14.000Z",
+    "updatedAt": "2026-10-16T15:59:14.000Z"
+  },
+  {
+    "id": 21,
+    "email": "butusov.denis1995@gmail.com",
+    "password": "qwerty123",
+    "name": "Бутусов Денис",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2026-10-16T16:04:02.000Z",
+    "updatedAt": "2026-10-16T16:04:02.000Z"
+  },
+  {
+    "id": 22,
+    "email": "mo7amed3ly77@gmail.com",
+    "password": "Mo123456",
+    "name": "Mohamed Aly",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T16:12:05.000Z",
+    "updatedAt": "2026-10-16T16:12:05.000Z"
+  },
+  {
+    "id": 23,
+    "email": "selamdilnesascam2@gmail.com",
+    "password": "123456",
+    "name": "Selam Dilnesa",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDy6l7T.png",
+    "creationAt": "2026-10-16T16:17:48.000Z",
+    "updatedAt": "2026-10-16T16:17:48.000Z"
+  },
+  {
+    "id": 24,
+    "email": "n44@gmail.com",
+    "password": "12345678n",
+    "name": "na",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T16:20:12.000Z",
+    "updatedAt": "2026-10-16T16:20:12.000Z"
+  },
+  {
+    "id": 25,
+    "email": "n22@gmail.com",
+    "password": "12345678n",
+    "name": "na",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T16:21:36.000Z",
+    "updatedAt": "2026-10-16T16:21:36.000Z"
+  },
+  {
+    "id": 26,
+    "email": "sondos@gmail.com",
+    "password": "password",
+    "name": "uhuhu",
+    "role": "customer",
+    "avatar": "https://www.google.com/imgres?q=rabbit%20cartoon&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-vector%2F20240413%2Fourmid%2Fpngtree-cartoon-rabbit-eating-icon-image-png-image_12285856.png&imgrefurl=https%3A%2F%2Fpngtree.com%2Fso%2Frabbit-cartoon-image&docid=-dj1ArcI2b9jbM&tbnid=7ge6RK1evgFGHM&vet=12ahUKEwih3ZH9gL2XAxUN_rsIHYZ_KKkQnPAOegQIORAA..i&w=360&h=360&hcb=2&ved=2ahUKEwih3ZH9gL2XAxUN_rsIHYZ_KKkQnPAOegQIORAA",
+    "creationAt": "2026-10-16T16:24:34.000Z",
+    "updatedAt": "2026-10-16T16:24:34.000Z"
+  },
+  {
+    "id": 27,
+    "email": "nada@gmail.com",
+    "password": "123456",
+    "name": "nada",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T16:32:04.000Z",
+    "updatedAt": "2026-10-16T16:32:04.000Z"
+  },
+  {
+    "id": 54,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T17:01:02.000Z",
+    "updatedAt": "2026-10-16T17:01:02.000Z"
+  },
+  {
+    "id": 55,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T17:01:04.000Z",
+    "updatedAt": "2026-10-16T17:01:04.000Z"
+  },
+  {
+    "id": 56,
+    "email": "rinaldi@gmail.com",
+    "password": "1234",
+    "name": "Rinaldi",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T17:01:05.000Z",
+    "updatedAt": "2026-10-16T17:01:05.000Z"
+  },
+  {
+    "id": 70,
+    "email": "malek@gmail.com",
+    "password": "123456789",
+    "name": "malek",
+    "role": "customer",
+    "avatar": "https://kommodo.ai/i/882phr5H23Az9KAhleTY",
+    "creationAt": "2026-10-16T17:26:35.000Z",
+    "updatedAt": "2026-10-16T17:26:35.000Z"
+  },
+  {
+    "id": 71,
+    "email": "Abdallah@gmail.com",
+    "password": "123456789",
+    "name": "Abdallah",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T17:33:09.000Z",
+    "updatedAt": "2026-10-16T17:33:09.000Z"
+  },
+  {
+    "id": 72,
+    "email": "saramuhamed0001@gmail.com",
+    "password": "Sara123456",
+    "name": "sara",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T17:45:12.000Z",
+    "updatedAt": "2026-10-16T17:45:12.000Z"
+  },
+  {
+    "id": 73,
+    "email": "joo@gmail.com",
+    "password": "123456789",
+    "name": "yoyoussef",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T17:53:48.000Z",
+    "updatedAt": "2026-10-16T17:53:48.000Z"
+  },
+  {
+    "id": 74,
+    "email": "ellnoby13@gmail.com",
+    "password": "12345678",
+    "name": "ahmed",
+    "role": "customer",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "creationAt": "2026-10-16T17:53:49.000Z",
+    "updatedAt": "2026-10-16T17:53:49.000Z"
+  },
+  {
+    "id": 87,
+    "email": "bob@gmail.com",
+    "password": "123456",
+    "name": "bob",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T18:04:42.000Z",
+    "updatedAt": "2026-10-16T18:04:42.000Z"
+  },
+  {
+    "id": 102,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-10-16T18:15:12.000Z",
+    "updatedAt": "2026-10-16T18:15:12.000Z"
+  },
+  {
+    "id": 104,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-10-16T18:15:13.000Z",
+    "updatedAt": "2026-10-16T18:15:13.000Z"
+  },
+  {
+    "id": 106,
+    "email": "jamuna@gmail.com",
+    "password": "8989890",
+    "name": "Jamuna",
+    "role": "customer",
+    "avatar": "https://th.bing.com/th/id/OIP.dIQMAZ8SasDa_oqlHryN3gAAAA?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "creationAt": "2026-10-16T18:15:13.000Z",
+    "updatedAt": "2026-10-16T18:15:13.000Z"
+  },
+  {
+    "id": 107,
+    "email": "sara123@gmal.com",
+    "password": "sARA123456",
+    "name": "sara",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T18:18:24.000Z",
+    "updatedAt": "2026-10-16T18:18:24.000Z"
+  },
+  {
+    "id": 108,
+    "email": "sara123@gmail.com",
+    "password": "123456",
+    "name": "sara",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T18:19:25.000Z",
+    "updatedAt": "2026-10-16T18:19:25.000Z"
+  },
+  {
+    "id": 109,
+    "email": "karim1712@gmail.com",
+    "password": "karim1712",
+    "name": "karim",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2026-10-16T19:01:23.000Z",
+    "updatedAt": "2026-10-16T19:01:23.000Z"
+  },
+  {
+    "id": 137,
+    "email": "alimhassaan442007@gmail.com",
+    "password": "12345678",
+    "name": "ali",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T19:58:36.000Z",
+    "updatedAt": "2026-10-16T19:58:36.000Z"
+  },
+  {
+    "id": 138,
+    "email": "gsgdfg@g.com",
+    "password": "dgdgd",
+    "name": "111",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150",
+    "creationAt": "2026-10-16T20:05:23.000Z",
+    "updatedAt": "2026-10-16T20:05:23.000Z"
+  },
+  {
+    "id": 139,
+    "email": "27med.ahmed11@gmail.com",
+    "password": "162007",
+    "name": "Ahmed Ibrahim ",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T20:37:48.000Z",
+    "updatedAt": "2026-10-16T20:37:48.000Z"
+  },
+  {
+    "id": 140,
+    "email": "joo@gmail.com",
+    "password": "12345678",
+    "name": "youssef",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T20:41:28.000Z",
+    "updatedAt": "2026-10-16T20:41:28.000Z"
+  },
+  {
+    "id": 141,
+    "email": "hh@jj.com",
+    "password": "019283",
+    "name": "Ibrahim Ahmed",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T20:46:44.000Z",
+    "updatedAt": "2026-10-16T20:46:44.000Z"
+  },
+  {
+    "id": 142,
+    "email": "mafdysaad2026@example.com",
+    "password": "Test20182018",
+    "name": "Mafdy",
+    "role": "customer",
+    "avatar": "https://unsplash.com/photos/hand-holding-smartphone-with-usb-drive-plugged-in-bSIKF9GnyPE",
+    "creationAt": "2026-10-16T20:47:20.000Z",
+    "updatedAt": "2026-10-16T20:47:20.000Z"
+  },
+  {
+    "id": 143,
+    "email": "joo@gmail.com",
+    "password": "123456789",
+    "name": "youssef",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T20:51:33.000Z",
+    "updatedAt": "2026-10-16T20:51:33.000Z"
+  },
+  {
+    "id": 144,
+    "email": "beko@gmail.com",
+    "password": "uhuhax202",
+    "name": "beko",
+    "role": "admin",
+    "avatar": "image.exam",
+    "creationAt": "2026-10-16T21:00:50.000Z",
+    "updatedAt": "2026-10-16T21:00:50.000Z"
+  },
+  {
+    "id": 146,
+    "email": "h@gmail.com",
+    "password": "123456",
+    "name": "hazem",
+    "role": "customer",
+    "avatar": "https://picsum.photos/800",
+    "creationAt": "2026-10-16T21:05:02.000Z",
+    "updatedAt": "2026-10-16T21:05:02.000Z"
+  },
+  {
+    "id": 147,
+    "email": "mosabelra2y@gmail.com",
+    "password": "123rt56455ggh",
+    "name": "Mosab ",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T21:20:31.000Z",
+    "updatedAt": "2026-10-16T21:20:31.000Z"
+  },
+  {
+    "id": 148,
+    "email": "zdakxtanfxjf123@gmail.com",
+    "password": "abdo123456789",
+    "name": "عبدالله محمد علي ",
+    "role": "customer",
+    "avatar": "https://api.lorem.space/image/face?w=640&h=480",
+    "creationAt": "2026-10-16T21:23:06.000Z",
+    "updatedAt": "2026-10-16T21:23:06.000Z"
+  },
+  {
+    "id": 149,
+    "email": "gergesfaiz3@gmail.com",
+    "password": "1234567890Gg",
+    "name": "gergesfaiz",
+    "role": "customer",
+    "avatar": "https://i.pravatar.cc/150?u=gergesfaiz3@gmail.com",
+    "creationAt": "2026-10-17T00:29:12.000Z",
+    "updatedAt": "2026-10-17T00:29:12.000Z"
+  },
+  {
+    "id": 150,
+    "email": "zahraaelghandour@std.mans.edu.eg",
+    "password": "123456789",
+    "name": "zahraa",
+    "role": "customer",
+    "avatar": "https://picsum.photos/seed/1022673203/200",
+    "creationAt": "2026-10-17T00:55:53.000Z",
+    "updatedAt": "2026-10-17T00:55:53.000Z"
+  },
+  {
+    "id": 151,
+    "email": "smcarvajalgu@gmail.com",
+    "password": "Rocco2347",
+    "name": "Carvajal",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T02:43:44.000Z",
+    "updatedAt": "2026-10-17T02:43:44.000Z"
+  },
+  {
+    "id": 152,
+    "email": "s@gmail.com",
+    "password": "rocco2347",
+    "name": "sandra milena",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T02:46:02.000Z",
+    "updatedAt": "2026-10-17T02:46:02.000Z"
+  },
+  {
+    "id": 153,
+    "email": "smcarvajalgu@gmail.com",
+    "password": "rocco2347",
+    "name": "Sandra Carvajal gutierrez",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T02:53:03.000Z",
+    "updatedAt": "2026-10-17T02:53:03.000Z"
+  },
+  {
+    "id": 154,
+    "email": "smcarvajalgu@gmail.com",
+    "password": "rocco2347",
+    "name": "Sandra Carvajal gutierrez",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T02:55:21.000Z",
+    "updatedAt": "2026-10-17T02:55:21.000Z"
+  },
+  {
+    "id": 155,
+    "email": "probe352040111@example.com",
+    "password": "clave12345",
+    "name": "Probe User",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:00:46.000Z",
+    "updatedAt": "2026-10-17T03:00:46.000Z"
+  },
+  {
+    "id": 156,
+    "email": "dup433831372@example.com",
+    "password": "clave12345",
+    "name": "Probe Dup",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:00:51.000Z",
+    "updatedAt": "2026-10-17T03:00:51.000Z"
+  },
+  {
+    "id": 157,
+    "email": "dup433831372@example.com",
+    "password": "clave12345",
+    "name": "Probe Dup",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:00:51.000Z",
+    "updatedAt": "2026-10-17T03:00:51.000Z"
+  },
+  {
+    "id": 158,
+    "email": "ok@test.com",
+    "password": "clave12345",
+    "name": "Probe Mail",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:01:08.000Z",
+    "updatedAt": "2026-10-17T03:01:08.000Z"
+  },
+  {
+    "id": 159,
+    "email": "teresa@gmail.com",
+    "password": "clave12345",
+    "name": "Teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:04:51.000Z",
+    "updatedAt": "2026-10-17T03:04:51.000Z"
+  },
+  {
+    "id": 160,
+    "email": "teresa.browser@gmail.com",
+    "password": "clave12345",
+    "name": "Teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:05:06.000Z",
+    "updatedAt": "2026-10-17T03:05:06.000Z"
+  },
+  {
+    "id": 161,
+    "email": "teresa@gmail.com",
+    "password": "clave12345",
+    "name": "Teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:05:22.000Z",
+    "updatedAt": "2026-10-17T03:05:22.000Z"
+  },
+  {
+    "id": 162,
+    "email": "Teresa@Gmail.com",
+    "password": "clave12345",
+    "name": "Teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:05:22.000Z",
+    "updatedAt": "2026-10-17T03:05:22.000Z"
+  },
+  {
+    "id": 163,
+    "email": "rigo@gmail.com",
+    "password": "12345678",
+    "name": "rigo",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:05:32.000Z",
+    "updatedAt": "2026-10-17T03:05:32.000Z"
+  },
+  {
+    "id": 164,
+    "email": "teresa.sin.slash.1965574184@gmail.com",
+    "password": "clave12345",
+    "name": "Teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:05:33.000Z",
+    "updatedAt": "2026-10-17T03:05:33.000Z"
+  },
+  {
+    "id": 165,
+    "email": "teresa@gmail.com",
+    "password": "12345678",
+    "name": "teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:05:49.000Z",
+    "updatedAt": "2026-10-17T03:05:49.000Z"
+  },
+  {
+    "id": 166,
+    "email": "teresa@gmail.com",
+    "password": "12345678",
+    "name": "teresa",
+    "role": "customer",
+    "avatar": "https://placehold.co/150",
+    "creationAt": "2026-10-17T03:07:12.000Z",
+    "updatedAt": "2026-10-17T03:07:12.000Z"
+  }
+]

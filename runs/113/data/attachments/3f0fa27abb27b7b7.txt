@@ -1,0 +1,135 @@
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_486d42357d144bd5af640644f0dba370",
+  "image": "https://morgan-ramirez.com/"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Pet Supplies_486d42357d144bd5af640644f0dba370",
+  "slug": "pet-supplies-486d42357d144bd5af640644f0dba370",
+  "image": "https://morgan-ramirez.com/",
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Open-source impactful moderator-97c0abb33994413a89fb749b9651c933",
+  "price": 525,
+  "description": "Focused intangible knowledge user",
+  "categoryId": 21,
+  "images": [
+    "http://www.hernandez.info/"
+  ]
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 99,
+  "title": "Open-source impactful moderator-97c0abb33994413a89fb749b9651c933",
+  "slug": "open-source-impactful-moderator-97c0abb33994413a89fb749b9651c933",
+  "price": 525,
+  "description": "Focused intangible knowledge user",
+  "category": {
+    "id": 21,
+    "name": "Pet Supplies_486d42357d144bd5af640644f0dba370",
+    "slug": "pet-supplies-486d42357d144bd5af640644f0dba370",
+    "image": "https://morgan-ramirez.com/",
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  },
+  "images": [
+    "http://www.hernandez.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+}
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/open-source-impactful-moderator-97c0abb33994413a89fb749b9651c933
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/open-source-impactful-moderator-97c0abb33994413a89fb749b9651c933 -> 200
+Body:
+{
+  "id": 99,
+  "title": "Open-source impactful moderator-97c0abb33994413a89fb749b9651c933",
+  "slug": "open-source-impactful-moderator-97c0abb33994413a89fb749b9651c933",
+  "price": 525,
+  "description": "Focused intangible knowledge user",
+  "category": {
+    "id": 21,
+    "name": "Pet Supplies_486d42357d144bd5af640644f0dba370",
+    "slug": "pet-supplies-486d42357d144bd5af640644f0dba370",
+    "image": "https://morgan-ramirez.com/",
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  },
+  "images": [
+    "http://www.hernandez.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+}
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/99
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/99 -> 200
+Body:
+{
+  "id": 99,
+  "title": "Open-source impactful moderator-97c0abb33994413a89fb749b9651c933",
+  "slug": "open-source-impactful-moderator-97c0abb33994413a89fb749b9651c933",
+  "price": 525,
+  "description": "Focused intangible knowledge user",
+  "category": {
+    "id": 21,
+    "name": "Pet Supplies_486d42357d144bd5af640644f0dba370",
+    "slug": "pet-supplies-486d42357d144bd5af640644f0dba370",
+    "image": "https://morgan-ramirez.com/",
+    "creationAt": "2026-11-03T05:52:39.000Z",
+    "updatedAt": "2026-11-03T05:52:39.000Z"
+  },
+  "images": [
+    "http://www.hernandez.info/"
+  ],
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/99
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/99 -> 200
+Body:
+true 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Pet Supplies_486d42357d144bd5af640644f0dba370",
+  "slug": "pet-supplies-486d42357d144bd5af640644f0dba370",
+  "image": "https://morgan-ramirez.com/",
+  "creationAt": "2026-11-03T05:52:39.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-03 05:52:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true

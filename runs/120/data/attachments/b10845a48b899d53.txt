@@ -1,0 +1,71 @@
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_d682dc4e008e4789b0efc822802d4021",
+  "image": "http://www.hanson.info/"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Toys_d682dc4e008e4789b0efc822802d4021",
+  "slug": "toys-d682dc4e008e4789b0efc822802d4021",
+  "image": "http://www.hanson.info/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:20.000Z"
+}
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/33
+Body:
+{
+  "name": "Books_6ab8aa20b1614788aea031203ced9159",
+  "image": "https://campbell.net/"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Books_6ab8aa20b1614788aea031203ced9159",
+  "slug": "books-6ab8aa20b1614788aea031203ced9159",
+  "image": "https://campbell.net/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:21.000Z"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Books_6ab8aa20b1614788aea031203ced9159",
+  "slug": "books-6ab8aa20b1614788aea031203ced9159",
+  "image": "https://campbell.net/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:21.000Z"
+}
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Books_6ab8aa20b1614788aea031203ced9159",
+  "slug": "books-6ab8aa20b1614788aea031203ced9159",
+  "image": "https://campbell.net/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:21.000Z"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

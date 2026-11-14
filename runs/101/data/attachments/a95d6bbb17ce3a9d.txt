@@ -1,0 +1,3491 @@
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7e147821148c4cf0a1c5f731d4a2278e",
+  "image": "https://www.martin-macias.com/"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Books_7e147821148c4cf0a1c5f731d4a2278e",
+  "slug": "books-7e147821148c4cf0a1c5f731d4a2278e",
+  "image": "https://www.martin-macias.com/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Grass-roots disintermediate analyzer-dee9c8116f044c48985af69851b14704",
+  "price": 670,
+  "description": "Open-architected grid-enabled application",
+  "categoryId": 33,
+  "images": [
+    "http://hernandez.org/"
+  ]
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 171,
+  "title": "Grass-roots disintermediate analyzer-dee9c8116f044c48985af69851b14704",
+  "slug": "grass-roots-disintermediate-analyzer-dee9c8116f044c48985af69851b14704",
+  "price": 670,
+  "description": "Open-architected grid-enabled application",
+  "category": {
+    "id": 33,
+    "name": "Books_7e147821148c4cf0a1c5f731d4a2278e",
+    "slug": "books-7e147821148c4cf0a1c5f731d4a2278e",
+    "image": "https://www.martin-macias.com/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "http://hernandez.org/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 2,
+    "title": "Classic Red Pullover Hoodie",
+    "slug": "classic-red-pullover-hoodie",
+    "price": 10,
+    "description": "Elevate your casual wardrobe with our Classic Red Pullover Hoodie. Crafted with a soft cotton blend for ultimate comfort, this vibrant red hoodie features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs for a snug fit. The timeless design ensures easy pairing with jeans or joggers for a relaxed yet stylish look, making it a versatile addition to your everyday attire.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/1twoaDy.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-22T03:53:20.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Classic Heather Gray Hoodie",
+    "slug": "classic-heather-gray-hoodie",
+    "price": 69,
+    "description": "Stay cozy and stylish with our Classic Heather Gray Hoodie. Crafted from soft, durable fabric, it features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Perfect for a casual day out or a relaxing evening in, this hoodie is a versatile addition to any wardrobe.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/cHddUCu.jpeg",
+      "https://i.imgur.com/CFOjAgK.jpeg",
+      "https://i.imgur.com/wbIMMme.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Classic Grey Hooded Sweatshirt",
+    "slug": "classic-grey-hooded-sweatshirt",
+    "price": 90,
+    "description": "Elevate your casual wear with our Classic Grey Hooded Sweatshirt. Made from a soft cotton blend, this hoodie features a front kangaroo pocket, an adjustable drawstring hood, and ribbed cuffs for a snug fit. Perfect for those chilly evenings or lazy weekends, it pairs effortlessly with your favorite jeans or joggers.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/R2PN9Wq.jpeg",
+      "https://i.imgur.com/IvxMPFr.jpeg",
+      "https://i.imgur.com/7eW9nXP.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 5,
+    "title": "Classic Black Hooded Sweatshirt",
+    "slug": "classic-black-hooded-sweatshirt",
+    "price": 79,
+    "description": "Elevate your casual wardrobe with our Classic Black Hooded Sweatshirt. Made from high-quality, soft fabric that ensures comfort and durability, this hoodie features a spacious kangaroo pocket and an adjustable drawstring hood. Its versatile design makes it perfect for a relaxed day at home or a casual outing.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/cSytoSD.jpeg",
+      "https://i.imgur.com/WwKucXb.jpeg",
+      "https://i.imgur.com/cE2Dxh9.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 6,
+    "title": "Classic Comfort Fit Joggers",
+    "slug": "classic-comfort-fit-joggers",
+    "price": 25,
+    "description": "Discover the perfect blend of style and comfort with our Classic Comfort Fit Joggers. These versatile black joggers feature a soft elastic waistband with an adjustable drawstring, two side pockets, and ribbed ankle cuffs for a secure fit. Made from a lightweight and durable fabric, they are ideal for both active days and relaxed lounging.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/ZKGofuB.jpeg",
+      "https://i.imgur.com/GJi73H0.jpeg",
+      "https://i.imgur.com/633Fqrz.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Classic Comfort Drawstring Joggers",
+    "slug": "classic-comfort-drawstring-joggers",
+    "price": 79,
+    "description": "Experience the perfect blend of comfort and style with our Classic Comfort Drawstring Joggers. Designed for a relaxed fit, these joggers feature a soft, stretchable fabric, convenient side pockets, and an adjustable drawstring waist with elegant gold-tipped detailing. Ideal for lounging or running errands, these pants will quickly become your go-to for effortless, casual wear.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/mp3rUty.jpeg",
+      "https://i.imgur.com/JQRGIc2.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 8,
+    "title": "Classic Red Jogger Sweatpants",
+    "slug": "classic-red-jogger-sweatpants",
+    "price": 98,
+    "description": "Experience ultimate comfort with our red jogger sweatpants, perfect for both workout sessions and lounging around the house. Made with soft, durable fabric, these joggers feature a snug waistband, adjustable drawstring, and practical side pockets for functionality. Their tapered design and elastic cuffs offer a modern fit that keeps you looking stylish on the go.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/9LFjwpI.jpeg",
+      "https://i.imgur.com/vzrTgUR.jpeg",
+      "https://i.imgur.com/p5NdI6n.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 9,
+    "title": "Classic Navy Blue Baseball Cap",
+    "slug": "classic-navy-blue-baseball-cap",
+    "price": 61,
+    "description": "Step out in style with this sleek navy blue baseball cap. Crafted from durable material, it features a smooth, structured design and an adjustable strap for the perfect fit. Protect your eyes from the sun and complement your casual looks with this versatile and timeless accessory.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/R3iobJA.jpeg",
+      "https://i.imgur.com/Wv2KTsf.jpeg",
+      "https://i.imgur.com/76HAxcA.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 10,
+    "title": "Classic Blue Baseball Cap",
+    "slug": "classic-blue-baseball-cap",
+    "price": 86,
+    "description": "Top off your casual look with our Classic Blue Baseball Cap, made from high-quality materials for lasting comfort. Featuring a timeless six-panel design with a pre-curved visor, this adjustable cap offers both style and practicality for everyday wear.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/wXuQ7bm.jpeg",
+      "https://i.imgur.com/BZrIEmb.jpeg",
+      "https://i.imgur.com/KcT6BE0.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 11,
+    "title": "Classic Red Baseball Cap",
+    "slug": "classic-red-baseball-cap",
+    "price": 35,
+    "description": "Elevate your casual wardrobe with this timeless red baseball cap. Crafted from durable fabric, it features a comfortable fit with an adjustable strap at the back, ensuring one size fits all. Perfect for sunny days or adding a sporty touch to your outfit.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/cBuLvBi.jpeg",
+      "https://i.imgur.com/N1GkCIR.jpeg",
+      "https://i.imgur.com/kKc9A5p.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 12,
+    "title": "Classic Black Baseball Cap",
+    "slug": "classic-black-baseball-cap",
+    "price": 58,
+    "description": "Elevate your casual wear with this timeless black baseball cap. Made with high-quality, breathable fabric, it features an adjustable strap for the perfect fit. Whether you’re out for a jog or just running errands, this cap adds a touch of style to any outfit.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/KeqG6r4.jpeg",
+      "https://i.imgur.com/xGQOw3p.jpeg",
+      "https://i.imgur.com/oO5OUjb.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 13,
+    "title": "Classic Olive Chino Shorts",
+    "slug": "classic-olive-chino-shorts",
+    "price": 84,
+    "description": "Elevate your casual wardrobe with these classic olive chino shorts. Designed for comfort and versatility, they feature a smooth waistband, practical pockets, and a tailored fit that makes them perfect for both relaxed weekends and smart-casual occasions. The durable fabric ensures they hold up throughout your daily activities while maintaining a stylish look.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/UsFIvYs.jpeg",
+      "https://i.imgur.com/YIq57b6.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 14,
+    "title": "Classic High-Waisted Athletic Shorts",
+    "slug": "classic-high-waisted-athletic-shorts",
+    "price": 43,
+    "description": "Stay comfortable and stylish with our Classic High-Waisted Athletic Shorts. Designed for optimal movement and versatility, these shorts are a must-have for your workout wardrobe. Featuring a figure-flattering high waist, breathable fabric, and a secure fit that ensures they stay in place during any activity, these shorts are perfect for the gym, running, or even just casual wear.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/eGOUveI.jpeg",
+      "https://i.imgur.com/UcsGO7E.jpeg",
+      "https://i.imgur.com/NLn4e7S.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 15,
+    "title": "Classic White Crew Neck T-Shirt",
+    "slug": "classic-white-crew-neck-t-shirt",
+    "price": 39,
+    "description": "Elevate your basics with this versatile white crew neck tee. Made from a soft, breathable cotton blend, it offers both comfort and durability. Its sleek, timeless design ensures it pairs well with virtually any outfit. Ideal for layering or wearing on its own, this t-shirt is a must-have staple for every wardrobe.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/axsyGpD.jpeg",
+      "https://i.imgur.com/T8oq9X2.jpeg",
+      "https://i.imgur.com/J6MinJn.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 16,
+    "title": "Classic White Tee - Timeless Style and Comfort",
+    "slug": "classic-white-tee-timeless-style-and-comfort",
+    "price": 73,
+    "description": "Elevate your everyday wardrobe with our Classic White Tee. Crafted from premium soft cotton material, this versatile t-shirt combines comfort with durability, perfect for daily wear. Featuring a relaxed, unisex fit that flatters every body type, it's a staple piece for any casual ensemble. Easy to care for and machine washable, this white tee retains its shape and softness wash after wash. Pair it with your favorite jeans or layer it under a jacket for a smart look.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Y54Bt8J.jpeg",
+      "https://i.imgur.com/SZPDSgy.jpeg",
+      "https://i.imgur.com/sJv4Xx0.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 17,
+    "title": "Classic Black T-Shirt",
+    "slug": "classic-black-t-shirt",
+    "price": 35,
+    "description": "Elevate your everyday style with our Classic Black T-Shirt. This staple piece is crafted from soft, breathable cotton for all-day comfort. Its versatile design features a classic crew neck and short sleeves, making it perfect for layering or wearing on its own. Durable and easy to care for, it's sure to become a favorite in your wardrobe.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/9DqEOV5.jpeg",
+      "https://i.imgur.com/ae0AEYn.jpeg",
+      "https://i.imgur.com/mZ4rUjj.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 18,
+    "title": "Sleek White & Orange Wireless Gaming Controller",
+    "slug": "sleek-white-orange-wireless-gaming-controller",
+    "price": 69,
+    "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/ZANVnHE.jpeg",
+      "https://i.imgur.com/Ro5z6Tn.jpeg",
+      "https://i.imgur.com/woA93Li.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 19,
+    "title": "Sleek Wireless Headphone & Inked Earbud Set",
+    "slug": "sleek-wireless-headphone-inked-earbud-set",
+    "price": 44,
+    "description": "Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/yVeIeDa.jpeg",
+      "https://i.imgur.com/jByJ4ih.jpeg",
+      "https://i.imgur.com/KXj6Tpb.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 20,
+    "title": "Sleek Comfort-Fit Over-Ear Headphones",
+    "slug": "sleek-comfort-fit-over-ear-headphones",
+    "price": 28,
+    "description": "Experience superior sound quality with our Sleek Comfort-Fit Over-Ear Headphones, designed for prolonged use with cushioned ear cups and an adjustable, padded headband. Ideal for immersive listening, whether you're at home, in the office, or on the move. Their durable construction and timeless design provide both aesthetically pleasing looks and long-lasting performance.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/SolkFEB.jpeg",
+      "https://i.imgur.com/KIGW49u.jpeg",
+      "https://i.imgur.com/mWwek7p.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 21,
+    "title": "Efficient 2-Slice Toaster",
+    "slug": "efficient-2-slice-toaster",
+    "price": 48,
+    "description": "Enhance your morning routine with our sleek 2-slice toaster, featuring adjustable browning controls and a removable crumb tray for easy cleaning. This compact and stylish appliance is perfect for any kitchen, ensuring your toast is always golden brown and delicious.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/keVCVIa.jpeg",
+      "https://i.imgur.com/afHY7v2.jpeg",
+      "https://i.imgur.com/yAOihUe.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 22,
+    "title": "Sleek Wireless Computer Mouse",
+    "slug": "sleek-wireless-computer-mouse",
+    "price": 10,
+    "description": "Experience smooth and precise navigation with this modern wireless mouse, featuring a glossy finish and a comfortable ergonomic design. Its responsive tracking and easy-to-use interface make it the perfect accessory for any desktop or laptop setup. The stylish blue hue adds a splash of color to your workspace, while its compact size ensures it fits neatly in your bag for on-the-go productivity.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/w3Y8NwQ.jpeg",
+      "https://i.imgur.com/WJFOGIC.jpeg",
+      "https://i.imgur.com/dV4Nklf.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 23,
+    "title": "Sleek Modern Laptop with Ambient Lighting",
+    "slug": "sleek-modern-laptop-with-ambient-lighting",
+    "price": 43,
+    "description": "Experience next-level computing with our ultra-slim laptop, featuring a stunning display illuminated by ambient lighting. This high-performance machine is perfect for both work and play, delivering powerful processing in a sleek, portable design. The vibrant colors add a touch of personality to your tech collection, making it as stylish as it is functional.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/OKn1KFI.jpeg",
+      "https://i.imgur.com/G4f21Ai.jpeg",
+      "https://i.imgur.com/Z9oKRVJ.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 24,
+    "title": "Sleek Modern Laptop for Professionals",
+    "slug": "sleek-modern-laptop-for-professionals",
+    "price": 97,
+    "description": "Experience cutting-edge technology and elegant design with our latest laptop model. Perfect for professionals on-the-go, this high-performance laptop boasts a powerful processor, ample storage, and a long-lasting battery life, all encased in a lightweight, slim frame for ultimate portability. Shop now to elevate your work and play.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/ItHcq7o.jpeg",
+      "https://i.imgur.com/55GM3XZ.jpeg",
+      "https://i.imgur.com/tcNJxoW.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 25,
+    "title": "Stylish Red & Silver Over-Ear Headphones",
+    "slug": "stylish-red-silver-over-ear-headphones",
+    "price": 39,
+    "description": "Immerse yourself in superior sound quality with these sleek red and silver over-ear headphones. Designed for comfort and style, the headphones feature cushioned ear cups, an adjustable padded headband, and a detachable red cable for easy storage and portability. Perfect for music lovers and audiophiles who value both appearance and audio fidelity.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/YaSqa06.jpeg",
+      "https://i.imgur.com/isQAliJ.jpeg",
+      "https://i.imgur.com/5B8UQfh.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 26,
+    "title": "Sleek Mirror Finish Phone Case",
+    "slug": "sleek-mirror-finish-phone-case",
+    "price": 27,
+    "description": "Enhance your smartphone's look with this ultra-sleek mirror finish phone case. Designed to offer style with protection, the case features a reflective surface that adds a touch of elegance while keeping your device safe from scratches and impacts. Perfect for those who love a minimalist and modern aesthetic.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/yb9UQKL.jpeg",
+      "https://i.imgur.com/m2owtQG.jpeg",
+      "https://i.imgur.com/bNiORct.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 27,
+    "title": "Sleek Smartwatch with Vibrant Display",
+    "slug": "sleek-smartwatch-with-vibrant-display",
+    "price": 16,
+    "description": "Experience modern timekeeping with our high-tech smartwatch, featuring a vivid touch screen display, customizable watch faces, and a comfortable blue silicone strap. This smartwatch keeps you connected with notifications and fitness tracking while showcasing exceptional style and versatility.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/LGk9Jn2.jpeg",
+      "https://i.imgur.com/1ttYWaI.jpeg",
+      "https://i.imgur.com/sPRWnJH.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 28,
+    "title": "Sleek Modern Leather Sofa",
+    "slug": "sleek-modern-leather-sofa",
+    "price": 53,
+    "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Qphac99.jpeg",
+      "https://i.imgur.com/dJjpEgG.jpeg",
+      "https://i.imgur.com/MxJyADq.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 29,
+    "title": "Mid-Century Modern Wooden Dining Table",
+    "slug": "mid-century-modern-wooden-dining-table",
+    "price": 24,
+    "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/DMQHGA0.jpeg",
+      "https://i.imgur.com/qrs9QBg.jpeg",
+      "https://i.imgur.com/XVp8T1I.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 30,
+    "title": "Elegant Golden-Base Stone Top Dining Table",
+    "slug": "elegant-golden-base-stone-top-dining-table",
+    "price": 66,
+    "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/NWIJKUj.jpeg",
+      "https://i.imgur.com/Jn1YSLk.jpeg",
+      "https://i.imgur.com/VNZRvx5.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 31,
+    "title": "Modern Elegance Teal Armchair",
+    "slug": "modern-elegance-teal-armchair",
+    "price": 25,
+    "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/6wkyyIN.jpeg",
+      "https://i.imgur.com/Ald3Rec.jpeg",
+      "https://i.imgur.com/dIqo03c.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 32,
+    "title": "Elegant Solid Wood Dining Table",
+    "slug": "elegant-solid-wood-dining-table",
+    "price": 67,
+    "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/4lTaHfF.jpeg",
+      "https://i.imgur.com/JktHE1C.jpeg",
+      "https://i.imgur.com/cQeXQMi.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 33,
+    "title": "Modern Minimalist Workstation Setup",
+    "slug": "modern-minimalist-workstation-setup",
+    "price": 49,
+    "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/3oXNBst.jpeg",
+      "https://i.imgur.com/ErYYZnT.jpeg",
+      "https://i.imgur.com/boBPwYW.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 34,
+    "title": "Modern Ergonomic Office Chair",
+    "slug": "modern-ergonomic-office-chair",
+    "price": 71,
+    "description": "Elevate your office space with this sleek and comfortable Modern Ergonomic Office Chair. Designed to provide optimal support throughout the workday, it features an adjustable height mechanism, smooth-rolling casters for easy mobility, and a cushioned seat for extended comfort. The clean lines and minimalist white design make it a versatile addition to any contemporary workspace.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/3dU0m72.jpeg",
+      "https://i.imgur.com/zPU3EVa.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 35,
+    "title": "Futuristic Holographic Soccer Cleats",
+    "slug": "futuristic-holographic-soccer-cleats",
+    "price": 39,
+    "description": "Step onto the field and stand out from the crowd with these eye-catching holographic soccer cleats. Designed for the modern player, these cleats feature a sleek silhouette, lightweight construction for maximum agility, and durable studs for optimal traction. The shimmering holographic finish reflects a rainbow of colors as you move, ensuring that you'll be noticed for both your skills and style. Perfect for the fashion-forward athlete who wants to make a statement.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/qNOjJje.jpeg",
+      "https://i.imgur.com/NjfCFnu.jpeg",
+      "https://i.imgur.com/eYtvXS1.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 36,
+    "title": "Rainbow Glitter High Heels",
+    "slug": "rainbow-glitter-high-heels",
+    "price": 39,
+    "description": "Step into the spotlight with these eye-catching rainbow glitter high heels. Designed to dazzle, each shoe boasts a kaleidoscope of shimmering colors that catch and reflect light with every step. Perfect for special occasions or a night out, these stunners are sure to turn heads and elevate any ensemble.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/62gGzeF.jpeg",
+      "https://i.imgur.com/5MoPuFM.jpeg",
+      "https://i.imgur.com/sUVj7pK.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 37,
+    "title": "Chic Summer Denim Espadrille Sandals",
+    "slug": "chic-summer-denim-espadrille-sandals",
+    "price": 33,
+    "description": "Step into summer with style in our denim espadrille sandals. Featuring a braided jute sole for a classic touch and adjustable denim straps for a snug fit, these sandals offer both comfort and a fashionable edge. The easy slip-on design ensures convenience for beach days or casual outings.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/9qrmE1b.jpeg",
+      "https://i.imgur.com/wqKxBVH.jpeg",
+      "https://i.imgur.com/sWSV6DK.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 38,
+    "title": "Vibrant Runners: Bold Orange & Blue Sneakers",
+    "slug": "vibrant-runners-bold-orange-blue-sneakers",
+    "price": 27,
+    "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/hKcMNJs.jpeg",
+      "https://i.imgur.com/NYToymX.jpeg",
+      "https://i.imgur.com/HiiapCt.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 39,
+    "title": "Vibrant Pink Classic Sneakers",
+    "slug": "vibrant-pink-classic-sneakers",
+    "price": 84,
+    "description": "Step into style with our Vibrant Pink Classic Sneakers! These eye-catching shoes feature a bold pink hue with iconic white detailing, offering a sleek, timeless design. Constructed with durable materials and a comfortable fit, they are perfect for those seeking a pop of color in their everyday footwear. Grab a pair today and add some vibrancy to your step!",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/mcW42Gi.jpeg",
+      "https://i.imgur.com/mhn7qsF.jpeg",
+      "https://i.imgur.com/F8vhnFJ.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 40,
+    "title": "Futuristic Silver and Gold High-Top Sneaker",
+    "slug": "futuristic-silver-and-gold-high-top-sneaker",
+    "price": 68,
+    "description": "Step into the future with this eye-catching high-top sneaker, designed for those who dare to stand out. The sneaker features a sleek silver body with striking gold accents, offering a modern twist on classic footwear. Its high-top design provides support and style, making it the perfect addition to any avant-garde fashion collection. Grab a pair today and elevate your shoe game!",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/npLfCGq.jpeg",
+      "https://i.imgur.com/vYim3gj.jpeg",
+      "https://i.imgur.com/HxuHwBO.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 41,
+    "title": "Futuristic Chic High-Heel Boots",
+    "slug": "futuristic-chic-high-heel-boots",
+    "price": 36,
+    "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/HqYqLnW.jpeg",
+      "https://i.imgur.com/RlDGnZw.jpeg",
+      "https://i.imgur.com/qa0O6fg.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 42,
+    "title": "Elegant Patent Leather Peep-Toe Pumps with Gold-Tone Heel",
+    "slug": "elegant-patent-leather-peep-toe-pumps",
+    "price": 53,
+    "description": "Step into sophistication with these chic peep-toe pumps, showcasing a lustrous patent leather finish and an eye-catching gold-tone block heel. The ornate buckle detail adds a touch of glamour, perfect for elevating your evening attire or complementing a polished daytime look.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/AzAY4Ed.jpeg",
+      "https://i.imgur.com/umfnS9P.jpeg",
+      "https://i.imgur.com/uFyuvLg.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 43,
+    "title": "Elegant Purple Leather Loafers",
+    "slug": "elegant-purple-leather-loafers",
+    "price": 17,
+    "description": "Step into sophistication with our Elegant Purple Leather Loafers, perfect for making a bold statement. Crafted from high-quality leather with a vibrant purple finish, these shoes feature a classic loafer silhouette that's been updated with a contemporary twist. The comfortable slip-on design and durable soles ensure both style and functionality for the modern man.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Au8J9sX.jpeg",
+      "https://i.imgur.com/gdr8BW2.jpeg",
+      "https://i.imgur.com/KDCZxnJ.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 44,
+    "title": "Classic Blue Suede Casual Shoes",
+    "slug": "classic-blue-suede-casual-shoes",
+    "price": 39,
+    "description": "Step into comfort with our Classic Blue Suede Casual Shoes, perfect for everyday wear. These shoes feature a stylish blue suede upper, durable rubber soles for superior traction, and classic lace-up fronts for a snug fit. The sleek design pairs well with both jeans and chinos, making them a versatile addition to any wardrobe.",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/sC0ztOB.jpeg",
+      "https://i.imgur.com/Jf9DL9R.jpeg",
+      "https://i.imgur.com/R1IN95T.jpeg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 45,
+    "title": "Sleek Futuristic Electric Bicycle",
+    "slug": "sleek-futuristic-electric-bicycle",
+    "price": 22,
+    "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/BG8J0Fj.jpg",
+      "https://i.imgur.com/ujHBpCX.jpg",
+      "https://i.imgur.com/WHeVL9H.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 46,
+    "title": "Sleek All-Terrain Go-Kart",
+    "slug": "sleek-all-terrain-go-kart",
+    "price": 37,
+    "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Ex5x3IU.jpg",
+      "https://i.imgur.com/z7wAQwe.jpg",
+      "https://i.imgur.com/kc0Dj9S.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 47,
+    "title": "Radiant Citrus Eau de Parfum",
+    "slug": "radiant-citrus-eau-de-parfum",
+    "price": 73,
+    "description": "Indulge in the essence of summer with this vibrant citrus-scented Eau de Parfum. Encased in a sleek glass bottle with a bold orange cap, this fragrance embodies freshness and elegance. Perfect for daily wear, it's an olfactory delight that leaves a lasting, zesty impression.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/xPDwUb3.jpg",
+      "https://i.imgur.com/3rfp691.jpg",
+      "https://i.imgur.com/kG05a29.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 48,
+    "title": "Sleek Olive Green Hardshell Carry-On Luggage",
+    "slug": "sleek-olive-green-hardshell-carry-on-luggage",
+    "price": 48,
+    "description": "Travel in style with our durable hardshell carry-on, perfect for weekend getaways and business trips. This sleek olive green suitcase features smooth gliding wheels for easy airport navigation, a sturdy telescopic handle, and a secure zippered compartment to keep your belongings safe. Its compact size meets most airline overhead bin requirements, ensuring a hassle-free flying experience.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/jVfoZnP.jpg",
+      "https://i.imgur.com/Tnl15XK.jpg",
+      "https://i.imgur.com/7OqTPO6.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 49,
+    "title": "Chic Transparent Fashion Handbag",
+    "slug": "chic-transparent-fashion-handbag",
+    "price": 61,
+    "description": "Elevate your style with our Chic Transparent Fashion Handbag, perfect for showcasing your essentials with a clear, modern edge. This trendy accessory features durable acrylic construction, luxe gold-tone hardware, and an elegant chain strap. Its compact size ensures you can carry your day-to-day items with ease and sophistication.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/Lqaqz59.jpg",
+      "https://i.imgur.com/uSqWK0m.jpg",
+      "https://i.imgur.com/atWACf1.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 50,
+    "title": "Trendy Pink-Tinted Sunglasses",
+    "slug": "trendy-pink-tinted-sunglasses",
+    "price": 38,
+    "description": "Step up your style game with these fashionable black-framed, pink-tinted sunglasses. Perfect for making a statement while protecting your eyes from the glare. Their bold color and contemporary design make these shades a must-have accessory for any trendsetter looking to add a pop of color to their ensemble.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/0qQBkxX.jpg",
+      "https://i.imgur.com/I5g1DoE.jpg",
+      "https://i.imgur.com/myfFQBW.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 51,
+    "title": "Elegant Glass Tumbler Set",
+    "slug": "elegant-glass-tumbler-set",
+    "price": 50,
+    "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://i.imgur.com/TF0pXdL.jpg",
+      "https://i.imgur.com/BLDByXP.jpg",
+      "https://i.imgur.com/b7trwCv.jpg"
+    ],
+    "creationAt": "2026-10-21T17:25:06.000Z",
+    "updatedAt": "2026-10-21T17:25:06.000Z"
+  },
+  {
+    "id": 52,
+    "title": "title-4e5a1399-d807-4865-8589-b37d6be34eb7",
+    "slug": "title-4e5a1399-d807-4865-8589-b37d6be34eb7",
+    "price": 306,
+    "description": "desc-d5c9f43a-5e5e-4c5c-abaf-7c1ad4267032",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=32535",
+      "https://placehold.co/600x400?img=13318",
+      "https://placehold.co/600x400?img=39180"
+    ],
+    "creationAt": "2026-10-21T17:27:03.000Z",
+    "updatedAt": "2026-10-21T17:27:03.000Z"
+  },
+  {
+    "id": 53,
+    "title": "title-c69bea71-c8ac-4cbc-b7f5-1fbd4fa1a890",
+    "slug": "title-c69bea71-c8ac-4cbc-b7f5-1fbd4fa1a890",
+    "price": 828,
+    "description": "desc-7eac8416-b992-4364-a606-3e302c3a7317",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=46609",
+      "https://placehold.co/600x400?img=51959"
+    ],
+    "creationAt": "2026-10-21T17:42:02.000Z",
+    "updatedAt": "2026-10-21T17:42:02.000Z"
+  },
+  {
+    "id": 54,
+    "title": "title-a29cbea1-b96f-4d5b-b56e-c38ab5985d88",
+    "slug": "title-a29cbea1-b96f-4d5b-b56e-c38ab5985d88",
+    "price": 959,
+    "description": "desc-33a8cc98-ee82-4099-a0e0-a6b2920330fa",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=17862",
+      "https://placehold.co/600x400?img=13014",
+      "https://placehold.co/600x400?img=18950"
+    ],
+    "creationAt": "2026-10-21T17:57:06.000Z",
+    "updatedAt": "2026-10-21T17:57:06.000Z"
+  },
+  {
+    "id": 56,
+    "title": "#(generarTitulo())",
+    "slug": "generartitulo",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:10:57.000Z",
+    "updatedAt": "2026-10-21T18:10:57.000Z"
+  },
+  {
+    "id": 57,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 338252",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-338252",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:10:57.000Z",
+    "updatedAt": "2026-10-21T18:10:57.000Z"
+  },
+  {
+    "id": 58,
+    "title": "Rosas Rojas 688932",
+    "slug": "rosas-rojas-688932",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:10:59.000Z",
+    "updatedAt": "2026-10-21T18:10:59.000Z"
+  },
+  {
+    "id": 59,
+    "title": "Rosas Rojas 404533",
+    "slug": "rosas-rojas-404533",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:11:00.000Z",
+    "updatedAt": "2026-10-21T18:11:00.000Z"
+  },
+  {
+    "id": 61,
+    "title": "title-c67ca73a-4ece-4608-bb9a-df210f808a32",
+    "slug": "title-c67ca73a-4ece-4608-bb9a-df210f808a32",
+    "price": 728,
+    "description": "desc-fe1c351a-f271-4468-a197-63e76482613c",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=74892"
+    ],
+    "creationAt": "2026-10-21T18:12:13.000Z",
+    "updatedAt": "2026-10-21T18:12:13.000Z"
+  },
+  {
+    "id": 64,
+    "title": "title-13476dc9-100d-428a-bbae-8cc8356430b7",
+    "slug": "title-13476dc9-100d-428a-bbae-8cc8356430b7",
+    "price": 894,
+    "description": "desc-7c546be4-7411-4d74-98e6-3185d53b7354",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=34830",
+      "https://placehold.co/600x400?img=73684"
+    ],
+    "creationAt": "2026-10-21T18:27:04.000Z",
+    "updatedAt": "2026-10-21T18:27:04.000Z"
+  },
+  {
+    "id": 65,
+    "title": "Rosas Rojas 540367",
+    "slug": "rosas-rojas-540367",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:30:11.000Z",
+    "updatedAt": "2026-10-21T18:30:11.000Z"
+  },
+  {
+    "id": 66,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 855197",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-855197",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:30:13.000Z",
+    "updatedAt": "2026-10-21T18:30:13.000Z"
+  },
+  {
+    "id": 67,
+    "title": "Rosas Rojas 172272",
+    "slug": "rosas-rojas-172272",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:30:14.000Z",
+    "updatedAt": "2026-10-21T18:30:14.000Z"
+  },
+  {
+    "id": 68,
+    "title": "Rosas Rojas 185331",
+    "slug": "rosas-rojas-185331",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:30:15.000Z",
+    "updatedAt": "2026-10-21T18:30:15.000Z"
+  },
+  {
+    "id": 69,
+    "title": "title-9d56cdfd-016e-4138-b61f-62f95513f6a3",
+    "slug": "title-9d56cdfd-016e-4138-b61f-62f95513f6a3",
+    "price": 267,
+    "description": "desc-54e80110-a158-4993-8f7d-ae1f276e9c22",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=17308"
+    ],
+    "creationAt": "2026-10-21T18:42:04.000Z",
+    "updatedAt": "2026-10-21T18:42:04.000Z"
+  },
+  {
+    "id": 70,
+    "title": "Rosas Rojas 520929",
+    "slug": "rosas-rojas-520929",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:53:14.000Z",
+    "updatedAt": "2026-10-21T18:53:14.000Z"
+  },
+  {
+    "id": 71,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 858258",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-858258",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:53:16.000Z",
+    "updatedAt": "2026-10-21T18:53:16.000Z"
+  },
+  {
+    "id": 72,
+    "title": "Rosas Rojas 414576",
+    "slug": "rosas-rojas-414576",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:53:18.000Z",
+    "updatedAt": "2026-10-21T18:53:18.000Z"
+  },
+  {
+    "id": 73,
+    "title": "Rosas Rojas 716260",
+    "slug": "rosas-rojas-716260",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T18:53:19.000Z",
+    "updatedAt": "2026-10-21T18:53:19.000Z"
+  },
+  {
+    "id": 74,
+    "title": "title-6ab6be74-3311-4e3b-8661-02b9cb173a31",
+    "slug": "title-6ab6be74-3311-4e3b-8661-02b9cb173a31",
+    "price": 900,
+    "description": "desc-7f474830-ee10-441b-b51a-c5df48ae53b5",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=89373",
+      "https://placehold.co/600x400?img=25699"
+    ],
+    "creationAt": "2026-10-21T18:57:04.000Z",
+    "updatedAt": "2026-10-21T18:57:04.000Z"
+  },
+  {
+    "id": 75,
+    "title": "title-d3c81286-4d7b-4f2f-9330-fb73647d0b9a",
+    "slug": "title-d3c81286-4d7b-4f2f-9330-fb73647d0b9a",
+    "price": 94,
+    "description": "desc-0f6cf42b-6222-43e6-99b8-5b8920af779b",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=17719",
+      "https://placehold.co/600x400?img=90431",
+      "https://placehold.co/600x400?img=91189"
+    ],
+    "creationAt": "2026-10-21T19:12:07.000Z",
+    "updatedAt": "2026-10-21T19:12:07.000Z"
+  },
+  {
+    "id": 76,
+    "title": "Rosas Rojas 671250",
+    "slug": "rosas-rojas-671250",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:16:28.000Z",
+    "updatedAt": "2026-10-21T19:16:28.000Z"
+  },
+  {
+    "id": 77,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 412212",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-412212",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:16:29.000Z",
+    "updatedAt": "2026-10-21T19:16:29.000Z"
+  },
+  {
+    "id": 78,
+    "title": "Rosas rojas",
+    "slug": "rosas-rojas",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:16:29.000Z",
+    "updatedAt": "2026-10-21T19:16:29.000Z"
+  },
+  {
+    "id": 79,
+    "title": "Rosas Rojas 585297",
+    "slug": "rosas-rojas-585297",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:16:31.000Z",
+    "updatedAt": "2026-10-21T19:16:31.000Z"
+  },
+  {
+    "id": 80,
+    "title": "Rosas Rojas 176243",
+    "slug": "rosas-rojas-176243",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:16:32.000Z",
+    "updatedAt": "2026-10-21T19:16:32.000Z"
+  },
+  {
+    "id": 81,
+    "title": "Rosas Rojas 870423",
+    "slug": "rosas-rojas-870423",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:19:53.000Z",
+    "updatedAt": "2026-10-21T19:19:53.000Z"
+  },
+  {
+    "id": 82,
+    "title": "Rosas Rojas 941661",
+    "slug": "rosas-rojas-941661",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:19:55.000Z",
+    "updatedAt": "2026-10-21T19:19:55.000Z"
+  },
+  {
+    "id": 83,
+    "title": "Rosas Rojas 151661",
+    "slug": "rosas-rojas-151661",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:19:56.000Z",
+    "updatedAt": "2026-10-21T19:19:56.000Z"
+  },
+  {
+    "id": 84,
+    "title": "Rosas Rojas 965805",
+    "slug": "rosas-rojas-965805",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:25:57.000Z",
+    "updatedAt": "2026-10-21T19:25:57.000Z"
+  },
+  {
+    "id": 85,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 841542",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-841542",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:25:58.000Z",
+    "updatedAt": "2026-10-21T19:25:58.000Z"
+  },
+  {
+    "id": 86,
+    "title": "Rosas Rojas 453048",
+    "slug": "rosas-rojas-453048",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:25:59.000Z",
+    "updatedAt": "2026-10-21T19:25:59.000Z"
+  },
+  {
+    "id": 87,
+    "title": "Rosas Rojas 882342",
+    "slug": "rosas-rojas-882342",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:26:00.000Z",
+    "updatedAt": "2026-10-21T19:26:00.000Z"
+  },
+  {
+    "id": 88,
+    "title": "title-bad8ace8-63be-41bc-a4c2-77f93ed0d9cb",
+    "slug": "title-bad8ace8-63be-41bc-a4c2-77f93ed0d9cb",
+    "price": 695,
+    "description": "desc-f8658abf-67d1-41d7-b72d-149edfdece4e",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=23982",
+      "https://placehold.co/600x400?img=32354"
+    ],
+    "creationAt": "2026-10-21T19:27:03.000Z",
+    "updatedAt": "2026-10-21T19:27:03.000Z"
+  },
+  {
+    "id": 89,
+    "title": "Rosas Rojas 877206",
+    "slug": "rosas-rojas-877206",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:32:52.000Z",
+    "updatedAt": "2026-10-21T19:32:52.000Z"
+  },
+  {
+    "id": 90,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 992483",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-992483",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:32:53.000Z",
+    "updatedAt": "2026-10-21T19:32:53.000Z"
+  },
+  {
+    "id": 91,
+    "title": "Rosas Rojas 796046",
+    "slug": "rosas-rojas-796046",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:32:55.000Z",
+    "updatedAt": "2026-10-21T19:32:55.000Z"
+  },
+  {
+    "id": 92,
+    "title": "Rosas Rojas 807217",
+    "slug": "rosas-rojas-807217",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:32:56.000Z",
+    "updatedAt": "2026-10-21T19:32:56.000Z"
+  },
+  {
+    "id": 93,
+    "title": "title-61ef911a-8388-4679-8878-20d8b934f4c7",
+    "slug": "title-61ef911a-8388-4679-8878-20d8b934f4c7",
+    "price": 175,
+    "description": "desc-7a9a2cc0-cb0d-4bbc-8d75-0c71d557fb04",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=64037"
+    ],
+    "creationAt": "2026-10-21T19:42:03.000Z",
+    "updatedAt": "2026-10-21T19:42:03.000Z"
+  },
+  {
+    "id": 94,
+    "title": "Rosas Rojas 177955",
+    "slug": "rosas-rojas-177955",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:44:05.000Z",
+    "updatedAt": "2026-10-21T19:44:05.000Z"
+  },
+  {
+    "id": 95,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 201463",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-201463",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:44:06.000Z",
+    "updatedAt": "2026-10-21T19:44:06.000Z"
+  },
+  {
+    "id": 96,
+    "title": "Rosas Rojas 749477",
+    "slug": "rosas-rojas-749477",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:44:08.000Z",
+    "updatedAt": "2026-10-21T19:44:08.000Z"
+  },
+  {
+    "id": 97,
+    "title": "Rosas Rojas 378928",
+    "slug": "rosas-rojas-378928",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:44:09.000Z",
+    "updatedAt": "2026-10-21T19:44:09.000Z"
+  },
+  {
+    "id": 98,
+    "title": "Rosas Rojas 847933",
+    "slug": "rosas-rojas-847933",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:45:17.000Z",
+    "updatedAt": "2026-10-21T19:45:17.000Z"
+  },
+  {
+    "id": 99,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 640444",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-640444",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:45:18.000Z",
+    "updatedAt": "2026-10-21T19:45:18.000Z"
+  },
+  {
+    "id": 100,
+    "title": "Rosas Rojas 871484",
+    "slug": "rosas-rojas-871484",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:45:19.000Z",
+    "updatedAt": "2026-10-21T19:45:19.000Z"
+  },
+  {
+    "id": 101,
+    "title": "Rosas Rojas 473773",
+    "slug": "rosas-rojas-473773",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:45:20.000Z",
+    "updatedAt": "2026-10-21T19:45:20.000Z"
+  },
+  {
+    "id": 102,
+    "title": "Rosas Rojas 498921",
+    "slug": "rosas-rojas-498921",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:46:31.000Z",
+    "updatedAt": "2026-10-21T19:46:31.000Z"
+  },
+  {
+    "id": 103,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 937790",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-937790",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:46:32.000Z",
+    "updatedAt": "2026-10-21T19:46:32.000Z"
+  },
+  {
+    "id": 104,
+    "title": "Rosas Rojas 804362",
+    "slug": "rosas-rojas-804362",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:46:33.000Z",
+    "updatedAt": "2026-10-21T19:46:33.000Z"
+  },
+  {
+    "id": 105,
+    "title": "Rosas Rojas 131464",
+    "slug": "rosas-rojas-131464",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:46:34.000Z",
+    "updatedAt": "2026-10-21T19:46:34.000Z"
+  },
+  {
+    "id": 106,
+    "title": "Rosas Rojas 431847",
+    "slug": "rosas-rojas-431847",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:49:11.000Z",
+    "updatedAt": "2026-10-21T19:49:11.000Z"
+  },
+  {
+    "id": 107,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 920292",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-920292",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:49:12.000Z",
+    "updatedAt": "2026-10-21T19:49:12.000Z"
+  },
+  {
+    "id": 108,
+    "title": "Rosas Rojas 372989",
+    "slug": "rosas-rojas-372989",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:49:14.000Z",
+    "updatedAt": "2026-10-21T19:49:14.000Z"
+  },
+  {
+    "id": 109,
+    "title": "Rosas Rojas 475390",
+    "slug": "rosas-rojas-475390",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:49:15.000Z",
+    "updatedAt": "2026-10-21T19:49:15.000Z"
+  },
+  {
+    "id": 110,
+    "title": "Rosas Rojas 667815",
+    "slug": "rosas-rojas-667815",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:50:16.000Z",
+    "updatedAt": "2026-10-21T19:50:16.000Z"
+  },
+  {
+    "id": 111,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 925662",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-925662",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:50:17.000Z",
+    "updatedAt": "2026-10-21T19:50:17.000Z"
+  },
+  {
+    "id": 112,
+    "title": "Rosas Rojas 529291",
+    "slug": "rosas-rojas-529291",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:50:18.000Z",
+    "updatedAt": "2026-10-21T19:50:18.000Z"
+  },
+  {
+    "id": 113,
+    "title": "Rosas Rojas 794930",
+    "slug": "rosas-rojas-794930",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:50:19.000Z",
+    "updatedAt": "2026-10-21T19:50:19.000Z"
+  },
+  {
+    "id": 114,
+    "title": "Rosas Rojas 273159",
+    "slug": "rosas-rojas-273159",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:54:07.000Z",
+    "updatedAt": "2026-10-21T19:54:07.000Z"
+  },
+  {
+    "id": 115,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 295832",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-295832",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:54:08.000Z",
+    "updatedAt": "2026-10-21T19:54:08.000Z"
+  },
+  {
+    "id": 116,
+    "title": "Rosas Rojas 714097",
+    "slug": "rosas-rojas-714097",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:54:09.000Z",
+    "updatedAt": "2026-10-21T19:54:09.000Z"
+  },
+  {
+    "id": 117,
+    "title": "Rosas Rojas 893202",
+    "slug": "rosas-rojas-893202",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:54:10.000Z",
+    "updatedAt": "2026-10-21T19:54:10.000Z"
+  },
+  {
+    "id": 118,
+    "title": "Rosas Rojas 296233",
+    "slug": "rosas-rojas-296233",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:56:07.000Z",
+    "updatedAt": "2026-10-21T19:56:07.000Z"
+  },
+  {
+    "id": 119,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 258172",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-258172",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:56:08.000Z",
+    "updatedAt": "2026-10-21T19:56:08.000Z"
+  },
+  {
+    "id": 120,
+    "title": "Rosas Rojas 334614",
+    "slug": "rosas-rojas-334614",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:56:09.000Z",
+    "updatedAt": "2026-10-21T19:56:09.000Z"
+  },
+  {
+    "id": 121,
+    "title": "Rosas Rojas 179857",
+    "slug": "rosas-rojas-179857",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T19:56:10.000Z",
+    "updatedAt": "2026-10-21T19:56:10.000Z"
+  },
+  {
+    "id": 122,
+    "title": "title-ea1ff429-f2fe-4802-b275-cdaa6c0089ff",
+    "slug": "title-ea1ff429-f2fe-4802-b275-cdaa6c0089ff",
+    "price": 523,
+    "description": "desc-4fa282a5-c417-4824-be2f-ecde2eb19efa",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=98449",
+      "https://placehold.co/600x400?img=81256",
+      "https://placehold.co/600x400?img=85461"
+    ],
+    "creationAt": "2026-10-21T19:57:02.000Z",
+    "updatedAt": "2026-10-21T19:57:02.000Z"
+  },
+  {
+    "id": 123,
+    "title": "title-83ba562e-83c8-43c2-a821-9b546b6a53d4",
+    "slug": "title-83ba562e-83c8-43c2-a821-9b546b6a53d4",
+    "price": 285,
+    "description": "desc-dfb1b433-22b2-4ce1-bb5e-d21f7091871a",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=68098",
+      "https://placehold.co/600x400?img=91737",
+      "https://placehold.co/600x400?img=17993"
+    ],
+    "creationAt": "2026-10-21T20:12:10.000Z",
+    "updatedAt": "2026-10-21T20:12:10.000Z"
+  },
+  {
+    "id": 124,
+    "title": "title-1206a0c8-9457-4ef1-b6ec-a54befbf187a",
+    "slug": "title-1206a0c8-9457-4ef1-b6ec-a54befbf187a",
+    "price": 389,
+    "description": "desc-c94aacc7-d3f0-4b5e-ba20-8a008bd57954",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=26394",
+      "https://placehold.co/600x400?img=89107",
+      "https://placehold.co/600x400?img=15422"
+    ],
+    "creationAt": "2026-10-21T20:27:12.000Z",
+    "updatedAt": "2026-10-21T20:27:12.000Z"
+  },
+  {
+    "id": 125,
+    "title": "title-a913f2bb-07bc-441b-b9bc-915e373dce87",
+    "slug": "title-a913f2bb-07bc-441b-b9bc-915e373dce87",
+    "price": 79,
+    "description": "desc-e485867c-87c4-47a6-8df2-3355e8068a24",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=21969"
+    ],
+    "creationAt": "2026-10-21T20:42:12.000Z",
+    "updatedAt": "2026-10-21T20:42:12.000Z"
+  },
+  {
+    "id": 126,
+    "title": "title-752f098a-d1a8-4443-a2b1-785573874ecb",
+    "slug": "title-752f098a-d1a8-4443-a2b1-785573874ecb",
+    "price": 21,
+    "description": "desc-9adb3837-988d-4a79-85f2-cb827760c3cc",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=21593"
+    ],
+    "creationAt": "2026-10-21T20:57:15.000Z",
+    "updatedAt": "2026-10-21T20:57:15.000Z"
+  },
+  {
+    "id": 127,
+    "title": "string",
+    "slug": "string",
+    "price": 100,
+    "description": "string",
+    "category": {
+      "id": 9,
+      "name": "string",
+      "slug": "string",
+      "image": "https://pravatar.cc/",
+      "creationAt": "2026-10-21T21:00:18.000Z",
+      "updatedAt": "2026-10-21T21:00:18.000Z"
+    },
+    "images": [
+      "https://pravatar.cc/"
+    ],
+    "creationAt": "2026-10-21T21:00:18.000Z",
+    "updatedAt": "2026-10-21T21:00:18.000Z"
+  },
+  {
+    "id": 128,
+    "title": "Providenci_Hegmann57",
+    "slug": "providenci-hegmann57",
+    "price": 10,
+    "description": "A description",
+    "category": {
+      "id": 6,
+      "name": "New Ctg",
+      "slug": "new-ctg",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T18:00:33.000Z",
+      "updatedAt": "2026-10-21T18:00:33.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-10-21T21:01:41.000Z",
+    "updatedAt": "2026-10-21T21:01:41.000Z"
+  },
+  {
+    "id": 129,
+    "title": "Producto Offline 01",
+    "slug": "producto-offline-01",
+    "price": 25,
+    "description": "Producto registrado desde PharmaMobil",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400"
+    ],
+    "creationAt": "2026-10-21T21:08:16.000Z",
+    "updatedAt": "2026-10-21T21:08:16.000Z"
+  },
+  {
+    "id": 130,
+    "title": "title-405c6286-20a7-43af-ae2c-407218589c48",
+    "slug": "title-405c6286-20a7-43af-ae2c-407218589c48",
+    "price": 229,
+    "description": "desc-43090201-5c3b-4ea5-94f7-d79119ef50c5",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=60198",
+      "https://placehold.co/600x400?img=82862"
+    ],
+    "creationAt": "2026-10-21T21:12:14.000Z",
+    "updatedAt": "2026-10-21T21:12:14.000Z"
+  },
+  {
+    "id": 131,
+    "title": "title-6ccf0231-8d82-4df3-8cfa-c34d3172b94e",
+    "slug": "title-6ccf0231-8d82-4df3-8cfa-c34d3172b94e",
+    "price": 888,
+    "description": "desc-a56d0d82-db49-46b8-9dac-34b8b8ece732",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=94900"
+    ],
+    "creationAt": "2026-10-21T21:27:02.000Z",
+    "updatedAt": "2026-10-21T21:27:02.000Z"
+  },
+  {
+    "id": 132,
+    "title": "title-d0f23436-b26a-470e-8f4c-6898cf58ba51",
+    "slug": "title-d0f23436-b26a-470e-8f4c-6898cf58ba51",
+    "price": 809,
+    "description": "desc-48238166-adac-4232-a9bc-95800d76c776",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=23435",
+      "https://placehold.co/600x400?img=60368",
+      "https://placehold.co/600x400?img=50093"
+    ],
+    "creationAt": "2026-10-21T21:42:02.000Z",
+    "updatedAt": "2026-10-21T21:42:02.000Z"
+  },
+  {
+    "id": 133,
+    "title": "title-d96c644e-6eb6-4eaa-ab32-cd44cf8ffa8a",
+    "slug": "title-d96c644e-6eb6-4eaa-ab32-cd44cf8ffa8a",
+    "price": 189,
+    "description": "desc-80213513-a70a-4c44-b859-9ddb180cb890",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=93726"
+    ],
+    "creationAt": "2026-10-21T21:57:02.000Z",
+    "updatedAt": "2026-10-21T21:57:02.000Z"
+  },
+  {
+    "id": 134,
+    "title": "title-4d69b0a5-f1c6-4a78-a8d6-29cafa1aae5e",
+    "slug": "title-4d69b0a5-f1c6-4a78-a8d6-29cafa1aae5e",
+    "price": 603,
+    "description": "desc-1d3dbefd-d3e0-4d95-8a77-a9431d0cc32a",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=59248"
+    ],
+    "creationAt": "2026-10-21T22:12:02.000Z",
+    "updatedAt": "2026-10-21T22:12:02.000Z"
+  },
+  {
+    "id": 135,
+    "title": "title-8495d5f7-ad19-4b85-aa29-b93be0c062a8",
+    "slug": "title-8495d5f7-ad19-4b85-aa29-b93be0c062a8",
+    "price": 208,
+    "description": "desc-c7fb9ca6-0737-4964-885b-5d290e2fb41d",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=36490"
+    ],
+    "creationAt": "2026-10-21T22:27:06.000Z",
+    "updatedAt": "2026-10-21T22:27:06.000Z"
+  },
+  {
+    "id": 136,
+    "title": "Rosas Rojas 634117",
+    "slug": "rosas-rojas-634117",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:31:49.000Z",
+    "updatedAt": "2026-10-21T22:31:49.000Z"
+  },
+  {
+    "id": 137,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 961997",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-961997",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:31:50.000Z",
+    "updatedAt": "2026-10-21T22:31:50.000Z"
+  },
+  {
+    "id": 138,
+    "title": "Rosas Rojas 731034",
+    "slug": "rosas-rojas-731034",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:31:52.000Z",
+    "updatedAt": "2026-10-21T22:31:52.000Z"
+  },
+  {
+    "id": 139,
+    "title": "Rosas Rojas 665257",
+    "slug": "rosas-rojas-665257",
+    "price": 400,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:31:53.000Z",
+    "updatedAt": "2026-10-21T22:31:53.000Z"
+  },
+  {
+    "id": 140,
+    "title": "Rosas Rojas 605020",
+    "slug": "rosas-rojas-605020",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:42:12.000Z",
+    "updatedAt": "2026-10-21T22:42:12.000Z"
+  },
+  {
+    "id": 141,
+    "title": "Producto de prueba rosas amarillas y rosas rojas 695129",
+    "slug": "producto-de-prueba-rosas-amarillas-y-rosas-rojas-695129",
+    "price": 200,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:42:13.000Z",
+    "updatedAt": "2026-10-21T22:42:13.000Z"
+  },
+  {
+    "id": 142,
+    "title": "title-d68bcdbb-3149-45d0-bb9d-fe307c5f59a7",
+    "slug": "title-d68bcdbb-3149-45d0-bb9d-fe307c5f59a7",
+    "price": 966,
+    "description": "desc-64e2ceba-82fb-46b7-b929-1222dc5abecf",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=95440"
+    ],
+    "creationAt": "2026-10-21T22:42:14.000Z",
+    "updatedAt": "2026-10-21T22:42:14.000Z"
+  },
+  {
+    "id": 143,
+    "title": "Rosas Rojas 657613",
+    "slug": "rosas-rojas-657613",
+    "price": 50,
+    "description": "Prueba rosas",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:42:16.000Z",
+    "updatedAt": "2026-10-21T22:42:16.000Z"
+  },
+  {
+    "id": 144,
+    "title": "Rosas Rojas 220332",
+    "slug": "rosas-rojas-220332",
+    "price": 200,
+    "description": "Prueba rosas amarillas descripcion mayor a 50 crts",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://reqres.in/img/faces/1-image.jpg"
+    ],
+    "creationAt": "2026-10-21T22:42:17.000Z",
+    "updatedAt": "2026-10-21T22:42:17.000Z"
+  },
+  {
+    "id": 145,
+    "title": "title-4ac75929-37aa-41f5-8a8f-ee2417c0188b",
+    "slug": "title-4ac75929-37aa-41f5-8a8f-ee2417c0188b",
+    "price": 658,
+    "description": "desc-1bdfc746-eeab-4091-8302-05cdcac071b6",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=18351",
+      "https://placehold.co/600x400?img=22432"
+    ],
+    "creationAt": "2026-10-21T22:57:04.000Z",
+    "updatedAt": "2026-10-21T22:57:04.000Z"
+  },
+  {
+    "id": 146,
+    "title": "title-46147852-f921-404a-abf8-8562ee515700",
+    "slug": "title-46147852-f921-404a-abf8-8562ee515700",
+    "price": 209,
+    "description": "desc-d3f99400-3459-4e96-8495-7f90bb1ac056",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=92834"
+    ],
+    "creationAt": "2026-10-21T23:12:14.000Z",
+    "updatedAt": "2026-10-21T23:12:14.000Z"
+  },
+  {
+    "id": 147,
+    "title": "title-1b917ace-4857-44b3-927f-505c042e8222",
+    "slug": "title-1b917ace-4857-44b3-927f-505c042e8222",
+    "price": 462,
+    "description": "desc-99a2566a-28d9-4b8e-984d-12e768327bd2",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=62422",
+      "https://placehold.co/600x400?img=25438"
+    ],
+    "creationAt": "2026-10-21T23:27:04.000Z",
+    "updatedAt": "2026-10-21T23:27:04.000Z"
+  },
+  {
+    "id": 148,
+    "title": "title-2fe750ec-6107-44fd-8cce-00df40197258",
+    "slug": "title-2fe750ec-6107-44fd-8cce-00df40197258",
+    "price": 15,
+    "description": "desc-3842c8b3-b032-4c45-aae6-396241ad1325",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=66597",
+      "https://placehold.co/600x400?img=92907"
+    ],
+    "creationAt": "2026-10-21T23:42:03.000Z",
+    "updatedAt": "2026-10-21T23:42:03.000Z"
+  },
+  {
+    "id": 149,
+    "title": "title-3cdf4bfe-8355-4b31-8153-5bb7dd92f0b0",
+    "slug": "title-3cdf4bfe-8355-4b31-8153-5bb7dd92f0b0",
+    "price": 965,
+    "description": "desc-d8c96dff-831e-4b23-a86e-4a128cdda6c9",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=53207"
+    ],
+    "creationAt": "2026-10-21T23:57:03.000Z",
+    "updatedAt": "2026-10-21T23:57:03.000Z"
+  },
+  {
+    "id": 150,
+    "title": "title-4d64c892-f55b-480f-9b89-e16a0d4240f7",
+    "slug": "title-4d64c892-f55b-480f-9b89-e16a0d4240f7",
+    "price": 69,
+    "description": "desc-d224d79e-cd9f-47fe-bdb5-d7051eb3b1aa",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=13457",
+      "https://placehold.co/600x400?img=20049"
+    ],
+    "creationAt": "2026-10-22T00:12:03.000Z",
+    "updatedAt": "2026-10-22T00:12:03.000Z"
+  },
+  {
+    "id": 151,
+    "title": "title-68d516b6-c6cb-4ff4-9db7-2048d50078db",
+    "slug": "title-68d516b6-c6cb-4ff4-9db7-2048d50078db",
+    "price": 114,
+    "description": "desc-66c07ebb-1baf-4dee-a468-b6f9aa5e7fe8",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=19396",
+      "https://placehold.co/600x400?img=57054"
+    ],
+    "creationAt": "2026-10-22T00:27:03.000Z",
+    "updatedAt": "2026-10-22T00:27:03.000Z"
+  },
+  {
+    "id": 152,
+    "title": "title-d4ce251b-e002-4956-a36e-2c734dd71973",
+    "slug": "title-d4ce251b-e002-4956-a36e-2c734dd71973",
+    "price": 19,
+    "description": "desc-f224bd15-c188-4e01-a78f-d0497d0f2cfb",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=64683",
+      "https://placehold.co/600x400?img=8982",
+      "https://placehold.co/600x400?img=86546"
+    ],
+    "creationAt": "2026-10-22T00:42:07.000Z",
+    "updatedAt": "2026-10-22T00:42:07.000Z"
+  },
+  {
+    "id": 153,
+    "title": "title-66d9dc39-6425-4000-ab32-2a48dbf11054",
+    "slug": "title-66d9dc39-6425-4000-ab32-2a48dbf11054",
+    "price": 255,
+    "description": "desc-435c0a9a-9bba-4ce1-a905-0b55d592d04e",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=38528",
+      "https://placehold.co/600x400?img=83489",
+      "https://placehold.co/600x400?img=79629"
+    ],
+    "creationAt": "2026-10-22T00:57:06.000Z",
+    "updatedAt": "2026-10-22T00:57:06.000Z"
+  },
+  {
+    "id": 154,
+    "title": "title-93b328bf-bee5-45e1-9140-395a30e3f689",
+    "slug": "title-93b328bf-bee5-45e1-9140-395a30e3f689",
+    "price": 329,
+    "description": "desc-d6c1685b-3697-453f-bf15-3fc52fc0014f",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=81412",
+      "https://placehold.co/600x400?img=18349",
+      "https://placehold.co/600x400?img=70259"
+    ],
+    "creationAt": "2026-10-22T01:12:15.000Z",
+    "updatedAt": "2026-10-22T01:12:15.000Z"
+  },
+  {
+    "id": 155,
+    "title": "title-162f28cb-d550-4ea1-9ca2-896c02fad0a7",
+    "slug": "title-162f28cb-d550-4ea1-9ca2-896c02fad0a7",
+    "price": 438,
+    "description": "desc-e329012d-e784-4219-a661-d13a3bb5a0c1",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=2294",
+      "https://placehold.co/600x400?img=11330",
+      "https://placehold.co/600x400?img=55899"
+    ],
+    "creationAt": "2026-10-22T01:27:06.000Z",
+    "updatedAt": "2026-10-22T01:27:06.000Z"
+  },
+  {
+    "id": 156,
+    "title": "title-7570c5d2-ffc7-4612-8e9b-df55dc65fc01",
+    "slug": "title-7570c5d2-ffc7-4612-8e9b-df55dc65fc01",
+    "price": 315,
+    "description": "desc-a36789e6-fc85-43bc-9d3a-e676f3935983",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=96169",
+      "https://placehold.co/600x400?img=35243"
+    ],
+    "creationAt": "2026-10-22T01:42:05.000Z",
+    "updatedAt": "2026-10-22T01:42:05.000Z"
+  },
+  {
+    "id": 157,
+    "title": "title-5aeee63f-0caf-4a4a-be6a-9b955f4c7356",
+    "slug": "title-5aeee63f-0caf-4a4a-be6a-9b955f4c7356",
+    "price": 65,
+    "description": "desc-e836614a-3c33-449f-b40a-47634bdb4d5f",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=43376"
+    ],
+    "creationAt": "2026-10-22T01:57:04.000Z",
+    "updatedAt": "2026-10-22T01:57:04.000Z"
+  },
+  {
+    "id": 158,
+    "title": "title-731818a7-97ae-4c94-826c-4a8f3a74add1",
+    "slug": "title-731818a7-97ae-4c94-826c-4a8f3a74add1",
+    "price": 547,
+    "description": "desc-cf08947e-cf5d-4ba8-a360-390507967fad",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=34023",
+      "https://placehold.co/600x400?img=3071",
+      "https://placehold.co/600x400?img=60452"
+    ],
+    "creationAt": "2026-10-22T02:12:13.000Z",
+    "updatedAt": "2026-10-22T02:12:13.000Z"
+  },
+  {
+    "id": 159,
+    "title": "title-91de3469-261a-4f2a-92c7-3d5a0a59f299",
+    "slug": "title-91de3469-261a-4f2a-92c7-3d5a0a59f299",
+    "price": 377,
+    "description": "desc-2f6515f8-39d2-40e3-8858-d6d8af353cda",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=89717",
+      "https://placehold.co/600x400?img=12397"
+    ],
+    "creationAt": "2026-10-22T02:27:04.000Z",
+    "updatedAt": "2026-10-22T02:27:04.000Z"
+  },
+  {
+    "id": 160,
+    "title": "title-240c497e-dc27-4390-b99b-8035d8405984",
+    "slug": "title-240c497e-dc27-4390-b99b-8035d8405984",
+    "price": 457,
+    "description": "desc-7a8294ab-3da8-416b-8ff0-7bf489e55f25",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=16399"
+    ],
+    "creationAt": "2026-10-22T02:42:03.000Z",
+    "updatedAt": "2026-10-22T02:42:03.000Z"
+  },
+  {
+    "id": 161,
+    "title": "title-8f40ebd0-98dc-4f8f-b541-1abb09fd088f",
+    "slug": "title-8f40ebd0-98dc-4f8f-b541-1abb09fd088f",
+    "price": 7,
+    "description": "desc-0dec62bb-243b-4c2e-ab15-af557611b434",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=88673"
+    ],
+    "creationAt": "2026-10-22T02:57:03.000Z",
+    "updatedAt": "2026-10-22T02:57:03.000Z"
+  },
+  {
+    "id": 162,
+    "title": "title-27a2c0f9-aef7-4467-b677-353638b97171",
+    "slug": "title-27a2c0f9-aef7-4467-b677-353638b97171",
+    "price": 52,
+    "description": "desc-efaac2ab-29dc-4f52-8de1-c56fc9702d94",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T17:25:06.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=3843",
+      "https://placehold.co/600x400?img=65945",
+      "https://placehold.co/600x400?img=55801"
+    ],
+    "creationAt": "2026-10-22T03:12:11.000Z",
+    "updatedAt": "2026-10-22T03:12:11.000Z"
+  },
+  {
+    "id": 163,
+    "title": "title-a33677d8-ae87-4477-b9f7-6826fa8ba943",
+    "slug": "title-a33677d8-ae87-4477-b9f7-6826fa8ba943",
+    "price": 960,
+    "description": "desc-103c9eb3-2502-47fc-ae2e-4ff04c263f19",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=87920"
+    ],
+    "creationAt": "2026-10-22T03:27:02.000Z",
+    "updatedAt": "2026-10-22T03:27:02.000Z"
+  },
+  {
+    "id": 164,
+    "title": "title-a53cf7b9-bfb1-45b3-9a0e-55b6a40b390c",
+    "slug": "title-a53cf7b9-bfb1-45b3-9a0e-55b6a40b390c",
+    "price": 380,
+    "description": "desc-364ded6f-f9f1-492d-be25-c4aa7796278b",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=112",
+      "https://placehold.co/600x400?img=38995"
+    ],
+    "creationAt": "2026-10-22T03:42:06.000Z",
+    "updatedAt": "2026-10-22T03:42:06.000Z"
+  },
+  {
+    "id": 165,
+    "title": "E2E Test Sneakers",
+    "slug": "e2e-test-sneakers",
+    "price": 79,
+    "description": "Comfortable sneakers created by the automated e2e test.",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-21T17:25:06.000Z",
+      "updatedAt": "2026-10-21T18:00:37.000Z"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80"
+    ],
+    "creationAt": "2026-10-22T03:48:47.000Z",
+    "updatedAt": "2026-10-22T03:48:47.000Z"
+  },
+  {
+    "id": 169,
+    "title": "Integrated modular system engine-05e30a95635243b391b7aeb9e57a2e0f",
+    "slug": "integrated-modular-system-engine-05e30a95635243b391b7aeb9e57a2e0f",
+    "price": 766,
+    "description": "Stand-alone human-resource algorithm",
+    "category": {
+      "id": 32,
+      "name": "Food & Beverages_8c06d55cc05f42c5b8f18a5012b6f595",
+      "slug": "food-beverages-8c06d55cc05f42c5b8f18a5012b6f595",
+      "image": "http://www.smith-davis.org/",
+      "creationAt": "2026-10-22T03:53:50.000Z",
+      "updatedAt": "2026-10-22T03:53:50.000Z"
+    },
+    "images": [
+      "https://www.cordova.com/"
+    ],
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  {
+    "id": 171,
+    "title": "Grass-roots disintermediate analyzer-dee9c8116f044c48985af69851b14704",
+    "slug": "grass-roots-disintermediate-analyzer-dee9c8116f044c48985af69851b14704",
+    "price": 670,
+    "description": "Open-architected grid-enabled application",
+    "category": {
+      "id": 33,
+      "name": "Books_7e147821148c4cf0a1c5f731d4a2278e",
+      "slug": "books-7e147821148c4cf0a1c5f731d4a2278e",
+      "image": "https://www.martin-macias.com/",
+      "creationAt": "2026-10-22T03:53:50.000Z",
+      "updatedAt": "2026-10-22T03:53:50.000Z"
+    },
+    "images": [
+      "http://hernandez.org/"
+    ],
+    "creationAt": "2026-10-22T03:53:51.000Z",
+    "updatedAt": "2026-10-22T03:53:51.000Z"
+  }
+]
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/171
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/171 -> 200
+Body:
+{
+  "id": 171,
+  "title": "Grass-roots disintermediate analyzer-dee9c8116f044c48985af69851b14704",
+  "slug": "grass-roots-disintermediate-analyzer-dee9c8116f044c48985af69851b14704",
+  "price": 670,
+  "description": "Open-architected grid-enabled application",
+  "category": {
+    "id": 33,
+    "name": "Books_7e147821148c4cf0a1c5f731d4a2278e",
+    "slug": "books-7e147821148c4cf0a1c5f731d4a2278e",
+    "image": "https://www.martin-macias.com/",
+    "creationAt": "2026-10-22T03:53:50.000Z",
+    "updatedAt": "2026-10-22T03:53:50.000Z"
+  },
+  "images": [
+    "http://hernandez.org/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/171
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/171 -> 200
+Body:
+true 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Books_7e147821148c4cf0a1c5f731d4a2278e",
+  "slug": "books-7e147821148c4cf0a1c5f731d4a2278e",
+  "image": "https://www.martin-macias.com/",
+  "creationAt": "2026-10-22T03:53:50.000Z",
+  "updatedAt": "2026-10-22T03:53:50.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

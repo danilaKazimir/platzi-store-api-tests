@@ -1,0 +1,79 @@
+2026-11-02 05:06:07 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_65f17d3d96fd40a6ad49c4826d1cae24",
+  "image": "https://willis.com/"
+} 
+
+2026-11-02 05:06:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 51,
+  "name": "Automotive Accessories_65f17d3d96fd40a6ad49c4826d1cae24",
+  "slug": "automotive-accessories-65f17d3d96fd40a6ad49c4826d1cae24",
+  "image": "https://willis.com/",
+  "creationAt": "2026-11-02T05:06:09.000Z",
+  "updatedAt": "2026-11-02T05:06:09.000Z"
+}
+2026-11-02 05:06:09 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly intangible moderator-b32cf6a1924d4b83a7d2c166e1e389dd",
+  "price": 584,
+  "description": "Proactive tertiary encryption",
+  "categoryId": 51,
+  "images": [
+    "https://www.leach.com/"
+  ]
+} 
+
+2026-11-02 05:06:09 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 25493,
+  "title": "User-friendly intangible moderator-b32cf6a1924d4b83a7d2c166e1e389dd",
+  "slug": "user-friendly-intangible-moderator-b32cf6a1924d4b83a7d2c166e1e389dd",
+  "price": 584,
+  "description": "Proactive tertiary encryption",
+  "category": {
+    "id": 51,
+    "name": "Automotive Accessories_65f17d3d96fd40a6ad49c4826d1cae24",
+    "slug": "automotive-accessories-65f17d3d96fd40a6ad49c4826d1cae24",
+    "image": "https://willis.com/",
+    "creationAt": "2026-11-02T05:06:09.000Z",
+    "updatedAt": "2026-11-02T05:06:09.000Z"
+  },
+  "images": [
+    "https://www.leach.com/"
+  ],
+  "creationAt": "2026-11-02T05:06:09.000Z",
+  "updatedAt": "2026-11-02T05:06:09.000Z"
+}
+2026-11-02 05:06:09 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-11-02 05:06:09 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/51 -> 200
+Body:
+{
+  "id": 51,
+  "name": "Automotive Accessories_65f17d3d96fd40a6ad49c4826d1cae24",
+  "slug": "automotive-accessories-65f17d3d96fd40a6ad49c4826d1cae24",
+  "image": "https://willis.com/",
+  "creationAt": "2026-11-02T05:06:09.000Z",
+  "updatedAt": "2026-11-02T05:06:09.000Z"
+} 
+
+2026-11-02 05:06:09 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/51
+Body:
+<empty> 
+
+2026-11-02 05:06:10 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/51 -> 400
+Body:
+{
+  "path": "/api/v1/categories/51",
+  "timestamp": "2026-11-02T05:06:10.004Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

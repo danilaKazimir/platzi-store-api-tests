@@ -1,0 +1,15 @@
+2026-10-17 03:36:44 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Food & Beverages_efcaca241494483892c407e68e18cb9f",
+  "image": "http://www.meza.com/"
+} 
+
+2026-10-17 03:36:45 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-17T03:36:45.194Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

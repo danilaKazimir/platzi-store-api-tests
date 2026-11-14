@@ -1,0 +1,71 @@
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_5e7eb3e8e8bd4ddfb246fd7b459953d3",
+  "image": "http://baker-hodge.com/"
+} 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Clothing_5e7eb3e8e8bd4ddfb246fd7b459953d3",
+  "slug": "clothing-5e7eb3e8e8bd4ddfb246fd7b459953d3",
+  "image": "http://baker-hodge.com/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:53.000Z"
+}
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/27
+Body:
+{
+  "name": "Automotive Accessories_779468b18ba7479099336c1ae1709f92",
+  "image": "http://mendoza-owens.biz/"
+} 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_779468b18ba7479099336c1ae1709f92",
+  "slug": "automotive-accessories-779468b18ba7479099336c1ae1709f92",
+  "image": "http://mendoza-owens.biz/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:54.000Z"
+} 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_779468b18ba7479099336c1ae1709f92",
+  "slug": "automotive-accessories-779468b18ba7479099336c1ae1709f92",
+  "image": "http://mendoza-owens.biz/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:54.000Z"
+}
+2026-10-29 04:57:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_779468b18ba7479099336c1ae1709f92",
+  "slug": "automotive-accessories-779468b18ba7479099336c1ae1709f92",
+  "image": "http://mendoza-owens.biz/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:54.000Z"
+} 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

@@ -1,0 +1,88 @@
+2026-10-21 03:53:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Christopher Morris",
+  "email": "anna48@example.net",
+  "password": "***",
+  "avatar": "http://smith-hall.org/"
+} 
+
+2026-10-21 03:53:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 14,
+  "email": "anna48@example.net",
+  "password": "***",
+  "name": "Christopher Morris",
+  "role": "customer",
+  "avatar": "http://smith-hall.org/",
+  "creationAt": "2026-10-21T03:53:44.000Z",
+  "updatedAt": "2026-10-21T03:53:44.000Z"
+}
+2026-10-21 03:53:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "anna48@example.net",
+  "password": "***"
+} 
+
+2026-10-21 03:53:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-21 03:53:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE0LCJpYXQiOjE3OTI1NTQ4MjQsImV4cCI6MTc5MjU5MDgyNH0.qQ9fZlcHlnZ59D-kFLiJ48tg-NsA_TIIioo__0OV4_Q"
+} 
+
+2026-10-21 03:53:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-21 03:53:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-21 03:53:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 14,
+  "email": "anna48@example.net",
+  "password": "***",
+  "name": "Christopher Morris",
+  "role": "customer",
+  "avatar": "http://smith-hall.org/",
+  "creationAt": "2026-10-21T03:53:44.000Z",
+  "updatedAt": "2026-10-21T03:53:44.000Z"
+}
+2026-10-21 03:53:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+{
+  "id": 14,
+  "email": "anna48@example.net",
+  "password": "***",
+  "name": "Christopher Morris",
+  "role": "customer",
+  "avatar": "http://smith-hall.org/",
+  "creationAt": "2026-10-21T03:53:44.000Z",
+  "updatedAt": "2026-10-21T03:53:44.000Z"
+} 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/14
+Body:
+<empty> 
+
+2026-10-21 03:53:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/14 -> 200
+Body:
+true

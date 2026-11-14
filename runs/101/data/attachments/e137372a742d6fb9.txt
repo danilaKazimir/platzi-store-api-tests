@@ -1,0 +1,135 @@
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_f324994338e34b18ab5f9dfb31acce3e",
+  "image": "http://rogers-gordon.com/"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Electronics_f324994338e34b18ab5f9dfb31acce3e",
+  "slug": "electronics-f324994338e34b18ab5f9dfb31acce3e",
+  "image": "http://rogers-gordon.com/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Cloned asynchronous access-eed16fe2798244bca505f5f9fbd63c3d",
+  "price": 852,
+  "description": "Function-based systematic installation",
+  "categoryId": 37,
+  "images": [
+    "http://richardson-harris.com/"
+  ]
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 175,
+  "title": "Cloned asynchronous access-eed16fe2798244bca505f5f9fbd63c3d",
+  "slug": "cloned-asynchronous-access-eed16fe2798244bca505f5f9fbd63c3d",
+  "price": 852,
+  "description": "Function-based systematic installation",
+  "category": {
+    "id": 37,
+    "name": "Electronics_f324994338e34b18ab5f9dfb31acce3e",
+    "slug": "electronics-f324994338e34b18ab5f9dfb31acce3e",
+    "image": "http://rogers-gordon.com/",
+    "creationAt": "2026-10-22T03:53:51.000Z",
+    "updatedAt": "2026-10-22T03:53:51.000Z"
+  },
+  "images": [
+    "http://richardson-harris.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/175
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/175 -> 200
+Body:
+{
+  "id": 175,
+  "title": "Cloned asynchronous access-eed16fe2798244bca505f5f9fbd63c3d",
+  "slug": "cloned-asynchronous-access-eed16fe2798244bca505f5f9fbd63c3d",
+  "price": 852,
+  "description": "Function-based systematic installation",
+  "category": {
+    "id": 37,
+    "name": "Electronics_f324994338e34b18ab5f9dfb31acce3e",
+    "slug": "electronics-f324994338e34b18ab5f9dfb31acce3e",
+    "image": "http://rogers-gordon.com/",
+    "creationAt": "2026-10-22T03:53:51.000Z",
+    "updatedAt": "2026-10-22T03:53:51.000Z"
+  },
+  "images": [
+    "http://richardson-harris.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+}
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/175
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/175 -> 200
+Body:
+{
+  "id": 175,
+  "title": "Cloned asynchronous access-eed16fe2798244bca505f5f9fbd63c3d",
+  "slug": "cloned-asynchronous-access-eed16fe2798244bca505f5f9fbd63c3d",
+  "price": 852,
+  "description": "Function-based systematic installation",
+  "category": {
+    "id": 37,
+    "name": "Electronics_f324994338e34b18ab5f9dfb31acce3e",
+    "slug": "electronics-f324994338e34b18ab5f9dfb31acce3e",
+    "image": "http://rogers-gordon.com/",
+    "creationAt": "2026-10-22T03:53:51.000Z",
+    "updatedAt": "2026-10-22T03:53:51.000Z"
+  },
+  "images": [
+    "http://richardson-harris.com/"
+  ],
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/175
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/175 -> 200
+Body:
+true 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Electronics_f324994338e34b18ab5f9dfb31acce3e",
+  "slug": "electronics-f324994338e34b18ab5f9dfb31acce3e",
+  "image": "http://rogers-gordon.com/",
+  "creationAt": "2026-10-22T03:53:51.000Z",
+  "updatedAt": "2026-10-22T03:53:51.000Z"
+} 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-10-22 03:53:51 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+true

@@ -1,0 +1,71 @@
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_4471282bdfc24e3c9cbfd54792e63574",
+  "image": "https://www.riley.org/"
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Electronics_4471282bdfc24e3c9cbfd54792e63574",
+  "slug": "electronics-4471282bdfc24e3c9cbfd54792e63574",
+  "image": "https://www.riley.org/",
+  "creationAt": "2026-10-22T03:53:49.000Z",
+  "updatedAt": "2026-10-22T03:53:49.000Z"
+}
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/28
+Body:
+{
+  "name": "Books_34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "image": "https://tyler-bailey.biz/"
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Books_34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "slug": "books-34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "image": "https://tyler-bailey.biz/",
+  "creationAt": "2026-10-22T03:53:49.000Z",
+  "updatedAt": "2026-10-22T03:53:49.000Z"
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Books_34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "slug": "books-34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "image": "https://tyler-bailey.biz/",
+  "creationAt": "2026-10-22T03:53:49.000Z",
+  "updatedAt": "2026-10-22T03:53:49.000Z"
+}
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Books_34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "slug": "books-34ffcfb4f27d4195acfa1f9ad3d141e2",
+  "image": "https://tyler-bailey.biz/",
+  "creationAt": "2026-10-22T03:53:49.000Z",
+  "updatedAt": "2026-10-22T03:53:49.000Z"
+} 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-10-22 03:53:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true

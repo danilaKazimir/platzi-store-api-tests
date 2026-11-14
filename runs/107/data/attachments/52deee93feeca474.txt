@@ -1,0 +1,71 @@
+2026-10-28 04:45:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_1ff2fb02cc354f778de2ef136371c198",
+  "image": "https://www.adams-wright.com/"
+} 
+
+2026-10-28 04:45:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 43,
+  "name": "Books_1ff2fb02cc354f778de2ef136371c198",
+  "slug": "books-1ff2fb02cc354f778de2ef136371c198",
+  "image": "https://www.adams-wright.com/",
+  "creationAt": "2026-10-28T04:45:59.000Z",
+  "updatedAt": "2026-10-28T04:45:59.000Z"
+}
+2026-10-28 04:45:59 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/43
+Body:
+{
+  "name": "Sports & Fitness_e63b4c68cbfb489981623227f59f630b",
+  "image": "https://gillespie.com/"
+} 
+
+2026-10-28 04:45:59 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+{
+  "id": 43,
+  "name": "Sports & Fitness_e63b4c68cbfb489981623227f59f630b",
+  "slug": "sports-fitness-e63b4c68cbfb489981623227f59f630b",
+  "image": "https://gillespie.com/",
+  "creationAt": "2026-10-28T04:45:59.000Z",
+  "updatedAt": "2026-10-28T04:45:59.000Z"
+} 
+
+2026-10-28 04:45:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-28 04:45:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+{
+  "id": 43,
+  "name": "Sports & Fitness_e63b4c68cbfb489981623227f59f630b",
+  "slug": "sports-fitness-e63b4c68cbfb489981623227f59f630b",
+  "image": "https://gillespie.com/",
+  "creationAt": "2026-10-28T04:45:59.000Z",
+  "updatedAt": "2026-10-28T04:45:59.000Z"
+}
+2026-10-28 04:45:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-28 04:46:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+{
+  "id": 43,
+  "name": "Sports & Fitness_e63b4c68cbfb489981623227f59f630b",
+  "slug": "sports-fitness-e63b4c68cbfb489981623227f59f630b",
+  "image": "https://gillespie.com/",
+  "creationAt": "2026-10-28T04:45:59.000Z",
+  "updatedAt": "2026-10-28T04:45:59.000Z"
+} 
+
+2026-10-28 04:46:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-28 04:46:00 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+true

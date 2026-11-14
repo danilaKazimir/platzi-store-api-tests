@@ -1,0 +1,107 @@
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_c50a7de4f3274cf8b4b8d9083c00732b",
+  "image": "https://www.butler-holt.com/"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 36,
+  "name": "Books_c50a7de4f3274cf8b4b8d9083c00732b",
+  "slug": "books-c50a7de4f3274cf8b4b8d9083c00732b",
+  "image": "https://www.butler-holt.com/",
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Progressive interactive encryption-d76f7cff256b438aa28e3000013670a9",
+  "price": 722,
+  "description": "Robust mission-critical installation",
+  "categoryId": 36,
+  "images": [
+    "http://weber.org/"
+  ]
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 64,
+  "title": "Progressive interactive encryption-d76f7cff256b438aa28e3000013670a9",
+  "slug": "progressive-interactive-encryption-d76f7cff256b438aa28e3000013670a9",
+  "price": 722,
+  "description": "Robust mission-critical installation",
+  "category": {
+    "id": 36,
+    "name": "Books_c50a7de4f3274cf8b4b8d9083c00732b",
+    "slug": "books-c50a7de4f3274cf8b4b8d9083c00732b",
+    "image": "https://www.butler-holt.com/",
+    "creationAt": "2026-11-10T06:35:22.000Z",
+    "updatedAt": "2026-11-10T06:35:22.000Z"
+  },
+  "images": [
+    "http://weber.org/"
+  ],
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+}
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/64 -> 200
+Body:
+true 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 400
+Body:
+{
+  "path": "/api/v1/products/64",
+  "timestamp": "2026-11-10T06:35:22.346Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 64\n    }\n}"
+}
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/64
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/64 -> 400
+Body:
+{
+  "path": "/api/v1/products/64",
+  "timestamp": "2026-11-10T06:35:22.386Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 64\n    }\n}"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+{
+  "id": 36,
+  "name": "Books_c50a7de4f3274cf8b4b8d9083c00732b",
+  "slug": "books-c50a7de4f3274cf8b4b8d9083c00732b",
+  "image": "https://www.butler-holt.com/",
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+true

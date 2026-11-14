@@ -1,0 +1,88 @@
+2026-11-08 05:11:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Samantha Martin",
+  "email": "gonzalezdonna@example.net",
+  "password": "***",
+  "avatar": "https://www.mcdonald.info/"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 7,
+  "email": "gonzalezdonna@example.net",
+  "password": "***",
+  "name": "Samantha Martin",
+  "role": "customer",
+  "avatar": "https://www.mcdonald.info/",
+  "creationAt": "2026-11-08T05:11:21.000Z",
+  "updatedAt": "2026-11-08T05:11:21.000Z"
+}
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "gonzalezdonna@example.net",
+  "password": "***"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjcsImlhdCI6MTc5NDExNDY4MSwiZXhwIjoxNzk0MTUwNjgxfQ.P9fC9PwsulqE57BeR5oXAOep1yMpu9bXhkokNuu9l0M"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 7,
+  "email": "gonzalezdonna@example.net",
+  "password": "***",
+  "name": "Samantha Martin",
+  "role": "customer",
+  "avatar": "https://www.mcdonald.info/",
+  "creationAt": "2026-11-08T05:11:21.000Z",
+  "updatedAt": "2026-11-08T05:11:21.000Z"
+}
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/7
+Body:
+<empty> 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/7 -> 200
+Body:
+{
+  "id": 7,
+  "email": "gonzalezdonna@example.net",
+  "password": "***",
+  "name": "Samantha Martin",
+  "role": "customer",
+  "avatar": "https://www.mcdonald.info/",
+  "creationAt": "2026-11-08T05:11:21.000Z",
+  "updatedAt": "2026-11-08T05:11:21.000Z"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/7
+Body:
+<empty> 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/7 -> 200
+Body:
+true

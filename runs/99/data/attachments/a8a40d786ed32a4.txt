@@ -1,0 +1,46 @@
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_bcc76fc0245d44ea96a3ca540f05277c",
+  "image": "https://www.james-eaton.biz/"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 108,
+  "name": "Books_bcc76fc0245d44ea96a3ca540f05277c",
+  "slug": "books-bcc76fc0245d44ea96a3ca540f05277c",
+  "image": "https://www.james-eaton.biz/",
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+}
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/108/products
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/108/products -> 200
+Body:
+[]
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/108
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/108 -> 200
+Body:
+{
+  "id": 108,
+  "name": "Books_bcc76fc0245d44ea96a3ca540f05277c",
+  "slug": "books-bcc76fc0245d44ea96a3ca540f05277c",
+  "image": "https://www.james-eaton.biz/",
+  "creationAt": "2026-10-20T04:04:52.000Z",
+  "updatedAt": "2026-10-20T04:04:52.000Z"
+} 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/108
+Body:
+<empty> 
+
+2026-10-20 04:04:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/108 -> 200
+Body:
+true

@@ -1,0 +1,88 @@
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Anne Tran",
+  "email": "fergusonmichael@example.org",
+  "password": "***",
+  "avatar": "https://www.mcdonald.org/"
+} 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 22,
+  "email": "fergusonmichael@example.org",
+  "password": "***",
+  "name": "Anne Tran",
+  "role": "customer",
+  "avatar": "https://www.mcdonald.org/",
+  "creationAt": "2026-10-18T03:43:02.000Z",
+  "updatedAt": "2026-10-18T03:43:02.000Z"
+}
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "fergusonmichael@example.org",
+  "password": "***"
+} 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIyLCJpYXQiOjE3OTIyOTQ5ODIsImV4cCI6MTc5MjMzMDk4Mn0.e44_RD4D2qq0Z5tkTFqxoikPMg_kBTLDLjd2Oq6SSY0"
+} 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 22,
+  "email": "fergusonmichael@example.org",
+  "password": "***",
+  "name": "Anne Tran",
+  "role": "customer",
+  "avatar": "https://www.mcdonald.org/",
+  "creationAt": "2026-10-18T03:43:02.000Z",
+  "updatedAt": "2026-10-18T03:43:02.000Z"
+}
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/22
+Body:
+<empty> 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/22 -> 200
+Body:
+{
+  "id": 22,
+  "email": "fergusonmichael@example.org",
+  "password": "***",
+  "name": "Anne Tran",
+  "role": "customer",
+  "avatar": "https://www.mcdonald.org/",
+  "creationAt": "2026-10-18T03:43:02.000Z",
+  "updatedAt": "2026-10-18T03:43:02.000Z"
+} 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/22
+Body:
+<empty> 
+
+2026-10-18 03:43:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/22 -> 200
+Body:
+true

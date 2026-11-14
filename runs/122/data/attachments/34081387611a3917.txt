@@ -1,0 +1,21 @@
+2026-11-12 06:25:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Alexis Soto",
+  "email": "davissean@example.org",
+  "password": "***",
+  "avatar": "http://www.davis.org/"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 20,
+  "email": "davissean@example.org",
+  "password": "***",
+  "name": "Alexis Soto",
+  "role": "customer",
+  "avatar": "http://www.davis.org/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+}

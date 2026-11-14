@@ -1,0 +1,72 @@
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=1&limit=3
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=1&limit=3 -> 200
+Body:
+[
+  {
+    "id": 72,
+    "title": "gula",
+    "slug": "gula",
+    "price": 2,
+    "description": "chiroyli",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXZcegrAN4wd_nI6OQ6bCyjmodJimiwgk0KxQHqvR82i3xNaoUAXDeZGxg&s=10"
+    ],
+    "creationAt": "2026-10-25T20:10:35.000Z",
+    "updatedAt": "2026-10-25T21:53:35.000Z"
+  },
+  {
+    "id": 195,
+    "title": "title-ea598cee-31fa-4943-b196-1e1a0129c6ad",
+    "slug": "title-ea598cee-31fa-4943-b196-1e1a0129c6ad",
+    "price": 601,
+    "description": "desc-cde3f4ad-cf24-4011-824d-9c4886bff6e6",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T18:00:35.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=33916",
+      "https://placehold.co/600x400?img=13860",
+      "https://placehold.co/600x400?img=56189"
+    ],
+    "creationAt": "2026-10-25T21:42:04.000Z",
+    "updatedAt": "2026-10-25T21:42:04.000Z"
+  },
+  {
+    "id": 204,
+    "title": "title-cd7df417-7dc2-44c2-9877-db07863e9706",
+    "slug": "title-cd7df417-7dc2-44c2-9877-db07863e9706",
+    "price": 162,
+    "description": "desc-dfdefafa-d99a-4d8e-82e6-49ab3ba1ef17",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=61883",
+      "https://placehold.co/600x400?img=78511",
+      "https://placehold.co/600x400?img=8648"
+    ],
+    "creationAt": "2026-10-25T21:57:04.000Z",
+    "updatedAt": "2026-10-25T21:57:04.000Z"
+  }
+]

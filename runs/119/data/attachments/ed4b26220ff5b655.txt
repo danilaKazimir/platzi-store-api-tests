@@ -1,0 +1,111 @@
+2026-11-09 05:23:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_17674e1a87e14a909034482d2fdcebfa",
+  "image": "http://www.jackson-weaver.org/"
+} 
+
+2026-11-09 05:23:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 8,
+  "name": "Clothing_17674e1a87e14a909034482d2fdcebfa",
+  "slug": "clothing-17674e1a87e14a909034482d2fdcebfa",
+  "image": "http://www.jackson-weaver.org/",
+  "creationAt": "2026-11-09T05:23:12.000Z",
+  "updatedAt": "2026-11-09T05:23:12.000Z"
+}
+2026-11-09 05:23:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-09 05:23:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-08T22:30:49.000Z",
+    "updatedAt": "2026-11-08T22:30:49.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-08T22:30:49.000Z",
+    "updatedAt": "2026-11-08T22:30:49.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-08T22:30:49.000Z",
+    "updatedAt": "2026-11-08T22:30:49.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-08T22:30:49.000Z",
+    "updatedAt": "2026-11-08T22:30:49.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-08T22:30:49.000Z",
+    "updatedAt": "2026-11-08T22:30:49.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Nueva categoria",
+    "slug": "nueva-categoria",
+    "image": "imagen.jpg",
+    "creationAt": "2026-11-09T00:15:29.000Z",
+    "updatedAt": "2026-11-09T00:15:29.000Z"
+  },
+  {
+    "id": 7,
+    "name": "testCategorye9bd90b9ad77447c980b01b33d1d8a28",
+    "slug": "testcategorye9bd90b9ad77447c980b01b33d1d8a28",
+    "image": "https://herring-davis.com/",
+    "creationAt": "2026-11-09T05:23:12.000Z",
+    "updatedAt": "2026-11-09T05:23:12.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Clothing_17674e1a87e14a909034482d2fdcebfa",
+    "slug": "clothing-17674e1a87e14a909034482d2fdcebfa",
+    "image": "http://www.jackson-weaver.org/",
+    "creationAt": "2026-11-09T05:23:12.000Z",
+    "updatedAt": "2026-11-09T05:23:12.000Z"
+  }
+]
+2026-11-09 05:23:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-11-09 05:23:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+{
+  "id": 8,
+  "name": "Clothing_17674e1a87e14a909034482d2fdcebfa",
+  "slug": "clothing-17674e1a87e14a909034482d2fdcebfa",
+  "image": "http://www.jackson-weaver.org/",
+  "creationAt": "2026-11-09T05:23:12.000Z",
+  "updatedAt": "2026-11-09T05:23:12.000Z"
+} 
+
+2026-11-09 05:23:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/8
+Body:
+<empty> 
+
+2026-11-09 05:23:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/8 -> 200
+Body:
+true

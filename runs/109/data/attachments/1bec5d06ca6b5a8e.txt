@@ -1,0 +1,53 @@
+2026-10-30 04:57:42 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_38c82e6a9fce40ffb366b4d5c482f934",
+  "image": "http://www.martin-estrada.biz/"
+} 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_38c82e6a9fce40ffb366b4d5c482f934",
+  "slug": "automotive-accessories-38c82e6a9fce40ffb366b4d5c482f934",
+  "image": "http://www.martin-estrada.biz/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+}
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-38c82e6a9fce40ffb366b4d5c482f934
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-38c82e6a9fce40ffb366b4d5c482f934 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_38c82e6a9fce40ffb366b4d5c482f934",
+  "slug": "automotive-accessories-38c82e6a9fce40ffb366b4d5c482f934",
+  "image": "http://www.martin-estrada.biz/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+}
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_38c82e6a9fce40ffb366b4d5c482f934",
+  "slug": "automotive-accessories-38c82e6a9fce40ffb366b4d5c482f934",
+  "image": "http://www.martin-estrada.biz/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+} 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

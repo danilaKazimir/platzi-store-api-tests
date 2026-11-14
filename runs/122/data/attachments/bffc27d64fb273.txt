@@ -1,0 +1,79 @@
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_765fbc9e680143a380daa655d29e5170",
+  "image": "http://morrison.com/"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Pet Supplies_765fbc9e680143a380daa655d29e5170",
+  "slug": "pet-supplies-765fbc9e680143a380daa655d29e5170",
+  "image": "http://morrison.com/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Universal exuding projection-494ef62868dc4af799316807bcd1e465",
+  "price": 315,
+  "description": "Streamlined holistic help-desk",
+  "categoryId": 26,
+  "images": [
+    "http://schmidt.com/"
+  ]
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 56,
+  "title": "Universal exuding projection-494ef62868dc4af799316807bcd1e465",
+  "slug": "universal-exuding-projection-494ef62868dc4af799316807bcd1e465",
+  "price": 315,
+  "description": "Streamlined holistic help-desk",
+  "category": {
+    "id": 26,
+    "name": "Pet Supplies_765fbc9e680143a380daa655d29e5170",
+    "slug": "pet-supplies-765fbc9e680143a380daa655d29e5170",
+    "image": "http://morrison.com/",
+    "creationAt": "2026-11-12T06:25:19.000Z",
+    "updatedAt": "2026-11-12T06:25:19.000Z"
+  },
+  "images": [
+    "http://schmidt.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+}
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Pet Supplies_765fbc9e680143a380daa655d29e5170",
+  "slug": "pet-supplies-765fbc9e680143a380daa655d29e5170",
+  "image": "http://morrison.com/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 400
+Body:
+{
+  "path": "/api/v1/categories/26",
+  "timestamp": "2026-11-12T06:25:20.461Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

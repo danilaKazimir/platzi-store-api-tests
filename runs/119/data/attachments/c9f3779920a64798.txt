@@ -1,0 +1,125 @@
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_375975b3248646d29bc7d65e9a4976ea",
+  "image": "http://robinson.com/"
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 24,
+  "name": "Home & Kitchen_375975b3248646d29bc7d65e9a4976ea",
+  "slug": "home-kitchen-375975b3248646d29bc7d65e9a4976ea",
+  "image": "http://robinson.com/",
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Compatible bandwidth-monitored contingency-a042b1b56cee445c8691f55b41c614da",
+  "price": 336,
+  "description": "Programmable mission-critical function",
+  "categoryId": 24,
+  "images": [
+    "https://martinez-kim.biz/"
+  ]
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 77,
+  "title": "Compatible bandwidth-monitored contingency-a042b1b56cee445c8691f55b41c614da",
+  "slug": "compatible-bandwidth-monitored-contingency-a042b1b56cee445c8691f55b41c614da",
+  "price": 336,
+  "description": "Programmable mission-critical function",
+  "category": {
+    "id": 24,
+    "name": "Home & Kitchen_375975b3248646d29bc7d65e9a4976ea",
+    "slug": "home-kitchen-375975b3248646d29bc7d65e9a4976ea",
+    "image": "http://robinson.com/",
+    "creationAt": "2026-11-09T05:23:16.000Z",
+    "updatedAt": "2026-11-09T05:23:16.000Z"
+  },
+  "images": [
+    "https://martinez-kim.biz/"
+  ],
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+}
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/77
+Body:
+{
+  "title": "Public-key secondary model-b30194e82a9648708fc88a74e6f25835",
+  "price": 148,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/77 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/77
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/77 -> 200
+Body:
+{
+  "id": 77,
+  "title": "Compatible bandwidth-monitored contingency-a042b1b56cee445c8691f55b41c614da",
+  "slug": "compatible-bandwidth-monitored-contingency-a042b1b56cee445c8691f55b41c614da",
+  "price": 336,
+  "description": "Programmable mission-critical function",
+  "category": {
+    "id": 24,
+    "name": "Home & Kitchen_375975b3248646d29bc7d65e9a4976ea",
+    "slug": "home-kitchen-375975b3248646d29bc7d65e9a4976ea",
+    "image": "http://robinson.com/",
+    "creationAt": "2026-11-09T05:23:16.000Z",
+    "updatedAt": "2026-11-09T05:23:16.000Z"
+  },
+  "images": [
+    "https://martinez-kim.biz/"
+  ],
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/77
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/77 -> 200
+Body:
+true 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+{
+  "id": 24,
+  "name": "Home & Kitchen_375975b3248646d29bc7d65e9a4976ea",
+  "slug": "home-kitchen-375975b3248646d29bc7d65e9a4976ea",
+  "image": "http://robinson.com/",
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/24
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/24 -> 200
+Body:
+true

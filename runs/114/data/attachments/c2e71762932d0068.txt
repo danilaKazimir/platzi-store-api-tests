@@ -1,0 +1,125 @@
+2026-11-04 05:28:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_5512a2ab3f07434b8c0fb132657c7ee2",
+  "image": "http://www.hull-bishop.com/"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 251,
+  "name": "Pet Supplies_5512a2ab3f07434b8c0fb132657c7ee2",
+  "slug": "pet-supplies-5512a2ab3f07434b8c0fb132657c7ee2",
+  "image": "http://www.hull-bishop.com/",
+  "creationAt": "2026-11-04T05:28:56.000Z",
+  "updatedAt": "2026-11-04T05:28:56.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Seamless scalable challenge-7bf36c01f64e4339b2a45390143c0521",
+  "price": 773,
+  "description": "Versatile static budgetary management",
+  "categoryId": 251,
+  "images": [
+    "https://morris.com/"
+  ]
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 10025,
+  "title": "Seamless scalable challenge-7bf36c01f64e4339b2a45390143c0521",
+  "slug": "seamless-scalable-challenge-7bf36c01f64e4339b2a45390143c0521",
+  "price": 773,
+  "description": "Versatile static budgetary management",
+  "category": {
+    "id": 251,
+    "name": "Pet Supplies_5512a2ab3f07434b8c0fb132657c7ee2",
+    "slug": "pet-supplies-5512a2ab3f07434b8c0fb132657c7ee2",
+    "image": "http://www.hull-bishop.com/",
+    "creationAt": "2026-11-04T05:28:56.000Z",
+    "updatedAt": "2026-11-04T05:28:56.000Z"
+  },
+  "images": [
+    "https://morris.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:56.000Z",
+  "updatedAt": "2026-11-04T05:28:56.000Z"
+}
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/10025
+Body:
+{
+  "title": "Automated regional methodology-602c2d1f6d8148059bd39db58ed028bb",
+  "price": 930,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/10025 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10025
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10025 -> 200
+Body:
+{
+  "id": 10025,
+  "title": "Seamless scalable challenge-7bf36c01f64e4339b2a45390143c0521",
+  "slug": "seamless-scalable-challenge-7bf36c01f64e4339b2a45390143c0521",
+  "price": 773,
+  "description": "Versatile static budgetary management",
+  "category": {
+    "id": 251,
+    "name": "Pet Supplies_5512a2ab3f07434b8c0fb132657c7ee2",
+    "slug": "pet-supplies-5512a2ab3f07434b8c0fb132657c7ee2",
+    "image": "http://www.hull-bishop.com/",
+    "creationAt": "2026-11-04T05:28:56.000Z",
+    "updatedAt": "2026-11-04T05:28:56.000Z"
+  },
+  "images": [
+    "https://morris.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:56.000Z",
+  "updatedAt": "2026-11-04T05:28:56.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/10025
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/10025 -> 200
+Body:
+true 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/251
+Body:
+<empty> 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/251 -> 200
+Body:
+{
+  "id": 251,
+  "name": "Pet Supplies_5512a2ab3f07434b8c0fb132657c7ee2",
+  "slug": "pet-supplies-5512a2ab3f07434b8c0fb132657c7ee2",
+  "image": "http://www.hull-bishop.com/",
+  "creationAt": "2026-11-04T05:28:56.000Z",
+  "updatedAt": "2026-11-04T05:28:56.000Z"
+} 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/251
+Body:
+<empty> 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/251 -> 200
+Body:
+true

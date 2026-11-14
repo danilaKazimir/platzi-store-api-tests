@@ -1,0 +1,71 @@
+2026-11-04 05:28:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_e197d9cc93e045cd93b4f7e66baa830b",
+  "image": "https://www.boyle.com/"
+} 
+
+2026-11-04 05:28:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 237,
+  "name": "Food & Beverages_e197d9cc93e045cd93b4f7e66baa830b",
+  "slug": "food-beverages-e197d9cc93e045cd93b4f7e66baa830b",
+  "image": "https://www.boyle.com/",
+  "creationAt": "2026-11-04T05:28:49.000Z",
+  "updatedAt": "2026-11-04T05:28:49.000Z"
+}
+2026-11-04 05:28:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/237
+Body:
+{
+  "name": "Toys_c7eafef0bd524edda046e2e1af361f2b",
+  "image": "http://www.castillo.com/"
+} 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/237 -> 200
+Body:
+{
+  "id": 237,
+  "name": "Toys_c7eafef0bd524edda046e2e1af361f2b",
+  "slug": "toys-c7eafef0bd524edda046e2e1af361f2b",
+  "image": "http://www.castillo.com/",
+  "creationAt": "2026-11-04T05:28:49.000Z",
+  "updatedAt": "2026-11-04T05:28:50.000Z"
+} 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/237
+Body:
+<empty> 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/237 -> 200
+Body:
+{
+  "id": 237,
+  "name": "Toys_c7eafef0bd524edda046e2e1af361f2b",
+  "slug": "toys-c7eafef0bd524edda046e2e1af361f2b",
+  "image": "http://www.castillo.com/",
+  "creationAt": "2026-11-04T05:28:49.000Z",
+  "updatedAt": "2026-11-04T05:28:50.000Z"
+}
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/237
+Body:
+<empty> 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/237 -> 200
+Body:
+{
+  "id": 237,
+  "name": "Toys_c7eafef0bd524edda046e2e1af361f2b",
+  "slug": "toys-c7eafef0bd524edda046e2e1af361f2b",
+  "image": "http://www.castillo.com/",
+  "creationAt": "2026-11-04T05:28:49.000Z",
+  "updatedAt": "2026-11-04T05:28:50.000Z"
+} 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/237
+Body:
+<empty> 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/237 -> 200
+Body:
+true

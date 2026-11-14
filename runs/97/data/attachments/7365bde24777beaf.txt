@@ -1,0 +1,125 @@
+2026-10-18 03:43:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_11de4d19bb19429582fd89d783f0ae07",
+  "image": "http://campbell.com/"
+} 
+
+2026-10-18 03:43:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 43,
+  "name": "Clothing_11de4d19bb19429582fd89d783f0ae07",
+  "slug": "clothing-11de4d19bb19429582fd89d783f0ae07",
+  "image": "http://campbell.com/",
+  "creationAt": "2026-10-18T03:43:05.000Z",
+  "updatedAt": "2026-10-18T03:43:05.000Z"
+} 
+
+2026-10-18 03:43:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Horizontal methodical utilization-bd245f701a0e4e97894dd60e708a5c0b",
+  "price": 983,
+  "description": "Streamlined stable Graphic Interface",
+  "categoryId": 43,
+  "images": [
+    "http://www.sullivan.biz/"
+  ]
+} 
+
+2026-10-18 03:43:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 622,
+  "title": "Horizontal methodical utilization-bd245f701a0e4e97894dd60e708a5c0b",
+  "slug": "horizontal-methodical-utilization-bd245f701a0e4e97894dd60e708a5c0b",
+  "price": 983,
+  "description": "Streamlined stable Graphic Interface",
+  "category": {
+    "id": 43,
+    "name": "Clothing_11de4d19bb19429582fd89d783f0ae07",
+    "slug": "clothing-11de4d19bb19429582fd89d783f0ae07",
+    "image": "http://campbell.com/",
+    "creationAt": "2026-10-18T03:43:05.000Z",
+    "updatedAt": "2026-10-18T03:43:05.000Z"
+  },
+  "images": [
+    "http://www.sullivan.biz/"
+  ],
+  "creationAt": "2026-10-18T03:43:05.000Z",
+  "updatedAt": "2026-10-18T03:43:05.000Z"
+}
+2026-10-18 03:43:05 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/622
+Body:
+{
+  "title": "Organized high-level functionalities-7a4ff597d084463899c302d90dbf2f0e",
+  "price": 800,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-18 03:43:05 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/622 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-18 03:43:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/622
+Body:
+<empty> 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/622 -> 200
+Body:
+{
+  "id": 622,
+  "title": "Horizontal methodical utilization-bd245f701a0e4e97894dd60e708a5c0b",
+  "slug": "horizontal-methodical-utilization-bd245f701a0e4e97894dd60e708a5c0b",
+  "price": 983,
+  "description": "Streamlined stable Graphic Interface",
+  "category": {
+    "id": 43,
+    "name": "Clothing_11de4d19bb19429582fd89d783f0ae07",
+    "slug": "clothing-11de4d19bb19429582fd89d783f0ae07",
+    "image": "http://campbell.com/",
+    "creationAt": "2026-10-18T03:43:05.000Z",
+    "updatedAt": "2026-10-18T03:43:05.000Z"
+  },
+  "images": [
+    "http://www.sullivan.biz/"
+  ],
+  "creationAt": "2026-10-18T03:43:05.000Z",
+  "updatedAt": "2026-10-18T03:43:05.000Z"
+} 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/622
+Body:
+<empty> 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/622 -> 200
+Body:
+true 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+{
+  "id": 43,
+  "name": "Clothing_11de4d19bb19429582fd89d783f0ae07",
+  "slug": "clothing-11de4d19bb19429582fd89d783f0ae07",
+  "image": "http://campbell.com/",
+  "creationAt": "2026-10-18T03:43:05.000Z",
+  "updatedAt": "2026-10-18T03:43:05.000Z"
+} 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/43
+Body:
+<empty> 
+
+2026-10-18 03:43:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/43 -> 200
+Body:
+true

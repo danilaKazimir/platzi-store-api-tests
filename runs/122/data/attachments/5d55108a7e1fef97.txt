@@ -1,0 +1,80 @@
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Danielle Andrews",
+  "email": "hollyblake@example.net",
+  "password": "***",
+  "avatar": "http://www.maldonado.net/"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 25,
+  "email": "hollyblake@example.net",
+  "password": "***",
+  "name": "Danielle Andrews",
+  "role": "customer",
+  "avatar": "http://www.maldonado.net/",
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+}
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/25
+Body:
+{
+  "email": "wintersdebbie@example.com"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/25 -> 200
+Body:
+{
+  "id": 25,
+  "email": "wintersdebbie@example.com",
+  "password": "***",
+  "name": "Danielle Andrews",
+  "role": "customer",
+  "avatar": "http://www.maldonado.net/",
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/25
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/25 -> 200
+Body:
+{
+  "id": 25,
+  "email": "wintersdebbie@example.com",
+  "password": "***",
+  "name": "Danielle Andrews",
+  "role": "customer",
+  "avatar": "http://www.maldonado.net/",
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+}
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/25
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/25 -> 200
+Body:
+{
+  "id": 25,
+  "email": "wintersdebbie@example.com",
+  "password": "***",
+  "name": "Danielle Andrews",
+  "role": "customer",
+  "avatar": "http://www.maldonado.net/",
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/25
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/25 -> 200
+Body:
+true

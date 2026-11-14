@@ -1,0 +1,71 @@
+2026-10-18 03:43:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_5523677009354600b264c5f35934f3c8",
+  "image": "https://mcgee-wilkinson.com/"
+} 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Pet Supplies_5523677009354600b264c5f35934f3c8",
+  "slug": "pet-supplies-5523677009354600b264c5f35934f3c8",
+  "image": "https://mcgee-wilkinson.com/",
+  "creationAt": "2026-10-18T03:43:03.000Z",
+  "updatedAt": "2026-10-18T03:43:03.000Z"
+}
+2026-10-18 03:43:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/31
+Body:
+{
+  "name": "Personal Care_55185aa4058d4fa4a87bfd6240e0beb4",
+  "image": "http://www.anderson.com/"
+} 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Personal Care_55185aa4058d4fa4a87bfd6240e0beb4",
+  "slug": "personal-care-55185aa4058d4fa4a87bfd6240e0beb4",
+  "image": "http://www.anderson.com/",
+  "creationAt": "2026-10-18T03:43:03.000Z",
+  "updatedAt": "2026-10-18T03:43:03.000Z"
+} 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Personal Care_55185aa4058d4fa4a87bfd6240e0beb4",
+  "slug": "personal-care-55185aa4058d4fa4a87bfd6240e0beb4",
+  "image": "http://www.anderson.com/",
+  "creationAt": "2026-10-18T03:43:03.000Z",
+  "updatedAt": "2026-10-18T03:43:03.000Z"
+}
+2026-10-18 03:43:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Personal Care_55185aa4058d4fa4a87bfd6240e0beb4",
+  "slug": "personal-care-55185aa4058d4fa4a87bfd6240e0beb4",
+  "image": "http://www.anderson.com/",
+  "creationAt": "2026-10-18T03:43:03.000Z",
+  "updatedAt": "2026-10-18T03:43:03.000Z"
+} 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-10-18 03:43:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

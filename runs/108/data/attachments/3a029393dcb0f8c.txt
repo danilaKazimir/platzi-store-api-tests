@@ -1,0 +1,135 @@
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_fafa31c4cc8c4329901581231c836f71",
+  "image": "http://www.miller.com/"
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Toys_fafa31c4cc8c4329901581231c836f71",
+  "slug": "toys-fafa31c4cc8c4329901581231c836f71",
+  "image": "http://www.miller.com/",
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Mandatory client-driven application-a7855a1d508a49909eaa0b0a43af9242",
+  "price": 312,
+  "description": "Multi-layered hybrid database",
+  "categoryId": 33,
+  "images": [
+    "https://www.davis.com/"
+  ]
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 110,
+  "title": "Mandatory client-driven application-a7855a1d508a49909eaa0b0a43af9242",
+  "slug": "mandatory-client-driven-application-a7855a1d508a49909eaa0b0a43af9242",
+  "price": 312,
+  "description": "Multi-layered hybrid database",
+  "category": {
+    "id": 33,
+    "name": "Toys_fafa31c4cc8c4329901581231c836f71",
+    "slug": "toys-fafa31c4cc8c4329901581231c836f71",
+    "image": "http://www.miller.com/",
+    "creationAt": "2026-10-29T04:57:55.000Z",
+    "updatedAt": "2026-10-29T04:57:55.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+}
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/mandatory-client-driven-application-a7855a1d508a49909eaa0b0a43af9242
+Body:
+<empty> 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/mandatory-client-driven-application-a7855a1d508a49909eaa0b0a43af9242 -> 200
+Body:
+{
+  "id": 110,
+  "title": "Mandatory client-driven application-a7855a1d508a49909eaa0b0a43af9242",
+  "slug": "mandatory-client-driven-application-a7855a1d508a49909eaa0b0a43af9242",
+  "price": 312,
+  "description": "Multi-layered hybrid database",
+  "category": {
+    "id": 33,
+    "name": "Toys_fafa31c4cc8c4329901581231c836f71",
+    "slug": "toys-fafa31c4cc8c4329901581231c836f71",
+    "image": "http://www.miller.com/",
+    "creationAt": "2026-10-29T04:57:55.000Z",
+    "updatedAt": "2026-10-29T04:57:55.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+}
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/110
+Body:
+<empty> 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/110 -> 200
+Body:
+{
+  "id": 110,
+  "title": "Mandatory client-driven application-a7855a1d508a49909eaa0b0a43af9242",
+  "slug": "mandatory-client-driven-application-a7855a1d508a49909eaa0b0a43af9242",
+  "price": 312,
+  "description": "Multi-layered hybrid database",
+  "category": {
+    "id": 33,
+    "name": "Toys_fafa31c4cc8c4329901581231c836f71",
+    "slug": "toys-fafa31c4cc8c4329901581231c836f71",
+    "image": "http://www.miller.com/",
+    "creationAt": "2026-10-29T04:57:55.000Z",
+    "updatedAt": "2026-10-29T04:57:55.000Z"
+  },
+  "images": [
+    "https://www.davis.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/110
+Body:
+<empty> 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/110 -> 200
+Body:
+true 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Toys_fafa31c4cc8c4329901581231c836f71",
+  "slug": "toys-fafa31c4cc8c4329901581231c836f71",
+  "image": "http://www.miller.com/",
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_7c8c3af815cc48458cbd06e768efdc74",
+  "image": "http://www.perez.org/"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Books_7c8c3af815cc48458cbd06e768efdc74",
+  "slug": "books-7c8c3af815cc48458cbd06e768efdc74",
+  "image": "http://www.perez.org/",
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Object-based methodical protocol-deac877b9faf483c8b8e71204151246c",
+  "price": 588,
+  "description": "Adaptive multimedia application",
+  "categoryId": 40,
+  "images": [
+    "http://www.thomas.net/"
+  ]
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 67,
+  "title": "Object-based methodical protocol-deac877b9faf483c8b8e71204151246c",
+  "slug": "object-based-methodical-protocol-deac877b9faf483c8b8e71204151246c",
+  "price": 588,
+  "description": "Adaptive multimedia application",
+  "category": {
+    "id": 40,
+    "name": "Books_7c8c3af815cc48458cbd06e768efdc74",
+    "slug": "books-7c8c3af815cc48458cbd06e768efdc74",
+    "image": "http://www.perez.org/",
+    "creationAt": "2026-11-10T06:35:22.000Z",
+    "updatedAt": "2026-11-10T06:35:22.000Z"
+  },
+  "images": [
+    "http://www.thomas.net/"
+  ],
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+}
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+{
+  "id": 67,
+  "title": "Object-based methodical protocol-deac877b9faf483c8b8e71204151246c",
+  "slug": "object-based-methodical-protocol-deac877b9faf483c8b8e71204151246c",
+  "price": 588,
+  "description": "Adaptive multimedia application",
+  "category": {
+    "id": 40,
+    "name": "Books_7c8c3af815cc48458cbd06e768efdc74",
+    "slug": "books-7c8c3af815cc48458cbd06e768efdc74",
+    "image": "http://www.perez.org/",
+    "creationAt": "2026-11-10T06:35:22.000Z",
+    "updatedAt": "2026-11-10T06:35:22.000Z"
+  },
+  "images": [
+    "http://www.thomas.net/"
+  ],
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+}
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+{
+  "id": 67,
+  "title": "Object-based methodical protocol-deac877b9faf483c8b8e71204151246c",
+  "slug": "object-based-methodical-protocol-deac877b9faf483c8b8e71204151246c",
+  "price": 588,
+  "description": "Adaptive multimedia application",
+  "category": {
+    "id": 40,
+    "name": "Books_7c8c3af815cc48458cbd06e768efdc74",
+    "slug": "books-7c8c3af815cc48458cbd06e768efdc74",
+    "image": "http://www.perez.org/",
+    "creationAt": "2026-11-10T06:35:22.000Z",
+    "updatedAt": "2026-11-10T06:35:22.000Z"
+  },
+  "images": [
+    "http://www.thomas.net/"
+  ],
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/67
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/67 -> 200
+Body:
+true 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Books_7c8c3af815cc48458cbd06e768efdc74",
+  "slug": "books-7c8c3af815cc48458cbd06e768efdc74",
+  "image": "http://www.perez.org/",
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

@@ -1,0 +1,408 @@
+2026-11-07 05:15:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+  "image": "http://www.wilson-hunter.com/"
+} 
+
+2026-11-07 05:15:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+  "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+  "image": "http://www.wilson-hunter.com/",
+  "creationAt": "2026-11-07T05:15:11.000Z",
+  "updatedAt": "2026-11-07T05:15:11.000Z"
+}
+2026-11-07 05:15:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Customer-focused mobile instruction set-5f592dd74c9a488fb35890d6072bdd09",
+  "price": 370,
+  "description": "Triple-buffered global architecture",
+  "categoryId": 26,
+  "images": [
+    "http://garcia.com/"
+  ]
+} 
+
+2026-11-07 05:15:11 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 244,
+  "title": "Customer-focused mobile instruction set-5f592dd74c9a488fb35890d6072bdd09",
+  "slug": "customer-focused-mobile-instruction-set-5f592dd74c9a488fb35890d6072bdd09",
+  "price": 370,
+  "description": "Triple-buffered global architecture",
+  "category": {
+    "id": 26,
+    "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+    "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+    "image": "http://www.wilson-hunter.com/",
+    "creationAt": "2026-11-07T05:15:11.000Z",
+    "updatedAt": "2026-11-07T05:15:11.000Z"
+  },
+  "images": [
+    "http://garcia.com/"
+  ],
+  "creationAt": "2026-11-07T05:15:11.000Z",
+  "updatedAt": "2026-11-07T05:15:11.000Z"
+} 
+
+2026-11-07 05:15:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Sharable 6thgeneration methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+  "price": 730,
+  "description": "Operative bandwidth-monitored secured line",
+  "categoryId": 26,
+  "images": [
+    "https://jones-vargas.com/"
+  ]
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 246,
+  "title": "Sharable 6thgeneration methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+  "slug": "sharable-6thgeneration-methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+  "price": 730,
+  "description": "Operative bandwidth-monitored secured line",
+  "category": {
+    "id": 26,
+    "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+    "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+    "image": "http://www.wilson-hunter.com/",
+    "creationAt": "2026-11-07T05:15:11.000Z",
+    "updatedAt": "2026-11-07T05:15:11.000Z"
+  },
+  "images": [
+    "https://jones-vargas.com/"
+  ],
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Optimized holistic contingency-791c023dacf94312a4d39edadf16d3d5",
+  "price": 821,
+  "description": "Upgradable hybrid standardization",
+  "categoryId": 26,
+  "images": [
+    "https://www.perez-rivera.com/"
+  ]
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 247,
+  "title": "Optimized holistic contingency-791c023dacf94312a4d39edadf16d3d5",
+  "slug": "optimized-holistic-contingency-791c023dacf94312a4d39edadf16d3d5",
+  "price": 821,
+  "description": "Upgradable hybrid standardization",
+  "category": {
+    "id": 26,
+    "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+    "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+    "image": "http://www.wilson-hunter.com/",
+    "creationAt": "2026-11-07T05:15:11.000Z",
+    "updatedAt": "2026-11-07T05:15:11.000Z"
+  },
+  "images": [
+    "https://www.perez-rivera.com/"
+  ],
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_5a8d659b7c0948979fe096ece598f1f5",
+  "image": "https://montgomery.biz/"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Clothing_5a8d659b7c0948979fe096ece598f1f5",
+  "slug": "clothing-5a8d659b7c0948979fe096ece598f1f5",
+  "image": "https://montgomery.biz/",
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Self-enabling human-resource migration-61c921ecee9c4ad7a6951ecce7383299",
+  "price": 613,
+  "description": "Networked value-added middleware",
+  "categoryId": 28,
+  "images": [
+    "http://butler.biz/"
+  ]
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 248,
+  "title": "Self-enabling human-resource migration-61c921ecee9c4ad7a6951ecce7383299",
+  "slug": "self-enabling-human-resource-migration-61c921ecee9c4ad7a6951ecce7383299",
+  "price": 613,
+  "description": "Networked value-added middleware",
+  "category": {
+    "id": 28,
+    "name": "Clothing_5a8d659b7c0948979fe096ece598f1f5",
+    "slug": "clothing-5a8d659b7c0948979fe096ece598f1f5",
+    "image": "https://montgomery.biz/",
+    "creationAt": "2026-11-07T05:15:12.000Z",
+    "updatedAt": "2026-11-07T05:15:12.000Z"
+  },
+  "images": [
+    "http://butler.biz/"
+  ],
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/customer-focused-mobile-instruction-set-5f592dd74c9a488fb35890d6072bdd09/related
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/customer-focused-mobile-instruction-set-5f592dd74c9a488fb35890d6072bdd09/related -> 200
+Body:
+[
+  {
+    "id": 246,
+    "title": "Sharable 6thgeneration methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+    "slug": "sharable-6thgeneration-methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+    "price": 730,
+    "description": "Operative bandwidth-monitored secured line",
+    "category": {
+      "id": 26,
+      "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+      "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+      "image": "http://www.wilson-hunter.com/",
+      "creationAt": "2026-11-07T05:15:11.000Z",
+      "updatedAt": "2026-11-07T05:15:11.000Z"
+    },
+    "images": [
+      "https://jones-vargas.com/"
+    ],
+    "creationAt": "2026-11-07T05:15:12.000Z",
+    "updatedAt": "2026-11-07T05:15:12.000Z"
+  },
+  {
+    "id": 247,
+    "title": "Optimized holistic contingency-791c023dacf94312a4d39edadf16d3d5",
+    "slug": "optimized-holistic-contingency-791c023dacf94312a4d39edadf16d3d5",
+    "price": 821,
+    "description": "Upgradable hybrid standardization",
+    "category": {
+      "id": 26,
+      "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+      "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+      "image": "http://www.wilson-hunter.com/",
+      "creationAt": "2026-11-07T05:15:11.000Z",
+      "updatedAt": "2026-11-07T05:15:11.000Z"
+    },
+    "images": [
+      "https://www.perez-rivera.com/"
+    ],
+    "creationAt": "2026-11-07T05:15:12.000Z",
+    "updatedAt": "2026-11-07T05:15:12.000Z"
+  }
+]
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/248
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/248 -> 200
+Body:
+{
+  "id": 248,
+  "title": "Self-enabling human-resource migration-61c921ecee9c4ad7a6951ecce7383299",
+  "slug": "self-enabling-human-resource-migration-61c921ecee9c4ad7a6951ecce7383299",
+  "price": 613,
+  "description": "Networked value-added middleware",
+  "category": {
+    "id": 28,
+    "name": "Clothing_5a8d659b7c0948979fe096ece598f1f5",
+    "slug": "clothing-5a8d659b7c0948979fe096ece598f1f5",
+    "image": "https://montgomery.biz/",
+    "creationAt": "2026-11-07T05:15:12.000Z",
+    "updatedAt": "2026-11-07T05:15:12.000Z"
+  },
+  "images": [
+    "http://butler.biz/"
+  ],
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/248
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/248 -> 200
+Body:
+true 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/247
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/247 -> 200
+Body:
+{
+  "id": 247,
+  "title": "Optimized holistic contingency-791c023dacf94312a4d39edadf16d3d5",
+  "slug": "optimized-holistic-contingency-791c023dacf94312a4d39edadf16d3d5",
+  "price": 821,
+  "description": "Upgradable hybrid standardization",
+  "category": {
+    "id": 26,
+    "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+    "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+    "image": "http://www.wilson-hunter.com/",
+    "creationAt": "2026-11-07T05:15:11.000Z",
+    "updatedAt": "2026-11-07T05:15:11.000Z"
+  },
+  "images": [
+    "https://www.perez-rivera.com/"
+  ],
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/247
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/247 -> 200
+Body:
+true 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+{
+  "id": 246,
+  "title": "Sharable 6thgeneration methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+  "slug": "sharable-6thgeneration-methodology-c0931f3acafe403e9d2d5d13a5b95fff",
+  "price": 730,
+  "description": "Operative bandwidth-monitored secured line",
+  "category": {
+    "id": 26,
+    "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+    "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+    "image": "http://www.wilson-hunter.com/",
+    "creationAt": "2026-11-07T05:15:11.000Z",
+    "updatedAt": "2026-11-07T05:15:11.000Z"
+  },
+  "images": [
+    "https://jones-vargas.com/"
+  ],
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/246
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/246 -> 200
+Body:
+true 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+{
+  "id": 244,
+  "title": "Customer-focused mobile instruction set-5f592dd74c9a488fb35890d6072bdd09",
+  "slug": "customer-focused-mobile-instruction-set-5f592dd74c9a488fb35890d6072bdd09",
+  "price": 370,
+  "description": "Triple-buffered global architecture",
+  "category": {
+    "id": 26,
+    "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+    "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+    "image": "http://www.wilson-hunter.com/",
+    "creationAt": "2026-11-07T05:15:11.000Z",
+    "updatedAt": "2026-11-07T05:15:11.000Z"
+  },
+  "images": [
+    "http://garcia.com/"
+  ],
+  "creationAt": "2026-11-07T05:15:11.000Z",
+  "updatedAt": "2026-11-07T05:15:11.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/244
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/244 -> 200
+Body:
+true 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Clothing_5a8d659b7c0948979fe096ece598f1f5",
+  "slug": "clothing-5a8d659b7c0948979fe096ece598f1f5",
+  "image": "https://montgomery.biz/",
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Books_80a2a294ec2d4a39ad095ddd91bb9093",
+  "slug": "books-80a2a294ec2d4a39ad095ddd91bb9093",
+  "image": "http://www.wilson-hunter.com/",
+  "creationAt": "2026-11-07T05:15:11.000Z",
+  "updatedAt": "2026-11-07T05:15:11.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

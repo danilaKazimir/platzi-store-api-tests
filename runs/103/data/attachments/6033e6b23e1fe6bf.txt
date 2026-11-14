@@ -1,0 +1,55 @@
+2026-10-24 03:52:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_efc5f261151941599ae0e8dc640f883e",
+  "image": "https://pollard.com/"
+} 
+
+2026-10-24 03:52:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 103,
+  "name": "Home & Kitchen_efc5f261151941599ae0e8dc640f883e",
+  "slug": "home-kitchen-efc5f261151941599ae0e8dc640f883e",
+  "image": "https://pollard.com/",
+  "creationAt": "2026-10-24T03:52:02.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+}
+2026-10-24 03:52:02 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/103
+Body:
+{
+  "name": "Automotive Accessories_20a9ccf44ed5458b81e7c90aab290d4b",
+  "image": null
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/103 -> 400
+Body:
+{
+  "path": "/api/v1/categories/103",
+  "timestamp": "2026-10-24T03:52:03.137Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/103
+Body:
+<empty> 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/103 -> 200
+Body:
+{
+  "id": 103,
+  "name": "Home & Kitchen_efc5f261151941599ae0e8dc640f883e",
+  "slug": "home-kitchen-efc5f261151941599ae0e8dc640f883e",
+  "image": "https://pollard.com/",
+  "creationAt": "2026-10-24T03:52:02.000Z",
+  "updatedAt": "2026-10-24T03:52:02.000Z"
+} 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/103
+Body:
+<empty> 
+
+2026-10-24 03:52:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/103 -> 200
+Body:
+true

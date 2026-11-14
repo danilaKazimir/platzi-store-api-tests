@@ -1,0 +1,71 @@
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_cc3232cc1abc4e8e983a76f73db88624",
+  "image": "http://www.clark.com/"
+} 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Electronics_cc3232cc1abc4e8e983a76f73db88624",
+  "slug": "electronics-cc3232cc1abc4e8e983a76f73db88624",
+  "image": "http://www.clark.com/",
+  "creationAt": "2026-11-06T05:44:47.000Z",
+  "updatedAt": "2026-11-06T05:44:47.000Z"
+}
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/20
+Body:
+{
+  "name": "Sports & Fitness_1a6aa48df2fe423f821b646cca69a0dd",
+  "image": "https://mendoza.com/"
+} 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_1a6aa48df2fe423f821b646cca69a0dd",
+  "slug": "sports-fitness-1a6aa48df2fe423f821b646cca69a0dd",
+  "image": "https://mendoza.com/",
+  "creationAt": "2026-11-06T05:44:47.000Z",
+  "updatedAt": "2026-11-06T05:44:47.000Z"
+} 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_1a6aa48df2fe423f821b646cca69a0dd",
+  "slug": "sports-fitness-1a6aa48df2fe423f821b646cca69a0dd",
+  "image": "https://mendoza.com/",
+  "creationAt": "2026-11-06T05:44:47.000Z",
+  "updatedAt": "2026-11-06T05:44:47.000Z"
+}
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_1a6aa48df2fe423f821b646cca69a0dd",
+  "slug": "sports-fitness-1a6aa48df2fe423f821b646cca69a0dd",
+  "image": "https://mendoza.com/",
+  "creationAt": "2026-11-06T05:44:47.000Z",
+  "updatedAt": "2026-11-06T05:44:47.000Z"
+} 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-06 05:44:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

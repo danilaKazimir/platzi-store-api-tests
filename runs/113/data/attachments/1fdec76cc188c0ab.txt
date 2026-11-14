@@ -1,0 +1,15 @@
+2026-11-03 05:52:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Food & Beverages_87759b8252ac4f74bd266934007153ee",
+  "image": "https://harrell.org/"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-11-03T05:52:39.243Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

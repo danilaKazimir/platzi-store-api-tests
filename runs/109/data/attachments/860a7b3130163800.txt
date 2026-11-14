@@ -1,0 +1,61 @@
+2026-10-30 04:57:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Savannah Young",
+  "email": "samuelbennett@example.net",
+  "password": "***",
+  "avatar": "https://www.christensen-kennedy.com/"
+} 
+
+2026-10-30 04:57:47 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 3429,
+  "email": "samuelbennett@example.net",
+  "password": "***",
+  "name": "Savannah Young",
+  "role": "customer",
+  "avatar": "https://www.christensen-kennedy.com/",
+  "creationAt": "2026-10-30T04:57:47.000Z",
+  "updatedAt": "2026-10-30T04:57:47.000Z"
+}
+2026-10-30 04:57:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3429
+Body:
+<empty> 
+
+2026-10-30 04:57:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3429 -> 200
+Body:
+{
+  "id": 3429,
+  "email": "samuelbennett@example.net",
+  "password": "***",
+  "name": "Savannah Young",
+  "role": "customer",
+  "avatar": "https://www.christensen-kennedy.com/",
+  "creationAt": "2026-10-30T04:57:47.000Z",
+  "updatedAt": "2026-10-30T04:57:47.000Z"
+}
+2026-10-30 04:57:47 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3429
+Body:
+<empty> 
+
+2026-10-30 04:57:47 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3429 -> 200
+Body:
+{
+  "id": 3429,
+  "email": "samuelbennett@example.net",
+  "password": "***",
+  "name": "Savannah Young",
+  "role": "customer",
+  "avatar": "https://www.christensen-kennedy.com/",
+  "creationAt": "2026-10-30T04:57:47.000Z",
+  "updatedAt": "2026-10-30T04:57:47.000Z"
+} 
+
+2026-10-30 04:57:47 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/3429
+Body:
+<empty> 
+
+2026-10-30 04:57:47 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/3429 -> 200
+Body:
+true

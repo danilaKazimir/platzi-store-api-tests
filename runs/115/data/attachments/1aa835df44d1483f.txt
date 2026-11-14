@@ -1,0 +1,103 @@
+2026-11-05 05:48:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_f9e47cc941c84b8eb0ebcf83e7911ff0",
+  "image": "https://gilbert.com/"
+} 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 7,
+  "name": "Toys_f9e47cc941c84b8eb0ebcf83e7911ff0",
+  "slug": "toys-f9e47cc941c84b8eb0ebcf83e7911ff0",
+  "image": "https://gilbert.com/",
+  "creationAt": "2026-11-05T05:48:13.000Z",
+  "updatedAt": "2026-11-05T05:48:13.000Z"
+}
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-04T22:02:38.000Z",
+    "updatedAt": "2026-11-04T22:02:38.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-04T22:02:38.000Z",
+    "updatedAt": "2026-11-04T22:02:38.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-04T22:02:38.000Z",
+    "updatedAt": "2026-11-04T22:02:38.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-04T22:02:38.000Z",
+    "updatedAt": "2026-11-04T22:02:38.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-04T22:02:38.000Z",
+    "updatedAt": "2026-11-04T22:02:38.000Z"
+  },
+  {
+    "id": 6,
+    "name": "testCategory7ddb1b561da74046bf97df9d6fed35fd",
+    "slug": "testcategory7ddb1b561da74046bf97df9d6fed35fd",
+    "image": "http://wilson.info/",
+    "creationAt": "2026-11-05T05:48:12.000Z",
+    "updatedAt": "2026-11-05T05:48:12.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Toys_f9e47cc941c84b8eb0ebcf83e7911ff0",
+    "slug": "toys-f9e47cc941c84b8eb0ebcf83e7911ff0",
+    "image": "https://gilbert.com/",
+    "creationAt": "2026-11-05T05:48:13.000Z",
+    "updatedAt": "2026-11-05T05:48:13.000Z"
+  }
+]
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/7
+Body:
+<empty> 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/7 -> 200
+Body:
+{
+  "id": 7,
+  "name": "Toys_f9e47cc941c84b8eb0ebcf83e7911ff0",
+  "slug": "toys-f9e47cc941c84b8eb0ebcf83e7911ff0",
+  "image": "https://gilbert.com/",
+  "creationAt": "2026-11-05T05:48:13.000Z",
+  "updatedAt": "2026-11-05T05:48:13.000Z"
+} 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/7
+Body:
+<empty> 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/7 -> 200
+Body:
+true

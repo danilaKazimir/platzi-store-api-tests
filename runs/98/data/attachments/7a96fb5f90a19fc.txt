@@ -1,0 +1,135 @@
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_452b8e11712a4e5492acbb5d62753738",
+  "image": "https://khan.org/"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Books_452b8e11712a4e5492acbb5d62753738",
+  "slug": "books-452b8e11712a4e5492acbb5d62753738",
+  "image": "https://khan.org/",
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enterprise-wide zero tolerance encryption-929d76456c0940c9869859fac0b74788",
+  "price": 871,
+  "description": "Automated next generation website",
+  "categoryId": 41,
+  "images": [
+    "http://paul.biz/"
+  ]
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 437,
+  "title": "Enterprise-wide zero tolerance encryption-929d76456c0940c9869859fac0b74788",
+  "slug": "enterprise-wide-zero-tolerance-encryption-929d76456c0940c9869859fac0b74788",
+  "price": 871,
+  "description": "Automated next generation website",
+  "category": {
+    "id": 41,
+    "name": "Books_452b8e11712a4e5492acbb5d62753738",
+    "slug": "books-452b8e11712a4e5492acbb5d62753738",
+    "image": "https://khan.org/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "http://paul.biz/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+}
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/enterprise-wide-zero-tolerance-encryption-929d76456c0940c9869859fac0b74788
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/enterprise-wide-zero-tolerance-encryption-929d76456c0940c9869859fac0b74788 -> 200
+Body:
+{
+  "id": 437,
+  "title": "Enterprise-wide zero tolerance encryption-929d76456c0940c9869859fac0b74788",
+  "slug": "enterprise-wide-zero-tolerance-encryption-929d76456c0940c9869859fac0b74788",
+  "price": 871,
+  "description": "Automated next generation website",
+  "category": {
+    "id": 41,
+    "name": "Books_452b8e11712a4e5492acbb5d62753738",
+    "slug": "books-452b8e11712a4e5492acbb5d62753738",
+    "image": "https://khan.org/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "http://paul.biz/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+}
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/437
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/437 -> 200
+Body:
+{
+  "id": 437,
+  "title": "Enterprise-wide zero tolerance encryption-929d76456c0940c9869859fac0b74788",
+  "slug": "enterprise-wide-zero-tolerance-encryption-929d76456c0940c9869859fac0b74788",
+  "price": 871,
+  "description": "Automated next generation website",
+  "category": {
+    "id": 41,
+    "name": "Books_452b8e11712a4e5492acbb5d62753738",
+    "slug": "books-452b8e11712a4e5492acbb5d62753738",
+    "image": "https://khan.org/",
+    "creationAt": "2026-10-19T03:53:08.000Z",
+    "updatedAt": "2026-10-19T03:53:08.000Z"
+  },
+  "images": [
+    "http://paul.biz/"
+  ],
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/437
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/437 -> 200
+Body:
+true 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Books_452b8e11712a4e5492acbb5d62753738",
+  "slug": "books-452b8e11712a4e5492acbb5d62753738",
+  "image": "https://khan.org/",
+  "creationAt": "2026-10-19T03:53:08.000Z",
+  "updatedAt": "2026-10-19T03:53:08.000Z"
+} 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-19 03:53:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

@@ -1,0 +1,80 @@
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Becky Johnson",
+  "email": "turnertrevor@example.com",
+  "password": "***",
+  "avatar": "http://www.newton.com/"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 24,
+  "email": "turnertrevor@example.com",
+  "password": "***",
+  "name": "Becky Johnson",
+  "role": "customer",
+  "avatar": "http://www.newton.com/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+}
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/24
+Body:
+{
+  "name": "Rebecca Faulkner"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+{
+  "id": 24,
+  "email": "turnertrevor@example.com",
+  "password": "***",
+  "name": "Rebecca Faulkner",
+  "role": "customer",
+  "avatar": "http://www.newton.com/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/24
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+{
+  "id": 24,
+  "email": "turnertrevor@example.com",
+  "password": "***",
+  "name": "Rebecca Faulkner",
+  "role": "customer",
+  "avatar": "http://www.newton.com/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+}
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/24
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+{
+  "id": 24,
+  "email": "turnertrevor@example.com",
+  "password": "***",
+  "name": "Rebecca Faulkner",
+  "role": "customer",
+  "avatar": "http://www.newton.com/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/24
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/24 -> 200
+Body:
+true

@@ -1,0 +1,81 @@
+2026-10-16 03:46:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Andrew Guzman",
+  "email": "millerelaine@example.com",
+  "password": "***",
+  "avatar": "http://www.olson-sanders.biz/"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 57,
+  "email": "millerelaine@example.com",
+  "password": "***",
+  "name": "Andrew Guzman",
+  "role": "customer",
+  "avatar": "http://www.olson-sanders.biz/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+}
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/57
+Body:
+{
+  "name": "Michael Cobb",
+  "email": "david51@example.com"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+{
+  "id": 57,
+  "email": "david51@example.com",
+  "password": "***",
+  "name": "Michael Cobb",
+  "role": "customer",
+  "avatar": "http://www.olson-sanders.biz/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/57
+Body:
+<empty> 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+{
+  "id": 57,
+  "email": "david51@example.com",
+  "password": "***",
+  "name": "Michael Cobb",
+  "role": "customer",
+  "avatar": "http://www.olson-sanders.biz/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+}
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/57
+Body:
+<empty> 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+{
+  "id": 57,
+  "email": "david51@example.com",
+  "password": "***",
+  "name": "Michael Cobb",
+  "role": "customer",
+  "avatar": "http://www.olson-sanders.biz/",
+  "creationAt": "2026-10-16T03:46:39.000Z",
+  "updatedAt": "2026-10-16T03:46:39.000Z"
+} 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/57
+Body:
+<empty> 
+
+2026-10-16 03:46:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/57 -> 200
+Body:
+true

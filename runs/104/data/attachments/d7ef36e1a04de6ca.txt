@@ -1,0 +1,80 @@
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Robert Vasquez",
+  "email": "nicole38@example.net",
+  "password": "***",
+  "avatar": "http://www.anderson-liu.com/"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 70,
+  "email": "nicole38@example.net",
+  "password": "***",
+  "name": "Robert Vasquez",
+  "role": "customer",
+  "avatar": "http://www.anderson-liu.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+}
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/70
+Body:
+{
+  "email": "donna00@example.com"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "donna00@example.com",
+  "password": "***",
+  "name": "Robert Vasquez",
+  "role": "customer",
+  "avatar": "http://www.anderson-liu.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "donna00@example.com",
+  "password": "***",
+  "name": "Robert Vasquez",
+  "role": "customer",
+  "avatar": "http://www.anderson-liu.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+}
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+{
+  "id": 70,
+  "email": "donna00@example.com",
+  "password": "***",
+  "name": "Robert Vasquez",
+  "role": "customer",
+  "avatar": "http://www.anderson-liu.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/70
+Body:
+<empty> 
+
+2026-10-25 03:51:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/70 -> 200
+Body:
+true

@@ -1,0 +1,46 @@
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_d8119841ed2b4511a701221c17fb6842",
+  "image": "http://torres.com/"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 38,
+  "name": "Sports & Fitness_d8119841ed2b4511a701221c17fb6842",
+  "slug": "sports-fitness-d8119841ed2b4511a701221c17fb6842",
+  "image": "http://torres.com/",
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+}
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38/products
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38/products -> 200
+Body:
+[]
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+{
+  "id": 38,
+  "name": "Sports & Fitness_d8119841ed2b4511a701221c17fb6842",
+  "slug": "sports-fitness-d8119841ed2b4511a701221c17fb6842",
+  "image": "http://torres.com/",
+  "creationAt": "2026-11-10T06:35:22.000Z",
+  "updatedAt": "2026-11-10T06:35:22.000Z"
+} 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/38
+Body:
+<empty> 
+
+2026-11-10 06:35:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/38 -> 200
+Body:
+true

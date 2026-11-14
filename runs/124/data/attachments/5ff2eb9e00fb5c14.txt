@@ -1,0 +1,135 @@
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_00bd950d01b34f79b240e5fdf19830d9",
+  "image": "http://ross-mcclure.com/"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_00bd950d01b34f79b240e5fdf19830d9",
+  "slug": "sports-fitness-00bd950d01b34f79b240e5fdf19830d9",
+  "image": "http://ross-mcclure.com/",
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Horizontal bandwidth-monitored knowledge user-c0a7bfc47b314579aee7e2b55dda936a",
+  "price": 978,
+  "description": "Down-sized zero administration functionalities",
+  "categoryId": 20,
+  "images": [
+    "https://lee.info/"
+  ]
+} 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 60,
+  "title": "Horizontal bandwidth-monitored knowledge user-c0a7bfc47b314579aee7e2b55dda936a",
+  "slug": "horizontal-bandwidth-monitored-knowledge-user-c0a7bfc47b314579aee7e2b55dda936a",
+  "price": 978,
+  "description": "Down-sized zero administration functionalities",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_00bd950d01b34f79b240e5fdf19830d9",
+    "slug": "sports-fitness-00bd950d01b34f79b240e5fdf19830d9",
+    "image": "http://ross-mcclure.com/",
+    "creationAt": "2026-11-14T05:36:01.000Z",
+    "updatedAt": "2026-11-14T05:36:01.000Z"
+  },
+  "images": [
+    "https://lee.info/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+}
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/horizontal-bandwidth-monitored-knowledge-user-c0a7bfc47b314579aee7e2b55dda936a
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/horizontal-bandwidth-monitored-knowledge-user-c0a7bfc47b314579aee7e2b55dda936a -> 200
+Body:
+{
+  "id": 60,
+  "title": "Horizontal bandwidth-monitored knowledge user-c0a7bfc47b314579aee7e2b55dda936a",
+  "slug": "horizontal-bandwidth-monitored-knowledge-user-c0a7bfc47b314579aee7e2b55dda936a",
+  "price": 978,
+  "description": "Down-sized zero administration functionalities",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_00bd950d01b34f79b240e5fdf19830d9",
+    "slug": "sports-fitness-00bd950d01b34f79b240e5fdf19830d9",
+    "image": "http://ross-mcclure.com/",
+    "creationAt": "2026-11-14T05:36:01.000Z",
+    "updatedAt": "2026-11-14T05:36:01.000Z"
+  },
+  "images": [
+    "https://lee.info/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+}
+2026-11-14 05:36:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Horizontal bandwidth-monitored knowledge user-c0a7bfc47b314579aee7e2b55dda936a",
+  "slug": "horizontal-bandwidth-monitored-knowledge-user-c0a7bfc47b314579aee7e2b55dda936a",
+  "price": 978,
+  "description": "Down-sized zero administration functionalities",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_00bd950d01b34f79b240e5fdf19830d9",
+    "slug": "sports-fitness-00bd950d01b34f79b240e5fdf19830d9",
+    "image": "http://ross-mcclure.com/",
+    "creationAt": "2026-11-14T05:36:01.000Z",
+    "updatedAt": "2026-11-14T05:36:01.000Z"
+  },
+  "images": [
+    "https://lee.info/"
+  ],
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+} 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+true 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_00bd950d01b34f79b240e5fdf19830d9",
+  "slug": "sports-fitness-00bd950d01b34f79b240e5fdf19830d9",
+  "image": "http://ross-mcclure.com/",
+  "creationAt": "2026-11-14T05:36:01.000Z",
+  "updatedAt": "2026-11-14T05:36:01.000Z"
+} 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

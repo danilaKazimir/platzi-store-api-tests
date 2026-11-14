@@ -1,0 +1,80 @@
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Monica Vaughan",
+  "email": "deckerbrandon@example.net",
+  "password": "***",
+  "avatar": "https://sharp-cole.biz/"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 3434,
+  "email": "deckerbrandon@example.net",
+  "password": "***",
+  "name": "Monica Vaughan",
+  "role": "customer",
+  "avatar": "https://sharp-cole.biz/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+}
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/3434
+Body:
+{
+  "email": "williampaul@example.org"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/3434 -> 200
+Body:
+{
+  "id": 3434,
+  "email": "williampaul@example.org",
+  "password": "***",
+  "name": "Monica Vaughan",
+  "role": "customer",
+  "avatar": "https://sharp-cole.biz/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3434
+Body:
+<empty> 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3434 -> 200
+Body:
+{
+  "id": 3434,
+  "email": "williampaul@example.org",
+  "password": "***",
+  "name": "Monica Vaughan",
+  "role": "customer",
+  "avatar": "https://sharp-cole.biz/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+}
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3434
+Body:
+<empty> 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3434 -> 200
+Body:
+{
+  "id": 3434,
+  "email": "williampaul@example.org",
+  "password": "***",
+  "name": "Monica Vaughan",
+  "role": "customer",
+  "avatar": "https://sharp-cole.biz/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/3434
+Body:
+<empty> 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/3434 -> 200
+Body:
+true

@@ -1,0 +1,21 @@
+2026-11-14 05:36:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Donna Alexander",
+  "email": "michaelgreen@example.org",
+  "password": "***",
+  "avatar": "https://www.newman.com/"
+} 
+
+2026-11-14 05:36:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 8,
+  "email": "michaelgreen@example.org",
+  "password": "***",
+  "name": "Donna Alexander",
+  "role": "customer",
+  "avatar": "https://www.newman.com/",
+  "creationAt": "2026-11-14T05:36:02.000Z",
+  "updatedAt": "2026-11-14T05:36:02.000Z"
+}

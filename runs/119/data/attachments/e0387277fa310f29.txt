@@ -1,0 +1,53 @@
+2026-11-09 05:23:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_0f07b65b4b5444d88078e19d3411a51c",
+  "image": "http://www.underwood.com/"
+} 
+
+2026-11-09 05:23:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Pet Supplies_0f07b65b4b5444d88078e19d3411a51c",
+  "slug": "pet-supplies-0f07b65b4b5444d88078e19d3411a51c",
+  "image": "http://www.underwood.com/",
+  "creationAt": "2026-11-09T05:23:13.000Z",
+  "updatedAt": "2026-11-09T05:23:13.000Z"
+}
+2026-11-09 05:23:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-11-09 05:23:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Pet Supplies_0f07b65b4b5444d88078e19d3411a51c",
+  "slug": "pet-supplies-0f07b65b4b5444d88078e19d3411a51c",
+  "image": "http://www.underwood.com/",
+  "creationAt": "2026-11-09T05:23:13.000Z",
+  "updatedAt": "2026-11-09T05:23:13.000Z"
+}
+2026-11-09 05:23:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-11-09 05:23:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Pet Supplies_0f07b65b4b5444d88078e19d3411a51c",
+  "slug": "pet-supplies-0f07b65b4b5444d88078e19d3411a51c",
+  "image": "http://www.underwood.com/",
+  "creationAt": "2026-11-09T05:23:13.000Z",
+  "updatedAt": "2026-11-09T05:23:13.000Z"
+} 
+
+2026-11-09 05:23:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-11-09 05:23:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+true

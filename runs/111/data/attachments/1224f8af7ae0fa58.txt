@@ -1,0 +1,79 @@
+2026-11-01 05:05:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_ac36c8826f4f44f0a815b5f6fad5cf63",
+  "image": "http://berry-harris.com/"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Food & Beverages_ac36c8826f4f44f0a815b5f6fad5cf63",
+  "slug": "food-beverages-ac36c8826f4f44f0a815b5f6fad5cf63",
+  "image": "http://berry-harris.com/",
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+}
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Realigned context-sensitive groupware-75484d2f11034a5c9850aef2a5783c0e",
+  "price": 962,
+  "description": "Exclusive coherent hardware",
+  "categoryId": 25,
+  "images": [
+    "http://www.white-kennedy.com/"
+  ]
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 87,
+  "title": "Realigned context-sensitive groupware-75484d2f11034a5c9850aef2a5783c0e",
+  "slug": "realigned-context-sensitive-groupware-75484d2f11034a5c9850aef2a5783c0e",
+  "price": 962,
+  "description": "Exclusive coherent hardware",
+  "category": {
+    "id": 25,
+    "name": "Food & Beverages_ac36c8826f4f44f0a815b5f6fad5cf63",
+    "slug": "food-beverages-ac36c8826f4f44f0a815b5f6fad5cf63",
+    "image": "http://berry-harris.com/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://www.white-kennedy.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+}
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Food & Beverages_ac36c8826f4f44f0a815b5f6fad5cf63",
+  "slug": "food-beverages-ac36c8826f4f44f0a815b5f6fad5cf63",
+  "image": "http://berry-harris.com/",
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 400
+Body:
+{
+  "path": "/api/v1/categories/25",
+  "timestamp": "2026-11-01T05:05:44.794Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

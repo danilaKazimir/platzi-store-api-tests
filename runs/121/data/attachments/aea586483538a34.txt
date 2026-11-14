@@ -1,0 +1,15 @@
+2026-11-11 05:21:53 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Toys_38741f6cbebe41d084c61c10bb84b390",
+  "image": "http://livingston-baker.com/"
+} 
+
+2026-11-11 05:21:54 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-11-11T05:21:54.153Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}
