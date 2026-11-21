@@ -1,0 +1,79 @@
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_bae1680f009a4aad82d4ff17ecd8b3d8",
+  "image": "https://gray.biz/"
+} 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 23,
+  "name": "Toys_bae1680f009a4aad82d4ff17ecd8b3d8",
+  "slug": "toys-bae1680f009a4aad82d4ff17ecd8b3d8",
+  "image": "https://gray.biz/",
+  "creationAt": "2026-11-06T05:44:48.000Z",
+  "updatedAt": "2026-11-06T05:44:48.000Z"
+}
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Persistent bandwidth-monitored workforce-7df5f279066d4466b3adc69109fc9ade",
+  "price": 227,
+  "description": "Synchronized non-volatile moratorium",
+  "categoryId": 23,
+  "images": [
+    "https://johnson.com/"
+  ]
+} 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 140,
+  "title": "Persistent bandwidth-monitored workforce-7df5f279066d4466b3adc69109fc9ade",
+  "slug": "persistent-bandwidth-monitored-workforce-7df5f279066d4466b3adc69109fc9ade",
+  "price": 227,
+  "description": "Synchronized non-volatile moratorium",
+  "category": {
+    "id": 23,
+    "name": "Toys_bae1680f009a4aad82d4ff17ecd8b3d8",
+    "slug": "toys-bae1680f009a4aad82d4ff17ecd8b3d8",
+    "image": "https://gray.biz/",
+    "creationAt": "2026-11-06T05:44:48.000Z",
+    "updatedAt": "2026-11-06T05:44:48.000Z"
+  },
+  "images": [
+    "https://johnson.com/"
+  ],
+  "creationAt": "2026-11-06T05:44:48.000Z",
+  "updatedAt": "2026-11-06T05:44:48.000Z"
+}
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Toys_bae1680f009a4aad82d4ff17ecd8b3d8",
+  "slug": "toys-bae1680f009a4aad82d4ff17ecd8b3d8",
+  "image": "https://gray.biz/",
+  "creationAt": "2026-11-06T05:44:48.000Z",
+  "updatedAt": "2026-11-06T05:44:48.000Z"
+} 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/23 -> 400
+Body:
+{
+  "path": "/api/v1/categories/23",
+  "timestamp": "2026-11-06T05:44:48.825Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

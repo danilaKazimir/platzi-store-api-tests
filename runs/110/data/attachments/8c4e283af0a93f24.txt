@@ -1,0 +1,79 @@
+2026-10-31 04:44:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_3403567e3b97429b8f804a48e5ee9209",
+  "image": "http://www.beard.net/"
+} 
+
+2026-10-31 04:44:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_3403567e3b97429b8f804a48e5ee9209",
+  "slug": "automotive-accessories-3403567e3b97429b8f804a48e5ee9209",
+  "image": "http://www.beard.net/",
+  "creationAt": "2026-10-31T04:44:27.000Z",
+  "updatedAt": "2026-10-31T04:44:27.000Z"
+}
+2026-10-31 04:44:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced next generation knowledge user-22a0cc10f773498998509ec14e4934d6",
+  "price": 467,
+  "description": "Synergized uniform knowledge user",
+  "categoryId": 26,
+  "images": [
+    "http://www.juarez.com/"
+  ]
+} 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 532,
+  "title": "Advanced next generation knowledge user-22a0cc10f773498998509ec14e4934d6",
+  "slug": "advanced-next-generation-knowledge-user-22a0cc10f773498998509ec14e4934d6",
+  "price": 467,
+  "description": "Synergized uniform knowledge user",
+  "category": {
+    "id": 26,
+    "name": "Automotive Accessories_3403567e3b97429b8f804a48e5ee9209",
+    "slug": "automotive-accessories-3403567e3b97429b8f804a48e5ee9209",
+    "image": "http://www.beard.net/",
+    "creationAt": "2026-10-31T04:44:27.000Z",
+    "updatedAt": "2026-10-31T04:44:27.000Z"
+  },
+  "images": [
+    "http://www.juarez.com/"
+  ],
+  "creationAt": "2026-10-31T04:44:28.000Z",
+  "updatedAt": "2026-10-31T04:44:28.000Z"
+}
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Automotive Accessories_3403567e3b97429b8f804a48e5ee9209",
+  "slug": "automotive-accessories-3403567e3b97429b8f804a48e5ee9209",
+  "image": "http://www.beard.net/",
+  "creationAt": "2026-10-31T04:44:27.000Z",
+  "updatedAt": "2026-10-31T04:44:27.000Z"
+} 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-10-31 04:44:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 400
+Body:
+{
+  "path": "/api/v1/categories/26",
+  "timestamp": "2026-10-31T04:44:28.185Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

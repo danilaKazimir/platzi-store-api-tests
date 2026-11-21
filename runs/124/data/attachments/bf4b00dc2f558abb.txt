@@ -1,0 +1,80 @@
+2026-11-14 05:36:02 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Stacey Webster",
+  "email": "nhumphrey@example.com",
+  "password": "***",
+  "avatar": "https://sullivan-clark.com/"
+} 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "nhumphrey@example.com",
+  "password": "***",
+  "name": "Stacey Webster",
+  "role": "customer",
+  "avatar": "https://sullivan-clark.com/",
+  "creationAt": "2026-11-14T05:36:03.000Z",
+  "updatedAt": "2026-11-14T05:36:03.000Z"
+}
+2026-11-14 05:36:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/11
+Body:
+{
+  "email": "joseph20@example.net"
+} 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "joseph20@example.net",
+  "password": "***",
+  "name": "Stacey Webster",
+  "role": "customer",
+  "avatar": "https://sullivan-clark.com/",
+  "creationAt": "2026-11-14T05:36:03.000Z",
+  "updatedAt": "2026-11-14T05:36:03.000Z"
+} 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "joseph20@example.net",
+  "password": "***",
+  "name": "Stacey Webster",
+  "role": "customer",
+  "avatar": "https://sullivan-clark.com/",
+  "creationAt": "2026-11-14T05:36:03.000Z",
+  "updatedAt": "2026-11-14T05:36:03.000Z"
+}
+2026-11-14 05:36:03 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "joseph20@example.net",
+  "password": "***",
+  "name": "Stacey Webster",
+  "role": "customer",
+  "avatar": "https://sullivan-clark.com/",
+  "creationAt": "2026-11-14T05:36:03.000Z",
+  "updatedAt": "2026-11-14T05:36:03.000Z"
+} 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-14 05:36:03 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true

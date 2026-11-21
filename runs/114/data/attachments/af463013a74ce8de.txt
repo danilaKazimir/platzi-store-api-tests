@@ -1,0 +1,408 @@
+2026-11-04 05:28:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+  "image": "http://www.allen-williams.org/"
+} 
+
+2026-11-04 05:28:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 249,
+  "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+  "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+  "image": "http://www.allen-williams.org/",
+  "creationAt": "2026-11-04T05:28:54.000Z",
+  "updatedAt": "2026-11-04T05:28:54.000Z"
+}
+2026-11-04 05:28:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Focused well-modulated orchestration-7a61080f36974f7eba12942efc5b2a01",
+  "price": 790,
+  "description": "Persistent tertiary middleware",
+  "categoryId": 249,
+  "images": [
+    "http://www.sanchez.com/"
+  ]
+} 
+
+2026-11-04 05:28:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 10021,
+  "title": "Focused well-modulated orchestration-7a61080f36974f7eba12942efc5b2a01",
+  "slug": "focused-well-modulated-orchestration-7a61080f36974f7eba12942efc5b2a01",
+  "price": 790,
+  "description": "Persistent tertiary middleware",
+  "category": {
+    "id": 249,
+    "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+    "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+    "image": "http://www.allen-williams.org/",
+    "creationAt": "2026-11-04T05:28:54.000Z",
+    "updatedAt": "2026-11-04T05:28:54.000Z"
+  },
+  "images": [
+    "http://www.sanchez.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:54.000Z",
+  "updatedAt": "2026-11-04T05:28:54.000Z"
+} 
+
+2026-11-04 05:28:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-lateral human-resource architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+  "price": 881,
+  "description": "Seamless foreground orchestration",
+  "categoryId": 249,
+  "images": [
+    "http://www.smith-martin.org/"
+  ]
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 10022,
+  "title": "Multi-lateral human-resource architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+  "slug": "multi-lateral-human-resource-architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+  "price": 881,
+  "description": "Seamless foreground orchestration",
+  "category": {
+    "id": 249,
+    "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+    "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+    "image": "http://www.allen-williams.org/",
+    "creationAt": "2026-11-04T05:28:54.000Z",
+    "updatedAt": "2026-11-04T05:28:54.000Z"
+  },
+  "images": [
+    "http://www.smith-martin.org/"
+  ],
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated bandwidth-monitored solution-a1f646f3d5e44d54a233fe2e3f48206e",
+  "price": 967,
+  "description": "Innovative systemic attitude",
+  "categoryId": 249,
+  "images": [
+    "https://www.dixon-moore.com/"
+  ]
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 10023,
+  "title": "Ameliorated bandwidth-monitored solution-a1f646f3d5e44d54a233fe2e3f48206e",
+  "slug": "ameliorated-bandwidth-monitored-solution-a1f646f3d5e44d54a233fe2e3f48206e",
+  "price": 967,
+  "description": "Innovative systemic attitude",
+  "category": {
+    "id": 249,
+    "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+    "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+    "image": "http://www.allen-williams.org/",
+    "creationAt": "2026-11-04T05:28:54.000Z",
+    "updatedAt": "2026-11-04T05:28:54.000Z"
+  },
+  "images": [
+    "https://www.dixon-moore.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_ad5f90e3692f4a43b85265d375ad8ef4",
+  "image": "http://harmon.com/"
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 250,
+  "name": "Pet Supplies_ad5f90e3692f4a43b85265d375ad8ef4",
+  "slug": "pet-supplies-ad5f90e3692f4a43b85265d375ad8ef4",
+  "image": "http://harmon.com/",
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fully-configurable client-server data-warehouse-4c3d9e1e303c4869885bf8c4af8907ce",
+  "price": 582,
+  "description": "Innovative local installation",
+  "categoryId": 250,
+  "images": [
+    "http://www.martin-smith.com/"
+  ]
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 10024,
+  "title": "Fully-configurable client-server data-warehouse-4c3d9e1e303c4869885bf8c4af8907ce",
+  "slug": "fully-configurable-client-server-data-warehouse-4c3d9e1e303c4869885bf8c4af8907ce",
+  "price": 582,
+  "description": "Innovative local installation",
+  "category": {
+    "id": 250,
+    "name": "Pet Supplies_ad5f90e3692f4a43b85265d375ad8ef4",
+    "slug": "pet-supplies-ad5f90e3692f4a43b85265d375ad8ef4",
+    "image": "http://harmon.com/",
+    "creationAt": "2026-11-04T05:28:55.000Z",
+    "updatedAt": "2026-11-04T05:28:55.000Z"
+  },
+  "images": [
+    "http://www.martin-smith.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/focused-well-modulated-orchestration-7a61080f36974f7eba12942efc5b2a01/related
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/focused-well-modulated-orchestration-7a61080f36974f7eba12942efc5b2a01/related -> 200
+Body:
+[
+  {
+    "id": 10022,
+    "title": "Multi-lateral human-resource architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+    "slug": "multi-lateral-human-resource-architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+    "price": 881,
+    "description": "Seamless foreground orchestration",
+    "category": {
+      "id": 249,
+      "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+      "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+      "image": "http://www.allen-williams.org/",
+      "creationAt": "2026-11-04T05:28:54.000Z",
+      "updatedAt": "2026-11-04T05:28:54.000Z"
+    },
+    "images": [
+      "http://www.smith-martin.org/"
+    ],
+    "creationAt": "2026-11-04T05:28:55.000Z",
+    "updatedAt": "2026-11-04T05:28:55.000Z"
+  },
+  {
+    "id": 10023,
+    "title": "Ameliorated bandwidth-monitored solution-a1f646f3d5e44d54a233fe2e3f48206e",
+    "slug": "ameliorated-bandwidth-monitored-solution-a1f646f3d5e44d54a233fe2e3f48206e",
+    "price": 967,
+    "description": "Innovative systemic attitude",
+    "category": {
+      "id": 249,
+      "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+      "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+      "image": "http://www.allen-williams.org/",
+      "creationAt": "2026-11-04T05:28:54.000Z",
+      "updatedAt": "2026-11-04T05:28:54.000Z"
+    },
+    "images": [
+      "https://www.dixon-moore.com/"
+    ],
+    "creationAt": "2026-11-04T05:28:55.000Z",
+    "updatedAt": "2026-11-04T05:28:55.000Z"
+  }
+]
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10024
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10024 -> 200
+Body:
+{
+  "id": 10024,
+  "title": "Fully-configurable client-server data-warehouse-4c3d9e1e303c4869885bf8c4af8907ce",
+  "slug": "fully-configurable-client-server-data-warehouse-4c3d9e1e303c4869885bf8c4af8907ce",
+  "price": 582,
+  "description": "Innovative local installation",
+  "category": {
+    "id": 250,
+    "name": "Pet Supplies_ad5f90e3692f4a43b85265d375ad8ef4",
+    "slug": "pet-supplies-ad5f90e3692f4a43b85265d375ad8ef4",
+    "image": "http://harmon.com/",
+    "creationAt": "2026-11-04T05:28:55.000Z",
+    "updatedAt": "2026-11-04T05:28:55.000Z"
+  },
+  "images": [
+    "http://www.martin-smith.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/10024
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/10024 -> 200
+Body:
+true 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10023
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10023 -> 200
+Body:
+{
+  "id": 10023,
+  "title": "Ameliorated bandwidth-monitored solution-a1f646f3d5e44d54a233fe2e3f48206e",
+  "slug": "ameliorated-bandwidth-monitored-solution-a1f646f3d5e44d54a233fe2e3f48206e",
+  "price": 967,
+  "description": "Innovative systemic attitude",
+  "category": {
+    "id": 249,
+    "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+    "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+    "image": "http://www.allen-williams.org/",
+    "creationAt": "2026-11-04T05:28:54.000Z",
+    "updatedAt": "2026-11-04T05:28:54.000Z"
+  },
+  "images": [
+    "https://www.dixon-moore.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/10023
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/10023 -> 200
+Body:
+true 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10022
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10022 -> 200
+Body:
+{
+  "id": 10022,
+  "title": "Multi-lateral human-resource architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+  "slug": "multi-lateral-human-resource-architecture-20b01dda46d34c1c8cac980fb4ab9a8c",
+  "price": 881,
+  "description": "Seamless foreground orchestration",
+  "category": {
+    "id": 249,
+    "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+    "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+    "image": "http://www.allen-williams.org/",
+    "creationAt": "2026-11-04T05:28:54.000Z",
+    "updatedAt": "2026-11-04T05:28:54.000Z"
+  },
+  "images": [
+    "http://www.smith-martin.org/"
+  ],
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/10022
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/10022 -> 200
+Body:
+true 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10021
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10021 -> 200
+Body:
+{
+  "id": 10021,
+  "title": "Focused well-modulated orchestration-7a61080f36974f7eba12942efc5b2a01",
+  "slug": "focused-well-modulated-orchestration-7a61080f36974f7eba12942efc5b2a01",
+  "price": 790,
+  "description": "Persistent tertiary middleware",
+  "category": {
+    "id": 249,
+    "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+    "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+    "image": "http://www.allen-williams.org/",
+    "creationAt": "2026-11-04T05:28:54.000Z",
+    "updatedAt": "2026-11-04T05:28:54.000Z"
+  },
+  "images": [
+    "http://www.sanchez.com/"
+  ],
+  "creationAt": "2026-11-04T05:28:54.000Z",
+  "updatedAt": "2026-11-04T05:28:54.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/10021
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/10021 -> 200
+Body:
+true 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/250
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/250 -> 200
+Body:
+{
+  "id": 250,
+  "name": "Pet Supplies_ad5f90e3692f4a43b85265d375ad8ef4",
+  "slug": "pet-supplies-ad5f90e3692f4a43b85265d375ad8ef4",
+  "image": "http://harmon.com/",
+  "creationAt": "2026-11-04T05:28:55.000Z",
+  "updatedAt": "2026-11-04T05:28:55.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/250
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/250 -> 200
+Body:
+true 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/249
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/249 -> 200
+Body:
+{
+  "id": 249,
+  "name": "Home & Kitchen_751c40a929904c0e94378d38ea82baaa",
+  "slug": "home-kitchen-751c40a929904c0e94378d38ea82baaa",
+  "image": "http://www.allen-williams.org/",
+  "creationAt": "2026-11-04T05:28:54.000Z",
+  "updatedAt": "2026-11-04T05:28:54.000Z"
+} 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/249
+Body:
+<empty> 
+
+2026-11-04 05:28:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/249 -> 200
+Body:
+true

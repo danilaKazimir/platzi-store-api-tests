@@ -1,0 +1,367 @@
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_1423f7bd667f453d8486e8428448797e",
+  "image": "https://jones-matthews.net/"
+} 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 56,
+  "name": "Home & Kitchen_1423f7bd667f453d8486e8428448797e",
+  "slug": "home-kitchen-1423f7bd667f453d8486e8428448797e",
+  "image": "https://jones-matthews.net/",
+  "creationAt": "2026-10-23T03:57:45.000Z",
+  "updatedAt": "2026-10-23T03:57:45.000Z"
+}
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T16:04:44.000Z",
+    "updatedAt": "2026-10-22T18:00:05.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-22T16:04:44.000Z",
+    "updatedAt": "2026-10-22T16:04:44.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-22T16:04:44.000Z",
+    "updatedAt": "2026-10-22T16:04:44.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-22T16:04:44.000Z",
+    "updatedAt": "2026-10-22T16:04:44.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-22T16:04:44.000Z",
+    "updatedAt": "2026-10-22T16:04:44.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Electronics from Config-aca12620-5af1-4a33-82c6-9d342dadbfb9",
+    "slug": "electronics-from-config-aca12620-5af1-4a33-82c6-9d342dadbfb9",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:05:54.000Z",
+    "updatedAt": "2026-10-22T16:05:54.000Z"
+  },
+  {
+    "id": 7,
+    "name": " ",
+    "slug": "",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:05:57.000Z",
+    "updatedAt": "2026-10-22T16:05:57.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Electronics from Config-f71f067d-d545-4fb8-9683-729309964997",
+    "slug": "electronics-from-config-f71f067d-d545-4fb8-9683-729309964997",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:06:06.000Z",
+    "updatedAt": "2026-10-22T16:06:06.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Electronics from Config-acd01f42-aa1d-4e00-b722-26144d25457b",
+    "slug": "electronics-from-config-acd01f42-aa1d-4e00-b722-26144d25457b",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:06:09.000Z",
+    "updatedAt": "2026-10-22T16:06:09.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Electronics from Config-c18ee315-5262-40b9-8302-0746e5b6d76c",
+    "slug": "electronics-from-config-c18ee315-5262-40b9-8302-0746e5b6d76c",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:06:12.000Z",
+    "updatedAt": "2026-10-22T16:08:02.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Electronics from Config-fe5afb02-8e07-42c8-a08b-1ca50a661d58",
+    "slug": "electronics-from-config-fe5afb02-8e07-42c8-a08b-1ca50a661d58",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:06:40.000Z",
+    "updatedAt": "2026-10-22T16:06:40.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Updated Category",
+    "slug": "updated-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T16:08:19.000Z",
+    "updatedAt": "2026-10-22T18:00:15.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Electronics from Config-29f9c55d-b9b8-4589-bfde-f5c6afb7cb2e",
+    "slug": "electronics-from-config-29f9c55d-b9b8-4589-bfde-f5c6afb7cb2e",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:08:28.000Z",
+    "updatedAt": "2026-10-22T16:08:28.000Z"
+  },
+  {
+    "id": 18,
+    "name": "Electronics from Config-0603c558-6824-4e18-9b87-588c6ba017a9",
+    "slug": "electronics-from-config-0603c558-6824-4e18-9b87-588c6ba017a9",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:19.000Z",
+    "updatedAt": "2026-10-22T16:36:19.000Z"
+  },
+  {
+    "id": 19,
+    "name": "Electronics from Config-d69c159f-b4e8-4a40-9d94-70e46523ccb5",
+    "slug": "electronics-from-config-d69c159f-b4e8-4a40-9d94-70e46523ccb5",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:23.000Z",
+    "updatedAt": "2026-10-22T16:36:23.000Z"
+  },
+  {
+    "id": 20,
+    "name": "Electronics from Config-17b5e7ec-d12f-4ca3-b861-6546f9e027eb",
+    "slug": "electronics-from-config-17b5e7ec-d12f-4ca3-b861-6546f9e027eb",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:26.000Z",
+    "updatedAt": "2026-10-22T16:36:26.000Z"
+  },
+  {
+    "id": 22,
+    "name": "HP 1",
+    "slug": "hp-1",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-10-22T16:36:29.000Z",
+    "updatedAt": "2026-10-22T17:01:18.000Z"
+  },
+  {
+    "id": 23,
+    "name": "Electronics from Config-7e9c190c-dff2-4591-84a8-ff3de61f7094",
+    "slug": "electronics-from-config-7e9c190c-dff2-4591-84a8-ff3de61f7094",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:32.000Z",
+    "updatedAt": "2026-10-22T16:36:32.000Z"
+  },
+  {
+    "id": 24,
+    "name": "Electronics from Config-2d34fd32-4a3f-419c-bccb-87485121aea5",
+    "slug": "electronics-from-config-2d34fd32-4a3f-419c-bccb-87485121aea5",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:33.000Z",
+    "updatedAt": "2026-10-22T16:36:33.000Z"
+  },
+  {
+    "id": 25,
+    "name": "Electronics from Config-11a17222-bbcf-4666-9fbe-5c97ffbdfefc",
+    "slug": "electronics-from-config-11a17222-bbcf-4666-9fbe-5c97ffbdfefc",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:35.000Z",
+    "updatedAt": "2026-10-22T16:36:35.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Electronics from Config-83db3ca6-5fa1-424b-a1e9-1da8f29c1ba0",
+    "slug": "electronics-from-config-83db3ca6-5fa1-424b-a1e9-1da8f29c1ba0",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:42.000Z",
+    "updatedAt": "2026-10-22T16:36:42.000Z"
+  },
+  {
+    "id": 27,
+    "name": "Electronics from Config-180e4310-d110-4a90-8ce8-7377c25790ed",
+    "slug": "electronics-from-config-180e4310-d110-4a90-8ce8-7377c25790ed",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:36:42.000Z",
+    "updatedAt": "2026-10-22T16:36:42.000Z"
+  },
+  {
+    "id": 29,
+    "name": "Electronics from Config-962fb82e-1a94-47f2-bd2e-8c9c2f3bad7c",
+    "slug": "electronics-from-config-962fb82e-1a94-47f2-bd2e-8c9c2f3bad7c",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:04.000Z",
+    "updatedAt": "2026-10-22T16:37:04.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Electronics from Config-eadc15cd-cf45-41d5-8aed-2e1d41089826",
+    "slug": "electronics-from-config-eadc15cd-cf45-41d5-8aed-2e1d41089826",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:05.000Z",
+    "updatedAt": "2026-10-22T16:37:05.000Z"
+  },
+  {
+    "id": 31,
+    "name": "Electronics from Config-ee2b846f-e237-40eb-8573-990725e0542e",
+    "slug": "electronics-from-config-ee2b846f-e237-40eb-8573-990725e0542e",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:07.000Z",
+    "updatedAt": "2026-10-22T16:37:07.000Z"
+  },
+  {
+    "id": 32,
+    "name": "Electronics from Config-1cf34ee4-6bba-4d7c-ac20-742d931568bf",
+    "slug": "electronics-from-config-1cf34ee4-6bba-4d7c-ac20-742d931568bf",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:14.000Z",
+    "updatedAt": "2026-10-22T16:37:15.000Z"
+  },
+  {
+    "id": 33,
+    "name": "Updated Ctg",
+    "slug": "updated-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T16:37:14.000Z",
+    "updatedAt": "2026-10-22T18:00:21.000Z"
+  },
+  {
+    "id": 34,
+    "name": "Electronics from Config-a62d7c1b-ad58-4676-a7c3-c365f3ae11c3",
+    "slug": "electronics-from-config-a62d7c1b-ad58-4676-a7c3-c365f3ae11c3",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:17.000Z",
+    "updatedAt": "2026-10-22T16:37:17.000Z"
+  },
+  {
+    "id": 35,
+    "name": "Electronics from Config-692f0d09-4636-49c5-a709-d707079935b6",
+    "slug": "electronics-from-config-692f0d09-4636-49c5-a709-d707079935b6",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:19.000Z",
+    "updatedAt": "2026-10-22T16:37:19.000Z"
+  },
+  {
+    "id": 36,
+    "name": "Electronics from Config-dc82a08f-28d2-459b-9dfa-25c71ff6e5e4",
+    "slug": "electronics-from-config-dc82a08f-28d2-459b-9dfa-25c71ff6e5e4",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:23.000Z",
+    "updatedAt": "2026-10-22T16:37:23.000Z"
+  },
+  {
+    "id": 37,
+    "name": "Electronics from Config-ceb729a6-e186-4d01-80ed-44c6b6cdda6c",
+    "slug": "electronics-from-config-ceb729a6-e186-4d01-80ed-44c6b6cdda6c",
+    "image": "https://placehold.co/600x400",
+    "creationAt": "2026-10-22T16:37:32.000Z",
+    "updatedAt": "2026-10-22T16:37:32.000Z"
+  },
+  {
+    "id": 38,
+    "name": "Mie Ayam Spesial",
+    "slug": "mie-ayam-spesial",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T17:00:31.000Z",
+    "updatedAt": "2026-10-22T17:00:31.000Z"
+  },
+  {
+    "id": 39,
+    "name": "samsung x",
+    "slug": "samsung-x",
+    "image": "https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg",
+    "creationAt": "2026-10-22T17:01:17.000Z",
+    "updatedAt": "2026-10-22T17:01:17.000Z"
+  },
+  {
+    "id": 40,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T18:00:05.000Z",
+    "updatedAt": "2026-10-22T18:00:05.000Z"
+  },
+  {
+    "id": 41,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T18:00:20.000Z",
+    "updatedAt": "2026-10-22T18:00:20.000Z"
+  },
+  {
+    "id": 42,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-22T19:00:14.000Z",
+    "updatedAt": "2026-10-22T19:00:14.000Z"
+  },
+  {
+    "id": 43,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-22T21:01:22.000Z",
+    "updatedAt": "2026-10-22T21:01:22.000Z"
+  },
+  {
+    "id": 44,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-22T21:01:26.000Z",
+    "updatedAt": "2026-10-22T21:01:26.000Z"
+  },
+  {
+    "id": 55,
+    "name": "testCategory615e6b3b26a44d778b7e3f4f7b4e7734",
+    "slug": "testcategory615e6b3b26a44d778b7e3f4f7b4e7734",
+    "image": "https://ford.net/",
+    "creationAt": "2026-10-23T03:57:45.000Z",
+    "updatedAt": "2026-10-23T03:57:45.000Z"
+  },
+  {
+    "id": 56,
+    "name": "Home & Kitchen_1423f7bd667f453d8486e8428448797e",
+    "slug": "home-kitchen-1423f7bd667f453d8486e8428448797e",
+    "image": "https://jones-matthews.net/",
+    "creationAt": "2026-10-23T03:57:45.000Z",
+    "updatedAt": "2026-10-23T03:57:45.000Z"
+  }
+]
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/56
+Body:
+<empty> 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/56 -> 200
+Body:
+{
+  "id": 56,
+  "name": "Home & Kitchen_1423f7bd667f453d8486e8428448797e",
+  "slug": "home-kitchen-1423f7bd667f453d8486e8428448797e",
+  "image": "https://jones-matthews.net/",
+  "creationAt": "2026-10-23T03:57:45.000Z",
+  "updatedAt": "2026-10-23T03:57:45.000Z"
+} 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/56
+Body:
+<empty> 
+
+2026-10-23 03:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/56 -> 200
+Body:
+true

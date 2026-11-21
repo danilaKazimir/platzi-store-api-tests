@@ -1,0 +1,151 @@
+2026-10-27 04:16:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_f9c12705dde0471e91c6683151d7f200",
+  "image": "http://www.knapp.net/"
+} 
+
+2026-10-27 04:16:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Clothing_f9c12705dde0471e91c6683151d7f200",
+  "slug": "clothing-f9c12705dde0471e91c6683151d7f200",
+  "image": "http://www.knapp.net/",
+  "creationAt": "2026-10-27T04:16:49.000Z",
+  "updatedAt": "2026-10-27T04:16:49.000Z"
+}
+2026-10-27 04:16:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-27 04:16:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-26T17:53:18.000Z",
+    "updatedAt": "2026-10-26T18:00:54.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-26T17:53:18.000Z",
+    "updatedAt": "2026-10-26T17:53:18.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-26T17:53:18.000Z",
+    "updatedAt": "2026-10-26T17:53:18.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-26T17:53:18.000Z",
+    "updatedAt": "2026-10-26T17:53:18.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-26T17:53:18.000Z",
+    "updatedAt": "2026-10-26T17:53:18.000Z"
+  },
+  {
+    "id": 8,
+    "name": "New Category",
+    "slug": "new-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-26T18:00:53.000Z",
+    "updatedAt": "2026-10-26T18:00:53.000Z"
+  },
+  {
+    "id": 9,
+    "name": "New Ctg",
+    "slug": "new-ctg",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-26T18:01:07.000Z",
+    "updatedAt": "2026-10-26T18:01:07.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-26T19:00:39.000Z",
+    "updatedAt": "2026-10-26T19:00:39.000Z"
+  },
+  {
+    "id": 11,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-26T21:01:25.000Z",
+    "updatedAt": "2026-10-26T21:01:25.000Z"
+  },
+  {
+    "id": 12,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-26T22:00:27.000Z",
+    "updatedAt": "2026-10-26T22:00:27.000Z"
+  },
+  {
+    "id": 25,
+    "name": "testCategory582570434fa84a5c9142002ac851ad84",
+    "slug": "testcategory582570434fa84a5c9142002ac851ad84",
+    "image": "http://williams-brown.net/",
+    "creationAt": "2026-10-27T04:16:48.000Z",
+    "updatedAt": "2026-10-27T04:16:48.000Z"
+  },
+  {
+    "id": 26,
+    "name": "test Categoryec6673aae18241bca6025b580da0bed0",
+    "slug": "test-categoryec6673aae18241bca6025b580da0bed0",
+    "image": "http://crawford.com/",
+    "creationAt": "2026-10-27T04:16:49.000Z",
+    "updatedAt": "2026-10-27T04:16:49.000Z"
+  },
+  {
+    "id": 27,
+    "name": "Clothing_f9c12705dde0471e91c6683151d7f200",
+    "slug": "clothing-f9c12705dde0471e91c6683151d7f200",
+    "image": "http://www.knapp.net/",
+    "creationAt": "2026-10-27T04:16:49.000Z",
+    "updatedAt": "2026-10-27T04:16:49.000Z"
+  }
+]
+2026-10-27 04:16:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-27 04:16:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Clothing_f9c12705dde0471e91c6683151d7f200",
+  "slug": "clothing-f9c12705dde0471e91c6683151d7f200",
+  "image": "http://www.knapp.net/",
+  "creationAt": "2026-10-27T04:16:49.000Z",
+  "updatedAt": "2026-10-27T04:16:49.000Z"
+} 
+
+2026-10-27 04:16:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-27 04:16:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

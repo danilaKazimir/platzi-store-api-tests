@@ -1,0 +1,55 @@
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_c343b28b4d624db2af3ed4b46c935998",
+  "image": "http://church-ramos.com/"
+} 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Clothing_c343b28b4d624db2af3ed4b46c935998",
+  "slug": "clothing-c343b28b4d624db2af3ed4b46c935998",
+  "image": "http://church-ramos.com/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:53.000Z"
+}
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/28
+Body:
+{
+  "name": "Electronics_203a6ab5ec864eeb9bc844dabfa9d8f4",
+  "image": null
+} 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/28 -> 400
+Body:
+{
+  "path": "/api/v1/categories/28",
+  "timestamp": "2026-10-29T04:57:54.127Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-10-29 04:57:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Clothing_c343b28b4d624db2af3ed4b46c935998",
+  "slug": "clothing-c343b28b4d624db2af3ed4b46c935998",
+  "image": "http://church-ramos.com/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:53.000Z"
+} 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-10-29 04:57:54 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true

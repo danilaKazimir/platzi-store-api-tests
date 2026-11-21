@@ -1,0 +1,53 @@
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_9db551de916d48798e58ac4f6332393d",
+  "image": "https://schmitt-weaver.org/"
+} 
+
+2026-10-26 03:55:02 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 97,
+  "name": "Food & Beverages_9db551de916d48798e58ac4f6332393d",
+  "slug": "food-beverages-9db551de916d48798e58ac4f6332393d",
+  "image": "https://schmitt-weaver.org/",
+  "creationAt": "2026-10-26T03:55:02.000Z",
+  "updatedAt": "2026-10-26T03:55:02.000Z"
+}
+2026-10-26 03:55:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-10-26 03:55:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+{
+  "id": 97,
+  "name": "Food & Beverages_9db551de916d48798e58ac4f6332393d",
+  "slug": "food-beverages-9db551de916d48798e58ac4f6332393d",
+  "image": "https://schmitt-weaver.org/",
+  "creationAt": "2026-10-26T03:55:02.000Z",
+  "updatedAt": "2026-10-26T03:55:02.000Z"
+}
+2026-10-26 03:55:02 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-10-26 03:55:02 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+{
+  "id": 97,
+  "name": "Food & Beverages_9db551de916d48798e58ac4f6332393d",
+  "slug": "food-beverages-9db551de916d48798e58ac4f6332393d",
+  "image": "https://schmitt-weaver.org/",
+  "creationAt": "2026-10-26T03:55:02.000Z",
+  "updatedAt": "2026-10-26T03:55:02.000Z"
+} 
+
+2026-10-26 03:55:02 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/97
+Body:
+<empty> 
+
+2026-10-26 03:55:02 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/97 -> 200
+Body:
+true

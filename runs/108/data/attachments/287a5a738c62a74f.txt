@@ -1,0 +1,135 @@
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_bedc20f4ac814d6d8e8e1a803c2bdb29",
+  "image": "http://www.barker.com/"
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 35,
+  "name": "Books_bedc20f4ac814d6d8e8e1a803c2bdb29",
+  "slug": "books-bedc20f4ac814d6d8e8e1a803c2bdb29",
+  "image": "http://www.barker.com/",
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+} 
+
+2026-10-29 04:57:55 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Automated attitude-oriented challenge-ee64c1b2a024476aae197d136a28352a",
+  "price": 703,
+  "description": "Adaptive stable archive",
+  "categoryId": 35,
+  "images": [
+    "http://castaneda-brooks.com/"
+  ]
+} 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 112,
+  "title": "Automated attitude-oriented challenge-ee64c1b2a024476aae197d136a28352a",
+  "slug": "automated-attitude-oriented-challenge-ee64c1b2a024476aae197d136a28352a",
+  "price": 703,
+  "description": "Adaptive stable archive",
+  "category": {
+    "id": 35,
+    "name": "Books_bedc20f4ac814d6d8e8e1a803c2bdb29",
+    "slug": "books-bedc20f4ac814d6d8e8e1a803c2bdb29",
+    "image": "http://www.barker.com/",
+    "creationAt": "2026-10-29T04:57:55.000Z",
+    "updatedAt": "2026-10-29T04:57:55.000Z"
+  },
+  "images": [
+    "http://castaneda-brooks.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:56.000Z",
+  "updatedAt": "2026-10-29T04:57:56.000Z"
+}
+2026-10-29 04:57:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/112
+Body:
+<empty> 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/112 -> 200
+Body:
+{
+  "id": 112,
+  "title": "Automated attitude-oriented challenge-ee64c1b2a024476aae197d136a28352a",
+  "slug": "automated-attitude-oriented-challenge-ee64c1b2a024476aae197d136a28352a",
+  "price": 703,
+  "description": "Adaptive stable archive",
+  "category": {
+    "id": 35,
+    "name": "Books_bedc20f4ac814d6d8e8e1a803c2bdb29",
+    "slug": "books-bedc20f4ac814d6d8e8e1a803c2bdb29",
+    "image": "http://www.barker.com/",
+    "creationAt": "2026-10-29T04:57:55.000Z",
+    "updatedAt": "2026-10-29T04:57:55.000Z"
+  },
+  "images": [
+    "http://castaneda-brooks.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:56.000Z",
+  "updatedAt": "2026-10-29T04:57:56.000Z"
+}
+2026-10-29 04:57:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/112
+Body:
+<empty> 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/112 -> 200
+Body:
+{
+  "id": 112,
+  "title": "Automated attitude-oriented challenge-ee64c1b2a024476aae197d136a28352a",
+  "slug": "automated-attitude-oriented-challenge-ee64c1b2a024476aae197d136a28352a",
+  "price": 703,
+  "description": "Adaptive stable archive",
+  "category": {
+    "id": 35,
+    "name": "Books_bedc20f4ac814d6d8e8e1a803c2bdb29",
+    "slug": "books-bedc20f4ac814d6d8e8e1a803c2bdb29",
+    "image": "http://www.barker.com/",
+    "creationAt": "2026-10-29T04:57:55.000Z",
+    "updatedAt": "2026-10-29T04:57:55.000Z"
+  },
+  "images": [
+    "http://castaneda-brooks.com/"
+  ],
+  "creationAt": "2026-10-29T04:57:56.000Z",
+  "updatedAt": "2026-10-29T04:57:56.000Z"
+} 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/112
+Body:
+<empty> 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/112 -> 200
+Body:
+true 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+{
+  "id": 35,
+  "name": "Books_bedc20f4ac814d6d8e8e1a803c2bdb29",
+  "slug": "books-bedc20f4ac814d6d8e8e1a803c2bdb29",
+  "image": "http://www.barker.com/",
+  "creationAt": "2026-10-29T04:57:55.000Z",
+  "updatedAt": "2026-10-29T04:57:55.000Z"
+} 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/35
+Body:
+<empty> 
+
+2026-10-29 04:57:56 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/35 -> 200
+Body:
+true

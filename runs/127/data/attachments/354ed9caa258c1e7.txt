@@ -1,0 +1,88 @@
+2026-11-17 07:10:25 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Nicholas James",
+  "email": "reedjessica@example.com",
+  "password": "***",
+  "avatar": "https://www.aguilar.com/"
+} 
+
+2026-11-17 07:10:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 5,
+  "email": "reedjessica@example.com",
+  "password": "***",
+  "name": "Nicholas James",
+  "role": "customer",
+  "avatar": "https://www.aguilar.com/",
+  "creationAt": "2026-11-17T07:10:26.000Z",
+  "updatedAt": "2026-11-17T07:10:26.000Z"
+}
+2026-11-17 07:10:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "reedjessica@example.com",
+  "password": "***"
+} 
+
+2026-11-17 07:10:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-17 07:10:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImlhdCI6MTc5NDg5OTQyNiwiZXhwIjoxNzk0OTM1NDI2fQ.8z7Bl6sIP9_uw6nYidNiJc_eZzKJS47_cvvN_ryk9Kg"
+} 
+
+2026-11-17 07:10:26 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-17 07:10:26 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 5,
+  "email": "reedjessica@example.com",
+  "password": "***",
+  "name": "Nicholas James",
+  "role": "customer",
+  "avatar": "https://www.aguilar.com/",
+  "creationAt": "2026-11-17T07:10:26.000Z",
+  "updatedAt": "2026-11-17T07:10:26.000Z"
+}
+2026-11-17 07:10:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+{
+  "id": 5,
+  "email": "reedjessica@example.com",
+  "password": "***",
+  "name": "Nicholas James",
+  "role": "customer",
+  "avatar": "https://www.aguilar.com/",
+  "creationAt": "2026-11-17T07:10:26.000Z",
+  "updatedAt": "2026-11-17T07:10:26.000Z"
+} 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/5
+Body:
+<empty> 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/5 -> 200
+Body:
+true

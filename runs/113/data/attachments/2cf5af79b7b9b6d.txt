@@ -1,0 +1,135 @@
+2026-11-03 05:52:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_765097e99a244bf192c586055be9fd49",
+  "image": "http://gardner.com/"
+} 
+
+2026-11-03 05:52:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 11,
+  "name": "Books_765097e99a244bf192c586055be9fd49",
+  "slug": "books-765097e99a244bf192c586055be9fd49",
+  "image": "http://gardner.com/",
+  "creationAt": "2026-11-03T05:52:37.000Z",
+  "updatedAt": "2026-11-03T05:52:37.000Z"
+}
+2026-11-03 05:52:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-03 05:52:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-02T21:10:38.000Z",
+    "updatedAt": "2026-11-02T21:10:38.000Z"
+  },
+  {
+    "id": 6,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-11-02T22:00:26.000Z",
+    "updatedAt": "2026-11-02T22:00:26.000Z"
+  },
+  {
+    "id": 7,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-11-02T22:01:15.000Z",
+    "updatedAt": "2026-11-02T22:01:15.000Z"
+  },
+  {
+    "id": 8,
+    "name": "API Canvas",
+    "slug": "api-canvas",
+    "image": "https://fake.com/fakeImg.png",
+    "creationAt": "2026-11-02T23:23:40.000Z",
+    "updatedAt": "2026-11-02T23:23:40.000Z"
+  },
+  {
+    "id": 9,
+    "name": "testCategoryfcf128a90f0b44bb8e62211cbd4bec9e",
+    "slug": "testcategoryfcf128a90f0b44bb8e62211cbd4bec9e",
+    "image": "https://www.travis.info/",
+    "creationAt": "2026-11-03T05:52:36.000Z",
+    "updatedAt": "2026-11-03T05:52:36.000Z"
+  },
+  {
+    "id": 10,
+    "name": "test Category2d4d969e387948d3a429895572282ca7",
+    "slug": "test-category2d4d969e387948d3a429895572282ca7",
+    "image": "http://www.gill.net/",
+    "creationAt": "2026-11-03T05:52:37.000Z",
+    "updatedAt": "2026-11-03T05:52:37.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Books_765097e99a244bf192c586055be9fd49",
+    "slug": "books-765097e99a244bf192c586055be9fd49",
+    "image": "http://gardner.com/",
+    "creationAt": "2026-11-03T05:52:37.000Z",
+    "updatedAt": "2026-11-03T05:52:37.000Z"
+  }
+]
+2026-11-03 05:52:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-11-03 05:52:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+{
+  "id": 11,
+  "name": "Books_765097e99a244bf192c586055be9fd49",
+  "slug": "books-765097e99a244bf192c586055be9fd49",
+  "image": "http://gardner.com/",
+  "creationAt": "2026-11-03T05:52:37.000Z",
+  "updatedAt": "2026-11-03T05:52:37.000Z"
+} 
+
+2026-11-03 05:52:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/11
+Body:
+<empty> 
+
+2026-11-03 05:52:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/11 -> 200
+Body:
+true

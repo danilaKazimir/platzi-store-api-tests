@@ -1,0 +1,719 @@
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_159cbf21d83f4d05b3a3faa72449b35c",
+  "image": "http://www.mitchell-johnson.info/"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 107,
+  "name": "Books_159cbf21d83f4d05b3a3faa72449b35c",
+  "slug": "books-159cbf21d83f4d05b3a3faa72449b35c",
+  "image": "http://www.mitchell-johnson.info/",
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fundamental demand-driven paradigm-96513a1b32d74b239de4edf20c3c338f",
+  "price": 742,
+  "description": "Open-architected directional projection",
+  "categoryId": 107,
+  "images": [
+    "https://hawkins.com/"
+  ]
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 379,
+  "title": "Fundamental demand-driven paradigm-96513a1b32d74b239de4edf20c3c338f",
+  "slug": "fundamental-demand-driven-paradigm-96513a1b32d74b239de4edf20c3c338f",
+  "price": 742,
+  "description": "Open-architected directional projection",
+  "category": {
+    "id": 107,
+    "name": "Books_159cbf21d83f4d05b3a3faa72449b35c",
+    "slug": "books-159cbf21d83f4d05b3a3faa72449b35c",
+    "image": "http://www.mitchell-johnson.info/",
+    "creationAt": "2026-10-26T03:55:04.000Z",
+    "updatedAt": "2026-10-26T03:55:04.000Z"
+  },
+  "images": [
+    "https://hawkins.com/"
+  ],
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+}
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/?offset=&limit=
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/?offset=&limit= -> 200
+Body:
+[
+  {
+    "id": 55,
+    "title": "[G3]Nike Downshifter 13",
+    "slug": "g3-nike-downshifter-13",
+    "price": 85,
+    "description": "Zapatillas de hombre Nike",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/995020/FD6454-001_A_PREM.jpg?v=638556536876570000",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1001027-1024-1024?width=1024&height=1024&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1009825-1024-1024?width=1024&height=1024&aspect=true"
+    ],
+    "creationAt": "2026-10-25T17:46:27.000Z",
+    "updatedAt": "2026-10-25T17:46:27.000Z"
+  },
+  {
+    "id": 72,
+    "title": "gula",
+    "slug": "gula",
+    "price": 2,
+    "description": "chiroyli",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXZcegrAN4wd_nI6OQ6bCyjmodJimiwgk0KxQHqvR82i3xNaoUAXDeZGxg&s=10"
+    ],
+    "creationAt": "2026-10-25T20:10:35.000Z",
+    "updatedAt": "2026-10-25T21:53:35.000Z"
+  },
+  {
+    "id": 195,
+    "title": "title-ea598cee-31fa-4943-b196-1e1a0129c6ad",
+    "slug": "title-ea598cee-31fa-4943-b196-1e1a0129c6ad",
+    "price": 601,
+    "description": "desc-cde3f4ad-cf24-4011-824d-9c4886bff6e6",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T18:00:35.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=33916",
+      "https://placehold.co/600x400?img=13860",
+      "https://placehold.co/600x400?img=56189"
+    ],
+    "creationAt": "2026-10-25T21:42:04.000Z",
+    "updatedAt": "2026-10-25T21:42:04.000Z"
+  },
+  {
+    "id": 204,
+    "title": "title-cd7df417-7dc2-44c2-9877-db07863e9706",
+    "slug": "title-cd7df417-7dc2-44c2-9877-db07863e9706",
+    "price": 162,
+    "description": "desc-dfdefafa-d99a-4d8e-82e6-49ab3ba1ef17",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=61883",
+      "https://placehold.co/600x400?img=78511",
+      "https://placehold.co/600x400?img=8648"
+    ],
+    "creationAt": "2026-10-25T21:57:04.000Z",
+    "updatedAt": "2026-10-25T21:57:04.000Z"
+  },
+  {
+    "id": 277,
+    "title": "title-4c0e59eb-39ce-4243-840f-4e5798ac4304",
+    "slug": "title-4c0e59eb-39ce-4243-840f-4e5798ac4304",
+    "price": 96,
+    "description": "desc-4ed19727-d8b6-40c1-aef3-4c2de10f5880",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=33785",
+      "https://placehold.co/600x400?img=92364"
+    ],
+    "creationAt": "2026-10-25T22:12:13.000Z",
+    "updatedAt": "2026-10-25T22:12:13.000Z"
+  },
+  {
+    "id": 314,
+    "title": "title-b24dae54-9cf4-460a-bc4e-fd84125b37ed",
+    "slug": "title-b24dae54-9cf4-460a-bc4e-fd84125b37ed",
+    "price": 678,
+    "description": "desc-be419266-3ba6-4d5a-96c3-e5ba3c9cedd9",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T18:00:35.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=88764",
+      "https://placehold.co/600x400?img=40616",
+      "https://placehold.co/600x400?img=50400"
+    ],
+    "creationAt": "2026-10-25T22:27:13.000Z",
+    "updatedAt": "2026-10-25T22:27:13.000Z"
+  },
+  {
+    "id": 316,
+    "title": "title-7243bbb0-4ebb-4a33-a153-631954278f4a",
+    "slug": "title-7243bbb0-4ebb-4a33-a153-631954278f4a",
+    "price": 37,
+    "description": "desc-1a5b15d2-bc7c-49ca-9bb8-eaf86796f8d7",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T18:00:35.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=72959",
+      "https://placehold.co/600x400?img=54278",
+      "https://placehold.co/600x400?img=7552"
+    ],
+    "creationAt": "2026-10-25T22:42:04.000Z",
+    "updatedAt": "2026-10-25T22:42:04.000Z"
+  },
+  {
+    "id": 352,
+    "title": "title-c051002f-0bbe-46b6-a5de-cbf0cd06e11c",
+    "slug": "title-c051002f-0bbe-46b6-a5de-cbf0cd06e11c",
+    "price": 824,
+    "description": "desc-bb3ec706-29b8-4c06-9b7a-250d0af05bda",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49883"
+    ],
+    "creationAt": "2026-10-25T22:57:03.000Z",
+    "updatedAt": "2026-10-25T22:57:03.000Z"
+  },
+  {
+    "id": 353,
+    "title": "title-a8b6d7aa-8103-4c95-9ac3-69fb55c506c7",
+    "slug": "title-a8b6d7aa-8103-4c95-9ac3-69fb55c506c7",
+    "price": 514,
+    "description": "desc-6a60a58b-bb71-4103-b4f8-92c22c07f611",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=66790",
+      "https://placehold.co/600x400?img=39370"
+    ],
+    "creationAt": "2026-10-25T23:12:04.000Z",
+    "updatedAt": "2026-10-25T23:12:04.000Z"
+  },
+  {
+    "id": 354,
+    "title": "title-07f6df5d-3fed-4f50-91a1-b66bf9ac6d4e",
+    "slug": "title-07f6df5d-3fed-4f50-91a1-b66bf9ac6d4e",
+    "price": 669,
+    "description": "desc-77f90cc9-547b-4a16-a24a-c95ddfd2eb76",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=77391",
+      "https://placehold.co/600x400?img=33235"
+    ],
+    "creationAt": "2026-10-25T23:27:04.000Z",
+    "updatedAt": "2026-10-25T23:27:04.000Z"
+  },
+  {
+    "id": 355,
+    "title": "title-204c0ae9-b69c-418d-a3b3-f9538f228339",
+    "slug": "title-204c0ae9-b69c-418d-a3b3-f9538f228339",
+    "price": 667,
+    "description": "desc-14483734-8b0f-46d2-8756-6a113c899fd5",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=84982",
+      "https://placehold.co/600x400?img=93577"
+    ],
+    "creationAt": "2026-10-25T23:42:04.000Z",
+    "updatedAt": "2026-10-25T23:42:04.000Z"
+  },
+  {
+    "id": 356,
+    "title": "title-1e5ee87d-e051-4490-b609-854a0957cccc",
+    "slug": "title-1e5ee87d-e051-4490-b609-854a0957cccc",
+    "price": 56,
+    "description": "desc-672a0c5f-4876-408b-bd98-9931592fcb86",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=13355",
+      "https://placehold.co/600x400?img=24764"
+    ],
+    "creationAt": "2026-10-25T23:57:04.000Z",
+    "updatedAt": "2026-10-25T23:57:04.000Z"
+  },
+  {
+    "id": 357,
+    "title": "title-da6008b7-9b23-488e-8513-ec5a677496ff",
+    "slug": "title-da6008b7-9b23-488e-8513-ec5a677496ff",
+    "price": 726,
+    "description": "desc-c623cf50-ca57-4418-9d41-d0f879d3ae0e",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=27464"
+    ],
+    "creationAt": "2026-10-26T00:12:14.000Z",
+    "updatedAt": "2026-10-26T00:12:14.000Z"
+  },
+  {
+    "id": 358,
+    "title": "title-903712d2-d86a-4c74-b799-873d7e785735",
+    "slug": "title-903712d2-d86a-4c74-b799-873d7e785735",
+    "price": 193,
+    "description": "desc-cb2587d4-6a2a-4640-903d-97ba049b71be",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=99999"
+    ],
+    "creationAt": "2026-10-26T00:27:04.000Z",
+    "updatedAt": "2026-10-26T00:27:04.000Z"
+  },
+  {
+    "id": 359,
+    "title": "title-f9f26179-de03-4902-9edd-b3e25c7d9654",
+    "slug": "title-f9f26179-de03-4902-9edd-b3e25c7d9654",
+    "price": 562,
+    "description": "desc-0f1c0951-23a3-4918-abfe-cd064d1c45f3",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=31643"
+    ],
+    "creationAt": "2026-10-26T00:42:03.000Z",
+    "updatedAt": "2026-10-26T00:42:03.000Z"
+  },
+  {
+    "id": 360,
+    "title": "title-2cdf19c4-3511-42e3-aa52-2a88b219ef27",
+    "slug": "title-2cdf19c4-3511-42e3-aa52-2a88b219ef27",
+    "price": 822,
+    "description": "desc-2fac3c31-12ba-47b5-870a-26c2b9781b58",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=40910"
+    ],
+    "creationAt": "2026-10-26T00:57:04.000Z",
+    "updatedAt": "2026-10-26T00:57:04.000Z"
+  },
+  {
+    "id": 361,
+    "title": "title-ba469e70-c082-434d-90c9-ecbcc45ca923",
+    "slug": "title-ba469e70-c082-434d-90c9-ecbcc45ca923",
+    "price": 891,
+    "description": "desc-9e6cf05f-65d4-4053-817c-a0b91738f1f9",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=51615",
+      "https://placehold.co/600x400?img=70771"
+    ],
+    "creationAt": "2026-10-26T01:12:14.000Z",
+    "updatedAt": "2026-10-26T01:12:14.000Z"
+  },
+  {
+    "id": 362,
+    "title": "title-206b8cba-d871-48a7-9099-56bf07e3624f",
+    "slug": "title-206b8cba-d871-48a7-9099-56bf07e3624f",
+    "price": 264,
+    "description": "desc-2f707068-5cac-4bf4-91b2-dcaeef797f89",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T18:00:35.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=99424",
+      "https://placehold.co/600x400?img=30136",
+      "https://placehold.co/600x400?img=84512"
+    ],
+    "creationAt": "2026-10-26T01:27:03.000Z",
+    "updatedAt": "2026-10-26T01:27:03.000Z"
+  },
+  {
+    "id": 363,
+    "title": "title-3e616517-a80f-44e5-bfbd-f3ca63392226",
+    "slug": "title-3e616517-a80f-44e5-bfbd-f3ca63392226",
+    "price": 777,
+    "description": "desc-a805cf06-3914-4143-aebf-81aa8a995864",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=6462",
+      "https://placehold.co/600x400?img=5764"
+    ],
+    "creationAt": "2026-10-26T01:42:03.000Z",
+    "updatedAt": "2026-10-26T01:42:03.000Z"
+  },
+  {
+    "id": 364,
+    "title": "title-44a472f4-e6b5-4fa3-a897-6ebac64914fc",
+    "slug": "title-44a472f4-e6b5-4fa3-a897-6ebac64914fc",
+    "price": 27,
+    "description": "desc-69439c91-9820-442a-af54-f13ef0948c33",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=69784"
+    ],
+    "creationAt": "2026-10-26T01:57:02.000Z",
+    "updatedAt": "2026-10-26T01:57:02.000Z"
+  },
+  {
+    "id": 365,
+    "title": "title-45841ee9-3f70-43b1-9547-7690c816331a",
+    "slug": "title-45841ee9-3f70-43b1-9547-7690c816331a",
+    "price": 321,
+    "description": "desc-e961aa24-1c1b-46df-8754-7d0ea8da2a64",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=49906",
+      "https://placehold.co/600x400?img=84431"
+    ],
+    "creationAt": "2026-10-26T02:12:02.000Z",
+    "updatedAt": "2026-10-26T02:12:02.000Z"
+  },
+  {
+    "id": 366,
+    "title": "title-11f37d24-b986-4615-a836-11ff07e27dbb",
+    "slug": "title-11f37d24-b986-4615-a836-11ff07e27dbb",
+    "price": 985,
+    "description": "desc-e702466e-4567-41df-874d-f1a9dabea641",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=37075",
+      "https://placehold.co/600x400?img=30162"
+    ],
+    "creationAt": "2026-10-26T02:27:02.000Z",
+    "updatedAt": "2026-10-26T02:27:02.000Z"
+  },
+  {
+    "id": 367,
+    "title": "title-3debb88a-98ca-43bd-b689-8acdf369012f",
+    "slug": "title-3debb88a-98ca-43bd-b689-8acdf369012f",
+    "price": 347,
+    "description": "desc-73f94cea-4e27-40c6-a072-0bb8976370f4",
+    "category": {
+      "id": 5,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "image": "https://i.imgur.com/BG8J0Fj.jpg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=72865"
+    ],
+    "creationAt": "2026-10-26T02:42:02.000Z",
+    "updatedAt": "2026-10-26T02:42:02.000Z"
+  },
+  {
+    "id": 368,
+    "title": "title-cfefeeff-492f-44e5-8afc-80c694d0b27a",
+    "slug": "title-cfefeeff-492f-44e5-8afc-80c694d0b27a",
+    "price": 417,
+    "description": "desc-a5612319-7164-43d0-9b77-045e72a8e7aa",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=29861",
+      "https://placehold.co/600x400?img=83738"
+    ],
+    "creationAt": "2026-10-26T02:57:13.000Z",
+    "updatedAt": "2026-10-26T02:57:13.000Z"
+  },
+  {
+    "id": 369,
+    "title": "title-d3891581-ea6c-480a-a796-abca32b87d1f",
+    "slug": "title-d3891581-ea6c-480a-a796-abca32b87d1f",
+    "price": 866,
+    "description": "desc-96002f58-cb65-402c-8da9-c17e643ba4a7",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=25335"
+    ],
+    "creationAt": "2026-10-26T03:12:10.000Z",
+    "updatedAt": "2026-10-26T03:12:10.000Z"
+  },
+  {
+    "id": 370,
+    "title": "gatau",
+    "slug": "gatau",
+    "price": 1,
+    "description": "iya",
+    "category": {
+      "id": 1,
+      "name": "Updated Category Name",
+      "slug": "updated-category-name",
+      "image": "https://placeimg.com/640/480/any",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T18:00:35.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?text=catatan_43"
+    ],
+    "creationAt": "2026-10-26T03:24:57.000Z",
+    "updatedAt": "2026-10-26T03:24:57.000Z"
+  },
+  {
+    "id": 371,
+    "title": "title-37d04af4-ee36-4f98-94ec-171afd64c8b6",
+    "slug": "title-37d04af4-ee36-4f98-94ec-171afd64c8b6",
+    "price": 859,
+    "description": "desc-5cfe1ecb-4c1b-4697-a1d2-c13d9a5446c5",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2026-10-25T17:21:00.000Z",
+      "updatedAt": "2026-10-25T17:21:00.000Z"
+    },
+    "images": [
+      "https://placehold.co/600x400?img=90880"
+    ],
+    "creationAt": "2026-10-26T03:27:02.000Z",
+    "updatedAt": "2026-10-26T03:27:02.000Z"
+  },
+  {
+    "id": 377,
+    "title": "Optional intangible info-mediaries-8d05b1a668714baa98b913e18a33f300",
+    "slug": "optional-intangible-info-mediaries-8d05b1a668714baa98b913e18a33f300",
+    "price": 675,
+    "description": "Managed didactic software",
+    "category": {
+      "id": 104,
+      "name": "Books_bebf6f1012c34b63a329ddebf7286b07",
+      "slug": "books-bebf6f1012c34b63a329ddebf7286b07",
+      "image": "http://www.velazquez.biz/",
+      "creationAt": "2026-10-26T03:55:03.000Z",
+      "updatedAt": "2026-10-26T03:55:03.000Z"
+    },
+    "images": [
+      "http://adams.net/"
+    ],
+    "creationAt": "2026-10-26T03:55:03.000Z",
+    "updatedAt": "2026-10-26T03:55:03.000Z"
+  },
+  {
+    "id": 379,
+    "title": "Fundamental demand-driven paradigm-96513a1b32d74b239de4edf20c3c338f",
+    "slug": "fundamental-demand-driven-paradigm-96513a1b32d74b239de4edf20c3c338f",
+    "price": 742,
+    "description": "Open-architected directional projection",
+    "category": {
+      "id": 107,
+      "name": "Books_159cbf21d83f4d05b3a3faa72449b35c",
+      "slug": "books-159cbf21d83f4d05b3a3faa72449b35c",
+      "image": "http://www.mitchell-johnson.info/",
+      "creationAt": "2026-10-26T03:55:04.000Z",
+      "updatedAt": "2026-10-26T03:55:04.000Z"
+    },
+    "images": [
+      "https://hawkins.com/"
+    ],
+    "creationAt": "2026-10-26T03:55:04.000Z",
+    "updatedAt": "2026-10-26T03:55:04.000Z"
+  }
+]
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/379
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/379 -> 200
+Body:
+{
+  "id": 379,
+  "title": "Fundamental demand-driven paradigm-96513a1b32d74b239de4edf20c3c338f",
+  "slug": "fundamental-demand-driven-paradigm-96513a1b32d74b239de4edf20c3c338f",
+  "price": 742,
+  "description": "Open-architected directional projection",
+  "category": {
+    "id": 107,
+    "name": "Books_159cbf21d83f4d05b3a3faa72449b35c",
+    "slug": "books-159cbf21d83f4d05b3a3faa72449b35c",
+    "image": "http://www.mitchell-johnson.info/",
+    "creationAt": "2026-10-26T03:55:04.000Z",
+    "updatedAt": "2026-10-26T03:55:04.000Z"
+  },
+  "images": [
+    "https://hawkins.com/"
+  ],
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/379
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/379 -> 200
+Body:
+true 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/107
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/107 -> 200
+Body:
+{
+  "id": 107,
+  "name": "Books_159cbf21d83f4d05b3a3faa72449b35c",
+  "slug": "books-159cbf21d83f4d05b3a3faa72449b35c",
+  "image": "http://www.mitchell-johnson.info/",
+  "creationAt": "2026-10-26T03:55:04.000Z",
+  "updatedAt": "2026-10-26T03:55:04.000Z"
+} 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/107
+Body:
+<empty> 
+
+2026-10-26 03:55:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/107 -> 200
+Body:
+true

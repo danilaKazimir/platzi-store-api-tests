@@ -1,0 +1,107 @@
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_470fbcf806d84c9c90212545e9e7b41a",
+  "image": "http://flores.com/"
+} 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 33,
+  "name": "Toys_470fbcf806d84c9c90212545e9e7b41a",
+  "slug": "toys-470fbcf806d84c9c90212545e9e7b41a",
+  "image": "http://flores.com/",
+  "creationAt": "2026-10-30T04:57:44.000Z",
+  "updatedAt": "2026-10-30T04:57:44.000Z"
+} 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced zero administration array-2646387c21484c7ea5f9d3a0011aaf3c",
+  "price": 336,
+  "description": "Centralized dynamic system engine",
+  "categoryId": 33,
+  "images": [
+    "http://smith.com/"
+  ]
+} 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 9233,
+  "title": "Advanced zero administration array-2646387c21484c7ea5f9d3a0011aaf3c",
+  "slug": "advanced-zero-administration-array-2646387c21484c7ea5f9d3a0011aaf3c",
+  "price": 336,
+  "description": "Centralized dynamic system engine",
+  "category": {
+    "id": 33,
+    "name": "Toys_470fbcf806d84c9c90212545e9e7b41a",
+    "slug": "toys-470fbcf806d84c9c90212545e9e7b41a",
+    "image": "http://flores.com/",
+    "creationAt": "2026-10-30T04:57:44.000Z",
+    "updatedAt": "2026-10-30T04:57:44.000Z"
+  },
+  "images": [
+    "http://smith.com/"
+  ],
+  "creationAt": "2026-10-30T04:57:44.000Z",
+  "updatedAt": "2026-10-30T04:57:44.000Z"
+}
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/9233
+Body:
+<empty> 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/9233 -> 200
+Body:
+true 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/9233
+Body:
+<empty> 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/9233 -> 400
+Body:
+{
+  "path": "/api/v1/products/9233",
+  "timestamp": "2026-10-30T04:57:44.940Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 9233\n    }\n}"
+}
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/9233
+Body:
+<empty> 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/9233 -> 400
+Body:
+{
+  "path": "/api/v1/products/9233",
+  "timestamp": "2026-10-30T04:57:44.973Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 9233\n    }\n}"
+} 
+
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+{
+  "id": 33,
+  "name": "Toys_470fbcf806d84c9c90212545e9e7b41a",
+  "slug": "toys-470fbcf806d84c9c90212545e9e7b41a",
+  "image": "http://flores.com/",
+  "creationAt": "2026-10-30T04:57:44.000Z",
+  "updatedAt": "2026-10-30T04:57:44.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/33
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/33 -> 200
+Body:
+true

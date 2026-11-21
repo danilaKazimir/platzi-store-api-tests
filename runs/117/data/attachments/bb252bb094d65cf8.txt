@@ -1,0 +1,80 @@
+2026-11-07 05:15:11 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Donald Warner",
+  "email": "jonathanmercado@example.org",
+  "password": "***",
+  "avatar": "https://www.montgomery.com/"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 6318,
+  "email": "jonathanmercado@example.org",
+  "password": "***",
+  "name": "Donald Warner",
+  "role": "customer",
+  "avatar": "https://www.montgomery.com/",
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+}
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/6318
+Body:
+{
+  "email": "jodywest@example.net"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/6318 -> 200
+Body:
+{
+  "id": 6318,
+  "email": "jodywest@example.net",
+  "password": "***",
+  "name": "Donald Warner",
+  "role": "customer",
+  "avatar": "https://www.montgomery.com/",
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/6318
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/6318 -> 200
+Body:
+{
+  "id": 6318,
+  "email": "jodywest@example.net",
+  "password": "***",
+  "name": "Donald Warner",
+  "role": "customer",
+  "avatar": "https://www.montgomery.com/",
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+}
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/6318
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/6318 -> 200
+Body:
+{
+  "id": 6318,
+  "email": "jodywest@example.net",
+  "password": "***",
+  "name": "Donald Warner",
+  "role": "customer",
+  "avatar": "https://www.montgomery.com/",
+  "creationAt": "2026-11-07T05:15:12.000Z",
+  "updatedAt": "2026-11-07T05:15:12.000Z"
+} 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/6318
+Body:
+<empty> 
+
+2026-11-07 05:15:12 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/6318 -> 200
+Body:
+true

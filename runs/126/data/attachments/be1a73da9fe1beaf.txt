@@ -1,0 +1,125 @@
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_2986e3542d0944cab1f9816e00f9cc61",
+  "image": "https://butler.com/"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Sports & Fitness_2986e3542d0944cab1f9816e00f9cc61",
+  "slug": "sports-fitness-2986e3542d0944cab1f9816e00f9cc61",
+  "image": "https://butler.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Inverse systematic application-39206f3a572e41fba32f685202bdb732",
+  "price": 458,
+  "description": "Digitized coherent array",
+  "categoryId": 26,
+  "images": [
+    "https://garcia-rivera.com/"
+  ]
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 72,
+  "title": "Inverse systematic application-39206f3a572e41fba32f685202bdb732",
+  "slug": "inverse-systematic-application-39206f3a572e41fba32f685202bdb732",
+  "price": 458,
+  "description": "Digitized coherent array",
+  "category": {
+    "id": 26,
+    "name": "Sports & Fitness_2986e3542d0944cab1f9816e00f9cc61",
+    "slug": "sports-fitness-2986e3542d0944cab1f9816e00f9cc61",
+    "image": "https://butler.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://garcia-rivera.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:40.000Z",
+  "updatedAt": "2026-11-16T05:32:40.000Z"
+}
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/72
+Body:
+{
+  "title": "Robust real-time implementation-79b49cc0a8e241a796b399dceae7e04a",
+  "price": 577,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/72 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Inverse systematic application-39206f3a572e41fba32f685202bdb732",
+  "slug": "inverse-systematic-application-39206f3a572e41fba32f685202bdb732",
+  "price": 458,
+  "description": "Digitized coherent array",
+  "category": {
+    "id": 26,
+    "name": "Sports & Fitness_2986e3542d0944cab1f9816e00f9cc61",
+    "slug": "sports-fitness-2986e3542d0944cab1f9816e00f9cc61",
+    "image": "https://butler.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://garcia-rivera.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:40.000Z",
+  "updatedAt": "2026-11-16T05:32:40.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+true 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Sports & Fitness_2986e3542d0944cab1f9816e00f9cc61",
+  "slug": "sports-fitness-2986e3542d0944cab1f9816e00f9cc61",
+  "image": "https://butler.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

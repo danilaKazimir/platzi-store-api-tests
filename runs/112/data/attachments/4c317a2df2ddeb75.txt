@@ -1,0 +1,125 @@
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_8c668b091f894119a69ae1fd5e2415bd",
+  "image": "https://www.smith-arias.info/"
+} 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 61,
+  "name": "Home & Kitchen_8c668b091f894119a69ae1fd5e2415bd",
+  "slug": "home-kitchen-8c668b091f894119a69ae1fd5e2415bd",
+  "image": "https://www.smith-arias.info/",
+  "creationAt": "2026-11-02T05:06:15.000Z",
+  "updatedAt": "2026-11-02T05:06:15.000Z"
+} 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone context-sensitive function-5bd143e111374d20ab3bb4b0b9ad9ca5",
+  "price": 592,
+  "description": "Streamlined modular success",
+  "categoryId": 61,
+  "images": [
+    "http://king.info/"
+  ]
+} 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 25506,
+  "title": "Stand-alone context-sensitive function-5bd143e111374d20ab3bb4b0b9ad9ca5",
+  "slug": "stand-alone-context-sensitive-function-5bd143e111374d20ab3bb4b0b9ad9ca5",
+  "price": 592,
+  "description": "Streamlined modular success",
+  "category": {
+    "id": 61,
+    "name": "Home & Kitchen_8c668b091f894119a69ae1fd5e2415bd",
+    "slug": "home-kitchen-8c668b091f894119a69ae1fd5e2415bd",
+    "image": "https://www.smith-arias.info/",
+    "creationAt": "2026-11-02T05:06:15.000Z",
+    "updatedAt": "2026-11-02T05:06:15.000Z"
+  },
+  "images": [
+    "http://king.info/"
+  ],
+  "creationAt": "2026-11-02T05:06:15.000Z",
+  "updatedAt": "2026-11-02T05:06:15.000Z"
+}
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/25506
+Body:
+{
+  "title": "User-centric 6thgeneration synergy-bb634fabfa6a4720b70f7e8d2e176938",
+  "price": 681,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/25506 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/25506
+Body:
+<empty> 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/25506 -> 200
+Body:
+{
+  "id": 25506,
+  "title": "Stand-alone context-sensitive function-5bd143e111374d20ab3bb4b0b9ad9ca5",
+  "slug": "stand-alone-context-sensitive-function-5bd143e111374d20ab3bb4b0b9ad9ca5",
+  "price": 592,
+  "description": "Streamlined modular success",
+  "category": {
+    "id": 61,
+    "name": "Home & Kitchen_8c668b091f894119a69ae1fd5e2415bd",
+    "slug": "home-kitchen-8c668b091f894119a69ae1fd5e2415bd",
+    "image": "https://www.smith-arias.info/",
+    "creationAt": "2026-11-02T05:06:15.000Z",
+    "updatedAt": "2026-11-02T05:06:15.000Z"
+  },
+  "images": [
+    "http://king.info/"
+  ],
+  "creationAt": "2026-11-02T05:06:15.000Z",
+  "updatedAt": "2026-11-02T05:06:15.000Z"
+} 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/25506
+Body:
+<empty> 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/25506 -> 200
+Body:
+true 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/61
+Body:
+<empty> 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/61 -> 200
+Body:
+{
+  "id": 61,
+  "name": "Home & Kitchen_8c668b091f894119a69ae1fd5e2415bd",
+  "slug": "home-kitchen-8c668b091f894119a69ae1fd5e2415bd",
+  "image": "https://www.smith-arias.info/",
+  "creationAt": "2026-11-02T05:06:15.000Z",
+  "updatedAt": "2026-11-02T05:06:15.000Z"
+} 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/61
+Body:
+<empty> 
+
+2026-11-02 05:06:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/61 -> 200
+Body:
+true

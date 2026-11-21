@@ -1,0 +1,88 @@
+2026-11-07 05:15:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Jordan Townsend",
+  "email": "jjenkins@example.net",
+  "password": "***",
+  "avatar": "https://www.gonzalez-rocha.com/"
+} 
+
+2026-11-07 05:15:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 6312,
+  "email": "jjenkins@example.net",
+  "password": "***",
+  "name": "Jordan Townsend",
+  "role": "customer",
+  "avatar": "https://www.gonzalez-rocha.com/",
+  "creationAt": "2026-11-07T05:15:05.000Z",
+  "updatedAt": "2026-11-07T05:15:05.000Z"
+}
+2026-11-07 05:15:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "jjenkins@example.net",
+  "password": "***"
+} 
+
+2026-11-07 05:15:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-07 05:15:05 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjYzMTIsImlhdCI6MTc5NDAyODUwNSwiZXhwIjoxNzk0MDY0NTA1fQ.aWPwMxRBz5deIgXUDOfCoQKxzo9_car98dnD730bo9g"
+} 
+
+2026-11-07 05:15:05 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-07 05:15:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-07 05:15:05 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 6312,
+  "email": "jjenkins@example.net",
+  "password": "***",
+  "name": "Jordan Townsend",
+  "role": "customer",
+  "avatar": "https://www.gonzalez-rocha.com/",
+  "creationAt": "2026-11-07T05:15:05.000Z",
+  "updatedAt": "2026-11-07T05:15:05.000Z"
+}
+2026-11-07 05:15:05 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/6312
+Body:
+<empty> 
+
+2026-11-07 05:15:06 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/6312 -> 200
+Body:
+{
+  "id": 6312,
+  "email": "jjenkins@example.net",
+  "password": "***",
+  "name": "Jordan Townsend",
+  "role": "customer",
+  "avatar": "https://www.gonzalez-rocha.com/",
+  "creationAt": "2026-11-07T05:15:05.000Z",
+  "updatedAt": "2026-11-07T05:15:05.000Z"
+} 
+
+2026-11-07 05:15:06 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/6312
+Body:
+<empty> 
+
+2026-11-07 05:15:06 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/6312 -> 200
+Body:
+true

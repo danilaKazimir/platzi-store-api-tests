@@ -1,0 +1,135 @@
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_fae9fdcb60c94646922af0e08972e049",
+  "image": "https://cruz.com/"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Books_fae9fdcb60c94646922af0e08972e049",
+  "slug": "books-fae9fdcb60c94646922af0e08972e049",
+  "image": "https://cruz.com/",
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Upgradable hybrid encryption-41d19dfa35444991814f940bd2658f05",
+  "price": 401,
+  "description": "Optimized high-level contingency",
+  "categoryId": 20,
+  "images": [
+    "http://jordan.com/"
+  ]
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 62,
+  "title": "Upgradable hybrid encryption-41d19dfa35444991814f940bd2658f05",
+  "slug": "upgradable-hybrid-encryption-41d19dfa35444991814f940bd2658f05",
+  "price": 401,
+  "description": "Optimized high-level contingency",
+  "category": {
+    "id": 20,
+    "name": "Books_fae9fdcb60c94646922af0e08972e049",
+    "slug": "books-fae9fdcb60c94646922af0e08972e049",
+    "image": "https://cruz.com/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "http://jordan.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+{
+  "id": 62,
+  "title": "Upgradable hybrid encryption-41d19dfa35444991814f940bd2658f05",
+  "slug": "upgradable-hybrid-encryption-41d19dfa35444991814f940bd2658f05",
+  "price": 401,
+  "description": "Optimized high-level contingency",
+  "category": {
+    "id": 20,
+    "name": "Books_fae9fdcb60c94646922af0e08972e049",
+    "slug": "books-fae9fdcb60c94646922af0e08972e049",
+    "image": "https://cruz.com/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "http://jordan.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+{
+  "id": 62,
+  "title": "Upgradable hybrid encryption-41d19dfa35444991814f940bd2658f05",
+  "slug": "upgradable-hybrid-encryption-41d19dfa35444991814f940bd2658f05",
+  "price": 401,
+  "description": "Optimized high-level contingency",
+  "category": {
+    "id": 20,
+    "name": "Books_fae9fdcb60c94646922af0e08972e049",
+    "slug": "books-fae9fdcb60c94646922af0e08972e049",
+    "image": "https://cruz.com/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "http://jordan.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+true 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Books_fae9fdcb60c94646922af0e08972e049",
+  "slug": "books-fae9fdcb60c94646922af0e08972e049",
+  "image": "https://cruz.com/",
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

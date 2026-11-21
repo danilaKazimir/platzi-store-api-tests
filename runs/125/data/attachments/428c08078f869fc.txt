@@ -1,0 +1,79 @@
+2026-11-15 05:33:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_d38f850621664815bdc16d8589311716",
+  "image": "https://www.day.com/"
+} 
+
+2026-11-15 05:33:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Electronics_d38f850621664815bdc16d8589311716",
+  "slug": "electronics-d38f850621664815bdc16d8589311716",
+  "image": "https://www.day.com/",
+  "creationAt": "2026-11-15T05:33:36.000Z",
+  "updatedAt": "2026-11-15T05:33:36.000Z"
+}
+2026-11-15 05:33:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-engineered stable alliance-326d4cd4075846d78fdd66b74cc2df8a",
+  "price": 89,
+  "description": "Adaptive eco-centric groupware",
+  "categoryId": 15,
+  "images": [
+    "https://nelson.com/"
+  ]
+} 
+
+2026-11-15 05:33:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 56,
+  "title": "Re-engineered stable alliance-326d4cd4075846d78fdd66b74cc2df8a",
+  "slug": "re-engineered-stable-alliance-326d4cd4075846d78fdd66b74cc2df8a",
+  "price": 89,
+  "description": "Adaptive eco-centric groupware",
+  "category": {
+    "id": 15,
+    "name": "Electronics_d38f850621664815bdc16d8589311716",
+    "slug": "electronics-d38f850621664815bdc16d8589311716",
+    "image": "https://www.day.com/",
+    "creationAt": "2026-11-15T05:33:36.000Z",
+    "updatedAt": "2026-11-15T05:33:36.000Z"
+  },
+  "images": [
+    "https://nelson.com/"
+  ],
+  "creationAt": "2026-11-15T05:33:36.000Z",
+  "updatedAt": "2026-11-15T05:33:36.000Z"
+}
+2026-11-15 05:33:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-15 05:33:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Electronics_d38f850621664815bdc16d8589311716",
+  "slug": "electronics-d38f850621664815bdc16d8589311716",
+  "image": "https://www.day.com/",
+  "creationAt": "2026-11-15T05:33:36.000Z",
+  "updatedAt": "2026-11-15T05:33:36.000Z"
+} 
+
+2026-11-15 05:33:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-15 05:33:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 400
+Body:
+{
+  "path": "/api/v1/categories/15",
+  "timestamp": "2026-11-15T05:33:36.838Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

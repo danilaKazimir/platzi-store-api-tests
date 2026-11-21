@@ -1,0 +1,125 @@
+2026-11-10 06:35:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_7b467f6b788746d6ba22def0710ef055",
+  "image": "http://hammond.org/"
+} 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 45,
+  "name": "Pet Supplies_7b467f6b788746d6ba22def0710ef055",
+  "slug": "pet-supplies-7b467f6b788746d6ba22def0710ef055",
+  "image": "http://hammond.org/",
+  "creationAt": "2026-11-10T06:35:24.000Z",
+  "updatedAt": "2026-11-10T06:35:24.000Z"
+} 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Exclusive next generation website-2f534d383231429a9075a00d01b666cf",
+  "price": 766,
+  "description": "User-friendly analyzing open system",
+  "categoryId": 45,
+  "images": [
+    "https://williams-henderson.com/"
+  ]
+} 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 76,
+  "title": "Exclusive next generation website-2f534d383231429a9075a00d01b666cf",
+  "slug": "exclusive-next-generation-website-2f534d383231429a9075a00d01b666cf",
+  "price": 766,
+  "description": "User-friendly analyzing open system",
+  "category": {
+    "id": 45,
+    "name": "Pet Supplies_7b467f6b788746d6ba22def0710ef055",
+    "slug": "pet-supplies-7b467f6b788746d6ba22def0710ef055",
+    "image": "http://hammond.org/",
+    "creationAt": "2026-11-10T06:35:24.000Z",
+    "updatedAt": "2026-11-10T06:35:24.000Z"
+  },
+  "images": [
+    "https://williams-henderson.com/"
+  ],
+  "creationAt": "2026-11-10T06:35:24.000Z",
+  "updatedAt": "2026-11-10T06:35:24.000Z"
+}
+2026-11-10 06:35:24 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/76
+Body:
+{
+  "title": "Fundamental even-keeled website-aaf8a5e97a964049aa9b4dc22a2f4e8a",
+  "price": 356,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/76 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-10 06:35:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/76
+Body:
+<empty> 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/76 -> 200
+Body:
+{
+  "id": 76,
+  "title": "Exclusive next generation website-2f534d383231429a9075a00d01b666cf",
+  "slug": "exclusive-next-generation-website-2f534d383231429a9075a00d01b666cf",
+  "price": 766,
+  "description": "User-friendly analyzing open system",
+  "category": {
+    "id": 45,
+    "name": "Pet Supplies_7b467f6b788746d6ba22def0710ef055",
+    "slug": "pet-supplies-7b467f6b788746d6ba22def0710ef055",
+    "image": "http://hammond.org/",
+    "creationAt": "2026-11-10T06:35:24.000Z",
+    "updatedAt": "2026-11-10T06:35:24.000Z"
+  },
+  "images": [
+    "https://williams-henderson.com/"
+  ],
+  "creationAt": "2026-11-10T06:35:24.000Z",
+  "updatedAt": "2026-11-10T06:35:24.000Z"
+} 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/76
+Body:
+<empty> 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/76 -> 200
+Body:
+true 
+
+2026-11-10 06:35:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-11-10 06:35:25 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+{
+  "id": 45,
+  "name": "Pet Supplies_7b467f6b788746d6ba22def0710ef055",
+  "slug": "pet-supplies-7b467f6b788746d6ba22def0710ef055",
+  "image": "http://hammond.org/",
+  "creationAt": "2026-11-10T06:35:24.000Z",
+  "updatedAt": "2026-11-10T06:35:24.000Z"
+} 
+
+2026-11-10 06:35:25 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-11-10 06:35:25 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+true

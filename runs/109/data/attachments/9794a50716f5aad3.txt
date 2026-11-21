@@ -1,0 +1,53 @@
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_2cdd53fdfbc34185ab29e4ced0b18456",
+  "image": "http://clark.org/"
+} 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_2cdd53fdfbc34185ab29e4ced0b18456",
+  "slug": "automotive-accessories-2cdd53fdfbc34185ab29e4ced0b18456",
+  "image": "http://clark.org/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+}
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_2cdd53fdfbc34185ab29e4ced0b18456",
+  "slug": "automotive-accessories-2cdd53fdfbc34185ab29e4ced0b18456",
+  "image": "http://clark.org/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+}
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_2cdd53fdfbc34185ab29e4ced0b18456",
+  "slug": "automotive-accessories-2cdd53fdfbc34185ab29e4ced0b18456",
+  "image": "http://clark.org/",
+  "creationAt": "2026-10-30T04:57:43.000Z",
+  "updatedAt": "2026-10-30T04:57:43.000Z"
+} 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-10-30 04:57:43 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

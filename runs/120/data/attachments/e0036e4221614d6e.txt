@@ -1,0 +1,79 @@
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_61e9c2f7c4b44ce8ae76a39947440613",
+  "image": "https://davidson.info/"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Sports & Fitness_61e9c2f7c4b44ce8ae76a39947440613",
+  "slug": "sports-fitness-61e9c2f7c4b44ce8ae76a39947440613",
+  "image": "https://davidson.info/",
+  "creationAt": "2026-11-10T06:35:21.000Z",
+  "updatedAt": "2026-11-10T06:35:21.000Z"
+}
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Advanced content-based support-4c063fa322ab48569b636319c5f5d755",
+  "price": 299,
+  "description": "Adaptive intermediate ability",
+  "categoryId": 34,
+  "images": [
+    "http://garrett.com/"
+  ]
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 63,
+  "title": "Advanced content-based support-4c063fa322ab48569b636319c5f5d755",
+  "slug": "advanced-content-based-support-4c063fa322ab48569b636319c5f5d755",
+  "price": 299,
+  "description": "Adaptive intermediate ability",
+  "category": {
+    "id": 34,
+    "name": "Sports & Fitness_61e9c2f7c4b44ce8ae76a39947440613",
+    "slug": "sports-fitness-61e9c2f7c4b44ce8ae76a39947440613",
+    "image": "https://davidson.info/",
+    "creationAt": "2026-11-10T06:35:21.000Z",
+    "updatedAt": "2026-11-10T06:35:21.000Z"
+  },
+  "images": [
+    "http://garrett.com/"
+  ],
+  "creationAt": "2026-11-10T06:35:21.000Z",
+  "updatedAt": "2026-11-10T06:35:21.000Z"
+}
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Sports & Fitness_61e9c2f7c4b44ce8ae76a39947440613",
+  "slug": "sports-fitness-61e9c2f7c4b44ce8ae76a39947440613",
+  "image": "https://davidson.info/",
+  "creationAt": "2026-11-10T06:35:21.000Z",
+  "updatedAt": "2026-11-10T06:35:21.000Z"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 400
+Body:
+{
+  "path": "/api/v1/categories/34",
+  "timestamp": "2026-11-10T06:35:21.689Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

@@ -1,0 +1,61 @@
+2026-11-08 05:11:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Julian Cox",
+  "email": "karen80@example.net",
+  "password": "***",
+  "avatar": "https://www.david.net/"
+} 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "karen80@example.net",
+  "password": "***",
+  "name": "Julian Cox",
+  "role": "customer",
+  "avatar": "https://www.david.net/",
+  "creationAt": "2026-11-08T05:11:27.000Z",
+  "updatedAt": "2026-11-08T05:11:27.000Z"
+}
+2026-11-08 05:11:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "karen80@example.net",
+  "password": "***",
+  "name": "Julian Cox",
+  "role": "customer",
+  "avatar": "https://www.david.net/",
+  "creationAt": "2026-11-08T05:11:27.000Z",
+  "updatedAt": "2026-11-08T05:11:27.000Z"
+}
+2026-11-08 05:11:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "karen80@example.net",
+  "password": "***",
+  "name": "Julian Cox",
+  "role": "customer",
+  "avatar": "https://www.david.net/",
+  "creationAt": "2026-11-08T05:11:27.000Z",
+  "updatedAt": "2026-11-08T05:11:27.000Z"
+} 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true

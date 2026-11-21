@@ -1,0 +1,125 @@
+2026-10-25 03:51:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_08ca53331b3f4f0a9f8d94a22fd62005",
+  "image": "http://www.park.com/"
+} 
+
+2026-10-25 03:51:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 40,
+  "name": "Food & Beverages_08ca53331b3f4f0a9f8d94a22fd62005",
+  "slug": "food-beverages-08ca53331b3f4f0a9f8d94a22fd62005",
+  "image": "http://www.park.com/",
+  "creationAt": "2026-10-25T03:51:14.000Z",
+  "updatedAt": "2026-10-25T03:51:14.000Z"
+} 
+
+2026-10-25 03:51:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fully-configurable multimedia hierarchy-ba70ec4a3e0b434ea3df39dec635c7fa",
+  "price": 432,
+  "description": "Total systemic knowledge user",
+  "categoryId": 40,
+  "images": [
+    "https://www.castaneda.com/"
+  ]
+} 
+
+2026-10-25 03:51:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 147,
+  "title": "Fully-configurable multimedia hierarchy-ba70ec4a3e0b434ea3df39dec635c7fa",
+  "slug": "fully-configurable-multimedia-hierarchy-ba70ec4a3e0b434ea3df39dec635c7fa",
+  "price": 432,
+  "description": "Total systemic knowledge user",
+  "category": {
+    "id": 40,
+    "name": "Food & Beverages_08ca53331b3f4f0a9f8d94a22fd62005",
+    "slug": "food-beverages-08ca53331b3f4f0a9f8d94a22fd62005",
+    "image": "http://www.park.com/",
+    "creationAt": "2026-10-25T03:51:14.000Z",
+    "updatedAt": "2026-10-25T03:51:14.000Z"
+  },
+  "images": [
+    "https://www.castaneda.com/"
+  ],
+  "creationAt": "2026-10-25T03:51:14.000Z",
+  "updatedAt": "2026-10-25T03:51:14.000Z"
+}
+2026-10-25 03:51:14 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/147
+Body:
+{
+  "title": "Robust bottom-line definition-f92cf61faacd4758a96f68e8f1b127df",
+  "price": 907,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/147 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/147
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/147 -> 200
+Body:
+{
+  "id": 147,
+  "title": "Fully-configurable multimedia hierarchy-ba70ec4a3e0b434ea3df39dec635c7fa",
+  "slug": "fully-configurable-multimedia-hierarchy-ba70ec4a3e0b434ea3df39dec635c7fa",
+  "price": 432,
+  "description": "Total systemic knowledge user",
+  "category": {
+    "id": 40,
+    "name": "Food & Beverages_08ca53331b3f4f0a9f8d94a22fd62005",
+    "slug": "food-beverages-08ca53331b3f4f0a9f8d94a22fd62005",
+    "image": "http://www.park.com/",
+    "creationAt": "2026-10-25T03:51:14.000Z",
+    "updatedAt": "2026-10-25T03:51:14.000Z"
+  },
+  "images": [
+    "https://www.castaneda.com/"
+  ],
+  "creationAt": "2026-10-25T03:51:14.000Z",
+  "updatedAt": "2026-10-25T03:51:14.000Z"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/147
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/147 -> 200
+Body:
+true 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+{
+  "id": 40,
+  "name": "Food & Beverages_08ca53331b3f4f0a9f8d94a22fd62005",
+  "slug": "food-beverages-08ca53331b3f4f0a9f8d94a22fd62005",
+  "image": "http://www.park.com/",
+  "creationAt": "2026-10-25T03:51:14.000Z",
+  "updatedAt": "2026-10-25T03:51:14.000Z"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/40
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/40 -> 200
+Body:
+true

@@ -1,0 +1,407 @@
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+  "image": "https://www.king-rowe.biz/"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+  "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+  "image": "https://www.king-rowe.biz/",
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+}
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Enterprise-wide context-sensitive hardware-b8debadcc03442fab0c09441da91729b",
+  "price": 837,
+  "description": "Visionary transitional frame",
+  "categoryId": 26,
+  "images": [
+    "http://lee-taylor.com/"
+  ]
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 88,
+  "title": "Enterprise-wide context-sensitive hardware-b8debadcc03442fab0c09441da91729b",
+  "slug": "enterprise-wide-context-sensitive-hardware-b8debadcc03442fab0c09441da91729b",
+  "price": 837,
+  "description": "Visionary transitional frame",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://lee-taylor.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Stand-alone secondary frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+  "price": 100,
+  "description": "Fundamental motivating support",
+  "categoryId": 26,
+  "images": [
+    "http://www.porter.org/"
+  ]
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 90,
+  "title": "Stand-alone secondary frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+  "slug": "stand-alone-secondary-frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+  "price": 100,
+  "description": "Fundamental motivating support",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://www.porter.org/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Team-oriented context-sensitive matrix-b3919e4e468b42e6b95ee7616b0cae05",
+  "price": 909,
+  "description": "Business-focused solution-oriented workforce",
+  "categoryId": 26,
+  "images": [
+    "http://www.johnson-cook.com/"
+  ]
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 91,
+  "title": "Team-oriented context-sensitive matrix-b3919e4e468b42e6b95ee7616b0cae05",
+  "slug": "team-oriented-context-sensitive-matrix-b3919e4e468b42e6b95ee7616b0cae05",
+  "price": 909,
+  "description": "Business-focused solution-oriented workforce",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://www.johnson-cook.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Assimilated maximized time-frame-13142c2b56b544dba1c48ff63cd0a403",
+  "price": 656,
+  "description": "Cross-group fault-tolerant open architecture",
+  "categoryId": 26,
+  "images": [
+    "https://www.garrison.com/"
+  ]
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 92,
+  "title": "Assimilated maximized time-frame-13142c2b56b544dba1c48ff63cd0a403",
+  "slug": "assimilated-maximized-time-frame-13142c2b56b544dba1c48ff63cd0a403",
+  "price": 656,
+  "description": "Cross-group fault-tolerant open architecture",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "https://www.garrison.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26/products
+Body:
+<empty> 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26/products -> 200
+Body:
+[
+  {
+    "id": 88,
+    "title": "Enterprise-wide context-sensitive hardware-b8debadcc03442fab0c09441da91729b",
+    "slug": "enterprise-wide-context-sensitive-hardware-b8debadcc03442fab0c09441da91729b",
+    "price": 837,
+    "description": "Visionary transitional frame",
+    "category": {
+      "id": 26,
+      "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+      "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+      "image": "https://www.king-rowe.biz/",
+      "creationAt": "2026-11-01T05:05:44.000Z",
+      "updatedAt": "2026-11-01T05:05:44.000Z"
+    },
+    "images": [
+      "http://lee-taylor.com/"
+    ],
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  {
+    "id": 90,
+    "title": "Stand-alone secondary frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+    "slug": "stand-alone-secondary-frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+    "price": 100,
+    "description": "Fundamental motivating support",
+    "category": {
+      "id": 26,
+      "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+      "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+      "image": "https://www.king-rowe.biz/",
+      "creationAt": "2026-11-01T05:05:44.000Z",
+      "updatedAt": "2026-11-01T05:05:44.000Z"
+    },
+    "images": [
+      "http://www.porter.org/"
+    ],
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  },
+  {
+    "id": 91,
+    "title": "Team-oriented context-sensitive matrix-b3919e4e468b42e6b95ee7616b0cae05",
+    "slug": "team-oriented-context-sensitive-matrix-b3919e4e468b42e6b95ee7616b0cae05",
+    "price": 909,
+    "description": "Business-focused solution-oriented workforce",
+    "category": {
+      "id": 26,
+      "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+      "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+      "image": "https://www.king-rowe.biz/",
+      "creationAt": "2026-11-01T05:05:44.000Z",
+      "updatedAt": "2026-11-01T05:05:44.000Z"
+    },
+    "images": [
+      "http://www.johnson-cook.com/"
+    ],
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  },
+  {
+    "id": 92,
+    "title": "Assimilated maximized time-frame-13142c2b56b544dba1c48ff63cd0a403",
+    "slug": "assimilated-maximized-time-frame-13142c2b56b544dba1c48ff63cd0a403",
+    "price": 656,
+    "description": "Cross-group fault-tolerant open architecture",
+    "category": {
+      "id": 26,
+      "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+      "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+      "image": "https://www.king-rowe.biz/",
+      "creationAt": "2026-11-01T05:05:44.000Z",
+      "updatedAt": "2026-11-01T05:05:44.000Z"
+    },
+    "images": [
+      "https://www.garrison.com/"
+    ],
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  }
+]
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/92
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/92 -> 200
+Body:
+{
+  "id": 92,
+  "title": "Assimilated maximized time-frame-13142c2b56b544dba1c48ff63cd0a403",
+  "slug": "assimilated-maximized-time-frame-13142c2b56b544dba1c48ff63cd0a403",
+  "price": 656,
+  "description": "Cross-group fault-tolerant open architecture",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "https://www.garrison.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/92
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/92 -> 200
+Body:
+true 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/91
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/91 -> 200
+Body:
+{
+  "id": 91,
+  "title": "Team-oriented context-sensitive matrix-b3919e4e468b42e6b95ee7616b0cae05",
+  "slug": "team-oriented-context-sensitive-matrix-b3919e4e468b42e6b95ee7616b0cae05",
+  "price": 909,
+  "description": "Business-focused solution-oriented workforce",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://www.johnson-cook.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/91
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/91 -> 200
+Body:
+true 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/90
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/90 -> 200
+Body:
+{
+  "id": 90,
+  "title": "Stand-alone secondary frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+  "slug": "stand-alone-secondary-frame-6dc8b6905fea4ee882f78ec11b3f3e17",
+  "price": 100,
+  "description": "Fundamental motivating support",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://www.porter.org/"
+  ],
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/90
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/90 -> 200
+Body:
+true 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+{
+  "id": 88,
+  "title": "Enterprise-wide context-sensitive hardware-b8debadcc03442fab0c09441da91729b",
+  "slug": "enterprise-wide-context-sensitive-hardware-b8debadcc03442fab0c09441da91729b",
+  "price": 837,
+  "description": "Visionary transitional frame",
+  "category": {
+    "id": 26,
+    "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+    "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+    "image": "https://www.king-rowe.biz/",
+    "creationAt": "2026-11-01T05:05:44.000Z",
+    "updatedAt": "2026-11-01T05:05:44.000Z"
+  },
+  "images": [
+    "http://lee-taylor.com/"
+  ],
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/88
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/88 -> 200
+Body:
+true 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Books_370a6e87088d4eb8931e1bae6d9000c1",
+  "slug": "books-370a6e87088d4eb8931e1bae6d9000c1",
+  "image": "https://www.king-rowe.biz/",
+  "creationAt": "2026-11-01T05:05:44.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

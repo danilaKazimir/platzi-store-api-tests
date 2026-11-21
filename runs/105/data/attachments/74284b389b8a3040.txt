@@ -1,0 +1,15 @@
+2026-10-26 03:55:03 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Food & Beverages_b125fef952e14e8181c9bdaac5fa06d1",
+  "image": "https://www.harrington.com/"
+} 
+
+2026-10-26 03:55:03 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-10-26T03:55:03.408Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

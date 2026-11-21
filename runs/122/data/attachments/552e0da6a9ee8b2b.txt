@@ -1,0 +1,75 @@
+2026-11-12 06:25:18 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Nancy Reed",
+  "email": "jessicaroberts@example.net",
+  "password": "***",
+  "avatar": "http://hansen.info/"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 19,
+  "email": "jessicaroberts@example.net",
+  "password": "***",
+  "name": "Nancy Reed",
+  "role": "customer",
+  "avatar": "http://hansen.info/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "jessicaroberts@example.net",
+  "password": "***"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 19,
+  "email": "jessicaroberts@example.net",
+  "password": "***",
+  "name": "Nancy Reed",
+  "role": "customer",
+  "avatar": "http://hansen.info/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+}
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/19
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/19 -> 200
+Body:
+{
+  "id": 19,
+  "email": "jessicaroberts@example.net",
+  "password": "***",
+  "name": "Nancy Reed",
+  "role": "customer",
+  "avatar": "http://hansen.info/",
+  "creationAt": "2026-11-12T06:25:19.000Z",
+  "updatedAt": "2026-11-12T06:25:19.000Z"
+} 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/19
+Body:
+<empty> 
+
+2026-11-12 06:25:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/19 -> 200
+Body:
+true

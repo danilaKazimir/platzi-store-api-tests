@@ -1,0 +1,135 @@
+2026-11-17 07:10:29 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_6baa8d74332a4087ad8a9f36172bdec6",
+  "image": "http://www.wells-johnston.org/"
+} 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Automotive Accessories_6baa8d74332a4087ad8a9f36172bdec6",
+  "slug": "automotive-accessories-6baa8d74332a4087ad8a9f36172bdec6",
+  "image": "http://www.wells-johnston.org/",
+  "creationAt": "2026-11-17T07:10:30.000Z",
+  "updatedAt": "2026-11-17T07:10:30.000Z"
+} 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Switchable clear-thinking process improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "price": 538,
+  "description": "Exclusive client-server productivity",
+  "categoryId": 20,
+  "images": [
+    "http://www.ramirez.com/"
+  ]
+} 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 74,
+  "title": "Switchable clear-thinking process improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "slug": "switchable-clear-thinking-process-improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "price": 538,
+  "description": "Exclusive client-server productivity",
+  "category": {
+    "id": 20,
+    "name": "Automotive Accessories_6baa8d74332a4087ad8a9f36172bdec6",
+    "slug": "automotive-accessories-6baa8d74332a4087ad8a9f36172bdec6",
+    "image": "http://www.wells-johnston.org/",
+    "creationAt": "2026-11-17T07:10:30.000Z",
+    "updatedAt": "2026-11-17T07:10:30.000Z"
+  },
+  "images": [
+    "http://www.ramirez.com/"
+  ],
+  "creationAt": "2026-11-17T07:10:30.000Z",
+  "updatedAt": "2026-11-17T07:10:30.000Z"
+}
+2026-11-17 07:10:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/switchable-clear-thinking-process-improvement-12c5c0be3d644c189b22cd52a6d1ea3b
+Body:
+<empty> 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/switchable-clear-thinking-process-improvement-12c5c0be3d644c189b22cd52a6d1ea3b -> 200
+Body:
+{
+  "id": 74,
+  "title": "Switchable clear-thinking process improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "slug": "switchable-clear-thinking-process-improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "price": 538,
+  "description": "Exclusive client-server productivity",
+  "category": {
+    "id": 20,
+    "name": "Automotive Accessories_6baa8d74332a4087ad8a9f36172bdec6",
+    "slug": "automotive-accessories-6baa8d74332a4087ad8a9f36172bdec6",
+    "image": "http://www.wells-johnston.org/",
+    "creationAt": "2026-11-17T07:10:30.000Z",
+    "updatedAt": "2026-11-17T07:10:30.000Z"
+  },
+  "images": [
+    "http://www.ramirez.com/"
+  ],
+  "creationAt": "2026-11-17T07:10:30.000Z",
+  "updatedAt": "2026-11-17T07:10:30.000Z"
+}
+2026-11-17 07:10:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/74
+Body:
+<empty> 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/74 -> 200
+Body:
+{
+  "id": 74,
+  "title": "Switchable clear-thinking process improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "slug": "switchable-clear-thinking-process-improvement-12c5c0be3d644c189b22cd52a6d1ea3b",
+  "price": 538,
+  "description": "Exclusive client-server productivity",
+  "category": {
+    "id": 20,
+    "name": "Automotive Accessories_6baa8d74332a4087ad8a9f36172bdec6",
+    "slug": "automotive-accessories-6baa8d74332a4087ad8a9f36172bdec6",
+    "image": "http://www.wells-johnston.org/",
+    "creationAt": "2026-11-17T07:10:30.000Z",
+    "updatedAt": "2026-11-17T07:10:30.000Z"
+  },
+  "images": [
+    "http://www.ramirez.com/"
+  ],
+  "creationAt": "2026-11-17T07:10:30.000Z",
+  "updatedAt": "2026-11-17T07:10:30.000Z"
+} 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/74
+Body:
+<empty> 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/74 -> 200
+Body:
+true 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Automotive Accessories_6baa8d74332a4087ad8a9f36172bdec6",
+  "slug": "automotive-accessories-6baa8d74332a4087ad8a9f36172bdec6",
+  "image": "http://www.wells-johnston.org/",
+  "creationAt": "2026-11-17T07:10:30.000Z",
+  "updatedAt": "2026-11-17T07:10:30.000Z"
+} 
+
+2026-11-17 07:10:30 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-17 07:10:31 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

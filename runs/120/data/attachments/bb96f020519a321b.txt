@@ -1,0 +1,53 @@
+2026-11-10 06:35:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_95b60cacef8e4bc7b9b4cb631791bbbf",
+  "image": "https://hill.com/"
+} 
+
+2026-11-10 06:35:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_95b60cacef8e4bc7b9b4cb631791bbbf",
+  "slug": "automotive-accessories-95b60cacef8e4bc7b9b4cb631791bbbf",
+  "image": "https://hill.com/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:20.000Z"
+}
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-95b60cacef8e4bc7b9b4cb631791bbbf
+Body:
+<empty> 
+
+2026-11-10 06:35:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/automotive-accessories-95b60cacef8e4bc7b9b4cb631791bbbf -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_95b60cacef8e4bc7b9b4cb631791bbbf",
+  "slug": "automotive-accessories-95b60cacef8e4bc7b9b4cb631791bbbf",
+  "image": "https://hill.com/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:20.000Z"
+}
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-11-10 06:35:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Automotive Accessories_95b60cacef8e4bc7b9b4cb631791bbbf",
+  "slug": "automotive-accessories-95b60cacef8e4bc7b9b4cb631791bbbf",
+  "image": "https://hill.com/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:20.000Z"
+} 
+
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-11-10 06:35:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

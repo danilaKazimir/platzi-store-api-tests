@@ -1,0 +1,107 @@
+2026-11-04 05:28:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_854be00105a843e8873d8da26471939f",
+  "image": "http://larsen.com/"
+} 
+
+2026-11-04 05:28:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 243,
+  "name": "Clothing_854be00105a843e8873d8da26471939f",
+  "slug": "clothing-854be00105a843e8873d8da26471939f",
+  "image": "http://larsen.com/",
+  "creationAt": "2026-11-04T05:28:51.000Z",
+  "updatedAt": "2026-11-04T05:28:51.000Z"
+} 
+
+2026-11-04 05:28:51 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Distributed next generation model-26f43f66e3184f86b80b72ca2749000a",
+  "price": 829,
+  "description": "Front-line neutral hierarchy",
+  "categoryId": 243,
+  "images": [
+    "https://allen.biz/"
+  ]
+} 
+
+2026-11-04 05:28:51 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 10014,
+  "title": "Distributed next generation model-26f43f66e3184f86b80b72ca2749000a",
+  "slug": "distributed-next-generation-model-26f43f66e3184f86b80b72ca2749000a",
+  "price": 829,
+  "description": "Front-line neutral hierarchy",
+  "category": {
+    "id": 243,
+    "name": "Clothing_854be00105a843e8873d8da26471939f",
+    "slug": "clothing-854be00105a843e8873d8da26471939f",
+    "image": "http://larsen.com/",
+    "creationAt": "2026-11-04T05:28:51.000Z",
+    "updatedAt": "2026-11-04T05:28:51.000Z"
+  },
+  "images": [
+    "https://allen.biz/"
+  ],
+  "creationAt": "2026-11-04T05:28:51.000Z",
+  "updatedAt": "2026-11-04T05:28:51.000Z"
+}
+2026-11-04 05:28:51 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/10014
+Body:
+<empty> 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/10014 -> 200
+Body:
+true 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10014
+Body:
+<empty> 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10014 -> 400
+Body:
+{
+  "path": "/api/v1/products/10014",
+  "timestamp": "2026-11-04T05:28:52.072Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 10014\n    }\n}"
+}
+2026-11-04 05:28:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/10014
+Body:
+<empty> 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/10014 -> 400
+Body:
+{
+  "path": "/api/v1/products/10014",
+  "timestamp": "2026-11-04T05:28:52.136Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 10014\n    }\n}"
+} 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/243
+Body:
+<empty> 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/243 -> 200
+Body:
+{
+  "id": 243,
+  "name": "Clothing_854be00105a843e8873d8da26471939f",
+  "slug": "clothing-854be00105a843e8873d8da26471939f",
+  "image": "http://larsen.com/",
+  "creationAt": "2026-11-04T05:28:51.000Z",
+  "updatedAt": "2026-11-04T05:28:51.000Z"
+} 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/243
+Body:
+<empty> 
+
+2026-11-04 05:28:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/243 -> 200
+Body:
+true

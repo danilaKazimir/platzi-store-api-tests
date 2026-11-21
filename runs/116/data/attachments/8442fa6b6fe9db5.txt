@@ -1,0 +1,107 @@
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_e4b754e2afd74647b25f6f56a7a0a70f",
+  "image": "https://www.davis-brown.com/"
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Clothing_e4b754e2afd74647b25f6f56a7a0a70f",
+  "slug": "clothing-e4b754e2afd74647b25f6f56a7a0a70f",
+  "image": "https://www.davis-brown.com/",
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Devolved object-oriented moderator-c1e037918a464f6ab2b34b3497051dd2",
+  "price": 398,
+  "description": "Team-oriented incremental budgetary management",
+  "categoryId": 26,
+  "images": [
+    "http://leonard.com/"
+  ]
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 144,
+  "title": "Devolved object-oriented moderator-c1e037918a464f6ab2b34b3497051dd2",
+  "slug": "devolved-object-oriented-moderator-c1e037918a464f6ab2b34b3497051dd2",
+  "price": 398,
+  "description": "Team-oriented incremental budgetary management",
+  "category": {
+    "id": 26,
+    "name": "Clothing_e4b754e2afd74647b25f6f56a7a0a70f",
+    "slug": "clothing-e4b754e2afd74647b25f6f56a7a0a70f",
+    "image": "https://www.davis-brown.com/",
+    "creationAt": "2026-11-06T05:44:49.000Z",
+    "updatedAt": "2026-11-06T05:44:49.000Z"
+  },
+  "images": [
+    "http://leonard.com/"
+  ],
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+}
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/144
+Body:
+<empty> 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/144 -> 200
+Body:
+true 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/144
+Body:
+<empty> 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/144 -> 400
+Body:
+{
+  "path": "/api/v1/products/144",
+  "timestamp": "2026-11-06T05:44:49.604Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 144\n    }\n}"
+}
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/144
+Body:
+<empty> 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/144 -> 400
+Body:
+{
+  "path": "/api/v1/products/144",
+  "timestamp": "2026-11-06T05:44:49.669Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 144\n    }\n}"
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Clothing_e4b754e2afd74647b25f6f56a7a0a70f",
+  "slug": "clothing-e4b754e2afd74647b25f6f56a7a0a70f",
+  "image": "https://www.davis-brown.com/",
+  "creationAt": "2026-11-06T05:44:49.000Z",
+  "updatedAt": "2026-11-06T05:44:49.000Z"
+} 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-06 05:44:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

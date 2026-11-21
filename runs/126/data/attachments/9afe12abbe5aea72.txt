@@ -1,0 +1,111 @@
+2026-11-16 05:32:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_553f3271f5cf4dee891a7005aa32c9f7",
+  "image": "https://www.castro-campbell.com/"
+} 
+
+2026-11-16 05:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Home & Kitchen_553f3271f5cf4dee891a7005aa32c9f7",
+  "slug": "home-kitchen-553f3271f5cf4dee891a7005aa32c9f7",
+  "image": "https://www.castro-campbell.com/",
+  "creationAt": "2026-11-16T05:32:37.000Z",
+  "updatedAt": "2026-11-16T05:32:37.000Z"
+}
+2026-11-16 05:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-16 05:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-16T02:03:08.000Z",
+    "updatedAt": "2026-11-16T02:03:08.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-16T02:03:08.000Z",
+    "updatedAt": "2026-11-16T02:03:08.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-16T02:03:08.000Z",
+    "updatedAt": "2026-11-16T02:03:08.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-16T02:03:08.000Z",
+    "updatedAt": "2026-11-16T02:03:08.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-16T02:03:08.000Z",
+    "updatedAt": "2026-11-16T02:03:08.000Z"
+  },
+  {
+    "id": 6,
+    "name": "testCategory140c4709fafc47de89b16d82ae2348a1",
+    "slug": "testcategory140c4709fafc47de89b16d82ae2348a1",
+    "image": "https://www.bowen.com/",
+    "creationAt": "2026-11-16T05:32:36.000Z",
+    "updatedAt": "2026-11-16T05:32:36.000Z"
+  },
+  {
+    "id": 7,
+    "name": "test Categorycfe65d230c454a4c974d04fbf773250e",
+    "slug": "test-categorycfe65d230c454a4c974d04fbf773250e",
+    "image": "https://www.gilbert-mills.org/",
+    "creationAt": "2026-11-16T05:32:36.000Z",
+    "updatedAt": "2026-11-16T05:32:36.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Home & Kitchen_553f3271f5cf4dee891a7005aa32c9f7",
+    "slug": "home-kitchen-553f3271f5cf4dee891a7005aa32c9f7",
+    "image": "https://www.castro-campbell.com/",
+    "creationAt": "2026-11-16T05:32:37.000Z",
+    "updatedAt": "2026-11-16T05:32:37.000Z"
+  }
+]
+2026-11-16 05:32:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-16 05:32:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Home & Kitchen_553f3271f5cf4dee891a7005aa32c9f7",
+  "slug": "home-kitchen-553f3271f5cf4dee891a7005aa32c9f7",
+  "image": "https://www.castro-campbell.com/",
+  "creationAt": "2026-11-16T05:32:37.000Z",
+  "updatedAt": "2026-11-16T05:32:37.000Z"
+} 
+
+2026-11-16 05:32:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-16 05:32:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

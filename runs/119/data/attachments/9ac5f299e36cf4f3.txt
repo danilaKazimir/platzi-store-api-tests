@@ -1,0 +1,79 @@
+2026-11-09 05:23:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_930f99a353274d6c842317956b3692a3",
+  "image": "http://singleton.com/"
+} 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Home & Kitchen_930f99a353274d6c842317956b3692a3",
+  "slug": "home-kitchen-930f99a353274d6c842317956b3692a3",
+  "image": "http://singleton.com/",
+  "creationAt": "2026-11-09T05:23:14.000Z",
+  "updatedAt": "2026-11-09T05:23:14.000Z"
+}
+2026-11-09 05:23:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-lateral object-oriented concept-d391384dec6444aa87ee6f59276400bc",
+  "price": 721,
+  "description": "Self-enabling dynamic system engine",
+  "categoryId": 16,
+  "images": [
+    "http://www.williams.net/"
+  ]
+} 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 67,
+  "title": "Multi-lateral object-oriented concept-d391384dec6444aa87ee6f59276400bc",
+  "slug": "multi-lateral-object-oriented-concept-d391384dec6444aa87ee6f59276400bc",
+  "price": 721,
+  "description": "Self-enabling dynamic system engine",
+  "category": {
+    "id": 16,
+    "name": "Home & Kitchen_930f99a353274d6c842317956b3692a3",
+    "slug": "home-kitchen-930f99a353274d6c842317956b3692a3",
+    "image": "http://singleton.com/",
+    "creationAt": "2026-11-09T05:23:14.000Z",
+    "updatedAt": "2026-11-09T05:23:14.000Z"
+  },
+  "images": [
+    "http://www.williams.net/"
+  ],
+  "creationAt": "2026-11-09T05:23:14.000Z",
+  "updatedAt": "2026-11-09T05:23:14.000Z"
+}
+2026-11-09 05:23:14 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Home & Kitchen_930f99a353274d6c842317956b3692a3",
+  "slug": "home-kitchen-930f99a353274d6c842317956b3692a3",
+  "image": "http://singleton.com/",
+  "creationAt": "2026-11-09T05:23:14.000Z",
+  "updatedAt": "2026-11-09T05:23:14.000Z"
+} 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-09 05:23:14 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 400
+Body:
+{
+  "path": "/api/v1/categories/16",
+  "timestamp": "2026-11-09T05:23:14.557Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

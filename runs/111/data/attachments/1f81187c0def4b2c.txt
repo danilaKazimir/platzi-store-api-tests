@@ -1,0 +1,71 @@
+2026-11-01 05:05:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_9814b3c1daf240dc87e57f63c46fb773",
+  "image": "https://www.gonzalez-moore.com/"
+} 
+
+2026-11-01 05:05:43 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 22,
+  "name": "Electronics_9814b3c1daf240dc87e57f63c46fb773",
+  "slug": "electronics-9814b3c1daf240dc87e57f63c46fb773",
+  "image": "https://www.gonzalez-moore.com/",
+  "creationAt": "2026-11-01T05:05:43.000Z",
+  "updatedAt": "2026-11-01T05:05:43.000Z"
+}
+2026-11-01 05:05:43 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/22
+Body:
+{
+  "name": "Pet Supplies_d4a3e8f27c4b4da387eef3238b31f353",
+  "image": "http://www.zuniga-mann.com/"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Pet Supplies_d4a3e8f27c4b4da387eef3238b31f353",
+  "slug": "pet-supplies-d4a3e8f27c4b4da387eef3238b31f353",
+  "image": "http://www.zuniga-mann.com/",
+  "creationAt": "2026-11-01T05:05:43.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Pet Supplies_d4a3e8f27c4b4da387eef3238b31f353",
+  "slug": "pet-supplies-d4a3e8f27c4b4da387eef3238b31f353",
+  "image": "http://www.zuniga-mann.com/",
+  "creationAt": "2026-11-01T05:05:43.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+}
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+{
+  "id": 22,
+  "name": "Pet Supplies_d4a3e8f27c4b4da387eef3238b31f353",
+  "slug": "pet-supplies-d4a3e8f27c4b4da387eef3238b31f353",
+  "image": "http://www.zuniga-mann.com/",
+  "creationAt": "2026-11-01T05:05:43.000Z",
+  "updatedAt": "2026-11-01T05:05:44.000Z"
+} 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/22
+Body:
+<empty> 
+
+2026-11-01 05:05:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/22 -> 200
+Body:
+true

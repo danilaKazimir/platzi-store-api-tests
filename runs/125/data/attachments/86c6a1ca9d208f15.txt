@@ -1,0 +1,80 @@
+2026-11-15 05:33:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Laura Williams",
+  "email": "sonya77@example.net",
+  "password": "***",
+  "avatar": "https://www.smith-ramirez.com/"
+} 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 10,
+  "email": "sonya77@example.net",
+  "password": "***",
+  "name": "Laura Williams",
+  "role": "customer",
+  "avatar": "https://www.smith-ramirez.com/",
+  "creationAt": "2026-11-15T05:33:40.000Z",
+  "updatedAt": "2026-11-15T05:33:40.000Z"
+}
+2026-11-15 05:33:40 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/10
+Body:
+{
+  "name": "Jose Kline"
+} 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "sonya77@example.net",
+  "password": "***",
+  "name": "Jose Kline",
+  "role": "customer",
+  "avatar": "https://www.smith-ramirez.com/",
+  "creationAt": "2026-11-15T05:33:40.000Z",
+  "updatedAt": "2026-11-15T05:33:40.000Z"
+} 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "sonya77@example.net",
+  "password": "***",
+  "name": "Jose Kline",
+  "role": "customer",
+  "avatar": "https://www.smith-ramirez.com/",
+  "creationAt": "2026-11-15T05:33:40.000Z",
+  "updatedAt": "2026-11-15T05:33:40.000Z"
+}
+2026-11-15 05:33:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "sonya77@example.net",
+  "password": "***",
+  "name": "Jose Kline",
+  "role": "customer",
+  "avatar": "https://www.smith-ramirez.com/",
+  "creationAt": "2026-11-15T05:33:40.000Z",
+  "updatedAt": "2026-11-15T05:33:40.000Z"
+} 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-11-15 05:33:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+true

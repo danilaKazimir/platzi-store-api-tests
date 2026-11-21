@@ -1,0 +1,103 @@
+2026-11-13 05:45:43 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_6cbb5f536a874ddba09ee8f368663f68",
+  "image": "https://www.may.com/"
+} 
+
+2026-11-13 05:45:44 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 7,
+  "name": "Automotive Accessories_6cbb5f536a874ddba09ee8f368663f68",
+  "slug": "automotive-accessories-6cbb5f536a874ddba09ee8f368663f68",
+  "image": "https://www.may.com/",
+  "creationAt": "2026-11-13T05:45:44.000Z",
+  "updatedAt": "2026-11-13T05:45:44.000Z"
+}
+2026-11-13 05:45:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-13 05:45:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-13T00:23:18.000Z",
+    "updatedAt": "2026-11-13T00:23:18.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-13T00:23:18.000Z",
+    "updatedAt": "2026-11-13T00:23:18.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-13T00:23:18.000Z",
+    "updatedAt": "2026-11-13T00:23:18.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-13T00:23:18.000Z",
+    "updatedAt": "2026-11-13T00:23:18.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-13T00:23:18.000Z",
+    "updatedAt": "2026-11-13T00:23:18.000Z"
+  },
+  {
+    "id": 6,
+    "name": "testCategoryebf7170a3ee94cbb93dce61b6a14c811",
+    "slug": "testcategoryebf7170a3ee94cbb93dce61b6a14c811",
+    "image": "https://www.shelton.org/",
+    "creationAt": "2026-11-13T05:45:43.000Z",
+    "updatedAt": "2026-11-13T05:45:43.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Automotive Accessories_6cbb5f536a874ddba09ee8f368663f68",
+    "slug": "automotive-accessories-6cbb5f536a874ddba09ee8f368663f68",
+    "image": "https://www.may.com/",
+    "creationAt": "2026-11-13T05:45:44.000Z",
+    "updatedAt": "2026-11-13T05:45:44.000Z"
+  }
+]
+2026-11-13 05:45:44 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/7
+Body:
+<empty> 
+
+2026-11-13 05:45:44 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/7 -> 200
+Body:
+{
+  "id": 7,
+  "name": "Automotive Accessories_6cbb5f536a874ddba09ee8f368663f68",
+  "slug": "automotive-accessories-6cbb5f536a874ddba09ee8f368663f68",
+  "image": "https://www.may.com/",
+  "creationAt": "2026-11-13T05:45:44.000Z",
+  "updatedAt": "2026-11-13T05:45:44.000Z"
+} 
+
+2026-11-13 05:45:44 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/7
+Body:
+<empty> 
+
+2026-11-13 05:45:44 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/7 -> 200
+Body:
+true

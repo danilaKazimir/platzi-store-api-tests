@@ -1,0 +1,81 @@
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Tony Lozano",
+  "email": "michael91@example.com",
+  "password": "***",
+  "avatar": "https://www.curtis.com/"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 69,
+  "email": "michael91@example.com",
+  "password": "***",
+  "name": "Tony Lozano",
+  "role": "customer",
+  "avatar": "https://www.curtis.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+}
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/69
+Body:
+{
+  "name": "Tyler Hammond",
+  "email": "jmoses@example.com"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/69 -> 200
+Body:
+{
+  "id": 69,
+  "email": "jmoses@example.com",
+  "password": "***",
+  "name": "Tyler Hammond",
+  "role": "customer",
+  "avatar": "https://www.curtis.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/69
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/69 -> 200
+Body:
+{
+  "id": 69,
+  "email": "jmoses@example.com",
+  "password": "***",
+  "name": "Tyler Hammond",
+  "role": "customer",
+  "avatar": "https://www.curtis.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+}
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/69
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/69 -> 200
+Body:
+{
+  "id": 69,
+  "email": "jmoses@example.com",
+  "password": "***",
+  "name": "Tyler Hammond",
+  "role": "customer",
+  "avatar": "https://www.curtis.com/",
+  "creationAt": "2026-10-25T03:51:15.000Z",
+  "updatedAt": "2026-10-25T03:51:15.000Z"
+} 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/69
+Body:
+<empty> 
+
+2026-10-25 03:51:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/69 -> 200
+Body:
+true

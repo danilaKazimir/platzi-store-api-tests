@@ -1,0 +1,53 @@
+2026-11-17 07:10:27 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_9ffd930b34fc4428b6b47c208b19e2b0",
+  "image": "https://harper.com/"
+} 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 12,
+  "name": "Home & Kitchen_9ffd930b34fc4428b6b47c208b19e2b0",
+  "slug": "home-kitchen-9ffd930b34fc4428b6b47c208b19e2b0",
+  "image": "https://harper.com/",
+  "creationAt": "2026-11-17T07:10:27.000Z",
+  "updatedAt": "2026-11-17T07:10:27.000Z"
+}
+2026-11-17 07:10:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-9ffd930b34fc4428b6b47c208b19e2b0
+Body:
+<empty> 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/home-kitchen-9ffd930b34fc4428b6b47c208b19e2b0 -> 200
+Body:
+{
+  "id": 12,
+  "name": "Home & Kitchen_9ffd930b34fc4428b6b47c208b19e2b0",
+  "slug": "home-kitchen-9ffd930b34fc4428b6b47c208b19e2b0",
+  "image": "https://harper.com/",
+  "creationAt": "2026-11-17T07:10:27.000Z",
+  "updatedAt": "2026-11-17T07:10:27.000Z"
+}
+2026-11-17 07:10:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+{
+  "id": 12,
+  "name": "Home & Kitchen_9ffd930b34fc4428b6b47c208b19e2b0",
+  "slug": "home-kitchen-9ffd930b34fc4428b6b47c208b19e2b0",
+  "image": "https://harper.com/",
+  "creationAt": "2026-11-17T07:10:27.000Z",
+  "updatedAt": "2026-11-17T07:10:27.000Z"
+} 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/12
+Body:
+<empty> 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/12 -> 200
+Body:
+true

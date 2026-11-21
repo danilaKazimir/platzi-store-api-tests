@@ -1,0 +1,408 @@
+2026-10-27 04:16:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+  "image": "https://www.jackson.com/"
+} 
+
+2026-10-27 04:16:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 41,
+  "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+  "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+  "image": "https://www.jackson.com/",
+  "creationAt": "2026-10-27T04:16:53.000Z",
+  "updatedAt": "2026-10-27T04:16:53.000Z"
+}
+2026-10-27 04:16:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive motivating access-f2182352abfe4fa8b2535277f70dfe5f",
+  "price": 745,
+  "description": "Programmable 24hour encryption",
+  "categoryId": 41,
+  "images": [
+    "http://www.cook.com/"
+  ]
+} 
+
+2026-10-27 04:16:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 110,
+  "title": "Reactive motivating access-f2182352abfe4fa8b2535277f70dfe5f",
+  "slug": "reactive-motivating-access-f2182352abfe4fa8b2535277f70dfe5f",
+  "price": 745,
+  "description": "Programmable 24hour encryption",
+  "category": {
+    "id": 41,
+    "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+    "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+    "image": "https://www.jackson.com/",
+    "creationAt": "2026-10-27T04:16:53.000Z",
+    "updatedAt": "2026-10-27T04:16:53.000Z"
+  },
+  "images": [
+    "http://www.cook.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:53.000Z",
+  "updatedAt": "2026-10-27T04:16:53.000Z"
+} 
+
+2026-10-27 04:16:53 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Virtual fault-tolerant initiative-c832e56b3eda480e9a929c826e2d3e3a",
+  "price": 857,
+  "description": "Secured local core",
+  "categoryId": 41,
+  "images": [
+    "https://www.gonzalez.com/"
+  ]
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 113,
+  "title": "Virtual fault-tolerant initiative-c832e56b3eda480e9a929c826e2d3e3a",
+  "slug": "virtual-fault-tolerant-initiative-c832e56b3eda480e9a929c826e2d3e3a",
+  "price": 857,
+  "description": "Secured local core",
+  "category": {
+    "id": 41,
+    "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+    "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+    "image": "https://www.jackson.com/",
+    "creationAt": "2026-10-27T04:16:53.000Z",
+    "updatedAt": "2026-10-27T04:16:53.000Z"
+  },
+  "images": [
+    "https://www.gonzalez.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Self-enabling systematic complexity-f4464bfe43354abb9cb35ba828704b87",
+  "price": 267,
+  "description": "Digitized transitional middleware",
+  "categoryId": 41,
+  "images": [
+    "http://wilson.com/"
+  ]
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 116,
+  "title": "Self-enabling systematic complexity-f4464bfe43354abb9cb35ba828704b87",
+  "slug": "self-enabling-systematic-complexity-f4464bfe43354abb9cb35ba828704b87",
+  "price": 267,
+  "description": "Digitized transitional middleware",
+  "category": {
+    "id": 41,
+    "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+    "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+    "image": "https://www.jackson.com/",
+    "creationAt": "2026-10-27T04:16:53.000Z",
+    "updatedAt": "2026-10-27T04:16:53.000Z"
+  },
+  "images": [
+    "http://wilson.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_47b29f4bc41f486f92b01451bac39902",
+  "image": "http://weber.org/"
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 45,
+  "name": "Toys_47b29f4bc41f486f92b01451bac39902",
+  "slug": "toys-47b29f4bc41f486f92b01451bac39902",
+  "image": "http://weber.org/",
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Total next generation infrastructure-40946ad7bd894555942bc5fa45b8f42a",
+  "price": 893,
+  "description": "Polarized secondary firmware",
+  "categoryId": 45,
+  "images": [
+    "https://www.jackson.com/"
+  ]
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 118,
+  "title": "Total next generation infrastructure-40946ad7bd894555942bc5fa45b8f42a",
+  "slug": "total-next-generation-infrastructure-40946ad7bd894555942bc5fa45b8f42a",
+  "price": 893,
+  "description": "Polarized secondary firmware",
+  "category": {
+    "id": 45,
+    "name": "Toys_47b29f4bc41f486f92b01451bac39902",
+    "slug": "toys-47b29f4bc41f486f92b01451bac39902",
+    "image": "http://weber.org/",
+    "creationAt": "2026-10-27T04:16:54.000Z",
+    "updatedAt": "2026-10-27T04:16:54.000Z"
+  },
+  "images": [
+    "https://www.jackson.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/reactive-motivating-access-f2182352abfe4fa8b2535277f70dfe5f/related
+Body:
+<empty> 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/reactive-motivating-access-f2182352abfe4fa8b2535277f70dfe5f/related -> 200
+Body:
+[
+  {
+    "id": 113,
+    "title": "Virtual fault-tolerant initiative-c832e56b3eda480e9a929c826e2d3e3a",
+    "slug": "virtual-fault-tolerant-initiative-c832e56b3eda480e9a929c826e2d3e3a",
+    "price": 857,
+    "description": "Secured local core",
+    "category": {
+      "id": 41,
+      "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+      "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+      "image": "https://www.jackson.com/",
+      "creationAt": "2026-10-27T04:16:53.000Z",
+      "updatedAt": "2026-10-27T04:16:53.000Z"
+    },
+    "images": [
+      "https://www.gonzalez.com/"
+    ],
+    "creationAt": "2026-10-27T04:16:54.000Z",
+    "updatedAt": "2026-10-27T04:16:54.000Z"
+  },
+  {
+    "id": 116,
+    "title": "Self-enabling systematic complexity-f4464bfe43354abb9cb35ba828704b87",
+    "slug": "self-enabling-systematic-complexity-f4464bfe43354abb9cb35ba828704b87",
+    "price": 267,
+    "description": "Digitized transitional middleware",
+    "category": {
+      "id": 41,
+      "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+      "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+      "image": "https://www.jackson.com/",
+      "creationAt": "2026-10-27T04:16:53.000Z",
+      "updatedAt": "2026-10-27T04:16:53.000Z"
+    },
+    "images": [
+      "http://wilson.com/"
+    ],
+    "creationAt": "2026-10-27T04:16:54.000Z",
+    "updatedAt": "2026-10-27T04:16:54.000Z"
+  }
+]
+2026-10-27 04:16:54 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/118
+Body:
+<empty> 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/118 -> 200
+Body:
+{
+  "id": 118,
+  "title": "Total next generation infrastructure-40946ad7bd894555942bc5fa45b8f42a",
+  "slug": "total-next-generation-infrastructure-40946ad7bd894555942bc5fa45b8f42a",
+  "price": 893,
+  "description": "Polarized secondary firmware",
+  "category": {
+    "id": 45,
+    "name": "Toys_47b29f4bc41f486f92b01451bac39902",
+    "slug": "toys-47b29f4bc41f486f92b01451bac39902",
+    "image": "http://weber.org/",
+    "creationAt": "2026-10-27T04:16:54.000Z",
+    "updatedAt": "2026-10-27T04:16:54.000Z"
+  },
+  "images": [
+    "https://www.jackson.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:54 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/118
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/118 -> 200
+Body:
+true 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/116
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/116 -> 200
+Body:
+{
+  "id": 116,
+  "title": "Self-enabling systematic complexity-f4464bfe43354abb9cb35ba828704b87",
+  "slug": "self-enabling-systematic-complexity-f4464bfe43354abb9cb35ba828704b87",
+  "price": 267,
+  "description": "Digitized transitional middleware",
+  "category": {
+    "id": 41,
+    "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+    "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+    "image": "https://www.jackson.com/",
+    "creationAt": "2026-10-27T04:16:53.000Z",
+    "updatedAt": "2026-10-27T04:16:53.000Z"
+  },
+  "images": [
+    "http://wilson.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/116
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/116 -> 200
+Body:
+true 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/113
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/113 -> 200
+Body:
+{
+  "id": 113,
+  "title": "Virtual fault-tolerant initiative-c832e56b3eda480e9a929c826e2d3e3a",
+  "slug": "virtual-fault-tolerant-initiative-c832e56b3eda480e9a929c826e2d3e3a",
+  "price": 857,
+  "description": "Secured local core",
+  "category": {
+    "id": 41,
+    "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+    "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+    "image": "https://www.jackson.com/",
+    "creationAt": "2026-10-27T04:16:53.000Z",
+    "updatedAt": "2026-10-27T04:16:53.000Z"
+  },
+  "images": [
+    "https://www.gonzalez.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/113
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/113 -> 200
+Body:
+true 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/110
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/110 -> 200
+Body:
+{
+  "id": 110,
+  "title": "Reactive motivating access-f2182352abfe4fa8b2535277f70dfe5f",
+  "slug": "reactive-motivating-access-f2182352abfe4fa8b2535277f70dfe5f",
+  "price": 745,
+  "description": "Programmable 24hour encryption",
+  "category": {
+    "id": 41,
+    "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+    "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+    "image": "https://www.jackson.com/",
+    "creationAt": "2026-10-27T04:16:53.000Z",
+    "updatedAt": "2026-10-27T04:16:53.000Z"
+  },
+  "images": [
+    "http://www.cook.com/"
+  ],
+  "creationAt": "2026-10-27T04:16:53.000Z",
+  "updatedAt": "2026-10-27T04:16:53.000Z"
+} 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/110
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/110 -> 200
+Body:
+true 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+{
+  "id": 45,
+  "name": "Toys_47b29f4bc41f486f92b01451bac39902",
+  "slug": "toys-47b29f4bc41f486f92b01451bac39902",
+  "image": "http://weber.org/",
+  "creationAt": "2026-10-27T04:16:54.000Z",
+  "updatedAt": "2026-10-27T04:16:54.000Z"
+} 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/45
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/45 -> 200
+Body:
+true 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+{
+  "id": 41,
+  "name": "Home & Kitchen_0e79f84051a5439580a7ddfcccc083ff",
+  "slug": "home-kitchen-0e79f84051a5439580a7ddfcccc083ff",
+  "image": "https://www.jackson.com/",
+  "creationAt": "2026-10-27T04:16:53.000Z",
+  "updatedAt": "2026-10-27T04:16:53.000Z"
+} 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/41
+Body:
+<empty> 
+
+2026-10-27 04:16:55 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/41 -> 200
+Body:
+true

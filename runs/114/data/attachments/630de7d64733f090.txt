@@ -1,0 +1,81 @@
+2026-11-04 05:28:56 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Thomas Cox",
+  "email": "stephensimpson@example.org",
+  "password": "***",
+  "avatar": "http://www.nelson-grant.biz/"
+} 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 569,
+  "email": "stephensimpson@example.org",
+  "password": "***",
+  "name": "Thomas Cox",
+  "role": "customer",
+  "avatar": "http://www.nelson-grant.biz/",
+  "creationAt": "2026-11-04T05:28:57.000Z",
+  "updatedAt": "2026-11-04T05:28:57.000Z"
+}
+2026-11-04 05:28:57 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/569
+Body:
+{
+  "name": "Jacqueline Diaz",
+  "email": "whartman@example.com"
+} 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/569 -> 200
+Body:
+{
+  "id": 569,
+  "email": "whartman@example.com",
+  "password": "***",
+  "name": "Jacqueline Diaz",
+  "role": "customer",
+  "avatar": "http://www.nelson-grant.biz/",
+  "creationAt": "2026-11-04T05:28:57.000Z",
+  "updatedAt": "2026-11-04T05:28:57.000Z"
+} 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/569
+Body:
+<empty> 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/569 -> 200
+Body:
+{
+  "id": 569,
+  "email": "whartman@example.com",
+  "password": "***",
+  "name": "Jacqueline Diaz",
+  "role": "customer",
+  "avatar": "http://www.nelson-grant.biz/",
+  "creationAt": "2026-11-04T05:28:57.000Z",
+  "updatedAt": "2026-11-04T05:28:57.000Z"
+}
+2026-11-04 05:28:57 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/569
+Body:
+<empty> 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/569 -> 200
+Body:
+{
+  "id": 569,
+  "email": "whartman@example.com",
+  "password": "***",
+  "name": "Jacqueline Diaz",
+  "role": "customer",
+  "avatar": "http://www.nelson-grant.biz/",
+  "creationAt": "2026-11-04T05:28:57.000Z",
+  "updatedAt": "2026-11-04T05:28:57.000Z"
+} 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/569
+Body:
+<empty> 
+
+2026-11-04 05:28:57 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/569 -> 200
+Body:
+true

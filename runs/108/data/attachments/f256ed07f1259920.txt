@@ -1,0 +1,127 @@
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_d4db635ca05842cd8e0ebd15de8d2109",
+  "image": "https://leblanc.net/"
+} 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 23,
+  "name": "Toys_d4db635ca05842cd8e0ebd15de8d2109",
+  "slug": "toys-d4db635ca05842cd8e0ebd15de8d2109",
+  "image": "https://leblanc.net/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:53.000Z"
+}
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T18:34:08.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T18:34:08.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T18:34:08.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T18:34:08.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-10-28T18:34:08.000Z",
+    "updatedAt": "2026-10-28T18:34:08.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Test Category Baru",
+    "slug": "test-category-baru",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-10-28T19:00:45.000Z",
+    "updatedAt": "2026-10-28T19:00:45.000Z"
+  },
+  {
+    "id": 8,
+    "name": "un nuevo nombre",
+    "slug": "un-nuevo-nombre",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-10-28T21:00:09.000Z",
+    "updatedAt": "2026-10-29T02:26:58.000Z"
+  },
+  {
+    "id": 21,
+    "name": "testCategory264a1b09eaf4494aaf36ece32c17fc19",
+    "slug": "testcategory264a1b09eaf4494aaf36ece32c17fc19",
+    "image": "http://www.leonard-hall.com/",
+    "creationAt": "2026-10-29T04:57:52.000Z",
+    "updatedAt": "2026-10-29T04:57:52.000Z"
+  },
+  {
+    "id": 22,
+    "name": "test Category1838d38c24104ec9ae35bde850ac65f1",
+    "slug": "test-category1838d38c24104ec9ae35bde850ac65f1",
+    "image": "http://www.morris.com/",
+    "creationAt": "2026-10-29T04:57:52.000Z",
+    "updatedAt": "2026-10-29T04:57:52.000Z"
+  },
+  {
+    "id": 23,
+    "name": "Toys_d4db635ca05842cd8e0ebd15de8d2109",
+    "slug": "toys-d4db635ca05842cd8e0ebd15de8d2109",
+    "image": "https://leblanc.net/",
+    "creationAt": "2026-10-29T04:57:53.000Z",
+    "updatedAt": "2026-10-29T04:57:53.000Z"
+  }
+]
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Toys_d4db635ca05842cd8e0ebd15de8d2109",
+  "slug": "toys-d4db635ca05842cd8e0ebd15de8d2109",
+  "image": "https://leblanc.net/",
+  "creationAt": "2026-10-29T04:57:53.000Z",
+  "updatedAt": "2026-10-29T04:57:53.000Z"
+} 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-10-29 04:57:53 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+true

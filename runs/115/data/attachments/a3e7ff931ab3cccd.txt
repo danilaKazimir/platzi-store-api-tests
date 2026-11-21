@@ -1,0 +1,107 @@
+2026-11-05 05:48:14 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_c5905090e30843c889fbe2a4067bcaa7",
+  "image": "http://www.taylor.com/"
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Electronics_c5905090e30843c889fbe2a4067bcaa7",
+  "slug": "electronics-c5905090e30843c889fbe2a4067bcaa7",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-11-05T05:48:14.000Z",
+  "updatedAt": "2026-11-05T05:48:14.000Z"
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive encompassing open system-35521548f2bd45a08610e35916c4c3e7",
+  "price": 935,
+  "description": "Cross-platform background approach",
+  "categoryId": 17,
+  "images": [
+    "https://www.foley-owens.com/"
+  ]
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 98,
+  "title": "Reactive encompassing open system-35521548f2bd45a08610e35916c4c3e7",
+  "slug": "reactive-encompassing-open-system-35521548f2bd45a08610e35916c4c3e7",
+  "price": 935,
+  "description": "Cross-platform background approach",
+  "category": {
+    "id": 17,
+    "name": "Electronics_c5905090e30843c889fbe2a4067bcaa7",
+    "slug": "electronics-c5905090e30843c889fbe2a4067bcaa7",
+    "image": "http://www.taylor.com/",
+    "creationAt": "2026-11-05T05:48:14.000Z",
+    "updatedAt": "2026-11-05T05:48:14.000Z"
+  },
+  "images": [
+    "https://www.foley-owens.com/"
+  ],
+  "creationAt": "2026-11-05T05:48:15.000Z",
+  "updatedAt": "2026-11-05T05:48:15.000Z"
+}
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/98
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/98 -> 200
+Body:
+true 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/98
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/98 -> 400
+Body:
+{
+  "path": "/api/v1/products/98",
+  "timestamp": "2026-11-05T05:48:15.327Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 98\n    }\n}"
+}
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/98
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/98 -> 400
+Body:
+{
+  "path": "/api/v1/products/98",
+  "timestamp": "2026-11-05T05:48:15.359Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 98\n    }\n}"
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Electronics_c5905090e30843c889fbe2a4067bcaa7",
+  "slug": "electronics-c5905090e30843c889fbe2a4067bcaa7",
+  "image": "http://www.taylor.com/",
+  "creationAt": "2026-11-05T05:48:14.000Z",
+  "updatedAt": "2026-11-05T05:48:14.000Z"
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true

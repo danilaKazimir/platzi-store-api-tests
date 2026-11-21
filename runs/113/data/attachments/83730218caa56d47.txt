@@ -1,0 +1,71 @@
+2026-11-03 05:52:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_439bb8f19767420a94994381809787c2",
+  "image": "http://kelly.biz/"
+} 
+
+2026-11-03 05:52:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Sports & Fitness_439bb8f19767420a94994381809787c2",
+  "slug": "sports-fitness-439bb8f19767420a94994381809787c2",
+  "image": "http://kelly.biz/",
+  "creationAt": "2026-11-03T05:52:38.000Z",
+  "updatedAt": "2026-11-03T05:52:38.000Z"
+}
+2026-11-03 05:52:38 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/18
+Body:
+{
+  "name": "Pet Supplies_53db7cb25efd48deb3300d2bcb51901d",
+  "image": "http://www.knight.com/"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Pet Supplies_53db7cb25efd48deb3300d2bcb51901d",
+  "slug": "pet-supplies-53db7cb25efd48deb3300d2bcb51901d",
+  "image": "http://www.knight.com/",
+  "creationAt": "2026-11-03T05:52:38.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Pet Supplies_53db7cb25efd48deb3300d2bcb51901d",
+  "slug": "pet-supplies-53db7cb25efd48deb3300d2bcb51901d",
+  "image": "http://www.knight.com/",
+  "creationAt": "2026-11-03T05:52:38.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+}
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Pet Supplies_53db7cb25efd48deb3300d2bcb51901d",
+  "slug": "pet-supplies-53db7cb25efd48deb3300d2bcb51901d",
+  "image": "http://www.knight.com/",
+  "creationAt": "2026-11-03T05:52:38.000Z",
+  "updatedAt": "2026-11-03T05:52:39.000Z"
+} 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-11-03 05:52:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

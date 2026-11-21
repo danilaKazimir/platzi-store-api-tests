@@ -1,0 +1,135 @@
+2026-10-24 03:52:03 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_519f089e0cc84e07971591a0e05a17a8",
+  "image": "http://phillips.net/"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 108,
+  "name": "Sports & Fitness_519f089e0cc84e07971591a0e05a17a8",
+  "slug": "sports-fitness-519f089e0cc84e07971591a0e05a17a8",
+  "image": "http://phillips.net/",
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "User-friendly regional support-1292f5dc273348a284c495d9d38ce218",
+  "price": 629,
+  "description": "Fundamental real-time ability",
+  "categoryId": 108,
+  "images": [
+    "https://www.leon.com/"
+  ]
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 203,
+  "title": "User-friendly regional support-1292f5dc273348a284c495d9d38ce218",
+  "slug": "user-friendly-regional-support-1292f5dc273348a284c495d9d38ce218",
+  "price": 629,
+  "description": "Fundamental real-time ability",
+  "category": {
+    "id": 108,
+    "name": "Sports & Fitness_519f089e0cc84e07971591a0e05a17a8",
+    "slug": "sports-fitness-519f089e0cc84e07971591a0e05a17a8",
+    "image": "http://phillips.net/",
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  },
+  "images": [
+    "https://www.leon.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:04.000Z",
+  "updatedAt": "2026-10-24T03:52:04.000Z"
+}
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/203
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/203 -> 200
+Body:
+{
+  "id": 203,
+  "title": "User-friendly regional support-1292f5dc273348a284c495d9d38ce218",
+  "slug": "user-friendly-regional-support-1292f5dc273348a284c495d9d38ce218",
+  "price": 629,
+  "description": "Fundamental real-time ability",
+  "category": {
+    "id": 108,
+    "name": "Sports & Fitness_519f089e0cc84e07971591a0e05a17a8",
+    "slug": "sports-fitness-519f089e0cc84e07971591a0e05a17a8",
+    "image": "http://phillips.net/",
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  },
+  "images": [
+    "https://www.leon.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:04.000Z",
+  "updatedAt": "2026-10-24T03:52:04.000Z"
+}
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/203
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/203 -> 200
+Body:
+{
+  "id": 203,
+  "title": "User-friendly regional support-1292f5dc273348a284c495d9d38ce218",
+  "slug": "user-friendly-regional-support-1292f5dc273348a284c495d9d38ce218",
+  "price": 629,
+  "description": "Fundamental real-time ability",
+  "category": {
+    "id": 108,
+    "name": "Sports & Fitness_519f089e0cc84e07971591a0e05a17a8",
+    "slug": "sports-fitness-519f089e0cc84e07971591a0e05a17a8",
+    "image": "http://phillips.net/",
+    "creationAt": "2026-10-24T03:52:03.000Z",
+    "updatedAt": "2026-10-24T03:52:03.000Z"
+  },
+  "images": [
+    "https://www.leon.com/"
+  ],
+  "creationAt": "2026-10-24T03:52:04.000Z",
+  "updatedAt": "2026-10-24T03:52:04.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/203
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/203 -> 200
+Body:
+true 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/108
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/108 -> 200
+Body:
+{
+  "id": 108,
+  "name": "Sports & Fitness_519f089e0cc84e07971591a0e05a17a8",
+  "slug": "sports-fitness-519f089e0cc84e07971591a0e05a17a8",
+  "image": "http://phillips.net/",
+  "creationAt": "2026-10-24T03:52:03.000Z",
+  "updatedAt": "2026-10-24T03:52:03.000Z"
+} 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/108
+Body:
+<empty> 
+
+2026-10-24 03:52:04 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/108 -> 200
+Body:
+true

@@ -1,0 +1,135 @@
+2026-11-10 06:35:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_456d79ea79154fc0bd53ee6b35e27880",
+  "image": "https://www.garcia-fleming.com/"
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 42,
+  "name": "Personal Care_456d79ea79154fc0bd53ee6b35e27880",
+  "slug": "personal-care-456d79ea79154fc0bd53ee6b35e27880",
+  "image": "https://www.garcia-fleming.com/",
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Configurable homogeneous access-2fb3248634284cfdb816ea42aaa0fa40",
+  "price": 322,
+  "description": "Universal coherent support",
+  "categoryId": 42,
+  "images": [
+    "https://roberts-stanley.com/"
+  ]
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 72,
+  "title": "Configurable homogeneous access-2fb3248634284cfdb816ea42aaa0fa40",
+  "slug": "configurable-homogeneous-access-2fb3248634284cfdb816ea42aaa0fa40",
+  "price": 322,
+  "description": "Universal coherent support",
+  "category": {
+    "id": 42,
+    "name": "Personal Care_456d79ea79154fc0bd53ee6b35e27880",
+    "slug": "personal-care-456d79ea79154fc0bd53ee6b35e27880",
+    "image": "https://www.garcia-fleming.com/",
+    "creationAt": "2026-11-10T06:35:23.000Z",
+    "updatedAt": "2026-11-10T06:35:23.000Z"
+  },
+  "images": [
+    "https://roberts-stanley.com/"
+  ],
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+}
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/configurable-homogeneous-access-2fb3248634284cfdb816ea42aaa0fa40
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/configurable-homogeneous-access-2fb3248634284cfdb816ea42aaa0fa40 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Configurable homogeneous access-2fb3248634284cfdb816ea42aaa0fa40",
+  "slug": "configurable-homogeneous-access-2fb3248634284cfdb816ea42aaa0fa40",
+  "price": 322,
+  "description": "Universal coherent support",
+  "category": {
+    "id": 42,
+    "name": "Personal Care_456d79ea79154fc0bd53ee6b35e27880",
+    "slug": "personal-care-456d79ea79154fc0bd53ee6b35e27880",
+    "image": "https://www.garcia-fleming.com/",
+    "creationAt": "2026-11-10T06:35:23.000Z",
+    "updatedAt": "2026-11-10T06:35:23.000Z"
+  },
+  "images": [
+    "https://roberts-stanley.com/"
+  ],
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+}
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Configurable homogeneous access-2fb3248634284cfdb816ea42aaa0fa40",
+  "slug": "configurable-homogeneous-access-2fb3248634284cfdb816ea42aaa0fa40",
+  "price": 322,
+  "description": "Universal coherent support",
+  "category": {
+    "id": 42,
+    "name": "Personal Care_456d79ea79154fc0bd53ee6b35e27880",
+    "slug": "personal-care-456d79ea79154fc0bd53ee6b35e27880",
+    "image": "https://www.garcia-fleming.com/",
+    "creationAt": "2026-11-10T06:35:23.000Z",
+    "updatedAt": "2026-11-10T06:35:23.000Z"
+  },
+  "images": [
+    "https://roberts-stanley.com/"
+  ],
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+true 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+{
+  "id": 42,
+  "name": "Personal Care_456d79ea79154fc0bd53ee6b35e27880",
+  "slug": "personal-care-456d79ea79154fc0bd53ee6b35e27880",
+  "image": "https://www.garcia-fleming.com/",
+  "creationAt": "2026-11-10T06:35:23.000Z",
+  "updatedAt": "2026-11-10T06:35:23.000Z"
+} 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/42
+Body:
+<empty> 
+
+2026-11-10 06:35:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/42 -> 200
+Body:
+true

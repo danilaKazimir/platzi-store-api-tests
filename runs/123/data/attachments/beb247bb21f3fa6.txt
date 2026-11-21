@@ -1,0 +1,79 @@
+2026-11-13 05:45:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_521c7f8684f743d281df8c432db024ae",
+  "image": "https://smith-santiago.com/"
+} 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Toys_521c7f8684f743d281df8c432db024ae",
+  "slug": "toys-521c7f8684f743d281df8c432db024ae",
+  "image": "https://smith-santiago.com/",
+  "creationAt": "2026-11-13T05:45:45.000Z",
+  "updatedAt": "2026-11-13T05:45:45.000Z"
+}
+2026-11-13 05:45:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Profit-focused user-facing alliance-fa8aa4bc04c441d8a0e9fb20724f9ee7",
+  "price": 536,
+  "description": "Virtual radical Graphical User Interface",
+  "categoryId": 14,
+  "images": [
+    "http://vargas.com/"
+  ]
+} 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 58,
+  "title": "Profit-focused user-facing alliance-fa8aa4bc04c441d8a0e9fb20724f9ee7",
+  "slug": "profit-focused-user-facing-alliance-fa8aa4bc04c441d8a0e9fb20724f9ee7",
+  "price": 536,
+  "description": "Virtual radical Graphical User Interface",
+  "category": {
+    "id": 14,
+    "name": "Toys_521c7f8684f743d281df8c432db024ae",
+    "slug": "toys-521c7f8684f743d281df8c432db024ae",
+    "image": "https://smith-santiago.com/",
+    "creationAt": "2026-11-13T05:45:45.000Z",
+    "updatedAt": "2026-11-13T05:45:45.000Z"
+  },
+  "images": [
+    "http://vargas.com/"
+  ],
+  "creationAt": "2026-11-13T05:45:45.000Z",
+  "updatedAt": "2026-11-13T05:45:45.000Z"
+}
+2026-11-13 05:45:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Toys_521c7f8684f743d281df8c432db024ae",
+  "slug": "toys-521c7f8684f743d281df8c432db024ae",
+  "image": "https://smith-santiago.com/",
+  "creationAt": "2026-11-13T05:45:45.000Z",
+  "updatedAt": "2026-11-13T05:45:45.000Z"
+} 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-13 05:45:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 400
+Body:
+{
+  "path": "/api/v1/categories/14",
+  "timestamp": "2026-11-13T05:45:45.678Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

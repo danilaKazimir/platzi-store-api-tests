@@ -1,0 +1,88 @@
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Christopher Sloan",
+  "email": "susan72@example.net",
+  "password": "***",
+  "avatar": "https://mccoy.com/"
+} 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 29,
+  "email": "susan72@example.net",
+  "password": "***",
+  "name": "Christopher Sloan",
+  "role": "customer",
+  "avatar": "https://mccoy.com/",
+  "creationAt": "2026-10-29T04:57:52.000Z",
+  "updatedAt": "2026-10-29T04:57:52.000Z"
+}
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "susan72@example.net",
+  "password": "***"
+} 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjI5LCJpYXQiOjE3OTMyNDk4NzIsImV4cCI6MTc5MzI4NTg3Mn0.EQ2MOVn5ch1lPfzyAmra_WJxT8KdyXd7n2tfrT1CUIQ"
+} 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 29,
+  "email": "susan72@example.net",
+  "password": "***",
+  "name": "Christopher Sloan",
+  "role": "customer",
+  "avatar": "https://mccoy.com/",
+  "creationAt": "2026-10-29T04:57:52.000Z",
+  "updatedAt": "2026-10-29T04:57:52.000Z"
+}
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/29
+Body:
+<empty> 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/29 -> 200
+Body:
+{
+  "id": 29,
+  "email": "susan72@example.net",
+  "password": "***",
+  "name": "Christopher Sloan",
+  "role": "customer",
+  "avatar": "https://mccoy.com/",
+  "creationAt": "2026-10-29T04:57:52.000Z",
+  "updatedAt": "2026-10-29T04:57:52.000Z"
+} 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/29
+Body:
+<empty> 
+
+2026-10-29 04:57:52 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/29 -> 200
+Body:
+true

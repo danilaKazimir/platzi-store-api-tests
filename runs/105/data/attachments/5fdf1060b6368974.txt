@@ -1,0 +1,88 @@
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Kylie Bell",
+  "email": "catherine32@example.com",
+  "password": "***",
+  "avatar": "http://www.perez.com/"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 45,
+  "email": "catherine32@example.com",
+  "password": "***",
+  "name": "Kylie Bell",
+  "role": "customer",
+  "avatar": "http://www.perez.com/",
+  "creationAt": "2026-10-26T03:55:01.000Z",
+  "updatedAt": "2026-10-26T03:55:01.000Z"
+}
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "catherine32@example.com",
+  "password": "***"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQ1LCJpYXQiOjE3OTI5ODY5MDEsImV4cCI6MTc5MzAyMjkwMX0.BpAUGVk_wRQYDkJEcTr3ByATGQ1VT4FeJ4RpynvdJRo"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 45,
+  "email": "catherine32@example.com",
+  "password": "***",
+  "name": "Kylie Bell",
+  "role": "customer",
+  "avatar": "http://www.perez.com/",
+  "creationAt": "2026-10-26T03:55:01.000Z",
+  "updatedAt": "2026-10-26T03:55:01.000Z"
+}
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/45
+Body:
+<empty> 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/45 -> 200
+Body:
+{
+  "id": 45,
+  "email": "catherine32@example.com",
+  "password": "***",
+  "name": "Kylie Bell",
+  "role": "customer",
+  "avatar": "http://www.perez.com/",
+  "creationAt": "2026-10-26T03:55:01.000Z",
+  "updatedAt": "2026-10-26T03:55:01.000Z"
+} 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/45
+Body:
+<empty> 
+
+2026-10-26 03:55:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/45 -> 200
+Body:
+true
