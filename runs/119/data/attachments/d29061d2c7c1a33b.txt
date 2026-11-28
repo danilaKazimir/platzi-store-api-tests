@@ -1,0 +1,135 @@
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_280f704801fa4f2a883f70c2e3d5b99c",
+  "image": "http://richards.biz/"
+} 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Books_280f704801fa4f2a883f70c2e3d5b99c",
+  "slug": "books-280f704801fa4f2a883f70c2e3d5b99c",
+  "image": "http://richards.biz/",
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+} 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Expanded needs-based concept-7954240bfd2b486a9b587f36c863f760",
+  "price": 469,
+  "description": "Multi-tiered directional instruction set",
+  "categoryId": 21,
+  "images": [
+    "http://larson.com/"
+  ]
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 74,
+  "title": "Expanded needs-based concept-7954240bfd2b486a9b587f36c863f760",
+  "slug": "expanded-needs-based-concept-7954240bfd2b486a9b587f36c863f760",
+  "price": 469,
+  "description": "Multi-tiered directional instruction set",
+  "category": {
+    "id": 21,
+    "name": "Books_280f704801fa4f2a883f70c2e3d5b99c",
+    "slug": "books-280f704801fa4f2a883f70c2e3d5b99c",
+    "image": "http://richards.biz/",
+    "creationAt": "2026-11-09T05:23:15.000Z",
+    "updatedAt": "2026-11-09T05:23:15.000Z"
+  },
+  "images": [
+    "http://larson.com/"
+  ],
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+}
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/expanded-needs-based-concept-7954240bfd2b486a9b587f36c863f760
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/expanded-needs-based-concept-7954240bfd2b486a9b587f36c863f760 -> 200
+Body:
+{
+  "id": 74,
+  "title": "Expanded needs-based concept-7954240bfd2b486a9b587f36c863f760",
+  "slug": "expanded-needs-based-concept-7954240bfd2b486a9b587f36c863f760",
+  "price": 469,
+  "description": "Multi-tiered directional instruction set",
+  "category": {
+    "id": 21,
+    "name": "Books_280f704801fa4f2a883f70c2e3d5b99c",
+    "slug": "books-280f704801fa4f2a883f70c2e3d5b99c",
+    "image": "http://richards.biz/",
+    "creationAt": "2026-11-09T05:23:15.000Z",
+    "updatedAt": "2026-11-09T05:23:15.000Z"
+  },
+  "images": [
+    "http://larson.com/"
+  ],
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+}
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/74
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/74 -> 200
+Body:
+{
+  "id": 74,
+  "title": "Expanded needs-based concept-7954240bfd2b486a9b587f36c863f760",
+  "slug": "expanded-needs-based-concept-7954240bfd2b486a9b587f36c863f760",
+  "price": 469,
+  "description": "Multi-tiered directional instruction set",
+  "category": {
+    "id": 21,
+    "name": "Books_280f704801fa4f2a883f70c2e3d5b99c",
+    "slug": "books-280f704801fa4f2a883f70c2e3d5b99c",
+    "image": "http://richards.biz/",
+    "creationAt": "2026-11-09T05:23:15.000Z",
+    "updatedAt": "2026-11-09T05:23:15.000Z"
+  },
+  "images": [
+    "http://larson.com/"
+  ],
+  "creationAt": "2026-11-09T05:23:16.000Z",
+  "updatedAt": "2026-11-09T05:23:16.000Z"
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/74
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/74 -> 200
+Body:
+true 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Books_280f704801fa4f2a883f70c2e3d5b99c",
+  "slug": "books-280f704801fa4f2a883f70c2e3d5b99c",
+  "image": "http://richards.biz/",
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true

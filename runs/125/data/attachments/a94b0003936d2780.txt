@@ -1,0 +1,135 @@
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_176e6e30ae6343c985a51419bd095ef4",
+  "image": "https://www.green.com/"
+} 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 21,
+  "name": "Food & Beverages_176e6e30ae6343c985a51419bd095ef4",
+  "slug": "food-beverages-176e6e30ae6343c985a51419bd095ef4",
+  "image": "https://www.green.com/",
+  "creationAt": "2026-11-15T05:33:38.000Z",
+  "updatedAt": "2026-11-15T05:33:38.000Z"
+} 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Fundamental next generation software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "price": 215,
+  "description": "Distributed coherent synergy",
+  "categoryId": 21,
+  "images": [
+    "http://estrada-kim.com/"
+  ]
+} 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 60,
+  "title": "Fundamental next generation software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "slug": "fundamental-next-generation-software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "price": 215,
+  "description": "Distributed coherent synergy",
+  "category": {
+    "id": 21,
+    "name": "Food & Beverages_176e6e30ae6343c985a51419bd095ef4",
+    "slug": "food-beverages-176e6e30ae6343c985a51419bd095ef4",
+    "image": "https://www.green.com/",
+    "creationAt": "2026-11-15T05:33:38.000Z",
+    "updatedAt": "2026-11-15T05:33:38.000Z"
+  },
+  "images": [
+    "http://estrada-kim.com/"
+  ],
+  "creationAt": "2026-11-15T05:33:38.000Z",
+  "updatedAt": "2026-11-15T05:33:38.000Z"
+}
+2026-11-15 05:33:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/fundamental-next-generation-software-a2d6376216484f2482b62ae3ea1bc0ec
+Body:
+<empty> 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/fundamental-next-generation-software-a2d6376216484f2482b62ae3ea1bc0ec -> 200
+Body:
+{
+  "id": 60,
+  "title": "Fundamental next generation software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "slug": "fundamental-next-generation-software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "price": 215,
+  "description": "Distributed coherent synergy",
+  "category": {
+    "id": 21,
+    "name": "Food & Beverages_176e6e30ae6343c985a51419bd095ef4",
+    "slug": "food-beverages-176e6e30ae6343c985a51419bd095ef4",
+    "image": "https://www.green.com/",
+    "creationAt": "2026-11-15T05:33:38.000Z",
+    "updatedAt": "2026-11-15T05:33:38.000Z"
+  },
+  "images": [
+    "http://estrada-kim.com/"
+  ],
+  "creationAt": "2026-11-15T05:33:38.000Z",
+  "updatedAt": "2026-11-15T05:33:38.000Z"
+}
+2026-11-15 05:33:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+{
+  "id": 60,
+  "title": "Fundamental next generation software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "slug": "fundamental-next-generation-software-a2d6376216484f2482b62ae3ea1bc0ec",
+  "price": 215,
+  "description": "Distributed coherent synergy",
+  "category": {
+    "id": 21,
+    "name": "Food & Beverages_176e6e30ae6343c985a51419bd095ef4",
+    "slug": "food-beverages-176e6e30ae6343c985a51419bd095ef4",
+    "image": "https://www.green.com/",
+    "creationAt": "2026-11-15T05:33:38.000Z",
+    "updatedAt": "2026-11-15T05:33:38.000Z"
+  },
+  "images": [
+    "http://estrada-kim.com/"
+  ],
+  "creationAt": "2026-11-15T05:33:38.000Z",
+  "updatedAt": "2026-11-15T05:33:38.000Z"
+} 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/60
+Body:
+<empty> 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/60 -> 200
+Body:
+true 
+
+2026-11-15 05:33:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-15 05:33:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+{
+  "id": 21,
+  "name": "Food & Beverages_176e6e30ae6343c985a51419bd095ef4",
+  "slug": "food-beverages-176e6e30ae6343c985a51419bd095ef4",
+  "image": "https://www.green.com/",
+  "creationAt": "2026-11-15T05:33:38.000Z",
+  "updatedAt": "2026-11-15T05:33:38.000Z"
+} 
+
+2026-11-15 05:33:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/21
+Body:
+<empty> 
+
+2026-11-15 05:33:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/21 -> 200
+Body:
+true

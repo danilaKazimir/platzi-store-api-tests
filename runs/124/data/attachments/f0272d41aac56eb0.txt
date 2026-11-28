@@ -1,0 +1,79 @@
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Electronics_c3732c5dc1c4427f90ec60ae7fe3c517",
+  "image": "https://www.pena.com/"
+} 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 14,
+  "name": "Electronics_c3732c5dc1c4427f90ec60ae7fe3c517",
+  "slug": "electronics-c3732c5dc1c4427f90ec60ae7fe3c517",
+  "image": "https://www.pena.com/",
+  "creationAt": "2026-11-14T05:35:59.000Z",
+  "updatedAt": "2026-11-14T05:35:59.000Z"
+}
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Digitized logistical alliance-eecbc6b20ffe48a7a5584055e85b7a62",
+  "price": 378,
+  "description": "Open-source well-modulated installation",
+  "categoryId": 14,
+  "images": [
+    "https://martinez.com/"
+  ]
+} 
+
+2026-11-14 05:36:00 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 53,
+  "title": "Digitized logistical alliance-eecbc6b20ffe48a7a5584055e85b7a62",
+  "slug": "digitized-logistical-alliance-eecbc6b20ffe48a7a5584055e85b7a62",
+  "price": 378,
+  "description": "Open-source well-modulated installation",
+  "category": {
+    "id": 14,
+    "name": "Electronics_c3732c5dc1c4427f90ec60ae7fe3c517",
+    "slug": "electronics-c3732c5dc1c4427f90ec60ae7fe3c517",
+    "image": "https://www.pena.com/",
+    "creationAt": "2026-11-14T05:35:59.000Z",
+    "updatedAt": "2026-11-14T05:35:59.000Z"
+  },
+  "images": [
+    "https://martinez.com/"
+  ],
+  "creationAt": "2026-11-14T05:36:00.000Z",
+  "updatedAt": "2026-11-14T05:36:00.000Z"
+}
+2026-11-14 05:36:00 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-14 05:36:00 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/14 -> 200
+Body:
+{
+  "id": 14,
+  "name": "Electronics_c3732c5dc1c4427f90ec60ae7fe3c517",
+  "slug": "electronics-c3732c5dc1c4427f90ec60ae7fe3c517",
+  "image": "https://www.pena.com/",
+  "creationAt": "2026-11-14T05:35:59.000Z",
+  "updatedAt": "2026-11-14T05:35:59.000Z"
+} 
+
+2026-11-14 05:36:00 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/14
+Body:
+<empty> 
+
+2026-11-14 05:36:01 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/14 -> 400
+Body:
+{
+  "path": "/api/v1/categories/14",
+  "timestamp": "2026-11-14T05:36:00.987Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: FOREIGN KEY constraint failed",
+  "code": "SQLITE_CONSTRAINT_FOREIGNKEY"
+}

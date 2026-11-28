@@ -1,0 +1,53 @@
+2026-11-15 05:33:34 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "image": "https://oneill.com/"
+} 
+
+2026-11-15 05:33:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Pet Supplies_0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "slug": "pet-supplies-0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "image": "https://oneill.com/",
+  "creationAt": "2026-11-15T05:33:34.000Z",
+  "updatedAt": "2026-11-15T05:33:34.000Z"
+}
+2026-11-15 05:33:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/slug/pet-supplies-0d45859d8eab4bd191eb6cb00ddc4ce0
+Body:
+<empty> 
+
+2026-11-15 05:33:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/slug/pet-supplies-0d45859d8eab4bd191eb6cb00ddc4ce0 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Pet Supplies_0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "slug": "pet-supplies-0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "image": "https://oneill.com/",
+  "creationAt": "2026-11-15T05:33:34.000Z",
+  "updatedAt": "2026-11-15T05:33:34.000Z"
+}
+2026-11-15 05:33:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-15 05:33:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Pet Supplies_0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "slug": "pet-supplies-0d45859d8eab4bd191eb6cb00ddc4ce0",
+  "image": "https://oneill.com/",
+  "creationAt": "2026-11-15T05:33:34.000Z",
+  "updatedAt": "2026-11-15T05:33:34.000Z"
+} 
+
+2026-11-15 05:33:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-15 05:33:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

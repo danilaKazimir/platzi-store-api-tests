@@ -1,0 +1,107 @@
+2026-11-08 05:11:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_efaa774376f741d79bcaed3630fcbfa7",
+  "image": "http://stewart.com/"
+} 
+
+2026-11-08 05:11:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Pet Supplies_efaa774376f741d79bcaed3630fcbfa7",
+  "slug": "pet-supplies-efaa774376f741d79bcaed3630fcbfa7",
+  "image": "http://stewart.com/",
+  "creationAt": "2026-11-08T05:11:23.000Z",
+  "updatedAt": "2026-11-08T05:11:23.000Z"
+} 
+
+2026-11-08 05:11:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Diverse disintermediate architecture-5249020cfe42491e88d497b2b7d8cbfe",
+  "price": 639,
+  "description": "Self-enabling scalable superstructure",
+  "categoryId": 15,
+  "images": [
+    "http://perry.com/"
+  ]
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 62,
+  "title": "Diverse disintermediate architecture-5249020cfe42491e88d497b2b7d8cbfe",
+  "slug": "diverse-disintermediate-architecture-5249020cfe42491e88d497b2b7d8cbfe",
+  "price": 639,
+  "description": "Self-enabling scalable superstructure",
+  "category": {
+    "id": 15,
+    "name": "Pet Supplies_efaa774376f741d79bcaed3630fcbfa7",
+    "slug": "pet-supplies-efaa774376f741d79bcaed3630fcbfa7",
+    "image": "http://stewart.com/",
+    "creationAt": "2026-11-08T05:11:23.000Z",
+    "updatedAt": "2026-11-08T05:11:23.000Z"
+  },
+  "images": [
+    "http://perry.com/"
+  ],
+  "creationAt": "2026-11-08T05:11:24.000Z",
+  "updatedAt": "2026-11-08T05:11:24.000Z"
+}
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/62 -> 200
+Body:
+true 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 400
+Body:
+{
+  "path": "/api/v1/products/62",
+  "timestamp": "2026-11-08T05:11:24.279Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 62\n    }\n}"
+}
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/62
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/62 -> 400
+Body:
+{
+  "path": "/api/v1/products/62",
+  "timestamp": "2026-11-08T05:11:24.365Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 62\n    }\n}"
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Pet Supplies_efaa774376f741d79bcaed3630fcbfa7",
+  "slug": "pet-supplies-efaa774376f741d79bcaed3630fcbfa7",
+  "image": "http://stewart.com/",
+  "creationAt": "2026-11-08T05:11:23.000Z",
+  "updatedAt": "2026-11-08T05:11:23.000Z"
+} 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-08 05:11:24 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+true

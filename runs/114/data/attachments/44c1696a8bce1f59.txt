@@ -1,0 +1,55 @@
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_02b8770498ed4905b5851ec215f791d6",
+  "image": "https://wallace.com/"
+} 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 241,
+  "name": "Personal Care_02b8770498ed4905b5851ec215f791d6",
+  "slug": "personal-care-02b8770498ed4905b5851ec215f791d6",
+  "image": "https://wallace.com/",
+  "creationAt": "2026-11-04T05:28:50.000Z",
+  "updatedAt": "2026-11-04T05:28:50.000Z"
+}
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/241
+Body:
+{
+  "name": null,
+  "image": "http://diaz.net/"
+} 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/241 -> 400
+Body:
+{
+  "path": "/api/v1/categories/241",
+  "timestamp": "2026-11-04T05:28:50.678Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/241
+Body:
+<empty> 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/241 -> 200
+Body:
+{
+  "id": 241,
+  "name": "Personal Care_02b8770498ed4905b5851ec215f791d6",
+  "slug": "personal-care-02b8770498ed4905b5851ec215f791d6",
+  "image": "https://wallace.com/",
+  "creationAt": "2026-11-04T05:28:50.000Z",
+  "updatedAt": "2026-11-04T05:28:50.000Z"
+} 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/241
+Body:
+<empty> 
+
+2026-11-04 05:28:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/241 -> 200
+Body:
+true

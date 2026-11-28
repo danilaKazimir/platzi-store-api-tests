@@ -1,0 +1,127 @@
+2026-11-17 07:10:26 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_c1a58ce9f6ae45548e2cab56afbf7b5c",
+  "image": "http://jefferson-campbell.com/"
+} 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Automotive Accessories_c1a58ce9f6ae45548e2cab56afbf7b5c",
+  "slug": "automotive-accessories-c1a58ce9f6ae45548e2cab56afbf7b5c",
+  "image": "http://jefferson-campbell.com/",
+  "creationAt": "2026-11-17T07:10:27.000Z",
+  "updatedAt": "2026-11-17T07:10:27.000Z"
+}
+2026-11-17 07:10:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-17T02:56:52.000Z",
+    "updatedAt": "2026-11-17T02:56:52.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-17T02:56:52.000Z",
+    "updatedAt": "2026-11-17T02:56:52.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-17T02:56:52.000Z",
+    "updatedAt": "2026-11-17T02:56:52.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-17T02:56:52.000Z",
+    "updatedAt": "2026-11-17T02:56:52.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-17T02:56:52.000Z",
+    "updatedAt": "2026-11-17T02:56:52.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Testing Category",
+    "slug": "testing-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-11-17T06:00:05.000Z",
+    "updatedAt": "2026-11-17T06:00:05.000Z"
+  },
+  {
+    "id": 7,
+    "name": "testCategory206104edfd8f44aab4dd07eab039f365",
+    "slug": "testcategory206104edfd8f44aab4dd07eab039f365",
+    "image": "http://www.taylor-good.com/",
+    "creationAt": "2026-11-17T07:10:26.000Z",
+    "updatedAt": "2026-11-17T07:10:26.000Z"
+  },
+  {
+    "id": 8,
+    "name": "test Categoryc3e37db27d1f4add8340e544d7580a00",
+    "slug": "test-categoryc3e37db27d1f4add8340e544d7580a00",
+    "image": "http://carter-martin.net/",
+    "creationAt": "2026-11-17T07:10:26.000Z",
+    "updatedAt": "2026-11-17T07:10:26.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Automotive Accessories_c1a58ce9f6ae45548e2cab56afbf7b5c",
+    "slug": "automotive-accessories-c1a58ce9f6ae45548e2cab56afbf7b5c",
+    "image": "http://jefferson-campbell.com/",
+    "creationAt": "2026-11-17T07:10:27.000Z",
+    "updatedAt": "2026-11-17T07:10:27.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Home & Kitchen_2c2b6f4eca374d8e841fed9b3af1069e",
+    "slug": "home-kitchen-2c2b6f4eca374d8e841fed9b3af1069e",
+    "image": "https://www.roberson-atkins.com/",
+    "creationAt": "2026-11-17T07:10:27.000Z",
+    "updatedAt": "2026-11-17T07:10:27.000Z"
+  }
+]
+2026-11-17 07:10:27 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Automotive Accessories_c1a58ce9f6ae45548e2cab56afbf7b5c",
+  "slug": "automotive-accessories-c1a58ce9f6ae45548e2cab56afbf7b5c",
+  "image": "http://jefferson-campbell.com/",
+  "creationAt": "2026-11-17T07:10:27.000Z",
+  "updatedAt": "2026-11-17T07:10:27.000Z"
+} 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-17 07:10:27 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

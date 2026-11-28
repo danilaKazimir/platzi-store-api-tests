@@ -1,0 +1,125 @@
+2026-11-17 07:10:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_8f13731d28304426813ee2a928d44e49",
+  "image": "https://www.alvarez.com/"
+} 
+
+2026-11-17 07:10:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 27,
+  "name": "Food & Beverages_8f13731d28304426813ee2a928d44e49",
+  "slug": "food-beverages-8f13731d28304426813ee2a928d44e49",
+  "image": "https://www.alvarez.com/",
+  "creationAt": "2026-11-17T07:10:35.000Z",
+  "updatedAt": "2026-11-17T07:10:35.000Z"
+} 
+
+2026-11-17 07:10:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Proactive explicit service-desk-2e64534cae094dabad1afaa160ad746c",
+  "price": 629,
+  "description": "Multi-lateral logistical extranet",
+  "categoryId": 27,
+  "images": [
+    "https://www.michael.com/"
+  ]
+} 
+
+2026-11-17 07:10:35 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 84,
+  "title": "Proactive explicit service-desk-2e64534cae094dabad1afaa160ad746c",
+  "slug": "proactive-explicit-service-desk-2e64534cae094dabad1afaa160ad746c",
+  "price": 629,
+  "description": "Multi-lateral logistical extranet",
+  "category": {
+    "id": 27,
+    "name": "Food & Beverages_8f13731d28304426813ee2a928d44e49",
+    "slug": "food-beverages-8f13731d28304426813ee2a928d44e49",
+    "image": "https://www.alvarez.com/",
+    "creationAt": "2026-11-17T07:10:35.000Z",
+    "updatedAt": "2026-11-17T07:10:35.000Z"
+  },
+  "images": [
+    "https://www.michael.com/"
+  ],
+  "creationAt": "2026-11-17T07:10:35.000Z",
+  "updatedAt": "2026-11-17T07:10:35.000Z"
+}
+2026-11-17 07:10:35 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/84
+Body:
+{
+  "title": "Configurable directional orchestration-d82067f79c6644d486112198d9af19c0",
+  "price": 444,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-17 07:10:35 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/84 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-17 07:10:35 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-11-17 07:10:35 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+{
+  "id": 84,
+  "title": "Proactive explicit service-desk-2e64534cae094dabad1afaa160ad746c",
+  "slug": "proactive-explicit-service-desk-2e64534cae094dabad1afaa160ad746c",
+  "price": 629,
+  "description": "Multi-lateral logistical extranet",
+  "category": {
+    "id": 27,
+    "name": "Food & Beverages_8f13731d28304426813ee2a928d44e49",
+    "slug": "food-beverages-8f13731d28304426813ee2a928d44e49",
+    "image": "https://www.alvarez.com/",
+    "creationAt": "2026-11-17T07:10:35.000Z",
+    "updatedAt": "2026-11-17T07:10:35.000Z"
+  },
+  "images": [
+    "https://www.michael.com/"
+  ],
+  "creationAt": "2026-11-17T07:10:35.000Z",
+  "updatedAt": "2026-11-17T07:10:35.000Z"
+} 
+
+2026-11-17 07:10:35 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/84
+Body:
+<empty> 
+
+2026-11-17 07:10:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/84 -> 200
+Body:
+true 
+
+2026-11-17 07:10:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-11-17 07:10:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+{
+  "id": 27,
+  "name": "Food & Beverages_8f13731d28304426813ee2a928d44e49",
+  "slug": "food-beverages-8f13731d28304426813ee2a928d44e49",
+  "image": "https://www.alvarez.com/",
+  "creationAt": "2026-11-17T07:10:35.000Z",
+  "updatedAt": "2026-11-17T07:10:35.000Z"
+} 
+
+2026-11-17 07:10:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/27
+Body:
+<empty> 
+
+2026-11-17 07:10:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/27 -> 200
+Body:
+true

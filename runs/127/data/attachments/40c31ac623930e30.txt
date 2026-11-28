@@ -1,0 +1,71 @@
+2026-11-17 07:10:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_4fbd7996a72f4c499c8a6952e5303d10",
+  "image": "http://www.rodriguez.biz/"
+} 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Home & Kitchen_4fbd7996a72f4c499c8a6952e5303d10",
+  "slug": "home-kitchen-4fbd7996a72f4c499c8a6952e5303d10",
+  "image": "http://www.rodriguez.biz/",
+  "creationAt": "2026-11-17T07:10:28.000Z",
+  "updatedAt": "2026-11-17T07:10:28.000Z"
+}
+2026-11-17 07:10:28 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/15
+Body:
+{
+  "name": "Clothing_cb73c6134d2c461483dde36fdbf41072",
+  "image": "http://carlson-ferguson.biz/"
+} 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Clothing_cb73c6134d2c461483dde36fdbf41072",
+  "slug": "clothing-cb73c6134d2c461483dde36fdbf41072",
+  "image": "http://carlson-ferguson.biz/",
+  "creationAt": "2026-11-17T07:10:28.000Z",
+  "updatedAt": "2026-11-17T07:10:28.000Z"
+} 
+
+2026-11-17 07:10:28 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-17 07:10:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Clothing_cb73c6134d2c461483dde36fdbf41072",
+  "slug": "clothing-cb73c6134d2c461483dde36fdbf41072",
+  "image": "http://carlson-ferguson.biz/",
+  "creationAt": "2026-11-17T07:10:28.000Z",
+  "updatedAt": "2026-11-17T07:10:28.000Z"
+}
+2026-11-17 07:10:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-17 07:10:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Clothing_cb73c6134d2c461483dde36fdbf41072",
+  "slug": "clothing-cb73c6134d2c461483dde36fdbf41072",
+  "image": "http://carlson-ferguson.biz/",
+  "creationAt": "2026-11-17T07:10:28.000Z",
+  "updatedAt": "2026-11-17T07:10:28.000Z"
+} 
+
+2026-11-17 07:10:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-17 07:10:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+true

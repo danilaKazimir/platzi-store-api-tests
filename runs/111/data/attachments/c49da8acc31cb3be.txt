@@ -1,0 +1,135 @@
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_7716c482f4d848529f8099f26396574c",
+  "image": "http://dennis-perry.info/"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 31,
+  "name": "Clothing_7716c482f4d848529f8099f26396574c",
+  "slug": "clothing-7716c482f4d848529f8099f26396574c",
+  "image": "http://dennis-perry.info/",
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Implemented holistic artificial intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "price": 119,
+  "description": "Assimilated radical customer loyalty",
+  "categoryId": 31,
+  "images": [
+    "http://www.payne.org/"
+  ]
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 94,
+  "title": "Implemented holistic artificial intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "slug": "implemented-holistic-artificial-intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "price": 119,
+  "description": "Assimilated radical customer loyalty",
+  "category": {
+    "id": 31,
+    "name": "Clothing_7716c482f4d848529f8099f26396574c",
+    "slug": "clothing-7716c482f4d848529f8099f26396574c",
+    "image": "http://dennis-perry.info/",
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  },
+  "images": [
+    "http://www.payne.org/"
+  ],
+  "creationAt": "2026-11-01T05:05:46.000Z",
+  "updatedAt": "2026-11-01T05:05:46.000Z"
+}
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/implemented-holistic-artificial-intelligence-ba19a7e2a1304623b7af4a3b4afa3172
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/implemented-holistic-artificial-intelligence-ba19a7e2a1304623b7af4a3b4afa3172 -> 200
+Body:
+{
+  "id": 94,
+  "title": "Implemented holistic artificial intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "slug": "implemented-holistic-artificial-intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "price": 119,
+  "description": "Assimilated radical customer loyalty",
+  "category": {
+    "id": 31,
+    "name": "Clothing_7716c482f4d848529f8099f26396574c",
+    "slug": "clothing-7716c482f4d848529f8099f26396574c",
+    "image": "http://dennis-perry.info/",
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  },
+  "images": [
+    "http://www.payne.org/"
+  ],
+  "creationAt": "2026-11-01T05:05:46.000Z",
+  "updatedAt": "2026-11-01T05:05:46.000Z"
+}
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/94
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/94 -> 200
+Body:
+{
+  "id": 94,
+  "title": "Implemented holistic artificial intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "slug": "implemented-holistic-artificial-intelligence-ba19a7e2a1304623b7af4a3b4afa3172",
+  "price": 119,
+  "description": "Assimilated radical customer loyalty",
+  "category": {
+    "id": 31,
+    "name": "Clothing_7716c482f4d848529f8099f26396574c",
+    "slug": "clothing-7716c482f4d848529f8099f26396574c",
+    "image": "http://dennis-perry.info/",
+    "creationAt": "2026-11-01T05:05:45.000Z",
+    "updatedAt": "2026-11-01T05:05:45.000Z"
+  },
+  "images": [
+    "http://www.payne.org/"
+  ],
+  "creationAt": "2026-11-01T05:05:46.000Z",
+  "updatedAt": "2026-11-01T05:05:46.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/94
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/94 -> 200
+Body:
+true 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+{
+  "id": 31,
+  "name": "Clothing_7716c482f4d848529f8099f26396574c",
+  "slug": "clothing-7716c482f4d848529f8099f26396574c",
+  "image": "http://dennis-perry.info/",
+  "creationAt": "2026-11-01T05:05:45.000Z",
+  "updatedAt": "2026-11-01T05:05:45.000Z"
+} 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/31
+Body:
+<empty> 
+
+2026-11-01 05:05:46 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/31 -> 200
+Body:
+true

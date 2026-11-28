@@ -1,0 +1,135 @@
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_1822b6fb9c6c48c58ac471b3dbc7ee3a",
+  "image": "http://bell.com/"
+} 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_1822b6fb9c6c48c58ac471b3dbc7ee3a",
+  "slug": "sports-fitness-1822b6fb9c6c48c58ac471b3dbc7ee3a",
+  "image": "http://bell.com/",
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+} 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reverse-engineered incremental forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "price": 905,
+  "description": "Cross-group intermediate Local Area Network",
+  "categoryId": 20,
+  "images": [
+    "https://gordon.info/"
+  ]
+} 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 73,
+  "title": "Reverse-engineered incremental forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "slug": "reverse-engineered-incremental-forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "price": 905,
+  "description": "Cross-group intermediate Local Area Network",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_1822b6fb9c6c48c58ac471b3dbc7ee3a",
+    "slug": "sports-fitness-1822b6fb9c6c48c58ac471b3dbc7ee3a",
+    "image": "http://bell.com/",
+    "creationAt": "2026-11-09T05:23:15.000Z",
+    "updatedAt": "2026-11-09T05:23:15.000Z"
+  },
+  "images": [
+    "https://gordon.info/"
+  ],
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+}
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/73
+Body:
+<empty> 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/73 -> 200
+Body:
+{
+  "id": 73,
+  "title": "Reverse-engineered incremental forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "slug": "reverse-engineered-incremental-forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "price": 905,
+  "description": "Cross-group intermediate Local Area Network",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_1822b6fb9c6c48c58ac471b3dbc7ee3a",
+    "slug": "sports-fitness-1822b6fb9c6c48c58ac471b3dbc7ee3a",
+    "image": "http://bell.com/",
+    "creationAt": "2026-11-09T05:23:15.000Z",
+    "updatedAt": "2026-11-09T05:23:15.000Z"
+  },
+  "images": [
+    "https://gordon.info/"
+  ],
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+}
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/73
+Body:
+<empty> 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/73 -> 200
+Body:
+{
+  "id": 73,
+  "title": "Reverse-engineered incremental forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "slug": "reverse-engineered-incremental-forecast-ce5d52dca3054d279f3ff346996ec16e",
+  "price": 905,
+  "description": "Cross-group intermediate Local Area Network",
+  "category": {
+    "id": 20,
+    "name": "Sports & Fitness_1822b6fb9c6c48c58ac471b3dbc7ee3a",
+    "slug": "sports-fitness-1822b6fb9c6c48c58ac471b3dbc7ee3a",
+    "image": "http://bell.com/",
+    "creationAt": "2026-11-09T05:23:15.000Z",
+    "updatedAt": "2026-11-09T05:23:15.000Z"
+  },
+  "images": [
+    "https://gordon.info/"
+  ],
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+} 
+
+2026-11-09 05:23:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/73
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/73 -> 200
+Body:
+true 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_1822b6fb9c6c48c58ac471b3dbc7ee3a",
+  "slug": "sports-fitness-1822b6fb9c6c48c58ac471b3dbc7ee3a",
+  "image": "http://bell.com/",
+  "creationAt": "2026-11-09T05:23:15.000Z",
+  "updatedAt": "2026-11-09T05:23:15.000Z"
+} 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-09 05:23:16 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

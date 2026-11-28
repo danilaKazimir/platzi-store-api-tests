@@ -1,0 +1,127 @@
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Books_bff7986e89c54b1eb1dc82b7ff68e4fd",
+  "image": "https://www.boyd.com/"
+} 
+
+2026-11-08 05:11:21 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Books_bff7986e89c54b1eb1dc82b7ff68e4fd",
+  "slug": "books-bff7986e89c54b1eb1dc82b7ff68e4fd",
+  "image": "https://www.boyd.com/",
+  "creationAt": "2026-11-08T05:11:21.000Z",
+  "updatedAt": "2026-11-08T05:11:21.000Z"
+}
+2026-11-08 05:11:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-08 05:11:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "slug": "clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2026-11-07T22:00:15.000Z",
+    "updatedAt": "2026-11-07T22:00:15.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-07T22:00:15.000Z",
+    "updatedAt": "2026-11-07T22:00:15.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-07T22:00:15.000Z",
+    "updatedAt": "2026-11-07T22:00:15.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-07T22:00:15.000Z",
+    "updatedAt": "2026-11-07T22:00:15.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-07T22:00:15.000Z",
+    "updatedAt": "2026-11-07T22:00:15.000Z"
+  },
+  {
+    "id": 6,
+    "name": "string",
+    "slug": "string",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-11-07T22:00:40.000Z",
+    "updatedAt": "2026-11-07T22:00:40.000Z"
+  },
+  {
+    "id": 7,
+    "name": "category_B",
+    "slug": "category-b",
+    "image": "https://pravatar.cc/",
+    "creationAt": "2026-11-07T22:00:51.000Z",
+    "updatedAt": "2026-11-07T22:00:51.000Z"
+  },
+  {
+    "id": 8,
+    "name": "testCategory8f982882ad3044d481493b7f313fecd5",
+    "slug": "testcategory8f982882ad3044d481493b7f313fecd5",
+    "image": "http://www.sanders.com/",
+    "creationAt": "2026-11-08T05:11:21.000Z",
+    "updatedAt": "2026-11-08T05:11:21.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Books_bff7986e89c54b1eb1dc82b7ff68e4fd",
+    "slug": "books-bff7986e89c54b1eb1dc82b7ff68e4fd",
+    "image": "https://www.boyd.com/",
+    "creationAt": "2026-11-08T05:11:21.000Z",
+    "updatedAt": "2026-11-08T05:11:21.000Z"
+  },
+  {
+    "id": 10,
+    "name": "test Category91b921fedaf845f69b3e6d6cfa55e98d",
+    "slug": "test-category91b921fedaf845f69b3e6d6cfa55e98d",
+    "image": "https://hayes.info/",
+    "creationAt": "2026-11-08T05:11:21.000Z",
+    "updatedAt": "2026-11-08T05:11:21.000Z"
+  }
+]
+2026-11-08 05:11:22 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-08 05:11:22 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Books_bff7986e89c54b1eb1dc82b7ff68e4fd",
+  "slug": "books-bff7986e89c54b1eb1dc82b7ff68e4fd",
+  "image": "https://www.boyd.com/",
+  "creationAt": "2026-11-08T05:11:21.000Z",
+  "updatedAt": "2026-11-08T05:11:21.000Z"
+} 
+
+2026-11-08 05:11:22 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-08 05:11:22 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

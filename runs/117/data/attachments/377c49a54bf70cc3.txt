@@ -1,0 +1,125 @@
+2026-11-07 05:15:12 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_56465fdd43424eb59780e8d8b20f5d10",
+  "image": "https://rosales-martin.biz/"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Automotive Accessories_56465fdd43424eb59780e8d8b20f5d10",
+  "slug": "automotive-accessories-56465fdd43424eb59780e8d8b20f5d10",
+  "image": "https://rosales-martin.biz/",
+  "creationAt": "2026-11-07T05:15:13.000Z",
+  "updatedAt": "2026-11-07T05:15:13.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Sharable directional circuit-e47d702119114578a9a1fae4b004e939",
+  "price": 842,
+  "description": "Customizable neutral definition",
+  "categoryId": 29,
+  "images": [
+    "https://www.vincent.org/"
+  ]
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 249,
+  "title": "Sharable directional circuit-e47d702119114578a9a1fae4b004e939",
+  "slug": "sharable-directional-circuit-e47d702119114578a9a1fae4b004e939",
+  "price": 842,
+  "description": "Customizable neutral definition",
+  "category": {
+    "id": 29,
+    "name": "Automotive Accessories_56465fdd43424eb59780e8d8b20f5d10",
+    "slug": "automotive-accessories-56465fdd43424eb59780e8d8b20f5d10",
+    "image": "https://rosales-martin.biz/",
+    "creationAt": "2026-11-07T05:15:13.000Z",
+    "updatedAt": "2026-11-07T05:15:13.000Z"
+  },
+  "images": [
+    "https://www.vincent.org/"
+  ],
+  "creationAt": "2026-11-07T05:15:13.000Z",
+  "updatedAt": "2026-11-07T05:15:13.000Z"
+}
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/249
+Body:
+{
+  "title": "Expanded empowering complexity-c705330940df4c17bfa40e5070ae05a0",
+  "price": 602,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/249 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/249
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/249 -> 200
+Body:
+{
+  "id": 249,
+  "title": "Sharable directional circuit-e47d702119114578a9a1fae4b004e939",
+  "slug": "sharable-directional-circuit-e47d702119114578a9a1fae4b004e939",
+  "price": 842,
+  "description": "Customizable neutral definition",
+  "category": {
+    "id": 29,
+    "name": "Automotive Accessories_56465fdd43424eb59780e8d8b20f5d10",
+    "slug": "automotive-accessories-56465fdd43424eb59780e8d8b20f5d10",
+    "image": "https://rosales-martin.biz/",
+    "creationAt": "2026-11-07T05:15:13.000Z",
+    "updatedAt": "2026-11-07T05:15:13.000Z"
+  },
+  "images": [
+    "https://www.vincent.org/"
+  ],
+  "creationAt": "2026-11-07T05:15:13.000Z",
+  "updatedAt": "2026-11-07T05:15:13.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/249
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/249 -> 200
+Body:
+true 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Automotive Accessories_56465fdd43424eb59780e8d8b20f5d10",
+  "slug": "automotive-accessories-56465fdd43424eb59780e8d8b20f5d10",
+  "image": "https://rosales-martin.biz/",
+  "creationAt": "2026-11-07T05:15:13.000Z",
+  "updatedAt": "2026-11-07T05:15:13.000Z"
+} 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-07 05:15:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true

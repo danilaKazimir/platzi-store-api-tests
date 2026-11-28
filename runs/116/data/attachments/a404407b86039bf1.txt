@@ -1,0 +1,135 @@
+2026-11-06 05:44:49 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_7186f92f602a4947b5831e450f0b533e",
+  "image": "http://www.alexander-vega.com/"
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Food & Beverages_7186f92f602a4947b5831e450f0b533e",
+  "slug": "food-beverages-7186f92f602a4947b5831e450f0b533e",
+  "image": "http://www.alexander-vega.com/",
+  "creationAt": "2026-11-06T05:44:50.000Z",
+  "updatedAt": "2026-11-06T05:44:50.000Z"
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Secured 4thgeneration concept-d8be4667992e4195beaa46c2fb3345cb",
+  "price": 679,
+  "description": "Customizable full-range analyzer",
+  "categoryId": 29,
+  "images": [
+    "http://camacho.org/"
+  ]
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 147,
+  "title": "Secured 4thgeneration concept-d8be4667992e4195beaa46c2fb3345cb",
+  "slug": "secured-4thgeneration-concept-d8be4667992e4195beaa46c2fb3345cb",
+  "price": 679,
+  "description": "Customizable full-range analyzer",
+  "category": {
+    "id": 29,
+    "name": "Food & Beverages_7186f92f602a4947b5831e450f0b533e",
+    "slug": "food-beverages-7186f92f602a4947b5831e450f0b533e",
+    "image": "http://www.alexander-vega.com/",
+    "creationAt": "2026-11-06T05:44:50.000Z",
+    "updatedAt": "2026-11-06T05:44:50.000Z"
+  },
+  "images": [
+    "http://camacho.org/"
+  ],
+  "creationAt": "2026-11-06T05:44:50.000Z",
+  "updatedAt": "2026-11-06T05:44:50.000Z"
+}
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/147
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/147 -> 200
+Body:
+{
+  "id": 147,
+  "title": "Secured 4thgeneration concept-d8be4667992e4195beaa46c2fb3345cb",
+  "slug": "secured-4thgeneration-concept-d8be4667992e4195beaa46c2fb3345cb",
+  "price": 679,
+  "description": "Customizable full-range analyzer",
+  "category": {
+    "id": 29,
+    "name": "Food & Beverages_7186f92f602a4947b5831e450f0b533e",
+    "slug": "food-beverages-7186f92f602a4947b5831e450f0b533e",
+    "image": "http://www.alexander-vega.com/",
+    "creationAt": "2026-11-06T05:44:50.000Z",
+    "updatedAt": "2026-11-06T05:44:50.000Z"
+  },
+  "images": [
+    "http://camacho.org/"
+  ],
+  "creationAt": "2026-11-06T05:44:50.000Z",
+  "updatedAt": "2026-11-06T05:44:50.000Z"
+}
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/147
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/147 -> 200
+Body:
+{
+  "id": 147,
+  "title": "Secured 4thgeneration concept-d8be4667992e4195beaa46c2fb3345cb",
+  "slug": "secured-4thgeneration-concept-d8be4667992e4195beaa46c2fb3345cb",
+  "price": 679,
+  "description": "Customizable full-range analyzer",
+  "category": {
+    "id": 29,
+    "name": "Food & Beverages_7186f92f602a4947b5831e450f0b533e",
+    "slug": "food-beverages-7186f92f602a4947b5831e450f0b533e",
+    "image": "http://www.alexander-vega.com/",
+    "creationAt": "2026-11-06T05:44:50.000Z",
+    "updatedAt": "2026-11-06T05:44:50.000Z"
+  },
+  "images": [
+    "http://camacho.org/"
+  ],
+  "creationAt": "2026-11-06T05:44:50.000Z",
+  "updatedAt": "2026-11-06T05:44:50.000Z"
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/147
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/147 -> 200
+Body:
+true 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Food & Beverages_7186f92f602a4947b5831e450f0b533e",
+  "slug": "food-beverages-7186f92f602a4947b5831e450f0b533e",
+  "image": "http://www.alexander-vega.com/",
+  "creationAt": "2026-11-06T05:44:50.000Z",
+  "updatedAt": "2026-11-06T05:44:50.000Z"
+} 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-06 05:44:50 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true

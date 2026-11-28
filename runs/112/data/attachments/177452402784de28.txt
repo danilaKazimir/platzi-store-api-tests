@@ -1,0 +1,71 @@
+2026-11-02 05:06:06 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_a660e3fa64de4e7a817c5112596bde09",
+  "image": "https://davis.com/"
+} 
+
+2026-11-02 05:06:07 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 48,
+  "name": "Clothing_a660e3fa64de4e7a817c5112596bde09",
+  "slug": "clothing-a660e3fa64de4e7a817c5112596bde09",
+  "image": "https://davis.com/",
+  "creationAt": "2026-11-02T05:06:07.000Z",
+  "updatedAt": "2026-11-02T05:06:07.000Z"
+}
+2026-11-02 05:06:07 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/48
+Body:
+{
+  "name": "Toys_7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "image": "https://rodriguez.org/"
+} 
+
+2026-11-02 05:06:07 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/48 -> 200
+Body:
+{
+  "id": 48,
+  "name": "Toys_7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "slug": "toys-7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "image": "https://rodriguez.org/",
+  "creationAt": "2026-11-02T05:06:07.000Z",
+  "updatedAt": "2026-11-02T05:06:07.000Z"
+} 
+
+2026-11-02 05:06:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/48
+Body:
+<empty> 
+
+2026-11-02 05:06:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/48 -> 200
+Body:
+{
+  "id": 48,
+  "name": "Toys_7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "slug": "toys-7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "image": "https://rodriguez.org/",
+  "creationAt": "2026-11-02T05:06:07.000Z",
+  "updatedAt": "2026-11-02T05:06:07.000Z"
+}
+2026-11-02 05:06:07 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/48
+Body:
+<empty> 
+
+2026-11-02 05:06:07 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/48 -> 200
+Body:
+{
+  "id": 48,
+  "name": "Toys_7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "slug": "toys-7e79c46a9c7a4e2d97b6276f4ab4393a",
+  "image": "https://rodriguez.org/",
+  "creationAt": "2026-11-02T05:06:07.000Z",
+  "updatedAt": "2026-11-02T05:06:07.000Z"
+} 
+
+2026-11-02 05:06:07 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/48
+Body:
+<empty> 
+
+2026-11-02 05:06:08 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/48 -> 200
+Body:
+true

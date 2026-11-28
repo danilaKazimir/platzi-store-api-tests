@@ -1,0 +1,55 @@
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_209652f9fcc64aa0a364f09fe7353b54",
+  "image": "http://www.ingram.net/"
+} 
+
+2026-11-10 06:35:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 32,
+  "name": "Home & Kitchen_209652f9fcc64aa0a364f09fe7353b54",
+  "slug": "home-kitchen-209652f9fcc64aa0a364f09fe7353b54",
+  "image": "http://www.ingram.net/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:20.000Z"
+}
+2026-11-10 06:35:20 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/32
+Body:
+{
+  "name": "Toys_f411393c1fac4fdd9c850a2309a3c324",
+  "image": null
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/32 -> 400
+Body:
+{
+  "path": "/api/v1/categories/32",
+  "timestamp": "2026-11-10T06:35:21.396Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.image",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+{
+  "id": 32,
+  "name": "Home & Kitchen_209652f9fcc64aa0a364f09fe7353b54",
+  "slug": "home-kitchen-209652f9fcc64aa0a364f09fe7353b54",
+  "image": "http://www.ingram.net/",
+  "creationAt": "2026-11-10T06:35:20.000Z",
+  "updatedAt": "2026-11-10T06:35:20.000Z"
+} 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/32
+Body:
+<empty> 
+
+2026-11-10 06:35:21 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/32 -> 200
+Body:
+true

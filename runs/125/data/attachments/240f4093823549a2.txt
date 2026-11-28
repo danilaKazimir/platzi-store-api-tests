@@ -1,0 +1,135 @@
+2026-11-15 05:33:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_710f831b36ea46d7950ffb671156fe25",
+  "image": "https://www.mcdonald-pena.com/"
+} 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 17,
+  "name": "Food & Beverages_710f831b36ea46d7950ffb671156fe25",
+  "slug": "food-beverages-710f831b36ea46d7950ffb671156fe25",
+  "image": "https://www.mcdonald-pena.com/",
+  "creationAt": "2026-11-15T05:33:37.000Z",
+  "updatedAt": "2026-11-15T05:33:37.000Z"
+} 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Function-based zero tolerance application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "price": 344,
+  "description": "Realigned homogeneous frame",
+  "categoryId": 17,
+  "images": [
+    "http://www.collins.info/"
+  ]
+} 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 57,
+  "title": "Function-based zero tolerance application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "slug": "function-based-zero-tolerance-application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "price": 344,
+  "description": "Realigned homogeneous frame",
+  "category": {
+    "id": 17,
+    "name": "Food & Beverages_710f831b36ea46d7950ffb671156fe25",
+    "slug": "food-beverages-710f831b36ea46d7950ffb671156fe25",
+    "image": "https://www.mcdonald-pena.com/",
+    "creationAt": "2026-11-15T05:33:37.000Z",
+    "updatedAt": "2026-11-15T05:33:37.000Z"
+  },
+  "images": [
+    "http://www.collins.info/"
+  ],
+  "creationAt": "2026-11-15T05:33:37.000Z",
+  "updatedAt": "2026-11-15T05:33:37.000Z"
+}
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/57
+Body:
+<empty> 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/57 -> 200
+Body:
+{
+  "id": 57,
+  "title": "Function-based zero tolerance application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "slug": "function-based-zero-tolerance-application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "price": 344,
+  "description": "Realigned homogeneous frame",
+  "category": {
+    "id": 17,
+    "name": "Food & Beverages_710f831b36ea46d7950ffb671156fe25",
+    "slug": "food-beverages-710f831b36ea46d7950ffb671156fe25",
+    "image": "https://www.mcdonald-pena.com/",
+    "creationAt": "2026-11-15T05:33:37.000Z",
+    "updatedAt": "2026-11-15T05:33:37.000Z"
+  },
+  "images": [
+    "http://www.collins.info/"
+  ],
+  "creationAt": "2026-11-15T05:33:37.000Z",
+  "updatedAt": "2026-11-15T05:33:37.000Z"
+}
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/57
+Body:
+<empty> 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/57 -> 200
+Body:
+{
+  "id": 57,
+  "title": "Function-based zero tolerance application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "slug": "function-based-zero-tolerance-application-57cb328f8cae40e7983cee45ad0c8b2e",
+  "price": 344,
+  "description": "Realigned homogeneous frame",
+  "category": {
+    "id": 17,
+    "name": "Food & Beverages_710f831b36ea46d7950ffb671156fe25",
+    "slug": "food-beverages-710f831b36ea46d7950ffb671156fe25",
+    "image": "https://www.mcdonald-pena.com/",
+    "creationAt": "2026-11-15T05:33:37.000Z",
+    "updatedAt": "2026-11-15T05:33:37.000Z"
+  },
+  "images": [
+    "http://www.collins.info/"
+  ],
+  "creationAt": "2026-11-15T05:33:37.000Z",
+  "updatedAt": "2026-11-15T05:33:37.000Z"
+} 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/57
+Body:
+<empty> 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/57 -> 200
+Body:
+true 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+{
+  "id": 17,
+  "name": "Food & Beverages_710f831b36ea46d7950ffb671156fe25",
+  "slug": "food-beverages-710f831b36ea46d7950ffb671156fe25",
+  "image": "https://www.mcdonald-pena.com/",
+  "creationAt": "2026-11-15T05:33:37.000Z",
+  "updatedAt": "2026-11-15T05:33:37.000Z"
+} 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/17
+Body:
+<empty> 
+
+2026-11-15 05:33:37 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/17 -> 200
+Body:
+true

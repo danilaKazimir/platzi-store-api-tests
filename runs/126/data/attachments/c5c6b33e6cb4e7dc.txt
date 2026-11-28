@@ -1,0 +1,408 @@
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+  "image": "http://www.martin-yang.com/"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 23,
+  "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+  "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+  "image": "http://www.martin-yang.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+}
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Right-sized multi-tasking implementation-9f643c5f9bdb47b99cb15a0965507589",
+  "price": 685,
+  "description": "Re-engineered leadingedge ability",
+  "categoryId": 23,
+  "images": [
+    "http://hawkins.com/"
+  ]
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 65,
+  "title": "Right-sized multi-tasking implementation-9f643c5f9bdb47b99cb15a0965507589",
+  "slug": "right-sized-multi-tasking-implementation-9f643c5f9bdb47b99cb15a0965507589",
+  "price": 685,
+  "description": "Re-engineered leadingedge ability",
+  "category": {
+    "id": 23,
+    "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+    "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+    "image": "http://www.martin-yang.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "http://hawkins.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Digitized grid-enabled middleware-065de1488eaa4fca8382e680f9740ea2",
+  "price": 845,
+  "description": "User-centric incremental collaboration",
+  "categoryId": 23,
+  "images": [
+    "https://www.miller.com/"
+  ]
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 68,
+  "title": "Digitized grid-enabled middleware-065de1488eaa4fca8382e680f9740ea2",
+  "slug": "digitized-grid-enabled-middleware-065de1488eaa4fca8382e680f9740ea2",
+  "price": 845,
+  "description": "User-centric incremental collaboration",
+  "category": {
+    "id": 23,
+    "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+    "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+    "image": "http://www.martin-yang.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://www.miller.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Face-to-face homogeneous framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+  "price": 365,
+  "description": "Ergonomic methodical support",
+  "categoryId": 23,
+  "images": [
+    "https://simmons.com/"
+  ]
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 69,
+  "title": "Face-to-face homogeneous framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+  "slug": "face-to-face-homogeneous-framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+  "price": 365,
+  "description": "Ergonomic methodical support",
+  "category": {
+    "id": 23,
+    "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+    "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+    "image": "http://www.martin-yang.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://simmons.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Toys_cf48e3caa4064748ad318043e26a7db2",
+  "image": "https://stewart.com/"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Toys_cf48e3caa4064748ad318043e26a7db2",
+  "slug": "toys-cf48e3caa4064748ad318043e26a7db2",
+  "image": "https://stewart.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Total neutral data-warehouse-6e470498e7b8478f85a9e6fe9dde6ed8",
+  "price": 522,
+  "description": "Re-engineered bifurcated emulation",
+  "categoryId": 25,
+  "images": [
+    "https://owens.com/"
+  ]
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 71,
+  "title": "Total neutral data-warehouse-6e470498e7b8478f85a9e6fe9dde6ed8",
+  "slug": "total-neutral-data-warehouse-6e470498e7b8478f85a9e6fe9dde6ed8",
+  "price": 522,
+  "description": "Re-engineered bifurcated emulation",
+  "category": {
+    "id": 25,
+    "name": "Toys_cf48e3caa4064748ad318043e26a7db2",
+    "slug": "toys-cf48e3caa4064748ad318043e26a7db2",
+    "image": "https://stewart.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://owens.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/65/related
+Body:
+<empty> 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/65/related -> 200
+Body:
+[
+  {
+    "id": 68,
+    "title": "Digitized grid-enabled middleware-065de1488eaa4fca8382e680f9740ea2",
+    "slug": "digitized-grid-enabled-middleware-065de1488eaa4fca8382e680f9740ea2",
+    "price": 845,
+    "description": "User-centric incremental collaboration",
+    "category": {
+      "id": 23,
+      "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+      "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+      "image": "http://www.martin-yang.com/",
+      "creationAt": "2026-11-16T05:32:39.000Z",
+      "updatedAt": "2026-11-16T05:32:39.000Z"
+    },
+    "images": [
+      "https://www.miller.com/"
+    ],
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  {
+    "id": 69,
+    "title": "Face-to-face homogeneous framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+    "slug": "face-to-face-homogeneous-framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+    "price": 365,
+    "description": "Ergonomic methodical support",
+    "category": {
+      "id": 23,
+      "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+      "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+      "image": "http://www.martin-yang.com/",
+      "creationAt": "2026-11-16T05:32:39.000Z",
+      "updatedAt": "2026-11-16T05:32:39.000Z"
+    },
+    "images": [
+      "https://simmons.com/"
+    ],
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  }
+]
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/71
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/71 -> 200
+Body:
+{
+  "id": 71,
+  "title": "Total neutral data-warehouse-6e470498e7b8478f85a9e6fe9dde6ed8",
+  "slug": "total-neutral-data-warehouse-6e470498e7b8478f85a9e6fe9dde6ed8",
+  "price": 522,
+  "description": "Re-engineered bifurcated emulation",
+  "category": {
+    "id": 25,
+    "name": "Toys_cf48e3caa4064748ad318043e26a7db2",
+    "slug": "toys-cf48e3caa4064748ad318043e26a7db2",
+    "image": "https://stewart.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://owens.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/71
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/71 -> 200
+Body:
+true 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Face-to-face homogeneous framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+  "slug": "face-to-face-homogeneous-framework-20e7d4ac87ab49a4a0469f2549ff9ead",
+  "price": 365,
+  "description": "Ergonomic methodical support",
+  "category": {
+    "id": 23,
+    "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+    "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+    "image": "http://www.martin-yang.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://simmons.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+true 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/68
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/68 -> 200
+Body:
+{
+  "id": 68,
+  "title": "Digitized grid-enabled middleware-065de1488eaa4fca8382e680f9740ea2",
+  "slug": "digitized-grid-enabled-middleware-065de1488eaa4fca8382e680f9740ea2",
+  "price": 845,
+  "description": "User-centric incremental collaboration",
+  "category": {
+    "id": 23,
+    "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+    "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+    "image": "http://www.martin-yang.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "https://www.miller.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/68
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/68 -> 200
+Body:
+true 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+{
+  "id": 65,
+  "title": "Right-sized multi-tasking implementation-9f643c5f9bdb47b99cb15a0965507589",
+  "slug": "right-sized-multi-tasking-implementation-9f643c5f9bdb47b99cb15a0965507589",
+  "price": 685,
+  "description": "Re-engineered leadingedge ability",
+  "category": {
+    "id": 23,
+    "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+    "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+    "image": "http://www.martin-yang.com/",
+    "creationAt": "2026-11-16T05:32:39.000Z",
+    "updatedAt": "2026-11-16T05:32:39.000Z"
+  },
+  "images": [
+    "http://hawkins.com/"
+  ],
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/65
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/65 -> 200
+Body:
+true 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Toys_cf48e3caa4064748ad318043e26a7db2",
+  "slug": "toys-cf48e3caa4064748ad318043e26a7db2",
+  "image": "https://stewart.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+{
+  "id": 23,
+  "name": "Personal Care_252ea9a2dffe41788c835b8861c090b0",
+  "slug": "personal-care-252ea9a2dffe41788c835b8861c090b0",
+  "image": "http://www.martin-yang.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/23
+Body:
+<empty> 
+
+2026-11-16 05:32:40 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/23 -> 200
+Body:
+true

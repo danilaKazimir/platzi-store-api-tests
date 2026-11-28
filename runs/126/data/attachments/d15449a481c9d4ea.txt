@@ -1,0 +1,81 @@
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Lisa Daniels",
+  "email": "thomas56@example.net",
+  "password": "***",
+  "avatar": "http://williams.com/"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 10,
+  "email": "thomas56@example.net",
+  "password": "***",
+  "name": "Lisa Daniels",
+  "role": "customer",
+  "avatar": "http://williams.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+}
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/10
+Body:
+{
+  "name": "Lauren Stanton",
+  "email": "karanash@example.com"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "karanash@example.com",
+  "password": "***",
+  "name": "Lauren Stanton",
+  "role": "customer",
+  "avatar": "http://williams.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "karanash@example.com",
+  "password": "***",
+  "name": "Lauren Stanton",
+  "role": "customer",
+  "avatar": "http://williams.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+}
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+{
+  "id": 10,
+  "email": "karanash@example.com",
+  "password": "***",
+  "name": "Lauren Stanton",
+  "role": "customer",
+  "avatar": "http://williams.com/",
+  "creationAt": "2026-11-16T05:32:39.000Z",
+  "updatedAt": "2026-11-16T05:32:39.000Z"
+} 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/10
+Body:
+<empty> 
+
+2026-11-16 05:32:39 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/10 -> 200
+Body:
+true

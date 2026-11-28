@@ -1,0 +1,135 @@
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Personal Care_ceee1fa7ac024d13b1bf40996598421d",
+  "image": "https://dillon.com/"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 18,
+  "name": "Personal Care_ceee1fa7ac024d13b1bf40996598421d",
+  "slug": "personal-care-ceee1fa7ac024d13b1bf40996598421d",
+  "image": "https://dillon.com/",
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Innovative needs-based framework-c9b0996fd9e04c39b90fcf9285725086",
+  "price": 24,
+  "description": "Secured human-resource definition",
+  "categoryId": 18,
+  "images": [
+    "https://andersen.org/"
+  ]
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 61,
+  "title": "Innovative needs-based framework-c9b0996fd9e04c39b90fcf9285725086",
+  "slug": "innovative-needs-based-framework-c9b0996fd9e04c39b90fcf9285725086",
+  "price": 24,
+  "description": "Secured human-resource definition",
+  "category": {
+    "id": 18,
+    "name": "Personal Care_ceee1fa7ac024d13b1bf40996598421d",
+    "slug": "personal-care-ceee1fa7ac024d13b1bf40996598421d",
+    "image": "https://dillon.com/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "https://andersen.org/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/innovative-needs-based-framework-c9b0996fd9e04c39b90fcf9285725086
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/innovative-needs-based-framework-c9b0996fd9e04c39b90fcf9285725086 -> 200
+Body:
+{
+  "id": 61,
+  "title": "Innovative needs-based framework-c9b0996fd9e04c39b90fcf9285725086",
+  "slug": "innovative-needs-based-framework-c9b0996fd9e04c39b90fcf9285725086",
+  "price": 24,
+  "description": "Secured human-resource definition",
+  "category": {
+    "id": 18,
+    "name": "Personal Care_ceee1fa7ac024d13b1bf40996598421d",
+    "slug": "personal-care-ceee1fa7ac024d13b1bf40996598421d",
+    "image": "https://dillon.com/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "https://andersen.org/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/61
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/61 -> 200
+Body:
+{
+  "id": 61,
+  "title": "Innovative needs-based framework-c9b0996fd9e04c39b90fcf9285725086",
+  "slug": "innovative-needs-based-framework-c9b0996fd9e04c39b90fcf9285725086",
+  "price": 24,
+  "description": "Secured human-resource definition",
+  "category": {
+    "id": 18,
+    "name": "Personal Care_ceee1fa7ac024d13b1bf40996598421d",
+    "slug": "personal-care-ceee1fa7ac024d13b1bf40996598421d",
+    "image": "https://dillon.com/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "https://andersen.org/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/61
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/61 -> 200
+Body:
+true 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+{
+  "id": 18,
+  "name": "Personal Care_ceee1fa7ac024d13b1bf40996598421d",
+  "slug": "personal-care-ceee1fa7ac024d13b1bf40996598421d",
+  "image": "https://dillon.com/",
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/18
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/18 -> 200
+Body:
+true

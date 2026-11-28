@@ -1,0 +1,80 @@
+2026-10-30 04:57:48 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Corey Jackson Jr.",
+  "email": "geraldphelps@example.net",
+  "password": "***",
+  "avatar": "http://www.smith.com/"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 3432,
+  "email": "geraldphelps@example.net",
+  "password": "***",
+  "name": "Corey Jackson Jr.",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+}
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/3432
+Body:
+{
+  "name": "Amanda Baker"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/3432 -> 200
+Body:
+{
+  "id": 3432,
+  "email": "geraldphelps@example.net",
+  "password": "***",
+  "name": "Amanda Baker",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3432
+Body:
+<empty> 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3432 -> 200
+Body:
+{
+  "id": 3432,
+  "email": "geraldphelps@example.net",
+  "password": "***",
+  "name": "Amanda Baker",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+}
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/3432
+Body:
+<empty> 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/3432 -> 200
+Body:
+{
+  "id": 3432,
+  "email": "geraldphelps@example.net",
+  "password": "***",
+  "name": "Amanda Baker",
+  "role": "customer",
+  "avatar": "http://www.smith.com/",
+  "creationAt": "2026-10-30T04:57:49.000Z",
+  "updatedAt": "2026-10-30T04:57:49.000Z"
+} 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/3432
+Body:
+<empty> 
+
+2026-10-30 04:57:49 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/3432 -> 200
+Body:
+true

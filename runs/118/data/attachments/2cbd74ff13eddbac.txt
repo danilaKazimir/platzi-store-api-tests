@@ -1,0 +1,125 @@
+2026-11-08 05:11:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_53c24549727f4d4eaeebfb6692535c55",
+  "image": "https://www.hanson.com/"
+} 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 28,
+  "name": "Automotive Accessories_53c24549727f4d4eaeebfb6692535c55",
+  "slug": "automotive-accessories-53c24549727f4d4eaeebfb6692535c55",
+  "image": "https://www.hanson.com/",
+  "creationAt": "2026-11-08T05:11:28.000Z",
+  "updatedAt": "2026-11-08T05:11:28.000Z"
+} 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Down-sized regional installation-39b503b81cb040f7b8741d0be362b12c",
+  "price": 54,
+  "description": "Integrated incremental success",
+  "categoryId": 28,
+  "images": [
+    "http://irwin-jordan.info/"
+  ]
+} 
+
+2026-11-08 05:11:28 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 78,
+  "title": "Down-sized regional installation-39b503b81cb040f7b8741d0be362b12c",
+  "slug": "down-sized-regional-installation-39b503b81cb040f7b8741d0be362b12c",
+  "price": 54,
+  "description": "Integrated incremental success",
+  "category": {
+    "id": 28,
+    "name": "Automotive Accessories_53c24549727f4d4eaeebfb6692535c55",
+    "slug": "automotive-accessories-53c24549727f4d4eaeebfb6692535c55",
+    "image": "https://www.hanson.com/",
+    "creationAt": "2026-11-08T05:11:28.000Z",
+    "updatedAt": "2026-11-08T05:11:28.000Z"
+  },
+  "images": [
+    "http://irwin-jordan.info/"
+  ],
+  "creationAt": "2026-11-08T05:11:28.000Z",
+  "updatedAt": "2026-11-08T05:11:28.000Z"
+}
+2026-11-08 05:11:28 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/products/78
+Body:
+{
+  "title": "Stand-alone user-facing solution-abb5dc530f3e40699953387d70668f1c",
+  "price": 288,
+  "description": null,
+  "category_id": null,
+  "images": null
+} 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/products/78 -> 500
+Body:
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+2026-11-08 05:11:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/78
+Body:
+<empty> 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/78 -> 200
+Body:
+{
+  "id": 78,
+  "title": "Down-sized regional installation-39b503b81cb040f7b8741d0be362b12c",
+  "slug": "down-sized-regional-installation-39b503b81cb040f7b8741d0be362b12c",
+  "price": 54,
+  "description": "Integrated incremental success",
+  "category": {
+    "id": 28,
+    "name": "Automotive Accessories_53c24549727f4d4eaeebfb6692535c55",
+    "slug": "automotive-accessories-53c24549727f4d4eaeebfb6692535c55",
+    "image": "https://www.hanson.com/",
+    "creationAt": "2026-11-08T05:11:28.000Z",
+    "updatedAt": "2026-11-08T05:11:28.000Z"
+  },
+  "images": [
+    "http://irwin-jordan.info/"
+  ],
+  "creationAt": "2026-11-08T05:11:28.000Z",
+  "updatedAt": "2026-11-08T05:11:28.000Z"
+} 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/78
+Body:
+<empty> 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/78 -> 200
+Body:
+true 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+{
+  "id": 28,
+  "name": "Automotive Accessories_53c24549727f4d4eaeebfb6692535c55",
+  "slug": "automotive-accessories-53c24549727f4d4eaeebfb6692535c55",
+  "image": "https://www.hanson.com/",
+  "creationAt": "2026-11-08T05:11:28.000Z",
+  "updatedAt": "2026-11-08T05:11:28.000Z"
+} 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/28
+Body:
+<empty> 
+
+2026-11-08 05:11:29 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/28 -> 200
+Body:
+true

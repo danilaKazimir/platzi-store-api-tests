@@ -1,0 +1,88 @@
+2026-11-16 05:32:35 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Abigail Edwards",
+  "email": "savannahcarter@example.com",
+  "password": "***",
+  "avatar": "http://miller-barnes.com/"
+} 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 4,
+  "email": "savannahcarter@example.com",
+  "password": "***",
+  "name": "Abigail Edwards",
+  "role": "customer",
+  "avatar": "http://miller-barnes.com/",
+  "creationAt": "2026-11-16T05:32:36.000Z",
+  "updatedAt": "2026-11-16T05:32:36.000Z"
+}
+2026-11-16 05:32:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "savannahcarter@example.com",
+  "password": "***"
+} 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImlhdCI6MTc5NDgwNzE1NiwiZXhwIjoxNzk0ODQzMTU2fQ.doagJE5TOQY2VMJECY1aI81cETjRq2w1W5w1N3G3t7Y"
+} 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 4,
+  "email": "savannahcarter@example.com",
+  "password": "***",
+  "name": "Abigail Edwards",
+  "role": "customer",
+  "avatar": "http://miller-barnes.com/",
+  "creationAt": "2026-11-16T05:32:36.000Z",
+  "updatedAt": "2026-11-16T05:32:36.000Z"
+}
+2026-11-16 05:32:36 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+{
+  "id": 4,
+  "email": "savannahcarter@example.com",
+  "password": "***",
+  "name": "Abigail Edwards",
+  "role": "customer",
+  "avatar": "http://miller-barnes.com/",
+  "creationAt": "2026-11-16T05:32:36.000Z",
+  "updatedAt": "2026-11-16T05:32:36.000Z"
+} 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/4
+Body:
+<empty> 
+
+2026-11-16 05:32:36 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/4 -> 200
+Body:
+true

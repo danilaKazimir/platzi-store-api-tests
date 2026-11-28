@@ -1,0 +1,119 @@
+2026-11-10 06:35:19 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_49d5ed693d13436fb8cc5d63901c5ea1",
+  "image": "https://hudson-roberts.com/"
+} 
+
+2026-11-10 06:35:19 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 26,
+  "name": "Food & Beverages_49d5ed693d13436fb8cc5d63901c5ea1",
+  "slug": "food-beverages-49d5ed693d13436fb8cc5d63901c5ea1",
+  "image": "https://hudson-roberts.com/",
+  "creationAt": "2026-11-10T06:35:19.000Z",
+  "updatedAt": "2026-11-10T06:35:19.000Z"
+}
+2026-11-10 06:35:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/
+Body:
+<empty> 
+
+2026-11-10 06:35:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/ -> 200
+Body:
+[
+  {
+    "id": 1,
+    "name": "Updated Category Name",
+    "slug": "updated-category-name",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-11-09T22:58:30.000Z",
+    "updatedAt": "2026-11-10T05:10:44.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg",
+    "creationAt": "2026-11-09T22:58:30.000Z",
+    "updatedAt": "2026-11-09T22:58:30.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
+    "creationAt": "2026-11-09T22:58:30.000Z",
+    "updatedAt": "2026-11-09T22:58:30.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://i.imgur.com/qNOjJje.jpeg",
+    "creationAt": "2026-11-09T22:58:30.000Z",
+    "updatedAt": "2026-11-09T22:58:30.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "image": "https://i.imgur.com/BG8J0Fj.jpg",
+    "creationAt": "2026-11-09T22:58:30.000Z",
+    "updatedAt": "2026-11-09T22:58:30.000Z"
+  },
+  {
+    "id": 22,
+    "name": "String",
+    "slug": "string",
+    "image": "https://string.com",
+    "creationAt": "2026-11-10T03:38:06.000Z",
+    "updatedAt": "2026-11-10T03:38:06.000Z"
+  },
+  {
+    "id": 24,
+    "name": "Testing Category",
+    "slug": "testing-category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2026-11-10T06:01:06.000Z",
+    "updatedAt": "2026-11-10T06:01:06.000Z"
+  },
+  {
+    "id": 25,
+    "name": "testCategory1848506e51e64f279cd85403fa4cdf33",
+    "slug": "testcategory1848506e51e64f279cd85403fa4cdf33",
+    "image": "https://allen.com/",
+    "creationAt": "2026-11-10T06:35:19.000Z",
+    "updatedAt": "2026-11-10T06:35:19.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Food & Beverages_49d5ed693d13436fb8cc5d63901c5ea1",
+    "slug": "food-beverages-49d5ed693d13436fb8cc5d63901c5ea1",
+    "image": "https://hudson-roberts.com/",
+    "creationAt": "2026-11-10T06:35:19.000Z",
+    "updatedAt": "2026-11-10T06:35:19.000Z"
+  }
+]
+2026-11-10 06:35:19 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-10 06:35:19 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+{
+  "id": 26,
+  "name": "Food & Beverages_49d5ed693d13436fb8cc5d63901c5ea1",
+  "slug": "food-beverages-49d5ed693d13436fb8cc5d63901c5ea1",
+  "image": "https://hudson-roberts.com/",
+  "creationAt": "2026-11-10T06:35:19.000Z",
+  "updatedAt": "2026-11-10T06:35:19.000Z"
+} 
+
+2026-11-10 06:35:19 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/26
+Body:
+<empty> 
+
+2026-11-10 06:35:19 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/26 -> 200
+Body:
+true

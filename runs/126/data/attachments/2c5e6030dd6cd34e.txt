@@ -1,0 +1,107 @@
+2026-11-16 05:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Clothing_17cde4af0c04474cb44d503713bfd142",
+  "image": "http://www.robinson.biz/"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 16,
+  "name": "Clothing_17cde4af0c04474cb44d503713bfd142",
+  "slug": "clothing-17cde4af0c04474cb44d503713bfd142",
+  "image": "http://www.robinson.biz/",
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Ameliorated fault-tolerant policy-a43ba4562add4f42ac144568d19ca23c",
+  "price": 812,
+  "description": "Open-architected systematic open architecture",
+  "categoryId": 16,
+  "images": [
+    "http://www.hoffman.biz/"
+  ]
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 58,
+  "title": "Ameliorated fault-tolerant policy-a43ba4562add4f42ac144568d19ca23c",
+  "slug": "ameliorated-fault-tolerant-policy-a43ba4562add4f42ac144568d19ca23c",
+  "price": 812,
+  "description": "Open-architected systematic open architecture",
+  "category": {
+    "id": 16,
+    "name": "Clothing_17cde4af0c04474cb44d503713bfd142",
+    "slug": "clothing-17cde4af0c04474cb44d503713bfd142",
+    "image": "http://www.robinson.biz/",
+    "creationAt": "2026-11-16T05:32:38.000Z",
+    "updatedAt": "2026-11-16T05:32:38.000Z"
+  },
+  "images": [
+    "http://www.hoffman.biz/"
+  ],
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/58 -> 200
+Body:
+true 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/58 -> 400
+Body:
+{
+  "path": "/api/v1/products/58",
+  "timestamp": "2026-11-16T05:32:38.291Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 58\n    }\n}"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/58
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/58 -> 400
+Body:
+{
+  "path": "/api/v1/products/58",
+  "timestamp": "2026-11-16T05:32:38.300Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Product\" matching: {\n    \"relations\": [\n        \"category\"\n    ],\n    \"where\": {\n        \"id\": 58\n    }\n}"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+{
+  "id": 16,
+  "name": "Clothing_17cde4af0c04474cb44d503713bfd142",
+  "slug": "clothing-17cde4af0c04474cb44d503713bfd142",
+  "image": "http://www.robinson.biz/",
+  "creationAt": "2026-11-16T05:32:38.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/16
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/16 -> 200
+Body:
+true

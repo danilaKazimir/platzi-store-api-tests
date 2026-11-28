@@ -1,0 +1,88 @@
+2026-11-15 05:33:32 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Erin Russell",
+  "email": "melissamiller@example.com",
+  "password": "***",
+  "avatar": "https://www.fitzpatrick.com/"
+} 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 6,
+  "email": "melissamiller@example.com",
+  "password": "***",
+  "name": "Erin Russell",
+  "role": "customer",
+  "avatar": "https://www.fitzpatrick.com/",
+  "creationAt": "2026-11-15T05:33:33.000Z",
+  "updatedAt": "2026-11-15T05:33:33.000Z"
+}
+2026-11-15 05:33:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/login
+Body:
+{
+  "email": "melissamiller@example.com",
+  "password": "***"
+} 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/login -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/auth/refresh-token
+Body:
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjYsImlhdCI6MTc5NDcyMDgxMywiZXhwIjoxNzk0NzU2ODEzfQ.4vTW4gmvhREIzqnZaQYDzE2vriBmId8xexUMrcib47I"
+} 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/auth/refresh-token -> 201
+Body:
+{
+  "access_token": "***",
+  "refresh_token": "***"
+} 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/auth/profile
+Body:
+<empty> 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/auth/profile -> 200
+Body:
+{
+  "id": 6,
+  "email": "melissamiller@example.com",
+  "password": "***",
+  "name": "Erin Russell",
+  "role": "customer",
+  "avatar": "https://www.fitzpatrick.com/",
+  "creationAt": "2026-11-15T05:33:33.000Z",
+  "updatedAt": "2026-11-15T05:33:33.000Z"
+}
+2026-11-15 05:33:33 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/6
+Body:
+<empty> 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/6 -> 200
+Body:
+{
+  "id": 6,
+  "email": "melissamiller@example.com",
+  "password": "***",
+  "name": "Erin Russell",
+  "role": "customer",
+  "avatar": "https://www.fitzpatrick.com/",
+  "creationAt": "2026-11-15T05:33:33.000Z",
+  "updatedAt": "2026-11-15T05:33:33.000Z"
+} 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/6
+Body:
+<empty> 
+
+2026-11-15 05:33:33 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/6 -> 200
+Body:
+true

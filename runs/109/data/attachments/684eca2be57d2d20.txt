@@ -1,0 +1,135 @@
+2026-10-30 04:57:44 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Pet Supplies_64fdd45807ff4b1f817f10b318b4c8b4",
+  "image": "https://mays.com/"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_64fdd45807ff4b1f817f10b318b4c8b4",
+  "slug": "pet-supplies-64fdd45807ff4b1f817f10b318b4c8b4",
+  "image": "https://mays.com/",
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Decentralized incremental conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "price": 74,
+  "description": "Right-sized solution-oriented application",
+  "categoryId": 34,
+  "images": [
+    "https://www.mccarthy.biz/"
+  ]
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 9236,
+  "title": "Decentralized incremental conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "slug": "decentralized-incremental-conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "price": 74,
+  "description": "Right-sized solution-oriented application",
+  "category": {
+    "id": 34,
+    "name": "Pet Supplies_64fdd45807ff4b1f817f10b318b4c8b4",
+    "slug": "pet-supplies-64fdd45807ff4b1f817f10b318b4c8b4",
+    "image": "https://mays.com/",
+    "creationAt": "2026-10-30T04:57:45.000Z",
+    "updatedAt": "2026-10-30T04:57:45.000Z"
+  },
+  "images": [
+    "https://www.mccarthy.biz/"
+  ],
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+}
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/9236
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/9236 -> 200
+Body:
+{
+  "id": 9236,
+  "title": "Decentralized incremental conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "slug": "decentralized-incremental-conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "price": 74,
+  "description": "Right-sized solution-oriented application",
+  "category": {
+    "id": 34,
+    "name": "Pet Supplies_64fdd45807ff4b1f817f10b318b4c8b4",
+    "slug": "pet-supplies-64fdd45807ff4b1f817f10b318b4c8b4",
+    "image": "https://mays.com/",
+    "creationAt": "2026-10-30T04:57:45.000Z",
+    "updatedAt": "2026-10-30T04:57:45.000Z"
+  },
+  "images": [
+    "https://www.mccarthy.biz/"
+  ],
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+}
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/9236
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/9236 -> 200
+Body:
+{
+  "id": 9236,
+  "title": "Decentralized incremental conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "slug": "decentralized-incremental-conglomeration-2c2f6b8e70a2474ca4b2223e47d05f87",
+  "price": 74,
+  "description": "Right-sized solution-oriented application",
+  "category": {
+    "id": 34,
+    "name": "Pet Supplies_64fdd45807ff4b1f817f10b318b4c8b4",
+    "slug": "pet-supplies-64fdd45807ff4b1f817f10b318b4c8b4",
+    "image": "https://mays.com/",
+    "creationAt": "2026-10-30T04:57:45.000Z",
+    "updatedAt": "2026-10-30T04:57:45.000Z"
+  },
+  "images": [
+    "https://www.mccarthy.biz/"
+  ],
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/9236
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/9236 -> 200
+Body:
+true 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+{
+  "id": 34,
+  "name": "Pet Supplies_64fdd45807ff4b1f817f10b318b4c8b4",
+  "slug": "pet-supplies-64fdd45807ff4b1f817f10b318b4c8b4",
+  "image": "https://mays.com/",
+  "creationAt": "2026-10-30T04:57:45.000Z",
+  "updatedAt": "2026-10-30T04:57:45.000Z"
+} 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/34
+Body:
+<empty> 
+
+2026-10-30 04:57:45 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/34 -> 200
+Body:
+true

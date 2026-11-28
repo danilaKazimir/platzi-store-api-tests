@@ -1,0 +1,53 @@
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Automotive Accessories_3d4cdf4f7f5e488ab30a860ab548e3af",
+  "image": "http://edwards.net/"
+} 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 9,
+  "name": "Automotive Accessories_3d4cdf4f7f5e488ab30a860ab548e3af",
+  "slug": "automotive-accessories-3d4cdf4f7f5e488ab30a860ab548e3af",
+  "image": "http://edwards.net/",
+  "creationAt": "2026-11-05T05:48:13.000Z",
+  "updatedAt": "2026-11-05T05:48:13.000Z"
+}
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Automotive Accessories_3d4cdf4f7f5e488ab30a860ab548e3af",
+  "slug": "automotive-accessories-3d4cdf4f7f5e488ab30a860ab548e3af",
+  "image": "http://edwards.net/",
+  "creationAt": "2026-11-05T05:48:13.000Z",
+  "updatedAt": "2026-11-05T05:48:13.000Z"
+}
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+{
+  "id": 9,
+  "name": "Automotive Accessories_3d4cdf4f7f5e488ab30a860ab548e3af",
+  "slug": "automotive-accessories-3d4cdf4f7f5e488ab30a860ab548e3af",
+  "image": "http://edwards.net/",
+  "creationAt": "2026-11-05T05:48:13.000Z",
+  "updatedAt": "2026-11-05T05:48:13.000Z"
+} 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/9
+Body:
+<empty> 
+
+2026-11-05 05:48:13 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/9 -> 200
+Body:
+true

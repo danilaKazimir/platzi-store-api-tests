@@ -1,0 +1,55 @@
+2026-11-06 05:44:47 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_18feded4840046c1b2f05ddfc7aac719",
+  "image": "https://morgan-byrd.com/"
+} 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 25,
+  "name": "Food & Beverages_18feded4840046c1b2f05ddfc7aac719",
+  "slug": "food-beverages-18feded4840046c1b2f05ddfc7aac719",
+  "image": "https://morgan-byrd.com/",
+  "creationAt": "2026-11-06T05:44:48.000Z",
+  "updatedAt": "2026-11-06T05:44:48.000Z"
+}
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/25
+Body:
+{
+  "name": null,
+  "image": "http://brewer.com/"
+} 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/25 -> 400
+Body:
+{
+  "path": "/api/v1/categories/25",
+  "timestamp": "2026-11-06T05:44:48.508Z",
+  "name": "QueryFailedError",
+  "message": "SqliteError: NOT NULL constraint failed: category.name",
+  "code": "SQLITE_CONSTRAINT_NOTNULL"
+}
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+{
+  "id": 25,
+  "name": "Food & Beverages_18feded4840046c1b2f05ddfc7aac719",
+  "slug": "food-beverages-18feded4840046c1b2f05ddfc7aac719",
+  "image": "https://morgan-byrd.com/",
+  "creationAt": "2026-11-06T05:44:48.000Z",
+  "updatedAt": "2026-11-06T05:44:48.000Z"
+} 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/25
+Body:
+<empty> 
+
+2026-11-06 05:44:48 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/25 -> 200
+Body:
+true

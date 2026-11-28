@@ -1,0 +1,15 @@
+2026-11-12 06:25:19 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/0
+Body:
+{
+  "name": "Pet Supplies_8a73986559744d29adf75547407d27fa",
+  "image": "https://www.brennan-mckenzie.com/"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/0 -> 400
+Body:
+{
+  "path": "/api/v1/categories/0",
+  "timestamp": "2026-11-12T06:25:20.114Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 0\n}"
+}

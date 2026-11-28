@@ -1,0 +1,80 @@
+2026-11-17 07:10:33 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Matthew Hernandez",
+  "email": "brandikim@example.com",
+  "password": "***",
+  "avatar": "http://martin.org/"
+} 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "brandikim@example.com",
+  "password": "***",
+  "name": "Matthew Hernandez",
+  "role": "customer",
+  "avatar": "http://martin.org/",
+  "creationAt": "2026-11-17T07:10:34.000Z",
+  "updatedAt": "2026-11-17T07:10:34.000Z"
+}
+2026-11-17 07:10:34 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/11
+Body:
+{
+  "name": "Angela Harvey PhD"
+} 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "brandikim@example.com",
+  "password": "***",
+  "name": "Angela Harvey PhD",
+  "role": "customer",
+  "avatar": "http://martin.org/",
+  "creationAt": "2026-11-17T07:10:34.000Z",
+  "updatedAt": "2026-11-17T07:10:34.000Z"
+} 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "brandikim@example.com",
+  "password": "***",
+  "name": "Angela Harvey PhD",
+  "role": "customer",
+  "avatar": "http://martin.org/",
+  "creationAt": "2026-11-17T07:10:34.000Z",
+  "updatedAt": "2026-11-17T07:10:34.000Z"
+}
+2026-11-17 07:10:34 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "brandikim@example.com",
+  "password": "***",
+  "name": "Angela Harvey PhD",
+  "role": "customer",
+  "avatar": "http://martin.org/",
+  "creationAt": "2026-11-17T07:10:34.000Z",
+  "updatedAt": "2026-11-17T07:10:34.000Z"
+} 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-17 07:10:34 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true

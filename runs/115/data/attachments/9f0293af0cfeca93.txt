@@ -1,0 +1,46 @@
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_bd7fcd987cc74ec2906b1d8c4e691f7b",
+  "image": "http://williams-hampton.com/"
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_bd7fcd987cc74ec2906b1d8c4e691f7b",
+  "slug": "sports-fitness-bd7fcd987cc74ec2906b1d8c4e691f7b",
+  "image": "http://williams-hampton.com/",
+  "creationAt": "2026-11-05T05:48:15.000Z",
+  "updatedAt": "2026-11-05T05:48:15.000Z"
+}
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20/products
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20/products -> 200
+Body:
+[]
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+{
+  "id": 20,
+  "name": "Sports & Fitness_bd7fcd987cc74ec2906b1d8c4e691f7b",
+  "slug": "sports-fitness-bd7fcd987cc74ec2906b1d8c4e691f7b",
+  "image": "http://williams-hampton.com/",
+  "creationAt": "2026-11-05T05:48:15.000Z",
+  "updatedAt": "2026-11-05T05:48:15.000Z"
+} 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/20
+Body:
+<empty> 
+
+2026-11-05 05:48:15 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/20 -> 200
+Body:
+true

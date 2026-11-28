@@ -1,0 +1,71 @@
+2026-11-16 05:32:37 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Home & Kitchen_1510275522bf49608828981695c34a8a",
+  "image": "http://www.gardner.com/"
+} 
+
+2026-11-16 05:32:37 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 15,
+  "name": "Home & Kitchen_1510275522bf49608828981695c34a8a",
+  "slug": "home-kitchen-1510275522bf49608828981695c34a8a",
+  "image": "http://www.gardner.com/",
+  "creationAt": "2026-11-16T05:32:37.000Z",
+  "updatedAt": "2026-11-16T05:32:37.000Z"
+}
+2026-11-16 05:32:37 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/categories/15
+Body:
+{
+  "name": "Books_467dbfac454e45d7b46000de88abf636",
+  "image": "http://anderson-lee.com/"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Books_467dbfac454e45d7b46000de88abf636",
+  "slug": "books-467dbfac454e45d7b46000de88abf636",
+  "image": "http://anderson-lee.com/",
+  "creationAt": "2026-11-16T05:32:37.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Books_467dbfac454e45d7b46000de88abf636",
+  "slug": "books-467dbfac454e45d7b46000de88abf636",
+  "image": "http://anderson-lee.com/",
+  "creationAt": "2026-11-16T05:32:37.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+}
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+{
+  "id": 15,
+  "name": "Books_467dbfac454e45d7b46000de88abf636",
+  "slug": "books-467dbfac454e45d7b46000de88abf636",
+  "image": "http://anderson-lee.com/",
+  "creationAt": "2026-11-16T05:32:37.000Z",
+  "updatedAt": "2026-11-16T05:32:38.000Z"
+} 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/15
+Body:
+<empty> 
+
+2026-11-16 05:32:38 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/15 -> 200
+Body:
+true

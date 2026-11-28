@@ -1,0 +1,135 @@
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_22bdd23666fd4070848af1109072aecf",
+  "image": "https://www.stevenson.info/"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 29,
+  "name": "Sports & Fitness_22bdd23666fd4070848af1109072aecf",
+  "slug": "sports-fitness-22bdd23666fd4070848af1109072aecf",
+  "image": "https://www.stevenson.info/",
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Multi-tiered composite concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "price": 248,
+  "description": "De-engineered human-resource array",
+  "categoryId": 29,
+  "images": [
+    "https://gray.net/"
+  ]
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 59,
+  "title": "Multi-tiered composite concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "slug": "multi-tiered-composite-concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "price": 248,
+  "description": "De-engineered human-resource array",
+  "category": {
+    "id": 29,
+    "name": "Sports & Fitness_22bdd23666fd4070848af1109072aecf",
+    "slug": "sports-fitness-22bdd23666fd4070848af1109072aecf",
+    "image": "https://www.stevenson.info/",
+    "creationAt": "2026-11-12T06:25:20.000Z",
+    "updatedAt": "2026-11-12T06:25:20.000Z"
+  },
+  "images": [
+    "https://gray.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+}
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/multi-tiered-composite-concept-73e58fc8c4a244a98644e3b252fe7a26
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/multi-tiered-composite-concept-73e58fc8c4a244a98644e3b252fe7a26 -> 200
+Body:
+{
+  "id": 59,
+  "title": "Multi-tiered composite concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "slug": "multi-tiered-composite-concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "price": 248,
+  "description": "De-engineered human-resource array",
+  "category": {
+    "id": 29,
+    "name": "Sports & Fitness_22bdd23666fd4070848af1109072aecf",
+    "slug": "sports-fitness-22bdd23666fd4070848af1109072aecf",
+    "image": "https://www.stevenson.info/",
+    "creationAt": "2026-11-12T06:25:20.000Z",
+    "updatedAt": "2026-11-12T06:25:20.000Z"
+  },
+  "images": [
+    "https://gray.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+}
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/59 -> 200
+Body:
+{
+  "id": 59,
+  "title": "Multi-tiered composite concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "slug": "multi-tiered-composite-concept-73e58fc8c4a244a98644e3b252fe7a26",
+  "price": 248,
+  "description": "De-engineered human-resource array",
+  "category": {
+    "id": 29,
+    "name": "Sports & Fitness_22bdd23666fd4070848af1109072aecf",
+    "slug": "sports-fitness-22bdd23666fd4070848af1109072aecf",
+    "image": "https://www.stevenson.info/",
+    "creationAt": "2026-11-12T06:25:20.000Z",
+    "updatedAt": "2026-11-12T06:25:20.000Z"
+  },
+  "images": [
+    "https://gray.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/59
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/59 -> 200
+Body:
+true 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+{
+  "id": 29,
+  "name": "Sports & Fitness_22bdd23666fd4070848af1109072aecf",
+  "slug": "sports-fitness-22bdd23666fd4070848af1109072aecf",
+  "image": "https://www.stevenson.info/",
+  "creationAt": "2026-11-12T06:25:20.000Z",
+  "updatedAt": "2026-11-12T06:25:20.000Z"
+} 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/29
+Body:
+<empty> 
+
+2026-11-12 06:25:20 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/29 -> 200
+Body:
+true

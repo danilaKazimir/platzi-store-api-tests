@@ -1,0 +1,49 @@
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_1df471adaf474863862adcdfde1d973d",
+  "image": "https://smith-watson.com/"
+} 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 10,
+  "name": "Food & Beverages_1df471adaf474863862adcdfde1d973d",
+  "slug": "food-beverages-1df471adaf474863862adcdfde1d973d",
+  "image": "https://smith-watson.com/",
+  "creationAt": "2026-11-14T05:35:59.000Z",
+  "updatedAt": "2026-11-14T05:35:59.000Z"
+}
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/10 -> 200
+Body:
+true 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 400
+Body:
+{
+  "path": "/api/v1/categories/10",
+  "timestamp": "2026-11-14T05:35:59.411Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 10\n}"
+}
+2026-11-14 05:35:59 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/10
+Body:
+<empty> 
+
+2026-11-14 05:35:59 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/10 -> 400
+Body:
+{
+  "path": "/api/v1/categories/10",
+  "timestamp": "2026-11-14T05:35:59.443Z",
+  "name": "EntityNotFoundError",
+  "message": "Could not find any entity of type \"Category\" matching: {\n    \"id\": 10\n}"
+}

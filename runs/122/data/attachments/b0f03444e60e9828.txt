@@ -1,0 +1,408 @@
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+  "image": "http://chen.org/"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 36,
+  "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+  "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+  "image": "http://chen.org/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+}
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Programmable modular collaboration-ba4cad1122a8458fa7730a73c2ebdbd6",
+  "price": 769,
+  "description": "Exclusive responsive methodology",
+  "categoryId": 36,
+  "images": [
+    "http://www.wilson.com/"
+  ]
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 69,
+  "title": "Programmable modular collaboration-ba4cad1122a8458fa7730a73c2ebdbd6",
+  "slug": "programmable-modular-collaboration-ba4cad1122a8458fa7730a73c2ebdbd6",
+  "price": 769,
+  "description": "Exclusive responsive methodology",
+  "category": {
+    "id": 36,
+    "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+    "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+    "image": "http://chen.org/",
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  "images": [
+    "http://www.wilson.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Re-engineered foreground system engine-ab0beb46551f461691d9fe8cbe18a791",
+  "price": 205,
+  "description": "Reduced eco-centric access",
+  "categoryId": 36,
+  "images": [
+    "http://www.green.com/"
+  ]
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 70,
+  "title": "Re-engineered foreground system engine-ab0beb46551f461691d9fe8cbe18a791",
+  "slug": "re-engineered-foreground-system-engine-ab0beb46551f461691d9fe8cbe18a791",
+  "price": 205,
+  "description": "Reduced eco-centric access",
+  "category": {
+    "id": 36,
+    "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+    "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+    "image": "http://chen.org/",
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  "images": [
+    "http://www.green.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Polarized optimal definition-8e1b0e648b9c47f4877336a012438284",
+  "price": 4,
+  "description": "Public-key multi-tasking service-desk",
+  "categoryId": 36,
+  "images": [
+    "http://www.sanchez.com/"
+  ]
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 71,
+  "title": "Polarized optimal definition-8e1b0e648b9c47f4877336a012438284",
+  "slug": "polarized-optimal-definition-8e1b0e648b9c47f4877336a012438284",
+  "price": 4,
+  "description": "Public-key multi-tasking service-desk",
+  "category": {
+    "id": 36,
+    "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+    "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+    "image": "http://chen.org/",
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  "images": [
+    "http://www.sanchez.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:22 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/categories/
+Body:
+{
+  "name": "Sports & Fitness_322abfbad6124b19b76c62b1703ee74a",
+  "image": "https://bush-hunter.com/"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/categories/ -> 201
+Body:
+{
+  "id": 37,
+  "name": "Sports & Fitness_322abfbad6124b19b76c62b1703ee74a",
+  "slug": "sports-fitness-322abfbad6124b19b76c62b1703ee74a",
+  "image": "https://bush-hunter.com/",
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/products/
+Body:
+{
+  "title": "Reactive modular projection-392a89ce346c4d8b9efeda856986d01a",
+  "price": 443,
+  "description": "Multi-tiered fresh-thinking task-force",
+  "categoryId": 37,
+  "images": [
+    "https://hogan-carter.net/"
+  ]
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/products/ -> 201
+Body:
+{
+  "id": 72,
+  "title": "Reactive modular projection-392a89ce346c4d8b9efeda856986d01a",
+  "slug": "reactive-modular-projection-392a89ce346c4d8b9efeda856986d01a",
+  "price": 443,
+  "description": "Multi-tiered fresh-thinking task-force",
+  "category": {
+    "id": 37,
+    "name": "Sports & Fitness_322abfbad6124b19b76c62b1703ee74a",
+    "slug": "sports-fitness-322abfbad6124b19b76c62b1703ee74a",
+    "image": "https://bush-hunter.com/",
+    "creationAt": "2026-11-12T06:25:23.000Z",
+    "updatedAt": "2026-11-12T06:25:23.000Z"
+  },
+  "images": [
+    "https://hogan-carter.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/slug/programmable-modular-collaboration-ba4cad1122a8458fa7730a73c2ebdbd6/related
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/slug/programmable-modular-collaboration-ba4cad1122a8458fa7730a73c2ebdbd6/related -> 200
+Body:
+[
+  {
+    "id": 70,
+    "title": "Re-engineered foreground system engine-ab0beb46551f461691d9fe8cbe18a791",
+    "slug": "re-engineered-foreground-system-engine-ab0beb46551f461691d9fe8cbe18a791",
+    "price": 205,
+    "description": "Reduced eco-centric access",
+    "category": {
+      "id": 36,
+      "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+      "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+      "image": "http://chen.org/",
+      "creationAt": "2026-11-12T06:25:22.000Z",
+      "updatedAt": "2026-11-12T06:25:22.000Z"
+    },
+    "images": [
+      "http://www.green.com/"
+    ],
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  {
+    "id": 71,
+    "title": "Polarized optimal definition-8e1b0e648b9c47f4877336a012438284",
+    "slug": "polarized-optimal-definition-8e1b0e648b9c47f4877336a012438284",
+    "price": 4,
+    "description": "Public-key multi-tasking service-desk",
+    "category": {
+      "id": 36,
+      "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+      "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+      "image": "http://chen.org/",
+      "creationAt": "2026-11-12T06:25:22.000Z",
+      "updatedAt": "2026-11-12T06:25:22.000Z"
+    },
+    "images": [
+      "http://www.sanchez.com/"
+    ],
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  }
+]
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+{
+  "id": 72,
+  "title": "Reactive modular projection-392a89ce346c4d8b9efeda856986d01a",
+  "slug": "reactive-modular-projection-392a89ce346c4d8b9efeda856986d01a",
+  "price": 443,
+  "description": "Multi-tiered fresh-thinking task-force",
+  "category": {
+    "id": 37,
+    "name": "Sports & Fitness_322abfbad6124b19b76c62b1703ee74a",
+    "slug": "sports-fitness-322abfbad6124b19b76c62b1703ee74a",
+    "image": "https://bush-hunter.com/",
+    "creationAt": "2026-11-12T06:25:23.000Z",
+    "updatedAt": "2026-11-12T06:25:23.000Z"
+  },
+  "images": [
+    "https://hogan-carter.net/"
+  ],
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/72
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/72 -> 200
+Body:
+true 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/71
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/71 -> 200
+Body:
+{
+  "id": 71,
+  "title": "Polarized optimal definition-8e1b0e648b9c47f4877336a012438284",
+  "slug": "polarized-optimal-definition-8e1b0e648b9c47f4877336a012438284",
+  "price": 4,
+  "description": "Public-key multi-tasking service-desk",
+  "category": {
+    "id": 36,
+    "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+    "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+    "image": "http://chen.org/",
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  "images": [
+    "http://www.sanchez.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/71
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/71 -> 200
+Body:
+true 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+{
+  "id": 70,
+  "title": "Re-engineered foreground system engine-ab0beb46551f461691d9fe8cbe18a791",
+  "slug": "re-engineered-foreground-system-engine-ab0beb46551f461691d9fe8cbe18a791",
+  "price": 205,
+  "description": "Reduced eco-centric access",
+  "category": {
+    "id": 36,
+    "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+    "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+    "image": "http://chen.org/",
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  "images": [
+    "http://www.green.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/70
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/70 -> 200
+Body:
+true 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+{
+  "id": 69,
+  "title": "Programmable modular collaboration-ba4cad1122a8458fa7730a73c2ebdbd6",
+  "slug": "programmable-modular-collaboration-ba4cad1122a8458fa7730a73c2ebdbd6",
+  "price": 769,
+  "description": "Exclusive responsive methodology",
+  "category": {
+    "id": 36,
+    "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+    "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+    "image": "http://chen.org/",
+    "creationAt": "2026-11-12T06:25:22.000Z",
+    "updatedAt": "2026-11-12T06:25:22.000Z"
+  },
+  "images": [
+    "http://www.wilson.com/"
+  ],
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/products/69
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/products/69 -> 200
+Body:
+true 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+{
+  "id": 37,
+  "name": "Sports & Fitness_322abfbad6124b19b76c62b1703ee74a",
+  "slug": "sports-fitness-322abfbad6124b19b76c62b1703ee74a",
+  "image": "https://bush-hunter.com/",
+  "creationAt": "2026-11-12T06:25:23.000Z",
+  "updatedAt": "2026-11-12T06:25:23.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/37
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/37 -> 200
+Body:
+true 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+{
+  "id": 36,
+  "name": "Food & Beverages_ac51d60d7bc34862975d79b009633911",
+  "slug": "food-beverages-ac51d60d7bc34862975d79b009633911",
+  "image": "http://chen.org/",
+  "creationAt": "2026-11-12T06:25:22.000Z",
+  "updatedAt": "2026-11-12T06:25:22.000Z"
+} 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/categories/36
+Body:
+<empty> 
+
+2026-11-12 06:25:23 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/categories/36 -> 200
+Body:
+true

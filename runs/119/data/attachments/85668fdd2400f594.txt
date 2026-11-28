@@ -1,0 +1,81 @@
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: POST https://api.escuelajs.co/api/v1/users/
+Body:
+{
+  "name": "Shannon Munoz",
+  "email": "michelle14@example.net",
+  "password": "***",
+  "avatar": "https://www.green-jenkins.com/"
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: POST https://api.escuelajs.co/api/v1/users/ -> 201
+Body:
+{
+  "id": 11,
+  "email": "michelle14@example.net",
+  "password": "***",
+  "name": "Shannon Munoz",
+  "role": "customer",
+  "avatar": "https://www.green-jenkins.com/",
+  "creationAt": "2026-11-09T05:23:17.000Z",
+  "updatedAt": "2026-11-09T05:23:17.000Z"
+}
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: PUT https://api.escuelajs.co/api/v1/users/11
+Body:
+{
+  "name": "Monique Soto",
+  "email": "ysmith@example.net"
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: PUT https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "ysmith@example.net",
+  "password": "***",
+  "name": "Monique Soto",
+  "role": "customer",
+  "avatar": "https://www.green-jenkins.com/",
+  "creationAt": "2026-11-09T05:23:17.000Z",
+  "updatedAt": "2026-11-09T05:23:17.000Z"
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "ysmith@example.net",
+  "password": "***",
+  "name": "Monique Soto",
+  "role": "customer",
+  "avatar": "https://www.green-jenkins.com/",
+  "creationAt": "2026-11-09T05:23:17.000Z",
+  "updatedAt": "2026-11-09T05:23:17.000Z"
+}
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: GET https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: GET https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+{
+  "id": 11,
+  "email": "ysmith@example.net",
+  "password": "***",
+  "name": "Monique Soto",
+  "role": "customer",
+  "avatar": "https://www.green-jenkins.com/",
+  "creationAt": "2026-11-09T05:23:17.000Z",
+  "updatedAt": "2026-11-09T05:23:17.000Z"
+} 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP REQUEST: DELETE https://api.escuelajs.co/api/v1/users/11
+Body:
+<empty> 
+
+2026-11-09 05:23:17 | INFO | http_client | HTTP RESPONSE: DELETE https://api.escuelajs.co/api/v1/users/11 -> 200
+Body:
+true
